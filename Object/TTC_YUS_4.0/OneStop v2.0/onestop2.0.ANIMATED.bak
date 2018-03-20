@@ -1,0 +1,146 @@
+
+
+
+;-------------------
+;FRAME
+;-------------------
+[Include]
+frame.csv
+Position = 0,0,0
+
+
+;-----------------
+; Next Train
+;-----------------
+;--------------
+;Wait Time
+; do not edit values its so it matches real life inaccuracy
+;--------------
+[Object]
+States = null.b3d,@.csv,5min.csv
+StateFunction = If[distance<=25,1,If[trackDistance<=3,2,0]]
+Position = 0,0,0
+RefreshRate = 0.25
+[Object]
+States = null.b3d,1min.csv
+StateFunction = If[distance>25 & distance<=510,If[trackDistance<=0,0,1],0]
+Position = 0,0,0
+RefreshRate = 0.25
+[Object]
+States = null.b3d,2min.csv
+StateFunction = If[distance>510 & distance<=1020,If[trackDistance<=0,0,1],0]
+Position = 0,0,0
+RefreshRate = 0.25
+[Object]
+States = null.b3d,3min.csv
+StateFunction = If[distance>1020 & distance<=1530,If[trackDistance<=0,0,1],0]
+Position = 0,0,0
+RefreshRate = 0.25
+[Object]
+States = null.b3d,4min.csv
+StateFunction = If[distance>1530 & distance<=2040,If[trackDistance<=0,0,1],0]
+Position = 0,0,0
+RefreshRate = 0.25
+[Object]
+States = null.b3d,5min.csv
+StateFunction = If[distance>2040 & distance<=2550,If[trackDistance<=0,0,1],0]
+Position = 0,0,0
+RefreshRate = 0.25
+[Object]
+States = null.b3d,6min.csv
+StateFunction = If[distance>2550 & distance<=3060,If[trackDistance<=0,0,1],0]
+Position = 0,0,0
+RefreshRate = 0.25
+[Object]
+States = null.b3d,7min.csv
+StateFunction = If[distance>3060 & distance<=3570,If[trackDistance<=0,0,1],0]
+Position = 0,0,0
+RefreshRate = 0.25
+[Object]
+States = null.b3d,8min.csv
+StateFunction = If[distance>3570 & distance<=4080,If[trackDistance<=0,0,1],0]
+Position = 0,0,0
+RefreshRate = 0.25
+[Object]
+States = null.b3d,9min.csv
+StateFunction = If[distance>4080 & distance<=4590,If[trackDistance<=0,0,1],0]
+Position = 0,0,0
+RefreshRate = 0.25
+[Object]
+States = null.b3d,10min.csv
+StateFunction = If[distance>4590 & distance<=5100,If[trackDistance<=0,0,1],0]
+Position = 0,0,0
+RefreshRate = 0.25
+[Object]
+States = null.b3d,11min.csv
+StateFunction = If[distance>5100 & distance<=6110,If[trackDistance<=0,0,1],0]
+Position = 0,0,0
+RefreshRate = 0.25
+[Object]
+States = null.b3d,na.csv
+StateFunction = If[distance>6110,If[trackDistance<=0,0,1],0]
+Position = 0,0,0
+RefreshRate = 0.25
+
+
+;Red Strip
+[Object]
+States = nexttrain4.csv,nexttrain4.csv,nexttrain4.csv,nexttrain4.csv,nexttrain4.csv,nexttrain4.csv,nexttrain4.csv,nexttrain2.csv,nexttrain3.csv,nexttrain.csv
+StateFunction = mod[value + 1, 10]
+RefreshRate = 0.16
+Position = 0,0,0
+
+;-------------
+; news1.csv
+;-------------
+[Object]
+States = news8.csv,42.csv,news1.csv,news2.csv,news9.csv,news3.csv,news4.csv,news5.csv,news6.csv,news7.csv
+StateFunction = mod[value + 1, 9]
+RefreshRate = 4.5
+Position = 0,0,0
+
+;-------------
+; sports
+;-------------
+[Object]
+States = sports1.csv,sports2.csv,sports3.csv
+StateFunction = mod[value + 1, 3]
+RefreshRate = 5
+Position = 0,0,0
+
+;------------
+; cp24
+;------------
+[Include]
+cp24.csv
+Position = 0,0,0
+
+;--------------
+; specific
+;--------------
+[Object]
+States = specific1.csv,specific2.csv,specific3.csv
+StateFunction = mod[value + 1, 3]
+RefreshRate = 4
+position = 0,0,0
+
+;-----------------
+; Big Screen
+;-----------------
+[Object]
+States = main1.csv,main2.csv,main3.csv,main4.csv
+StateFunction = mod[value + 1, 3]
+RefreshRate = 9
+Position = 0,0,0
+
+
+;--------------
+; Clock
+;--------------
+[Include]
+ratis\ratisclock\ratisclock.animated
+Position = 0.91,1.55,0.2
+
+[Include]
+time\background.b3d
+Position = 0,0,0

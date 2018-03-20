@@ -1,0 +1,4 @@
+[Object]
+States = davepeople2.csv
+Position = 0,6,0.2
+TextureShiftXFunction = -0.134 * time + 2

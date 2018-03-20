@@ -1,0 +1,12 @@
+[MeshBuilder]
+Vertex 3,-0.2,-1
+Vertex 3,-0.2,26
+Vertex -15,-0.2,26
+Vertex -15,-0.2,-1
+Face2 0,1,2,3
+Color 44,44,44
+Load IDK.png
+Coordinates 0, 2, 0
+Coordinates 1, 2, 6
+Coordinates 2, 0, 6
+Coordinates 3, 0, 0

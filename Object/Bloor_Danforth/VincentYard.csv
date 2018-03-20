@@ -1,0 +1,194 @@
+;Converted from .b3d to .csv by BVE Terminus' B3D to CSV Converter
+CreateMeshBuilder,
+Addvertex,-9.5,2,0,
+Addvertex,-9.5,-1,0,
+Addvertex,-9.5,-0.1,75,
+Addvertex,-9.5,-0.1,75,
+Addface,3,2,1,0,
+GenerateNormals,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,
+
+CreateMeshBuilder,
+Addvertex,-9.5,2,0,
+Addvertex,-30,2,0,
+Addvertex,-30,-0.2,75,
+Addvertex,-9.5,-0.2,75,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,Track\Ballast.bmp,
+SetTextureCoordinates,0,15,15,
+SetTextureCoordinates,1,15,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,15,
+
+CreateMeshBuilder,
+Addvertex,-9.5,-0.2,75,
+Addvertex,-30,-0.2,75,
+Addvertex,-30,-0.2,125,
+Addvertex,-9.5,-0.2,125,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,Track\Ballast.bmp,
+SetTextureCoordinates,0,15,15,
+SetTextureCoordinates,1,15,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,15,
+
+;Yard
+CreateMeshBuilder,
+Addvertex,-9.6,8,0,
+Addvertex,-25,8,0,
+Addvertex,-25,2,0,
+Addvertex,-9.6,2,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,Placeholdertexture.png
+SetTextureCoordinates,0,1,1,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+
+;Fencing
+
+CreateMeshBuilder,
+Addvertex,-28,2,0,
+Addvertex,-28,3,0,
+Addvertex,-28,1,75,
+Addvertex,-28,-0.2,75,
+Addface,0,1,2,3,
+GenerateNormals,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,
+
+CreateMeshBuilder,
+Addvertex,-28.5,3,0,
+Addvertex,-28,3,0,
+Addvertex,-28,1,75,
+Addvertex,-28.5,1,75,
+Addface,3,2,1,0,
+GenerateNormals,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,
+
+CreateMeshBuilder,
+Addvertex,-28,-0.2,75,
+Addvertex,-28,1,75,
+Addvertex,-28,1,125,
+Addvertex,-28,-0.2,125,
+Addface,0,1,2,3,
+GenerateNormals,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,
+
+CreateMeshBuilder,
+Addvertex,-28.5,1,75,
+Addvertex,-28,1,75,
+Addvertex,-28,1,125,
+Addvertex,-28.5,1,125,
+Addface,3,2,1,0,
+GenerateNormals,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,
+
+CreateMeshBuilder,
+Addvertex,-28.5,1,125.5,
+Addvertex,-9.5,1,125.5,
+Addvertex,-9.5,1,125,
+Addvertex,-28.5,1,125,
+Addface,0,1,2,3,
+GenerateNormals,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,
+
+
+CreateMeshBuilder,
+Addvertex,-9.5,-0.2,125,
+Addvertex,-9.5,1,125,
+Addvertex,-28,1,125,
+Addvertex,-28,-0.2,125,
+Addface,3,2,1,0,
+GenerateNormals,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,
+
+
+CreateMeshBuilder
+AddVertex, -28.2,5,0
+AddVertex, -28.2,3,0
+AddVertex, -28.2,1,75
+AddVertex, -28.2,2.75,75
+AddFace2, 0,1,2,3
+LoadTexture, chainfence.bmp
+SetTextureCoordinates, 0,15,0
+SetTextureCoordinates, 1,15,1
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,0,0
+SetDecalTransparentColor, 0,0,0
+
+CreateMeshBuilder
+AddVertex, -28.2,2.75,75
+AddVertex, -28.2,1,75
+AddVertex, -28.2,1,125
+AddVertex, -28.2,2.75,125
+AddFace2, 0,1,2,3
+LoadTexture, chainfence.bmp
+SetTextureCoordinates, 0,15,0
+SetTextureCoordinates, 1,15,1
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,0,0
+SetDecalTransparentColor, 0,0,0
+
+CreateMeshBuilder
+AddVertex, -28.2,2.75,75
+AddVertex, -28.2,1,75
+AddVertex, -28.2,1,125
+AddVertex, -28.2,2.75,125
+AddFace2, 0,1,2,3
+LoadTexture, chainfence.bmp
+SetTextureCoordinates, 0,15,0
+SetTextureCoordinates, 1,15,1
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,0,0
+SetDecalTransparentColor, 0,0,0
+
+CreateMeshBuilder
+AddVertex, -28.2,2.75,125
+AddVertex, -28.2,1,125
+AddVertex, -9.4,1,125
+AddVertex, -9.4,2.75,125
+AddFace2, 0,1,2,3
+LoadTexture, chainfence.bmp
+SetTextureCoordinates, 0,15,0
+SetTextureCoordinates, 1,15,1
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,0,0
+SetDecalTransparentColor, 0,0,0

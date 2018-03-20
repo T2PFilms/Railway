@@ -1,0 +1,10 @@
+;Plow ~Standard Gaug Dsel|Elec Locomotives ~American Rail COLOR endA|B
+;Set At *.ANIMATED [Include] Position=+0.000,+0.000,+|-0.500*CarLength
+;Delete The SemiColonPreFix For The Chosen COLOR In The B3D File Below
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;BVE|OpenBVE files have no registered copyrights|patents,
+;are public domain, & free to copy|distribute|modify|use.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]
+States=Plow~SGDL~ARBx.B3D
+RotateYFunction=3.142

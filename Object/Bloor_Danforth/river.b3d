@@ -1,0 +1,41 @@
+
+
+;Lake
+[MeshBuilder]
+Vertex 73.7,-5.85,21
+Vertex -123.7,-5.85,21
+Vertex -123.7,-5.85,40
+Vertex 73.7,-5.85,40
+Face2 0,1,2,3
+Load lake.png,lake.png
+Coordinates 0,0,0
+Coordinates 1,0,6
+Coordinates 2,2,6
+Coordinates 3,2,0
+Translate 0,0,15
+[MeshBuilder]
+Vertex 500.7,-5.85,32
+Vertex 73.7,-5.85,21
+Vertex 73.7,-5.85,40
+Vertex 500.7,-5.85,52
+Face2 0,1,2,3
+Load lake.png,lake.png
+Coordinates 0,0,0
+Coordinates 1,0,6
+Coordinates 2,2,6
+Coordinates 3,2,0
+Translate 0,0,15
+
+[MeshBuilder]
+Vertex -123.7,-5.85,20
+Vertex -353.7,-5.85,-9
+Vertex -353.7,-5.85,16
+Vertex -123.7,-5.85,40
+Face2 0,1,2,3
+Load lake.png,lake.png
+Coordinates 0,0,0
+Coordinates 1,0,6
+Coordinates 2,2,6
+Coordinates 3,2,0
+Translate 0,0,15
+

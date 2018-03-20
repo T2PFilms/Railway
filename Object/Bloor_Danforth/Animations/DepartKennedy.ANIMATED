@@ -1,0 +1,27 @@
+
+[Object]
+States = KennedyDepart.csv
+[Object]
+States = Null.csv,DepartArrowTrainAlt2.csv
+StateFunction = leftDoors == 0
+Position = 0,0,0
+
+[Object]
+States = DepartArrowTrain.csv,DepartArrowTrainAlt.csv
+StateFunction = value == 0
+RefreshRate = 0.4
+Position = 0,0,0
+
+[Object]
+States = DepartOutofService.csv,DepartEmpty.csv
+StateFunction = value == 0
+RefreshRate = 0.4
+Position = 0,0,0
+
+
+
+
+
+
+
+

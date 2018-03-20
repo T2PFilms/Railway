@@ -1,0 +1,117 @@
+CreateMeshBuilder,
+AddVertex,1.75, 1, -0.05
+AddVertex,1.75, 2, -0.05
+AddVertex,0, 2, -0.05
+AddVertex,0, 1, -0.05
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+
+LoadTexture,square.png
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,0,1,1,
+SetDecalTransparentColor, 0, 255, 0
+
+
+
+CreateMeshBuilder,
+AddVertex,0, 1, 0.5,
+AddVertex,0, 2, 0.5,
+AddVertex,1.75, 2,0.5
+AddVertex,1.75, 1,0.5 
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,square.png
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,0,1,1,
+SetDecalTransparentColor, 0, 255, 0
+
+CreateMeshBuilder,
+AddVertex,1.75, 1, -0.05
+AddVertex,1.75, 2, -0.05
+AddVertex,1.75, 2, 0.5
+AddVertex,1.75, 1, 0.5
+AddFace2,0,1,2,3,
+SetColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,1.75, 1, -0.05
+AddVertex,1.75, 2, -0.05
+AddVertex,1.75, 2, 0.5
+AddVertex,1.75, 1, 0.5
+AddFace2,0,1,2,3,
+SetColor,0,0,0
+Translate,-0.075,0,0
+
+CreateMeshBuilder,
+AddVertex,0, 1, -0.05
+AddVertex,0, 2, -0.05
+AddVertex,0, 2, 0.5
+AddVertex,0, 1, 0.5
+AddFace2,0,1,2,3,
+SetColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,0, 1, -0.05
+AddVertex,0, 2, -0.05
+AddVertex,0, 2, 0.5
+AddVertex,0, 1, 0.5
+AddFace2,0,1,2,3,
+SetColor,0,0,0
+Translate,0.074,0,0
+
+CreateMeshBuilder,
+AddVertex,0, 1, -0.05
+AddVertex,1.75, 1, -0.05
+AddVertex,1.75, 1, 0.5
+AddVertex,0, 1, 0.5
+AddFace2,0,1,2,3,
+SetColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,0, 2, -0.05
+AddVertex,1.75, 2, -0.05
+AddVertex,1.75, 2, 0.5
+AddVertex,0, 2, 0.5
+AddFace2,0,1,2,3,
+SetColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,0, 1, 0.4
+AddVertex,0, 2, 0.4
+AddVertex,1.75, 2,0.4
+AddVertex,1.75, 1,0.4
+AddFace2,0,1,2,3,
+SetColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,0, 1, 0.05
+AddVertex,0, 2, 0.05
+AddVertex,1.75, 2,0.05
+AddVertex,1.75, 1,0.05
+AddFace2,0,1,2,3,
+SetColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,0, 1.071, -0.05
+AddVertex,0, 1.071, 0.5
+AddVertex,1.75, 1.071,0.5
+AddVertex,1.75, 1.071,-0.05
+AddFace2,0,1,2,3,
+SetColor,0,0,0
+
+CreateMeshBuilder,
+AddVertex,0, 1.071, -0.05
+AddVertex,0, 1.071, 0.5
+AddVertex,1.75, 1.071,0.5
+AddVertex,1.75, 1.071,-0.05
+AddFace2,0,1,2,3,
+SetColor,0,0,0
+Translate,0,0.858,0

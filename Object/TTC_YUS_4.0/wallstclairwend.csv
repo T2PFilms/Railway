@@ -1,0 +1,86 @@
+CreateMeshBuilder,
+Addvertex,2.5,4.7,0,
+Addvertex,7.2,4.7,0,
+Addvertex,7.2,-0.5,0,
+Addvertex,2.5,-0.5,0,
+Addface2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,wallstclairwend.png,wallstclairwend.png
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+Addvertex,-2.5,4.7,0,
+Addvertex,-3.5,4.7,0,
+Addvertex,-3.5,-0.5,0,
+Addvertex,-2.5,-0.5,0,
+Addface2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,wallstclairwmiddle.bmp,wallstclairwmiddle.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+Addvertex,-8.5,4.7,0,
+Addvertex,-13.2,4.7,0,
+Addvertex,-13.2.2,-0.5,0,
+Addvertex,-8.5,-0.5,0,
+Addface2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,wallstclairwend.png,wallstclairwend.png
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+Addvertex,3.2,4.1,-.3,
+Addvertex,2.6,4.1,-.1,
+Addvertex,2.6,3.2,0,
+Addvertex,3.2,3.2,-.25,
+Addface2,0,1,2,3,
+GenerateNormals,
+LoadTexture,Mirror.png,Mirror.png
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+Addvertex,4.1,3.3,-0.05,
+Addvertex,3.5,3.3,-0.05,
+Addvertex,3.5,2,-0.05,
+Addvertex,4.1,2,-0.05,
+Addface2,0,1,2,3,
+GenerateNormals,
+LoadTexture,shutoff.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+AddVertex,3.65,3.3, -0.055,
+AddVertex,3.9, 3.3, -0.055,
+AddVertex,3.9, 3.10,-0.055,
+AddVertex,3.65, 3.10, -0.055,
+AddFace2,0,1,2,3,
+LoadTexture,GlowBlue.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+setcolor,167,169,132
+SetEmissiveColor,255,255,255 
+SetBlendMode,Additive,3,

@@ -1,0 +1,12 @@
+[Object]
+Position = 0, -2.65, 0
+States = SignalDoubleWithouttheStick.CSV
+
+[Object]
+Position = 0, 0.6,0
+States = SignalSingle_0.csv
+
+
+[Object]
+Position = 0, -.5,0
+States = SignalSingle_0.csv

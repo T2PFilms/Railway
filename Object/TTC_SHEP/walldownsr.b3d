@@ -1,0 +1,42 @@
+[meshbuilder]
+vertex  2.5,-0.5,0
+vertex  2.5,4.7,0
+vertex  2.5,4.7,12.5
+vertex  2.5,-0.5,12.5
+face2 0,1,2,3
+
+[texture]
+load walldown.bmp
+coordinates 2,1,0
+coordinates 1,0,0
+coordinates 0,0,1
+coordinates 3,1,1
+
+[meshbuilder]
+vertex  2.5,-0.5,12.5
+vertex  2.5,4.7,12.5
+vertex  2.5,4.7,25
+vertex  2.5,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load walldown1.bmp
+coordinates 2,1,0
+coordinates 1,0,0
+coordinates 0,0,1
+coordinates 3,1,1
+
+[meshbuilder]
+vertex  2.5,4.8,0
+vertex  2.5,7.5,0
+vertex  2.5,7.5,25
+vertex  2.5,4.8,25
+face2 0,1,2,3
+
+[texture]
+load walldownr.bmp
+coordinates 2,1,0
+coordinates 1,0,0
+coordinates 0,0,1
+coordinates 3,1,1
+

@@ -1,0 +1,67 @@
+CreateMeshBuilder,
+AddVertex,-1.2, -0.144, 0,
+AddVertex,-1.2, -0.144, 25.2,
+AddVertex,1.2, -0.144, 25.2,
+AddVertex,1.2, -0.144, 0,
+AddFace,0, 1, 2, 3,
+SetColor,128,128,128,
+
+GenerateNormals,
+
+LoadTexture,Tie.bmp,
+SetTextureCoordinates,0, 0, 9,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 9,
+
+CreateMeshBuilder,
+AddVertex,-2.0, -0.146, 0,
+AddVertex,-2.0, -0.146, 25.2,
+AddVertex,-1.05, -0.146, 25.2,
+AddVertex,-1.05, -0.146, 0,
+AddFace,0, 1, 2, 3,
+SetColor,128,128,128,
+
+GenerateNormals,
+
+LoadTexture,Ballast.bmp,
+SetTextureCoordinates,0, 0, 3,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1.5, 0,
+SetTextureCoordinates,3, 1.5, 3,
+
+CreateMeshBuilder,
+AddVertex,1.05, -0.146, 0,
+AddVertex,1.05, -0.146, 25.2,
+AddVertex,2.0, -0.146, 25.2,
+AddVertex,2.0, -0.146, 0,
+AddFace,0, 1, 2, 3,
+SetColor,128,128,128,
+
+GenerateNormals,
+
+LoadTexture,Ballast.bmp,
+SetTextureCoordinates,0, 1.5, 3,
+SetTextureCoordinates,1, 1.5, 0,
+SetTextureCoordinates,2, 0, 0,
+SetTextureCoordinates,3, 0, 3,
+
+CreateMeshBuilder,
+AddVertex,-0.807, 0, 0,
+AddVertex,-0.807, 0, 25.5,
+AddVertex,-0.727, 0, 25.5,
+AddVertex,-0.727, 0, 0,
+AddFace,0, 1, 2, 3,
+SetColor,155, 155, 155,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0.727, 0, 0,
+AddVertex,0.727, 0, 25.5,
+AddVertex,0.807, 0, 25.5,
+AddVertex,0.807, 0, 0,
+AddFace,0, 1, 2, 3,
+SetColor,155, 155, 155,
+GenerateNormals,
+

@@ -1,0 +1,5 @@
+[Object]
+States = constructionblue.b3d,constructionblue.b3d,constructionblue.b3d,constructionblue.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d
+StateFunction = mod[value + 1, 13]
+RefreshRate = 0.01
+Position = 0,0,0

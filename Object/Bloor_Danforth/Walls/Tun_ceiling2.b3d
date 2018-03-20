@@ -1,0 +1,14 @@
+[MeshBuilder]
+Vertex        -1.9, 4, 25
+Vertex        -1.9, 4, -0.5
+Vertex         2.26, 4, -0.5
+Vertex         2.26, 4, 25
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_ceiling2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1

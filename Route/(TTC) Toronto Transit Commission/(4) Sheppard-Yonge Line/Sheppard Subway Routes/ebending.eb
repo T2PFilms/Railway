@@ -1,0 +1,46 @@
+;LEFT DON MILLS STATION PLATFORM
+;80% CHANCE OF ENDING
+
+With Track
+;==================
+;Crossover
+;==================
+4950,.adhesion 75,.sigf 22;1;2.2;2.6,.Beacon(108; 5; 0; 14),; Sc-0
+4950,.height 0.5,.railstart 2;0;0;8  ,.railstart 3;-12;0;4  ,.curve -200;-100,.Dike 0;-1;1  ,.Dikeend 1,.dike 3;-1;1,.dike 2;1;1,.railtype 0;8,.railtype 1;2 ,.freeobj 2;2101
+4951,.announce TTC_SHEP\ExtraSounds\crossdon1.wav;35
+4975,.Rail 1;-9.5;;2  ,.rail 2;1.5;;3  ,.rail 3;-10.5   ,.curve 0 ,.railtype 0;2 ,.Dikeend 0 ,.freeobj 0;5008 ,.freeobj 1;5009
+4990,.freeobj 0;5009 ,.freeobj 1;5008
+5000,.Rail 1;-3  ,.rail 2;4.5  ,.rail 3;-7.5  ,.railtype 0;2 ,.railtype 1;2
+5000.2,.announce TTC_SHEP\ExtraSounds\crossyonger2.wav;35
+5006,.freeobj 2;5012 ,.freeobj 3;5012;5.5
+5020,.freeobj 0;5008 ,.freeobj 1;5009
+5025,.rail 1;3 ,.rail 2;7.5 ,.rail 3;-4.5
+5035,.freeobj 0;5009 ,.freeobj 1;5008
+5050,.marker TTC_SHEP\\Markers\DonMillsCrossoverEB.png;125,.announce TTC_SHEP\ExtraSounds\crossdon3.wav;35,.curve 200;-100,.railtype 0;8 ,.Rail 1;9;0;8,.rail 2;10.5;0;8,.rail 3;-1.55;;8 ,.dike 0;1;1  ,.dike 1;-1;8 ,.freeobj 2;5013;-2.4
+5075,.railtype 1;2,.freeobj 1;2001;;;179.85,.railtype 0;4 ,.rail 1;12;0,.dikeend 2,.railend 2;12;0,.dikeend 3,.railend 3;0,.Curve 0,.dike 0;0;9,.dike 1;0;12,.freeobj 0;2101;;;180
+;===============================================================================
+; Don Mills 5125
+;===============================================================================
+
+5125,.sta Don Mills;;T;0;R;1;0;;180;75;;4
+
+5100,.pitch 2
+5125,.sigf 18;1;2.2;3.75,.sigf 18;1;14.2;3.75,.Beacon(108; 7; 0; -2),.Beacon(108; 5; 0; 1)
+5125,.freeobj 1;351
+5125,.Pitch 0,.announce TTC_SHEP\ExtraSounds\crossyonge1_alt1.wav;35,.dikeend 0,.dikeend 1,.railtype 0;99,.railtype 1;99,.pitch 0 
+5149,.freeobj 0;46;1.5;-0.144;-30
+5175,.Beacon(108; 5; 0; 3)
+5200,.Beacon(108; 5; 0; 1),.freeobj 0;63;-2.5;2,.freeobj 1;64;2;2
+5220,.Stop 0;5;15,.freeobj 0;246;-4.9;1,.freeobj 1;247;4.9;1
+5235,.freeobj 0;5005,.freeobj 1;5004
+5236,.sigf 322;1;2.2;3.75,.sigf 322;1;14.2;3.75,.section 0,.tr 2
+5236.02,.freeobj 0;101;-0.3,.freeobj 1;101;-0.3
+;===============================================================================
+; Tailtracks 5225
+;===============================================================================
+5294,.sigf 304;1;2.1;3,.section 0;0;0;0
+5290,.freeobj 1;64;2;2,.freeobj 0;63;-2.5;2
+5294,.sigf 304;1;14.1;3,.tr 2,.section 0;0;0;0
+5305,.buffer
+5250,.railtype 0;4,.railtype 1;3
+5325,.railtype 0;8,.railtype 1;8

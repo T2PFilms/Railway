@@ -1,0 +1,123 @@
+[Include]
+stabeam01.csv
+position = -2.985, 0, -5
+
+[Include]
+stabeam01.csv
+position = -2.985, 0, 20
+
+[Include]
+stabeam01.csv
+position = -2.985, 0, 45
+
+[Include]
+stabeam01.csv
+position = -2.985, 0, 70
+
+[Include]
+stabeam01.csv
+position = -2.985, 0, 95
+
+[Include]
+stabeam01.csv
+position = -2.985, 0, 120
+
+
+
+[Include]
+stationbeambase.b3d
+position = -2.985, 0, 0
+
+[Include]
+stationbeambase.b3d
+position = -2.985, 0, 50
+
+
+[Include]
+stationbeambase.b3d
+position = -2.985, 0, 100
+
+
+
+
+
+[Include]
+Track\Tr_Station3rl.csv
+position = 0, 0, 0
+
+
+[Include]
+Track\Tr_Station3rr.csv
+position = -6, 0, 0
+
+[Include]
+Track\Tr_Station3rl.csv
+position = 0, 0, 25
+
+[Include]
+Track\Tr_Station3rr.csv
+position = -6, 0, 25
+
+[Include]
+Track\Tr_Station3rl.csv
+position = 0, 0, 50
+
+
+[Include]
+Track\Tr_Station3rr.csv
+position = -6, 0, 50
+
+[Include]
+Track\Tr_Station3rl.csv
+position = 0, 0, 75
+
+
+[Include]
+Track\Tr_Station3rr.csv
+position = -6, 0, 75
+
+[Include]
+Track\Tr_Station3rl.csv
+position = 0, 0, 100
+
+
+[Include]
+Track\Tr_Station3rr.csv
+position = -6, 0, 100
+
+[Include]
+Track\Tr_Station3rl.csv
+position = 0, 0, 125
+
+
+[Include]
+Track\Tr_Station3rr.csv
+position = -6, 0, 125
+
+
+
+
+
+
+
+;extra
+
+
+[Include]
+beams9.b3d
+position = 0, 0, 0
+[Include]
+beams9.b3d
+position = 0, 0, 25
+[Include]
+beams9.b3d
+position = 0, 0, 50
+[Include]
+beams9.b3d
+position = 0, 0, 75
+[Include]
+beams9.b3d
+position = 0, 0, 100
+[Include]
+beams9.b3d
+position = 0, 0, 125

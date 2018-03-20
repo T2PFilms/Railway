@@ -1,0 +1,110 @@
+[MeshBuilder]
+Vertex -1, 0, 15
+Vertex -1, 4, 15
+Vertex -1, 4, 0
+Vertex -1, 0, 0
+Face2 0,1,2,3
+Face2 0,1,2,3
+[Texture]
+Load right.bmp
+coordinates 1,1,1
+coordinates 2,0,1
+coordinates 3,0,2
+coordinates 0,1,2
+EmissiveColor 255, 255, 255
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Vertex 2, 0, 15
+Vertex 2, 4, 15
+Vertex 2, 4, 0
+Vertex 2, 0, 0
+Face2 0,1,2,3
+Face2 0,1,2,3
+[Texture]
+Load left.bmp
+coordinates 1,1,1
+coordinates 2,0,1
+coordinates 3,0,2
+coordinates 0,1,2
+EmissiveColor 255, 255, 255
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Vertex -1, 2.02, 15
+Vertex -1, 3.35, 14.65
+Vertex 0.35, 3.35, 14.65
+Vertex 0.35, 2.02, 15
+Face2 0,1,2,3
+Face2 0,1,2,3
+[Texture]
+Load Window.png
+coordinates 1,1,1
+coordinates 2,0,1
+coordinates 3,0,2
+coordinates 0,1,2
+EmissiveColor 255, 255, 255
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Vertex -1, 0.10, 15
+Vertex -1, 4, 15
+Vertex 2, 4, 15
+Vertex 2, 0.10, 15
+Face2 0,1,2,3
+Face2 0,1,2,3
+[Texture]
+Load front.png
+coordinates 1,1,1
+coordinates 2,0,1
+coordinates 3,0,2
+coordinates 0,1,2
+EmissiveColor 255, 255, 255
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Vertex 2, 0.10, 0.10
+Vertex 2, 4, 0.10
+Vertex -1, 4, 0.10
+Vertex -1, 0.10, 0.10
+Face2 0,1,2,3
+Face2 0,1,2,3
+[Texture]
+Load Back.png
+coordinates 1,1,1
+coordinates 2,0,1
+coordinates 3,0,2
+coordinates 0,1,2
+EmissiveColor 255, 255, 255
+Transparent 0, 0, 255
+
+[MeshBuilder]
+Vertex -1, 4, 0.10
+Vertex 2, 4, 0.10
+Vertex 2, 4, 15
+Vertex -1, 4, 15
+Face2 0,1,2,3
+Face2 0,1,2,3
+[Texture]
+Load Roof.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+EmissiveColor 255, 255, 255
+
+[MeshBuilder]
+Vertex -1, 3.35, 14
+Vertex 2, 3.35, 14
+Vertex 2, 3.35, 15
+Vertex -1, 3.35, 15
+Face2 0,1,2,3
+Face2 0,1,2,3
+[Texture]
+Load Roof.png
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+EmissiveColor 255, 255, 255
+RotateAll 0, 1, 0, -90

@@ -1,0 +1,14 @@
+﻿[Object]
+Position = 0, -2.65, 0
+States = SignalDoubleNoStick.csv
+
+
+[Object]
+Position = 0.1, 0.6,0
+States = SignalSingle_2.csv
+
+[Object]
+Position = 0.1, -0.5, 0
+States = SignalSingle_4.csv
+
+

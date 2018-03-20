@@ -1,0 +1,176 @@
+[MeshBuilder]
+Vertex -13,6,0
+Vertex -13,6,50
+Vertex 5,6,50
+Vertex 5,6,0
+Face 3,2,1,0
+Color 110,110,110
+Load roof.bmp,roof.bmp
+Coordinates 0,22,0,
+Coordinates 1,22,1,
+Coordinates 2,0,1,
+Coordinates 3,0,0,
+
+
+[MeshBuilder]
+Vertex -13,6,0
+Vertex -13,4.7,0
+Vertex 5,4.7,0
+Vertex 5,6,0
+Face 0,1,2,3
+Color 40,40,40
+
+
+[MeshBuilder]
+Vertex -6.25,4.7,0
+Vertex -5.75,4.25,0
+Vertex -2.25,4.25,0
+Vertex -1.75,4.7,0
+Face 0,1,2,3
+Color 40,40,40
+
+[MeshBuilder]
+Vertex 5,6,0
+Vertex 5,4.7,0
+Vertex 5,4.7,50
+Vertex 5,6,50
+Face 0,1,2,3
+Color 140,140,140
+
+[MeshBuilder]
+Vertex -13,6,0
+Vertex -13,4.7,0
+Vertex -13,4.7,50
+Vertex -13,6,50
+Face 3,2,1,0
+Color 140,140,140
+
+
+[MeshBuilder]
+Vertex -13,6,50
+Vertex -13,4.5,50.1
+Vertex 7,4.5,50.1
+Vertex 7,6,50
+Face 3,2,1,0
+Color 140,140,140
+
+
+
+
+
+
+
+
+
+
+[MeshBuilder]
+Vertex -13,6,40
+Vertex -13,4.7,40
+Vertex 5,4.7,40
+Vertex 5,6,40
+Face 3,2,1,0
+Color 40,40,40
+
+
+[MeshBuilder]
+Vertex -6.25,4.7,40
+Vertex -5.75,4.25,40
+Vertex -2.25,4.25,40
+Vertex -1.75,4.7,40
+Face 3,2,1,0
+Color 40,40,40
+
+
+
+[MeshBuilder]
+Vertex -2.25,4.25,40
+Vertex -5.75,4.25,40
+Vertex -5.75,4.25,50
+Vertex -2.25,4.25,50
+Face 3,2,1,0
+
+Load base.bmp
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,10
+Coordinates 3,0,10
+EmissiveColor 255,255,255
+
+[MeshBuilder]
+Vertex -1.75,4.7,40
+Vertex -2.25,4.25,40
+Vertex -2.25,4.25,50
+Vertex -1.75,4.7,50
+Face 3,2,1,0
+Load Form_Plat_Surface.png
+Coordinates 0,0.3,0
+Coordinates 1,0,0
+Coordinates 2,0,3
+Coordinates 3,0.3,3
+
+[MeshBuilder]
+Vertex 5,4.7,40
+Vertex -1.75,4.7,40
+Vertex -1.75,4.7,50
+Vertex 5,4.7,50
+Face 3,2,1,0
+Load Form_Plat_Surface.png
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,3
+Coordinates 3,1,3
+
+[MeshBuilder]
+Vertex 5,4.7,40
+Vertex 7,4.7,40
+Vertex 7,4.7,50
+Vertex 5,4.7,50
+Face 0,1,2,3
+Load Form_Plat_Surface.png
+Coordinates 0,0.2,0
+Coordinates 1,0.69,0
+Coordinates 2,0.69,3
+Coordinates 3,0.2,3
+
+
+
+
+
+
+
+[MeshBuilder]
+Vertex -5.75,4.25,40
+Vertex -6.25,4.7,40
+Vertex -6.25,4.7,50
+Vertex -5.75,4.25,50
+Face 3,2,1,0
+Load Form_Plat_Surface.png
+Coordinates 0,0.3,0
+Coordinates 1,0,0
+Coordinates 2,0,3
+Coordinates 3,0.3,3
+
+[MeshBuilder]
+Vertex -13,4.7,40
+Vertex -6.25,4.7,40
+Vertex -6.25,4.7,50
+Vertex -13,4.7,50
+Face 0,1,2,3
+Load Form_Plat_Surface.png
+Coordinates 0,1,0
+Coordinates 1,0,0
+Coordinates 2,0,3
+Coordinates 3,1,3
+
+
+[MeshBuilder]
+Vertex -15,4.7,40
+Vertex -13,4.7,40
+Vertex -13,4.7,50
+Vertex -15,4.7,50
+Face 0,1,2,3
+Load Form_Plat_Surface.png
+Coordinates 0,0.69,0
+Coordinates 1,0.4,0
+Coordinates 2,0.4,3
+Coordinates 3,0.69,3

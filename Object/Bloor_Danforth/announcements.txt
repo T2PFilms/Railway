@@ -1,0 +1,69 @@
+
+;===================================
+;Create Your Own Announcements
+;====================================
+;New Feature Created by TrainsToronto
+;Do not edit the first 5 numbers.
+;File Location Corresponds to Railway\Sounds folder
+
+;You can also make a random sound play once you are at a certain location!
+;Simply put a track distance. Once you hit there it will play
+
+14250,.announce Bloor_Danforth\Announcements\warden.wav
+16469,.announce Bloor_Danforth\Announcements\warden1.wav
+16639,.announce Bloor_Danforth\Announcements\victoriapark.wav
+18621,.announce Bloor_Danforth\Announcements\victoriapark1(orig).wav
+18814,.announce Bloor_Danforth\Announcements\Mainstreet.wav
+19722,.announce Bloor_Danforth\Announcements\Mainstreet1.wav
+19901,.announce Bloor_Danforth\Announcements\woodbine.wav
+20602,.announce Bloor_Danforth\Announcements\woodbine1.wav
+20883,.announce Bloor_Danforth\Announcements\coxwell.wav
+21445,.announce Bloor_Danforth\Announcements\coxwell1.wav
+21606,.announce Bloor_Danforth\Announcements\greenwood.wav
+22096,.announce Bloor_Danforth\Announcements\greenwood1.wav
+22255,.announce Bloor_Danforth\Announcements\donlands.wav
+22744,.announce Bloor_Danforth\Announcements\donlands1.wav
+22903,.announce Bloor_Danforth\Announcements\pape.wav
+23276,.announce Bloor_Danforth\Announcements\pape1.wav
+23429,.announce Bloor_Danforth\Announcements\Chester.wav
+23874,.announce Bloor_Danforth\Announcements\Chester1.wav
+24034,.announce Bloor_Danforth\Announcements\broadview.wav
+24450,.announce Bloor_Danforth\Announcements\broadview1.wav
+24632,.announce Bloor_Danforth\Announcements\castlefrank.wav
+25348,.announce Bloor_Danforth\Announcements\castlefrank1.wav
+25512,.announce Bloor_Danforth\Announcements\sherbourne.wav
+25925,.announce Bloor_Danforth\Announcements\sherbourne1.wav
+26105,.announce Bloor_Danforth\Announcements\yonge.wav
+26857,.announce Bloor_Danforth\Announcements\yonge1.wav
+27443,.announce Bloor_Danforth\Announcements\stgeorge.wav
+27846,.announce Bloor_Danforth\Announcements\stgeorge1.wav
+28007,.announce Bloor_Danforth\Announcements\spadina-YUS.wav
+28342,.announce Bloor_Danforth\Announcements\spadina1-BD.wav
+28502,.announce Bloor_Danforth\Announcements\bathurst.wav
+28830,.announce Bloor_Danforth\Announcements\bathurst1.wav
+29009,.announce Bloor_Danforth\Announcements\christie.wav
+29395,.announce Bloor_Danforth\Announcements\christie1.wav
+29536,.announce Bloor_Danforth\Announcements\ossington.wav
+29982,.announce Bloor_Danforth\Announcements\ossington1.wav
+30140,.announce Bloor_Danforth\Announcements\dufferin.wav
+30784,.announce Bloor_Danforth\Announcements\dufferin1.wav
+30957,.announce Bloor_Danforth\Announcements\lansdowne.wav
+31287,.announce Bloor_Danforth\Announcements\lansdowne1.wav
+31435,.announce Bloor_Danforth\Announcements\Dundaswest.wav
+32000,.announce Bloor_Danforth\Announcements\Dundaswest1.wav,
+32235,.announce Bloor_Danforth\Announcements\keele.wav
+32684,.announce Bloor_Danforth\Announcements\keele1.wav
+32839,.announce Bloor_Danforth\Announcements\highpark.wav
+33282,.announce Bloor_Danforth\Announcements\highpark1.wav
+33435,.announce Bloor_Danforth\Announcements\runnymede.wav
+34002,.announce Bloor_Danforth\Announcements\runnymede1.wav
+34165,.announce Bloor_Danforth\Announcements\jane.wav
+34452,.announce Bloor_Danforth\Announcements\jane1.wav
+34707,.announce Bloor_Danforth\Announcements\oldmill.wav
+35350,.announce Bloor_Danforth\Announcements\oldmill1.wav
+35480,.announce Bloor_Danforth\Announcements\RoyalYork.wav
+36666,.announce Bloor_Danforth\Announcements\RoyalYork1.wav
+36836,.announce Bloor_Danforth\Announcements\Islington.wav
+37834,.announce Bloor_Danforth\Announcements\Islington1.wav
+37978,.announce Bloor_Danforth\Announcements\kipling.wav
+38879,.announce Bloor_Danforth\Announcements\kipling1.wav

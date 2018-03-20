@@ -1,0 +1,74 @@
+[Object]
+States=Cab.b3d
+
+[object]
+Position = 0, 0, 12.8
+States=Enganche delantero.b3d
+
+[object]
+Position = 0, 0, -12.8
+States=Enganche trasero.b3d
+
+[include]
+Bogi~SGP2~A19B.Animated
+Position = 0, 0, -9.8
+
+[include]
+Bogi~SGP2~A19A.Animated
+Position = 0, 0, 9.8
+
+[INCLUDE]
+Klax~Bell~AREx.Animated
+Position=+0.6,+4.7,-12.3
+
+[INCLUDE]
+Klax~Horn~1F4R.Animated
+Position=+0.000,+4.770,-12.3
+
+[INCLUDE]
+Plow~SGDL~ARBA.Animated
+Position=+0.000,+0.35,-12.9
+
+;Puertas
+
+;1
+[Object]
+Position = -1.40, 1.07, 11.62
+States = puerta delantera.b3d
+TranslateZFunction = leftdoors[0]
+;2
+[Object]
+Position = -1.40, 1.07, -11.62
+States = puerta trasera.b3d
+TranslateZFunction = leftdoors[0]
+;3
+[Object]
+Position = -1.40, 1.07, 11.62
+States = puerta delantera2.b3d
+TranslateZFunction = -leftdoors[0]
+;4
+[Object]
+Position = -1.40, 1.07, -11.62
+States = puerta trasera2.b3d
+TranslateZFunction = -leftdoors[0]
+;5
+[Object]
+Position = 1.43, 1.07, 10.95
+States = puerta delantera.b3d
+TranslateZFunction = rightdoors[0]
+;6
+[Object]
+Position = 1.43, 1.07, -12.27
+States = puerta trasera.b3d
+TranslateZFunction = rightdoors[0]
+;7
+[Object]
+Position = 1.43, 1.07, 10.95
+States = puerta delantera2.b3d
+TranslateZFunction = -rightdoors[0]
+;8
+[Object]
+Position = 1.43, 1.07, -12.27
+States = puerta trasera2.b3d
+TranslateZFunction = -rightdoors[0]
+

@@ -1,0 +1,38 @@
+[Object]
+Position = 0,0,0
+States = Train_P.csv
+StateFunction = powerNotch==3
+
+[Object]
+Position = 0,0,0
+States = Series.csv
+StateFunction = powerNotch==2
+
+[Object]
+Position = 0,0,0
+States = Inch.csv
+StateFunction = powerNotch==1&brakenotches<=5&powernotches<=3
+
+[Object]
+Position = 0,0,0
+States = Neutral.csv
+StateFunction = powerNotch==0&brakenotches<=5&powernotches<=3
+
+[Object]
+Position = 0,0,0
+States = thirdbrake.csv
+StateFunction = brakeNotch<=1&brakeNotch>=3&brakenotches<=5&powernotches<=3
+
+[Object]
+Position = 0,0,0
+States = crash.csv,crashfine.csv
+StateFunction = brakenotches>=6|powernotches>=4
+RefreshRate = 1
+
+[Object]
+Position = 0,0,0.001
+States = Black.csv
+
+[Object]
+Position = 0,0,0.499
+States = Black.csv

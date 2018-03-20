@@ -1,0 +1,9 @@
+;Gangway~Passenger~AmericanRailv0 endA|B for Loco|MU|Wagn
+;Set@ *.ANIMATED [Include] Position=0,0,+|-0.5*CarsLength
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;All BVE|OpenBVE files have no registered copyright or trademark,
+;are public domain, & free to copy|distribute|modify|use at will.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]
+States=Ggwy~Psgr~AR0x_Serv.B3D,Ggwy~Psgr~AR0x_Stow.B3D
+StateFunction=If[Cars<1|(Abs[Round[Distance[0]]]>=1),0,1]    ;Extended For SERVice In ObjectViewer or If NOT 1stCar, Retracted For STOWage If 1stCar

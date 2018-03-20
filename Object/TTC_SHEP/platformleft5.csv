@@ -1,0 +1,212 @@
+
+
+
+;; platform **********************
+
+CreateMeshBuilder
+AddVertex, -6.2,1.1,0
+AddVertex, -6.2,1.1,10
+AddVertex, -2,1.1,10
+AddVertex, -2,1.1,0
+AddFace2, 0,1,2,3
+
+GenerateNormals
+LoadTexture, stone2.png,stone2.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,3,0
+SetTextureCoordinates, 2,3,1
+SetTextureCoordinates, 3,0,1
+SetColor,65,60,50
+
+CreateMeshBuilder
+AddVertex, -2,1.1,0
+AddVertex, -2,1.1,10
+AddVertex, -1.5,1.1,10
+AddVertex, -1.5,1.1,0
+AddFace2, 0,1,2,3
+
+GenerateNormals
+LoadTexture, stone.png,stone.png
+SetTextureCoordinates, 0,15,1
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,15,0
+SetColor,60,60,50
+
+
+;==========================================
+
+CreateMeshBuilder
+AddVertex, -1.5,0.9,0
+AddVertex, -1.5,0.9,10
+AddVertex, -1.5,1.1,10
+AddVertex, -1.5,1.1,0
+AddFace2, 3,2,1,0
+
+GenerateNormals
+LoadTexture, stone.png,stone.png
+SetTextureCoordinates, 0,20,0.8
+SetTextureCoordinates, 1,0,0.8
+SetTextureCoordinates, 2,0,0.4
+SetTextureCoordinates, 3,20,0.4
+SetColor,65,60,50
+
+
+CreateMeshBuilder
+AddVertex, -1.75,0.9,0
+AddVertex, -1.75,0.9,10
+AddVertex, -1.5,0.9,10
+AddVertex, -1.5,0.9,0
+AddFace2, 3,2,1,0
+SetColor,0,0,0
+
+CreateMeshBuilder
+AddVertex, -1.75,-0.3,0
+AddVertex, -1.75,-0.3,10
+AddVertex, -1.75,0.9,10
+AddVertex, -1.75,0.9,0
+AddFace2, 3,2,1,0
+SetColor,65,60,50
+
+LoadTexture, stone.png,stone.png
+SetTextureCoordinates, 0,20,0.1
+SetTextureCoordinates, 1,0,0.1
+SetTextureCoordinates, 2,0,0.5
+SetTextureCoordinates, 3,20,0.5
+
+CreateMeshBuilder
+AddVertex, -1.5,1.1,0
+AddVertex, -1.5,0.9,0
+AddVertex, -10.5,0.9,0
+AddVertex, -10.5,1.1,0
+AddFace2, 3,2,1,0
+
+GenerateNormals
+LoadTexture, formsideunder.png,formsideunder.png
+SetTextureCoordinates, 0,1,12
+SetTextureCoordinates, 1,0,12
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,1,0
+
+CreateMeshBuilder
+AddVertex, -1.75,-0.3,0
+AddVertex, -1.75,0.9,0
+AddVertex, -10.25,0.9,0
+AddVertex, -10.25,-0.3,0
+AddFace2, 3,2,1,0
+
+GenerateNormals
+LoadTexture, formsideCOPING.png,formsideCOPING.png
+SetTextureCoordinates, 0,1,1
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,1
+
+CreateMeshBuilder
+AddVertex, -1.5,1.1,10
+AddVertex, -1.5,0.9,10
+AddVertex, -10.5,0.9,10
+AddVertex, -10.5,1.1,10
+AddFace2, 3,2,1,0
+
+GenerateNormals
+LoadTexture, formsideunder.png,formsideunder.png
+SetTextureCoordinates, 0,1,12
+SetTextureCoordinates, 1,0,12
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,1,0
+
+CreateMeshBuilder
+AddVertex, -1.75,-0.3,10
+AddVertex, -1.75,0.9,10
+AddVertex, -10.25,0.9,10
+AddVertex, -10.25,-0.3,10
+AddFace2, 3,2,1,0
+
+GenerateNormals
+LoadTexture, formsideCOPING.png,formsideCOPING.png
+SetTextureCoordinates, 0,1,1
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,0,1
+
+
+
+
+
+;; platform **********************
+
+CreateMeshBuilder
+AddVertex, -6.2,1.1,0
+AddVertex, -6.2,1.1,10
+AddVertex, -10,1.1,10
+AddVertex, -10,1.1,0
+AddFace2, 0,1,2,3
+
+GenerateNormals
+LoadTexture, stone2.png,stone2.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,20,0
+SetTextureCoordinates, 2,20,1
+SetTextureCoordinates, 3,0,1
+SetColor,65,60,50
+
+CreateMeshBuilder
+AddVertex, -10,1.1,0
+AddVertex, -10,1.1,10
+AddVertex, -10.5,1.1,10
+AddVertex, -10.5,1.1,0
+AddFace2, 0,1,2,3
+
+GenerateNormals
+LoadTexture, stone.png, stone.png
+SetTextureCoordinates, 0,0,1
+SetTextureCoordinates, 1,1,1
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,0,0
+SetColor,50,50,50
+
+
+;==========================================
+
+CreateMeshBuilder
+AddVertex, -10.5,0.9,0
+AddVertex, -10.5,0.9,10
+AddVertex, -10.5,1.1,10
+AddVertex, -10.5,1.1,0
+AddFace2, 3,2,1,0
+LoadTexture, stone.png, stone.png
+SetTextureCoordinates, 0,22,1
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,0,0.9
+SetTextureCoordinates, 3,22,0.9
+SetColor,50,50,50
+
+CreateMeshBuilder
+AddVertex, -10.25,0.9,0
+AddVertex, -10.25,0.9,10
+AddVertex, -10.5,0.9,10
+AddVertex, -10.5,0.9,0
+AddFace2, 3,2,1,0
+
+GenerateNormals
+LoadTexture, formsideUNDER.png
+SetTextureCoordinates, 0,12,1
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,12,0
+
+CreateMeshBuilder
+AddVertex, -10.25,-0.3,0
+AddVertex, -10.25,-0.3,10
+AddVertex, -10.25,0.9,10
+AddVertex, -10.25,0.9,0
+AddFace2, 3,2,1,0
+
+GenerateNormals
+LoadTexture, stone.png, stone.png
+SetTextureCoordinates, 0,22,1
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,0,0.6
+SetTextureCoordinates, 3,22,0.6
+SetColor,40,40,40

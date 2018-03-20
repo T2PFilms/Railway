@@ -1,0 +1,19 @@
+[Object]
+Position = 0, -2.65, 0
+States = El_WD1.csv
+
+
+[Object]
+Position = 0, 0, -.05
+States = Blank.csv ,SignalSingle_GTLunar.csv, SignalSingle_GTLunar.csv
+StateFunction = if[trackDistance>35 | section==0, 0, min[value + 0.5*delta/1.51, 2]]
+
+
+[Object]
+Position = 0, 0, 0
+States = SignalSingle_GTLunar.csv, SignalSingle_GTBlank.csv
+StateFunction = floor[mod[TIME * 0.95, 2]]
+
+[Object]
+Position = -.15, -2, -.6
+States = WD15.B3d

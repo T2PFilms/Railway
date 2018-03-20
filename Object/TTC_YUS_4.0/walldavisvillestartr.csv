@@ -1,0 +1,9 @@
+CreateMeshBuilder,
+Addvertex,2.5,4,-0.3,
+Addvertex,7.2,4,-0.3,
+Addvertex,7.2,0,-0.3,
+Addvertex,2.5,0,-0.3,
+Addface2,0,1,2,3,
+SetColor,46,46,46,
+GenerateNormals,
+

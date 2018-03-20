@@ -1,0 +1,77 @@
+
+CreateMeshBuilder,
+
+Addvertex,3,0,0,
+Addvertex,3,7,0,
+Addvertex,3,7,28,
+Addvertex,3,0,28,
+Addface,3,2,1,0,
+
+;color 184,184,184
+
+GenerateNormals,
+
+
+LoadTexture,SnowconcreteDavisvilleR.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+;Fence
+;Right Side
+CreateMeshBuilder,
+AddVertex,3.2, 9, 0,
+AddVertex,3.2, 9, 25.5,
+AddVertex,3.2, 6.1, 0,
+AddVertex,3.2, 6.1, 25.5,
+AddFace,2,3.2,1,0,
+;Color 220,220,210
+
+GenerateNormals,
+
+LoadTexture,ChainFence.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,5,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,5,1,
+SetDecalTransparentColor,0,0,0,
+
+;trees
+CreateMeshBuilder,
+
+AddVertex,0, 15, 4,
+AddVertex,5, 15, 0,
+AddVertex,5, 0.0, 0,
+AddVertex,0, 0.0, 4,
+
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,Snowtree.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+Translate,7,1,15,
+
+CreateMeshBuilder,
+
+AddVertex,0, 15, 7,
+AddVertex,5, 15, 0,
+AddVertex,5, 0.0, 0,
+AddVertex,0, 0.0, 7,
+
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,Snowtree.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+Translate,4,1,20,

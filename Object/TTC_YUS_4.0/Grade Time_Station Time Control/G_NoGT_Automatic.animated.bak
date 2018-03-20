@@ -1,0 +1,11 @@
+[Object]
+Position = 0, -2.65, 0
+States = SignalSingle.csv
+
+[Object]
+Position = 0, 0, 0
+States = SignalSingle_0.csv, SignalSingle_4.csv, SignalSingle_2.csv, SignalSingle_4.csv
+StateFunction = if[pluginstate[17] != 0, pluginstate[17],0]
+
+
+

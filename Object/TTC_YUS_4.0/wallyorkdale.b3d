@@ -1,0 +1,167 @@
+;right
+
+[meshbuilder]
+vertex 2.5,-0.5,0
+vertex 2.5,4.7,0
+vertex 2.5,4.7,25
+vertex 2.5,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load wallyorkdale.bmp
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 0,1,1
+transparent 0,255,0
+
+[meshbuilder]
+vertex -3.7,5.2,0
+vertex -3.7,5.2,25
+vertex 2.5,4.7,25
+vertex 2.5,4.7,0
+face2 0,1,2,3
+
+[texture]
+load wallyorkdale1.bmp
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,0,1
+coordinates 3,1,1
+
+;left
+
+[meshbuilder]
+vertex -15,-0.5,0
+vertex -15,4.7,0
+vertex -15,4.7,25
+vertex -15,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load wallyorkdale.bmp
+coordinates 2,1,0
+coordinates 1,0,0
+coordinates 0,0,1
+coordinates 3,1,1
+transparent 0,255,0
+
+[meshbuilder]
+vertex -15.0,4.7,0
+vertex -15.0,4.7,25
+vertex -8.8,5.2,25
+vertex -8.8,5.2,0
+face2 0,1,2,3
+
+[texture]
+load wallyorkdale1.bmp
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,0,1
+coordinates 3,1,1
+
+[meshbuilder]
+vertex -8.8,5.2,0
+vertex -8.8,5.9,0
+vertex -8.8,5.9,25
+vertex -8.8,5.2,25
+face2 0,1,2,3
+color 200,199,207
+
+;pillars
+
+[meshbuilder]
+vertex -6.5,1.1,12.5
+vertex -6.5,5.2,12.5
+vertex -5.5,5.2,12.5
+vertex -5.5,1.1,12.5
+face 0,1,2,3
+
+[texture]
+load pillaryorkdale.bmp
+coordinates 3,1,0
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,1,1
+
+[meshbuilder]
+vertex -6.5,5.2,12.5
+vertex -6.5,6.2,12.5
+vertex -5.5,6.2,12.5
+vertex -5.5,5.2,12.5
+face 0,1,2,3
+color 251,251,249
+
+[meshbuilder]
+vertex -5.5,1.1,12.5
+vertex -5.5,5.2,12.5
+vertex -5.5,5.2,13.5
+vertex -5.5,1.1,13.5
+face 0,1,2,3
+
+[texture]
+load pillaryorkdale.bmp
+coordinates 3,1,0
+coordinates 0,0,0
+coordinates 1,0,1
+coordinates 2,1,1
+
+[meshbuilder]
+vertex -5.5,5.2,12.5
+vertex -5.5,6.2,12.5
+vertex -5.5,6.2,13.5
+vertex -5.5,5.2,13.5
+face 0,1,2,3
+color 251,251,249
+
+;crossbeams
+
+;[meshbuilder]
+;vertex -8.8,5.2,12.8
+;vertex -8.8,5.9,12.8
+;vertex -3.7,5.9,12.8
+;vertex -3.7,5.2,12.8
+;face2 0,1,2,3
+;color 255,253,255
+
+;[meshbuilder]
+;vertex -8.8,5.2,12.8
+;vertex -8.8,5.2,13.2
+;vertex -3.7,5.2,13.2
+;vertex -3.7,5.2,12.8
+;face2 0,1,2,3
+;color 211,214,213
+
+[meshbuilder]
+vertex -8.8,5.2,10.2
+vertex -8.8,5.2,10.5
+vertex -3.7,5.2,15.3
+vertex -3.7,5.2,15
+face2 0,1,2,3
+color 211,214,213
+
+[meshbuilder]
+vertex -8.8,5.2,10.2
+vertex -8.8,5.9,10.2
+vertex -3.7,5.9,15
+vertex -3.7,5.2,15
+face2 0,1,2,3
+color 255,253,255
+
+[meshbuilder]
+vertex -8.8,5.2,15
+vertex -8.8,5.2,15.3
+vertex -3.7,5.2,10.5
+vertex -3.7,5.2,10.2
+face2 0,1,2,3
+color 211,214,213
+
+[meshbuilder]
+vertex -8.8,5.2,15
+vertex -8.8,5.9,15
+vertex -3.7,5.9,10.2
+vertex -3.7,5.2,10.2
+face2 0,1,2,3
+color 255,253,255
+
+

@@ -1,0 +1,7 @@
+[meshbuilder]
+vertex -120,-0.6,25
+vertex  120,-0.6,25
+vertex  120,-0.6,0
+vertex -120,-0.6,0
+face 0,1,2,3
+color 0,0,0

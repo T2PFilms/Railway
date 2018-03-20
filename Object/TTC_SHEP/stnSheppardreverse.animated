@@ -1,0 +1,61 @@
+;===================
+;Station Accesories
+;==================
+
+
+;Platform Sign
+;Revenue Platform
+[Include]
+sideplatformright.csv
+Position = 0, 0, 0
+
+
+
+[Include]
+sideplatformleft.csv
+Position = -12, 0, 10
+
+[include]
+rooftop.b3d
+Position = 0, 0, 0
+
+[object]
+States = sheppardwalls.b3d
+Position = 0, 0, 0
+
+[object]
+States = lightnew.csv
+Position = 7, 0.76, -15
+
+[object]
+States = lightnew.csv
+Position = 7, 0.76, 10
+
+[object]
+States = lightnew.csv
+Position = 7, 0.76, 35
+[object]
+States = lightnew.csv
+Position = 7, 0.76, 60
+[object]
+States = lightnew.csv
+Position = 7, 0.76, 85
+
+;===================
+;Track
+;==================
+
+[Include]
+Track\TunnelshortL.csv
+Position = 0,0,110
+
+[Include]
+Track\TunnelshortR.csv
+Position = -12,0,110
+;=====================
+; Platform
+;=====================
+
+[object]
+States = platformleft3.csv
+position = 0,0,0

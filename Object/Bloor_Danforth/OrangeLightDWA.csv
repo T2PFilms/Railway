@@ -1,0 +1,7 @@
+CreateMeshBuilder,
+Cylinder,12,1,5.5,-12
+SetColor,3,3,0,13
+SetEmissiveColor,255,175,0
+SetBlendMode,Additive,9,DivideExponent2
+RotateAll,1,0,0,180
+TranslateAll,0,0,0

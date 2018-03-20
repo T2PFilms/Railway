@@ -1,0 +1,28 @@
+
+[Object]
+States = Tree.csv
+Position = -3,0,0
+
+
+[Object]
+States = Tree.csv
+Position = -2,-1,5
+
+
+[Object]
+States = Tree2.csv
+Position = -3,0,10
+
+
+[Object]
+States = Tree.csv
+Position = 2,-1,15
+
+[Object]
+States = Tree2.csv
+Position = -3,-4,20
+
+[Object]
+States = Tree.csv
+Position = 2,-2,25
+

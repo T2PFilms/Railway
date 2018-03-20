@@ -1,0 +1,110 @@
+;Converted from .b3d to .csv by BVE Terminus' B3D to CSV Converter
+
+CreateMeshBuilder
+AddVertex, 2.5,-0.17,0
+AddVertex, 2.5,-0.17,25
+AddVertex, -15.5,-0.17,25
+AddVertex, -15.5,-0.17,0
+AddFace, 3,2,1,0
+LoadTexture, track\ballast.bmp
+SetTextureCoordinates, 0,15,0
+SetTextureCoordinates, 1,15,6
+SetTextureCoordinates, 2,0,6
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 3.5,-0.25,0
+AddVertex, 3.5,-0.25,25
+AddVertex, 2.5,-0.17,25
+AddVertex, 2.5,-0.17,0
+AddFace, 3,2,1,0
+LoadTexture, track\ballast.bmp
+SetTextureCoordinates, 0,2,0
+SetTextureCoordinates, 1,2,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 5.5,-0.17,0
+AddVertex, 5.5,-0.17,25
+AddVertex, 3.5,-0.25,25
+AddVertex, 3.5,-0.25,0
+AddFace, 3,2,1,0
+LoadTexture, track\ballast.bmp
+SetTextureCoordinates, 0,3,0
+SetTextureCoordinates, 1,3,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+;Fence
+
+
+;Right Side
+
+CreateMeshBuilder,
+Addvertex,5.5,-0.17,0,
+Addvertex,5.5,-0.17,25,
+Addvertex,7,0.5,25,
+Addvertex,7,0.5,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,Grassground.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+Addvertex,7,2,0,
+Addvertex,7,2,25,
+Addvertex,7,0.5,25,
+Addvertex,7,0.5,0,
+Addface,3,2,1,0,
+GenerateNormals,
+LoadTexture,GrassTall.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,3,0,
+SetTextureCoordinates,2,3,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+Addvertex,7,0.5,0,
+Addvertex,7,0.5,25,
+Addvertex,12,0.8,25,
+Addvertex,12,0.8,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,Grassground.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+Addvertex,12,0.8,0,
+Addvertex,12,0.8,25,
+Addvertex,50,0.8,25,
+Addvertex,50,0.8,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,Grassground.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+Addvertex,50,0.8,0,
+Addvertex,50,0.8,25,
+Addvertex,75,0.8,25,
+Addvertex,75,0.8,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,/outsideScenery/Road.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,2,2,
+SetTextureCoordinates,3,0,2,
+;Background
+;Right Side
+

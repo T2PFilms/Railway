@@ -1,0 +1,165 @@
+;Plow ~Standard Gaug Dsel|Elec Locomotives ~American Rail COLOR endA|B
+;Set At *.ANIMATED [Include] Position=+0.000,+0.000,+|-0.500*CarLength
+;Delete The SemiColonPreFix For The Chosen COLOR In The B3D File Below
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;BVE|OpenBVE files have no registered copyrights|patents,
+;are public domain, & free to copy|distribute|modify|use.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[MESHBUILDER]                      ;Mnts
+Vertex       -0.550,+0.460,-0.378
+Vertex       -0.550,+0.460,-0.605
+Vertex       -0.550,+0.060,-0.605
+Vertex       -0.550,+0.060,-0.208
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+[MESHBUILDER]
+Vertex       +0.550,+0.460,-0.378
+Vertex       +0.550,+0.460,-0.605
+Vertex       +0.550,+0.060,-0.605
+Vertex       +0.550,+0.060,-0.208
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+[MESHBUILDER]
+Vertex       -0.550,+0.780,-0.315
+Vertex       -0.550,+0.780,-0.605
+Vertex       -0.550,+0.460,-0.605
+Vertex       -0.550,+0.460,-0.300
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+[MESHBUILDER]
+Vertex       +0.550,+0.780,-0.315
+Vertex       +0.550,+0.780,-0.605
+Vertex       +0.550,+0.460,-0.605
+Vertex       +0.550,+0.460,-0.300
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+[MESHBUILDER]
+Vertex       -0.550,+0.460,-0.300
+Vertex       -0.550,+0.460,-0.605
+Vertex       +0.550,+0.460,-0.605
+Vertex       +0.550,+0.460,-0.300
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+
+[MESHBUILDER]                      ;Blad
+Vertex       +0.000,+0.460,-0.300
+Vertex       -1.350,+0.460,-0.490
+Vertex       -1.150,+0.060,-0.260
+Vertex       +0.000,+0.060,-0.150
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+
+[MESHBUILDER]
+Vertex       +0.000,+0.460,-0.300
+Vertex       +1.350,+0.460,-0.490
+Vertex       +1.150,+0.060,-0.260
+Vertex       +0.000,+0.060,-0.150
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+
+[MESHBUILDER]
+Vertex       -0.550,+0.610,-0.400
+Vertex       -1.420,+0.780,-0.550
+Vertex       -1.420,+0.460,-0.500
+Vertex       -0.550,+0.460,-0.377
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+[MESHBUILDER]
+Vertex       +0.550,+0.610,-0.400
+Vertex       +1.420,+0.780,-0.550
+Vertex       +1.420,+0.460,-0.500
+Vertex       +0.550,+0.460,-0.377
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+
+[MESHBUILDER]
+Vertex       -0.550,+0.780,-0.335
+Vertex       -0.646,+0.793,-0.355
+Vertex       -0.646,+0.620,-0.420
+Vertex       -0.550,+0.610,-0.400
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+
+[MESHBUILDER]
+Vertex       +0.550,+0.780,-0.335
+Vertex       +0.646,+0.793,-0.355
+Vertex       +0.646,+0.620,-0.420
+Vertex       +0.550,+0.610,-0.400
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+
+[MESHBUILDER]
+Vertex       -1.040,+0.850,-0.434
+Vertex       -1.420,+0.905,-0.517
+Vertex       -1.420,+0.780,-0.550
+Vertex       -1.040,+0.705,-0.484
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+
+[MESHBUILDER]
+Vertex       +1.040,+0.850,-0.434
+Vertex       +1.420,+0.905,-0.517
+Vertex       +1.420,+0.780,-0.550
+Vertex       +1.040,+0.705,-0.484
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+
+[MESHBUILDER]
+Vertex       -0.550,+0.780,-0.315
+Vertex       -1.420,+0.930,-0.373
+Vertex       -1.420,+0.905,-0.517
+Vertex       -0.550,+0.780,-0.335
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+[MESHBUILDER]
+Vertex       +0.550,+0.780,-0.315
+Vertex       +1.420,+0.930,-0.373
+Vertex       +1.420,+0.905,-0.517
+Vertex       +0.550,+0.780,-0.335
+Face                      0,1,2,3
+Face                      3,2,1,0
+Color                    37,37,37;Blk
+
+[MESHBUILDER]                      ;Grab
+Cylinder   4,+0.010,+0.010,+0.370
+Rotate               0,0,1,+082.0
+Rotate               0,1,0,-011.9
+Translate    -1.230,+0.947,-0.489
+Color         231,223,219,255;Wht
+[MESHBUILDER]
+Cylinder   4,+0.010,+0.010,+0.130
+Translate    -1.053,+0.868,-0.451
+Color                    37,37,37;Blk
+[MESHBUILDER]
+Cylinder   4,+0.010,+0.010,+0.130
+Translate    -1.410,+0.918,-0.526
+Color                    37,37,37;Blk
+
+[MESHBUILDER]
+Cylinder   4,+0.010,+0.010,+0.370
+Rotate               0,0,1,-082.0
+Rotate               0,1,0,+011.9
+Translate    +1.230,+0.947,-0.489
+Color         231,223,219,255;Wht
+[MESHBUILDER]
+Cylinder   4,+0.010,+0.010,+0.130
+Translate    +1.053,+0.868,-0.451
+Color                    37,37,37;Blk
+[MESHBUILDER]
+Cylinder   4,+0.010,+0.010,+0.130
+Translate    +1.410,+0.918,-0.526
+Color                    37,37,37;Blk

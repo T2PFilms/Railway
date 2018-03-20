@@ -1,0 +1,49 @@
+;===================
+;Station Accesories
+;==================
+;Wall
+[Include]
+BayviewWalls.b3d
+Position = 0,0,0
+
+;Platform Sign
+[Include]
+formsign.csv
+Position = -4,0,0
+[Include]
+formsign.csv
+Position = -12,0,0
+[Include]
+formsign.csv
+Position = -4,0,110
+[Include]
+formsign.csv
+Position = -12,0,110
+
+[Include]
+BayviewName.b3d
+Position = 0,0,0
+;===================
+;Track
+;==================
+
+[Include]
+Track\Tr_Station3RRX.csv
+Position = 0,0,0
+[Include]
+Track\Tr_Station3RLX.csv
+Position = -12,0,0
+
+;==================
+;Advertisement
+;==================
+[Include]
+BayviewAds.csv
+Position = 0,0,0
+
+;=====================
+; Platform
+;=====================
+[include]
+platformleftfix.csv
+position = 0,0,0

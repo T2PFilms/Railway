@@ -1,0 +1,15 @@
+;Lamp ~EndOfTrainDevice ~JapanRail Reflector endA|B, For Wagons
+;Set@ *.Animated [Include] Position=+0.0,+0.0,+|-0.5*CarsLength
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;All BVE|OpenBVE files have no registered copyright or trademark,
+;are public domain, & free to copy|distribute|modify|use at will.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]
+States=Lamp~EOTD~JRRx_Assy.B3D
+StateFunction=If[(Cars>0)&(Abs[Round[Distance[Cars-1]]]<1),0,1]       ;LastCarEndB In Game,Not Shown In ObjectViewer
+Position=-0.600,+0.000,+0.000
+
+[OBJECT]
+States=Lamp~EOTD~JRRx_Assy.B3D
+StateFunction=If[(Cars>0)&(Abs[Round[Distance[Cars-1]]]<1),0,1]       ;LastCarEndB In Game,Not Shown In ObjectViewer
+Position=+0.600,+0.000,+0.000

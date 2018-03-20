@@ -1,0 +1,187 @@
+[MeshBuilder]
+Vertex -8.6,-0.16,25
+Vertex -8.6,-0.16,0
+Vertex 2.6,-0.16,0
+Vertex 2.6,-0.16,25
+Face2 3,2,1,0
+Load track\ballast.bmp
+Coordinates 0,0,0
+Coordinates 1,0,11
+Coordinates 2,35,11
+Coordinates 3,35,0
+
+[MeshBuilder]
+Vertex -8.6,-1,0
+Vertex -8.6,-0.16,0
+Vertex 2.6,-0.16,0
+Vertex 2.6,-1,0
+Face2 0,1,2,3
+Load track\ballast.bmp
+Coordinates 0,0,0
+Coordinates 1,0,11
+Coordinates 2,35,11
+Coordinates 3,35,0
+
+
+[MeshBuilder]
+Vertex -8.6,-1,25
+Vertex -8.6,-0.16,25
+Vertex 2.6,-0.16,25
+Vertex 2.6,-1,25
+Face2 0,1,2,3
+Load track\ballast.bmp
+Coordinates 0,0,0
+Coordinates 1,0,11
+Coordinates 2,35,11
+Coordinates 3,35,0
+
+;===============
+; Right Bridge
+;===============
+[MeshBuilder]
+Vertex 2.5,-0.16,0
+Vertex 2.5,0.6,0
+Vertex 2.6,0.6,0
+Vertex 2.6,-0.16,0
+Face2 0,1,2,3
+Color 90,80,70
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,11
+Coordinates 2,35,11
+Coordinates 3,35,0
+
+[MeshBuilder]
+Vertex 2.5,-0.16,25
+Vertex 2.5,0.6,25
+Vertex 2.6,0.6,25
+Vertex 2.6,-0.16,25
+Face2 0,1,2,3
+Color 90,80,70
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,11
+Coordinates 2,35,11
+Coordinates 3,35,0
+
+[MeshBuilder]
+Vertex 2.5,0.6,25
+Vertex 2.5,0.6,0
+Vertex 2.6,0.6,0
+Vertex 2.6,0.6,25
+Face2 0,1,2,3
+Color 90,80,70
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,11
+Coordinates 2,35,11
+Coordinates 3,35,0
+
+
+[MeshBuilder]
+Vertex 2.55,0.6,25
+Vertex 2.55,0.6,0
+Vertex 2.55,3,0
+Vertex 2.55,3,25
+Face2 0,1,2,3
+Load chainfence.bmp
+Coordinates 0,0,1
+Coordinates 1,15,1
+Coordinates 2,15,0
+Coordinates 3,0,0
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex 2.6,-0.16,25
+Vertex 2.6,-0.16,0
+Vertex 2.6,0.6,0
+Vertex 2.6,0.6,25
+Face2 0,1,2,3
+Color 90,80,70
+Load idk.png
+Coordinates 0,0,0
+
+
+
+
+;===============
+; Left Bridge
+;===============
+[MeshBuilder]
+Vertex -8.5,-0.16,0
+Vertex -8.5,0.6,0
+Vertex -8.6,0.6,0
+Vertex -8.6,-0.16,0
+Face2 0,1,2,3
+Color 90,80,70
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,11
+Coordinates 2,35,11
+Coordinates 3,35,0
+
+[MeshBuilder]
+Vertex -8.5,-0.16,25
+Vertex -8.5,0.6,25
+Vertex -8.6,0.6,25
+Vertex -8.6,-0.16,25
+Face2 0,1,2,3
+Color 90,80,70
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,11
+Coordinates 2,35,11
+Coordinates 3,35,0
+
+[MeshBuilder]
+Vertex -8.5,0.6,25
+Vertex -8.5,0.6,0
+Vertex -8.6,0.6,0
+Vertex -8.6,0.6,25
+Face2 3,2,1,0
+Color 90,80,70
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,11
+Coordinates 2,35,11
+Coordinates 3,35,0
+
+
+[MeshBuilder]
+Vertex -8.55,0.6,25
+Vertex -8.55,0.6,0
+Vertex -8.55,3,0
+Vertex -8.55,3,25
+Face2 0,1,2,3
+Load chainfence.bmp
+Coordinates 0,0,1
+Coordinates 1,15,1
+Coordinates 2,15,0
+Coordinates 3,0,0
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex -8.6,-0.16,25
+Vertex -8.6,-0.16,0
+Vertex -8.6,0.6,0
+Vertex -8.6,0.6,25
+Face2 0,1,2,3
+Color 90,80,70
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,11
+Coordinates 2,35,11
+Coordinates 3,35,0
+
+[MeshBuilder]
+Vertex -8.5,-0.16,25
+Vertex -8.5,-0.16,0
+Vertex -8.5,0.6,0
+Vertex -8.5,0.6,25
+Face2 0,1,2,3
+Color 90,80,70
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,11
+Coordinates 2,35,11
+Coordinates 3,35,0

@@ -1,0 +1,312 @@
+
+[Object]
+States = escbegin.csv
+Position = 0,0,0
+
+[Object]
+States = escbegin.csv
+Position = -2,0,0
+
+[Object]
+States = escsideAlt.csv
+Position = 0,0,0
+
+[Object]
+States = Null.csv
+Position = -2,0,0
+
+[Object]
+States = eschandbegin.csv
+RotateXFunction = 1 * time
+Position = 0,0.55,0.5
+
+[Object]
+States = eschandbegin.csv
+RotateXFunction = -1 * time
+Position = -2,0.55,0.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateYFunction = mod[1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = 0,4,6
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateYFunction = mod[1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = 0,3.6,5.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateYFunction = mod[1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = 0,3.2,5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateYFunction = mod[1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = 0,2.8,4.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateYFunction = mod[1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = 0,2.4,4.0
+
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateYFunction = mod[1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = 0,2,3.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateYFunction = mod[1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = 0,1.6,3
+
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateYFunction = mod[1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = 0,1.2,2.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateYFunction = mod[1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = 0,0.8,2
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateYFunction = mod[1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = 0,0.4,1.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateYFunction = mod[1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = 0,0,1
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateYFunction = mod[1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = 0,-0.4,0.5
+
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateYFunction = mod[1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = 0,-0.8,0
+
+;Floor
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateZDirection = 0, 0, 1
+Position = 0,-0.4,0
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateZDirection = 0, 0, 1
+Position = 0,-0.4,-0.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateZDirection = 0, 0, 1
+Position = 0,-0.4,-1
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateZDirection = 0, 0, 1
+Position = 0,-0.4,-1.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[1 * time, 0.55]
+TranslateZDirection = 0, 0, 1
+Position = 0,-0.4,-2
+
+
+;Opposite way
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateYFunction = mod[-1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = -2,4,6
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateYFunction = mod[-1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = -2,3.6,5.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateYFunction = mod[-1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = -2,3.2,5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateYFunction = mod[-1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = -2,2.8,4.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateYFunction = mod[-1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = -2,2.4,4.0
+
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateYFunction = mod[-1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = -2,2,3.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateYFunction = mod[-1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = -2,1.6,3
+
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateYFunction = mod[-1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = -2,1.2,2.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateYFunction = mod[-1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = -2,0.8,2
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateYFunction = mod[-1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = -2,0.4,1.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateYFunction = mod[-1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = -2,0,1
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateYFunction = mod[-1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = -2,-0.4,0.5
+
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateYFunction = mod[-1 * time, 0.55]
+TranslateYDirection = 0, 0.7, 0
+TranslateZDirection = 0, 0, 1
+Position = -2,-0.8,0
+
+;Floor
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateZDirection = 0, 0, 1
+Position = -2,-0.4,0
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateZDirection = 0, 0, 1
+Position = -2,-0.4,-0.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateZDirection = 0, 0, 1
+Position = -2,-0.4,-1
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateZDirection = 0, 0, 1
+Position = -2,-0.4,-1.5
+
+[Object]
+States = FloorEsc.csv
+TranslateZFunction = mod[-1 * time, 0.55]
+TranslateZDirection = 0, 0, 1
+Position = -2,-0.4,-2
+
+
+
+
+

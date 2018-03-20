@@ -1,0 +1,28 @@
+[Object]
+States = T1 Front Cab.b3d,null.b3d
+Position = 0, 0, 115
+
+
+[Object]
+States = T1 Back Cab.b3d,null.b3d
+Position = 0, 0, 92
+
+
+[Object]
+States = T1 Front Cab.b3d,null.b3d
+Position = 0, 0, 69
+
+
+[Object]
+States = T1 Back Cab.b3d,null.b3d
+Position = 0, 0, 46
+
+
+[Object]
+States = T1 Front Cab.b3d,null.b3d
+Position = 0, 0, 23
+
+
+[Object]
+States = T1 Back Cab.b3d,null.b3d
+Position = 0, 0, 0

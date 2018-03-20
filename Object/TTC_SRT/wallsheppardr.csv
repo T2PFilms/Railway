@@ -1,0 +1,15 @@
+CreateMeshBuilder,
+Addvertex,0,-0.5,0,
+Addvertex,0,4.7,0,
+Addvertex,0,4.7,25,
+Addvertex,0,-0.5,25,
+Addface2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,wallsheppardr.bmp,wallsheppardr.bmp
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,0,2,1,
+

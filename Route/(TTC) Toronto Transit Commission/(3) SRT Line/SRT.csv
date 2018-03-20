@@ -1,0 +1,727 @@
+With Route
+.comment The SRT is developed by TrainsToronto. The SRT has MTA styled station stop signs so this is more operator friendly to New Yorkers.
+.timetable Toronto Transit Commission $chr(13)Yonge-University-Spadina Subway P.M Peak $chr(13)Finch - Downsview v3.6 Non TR Announcements
+
+.gauge 1473
+.signal(1) 80
+.signal(2) 80
+.signal(3) 80
+.elevation 15
+
+With Train
+.folder Toronto Subway T1
+.Timetable(0).Day.Load TTC_SRT\TimeTable\FinchEglinton.png
+.Timetable(1).Day.Load TTC_SRT\TimeTable\EglintonBloor.png
+.Timetable(2).Day.Load TTC_SRT\TimeTable\BloorUnion.png
+.Timetable(3).Day.Load TTC_SRT\TimeTable\UnionSt.George.png
+.Timetable(4).Day.Load TTC_SRT\TimeTable\StGeorgeStClair.png
+.Timetable(5).Day.Load TTC_SRT\TimeTable\AllenRoad.png
+.Timetable(6).Day.Load TTC_SRT\TimeTable\Downsview.png
+
+
+With Structure
+
+.rail(0) TTC_SRT\Track\Tr_Station3rr.csv
+.rail(1) TTC_SRT\Track\Tr_Station3rl.csv 
+.rail(2) TTC_SRT\Track\Tr_Tunnel.csv 
+.rail(3) TTC_SRT\Track\Tr_Tunnel3rr.csv
+.rail(4) TTC_SRT\Track\Tr_Tunnel3rl.csv
+.rail(5) TTC_SRT\Track\Tr_Ballast.csv
+.rail(6) TTC_SRT\Track\Tr_Ballast3rr.csv
+.rail(7) TTC_SRT\Track\Tr_Ballast3rl.csv
+.rail(8) TTC_SRT\Track\NullRail.csv
+.rail(9) TTC_SRT\Track\Tr_Ballast_dark3rr.csv
+.rail(10) TTC_SRT\Track\Tr_Ballast_dark3rl.csv
+.rail(11) TTC_SRT\Track\Tr_Concrete.csv
+.rail(12) TTC_SRT\Track\Tr_Concrete3rr.csv
+.rail(13) TTC_SRT\Track\Tr_Concrete3rl.csv
+.rail(14) TTC_SRT\Track\Tr_Bridge3rr.csv
+.rail(15) TTC_SRT\Track\Tr_Bridge3rl.csv
+.rail(16) TTC_SRT\Track\TR_Tunnel_R3000R.csv
+.rail(17) TTC_SRT\Track\TR_Tunnel_L3000R.csv
+.rail(18) TTC_SRT\Track\TR_Tunnel_L2000L.csv
+.rail(19) TTC_SRT\Track\TR_Tunnel_L2000R.csv
+.rail(20) TTC_SRT\Track\TR_Tunnel_R2000L.csv
+.rail(21) TTC_SRT\Track\TR_Tunnel_R2000R.csv
+.rail(22) TTC_SRT\Track\TR_Ballast_L2000L.csv
+.rail(23) TTC_SRT\Track\TR_Ballast_L2000R.csv
+.rail(24) TTC_SRT\Track\TR_Ballast_R2000L.csv
+.rail(25) TTC_SRT\Track\TR_Ballast_R2000R.csv
+.rail(26) TTC_SRT\Track\TR_Concrete_R2000L.csv
+.rail(27) TTC_SRT\Track\TR_Concrete_R2000R.csv
+.rail(28) TTC_SRT\Track\TR_Tunnel_L1000L.csv
+.rail(29) TTC_SRT\Track\TR_Tunnel_L1000R.csv
+.rail(30) TTC_SRT\Track\TR_Tunnel_R1000L.csv
+.rail(31) TTC_SRT\Track\TR_Tunnel_R1000R.csv
+.rail(32) TTC_SRT\Track\TR_Concrete_L1000R.csv
+.rail(33) TTC_SRT\Track\TR_Concrete_R1000R.csv
+.rail(34) TTC_SRT\Track\TR_Tunnel_L900L.csv
+.rail(35) TTC_SRT\Track\TR_Tunnel_L900R.csv
+.rail(36) TTC_SRT\Track\TR_Tunnel_R900L.csv
+.rail(37) TTC_SRT\Track\TR_Tunnel_R900R.csv
+.rail(38) TTC_SRT\Track\TR_Tunnel_L800L.csv
+.rail(39) TTC_SRT\Track\TR_Tunnel_L800R.csv
+.rail(40) TTC_SRT\Track\TR_Tunnel_R800L.csv
+.rail(41) TTC_SRT\Track\TR_Tunnel_R800R.csv
+.rail(42) TTC_SRT\Track\TR_Tunnel_L700L.csv
+.rail(43) TTC_SRT\Track\TR_Tunnel_L700R.csv
+.rail(44) TTC_SRT\Track\TR_Tunnel_R700L.csv
+.rail(45) TTC_SRT\Track\TR_Tunnel_R700R.csv
+.rail(46) TTC_SRT\Track\TR_Tunnel_L550L.csv
+.rail(47) TTC_SRT\Track\TR_Tunnel_L550R.csv
+.rail(48) TTC_SRT\Track\TR_Tunnel_L500L.csv
+.rail(49) TTC_SRT\Track\TR_Tunnel_L500R.csv
+.rail(50) TTC_SRT\Track\TR_Tunnel_R500L.csv
+.rail(51) TTC_SRT\Track\TR_Tunnel_R500R.csv
+.rail(52) TTC_SRT\Track\TR_Ballast_L500L.csv
+.rail(53) TTC_SRT\Track\TR_Ballast_L500R.csv
+.rail(54) TTC_SRT\Track\TR_Ballast_R500L.csv
+.rail(55) TTC_SRT\Track\TR_Ballast_R500R.csv
+.rail(56) TTC_SRT\Track\TR_Tunnel_L450L.csv
+.rail(57) TTC_SRT\Track\TR_Tunnel_L450R.csv
+.rail(58) TTC_SRT\Track\TR_Tunnel_R450L.csv
+.rail(59) TTC_SRT\Track\TR_Tunnel_R450R.csv
+.rail(60) TTC_SRT\Track\TR_Tunnel_R400L.csv
+.rail(61) TTC_SRT\Track\TR_Tunnel_L250L.csv
+.rail(62) TTC_SRT\Track\TR_Tunnel_L250R.csv
+.rail(63) TTC_SRT\Track\TR_Tunnel_R250L.csv
+.rail(64) TTC_SRT\Track\TR_Tunnel_R250R.csv
+.rail(65) TTC_SRT\Track\TR_Tunnel_L200L.csv
+.rail(66) TTC_SRT\Track\TR_Tunnel_L200R.csv
+.rail(67) TTC_SRT\Track\TR_Tunnel_R200L.csv
+.rail(68) TTC_SRT\Track\TR_Tunnel_R200R.csv
+.rail(69) TTC_SRT\Track\TR_Ballast_Dark_L200R.csv
+.rail(70) TTC_SRT\Track\TR_Ballast_L200R.csv
+.rail(71) TTC_SRT\Track\Tr_Concrete_go.csv
+
+.dikel(0) TTC_SRT\walls\tunnel01l.csv ;one track
+.diker(0) TTC_SRT\walls\tunnel01r.csv
+.dikel(1) TTC_SRT\walls\tunnel02l.csv ;two tracks
+.diker(1) TTC_SRT\walls\tunnel02r.csv
+.dikel(2) TTC_SRT\walls\NLTunSL.csv;bored tunnel
+.diker(2) TTC_SRT\walls\NLTunSR.csv
+.dikel(3) TTC_SRT\incuttingl.csv
+.diker(3) TTC_SRT\incuttingr.csv 
+.dikel(4) TTC_SRT\incuttinglgrass.csv
+.diker(4) TTC_SRT\incuttingrgrass.csv
+.dikel(5) TTC_SRT\incuttingldark.csv
+.diker(5) TTC_SRT\incuttingrdark.csv
+.dikel(6) TTC_SRT\allenl.csv
+.diker(6) TTC_SRT\allenr.csv
+.dikel(7) TTC_SRT\allenlnf.csv
+.diker(7) TTC_SRT\allenrnf.csv
+.dikel(8) TTC_SRT\walls\tunnel03l.csv
+.diker(8) TTC_SRT\walls\tunnel03r.csv
+.dikel(9) TTC_SRT\walls\tun_middle_0.csv
+.diker(9) TTC_SRT\walls\tunnel01r.csv
+.dikel(10) TTC_SRT\srtbridge.b3d
+.diker(10) TTC_SRT\srtbridge.b3d
+.dikel(11) TTC_SRT\chainlinkl.csv
+.diker(11) TTC_SRT\chainlinkr.csv
+
+;SRT Dikes
+
+.dikel(12) TTC_SRT\chaintrackl.csv
+.diker(12) TTC_SRT\chaintrackr.csv
+
+.forml(0) TTC_SRT\staform01l.csv
+.formr(0) TTC_SRT\staform01r.csv
+.formcl(0) TTC_SRT\staform01cl.csv
+.formcr(0) TTC_SRT\staform01cr.csv
+.walll(0) TTC_SRT\station01l.csv ;two tracks and one center platform
+.wallr(0) TTC_SRT\station01r.csv
+.walll(1) TTC_SRT\station02l.csv ;two tracks and two side platforms
+.wallr(1) TTC_SRT\station02r.csv
+.walll(2) TTC_SRT\mccowanline.b3d
+.wallr(2) TTC_SRT\mccowanline.b3d
+.freeobj(1) TTC_SRT\stabeam01.csv ;black columns
+.freeobj(2) TTC_SRT\stabeam02.csv
+.freeobj(5) TTC_SRT\tunwall01.csv ;end wall for center platform
+.freeobj(6) TTC_SRT\stawall01.csv ;end wall for center platform
+.freeobj(7) TTC_SRT\tunwall02.csv ;end wall between tunnels
+.freeobj(8) TTC_SRT\stawall02l.csv ;left end wall for side platforms
+.freeobj(9) TTC_SRT\stawall02r.csv ;right end wall for side platforms
+.freeobj(11) TTC_SRT\stawall04.csv ;end wall between tunnels
+.freeobj(12) TTC_SRT\portalbloor.csv
+.freeobj(13) TTC_SRT\centerwall.csv
+.freeobj(14) TTC_SRT\walldownsviewend.csv
+.freeobj(15) TTC_SRT\walldownsviewend2.csv
+.freeobj(16) TTC_SRT\downsbench.csv
+.freeobj(17) TTC_SRT\walleglintonww.csv
+.freeobj(18) TTC_SRT\tunnelwall1.csv
+.freeobj(19) TTC_SRT\emergencyexit.csv
+
+.freeobj(42) TTC_SRT\incuttingl.csv
+.freeobj(43) TTC_SRT\incuttingr.csv
+.freeobj(44) TTC_SRT\p.csv
+.freeobj(45) TTC_SRT\s.csv
+.freeobj(46) TTC_SRT\6.csv
+.freeobj(47) TTC_SRT\Street.csv
+.freeobj(48) TTC_SRT\dwa.csv
+.freeobj(49) TTC_SRT\southbound.csv
+.freeobj(50) TTC_SRT\northbound.csv
+.freeobj(51) TTC_SRT\uniontofinch.csv
+.freeobj(52) TTC_SRT\uniontodownsview.csv
+.freeobj(53) TTC_SRT\nextrainfinch.csv
+.freeobj(54) TTC_SRT\nextraindownsview.csv
+.freeobj(55) TTC_SRT\online.csv
+.freeobj(57) TTC_SRT\nycentrewall.csv
+.freeobj(58) TTC_SRT\nosmoking.csv
+.freeobj(59) TTC_SRT\standback.csv
+.freeobj(61) TTC_SRT\summerhilltopwall.csv
+.freeobj(62) TTC_SRT\0.csv
+.freeobj(69) TTC_SRT\middlewall.csv
+.freeobj(70) TTC_SRT\wallsheppard2l.csv
+.freeobj(71) TTC_SRT\wallsheppard2.csv
+.freeobj(72) TTC_SRT\wallsheppardr.csv
+.freeobj(73) TTC_SRT\stpatrick.csv
+.freeobj(74) TTC_SRT\stpatricke.csv
+.freeobj(75) TTC_SRT\wallsheppardl.csv
+.freeobj(76) TTC_SRT\wallsheppardc.csv
+.freeobj(77) TTC_SRT\pillarsheppard.csv
+.freeobj(78) TTC_SRT\signalbox.csv
+.freeobj(79) TTC_SRT\wallfinchr.csv
+.freeobj(80) TTC_SRT\wallfinchc.csv
+.freeobj(81) TTC_SRT\wallyorkmillsr.csv
+.freeobj(82) TTC_SRT\wallyorkmillsl.csv
+.freeobj(83) TTC_SRT\wallyorkmillsc.csv
+.freeobj(84) TTC_SRT\pillaryorkmills.csv
+.freeobj(85) TTC_SRT\walllawrencer.csv
+.freeobj(86) TTC_SRT\walllawrencel.csv
+.freeobj(87) TTC_SRT\walllawrencec.csv
+.freeobj(88) TTC_SRT\pillarlawrence.csv
+.freeobj(89) TTC_SRT\walleglintonr.csv
+.freeobj(90) TTC_SRT\walleglintonl.csv
+.freeobj(91) TTC_SRT\pillareglinton.csv
+.freeobj(92) TTC_SRT\stairseglinton.csv
+.freeobj(93) TTC_SRT\bridge.csv
+.freeobj(94) TTC_SRT\wallnyc1r.csv
+.freeobj(95) TTC_SRT\wallnyc2r.csv
+.freeobj(96) TTC_SRT\wallnyc1l.csv
+.freeobj(97) TTC_SRT\wallnyc2l.csv
+.freeobj(98) TTC_SRT\wallnycendr.csv
+.freeobj(99) TTC_SRT\wallnycmiddle.csv
+.freeobj(100) TTC_SRT\exitstairs.csv
+.freeobj(101) TTC_SRT\signalpost.csv
+.freeobj(102) TTC_SRT\walldavisviller.csv
+.freeobj(103) TTC_SRT\walldavisvillel.csv
+.freeobj(104) TTC_SRT\walldavisvilleendr.csv
+.freeobj(105) TTC_SRT\walldavisvilleendl.csv
+.freeobj(106) TTC_SRT\walldavisvillestartr.csv
+.freeobj(107) TTC_SRT\walldavisvillestartl.csv
+.freeobj(108) TTC_SRT\tr.csv
+.freeobj(109) TTC_SRT\t1yonge.csv
+.freeobj(110) TTC_SRT\t1oos.csv
+.freeobj(111) TTC_SRT\davisvillewall.csv
+.freeobj(112) TTC_SRT\wallstclair1l.csv
+.freeobj(113) TTC_SRT\wallstclair2l.csv
+.freeobj(114) TTC_SRT\wallstclair1r.csv
+.freeobj(115) TTC_SRT\wallstclair2r.csv
+.freeobj(116) TTC_SRT\wallstclairend.csv
+.freeobj(117) TTC_SRT\wallsummerhill1l.csv
+.freeobj(118) TTC_SRT\wallsummerhill2l.csv
+.freeobj(119) TTC_SRT\wallsummerhill1r.csv
+.freeobj(120) TTC_SRT\wallsummerhill2r.csv
+.freeobj(121) TTC_SRT\wallsummerhillend.csv 
+.freeobj(122) TTC_SRT\bridgedark.csv
+.freeobj(123) TTC_SRT\wallrosedalestart.csv
+.freeobj(124) TTC_SRT\wallrosedaler.csv
+.freeobj(125) TTC_SRT\wallrosedalel.csv
+.freeobj(126) TTC_SRT\wallrosedaleend.csv
+.freeobj(127) TTC_SRT\wallbloor.csv
+.freeobj(128) TTC_SRT\wallbloorend.csv
+.freeobj(129) TTC_SRT\bloorsign.csv
+.freeobj(130) TTC_SRT\formsign.csv
+.freeobj(131) TTC_SRT\wallwellesley1.csv
+.freeobj(132) TTC_SRT\wallwellesley2.csv 
+.freeobj(133) TTC_SRT\wallwellesleyend.csv
+.freeobj(134) TTC_SRT\wallcollege1.csv
+.freeobj(135) TTC_SRT\wallcollege2.csv
+.freeobj(136) TTC_SRT\wallcollegeend.csv
+.freeobj(137) TTC_SRT\collegesign.csv
+.freeobj(138) TTC_SRT\walldundas1.csv
+.freeobj(139) TTC_SRT\walldundas2.csv
+.freeobj(140) TTC_SRT\walldundasend.csv
+.freeobj(141) TTC_SRT\wallqueen1.csv
+.freeobj(142) TTC_SRT\wallqueen2.csv
+.freeobj(143) TTC_SRT\wallqueenend.csv
+.freeobj(144) TTC_SRT\queensign.csv
+.freeobj(145) TTC_SRT\wallking1.csv
+.freeobj(146) TTC_SRT\wallking2.csv
+.freeobj(147) TTC_SRT\wallunion.csv
+.freeobj(148) TTC_SRT\stairsunion.csv
+.freeobj(149) TTC_SRT\stairsunion2.csv
+.freeobj(150) TTC_SRT\pillarunion.csv
+.freeobj(151) TTC_SRT\wallstandrew.csv
+.freeobj(152) TTC_SRT\stairsstandrew.csv
+.freeobj(153) TTC_SRT\pillarstandrew.csv
+.freeobj(154) TTC_SRT\wallstandrewc.csv
+.freeobj(155) TTC_SRT\wallosgoode.csv
+.freeobj(156) TTC_SRT\wallosgoodec.csv
+.freeobj(157) TTC_SRT\pillarosgoode.csv 
+.freeobj(158) TTC_SRT\stairsosgoode.csv
+.freeobj(159) TTC_SRT\queenspark.csv
+.freeobj(160) TTC_SRT\queensparke.csv
+.freeobj(161) TTC_SRT\tunnelstart.csv
+.freeobj(162) TTC_SRT\wallmuseum.csv
+.freeobj(163) TTC_SRT\wallmuseumc.csv
+.freeobj(164) TTC_SRT\pillarmuseum.csv
+.freeobj(165) TTC_SRT\stairsmuseum.csv
+.freeobj(166) TTC_SRT\stgeorgesign.csv
+.freeobj(167) TTC_SRT\stgeorgesignup.csv
+.freeobj(168) TTC_SRT\pillarstgeorge.csv
+.freeobj(169) TTC_SRT\stairsstgeorge.csv
+.freeobj(170) TTC_SRT\stairsstgeorge2.csv
+.freeobj(171) TTC_SRT\wallstgeorgec.csv
+.freeobj(172) TTC_SRT\wallstgeorge.csv
+.freeobj(173) TTC_SRT\wallspadina1.csv
+.freeobj(174) TTC_SRT\wallspadina2.csv
+.freeobj(175) TTC_SRT\wallspadinaend.csv
+.freeobj(176) TTC_SRT\spadinasign.csv
+.freeobj(177) TTC_SRT\walldupont1.csv
+.freeobj(178) TTC_SRT\walldupont2.csv
+.freeobj(179) TTC_SRT\walldupontend.csv
+.freeobj(180) TTC_SRT\unionstreetcars.csv
+.freeobj(181) TTC_SRT\stairsunion3.csv
+.freeobj(182) TTC_SRT\wallunionc.csv
+.freeobj(183) TTC_SRT\wallkingend.csv
+.freeobj(184) TTC_SRT\trainclear.csv
+.freeobj(185) TTC_SRT\nextraindownsviewu.csv
+.freeobj(186) TTC_SRT\nextraindownsviews.csv
+.freeobj(187) TTC_SRT\nextrainfinchus.csv
+.freeobj(188) TTC_SRT\portalstclair.csv
+.freeobj(189) TTC_SRT\wallstclairw1.csv
+.freeobj(190) TTC_SRT\wallstclairw2.csv
+.freeobj(191) TTC_SRT\wallstclairwend.csv
+.freeobj(192) TTC_SRT\stclairwsign.csv
+.freeobj(193) TTC_SRT\walleglintonw1.csv
+.freeobj(194) TTC_SRT\walleglintonw2.csv
+.freeobj(195) TTC_SRT\walleglintonwend.csv
+.freeobj(196) TTC_SRT\wallglencairnr.csv
+.freeobj(197) TTC_SRT\wallglencairnl.csv
+.freeobj(198) TTC_SRT\wallglencairnc.csv
+.freeobj(199) TTC_SRT\stairsglencairn.csv
+.freeobj(200) TTC_SRT\pillarglencairn.csv
+.freeobj(201) TTC_SRT\benchglencairn.csv
+.freeobj(202) TTC_SRT\wallglencairnexterior.csv
+.freeobj(203) TTC_SRT\signallenlawrence.csv
+.freeobj(204) TTC_SRT\signallenalert1.csv
+.freeobj(205) TTC_SRT\walllawrencew.csv
+.freeobj(206) TTC_SRT\walllawrencewexterior.csv 
+.freeobj(207) TTC_SRT\walllawrencewend.csv
+.freeobj(208) TTC_SRT\walllawrencewxb.csv
+.freeobj(209) TTC_SRT\pillarlawrencew.csv
+.freeobj(211) TTC_SRT\wallyorkdale.csv
+.freeobj(212) TTC_SRT\wallyorkdaleroof.csv
+.freeobj(213) TTC_SRT\wallyorkdalec.csv
+.freeobj(214) TTC_SRT\wallyorkdalefront.csv
+.freeobj(215) TTC_SRT\401.csv
+.freeobj(216) TTC_SRT\concretelightground.csv
+.freeobj(217) TTC_SRT\allenbridger1.csv
+.freeobj(218) TTC_SRT\allenbridgel1.csv
+.freeobj(219) TTC_SRT\allenbridgepillar.csv
+.freeobj(220) TTC_SRT\allentrackbridger.csv
+.freeobj(221) TTC_SRT\wallwilson.csv
+.freeobj(222) TTC_SRT\pillarwilson.csv
+.freeobj(223) TTC_SRT\stairswilson.csv
+.freeobj(224) TTC_SRT\wilsonsign.csv
+.freeobj(225) TTC_SRT\wallwilsonend.csv
+.freeobj(226) TTC_SRT\benchwilson.csv
+.freeobj(227) TTC_SRT\bluelight.csv
+.freeobj(228) TTC_SRT\flatwall.csv
+.freeobj(229) TTC_SRT\ttchqfront.csv
+.freeobj(230) TTC_SRT\ttchqside.csv
+.freeobj(231) TTC_SRT\bluelightoutside.csv
+.freeobj(232) TTC_SRT\brake1.csv
+.freeobj(233) TTC_SRT\signallen401.csv 
+.freeobj(234) TTC_SRT\signallenwilson.csv
+.freeobj(235) TTC_SRT\signallenalert2.csv 
+.freeobj(236) TTC_SRT\signallenspeed.csv
+.freeobj(237) TTC_SRT\wallwilsonend.csv
+.freeobj(238) TTC_SRT\NLpeople2.csv
+.freeobj(239) TTC_SRT\NLpeopleL.csv
+.freeobj(240) TTC_SRT\NLpeopleL2.csv
+.freeobj(241) TTC_SRT\NLpeople.csv
+.freeobj(242) TTC_SRT\person.csv
+.freeobj(243) TTC_SRT\personb.csv
+.freeobj(244) TTC_SRT\personr.csv
+.freeobj(245) TTC_SRT\personrb.csv
+.freeobj(246) TTC_SRT\RWall2L.csv
+.freeobj(247) TTC_SRT\walldowns.csv
+.freeobj(248) TTC_SRT\h5finch.csv
+.freeobj(249) TTC_SRT\35.csv
+.freeobj(250) TTC_SRT\25.csv
+.freeobj(251) TTC_SRT\brake13.csv
+.freeobj(252) TTC_SRT\brakeoff.csv
+.freeobj(253) TTC_SRT\gt35.csv
+.freeobj(254) TTC_SRT\gt40.csv
+.freeobj(255) TTC_SRT\gt20.csv
+.freeobj(256) TTC_SRT\wallfinchl.csv
+.freeobj(257) TTC_SRT\viewers.csv
+.freeobj(258) TTC_SRT\RedCircle.csv
+
+;SIGNAL MARKERS
+.freeobj(500) TTC_SRT\Ssig.csv
+.freeobj(501) TTC_SRT\sp.csv
+.freeobj(502) TTC_SRT\X.csv
+
+.freeobj(510) TTC_SRT\0sig.csv
+.freeobj(511) TTC_SRT\1.csv
+.freeobj(512) TTC_SRT\2.csv
+.freeobj(513) TTC_SRT\3.csv
+.freeobj(514) TTC_SRT\4.csv
+.freeobj(515) TTC_SRT\5.csv
+.freeobj(516) TTC_SRT\6sig.csv
+.freeobj(517) TTC_SRT\7.csv
+.freeobj(518) TTC_SRT\8.csv
+.freeobj(519) TTC_SRT\9.csv
+
+;======================
+;SRT OBJECTS
+;======================
+.freeobj(530) TTC_SRT\Fence.b3d
+.freeobj(6000) TTC_SRT\Animation\Go Train\Horizon Coach.Animated
+.freeobj(6001) TTC_SRT\Animation\Go Train\EX00F.Animated
+.freeobj(6002) TTC_SRT\BridgeKennedy.csv
+.freeobj(6003) TTC_SRT\BridgeLightPole.csv
+.freeobj(6004) TTC_SRT\BuildingKennedy.csv
+.freeobj(6005) TTC_SRT\RoadKennedy.csv
+.freeobj(6006) TTC_SRT\BuildingKennedy2.csv
+.freeobj(6007) TTC_SRT\BridgeLawrenceWest.csv
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+;Bloor Danforth Imports
+.freeobj(259) Bloor_Danforth\allenbridgel2.csv,
+.freeobj(260) Bloor_Danforth\allenbridger2.csv,
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Other
+.freeobj(261) TTC_SRT\Wilson-200.csv
+.freeobj(262) TTC_SRT\Wilson-0.csv
+.freeobj(263) TTC_SRT\tunroad.csv
+.freeobj(280) TTC_SRT\2stop.csv
+.freeobj(281) TTC_SRT\allstop.csv
+.freeobj(282) TTC_SRT\midlandportal.b3d
+.freeobj(283) TTC_SRT\kennedyform.csv
+
+,,,,,,,,,,,,,,,,,,,,,,
+;Special Objects,,,,,,,,,,,,,,,,,,,,,,
+.freeobj(400) TTC_SRT\Station_Pillars.csv
+.freeobj(401) TTC_SRT\TowerSTC.b3d
+.freeobj(402) TTC_SRT\TowerKS.b3d
+.freeobj(403) TTC_SRT\TowerMcCowan.b3d
+
+,,,,,,,,,,,,,,,,,,,,,,
+;Static 3 Signals,,,,,,,,,,,,,,,,,,,,,,
+.freeobj(300) Bloor_Danforth\signal_3_0.csv;Single Red
+.freeobj(302) Bloor_Danforth\signal_3_2.csv;single Yellow
+.freeobj(304) Bloor_Danforth\signal_3_4.csv;Single Green
+
+;Beta Bloor-Danforth Objects,,,,,,,,,,,,,,,,,,,,,,,,,
+.freeobj(5050) TTC_SRT\OneStop TV\TrainOneStop.Animated
+.freeobj(5051) TTC_SRT\grassentry.csv
+.freeobj(5052) TTC_SRT\srtbridge.b3d
+.freeobj(5054) TTC_SRT\walllawrenceeast.b3d
+.freeobj(5055) TTC_SRT\walllawrenceeastend.b3d
+.freeobj(5056) TTC_SRT\wallkennedy.b3d
+.freeobj(5057) TTC_SRT\walkennedyend.b3d
+.freeobj(5058) TTC_SRT\kencrossbridge.b3d
+
+,,,,,,,,,,,,,,,,,,,,,,
+;Static 6 Signals,,,,,,,,,,,,,,,,,,,,,,
+.freeobj(600) Bloor_Danforth\signal_6_0.csv;double red
+.freeobj(601) Bloor_Danforth\signal_6_1.csv;double yellow green
+.freeobj(602) Bloor_Danforth\signal_6_2.csv;Double Green
+.freeobj(603) Bloor_Danforth\signal_6_3.csv
+.freeobj(604) Bloor_Danforth\signal_6_4.csv
+.freeobj(605) Bloor_Danforth\signal_6_5.csv
+
+
+;rails
+.freeobj(1000) TTC_SRT\Track\200tunnelCurveRR.csv
+.freeobj(1001) TTC_SRT\Track\200tunnelCurveRL.csv
+
+.freeobj(1100) TTC_SRT\Track\200tunnelCurveLR.csv
+.freeobj(1101) TTC_SRT\Track\200tunnelCurveLL.csv
+.freeobj(1104) TTC_SRT\Track\200ballastdarkCurveLR.csv
+
+.freeobj(2000) TTC_SRT\Track\200tunnelSwitchRR.csv
+.freeobj(2001) TTC_SRT\Track\200tunnelSwitchRL.csv
+.freeobj(2003) TTC_SRT\Track\200ballastswitchRL.csv
+.freeobj(2005) TTC_SRT\Track\200concreteswitchRL.csv
+
+.freeobj(2100) TTC_SRT\Track\200tunnelSwitchLR.csv
+.freeobj(2101) TTC_SRT\Track\200tunnelSwitchLL.csv
+.freeobj(2102) TTC_SRT\Track\200ballastswitchLR.csv
+.freeobj(2104) TTC_SRT\Track\200concreteswitchLR.csv
+
+.freeobj(3000) TTC_SRT\Track\tunnelXoverR.csv
+.freeobj(3100) TTC_SRT\Track\tunnelXoverL.csv
+
+.freeobj(4000) TTC_SRT\Track\200tunnelWyeSwitchR.csv
+.freeobj(4002) TTC_SRT\Track\200concretewyeswitchR.csv
+.freeobj(4100) TTC_SRT\Track\200tunnelWyeSwitchL.csv
+
+.freeobj(5000) TTC_SRT\Track\GuideRailStartDarkL.csv
+.freeobj(5001) TTC_SRT\Track\GuideRailStartDarkR.csv
+.freeobj(5002) TTC_SRT\Track\GuideRailEndDarkL.csv
+.freeobj(5003) TTC_SRT\Track\GuideRailEndDarkR.csv
+.freeobj(5004) TTC_SRT\Track\GuideRailStartLightL.csv
+.freeobj(5005) TTC_SRT\Track\GuideRailStartLightR.csv
+.freeobj(5006) TTC_SRT\Track\GuideRailEndLightL.csv
+.freeobj(5007) TTC_SRT\Track\GuideRailEndLightR.csv
+.freeobj(5008) TTC_SRT\Track\3rdRailDarkL.csv
+.freeobj(5009) TTC_SRT\Track\3rdRailDarkR.csv
+.freeobj(5010) TTC_SRT\Track\3rdRailLightL.csv
+.freeobj(5011) TTC_SRT\Track\3rdRailLightR.csv
+.freeobj(5012) TTC_SRT\Walls\Tun_middle_half.csv
+.freeobj(5013) TTC_SRT\Walls\Tun_middle_wall.csv
+
+.ground(0) TTC_SRT\blackground.csv
+.ground(1) TTC_SRT\grass.csv
+.ground(2) TTC_SRT\concreteground.csv
+.ground(3) TTC_SRT\concretelightground.csv
+.ground(4) TTC_SRT\noground.csv
+texture.background(0) TTC_SRT\black.bmp
+texture.background(1) TTC_SRT\skylineday.bmp
+texture.background(2) TTC_SRT\skylineallen.bmp
+
+Signal(20).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_20_Yellow.animated
+Signal(21).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_15_Yellow.animated
+Signal(22).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_15L_Red.animated
+Signal(23).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_15L.animated
+Signal(24).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_20L_Red.animated
+Signal(25).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_20L.animated
+Signal(26).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_HighSpeed__30miles_Red.animated
+Signal(27).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_HighSpeed__35miles.animated
+Signal(28).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_HighSpeed__40miles.animated
+Signal(29).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_HighSpeed__30miles_Yellow.animated
+Signal(30).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_30L.animated
+Signal(31).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_25L_Red.animated
+Signal(94).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_25L.animated
+Signal(95).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_50L.animated
+Signal(96).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_50L_Red.animated
+Signal(42).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_Static_Amber.animated
+Signal(43).Load TTC_SRT\Grade Time_Station Time Control\1_ShotGT_HighSpeed__40miles_Red.animated
+Signal(44).Load TTC_SRT\Grade Time_Station Time Control\SignalDoubleR_GT_40.animated
+Signal(45).Load TTC_SRT\Grade Time_Station Time Control\SignalDoubleYGLunar_Static.animated
+Signal(46).Load TTC_SRT\Grade Time_Station Time Control\SignalDoubleR_GT_15.animated
+Signal(47).Load TTC_SRT\Grade Time_Station Time Control\SignalYG_GT10.animated
+Signal(48).Load TTC_SRT\Grade Time_Station Time Control\SignalDoubleYG_GT_20.animated
+Signal(49).Load TTC_SRT\Grade Time_Station Time Control\SignalDoubleYG_GT_15.animated
+Signal(50).Load TTC_SRT\Grade Time_Station Time Control\SignalDoubleYG_GT_25.animated
+Signal(51).Load TTC_SRT\Grade Time_Station Time Control\SignalDoubleR_GT_25.animated
+Signal(52).Load TTC_SRT\Grade Time_Station Time Control\SignalDoubleYG_GT_30.animated
+Signal(53).Load TTC_SRT\Grade Time_Station Time Control\SignalDoubleR_YY_GT_15.animated
+Signal(54).Load TTC_SRT\Grade Time_Station Time Control\SignalDoubleR_GT_20.animated
+Signal(55).Load TTC_SRT\Grade Time_Station Time Control\SignalDoubleYG_GT_15+.animated
+
+.Beacon(5).Load TTC_SRT\Beacon_S.csv
+
+Options.FogBehavior 1
+Options.ObjectVisibility 1
+Options.CantBehavior 1
+
+With Track
+;===========
+; Kennedy 0
+;===========
+0,.accuaracy 4,.freeobj 0;5057,.freeobj 0;5056,.buffer,.Sta Kennedy; 12.0000;;;B;0;0;;25;75;TTC_SRT\doorcls.wav;0,.back 2,.height 5,.ground 4,.Pitch 0,.railstart 1;0;0;8,.form 0;R;0  ,.form 1;L;0  ,.railtype 0;1 
+25,.freeobj 0;5056,.back 2,.height 5,.ground 4,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;0;0;8,.railtype 0;1 
+50,.freeobj 0;5056,.back 2,.height 5,.ground 4,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;0;0;8,.railtype 0;1 
+75,.freeobj 0;5056,.back 2,.height 5,.ground 4,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;0;0;8,.railtype 0;1 
+95,.stop 0,.freeobj 0;46;1.5;-0.144;-30
+95.1,.Limit 22,.Fog 875; 4000,
+100,.freeobj 0;130;-8.85,
+100,.freeobj 0;5056,.freeobj 0;530,.freeobj 0;283
+;========================
+;Kennedy-Lawrence East
+;========================
+125,.freeobj 1;5056,.railtype 0;8,.Curve 200,.freeobj 0;2000;0;0;-3.5,
+150,.freeobj 0;5058,.freeobj 0;5057,.Curve -190,.railtype 0;0,.rail 1;-1.4,.railtype 1;1,
+175,.Curve -100,.rail 1;-6,.railtype 1;0,.freeobj 0;5052
+200,.freeobj 0;5052,.Pitch -10
+225,.freeobj 0;5052
+250,.railtype 0;1,.freeobj 0;5052
+275,.freeobj 0;5052
+300,.Pitch -30,.freeobj 0;5052
+320,.Limit 120
+325,.Curve 0,.Pitch -35,.freeobj 0;5052,.railstart 2;18;-6;71 ,.freeobj 2;6006;5
+340,.freeobj 2;6005;-50;0;90
+350,.freeobj 0;5052,.rail 2;18;-5 ,.freeobj 2;6000
+375,.freeobj 0;5052,.rail 2;18;-4 
+375.5,.freeobj 2;6000
+400,.freeobj 0;5052,.rail 2;18;-3 
+401,.freeobj 2;6000
+425,.freeobj 0;5052,.rail 2;18;-2 
+426.5,.freeobj 2;6000
+445,.freeobj 0;6002 ,.freeobj 0;6003;0;8 ,.freeobj 0;6003;25;8 ,.freeobj 0;6003;-25;8 ,.freeobj 0;6003;-50;8
+448,.freeobj 2;6001
+450,.freeobj 0;5052,.rail 2;18;-1 
+470
+475,.Pitch 5,.Curve 4000,.freeobj 0;5052,.rail 2;18;-0
+480,.freeobj 0;6004;100;0;
+500,.freeobj 0;5051;-0;-0.15,.Curve 0,.height 1,.ground 1 ,.dike 0;1;12,.dike 1;-1;12
+600 ,.freeobj 0;6004;40;0;90;
+650 ,.dike 2;2;6
+670,.dike 1;-1;3
+700,.freeobj 1;9999
+750,.freeobj 1;9998
+800,.dike 0;1;3,.Curve -1000
+825,.Curve 0
+850,.Curve 1000
+875,.Curve 0,.Pitch 0
+920
+1400,.Curve -2000 ,.freeobj 1;9998
+1425,.Curve 0
+1650,.Pitch -9
+1875,.dikeend 2
+1880,.dikeend 1
+1885,.freeobj 0;6007;3;-1
+1975,.Pitch 0,.Curve 5000
+2000,.Curve 0
+2250,.Curve 5000
+2275,.Curve 0
+2425,.announce TTC_SRT\beep.wav
+2475,.Curve 500
+2575,.Curve 0
+;========================
+; Lawrence East 2600
+;========================
+2600,.freeobj 0;5055 ,.freeobj 1;9999,.Height 0.75,.Limit 45,.Sta Lawrence East;;;;R;0;0;0;15;75;;0,.back 2,.Pitch 0,.rail 1;-6;0;0,.form 0;R;0  ,.form 1;L;0  ,.railtype 0;1 
+,.freeobj 0;5054,.dikeend 0,.dikeend 1
+2600.1,.freeobj 0;130  ,.freeobj 1;130;-4,
+2625,.freeobj 0;5054,.back 2,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 ,.freeobj 1;9999
+2650,.freeobj 0;5054,.back 2,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+2670,.stop 0; 5; 30;2,.freeobj 0;280;1.5;-0.144;-30 ,.freeobj 1;9998
+2675,.freeobj 0;5054,.back 2,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+2695,.Limit 120,.stop 0; 5; 5;4,.freeobj 0;46;1.5;-0.144;-30
+2699.7,.freeobj 0;130  ,.freeobj 1;130;-4,
+2700,.freeobj 0;5055
+;========================
+; Lawrence East-Ellesmere
+;========================
+2750,.Curve -500
+2875,.Curve 0
+3575,.Curve -2000,.pitch 10
+3600,.curve 0
+3625,.curve 2000
+3650,.curve 0
+3675,.Pitch 0
+3800,.Curve 1000
+3825,.Curve 0
+3850,.Curve -1000
+3900,.Curve 0,.Pitch -9
+4250,.Pitch 2,.Curve -1000
+4275,.Curve 0
+4300,.announce TTC_SRT\beep.wav
+4325,.Curve 2500
+4425,.Curve 0,.Pitch 0
+;========================
+; Ellesmere 4600
+;========================
+4600,.freeobj 1;402;-41.5,.Pitch 0,.freeobj 0;5054,.freeobj 0;5055,.Sta Ellesmere;;;;R;0;0;0;15;75;;0,.back 2,.Pitch 0,.rail 1;-6;0;0,.form 0;R;0  ,.form 1;L;0  ,.railtype 0;1 
+4600.1,.freeobj 0;130  ,.freeobj 1;130;-4,
+4625,.freeobj 0;5054,.back 2,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+4650,.freeobj 0;5054,.back 2,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+4670,.stop 0; 5; 30;2,.freeobj 0;280;1.5;-0.144;-30
+4675,.rail 2;18;0.6,.freeobj 0;282,.freeobj 0;5054,.back 2,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+4695,.Stop 0; 5; 5;4,.freeobj 0;46;1.5;-0.144;-30
+4699.7,.freeobj 0;130  ,.freeobj 1;130;-4,.freeobj 1;402,.freeobj 1;402;-83
+4700,.freeobj 0;5055,
+;========================
+; Ellesmere-Midland
+;========================
+4700,.Pitch -30,.height 1.25,.rail 2;18;1.35
+4725,.rail 2;18;2.15
+4750,.rail 2;18;2.9
+4775,.rail 2;18;3.7
+4800,.Curve 250;20,.rail 2;18;4.37
+4825,.dike 0;0;0,.dike 1;-1;8,.freeobj 0;188  ,.ground 0,.rail 2;16.5;5.25
+4850,.rail 2;12.85;6.1
+4875,.railend 2;6;7
+4925,.Pitch 30
+4950,.back 1
+5025,.Pitch 30,.height 1
+5050,.dikeend 0,.dikeend 1,.ground 3,.height 0.75,
+5175,.Curve 0,.dike 0;1;10
+5450,.Pitch 1,.Limit 115
+5550,.announce TTC_SRT\beep.wav
+;========================
+; Midland 5600
+;========================
+5600,.freeobj 0;5054,.freeobj 0;5055,.height 20,.Pitch 0,.Sta Midland;;;;R;0;0;0;15;75;;0,.back 1,.Pitch 0,.rail 1;-6;0;0,.form 0;R;0  ,.form 1;L;0  ,.railtype 0;1,.dikeend 0
+5600.1,.freeobj 0;130  ,.freeobj 1;130;-4,
+5625,.freeobj 0;5054,.back 1,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+5650,.freeobj 0;5054,.back 1,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+5670,.stop 0; 5; 30;2,.freeobj 0;280;1.5;-0.144;30
+5675,.freeobj 0;5054,.back 1,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+5695,.Stop 0; 5; 5;4,.freeobj 0;46;1.5;-0.144;30
+5699.7,.freeobj 0;130  ,.freeobj 1;130;-4,
+5700,.freeobj 0;5055,.dike 0;1;10,.wall 0;1;2,.height 15,
+;========================
+; Midland-STC
+;========================
+5925,.Curve -400,.Pitch 20,.height 20,
+6050,.cURVE 0
+6200,.Curve 400
+6325,.curve 0
+6400,.Curve -1000,.Pitch 10,.height 28,
+6425,.Pitch 0,.height 29,
+6450,.Pitch -5,.Curve 0,.height 28,
+6600,.CUrve -1000,.Pitch 0,.height 25,
+6700,.Curve 0
+6900,.Curve 1000,.freeobj 0;401,.announce TTC_SRT\beep.wav
+;========================
+; STC 7000
+;========================
+7000,.wallend 0,.freeobj 0;5054,.freeobj 0;5055,.Curve 0,.height 25,.dikeend 0,.Sta Scarborough Centre;;;;R;0;0;0;30;3;;0,.back 1,.Pitch 0,.rail 1;-6;0;0,.form 0;R;0  ,.form 1;L;0  ,.railtype 0;1 
+7000.1,.freeobj 0;130  ,.freeobj 1;130;-4,
+7025,.freeobj 0;5054,.back 1,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+7050,.freeobj 0;5054,.back 1,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+7075,.freeobj 0;5054,.back 1,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+7095,.Stop 0;4;35,.freeobj 0;281;1.5;-0.144;30
+7124.9,.freeobj 0;130  ,.freeobj 1;130;-4,
+7100,.freeobj 0;5054,.back 1,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+7125,.height 25,.wall 0;1;2,.dike 0;1;10,.freeobj 0;5055,.Pitch 2,.Limit 60
+;========================
+; STC-McCowan
+;========================
+7150,.Curve 1000
+7250,.Curve 0
+7425,.Pitch -50,.height 25,
+7436.93,.freeobj 0;251;2.4;2.6
+7437,.freeobj 0;101
+7450,.curve 1000
+7575,.Curve 0,.Pitch -10,.height 15,
+7675,.wallend 0,.railstart 2;-6;0;8  ,.railstart 3;0;0;8  ,.pitch -2,.railtype 0;8   ,.railtype 1;8  ,.freeobj 0;2102 ,.freeobj 1;2003,.curve 0,
+7700,.railtype 0;6 ,.railtype 1;7 ,.railtype 2;5 ,.railtype 3;5 ,.rail 2;-4.45 ,.rail 3;-1.55
+7725,.rail 2;-1.55  ,.rail 3;-4.45 ,.railtype 0;8 ,.railtype 1;8 ,.railtype 2;8 ,.railtype 3;8
+7750,.rail 2;0;0  ,.rail 3;-6;0  ,.railend 2  ,.railend 3  ,.railtype 0;7   ,.railtype 1;6 ,.freeobj 0;2003;0;0;180, ,.freeobj 1;2102;;;180 
+7750,.railtype 0;1  ,.railtype 1;0  ,.curve 0 ,.freeobj 0;5003
+;========================
+; McCowan 7750
+;========================
+7750,.height 13,.freeobj 0;403,.wall 0;1;2,.freeobj 0;5054,.freeobj 0;5055,.dikeend 0,.Sta McCowan;;;;R;0;0;0;15;0;;0,.back 1,.Pitch 0,.rail 1;-6;0;0,.form 0;R;0  ,.form 1;L;0  ,.railtype 0;1 
+,.pitch 0
+7750.1,.freeobj 0;130  ,.freeobj 1;130;-4,
+7775,.freeobj 0;5054,.back 1,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+7800,.freeobj 0;5054,.back 1,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+7820,.announce TTC_SRT\beep.wav,.Stop 0; 5; 35; 2,.freeobj 0;280;-3.5;1.05
+7825,.freeobj 1;403,.freeobj 0;5054,.back 1,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+7845,.Stop 0; 4; 5; 4,.freeobj 0;46;-3.5;1.05
+7849.7,.freeobj 0;130  ,.freeobj 1;130;-4,
+7850,.freeobj 0;5055,.dike 0;1;10
+;========================
+; McCowan-Yard
+;========================
+;========================
+; McCowan Yard 8300
+;========================
+8300,.dikeend 0,.Sta McCowan Yard;;T;;R;0;0;0;15;0;;0,.back 1,.Pitch 0,.rail 1;-6;0;0,.form 0;R;0  ,.form 1;L;0  ,.railtype 0;1 
+8300.1,.freeobj 0;130  ,.freeobj 1;130;-4,
+8325,.back 1,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+8350,.back 1,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+8375,.back 1,.Pitch 0,.form 0;R;0  ,.form 1;L;0  ,.rail 1;-6;0;0,.railtype 0;1 
+8395,.stop 0
+8399.7,.freeobj 0;130  ,.freeobj 1;130;-4,
+8400,.dike 0;1;10

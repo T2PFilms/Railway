@@ -1,0 +1,506 @@
+;field stuff
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,0
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,0
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,0
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,-25
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,-25
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,-25
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,25
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,25
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,25
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,50
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,50
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,50
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,75
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,75
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,75
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,100
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,100
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,100
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,125
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,125
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,125
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,150
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,150
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,150
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,175
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,175
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,175
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,200
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,200
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,200
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,225
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,225
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,225
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,250
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,250
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,250
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,275
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,275
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,275
+
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,300
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,300
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,300
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,325
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,325
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,325
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,350
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,350
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,350
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,375
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,375
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,375
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,400
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,400
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,400
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,425
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,425
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,425
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,450
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,450
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,450
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,475
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,475
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,475
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,500
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,500
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,500
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,525
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,525
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,525
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,550
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,550
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,550
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,575
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,575
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,575
+
+
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,600
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,600
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,600
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,625
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,625
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,625
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,650
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,650
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,650
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,675
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,675
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,675
+
+
+
+
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,700
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,700
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,700
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,725
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,725
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,725
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,750
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,750
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,750
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,775
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,775
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,775
+
+
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,800
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,800
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,800
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,825
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,825
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,825
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,850
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,850
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,850
+
+
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -11,0,875
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -15,0,875
+
+[Include]
+Track\Tr_Ballast.csv
+Position = -19,0,875

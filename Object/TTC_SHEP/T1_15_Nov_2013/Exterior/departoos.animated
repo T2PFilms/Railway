@@ -1,0 +1,35 @@
+[Object]
+States = T1 Front Caboos.b3d,null.b3d
+Position = 0, 0, 515
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = -distance[1] * 0.95
+
+[Object]
+States = T1 Back Cab Nolighton.b3d,null.b3d
+Position = 0, 0, 492
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = -distance[1] * 0.95
+
+[Object]
+States = T1 Front Cab Nolighton.b3d,null.b3d
+Position = 0, 0, 469
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = -distance[1] * 0.95
+
+[Object]
+States = T1 Back Cab Nolighton.b3d,null.b3d
+Position = 0, 0, 446
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = -distance[1] * 0.95
+
+[Object]
+States = T1 Front Cab Nolighton.b3d,null.b3d
+Position = 0, 0, 423
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = -distance[1] * 0.95
+
+[Object]
+States = T1 Back Cab.b3d,null.b3d
+Position = 0, 0, 400
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = -distance[1] * 0.95

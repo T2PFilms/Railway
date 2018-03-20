@@ -1,0 +1,8 @@
+[MeshBuilder]
+
+Vertex   1.51, 3.25, 0
+Vertex   1.51, 3.25, 100
+Vertex   1.51, 2,  100
+Vertex   1.51, 2,  0
+Face2 3,2,1,0
+Color 0,0,0

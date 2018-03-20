@@ -1,0 +1,99 @@
+CreateMeshBuilder,
+AddVertex,2, 0, 0,
+AddVertex,2, 4, 0,
+AddVertex,2, 4, 12.5,
+AddVertex,2, 0, 12.5,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,ChainFence.bmp,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,0,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,2, 0, 12.5,
+AddVertex,2, 4, 12.5,
+AddVertex,2, 4, 25,
+AddVertex,2, 0, 25,
+AddFace2,0,1,2,3,
+;Right Side
+
+GenerateNormals,
+
+LoadTexture,ChainFence.bmp,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-2, 0, 25,
+AddVertex,-2, 4, 25,
+AddVertex,-2, 4, 0,
+AddVertex,-2, 0, 0,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,ChainFence.bmp,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+
+
+;road
+CreateMeshBuilder,
+AddVertex,-6, 0.0, 0,
+AddVertex,-16, 0.0, 0,
+AddVertex,-16, 0.0,25,
+AddVertex,-6, 0.0, 25,
+AddFace,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,Roadl.bmp,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+
+;bridge
+CreateMeshBuilder,
+Addvertex,-5,-.6,0,
+Addvertex,-5,-0.1,0,
+Addvertex,-17,-0.1,0,
+Addvertex,-17,-.6,0,
+Addface2,0,1,2,3,
+SetColor,139,132,113,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+Addvertex,-5,-0.1,0,
+Addvertex,-5,-0.1,25,
+Addvertex,-17,-0.1,25,
+Addvertex,-17,-0.1,0,
+Addface2,0,1,2,3,
+SetColor,139,132,113,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+Addvertex,-5,-0.1,0,
+Addvertex,-5,-.6,0,
+Addvertex,-5,-.6,25,
+Addvertex,-5,-0.1,25,
+Addface2,0,1,2,3,
+SetColor,139,132,113,
+
+
+GenerateNormals,
+

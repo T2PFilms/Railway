@@ -1,0 +1,42 @@
+;RIGHT DON MILLS STATION PLATFORM
+;15% CHANCE OF ENDING
+
+With Track
+;==================
+;Crossover
+;==================
+4950,.sigf 21;1;2;2.8,.Beacon(108; 5; 0; 4)
+
+4950,.Back 0,.adhesion 256,.Pitch 0,.freeobj 0;161,.freeobj 1;161,.dike 0;1;1  ,.dike 1;-1;1  ,.railstart 2;0;0;8  ,.railstart 3;-12;0;8 ,.freeobj 0;2100 ,.freeobj 1;2001 ,.dike 2;-1;9
+4955,.freeobj 0;62;1.8;2.2;3.65
+4975,.Curve 0,.rail 2;-1.55;;2 ,.rail 3;-10.5;;2 ,.dikeend 2 ,.dikeend 3 ,.freeobj 2;5008 ,.freeobj 3;5009,.railtype 0;3
+4990,.freeobj 2;5009 ,.freeobj 3;5008,,,,,,,,,,,,,,,,,,,,
+5000,.rail 2;-4.5 ,.rail 3;-7.5,,,,,,,,,,,,,,,,,,,,
+5006,.freeobj 0;5012 ,.freeobj 1;5012;5.5,,,,,,,,,,,,,,,,,,,,
+5020,.freeobj 2;5008 ,.freeobj 3;5009,,,,,,,,,,,,,,,,,,,,
+5025,.rail 2;-7.5 ,.rail 3;-4.5,,,,,,,,,,,,,,,,,,,,
+5035,.freeobj 2;5009 ,.freeobj 3;5008
+5050,.rail 2;-10.5;;8  ,.rail 3;-1.55;;8 ,.dike 3;-1;9 ,.freeobj 0;5013;-2,,,,,,,,,,,,,,,,,
+5065,.freeobj 0;46;1.8;2.4
+5075,.dikeend 3,.dike 0;0;12,.dike 1;0;9,.Dikeend 2,.railtype 0;3  ,.railtype 1;4 ,.freeobj 1;2100;;;180 ,.freeobj 0;2001;;;180 ,.railend 2;-12  ,.railend 3;0  ,.freeobj 0;69;0;0;0
+
+4950,.announce TTC_SHEP\crossyonge1_alt1.wav;20
+5050,.announce TTC_SHEP\crossyonger3.wav;35
+;===============================================================================
+; Don Mills 5125
+;===============================================================================
+
+5125,.sta Don Mills;;T;0;L;1;0;;180;75;;4
+
+5100,.pitch 2
+5119.5,.sigf 13;1;2.2;3.75,.sigf 13;1;-10.2;3.75,.Beacon(108; 5; 0; 17),.Beacon(108; 7; 0; -2),; Sc-0
+5125,.freeobj 0;351
+5125,.Pitch 0,.Pitch 0,.announce TTC_SHEP\bump.wav;45,.dikeend 0,.dikeend 1,.railtype 0;99,.railtype 1;99,.pitch 0 
+5220,.Stop 0;5;15
+5235,.freeobj 0;5005,.freeobj 1;5004,.announce TTC_SHEP\bump.wav;45
+5236,.sigf 322;1;2.2;3.75,.sigf 322;1;-10.2;3.75,.section 0
+5250,.railtype 0;3,.railtype 1;4
+;===============================================================================
+; Tailtracks 5225
+;===============================================================================
+5305,.buffer

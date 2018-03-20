@@ -1,0 +1,87 @@
+[MeshBuilder]
+Vertex -500,-50,-4
+Vertex -500,9,8
+Vertex -11,9,8
+Vertex -11,-50,-4
+Face 0,1,2,3
+Load GrassGround.png
+Coordinates 0,0,0
+Coordinates 1,0,2
+Coordinates 2,2,2
+Coordinates 3,2,0
+
+[MeshBuilder]
+Vertex -500,14,15
+Vertex -500,9,8
+Vertex 500,9,8
+Vertex 500,14,15
+Face 3,2,1,0,
+Load GrassGround.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,3,1
+Coordinates 3,3,0
+
+[MeshBuilder]
+Vertex -500,14,120
+Vertex -500,14,15
+Vertex 500,14,15
+Vertex 500,14,120
+Face 3,2,1,0,
+Load GrassGround.png
+Coordinates 0,0,0
+Coordinates 1,0,21
+Coordinates 2,43,21
+Coordinates 3,43,0
+
+[MeshBuilder]
+Vertex 5,-50,-4
+Vertex 5,9,8
+Vertex 500,9,8
+Vertex 500,-50,-4
+Face 0,1,2,3
+Load GrassGround.png
+Coordinates 0,0,0
+Coordinates 1,0,3
+Coordinates 2,3,3
+Coordinates 3,3,0
+
+[MeshBuilder]
+Vertex -11,9,8
+Vertex -11,5,7.18
+Vertex 5,5,7.18
+Vertex 5,9,8
+Face 3,2,1,0,
+Load GrassGround.png
+Coordinates 0,0,0
+Coordinates 1,0,1.25
+Coordinates 2,1.25,1.25
+Coordinates 3,1.25,0
+
+[MeshBuilder]
+Vertex -11,-0.25,6.14
+Vertex -11,-50,-4
+Vertex 5,-50,-4
+Vertex 5,-0.25,6.14
+Face 3,2,1,0,
+Load GrassGround.png
+Coordinates 0,0,0
+Coordinates 1,0,7.77
+Coordinates 2,1.25,7.77
+Coordinates 3,1.25,0
+
+[MeshBuilder]
+Vertex -500,-6,-195
+Vertex -500,-6,8
+Vertex 500,-6,8
+Vertex 500,-6,-195
+Face 0,1,2,3
+Load GrassGround.png
+Coordinates 0,0,0
+Coordinates 1,0,44
+Coordinates 2,44,44
+Coordinates 3,44,0
+
+
+
+

@@ -1,0 +1,14 @@
+[Object]
+States = WindowRain.csv
+TextureShiftYFunction = -0.05*time
+;TextureShiftXFunction = -0.6*time
+
+[Object]
+States = Window.csv
+Position = 0,0,0
+
+[Object]
+States = Windowv1.csv,Windowv3.csv,Windowv3.csv
+StateFunction = value == 0
+RefreshRate = 2
+Position = 0.1,0,0

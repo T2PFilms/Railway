@@ -1,0 +1,4 @@
+[Object]
+States = rain.csv
+TextureShiftYFunction = -3*time
+TextureShiftXFunction = -0.6*time

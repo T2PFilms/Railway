@@ -1,0 +1,116 @@
+;first pillars
+
+[meshbuilder]
+vertex -4,-0.5,5.75
+vertex -5,-0.5,5.75
+vertex -5,4.7,5.75
+vertex -4,4.7,5.75
+face2 0,1,2,3
+
+[texture]
+load pillarosgoode3.bmp
+coordinates 2,0,0
+coordinates 3,1,0
+coordinates 0,1,1
+coordinates 1,0,1
+
+[meshbuilder]
+vertex -4,-0.5,5.75
+vertex -4,4.7,5.75
+vertex -4,4.7,6.75
+vertex -4,-0.5,6.75
+face2 0,1,2,3
+
+[texture]
+load pillarosgoode3.bmp
+coordinates 2,1,0
+coordinates 1,0,0
+coordinates 0,0,1
+coordinates 3,1,1
+
+[meshbuilder]
+vertex -7,-0.5,5.75
+vertex -8,-0.5,5.75
+vertex -8,4.7,5.75
+vertex -7,4.7,5.75
+face2 0,1,2,3
+ 
+[texture]
+load pillarosgoode3.bmp
+coordinates 2,0,0
+coordinates 3,1,0
+coordinates 0,1,1
+coordinates 1,0,1
+
+[meshbuilder]
+vertex -7,-0.5,5.75
+vertex -7,4.7,5.75
+vertex -7,4.7,6.75
+vertex -7,-0.5,6.75
+face2 0,1,2,3
+
+[texture]
+load pillarosgoode3.bmp
+coordinates 2,1,0
+coordinates 1,0,0
+coordinates 0,0,1
+coordinates 3,1,1
+
+;second pillars
+
+[meshbuilder]
+vertex -4,-0.5,18.25
+vertex -5,-0.5,18.25
+vertex -5,4.7,18.25
+vertex -4,4.7,18.25
+face2 0,1,2,3
+
+[texture]
+load pillarosgoode3.bmp
+coordinates 2,0,0
+coordinates 3,1,0
+coordinates 0,1,1
+coordinates 1,0,1
+
+[meshbuilder]
+vertex -4,-0.5,18.25
+vertex -4,4.7,18.25
+vertex -4,4.7,19.25
+vertex -4,-0.5,19.25
+face2 0,1,2,3
+
+[texture]
+load pillarosgoode3.bmp
+coordinates 2,1,0
+coordinates 1,0,0
+coordinates 0,0,1
+coordinates 3,1,1
+
+[meshbuilder]
+vertex -7,-0.5,18.25
+vertex -8,-0.5,18.25
+vertex -8,4.7,18.25
+vertex -7,4.7,18.25
+face2 0,1,2,3
+ 
+[texture]
+load pillarosgoode3.bmp
+coordinates 2,0,0
+coordinates 3,1,0
+coordinates 0,1,1
+coordinates 1,0,1
+
+[meshbuilder]
+vertex -7,-0.5,18.25
+vertex -7,4.7,18.25
+vertex -7,4.7,19.25
+vertex -7,-0.5,19.25
+face2 0,1,2,3
+
+[texture]
+load pillarosgoode3.bmp
+coordinates 2,1,0
+coordinates 1,0,0
+coordinates 0,0,1
+coordinates 3,1,1
+

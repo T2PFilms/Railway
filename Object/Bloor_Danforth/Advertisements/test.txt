@@ -1,0 +1,6 @@
+I would like to reduce the amount of confusion from the community when downloading our future openBVE add-ons. I would like all future developments to be completely free of errors. It also allows openBVE to load faster, and errors to be easily identified. Here are instructions to freeing errors.
+
+Note to self: Post similar version of this in public boards for other developers
+
+[b][size=12pt]Trains[/size][/b]
+A train with errors has its object without any invalid commands. Any notes in the code must start with a semicolon. All commands must be for the object format. Please use the correct syntax. Here is an example of correct .b3d usage.

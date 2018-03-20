@@ -1,0 +1,23 @@
+﻿[Object]
+Position = 0, -2.65, 0
+States = SignalDoubleNoStick.csv
+
+[Object]
+Position = 0.1, 0.6,0
+States = SignalSingle_0.csv
+
+[Object]
+Position = 0.1, 0.6,0
+States = redglow.csv,redglow.csv,redglow.csv,blank.csv,redglow.csv,yellowglow.csv,yellowglow.csv,yellowglow.csv,greenglow.csv,greenglow.csv,greenglow.csv,greenglow.csv,greenglow.csv
+StateFunction = if[section==4 & trackDistance>=0.1,if[value < 8,value+1,if[value !=8,0,8]],2]
+RefreshRate = 0.8
+
+[Object]
+Position = 0.1, -0.5, 0
+States = SignalSingle_0.csv
+
+[Object]
+Position = 0.1, -0.5,0
+States = redglow.csv,redglow.csv,redglow.csv,redglow.csv,redglow.csv,greenglow.csv,greenglow.csv,greenglow.csv,greenglow.csv,greenglow.csv,redglow.csv
+StateFunction = if[section==4 & trackDistance>=0.1,if[value < 8,value+1,if[value !=8,0,8]],2]
+RefreshRate = 0.8

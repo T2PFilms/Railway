@@ -1,0 +1,18 @@
+TTC Bloor-Danforth Line
+Kennedy to Kipling
+
+We would like to thank everyone for thier support, during the development of this version.
+* Version has been downgraded
+
+V1.0 DEVELOPERS: Weilan Huang, John Marbella, Aljon Ramos
+V1.2 DEVELOPERS: Weilan Huang, John Marbella, Aljon Ramos
+V1.3 DEVELOPERS: Weilan Huang, Aljon Ramos
+V1.5* DEVELOPERS: Weilan Huang, John Marbella
+V2.0 DEVELOPERS: Weilan Huang, Aljon Ramos
+
+
+
+(KN-KP)V1.5 Special thanks to:
+Chris Torrance         - Resources & Version Tester
+Amanda Duchesne        - Resources & Version Tester
+Adam Budgell           - Version Tester

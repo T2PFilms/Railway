@@ -1,0 +1,148 @@
+;first pillars
+
+[meshbuilder]
+vertex -4,-0.5,5.75
+vertex -5,-0.5,5.75
+vertex -5,4.7,5.75
+vertex -4,4.7,5.75
+face2 0,1,2,3
+
+[texture]
+load pillarwilson2.bmp
+coordinates 2,0,0
+coordinates 3,1,0
+coordinates 0,1,1
+coordinates 1,0,1
+
+[meshbuilder]
+vertex -4,-0.5,5.75
+vertex -4,4.7,5.75
+vertex -4,4.7,6.75
+vertex -4,-0.5,6.75
+face2 0,1,2,3
+
+[texture]
+load pillarwilson1.bmp
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 0,0,1
+
+[meshbuilder]
+vertex -7,-0.5,5.75
+vertex -8,-0.5,5.75
+vertex -8,4.7,5.75
+vertex -7,4.7,5.75
+face2 0,1,2,3
+ 
+[texture]
+load pillarwilson2.bmp
+coordinates 2,0,0
+coordinates 3,1,0
+coordinates 0,1,1
+coordinates 1,0,1
+
+[meshbuilder]
+vertex -7,-0.5,5.75
+vertex -7,4.7,5.75
+vertex -7,4.7,6.75
+vertex -7,-0.5,6.75
+face2 0,1,2,3
+
+[texture]
+load pillarwilson1.bmp
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 0,0,1
+
+[meshbuilder]
+vertex -15,4.2,5.5
+vertex -15,4.7,5.5
+vertex 2.5,4.7,5.5
+vertex 2.5,4.2,5.5
+face 0,1,2,3
+color 83,67,68
+
+[meshbuilder]
+vertex -15,4.2,5.5
+vertex -15,4.2,7
+vertex 2.5,4.2,7
+vertex 2.5,4.2,5.5
+face2 0,1,2,3
+color 83,67,68
+
+;second pillars
+
+[meshbuilder]
+vertex -4,-0.5,18.25
+vertex -5,-0.5,18.25
+vertex -5,4.7,18.25
+vertex -4,4.7,18.25
+face2 0,1,2,3
+
+[texture]
+load pillarwilson2.bmp
+coordinates 2,0,0
+coordinates 3,1,0
+coordinates 0,1,1
+coordinates 1,0,1
+
+[meshbuilder]
+vertex -4,-0.5,18.25
+vertex -4,4.7,18.25
+vertex -4,4.7,19.25
+vertex -4,-0.5,19.25
+face2 0,1,2,3
+
+[texture]
+load pillarwilson1.bmp
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 0,0,1
+
+[meshbuilder]
+vertex -7,-0.5,18.25
+vertex -8,-0.5,18.25
+vertex -8,4.7,18.25
+vertex -7,4.7,18.25
+face2 0,1,2,3
+ 
+[texture]
+load pillarwilson2.bmp
+coordinates 2,0,0
+coordinates 3,1,0
+coordinates 0,1,1
+coordinates 1,0,1
+
+[meshbuilder]
+vertex -7,-0.5,18.25
+vertex -7,4.7,18.25
+vertex -7,4.7,19.25
+vertex -7,-0.5,19.25
+face2 0,1,2,3
+
+[texture]
+load pillarwilson1.bmp
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 0,0,1
+
+[meshbuilder]
+vertex -15,4.2,18
+vertex -15,4.7,18
+vertex 2.5,4.7,18
+vertex 2.5,4.2,18
+face 0,1,2,3
+color 83,67,68
+
+[meshbuilder]
+vertex -15,4.2,18
+vertex -15,4.2,19.5
+vertex 2.5,4.2,19.5
+vertex 2.5,4.2,18
+face2 0,1,2,3
+color 83,67,68
+

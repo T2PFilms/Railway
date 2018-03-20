@@ -1,0 +1,27 @@
+;Right Side
+
+;bridge
+[meshbuilder]
+vertex -2.5,-0.6,0
+vertex -2.5,-0.2,0
+vertex 2.5,-0.2,0
+vertex 2.5,-0.6,0
+face 0,1,2,3
+color 139,132,113
+
+[meshbuilder]
+vertex -2.5,-0.2,0
+vertex -2.5,-0.2,25
+vertex 2.5,-0.2,25
+vertex 2.5,-0.2,0
+face 0,1,2,3
+color 139,132,113
+
+[meshbuilder]
+vertex -2.5,-0.2,0
+vertex -2.5,-0.6,0
+vertex -2.5,-0.6,25
+vertex -2.5,-0.2,25
+face 0,1,2,3
+color 139,132,113
+

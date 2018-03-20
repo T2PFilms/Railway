@@ -1,0 +1,48 @@
+[MeshBuilder]
+Vertex 0.1,-0.15,0
+Vertex 0.1,0.33,0
+Vertex -0.1,0.33,0
+Vertex -0.1,-0.15,0
+Face2 0,1,2,3
+Color 130,130,130
+
+[MeshBuilder]
+Vertex 0.1,0.33,0
+Vertex 0.1,0.53,0
+Vertex -0.1,0.53,0
+Vertex -0.1,0.33,0
+Face2 0,1,2,3
+Color 0,0,255
+EmissiveColor 0,0,255
+
+[MeshBuilder]
+Cylinder 10, 0.2, 0.2,0.02
+Color 0,0,234
+EmissiveColor 0,0,234
+Rotate 1,0,0,90
+Translate 0,0.44,0
+BlendMode Additive, 25, DivideExponent2
+
+[MeshBuilder]
+Cylinder 10, 0.22, 0.22,0.02
+Color 0,0,234
+EmissiveColor 0,0,234
+Rotate 1,0,0,90
+Translate 0,0.44,0
+BlendMode Additive, 30, DivideExponent2
+
+[MeshBuilder]
+Cylinder 10, 0.5, 0.5,0.02
+Color 0,0,234
+EmissiveColor 0,0,234
+Rotate 1,0,0,90
+Translate 0,0.44,0
+BlendMode Additive, 38, DivideExponent2
+
+[MeshBuilder]
+Cylinder 10, 0.5, 0.5,0.02
+Color 0,0,234
+EmissiveColor 0,0,234
+Rotate 1,0,0,90
+Translate 0,0.44,0
+BlendMode Additive, 50, DivideExponent2

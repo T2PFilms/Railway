@@ -1,0 +1,120 @@
+;===================
+;Station Accesories
+;==================
+;Wall
+[Include]
+BayviewTrackWall.b3d
+Position = 0,0,0
+
+;Platform Sign
+[Include]
+formsign.csv
+Position = -4,0,0
+[Include]
+formsign.csv
+Position = -12,0,0
+[Include]
+formsign.csv
+Position = -4,0,110
+[Include]
+formsign.csv
+Position = -12,0,110
+
+;Name
+[include]
+lesliename.b3d
+Position = 2.48,2.1,12
+[include]
+lesliename.b3d
+Position = -14.48,2.1,12
+[include]
+lesliename.b3d
+Position = 2.48,2.1,34
+[include]
+lesliename.b3d
+Position = -14.48,2.1,34
+[include]
+lesliename.b3d
+Position = 2.48,2.1,66
+[include]
+lesliename.b3d
+Position = -14.48,2.1,66
+[include]
+lesliename.b3d
+Position = 2.48,2.1,98
+[include]
+lesliename.b3d
+Position = -14.48,2.1,98
+
+;GlassScreen
+[Include]
+SHEP_YUS\LeslieSign\glasscreenr1.b3d
+Position = -11.9,4.3,5
+
+[Include]
+SHEP_YUS\LeslieSign\glassscreenl1.b3d
+Position = -3.75,4.3,5
+
+[Include]
+SHEP_YUS\frame.b3d
+Position = -3.75,4.3,5
+
+[Include]
+SHEP_YUS\frame.b3d
+Position = -11.92,4.3,5
+
+[Include]
+SHEP_YUS\LeslieSign\glasscreenr1.b3d
+Position = -11.9,4.3,30
+
+[Include]
+SHEP_YUS\LeslieSign\glassscreenl1.b3d
+Position = -3.75,4.3,30
+
+[Include]
+SHEP_YUS\LeslieSign\glasscreenr1.b3d
+Position = -11.9,4.3,55
+
+[Include]
+SHEP_YUS\LeslieSign\glassscreenl1.b3d
+Position = -3.75,4.3,55
+
+[Include]
+SHEP_YUS\LeslieSign\glasscreenr1.b3d
+Position = -11.9,4.3,80
+
+[Include]
+SHEP_YUS\LeslieSign\glassscreenl1.b3d
+Position = -3.75,4.3,80
+;===================
+;Track
+;==================
+[Include]
+Track\Tr_Station3RRX.csv
+Position = 0,0,0
+[Include]
+Track\Tr_Station3RLX.csv
+Position = -12,0,0
+;=============
+; Tunnel
+;=============
+[Include]
+Walls\tun_middle_0.csv
+Position = 0,0,110.52
+[Include]
+Walls\tunnel01r.csv
+Position = 0,0,110
+
+[Include]
+Walls\reversedtunnel01r.csv
+Position = -12,0,110
+[Include]
+Walls\tunnel02l.csv
+Position = -12,0,110
+;=====================
+; Platform
+;=====================
+
+[include]
+platformleftfix.csv
+position = 0,0,0

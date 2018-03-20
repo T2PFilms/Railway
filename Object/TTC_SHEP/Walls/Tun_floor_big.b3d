@@ -1,0 +1,14 @@
+[MeshBuilder]
+Vertex         -6.3, -0.18, -75
+Vertex         -6.3, -0.18, 25
+Vertex        100, -0.18, 25
+Vertex        100, -0.18, -75
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_dark2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 4, 0
+Coordinates 2, 4, 12
+Coordinates 3, 0, 12

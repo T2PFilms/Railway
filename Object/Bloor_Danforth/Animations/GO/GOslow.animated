@@ -1,0 +1,33 @@
+;Toronto Rocket
+
+
+[Object]
+States = GOCAB.b3d
+Position = 0,0,0
+RotateYFunction = 185.35
+TranslateZFunction = mod[-9 * time, 750]
+[Object]
+States = GOCAB.b3d
+Position = 0,0,-25.5
+RotateYFunction = 185.35
+TranslateZFunction = mod[-9 * time, 750]
+[Object]
+States = GOCAB.b3d
+Position = 0,0,-51
+RotateYFunction = 185.35
+TranslateZFunction = mod[-9 * time, 750]
+[Object]
+States = GOCAB.b3d
+Position = 0,0,-76.5
+RotateYFunction = 185.35
+TranslateZFunction = mod[-9 * time, 750]
+[Object]
+States = GOCAB.b3d
+Position = 0,0,-102
+RotateYFunction = 185.35
+TranslateZFunction = mod[-9 * time, 750]
+[Object]
+States = GOCAB.b3d
+Position = 0,0,-127.5
+RotateYFunction = 185.35
+TranslateZFunction = mod[-9 * time, 750]

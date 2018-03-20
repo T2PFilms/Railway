@@ -1,0 +1,12 @@
+[MESHBUILDER]
+Vertex       -0.087,+0.345,-0.039
+Vertex       +0.087,+0.345,-0.039
+Vertex       +0.087,-0.345,-0.039
+Vertex       -0.087,-0.345,-0.039
+Face                      0,1,2,3
+Transparent       000,255,000;Grn
+Load      Lamp~EOTD~BRKx_Bulb.GIF,Lamp~EOTD~BRKx_Bulb.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000

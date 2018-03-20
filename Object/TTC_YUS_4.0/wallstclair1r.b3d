@@ -1,0 +1,191 @@
+[meshbuilder]
+vertex 5,-0.5,0
+vertex 5,4.7,0
+vertex 5,4.7,25
+vertex 5,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load wallstclair1.bmp
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 0,1,1
+Transparent 0,255,0
+
+[meshbuilder]
+vertex 5,-0.5,25
+vertex 5,4.7,25
+vertex 30,4.7,25
+vertex 30,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load wallstclair.bmp
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 0,1,1
+
+[meshbuilder]
+vertex 7.5,-0.5,0
+vertex 7.5,4.7,0
+vertex 7.5,4.7,25
+vertex 7.5,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load wallstclair.bmp
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 0,1,1
+
+;middle pillars
+
+[meshbuilder]
+vertex -2.25,-0.5,0
+vertex -2.25,-0.5,4
+vertex -2.25,4.7,4
+vertex -2.25,4.7,0
+face2 0,1,2,3
+color 32,32,32
+
+[meshbuilder]
+vertex -2.75,-0.5,0
+vertex -2.25,-0.5,0
+vertex -2.25,4.7,0
+vertex -2.75,4.7,0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -2.25,-0.5,12.5
+vertex -2.25,-0.5,16.5
+vertex -2.25,4.7,16.5
+vertex -2.25,4.7,12.5
+face2 0,1,2,3
+color 32,32,32
+
+[meshbuilder]
+vertex -2.75,-0.5,12.5
+vertex -2.25,-0.5,12.5
+vertex -2.25,4.7,12.5
+vertex -2.75,4.7,12.5
+face2 0,1,2,3
+color 0,0,0
+
+;middle no smoking sign 1
+
+[meshbuilder]
+vertex -2.25,1.5,1.5
+vertex -2.25,2.5,1.5
+vertex -2.15,2.5,1.5
+vertex -2.15,1.5,1.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,2.5,1.5
+vertex -2.25,2.5,2.5
+vertex -2.15,2.5,2.5
+vertex -2.15,2.5,1.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,2.5,2.5
+vertex -2.25,1.5,2.5
+vertex -2.15,1.5,2.5
+vertex -2.15,2.5,2.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,1.5,1.5
+vertex -2.25,1.5,2.5
+vertex -2.15,1.5,1.5
+vertex -2.15,1.5,1.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,1.5,1.5
+vertex -2.25,1.5,2.5
+vertex -2.25,2.5,2.5
+vertex -2.25,2.5,1.5
+face 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.15,1.5,1.5
+vertex -2.15,1.5,2.5
+vertex -2.15,2.5,2.5
+vertex -2.15,2.5,1.5
+face2 0,1,2,3
+
+[texture]
+Load nosmoking.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+
+;middle stand back sign 1
+
+[meshbuilder]
+vertex -2.25,3,1.5
+vertex -2.25,4,1.5
+vertex -2.15,4,1.5
+vertex -2.15,3,1.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,4,1.5
+vertex -2.25,4,2.5
+vertex -2.15,4,2.5
+vertex -2.15,4,1.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,4,2.5
+vertex -2.25,3,2.5
+vertex -2.15,3,2.5
+vertex -2.15,4,2.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,3,1.5
+vertex -2.25,3,2.5
+vertex -2.15,3,1.5
+vertex -2.15,3,1.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,3,1.5
+vertex -2.25,3,2.5
+vertex -2.25,4,2.5
+vertex -2.25,4,1.5
+face 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.15,3,1.5
+vertex -2.15,3,2.5
+vertex -2.15,4,2.5
+vertex -2.15,4,1.5
+face2 0,1,2,3
+
+[texture]
+Load standback.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+
+
+

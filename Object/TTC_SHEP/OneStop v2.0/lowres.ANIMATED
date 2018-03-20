@@ -1,0 +1,10 @@
+;-------------------
+;FRAME
+;-------------------
+[Include]
+frame.csv
+Position = 0,0,0
+
+[Include]
+original.csv
+Position = 0,0,0

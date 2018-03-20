@@ -1,0 +1,404 @@
+[Include]
+keelewall.csv
+position = 0, 0, 0
+
+[Include]
+keelewall.csv
+position = 0, 0, 25
+
+[Include]
+keelewall.csv
+position = 0, 0, 50
+
+[Include]
+keelewall.csv
+position = 0, 0, 75
+
+[Include]
+keelewall.csv
+position = 0, 0, 100
+
+[Include]
+keelewall.csv
+position = 0, 0, 125
+
+;------------
+;rails
+;------------
+[Include]
+Track\Tr_Station3rl.csv
+position = 0, 0, 0
+
+[Include]
+Track\Tr_Station3rr.csv
+position = -6, 0, 0
+
+[Include]
+Track\Tr_Station3rl.csv
+position = 0, 0, 25
+
+[Include]
+Track\Tr_Station3rr.csv
+position = -6, 0, 25
+
+[Include]
+Track\Tr_Station3rl.csv
+position = 0, 0, 50
+
+[Include]
+Track\Tr_Station3rr.csv
+position = -6, 0, 50
+
+
+[Include]
+Track\Tr_Station3rl.csv
+position = 0, 0, 75
+
+[Include]
+Track\Tr_Station3rr.csv
+position = -6, 0, 75
+
+[Include]
+Track\Tr_Station3rl.csv
+position = 0, 0, 100
+
+[Include]
+Track\Tr_Station3rr.csv
+position = -6, 0, 100
+
+[Include]
+Track\Tr_Station3rl.csv
+position = 0, 0, 125
+
+[Include]
+Track\Tr_Station3rr.csv
+position = -6, 0, 125
+
+
+;platform
+[include]
+staform01r.csv
+position = 0, 0, 0
+
+[include]
+staform01l.csv
+position = -6, 0, 0
+
+[include]
+staform01cr.csv
+position = 0, 0, 0
+
+[include]
+staform01cl.csv
+position = -6, 0, 0
+
+
+
+[include]
+staform01r.csv
+position = 0, 0, 25
+
+[include]
+staform01l.csv
+position = -6, 0, 25
+
+[include]
+staform01cr.csv
+position = 0, 0, 25
+
+[include]
+staform01cl.csv
+position = -6, 0, 25
+
+
+
+[include]
+staform01r.csv
+position = 0, 0, 50
+
+[include]
+staform01l.csv
+position = -6, 0, 50
+
+[include]
+staform01cr.csv
+position = 0, 0, 50
+
+[include]
+staform01cl.csv
+position = -6, 0, 50
+
+
+
+
+
+[include]
+staform01r.csv
+position = 0, 0, 75
+
+[include]
+staform01l.csv
+position = -6, 0, 75
+
+[include]
+staform01cr.csv
+position = 0, 0, 75
+
+[include]
+staform01cl.csv
+position = -6, 0, 75
+
+
+
+
+[include]
+staform01r.csv
+position = 0, 0, 100
+
+[include]
+staform01l.csv
+position = -6, 0, 100
+
+[include]
+staform01cr.csv
+position = 0, 0, 100
+
+[include]
+staform01cl.csv
+position = -6, 0, 100
+
+
+
+
+[include]
+staform01r.csv
+position = 0, 0, 125
+
+[include]
+staform01l.csv
+position = -6, 0, 125
+
+[include]
+staform01cr.csv
+position = 0, 0, 125
+
+[include]
+staform01cl.csv
+position = -6, 0, 125
+
+
+;wall
+;ple
+[include]
+station02rk.csv
+position = 0, 0, 0
+
+[include]
+station02lk.csv
+position = -6, 0, 0
+
+
+[include]
+station02rk.csv
+position = 0, 0, 25
+
+[include]
+station02lk.csv
+position = -6, 0, 25
+
+
+[include]
+station02rk.csv
+position = 0, 0, 50
+
+[include]
+station02lk.csv
+position = -6, 0, 50
+
+[include]
+station02rk.csv
+position = 0, 0, 75
+
+[include]
+station02lk.csv
+position = -6, 0, 75
+
+
+[include]
+station02rk.csv
+position = 0, 0, 100
+
+[include]
+station02lk.csv
+position = -6, 0, 100
+
+[include]
+station02rk.csv
+position = 0, 0, 125
+
+[include]
+station02lk.csv
+position = -6, 0, 125
+
+
+;Platform Signs
+
+[include]
+formsign.csv
+position = -9.9, 0, 0.1
+
+[include]
+formsign.csv
+position = -0.1, 0, 0.1
+
+[include]
+formsign.csv
+position = -9.9, 0, 149.9
+
+[include]
+formsign.csv
+position = -0.1, 0, 149.9
+
+;end
+[include]
+keelestairsend.b3d
+position = 0, 0, 0
+
+[include]
+wallkeeleend.csv
+position = 0, 0, 150
+
+[include]
+keelesign1.b3d
+Position = 4.95, 2.2, 139.7
+
+[include]
+keelesign0.b3d
+Position = -11.2, 2.2, 139.7
+
+
+[include]
+keelebase.b3d
+Position = -3, 0, 0
+
+[include]
+keelebase.b3d
+Position = -3, 0, 25
+
+[include]
+keelebase.b3d
+Position = -3, 0, 50
+
+[include]
+keelebase.b3d
+Position = -3, 0, 75
+
+[include]
+keelebase.b3d
+Position = -3, 0, 100
+
+[include]
+keelebase.b3d
+Position = -3, 0, 125
+
+
+
+;keele post
+[include]
+signalpost.csv
+position = -5.525, -1.15, 121
+
+[include]
+keelehigh.b3d
+position = -2.81,2.4,120.2
+
+
+[include]
+signalpost.csv
+position = -5.525, -1.15, 71
+
+[include]
+keelehigh.b3d
+position = -2.81,2.4, 70.2
+
+
+[include]
+signalpost.csv
+position = -5.525, -1.15, 21
+
+[include]
+keelehigh.b3d
+position = -2.81,2.4, 20.2
+
+
+
+;signs
+[include]
+standback.csv
+position = -3,2,-0.5
+
+[include]
+signalpost.csv
+position = -5.65, -1.15, 0.46
+
+[include]
+standback.csv
+position = -3,2,49.5
+
+[include]
+signalpost.csv
+position = -5.65, -1.15, 50.46
+
+[include]
+standback.csv
+position = -3,2,146.5
+
+[include]
+signalpost.csv
+position = -5.65, -1.15, 147.46
+
+
+[include]
+nosmoking.csv
+position = -3,2,3.5
+
+[include]
+signalpost.csv
+position = -5.65, -1.15, 4.46
+
+
+[include]
+nosmoking.csv
+position = -3,2,53.5
+
+[include]
+signalpost.csv
+position = -5.65, -1.15, 54.46
+
+[include]
+nosmoking.csv
+position = -3,2,53.5
+
+[include]
+signalpost.csv
+position = -5.65, -1.15, 54.46
+
+[include]
+nosmoking.csv
+position = -3,2,94.5
+
+[include]
+signalpost.csv
+position = -5.65, -1.15, 95.46
+
+[include]
+light.csv
+position = 0, 0, -25
+
+[include]
+keelesign.csv
+position = 1.91,3.9,0.9
+
+[include]
+keelesign.csv
+position = -9.41,3.9,0.9

@@ -1,0 +1,159 @@
+[MeshBuilder]
+Vertex -10,0,0
+Vertex 10,0,0
+Vertex 10,0,500
+Vertex -10,0,500
+face2 0,1,2,3
+Load bloor.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,111,1
+Coordinates 3,111,0
+
+[MeshBuilder]
+Vertex -10.15,-0.3,0
+Vertex 10.15,-0.3,0
+Vertex 10.15,-0.3,500
+Vertex -10.15,-0.3,500
+face2 0,1,2,3
+color 80,72,50
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,111
+Coordinates 2,111,111
+Coordinates 3,111,0
+
+
+[MeshBuilder]
+Vertex 10,-0.3,0
+Vertex 10,0.4,0
+Vertex 10,0.4,500
+Vertex 10,-0.3,500
+face2 0,1,2,3
+color 80,72,50
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,111
+Coordinates 2,111,111
+Coordinates 3,111,0
+
+[MeshBuilder]
+Vertex 10,0.4,0
+Vertex 10.15,0.4,0
+Vertex 10.15,0.4,500
+Vertex 10,0.4,500
+face2 0,1,2,3
+color 80,72,50
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,111
+Coordinates 2,111,111
+Coordinates 3,111,0
+
+[MeshBuilder]
+Vertex 10.15,-0.3,0
+Vertex 10.15,0.4,0
+Vertex 10.15,0.4,500
+Vertex 10.15,-0.3,500
+face2 0,1,2,3
+color 80,72,50
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,111
+Coordinates 2,111,111
+Coordinates 3,111,0
+
+
+
+[MeshBuilder]
+Vertex -10,0.4,0
+Vertex -10.15,0.4,0
+Vertex -10.15,0.4,500
+Vertex -10,0.4,500
+face2 0,1,2,3
+color 80,72,50
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,111
+Coordinates 2,111,111
+Coordinates 3,111,0
+
+[MeshBuilder]
+Vertex -10.15,-0.3,0
+Vertex -10.15,0.4,0
+Vertex -10.15,0.4,500
+Vertex -10.15,-0.3,500
+face2 0,1,2,3
+color 80,72,50
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,111
+Coordinates 2,111,111
+Coordinates 3,111,0
+
+
+[MeshBuilder]
+Vertex -10.07,0.4,0
+Vertex -10.07,2.5,0
+Vertex -10.07,2.5,500
+Vertex -10.07,0.4,500
+face2 0,1,2,3
+Transparent 0,0,0
+Load chainfencedark.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,415,0
+Coordinates 3,415,1
+
+
+[MeshBuilder]
+Vertex 10.07,0.4,0
+Vertex 10.07,2.5,0
+Vertex 10.07,2.5,500
+Vertex 10.07,0.4,500
+face2 0,1,2,3
+Transparent 0,0,0
+Load chainfencedark.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,415,0
+Coordinates 3,415,1
+
+
+
+;beams again.... :P
+
+[MeshBuilder]
+Cube 0.25, 0.25, 250
+Color 40,40,40
+Translate 9.5,-1.25,250
+
+[MeshBuilder]
+Cube 0.25, 0.25, 250
+Color 40,40,40
+Translate -9.5,-1.25,250
+
+
+
+[MeshBuilder]
+Cube 0.25, 0.25, 250
+Color 40,40,40
+Translate 9.5,-3.25,250
+
+[MeshBuilder]
+Cube 0.25, 0.25, 250
+Color 40,40,40
+Translate -9.5,-3.25,250
+
+
+[MeshBuilder]
+Cube 0.25, 0.25, 250
+Color 40,40,40
+Translate 9.5,-6.25,250
+
+[MeshBuilder]
+Cube 0.25, 0.25, 250
+Color 40,40,40
+Translate -9.5,-6.25,250
+
+

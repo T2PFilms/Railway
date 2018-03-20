@@ -1,0 +1,110 @@
+;rear wall
+[meshbuilder]
+vertex -7,-0.5,0
+vertex -7,4.7,0
+vertex -7,4.7,25
+vertex -7,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load wallrosedale.bmp
+coordinates 2,1,0
+coordinates 1,0,0
+coordinates 0,0,1
+coordinates 3,1,1
+
+;roof
+[meshbuilder]
+vertex -1.5,4.7,0
+vertex -1.5,5.2,0
+vertex -7,5.2,0
+vertex -7,4.7,0
+face2 0,1,2,3
+color 88,66,87
+
+[meshbuilder]
+vertex -1.5,4.7,0
+vertex -1.5,5.2,0
+vertex -1.5,5.2,25
+vertex -1.5,4.7,25
+face2 0,1,2,3
+color 88,66,87
+
+[meshbuilder]
+vertex -1.5,4.7,0
+vertex -1.5,4.7,25
+vertex -7,4.7,25
+vertex -7,4.7,0
+face2 0,1,2,3
+color 80,58,79
+
+;inner post
+
+[meshbuilder]
+vertex -2.5,0,12
+vertex -2.5,1.8,12
+vertex -3.5,1.8,12
+vertex -3.5,0,12
+face2 0,1,2,3
+color 205,195,187
+
+[meshbuilder]
+vertex -2.5,0,12
+vertex -2.5,1.8,12
+vertex -2.5,1.8,13
+vertex -2.5,0,13
+face2 0,1,2,3
+color 205,195,187
+
+[meshbuilder]
+vertex -2.5,1.8,12
+vertex -2.5,4.8,12
+vertex -3.5,4.8,12
+vertex -3.5,1.8,12
+face2 0,1,2,3
+color 66,134,0
+
+[meshbuilder]
+vertex -2.5,1.8,12
+vertex -2.5,4.8,12
+vertex -2.5,4.8,13
+vertex -2.5,1.8,13
+face2 0,1,2,3
+color 66,134,0
+
+;outer post
+
+[meshbuilder]
+vertex -5.5,0,12
+vertex -5.5,1.8,12
+vertex -6.5,1.8,12
+vertex -6.5,0,12
+face2 0,1,2,3
+color 205,195,187
+
+[meshbuilder]
+vertex -5.5,0,12
+vertex -5.5,1.8,12
+vertex -5.5,1.8,13
+vertex -5.5,0,13
+face2 0,1,2,3
+color 205,195,187
+
+[meshbuilder]
+vertex -5.5,1.8,12
+vertex -5.5,4.8,12
+vertex -6.5,4.8,12
+vertex -6.5,1.8,12
+face2 0,1,2,3
+color 66,134,0
+
+[meshbuilder]
+vertex -5.5,1.8,12
+vertex -5.5,4.8,12
+vertex -5.5,4.8,13
+vertex -5.5,1.8,13
+face2 0,1,2,3
+color 66,134,0
+
+
+

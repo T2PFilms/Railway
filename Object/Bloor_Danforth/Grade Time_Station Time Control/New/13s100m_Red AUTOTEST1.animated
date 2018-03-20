@@ -1,0 +1,29 @@
+[Object]
+Position = 0, -2.65, 0
+States = SignalSingle_GT.csv
+
+[Object]
+Position = 0, 0,0
+States = LRed.csv,blank.csv,LRed.csv,blank.csv,LRed.csv,blank.csv,LRed.csv,blank.csv,LRed.csv,blank.csv,LRed.csv,blank.csv,LRed.csv,LYellow.csv
+StateFunction = if[value < 13 & distance < 100 & section>=2,value+1,if[value != 13,0,13]]
+RefreshRate = 0.9
+
+;[Object]
+;Position = 0, 0,0
+;States = blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,LYellow.csv
+;StateFunction = if[value < 13 & distance < 100 &  Or[section>=2,section==2],value+1,if[value != 13,0,13]]
+;TranslateXFunction = if[value >= 13 & distance < 100 & section>=2,section-2,0]
+;RefreshRate = 0.9
+
+;[Object]
+;Position = 0, 0,0
+;States = blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,LGreen.csv
+;StateFunction = if[value < 13 & distance < 100 & Or[section>=2,section==4],value+1,if[value != 13,0,13]]
+;TranslateXFunction = if[value >= 13 & distance < 100 & section>=2,section-4,0]
+;RefreshRate = 0.9
+
+
+
+[Object]
+Position = 0, 0, 0
+States = Default.csv

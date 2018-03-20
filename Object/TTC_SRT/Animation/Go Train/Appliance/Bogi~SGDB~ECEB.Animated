@@ -1,0 +1,26 @@
+;BogieTruck ~Standard Gaug DieselLocomotive 2PowrAxles ~EMD Clyde Export endA|B, For 1952|Later EMD Export Locos
+;Gaug=4.708f 1.435m,Diam=3.333f 1.016m,Base=8.000f 2.438m
+;Set At *.ANIMATED [Include] Position=+0,+0,+|-DimZ@Centr
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;BVE|OpenBVE files have no registered copyrights|patents,
+;are public domain, & free to copy|distribute|modify|use.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]
+States=Bogi~SGDB~ECEx_Bols.B3D
+Position=+0.000,+0.508,+0.000                ;DimX=+0.0,DimY=+0.5*Whel_Diam,DimZ=+0.0
+
+[OBJECT]
+States=Bogi~SGDB~ECEx_SidL.B3D
+Position=+0.000,+0.508,+0.000                ;DimX=+0.0,DimY=+0.5*Whel_Diam,DimZ=+0.0
+[OBJECT]
+States=Bogi~SGDB~ECEx_SidR.B3D
+Position=+0.000,+0.508,+0.000                ;DimX=+0.0,DimY=+0.5*Whel_Diam,DimZ=+0.0
+
+[OBJECT]
+States=Bogi~SGDB~ECEx_Whls.B3D
+Position=+0.000,+0.508,+1.219                ;DimX=+0.0,DimY=+0.5*Whel_Diam,DimZ=+0.5*Whel_Base
+RotateXFunction=Value+((Delta*Speed)/0.508)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.5*Whel_Diam))
+[OBJECT]
+States=Bogi~SGDB~ECEx_Whls.B3D
+Position=+0.000,+0.508,-1.219                ;DimX=+0.0,DimY=+0.5*Whel_Diam,DimZ=-0.5*Whel_Base
+RotateXFunction=Value+((Delta*Speed)/0.508)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.5*Whel_Diam))

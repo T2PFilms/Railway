@@ -1,0 +1,39 @@
+[MeshBuilder]
+Vertex -19, 7.05, 0
+Vertex 7, 7.05, 0
+Vertex 7, 7.05, 25
+Vertex -19, 7.05, 25
+Face 3,2,1,0
+Load bloorstreeteast.png
+coordinates 0,5,0
+coordinates 1,5,1
+coordinates 2,0,1
+coordinates 3,0,0
+
+
+[MeshBuilder]
+Vertex -19, 7.05, 0
+Vertex -21.1, 16.55, 0
+Vertex -21.1, 16.55, 25
+Vertex -19, 7.05, 25
+Face2 3,2,1,0
+Load suicideprevention.png
+coordinates 0,50,0
+coordinates 1,50,1
+coordinates 2,0,1
+coordinates 3,0,0
+Transparent 0, 255, 0
+
+
+[MeshBuilder]
+Vertex 7, 7.05, 0
+Vertex 9.1, 16.55, 0
+Vertex 9.1, 16.55, 25
+Vertex 7, 7.05, 25
+Face2 3,2,1,0
+Load suicideprevention.png
+coordinates 0,50,0
+coordinates 1,50,1
+coordinates 2,0,1
+coordinates 3,0,0
+Transparent 0, 255, 0

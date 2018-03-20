@@ -1,0 +1,28 @@
+;BogiTruck ~Standard Gaug Psgr 2WagnAxles ~American 19.3mT/Axle endA|B, 1993 GeneralSteelCastings.G365|G70 For Bomb.SuperLiner2+MK.CaCar+Alst.SurfLiner
+;Gaug=4.708f 1.435m,Diam=3.000f 0.914m,Base=8.500f 2.591m
+;Set At *.ANIMATED [Include] Position=+0,+0,+|-DimZ@Cntrs
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;BVE|OpenBVE files have no registered copyrights|patents,
+;are public domain, & free to copy|distribute|modify|use.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]
+States=Bogi~SGP2~A19x_Bols.B3D
+Position=+0.000,+0.457,+0.000                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.0
+
+[OBJECT]
+States=Bogi~SGP2~A19x_SidL.B3D
+Position=+0.000,+0.457,+0.000                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.0
+RotateYFunction=3.142
+[OBJECT]
+States=Bogi~SGP2~A19x_SidR.B3D
+Position=+0.000,+0.457,+0.000                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.0
+RotateYFunction=3.142
+
+[OBJECT]
+States=Bogi~SGP2~A19x_Whls.B3D
+Position=+0.000,+0.457,+1.295                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=+0.5*Base
+RotateXFunction=Value+((Delta*Speed)/0.457)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.5*Diam))
+[OBJECT]
+States=Bogi~SGP2~A19x_Whls.B3D
+Position=+0.000,+0.457,-1.295                ;DimX=+0.0,DimY=+0.5*Diam,DimZ=-0.5*Base
+RotateXFunction=Value+((Delta*Speed)/0.457)  ;Angl=Last+((DeltaSecs*Metr/Secs)/(+0.5*Diam))

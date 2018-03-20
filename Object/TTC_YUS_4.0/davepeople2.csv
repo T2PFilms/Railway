@@ -1,0 +1,15 @@
+CreateMeshBuilder,
+AddVertex,2, 3, 76,
+AddVertex,2, 1.1, 76,
+AddVertex,2, 1.1, -50,
+AddVertex,2, 3, -50,
+AddFace2,3,0,1,2,
+
+LoadTexture,people2.bmp,
+SetTextureCoordinates,3, 25, 0,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0, 1,
+SetTextureCoordinates,2, 25, 1,
+SetDecalTransparentColor,0,0,0,
+RotateAll,0,90,0,90
+TranslateAll,0,0,2.525

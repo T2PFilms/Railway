@@ -1,0 +1,135 @@
+CreateMeshBuilder,
+AddVertex,2.5, 4.7, 0,
+AddVertex,2.5, 4.7, 25.5,
+AddVertex,-2.5, 4.75, 25.5,
+AddVertex,-2.5, 4.75, 0,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+
+GenerateNormals,
+
+LoadTexture,Tun_ceiling_2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;wall
+CreateMeshBuilder,
+AddVertex,2.5, 4.7, 25.5,
+AddVertex,2.5, 4.7, 0,
+AddVertex,2.5, -0.15, 0,
+AddVertex,2.5, -0.15, 25.5,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+
+GenerateNormals,
+
+LoadTexture,Tun_outer_2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;lights
+CreateMeshBuilder,
+AddVertex,2.35, 4.7, 25.5,
+AddVertex,2.35, 4.7, 0,
+AddVertex,2.5, 4.55, 0,
+AddVertex,2.5, 4.55, 25.5,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+
+GenerateNormals,
+
+LoadTexture,Tun_lights_2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;First light
+
+CreateMeshBuilder,
+AddVertex,2.39, 4.65, 5.8,
+AddVertex,2.375, 4.6, 5.8,
+AddVertex,2.38, 4.58, 5.8,
+AddVertex,2.4, 4.575, 5.8,
+AddVertex,2.45, 4.59, 5.8,
+AddVertex,2.45, 4.59, 7.1,
+AddVertex,2.4, 4.575, 7.1,
+AddVertex,2.38, 4.58, 7.1,
+AddVertex,2.375, 4.6, 7.1,
+AddVertex,2.39, 4.65, 7.1,
+AddFace,0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+SetEmissiveColor,255,255,255,
+
+;Second light
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,2.39, 4.65, 18.4,
+AddVertex,2.375, 4.6, 18.4,
+AddVertex,2.38, 4.58, 18.4,
+AddVertex,2.4, 4.575, 18.4,
+AddVertex,2.45, 4.59, 18.4,
+AddVertex,2.45, 4.59, 19.7,
+AddVertex,2.4, 4.575, 19.7,
+AddVertex,2.38, 4.58, 19.7,
+AddVertex,2.375, 4.6, 19.7,
+AddVertex,2.39, 4.65, 19.7,
+AddFace,0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+SetEmissiveColor,255,255,255,
+
+
+;ledge
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,2.5, 0.3, 25.5,
+AddVertex,2.5, 0.3, 0,
+AddVertex,1.875, 0.3, 0,
+AddVertex,1.875, 0.3, 25.5,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+
+GenerateNormals,
+
+LoadTexture,Tun_ledge_top.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 2, 0,
+SetTextureCoordinates,2, 2, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,1.875, 0.3, 25.5,
+AddVertex,1.875, 0.3, 0,
+AddVertex,1.875, -0.15, 0,
+AddVertex,1.875, -0.15, 25.5,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+
+GenerateNormals,
+
+LoadTexture,Tun_dark.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 8, 0,
+SetTextureCoordinates,2, 8, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,1.875, 0.3, 0,
+AddVertex,2.5, 0.3, 0,
+AddVertex,2.5, -0.15, 0,
+AddVertex,1.875, -0.15, 0,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+
+GenerateNormals,
+
+LoadTexture,Tun_dark.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,

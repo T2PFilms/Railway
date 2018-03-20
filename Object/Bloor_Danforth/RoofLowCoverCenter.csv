@@ -1,0 +1,12 @@
+CreateMeshBuilder,
+Addvertex,-2.7,4.8,0,
+Addvertex,2.5,4.8,0,
+Addvertex,2.5,4.2,0,
+Addvertex,-2.7,4.2,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,RoofBlack.png
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,

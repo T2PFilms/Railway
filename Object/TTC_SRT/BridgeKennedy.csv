@@ -1,0 +1,149 @@
+CreateMeshBuilder,
+Addvertex,-100,8,0,
+Addvertex,100,8,0,
+Addvertex,100,8,25,
+Addvertex,-100,8,25,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,BridgeKennedyUnder.png
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 7, 0,
+SetTextureCoordinates,1, 7, 1,
+SetTextureCoordinates,2, 0, 1,
+
+CreateMeshBuilder,
+Addvertex,-100,9.7,0,
+Addvertex,100,9.7,0,
+Addvertex,100,9.7,25,
+Addvertex,-100,9.7,25,
+Addface,3,2,1,0,
+GenerateNormals,
+LoadTexture,BridgeKennedyRoad.png
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 4,
+SetTextureCoordinates,2, 0, 4,
+
+CreateMeshBuilder,
+AddVertex,100, 11, 0,
+AddVertex,-100, 11, 0,
+AddVertex,-100, 8, 0,
+AddVertex,100, 8, 0,
+AddFace2,0,1,2,3,
+GenerateNormals,
+LoadTexture,BridgeKennedyConcrete.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 8, 0,
+SetTextureCoordinates,2, 8, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,255,255,255,
+
+
+CreateMeshBuilder,
+AddVertex,100, 11, 25,
+AddVertex,-100, 11, 25,
+AddVertex,-100, 8, 25,
+AddVertex,100, 8, 25,
+AddFace2,0,1,2,3,
+GenerateNormals,
+LoadTexture,BridgeKennedyConcrete.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 8, 0,
+SetTextureCoordinates,2, 8, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,255,255,255,
+
+;Left
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,-14,4,3,
+
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,-14,4,10,
+
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,-14,4,16,
+
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,-14,4,22,
+
+;---
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,-65,4,3,
+
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,-65,4,10,
+
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,-65,4,16,
+
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,-65,4,22,
+
+;Right
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,35,4,3,
+
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,35,4,10,
+
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,35,4,16,
+
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,35,4,22,
+
+;--
+
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,80,4,3,
+
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,80,4,10,
+
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,80,4,16,
+
+CreateMeshBuilder,
+Cylinder,10,1.1,1.1,11
+Setcolor,107,98,84,
+Translate,80,4,22,
+
+;Shadow
+CreateMeshBuilder,
+AddVertex,-100,-0.3,25,
+AddVertex,100,-0.3,25,
+AddVertex,100,-1,0,
+AddVertex,-100,-1,0,
+AddFace,0,1,2,3,
+SetColor,0,0,0,100
+

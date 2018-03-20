@@ -1,0 +1,42 @@
+[meshbuilder]
+vertex -5,-0.5,0
+vertex -5,4.7,0
+vertex -5,4.7,25
+vertex -5,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load wallstclair1.bmp
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 0,0,1
+Transparent 0,255,0
+
+[meshbuilder]
+vertex -5,-0.5,25
+vertex -5,4.7,25
+vertex -30,4.7,25
+vertex -30,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load wallstclair.bmp
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 0,1,1
+
+[meshbuilder]
+vertex -8.0,-0.5,0
+vertex -8.0,4.7,0
+vertex -8.0,4.7,25
+vertex -8.0,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load wallstclair.bmp
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 0,1,1

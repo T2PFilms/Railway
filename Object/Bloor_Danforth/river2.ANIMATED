@@ -1,0 +1,13 @@
+
+[Object]
+States = WallWashing.csv
+TextureShiftYFunction = 0.04*time
+Position = 0,0,0
+
+
+
+
+
+
+
+

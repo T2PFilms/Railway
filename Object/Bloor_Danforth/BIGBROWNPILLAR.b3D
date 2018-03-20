@@ -1,0 +1,53 @@
+[MeshBuilder]
+Vertex -10,6.75,0
+Vertex 10,6.75,0
+Vertex 10,-20,0
+Vertex -10,-20,0
+face2 0,1,2,3
+color 80,72,50
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex -10,6.75,2.5
+Vertex 10,6.75,2.5
+Vertex 10,-20,2.5
+Vertex -10,-20,2.5
+face2 0,1,2,3
+color 80,72,50
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+
+[MeshBuilder]
+Vertex 10,6.75,2.5
+Vertex 10,6.75,0
+Vertex 10,-20,0
+Vertex 10,-20,2.5
+face2 0,1,2,3
+color 80,72,50
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+
+[MeshBuilder]
+Vertex -10,6.75,2.5
+Vertex -10,6.75,0
+Vertex -10,-20,0
+Vertex -10,-20,2.5
+face2 0,1,2,3
+color 80,72,50
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1

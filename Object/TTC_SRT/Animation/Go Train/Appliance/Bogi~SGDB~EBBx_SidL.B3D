@@ -1,0 +1,190 @@
+;BOGIE FRAME SIDE
+;Gaug & Base Per TRANSLATEALL & SCALEALL Last Lines Below
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[MESHBUILDER]                      ;FRAM_SIDE
+Vertex       -0.282,+0.933,+1.865
+Vertex       -0.282,+0.933,-1.865
+Vertex       -0.282,-0.933,-1.865
+Vertex       -0.282,-0.933,+1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Load      Bogi~SGDB~EBBx_Sid1.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.272,+0.933,+1.865
+Vertex       -0.272,+0.933,-1.865
+Vertex       -0.272,-0.933,-1.865
+Vertex       -0.272,-0.933,+1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Load      Bogi~SGDB~EBBx_Sid1.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.262,+0.933,+1.865
+Vertex       -0.262,+0.933,-1.865
+Vertex       -0.262,-0.933,-1.865
+Vertex       -0.262,-0.933,+1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Load      Bogi~SGDB~EBBx_Sid1.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.252,+0.933,+1.865
+Vertex       -0.252,+0.933,-1.865
+Vertex       -0.252,-0.933,-1.865
+Vertex       -0.252,-0.933,+1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Load      Bogi~SGDB~EBBx_Sid1.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.242,+0.933,+1.865
+Vertex       -0.242,+0.933,-1.865
+Vertex       -0.242,-0.933,-1.865
+Vertex       -0.242,-0.933,+1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Load      Bogi~SGDB~EBBx_Sid1.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.232,+0.933,+1.865
+Vertex       -0.232,+0.933,-1.865
+Vertex       -0.232,-0.933,-1.865
+Vertex       -0.232,-0.933,+1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Load      Bogi~SGDB~EBBx_Sid1.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.222,+0.933,+1.865
+Vertex       -0.222,+0.933,-1.865
+Vertex       -0.222,-0.933,-1.865
+Vertex       -0.222,-0.933,+1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Load      Bogi~SGDB~EBBx_Sid1.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.212,+0.933,+1.865
+Vertex       -0.212,+0.933,-1.865
+Vertex       -0.212,-0.933,-1.865
+Vertex       -0.212,-0.933,+1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Load      Bogi~SGDB~EBBx_Sid1.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.202,+0.933,+1.865
+Vertex       -0.202,+0.933,-1.865
+Vertex       -0.202,-0.933,-1.865
+Vertex       -0.202,-0.933,+1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Load      Bogi~SGDB~EBBx_Sid1.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.192,+0.933,+1.865
+Vertex       -0.192,+0.933,-1.865
+Vertex       -0.192,-0.933,-1.865
+Vertex       -0.192,-0.933,+1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Load      Bogi~SGDB~EBBx_Sid1.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.182,+0.933,+1.865
+Vertex       -0.182,+0.933,-1.865
+Vertex       -0.182,-0.933,-1.865
+Vertex       -0.182,-0.933,+1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Load      Bogi~SGDB~EBBx_Sid1.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.172,+0.933,+1.865
+Vertex       -0.172,+0.933,-1.865
+Vertex       -0.172,-0.933,-1.865
+Vertex       -0.172,-0.933,+1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Load      Bogi~SGDB~EBBx_Sid1.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+[MESHBUILDER]
+Vertex       -0.162,+0.933,+1.865
+Vertex       -0.162,+0.933,-1.865
+Vertex       -0.162,-0.933,-1.865
+Vertex       -0.162,-0.933,+1.865
+Face                      0,1,2,3
+Face                      3,2,1,0
+Transparent       000,255,000;Grn
+Load      Bogi~SGDB~EBBx_Sid1.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+
+[MESHBUILDER]                      ;Trac_Motr
+Cube         +0.500,+0.344,+0.344
+Translate    +0.750,+0.150,+0.570
+Color         055,055,055,255;Gra
+[MESHBUILDER]
+Cylinder  16,+0.111,+0.111,+0.100
+Rotate               0,0,1,+090.0
+Translate    +0.200,+0.150,+0.570
+Color         087,087,087,255;Gra
+[MESHBUILDER]
+Cylinder  16,+0.344,+0.344,+0.100
+Rotate               0,0,1,+090.0
+Translate    +0.200,+0.020,+1.000
+Color         127,127,127,255;Gra
+
+TRANSLATEALL -0.718,+0.000,+0.000  ;DimX=-0.5*Gaug,DimY=+0.0,DimZ=+0.0
+SCALEALL     +1.000,+1.372,+1.372  ;DimX=+1.0,DimY=+0.5*Base,DimZ=+0.5*Base

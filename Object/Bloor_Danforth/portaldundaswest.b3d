@@ -1,0 +1,173 @@
+[MeshBuilder]
+Vertex 3.5,4.7,0
+Vertex 3.5,6.25,0
+Vertex -9.5,6.25,0
+Vertex -9.5,4.7,0
+Face 0,1,2,3
+Color 100,90,80
+Load idk.png
+Coordinates 0,5,0
+Coordinates 1,5,3
+Coordinates 2,0,3
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex 3.75,6.25,0
+Vertex 3.75,6.25,-0.1
+Vertex -9.5,6.25,-0.1
+Vertex -9.5,6.25,0
+Face 0,1,2,3
+Color 100,90,80
+Load idk.png
+Coordinates 0,5,0
+Coordinates 1,5,3
+Coordinates 2,0,3
+Coordinates 3,0,0
+
+
+[MeshBuilder]
+Vertex 3.5,-0.17,0
+Vertex 3.5,-0.17,25
+Vertex -9.5,-0.17,25
+Vertex -9.5,-0.17,0
+Face 3,2,1,0
+Load track\ballast.bmp
+Coordinates 0,15,0
+Coordinates 1,15,6
+Coordinates 2,0,6
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex -9.5,4.7,0
+Vertex -9.5,-0.25,0
+Vertex -8.5,-0.25,0
+Vertex -8.5,4.7,0
+Face 0,1,2,3
+Color 100,90,80
+Load idk.png
+Coordinates 0,5,0
+Coordinates 1,5,3
+Coordinates 2,0,3
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex 3.5,4.7,0
+Vertex 3.5,-0.25,0
+Vertex 2.5,-0.25,0
+Vertex 2.5,4.7,0
+Face 3,2,1,0
+Color 100,90,80
+Load idk.png
+Coordinates 0,5,0
+Coordinates 1,5,3
+Coordinates 2,0,3
+Coordinates 3,0,0
+
+
+[MeshBuilder]
+Vertex -3.5,4.7,0
+Vertex -3.5,-0.25,0
+Vertex -2.5,-0.25,0
+Vertex -2.5,4.7,0
+Face 0,1,2,3
+Color 100,90,80
+Load idk.png
+Coordinates 0,5,0
+Coordinates 1,5,3
+Coordinates 2,0,3
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex 3.5,-0.16,0,1
+Vertex 3.5,6.25,0,1
+Vertex 3.5,1,25
+Vertex 3.5,-0.16,25
+Face 3,2,1,0
+Color 100,90,80
+Load idk.png
+Coordinates 0,5,0
+Coordinates 1,5,3
+Coordinates 2,0,3
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex 3.625,8,0
+Vertex 3.625,6.25,0
+Vertex 3.625,1,25
+Vertex 3.625,2.75,25
+Face2 3,2,1,0
+Load chainfence.bmp
+Coordinates 0,10,0
+Coordinates 1,10,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 0,0,0
+
+
+[MeshBuilder]
+Vertex 3.625,8,0
+Vertex 3.625,6.25,0
+Vertex -9.625,6.25,0
+Vertex -9.625,8,0
+Face2 3,2,1,0
+Load chainfence.bmp
+Coordinates 0,10,0
+Coordinates 1,10,1
+Coordinates 2,0,1
+Coordinates 3,0,0
+Transparent 0,0,0
+Translate 0,0,-0.05
+[MeshBuilder]
+Vertex 3.5,-0.16,0
+Vertex 3.5,6.25,0
+Vertex 3.75,6.25,0
+Vertex 3.75,-0.16,0
+Face 0,1,2,3
+Color 100,90,80
+Load idk.png
+Coordinates 0,5,0
+Coordinates 1,5,3
+Coordinates 2,0,3
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex 3.5,-0.16,25
+Vertex 3.5,1,25
+Vertex 3.75,1,25
+Vertex 3.75,-0.16,25
+Face 3,2,1,0
+Color 100,90,80
+Load idk.png
+Coordinates 0,5,0
+Coordinates 1,5,3
+Coordinates 2,0,3
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex 3.75,6.25,0
+Vertex 3.5,6.25,0
+Vertex 3.5,1,25
+Vertex 3.75,1,25
+Face 0,1,2,3
+Color 100,90,80
+Load idk.png
+Coordinates 0,5,0
+Coordinates 1,5,3
+Coordinates 2,0,3
+Coordinates 3,0,0
+
+
+[MeshBuilder]
+Vertex 3.75,-0.16,0
+Vertex 3.75,6.25,0
+Vertex 3.75,1,25
+Vertex 3.75,-0.16,25
+Face 0,1,2,3
+Color 100,90,80
+Load idk.png
+Coordinates 0,5,0
+Coordinates 1,5,3
+Coordinates 2,0,3
+Coordinates 3,0,0
+
+TranslateAll 0,0,0.01

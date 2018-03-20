@@ -1,0 +1,12 @@
+[Include]
+islingtonswitch.csv
+Position = 0,0,0
+
+[Include]
+islingtonswitch.csv
+Position = -4.375,0,0
+
+[Object]
+States = islingtonswitch.csv
+Position = -4.375,0,50
+RotateYFunction = doors * 0 + 3.14159265359

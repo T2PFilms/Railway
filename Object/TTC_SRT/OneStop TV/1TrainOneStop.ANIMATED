@@ -1,0 +1,44 @@
+[Object]
+Position = 0,0,0
+States = Error.CSV,3Minutes.csv,3Minutes.csv
+StateFunction = If[trackdistance<1500,If[trackdistance<1500,IF[trackdistance<1500,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = 2minutes.csv,2minutes.csv,2minutes.csv
+StateFunction = If[trackdistance<1000,If[trackdistance<1000,If[trackdistance<1000,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = LOLPOINTLESS.CSV,NextTrain1minute.csv,NextTrain1minute.csv
+StateFunction = If[trackdistance<500,If[trackdistance<500,If[trackdistance<500,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = LOLPOINTLESS.CSV,TrainAtStation.csv,TrainAtStation.csv
+StateFunction = If[trackdistance>50,if[trackDistance>50,if[trackDistance<130,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = LOLPOINTLESS.CSV,TrainGoAway.csv,TrainGoAway.csv
+StateFunction = If[rightDoorsTarget==0,If[rightDoorsTarget==0,If[rightDoorsTarget==0,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = arrived.csv,arrived.csv,arrived.csv
+StateFunction = If[rightdoors==1,If[rightdoors==1,If[rightdoors==1,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = LOLPOINTLESS.CSV,NextTrain.csv,NextTrain.csv
+StateFunction = If[If[trackdistace>25,If[trackdistance<140,,If[rightdoors==0,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = LOLPOINTLESS.CSV,OpenDoors.csv,OpenDoors.csv
+StateFunction = If[rightdoorstarget==1,If[rightdoorstarget==1,If[rightdoorstarget==1,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = Crash.csv,
+StateFunction = If[leftDoorsTarget==0,If[leftDoorsTarget==0,If[leftDoorsTarget==0,1,2],1],0]

@@ -1,0 +1,43 @@
+[meshbuilder]
+vertex -2.5,5,0
+vertex -9.5,5,0
+vertex -9.5,-0.5,0
+vertex -2.5,-0.5,0
+face2 0,1,2,3
+
+[texture]
+load wallglencairnblank.bmp
+coordinates 1,0,0
+coordinates 0,1,0
+coordinates 3,1,1
+coordinates 2,0,1
+
+[meshbuilder]
+vertex -15,4.7,0
+vertex -15,5.7,0
+vertex 2.5,5.7,0
+vertex 2.5,4.7,0
+face 0,1,2,3
+
+[texture]
+load concretelong.bmp
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,0,1
+coordinates 3,1,1
+
+[meshbuilder]
+vertex -15,4.7,0
+vertex -15,4.7,1
+vertex 2.5,4.7,1
+vertex 2.5,4.7,0
+face 0,1,2,3
+
+[texture]
+load concretelong.bmp
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,0,1
+coordinates 3,1,1
+
+

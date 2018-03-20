@@ -1,0 +1,44 @@
+;BogiTruck Beam, Gaug Per SCALEALL Last Line Below
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[MESHBUILDER]                      ;Beam_Cntr
+Cube         +1.336,+0.122,+0.190
+Translate    +0.000,+0.123,+0.000
+Color         079,063,063,255;Gra
+
+[MESHBUILDER]                      ;Bear_Cntr
+Cylinder  18,+0.170,+0.190,+0.080
+Translate    +0.000,+0.285,+0.000
+Scale        +1.598,+1.000,+1.000
+Color         045,045,045,255;Gra
+
+[MESHBUILDER]                      ;Bear_Left
+Cube         +0.056,+0.059,+0.160
+Translate    -1.000,+0.304,+0.000
+Color         079,063,063,255;Gra
+[MESHBUILDER]
+Cylinder  18,+0.060,+0.060,+0.063
+Rotate               0,0,1,+090.0
+Translate    -1.000,+0.343,-0.075
+Color         045,045,045,255;Gra
+[MESHBUILDER]
+Cylinder  18,+0.060,+0.060,+0.063
+Rotate               0,0,1,+090.0
+Translate    -1.000,+0.343,+0.075
+Color         045,045,045,255;Gra
+
+[MESHBUILDER]                      ;Bear_Rght
+Cube         +0.056,+0.059,+0.160
+Translate    +1.000,+0.304,+0.000
+Color         079,063,063,255;Rus
+[MESHBUILDER]
+Cylinder  18,+0.060,+0.060,+0.063
+Rotate               0,0,1,+090.0
+Translate    +1.000,+0.343,-0.075
+Color         045,045,045,255;Gra
+[MESHBUILDER]
+Cylinder  18,+0.060,+0.060,+0.063
+Rotate               0,0,1,+090.0
+Translate    +1.000,+0.343,+0.075
+Color         045,045,045,255;Gra
+
+SCALEALL     +0.718,+1.000,+1.000  ;DimX=+0.5*Gaug,DimY=+1.0,DimZ=+1.0

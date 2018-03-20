@@ -1,0 +1,844 @@
+With Route
+.gauge 1473
+.signal(1) 80
+.signal(2) 80
+.signal(3) 80
+.Image ..\Object\Bessarion.png
+With Train
+.run(0) 0
+.run(1) 0
+.run(2) 2
+.run(3) 2
+.run(4) 2
+.run(16) 2
+.run(17) 2
+.run(18) 2
+.run(19) 2
+.run(20) 2
+.run(21) 2
+.run(28) 2
+.run(29) 2
+.run(30) 2
+.run(31) 2
+.run(34) 2
+.run(35) 2
+.run(36) 3
+.run(37) 2
+.run(38) 2
+.run(39) 2
+.run(40) 2
+.run(41) 2
+.run(42) 2
+.run(43) 2
+.run(44) 2
+.run(45) 2
+.run(46) 2
+.run(47) 2
+.run(48) 2
+.run(49) 2
+.run(50) 2
+.run(51) 2
+.run(56) 2
+.run(57) 2
+.run(58) 3
+.run(59) 2
+.run(60) 2
+.run(61) 2
+.run(62) 2
+.run(63) 2
+.run(64) 2
+.run(65) 2
+.run(66) 2
+.run(67) 2
+.run(68) 2
+
+.flange(8) 1
+.flange(48) 3
+.flange(49) 3
+.flange(50) 3
+.flange(51) 3
+.flange(52) 2
+.flange(53) 2
+.flange(54) 2
+.flange(55) 2
+.flange(56) 1
+.flange(57) 1
+.flange(58) 1
+.flange(59) 1
+.flange(65) 1
+.flange(66) 1
+.flange(67) 1
+.flange(68) 1
+.flange(70) 1
+.flange(71) 1
+.flange(72) 1
+.flange(73) 1
+
+With Train
+.folder Toronto Subway T1
+.Timetable(0).Day.Load TTC_SHEP\TimeTable\FinchEglinton.png
+.Timetable(1).Day.Load TTC_SHEP\TimeTable\EglintonBloor.png
+.Timetable(2).Day.Load TTC_SHEP\TimeTable\BloorUnion.png
+.Timetable(3).Day.Load TTC_SHEP\TimeTable\UnionSt.George.png
+.Timetable(4).Day.Load TTC_SHEP\TimeTable\StGeorgeStClair.png
+.Timetable(5).Day.Load TTC_SHEP\TimeTable\AllenRoad.png
+.Timetable(6).Day.Load TTC_SHEP\TimeTable\Downsview.png
+
+
+With Structure
+
+.rail(0) TTC_SHEP\Track\Tr_Station3rr.csv
+.rail(1) TTC_SHEP\Track\Tr_Station3rl.csv 
+.rail(2) TTC_SHEP\Track\Tr_Tunnel.csv 
+.rail(3) TTC_SHEP\Track\Tr_Tunnel3rr.csv
+.rail(4) TTC_SHEP\Track\Tr_Tunnel3rl.csv
+.rail(5) TTC_SHEP\Track\Tr_Ballast.csv
+.rail(6) TTC_SHEP\Track\Tr_Ballast3rr.csv
+.rail(7) TTC_SHEP\Track\Tr_Ballast3rl.csv
+.rail(8) TTC_SHEP\Track\NullRail.csv
+.rail(9) TTC_SHEP\Track\Tr_Ballast_dark3rr.csv
+.rail(10) TTC_SHEP\Track\Tr_Ballast_dark3rl.csv
+.rail(11) TTC_SHEP\Track\Tr_Concrete.csv
+.rail(12) TTC_SHEP\Track\Tr_Concrete3rr.csv
+.rail(13) TTC_SHEP\Track\Tr_Concrete3rl.csv
+.rail(14) TTC_SHEP\Track\Tr_Bridge3rr.csv
+.rail(15) TTC_SHEP\Track\Tr_Bridge3rl.csv
+.rail(16) TTC_SHEP\Track\TR_Tunnel_R3000R.csv
+.rail(17) TTC_SHEP\Track\TR_Tunnel_L3000R.csv
+.rail(18) TTC_SHEP\Track\TR_Tunnel_L2000L.csv
+.rail(19) TTC_SHEP\Track\TR_Tunnel_L2000R.csv
+.rail(20) TTC_SHEP\Track\TR_Tunnel_R2000L.csv
+.rail(21) TTC_SHEP\Track\TR_Tunnel_R2000R.csv
+.rail(22) TTC_SHEP\Track\TR_Ballast_L2000L.csv
+.rail(23) TTC_SHEP\Track\TR_Ballast_L2000R.csv
+.rail(24) TTC_SHEP\Track\TR_Ballast_R2000L.csv
+.rail(25) TTC_SHEP\Track\TR_Ballast_R2000R.csv
+.rail(26) TTC_SHEP\Track\TR_Concrete_R2000L.csv
+.rail(27) TTC_SHEP\Track\TR_Concrete_R2000R.csv
+.rail(28) TTC_SHEP\Track\TR_Tunnel_L1000L.csv
+.rail(29) TTC_SHEP\Track\TR_Tunnel_L1000R.csv
+.rail(30) TTC_SHEP\Track\TR_Tunnel_R1000L.csv
+.rail(31) TTC_SHEP\Track\TR_Tunnel_R1000R.csv
+.rail(32) TTC_SHEP\Track\TR_Concrete_L1000R.csv
+.rail(33) TTC_SHEP\Track\TR_Concrete_R1000R.csv
+.rail(34) TTC_SHEP\Track\TR_Tunnel_L900L.csv
+.rail(35) TTC_SHEP\Track\TR_Tunnel_L900R.csv
+.rail(36) TTC_SHEP\Track\TR_Tunnel_R900L.csv
+.rail(37) TTC_SHEP\Track\TR_Tunnel_R900R.csv
+.rail(38) TTC_SHEP\Track\TR_Tunnel_L800L.csv
+.rail(39) TTC_SHEP\Track\TR_Tunnel_L800R.csv
+.rail(40) TTC_SHEP\Track\TR_Tunnel_R800L.csv
+.rail(41) TTC_SHEP\Track\TR_Tunnel_R800R.csv
+.rail(42) TTC_SHEP\Track\TR_Tunnel_L700L.csv
+.rail(43) TTC_SHEP\Track\TR_Tunnel_L700R.csv
+.rail(44) TTC_SHEP\Track\TR_Tunnel_R700L.csv
+.rail(45) TTC_SHEP\Track\TR_Tunnel_R700R.csv
+.rail(46) TTC_SHEP\Track\TR_Tunnel_L550L.csv
+.rail(47) TTC_SHEP\Track\TR_Tunnel_L550R.csv
+.rail(48) TTC_SHEP\Track\TR_Tunnel_L500L.csv
+.rail(49) TTC_SHEP\Track\TR_Tunnel_L500R.csv
+.rail(50) TTC_SHEP\Track\TR_Tunnel_R500L.csv
+.rail(51) TTC_SHEP\Track\TR_Tunnel_R500R.csv
+.rail(52) TTC_SHEP\Track\TR_Ballast_L500L.csv
+.rail(53) TTC_SHEP\Track\TR_Ballast_L500R.csv
+.rail(54) TTC_SHEP\Track\TR_Ballast_R500L.csv
+.rail(55) TTC_SHEP\Track\TR_Ballast_R500R.csv
+.rail(56) TTC_SHEP\Track\TR_Tunnel_L450L.csv
+.rail(57) TTC_SHEP\Track\TR_Tunnel_L450R.csv
+.rail(58) TTC_SHEP\Track\TR_Tunnel_R450L.csv
+.rail(59) TTC_SHEP\Track\TR_Tunnel_R450R.csv
+.rail(60) TTC_SHEP\Track\TR_Tunnel_R400L.csv
+.rail(61) TTC_SHEP\Track\TR_Tunnel_L250L.csv
+.rail(62) TTC_SHEP\Track\TR_Tunnel_L250R.csv
+.rail(63) TTC_SHEP\Track\TR_Tunnel_R250L.csv
+.rail(64) TTC_SHEP\Track\TR_Tunnel_R250R.csv
+.rail(65) TTC_SHEP\Track\TR_Tunnel_L200L.csv
+.rail(66) TTC_SHEP\Track\TR_Tunnel_L200R.csv
+.rail(67) TTC_SHEP\Track\TR_Tunnel_R200L.csv
+.rail(68) TTC_SHEP\Track\TR_Tunnel_R200R.csv
+.rail(69) TTC_SHEP\Track\TR_Ballast_Dark_L200R.csv
+.rail(70) TTC_SHEP\Track\TR_Ballast_L200R.csv
+
+.dikel(0) TTC_SHEP\walls\tunnel01l.csv ;one track
+.diker(0) TTC_SHEP\walls\tunnel01r.csv
+.dikel(1) TTC_SHEP\walls\tunnel02l.csv ;two tracks
+.diker(1) TTC_SHEP\walls\tunnel02r.csv
+.dikel(2) TTC_SHEP\walls\NLTunSL.csv;bored tunnel
+.diker(2) TTC_SHEP\walls\NLTunSR.csv
+.dikel(3) TTC_SHEP\incuttingl.csv
+.diker(3) TTC_SHEP\incuttingr.csv 
+.dikel(4) TTC_SHEP\incuttinglgrass.csv
+.diker(4) TTC_SHEP\incuttingrgrass.csv
+.dikel(5) TTC_SHEP\incuttingldark.csv
+.diker(5) TTC_SHEP\incuttingrdark.csv
+.dikel(6) TTC_SHEP\allenl.csv
+.diker(6) TTC_SHEP\allenr.csv
+.dikel(7) TTC_SHEP\allenlnf.csv
+.diker(7) TTC_SHEP\allenrnf.csv
+.dikel(8) TTC_SHEP\walls\tunnel03l.csv
+.diker(8) TTC_SHEP\walls\tunnel03r.csv
+.dikel(9) TTC_SHEP\walls\tun_middle_0.csv
+.diker(9) TTC_SHEP\walls\tunnel01r.csv
+.dikel(10) TTC_SHEP\yongestreet.csv
+.diker(10) TTC_SHEP\allenr.csv
+.dikel(11) TTC_SHEP\Wilsondike.csv
+.diker(11) TTC_SHEP\Wilsondike.csv
+
+.forml(0) TTC_SHEP\staform01l.csv
+.formr(0) TTC_SHEP\staform01r.csv
+.formcl(0) TTC_SHEP\staform01cl.csv
+.formcr(0) TTC_SHEP\staform01cr.csv
+.walll(0) TTC_SHEP\station01l.csv ;two tracks and one center platform
+.wallr(0) TTC_SHEP\station01r.csv
+.walll(1) TTC_SHEP\station02l.csv ;two tracks and two side platforms
+.wallr(1) TTC_SHEP\station02r.csv
+.walll(2) TTC_SHEP\ArchRoofL.csv
+.wallr(2) TTC_SHEP\ArchRoofR.csv
+.freeobj(1) TTC_SHEP\stabeam01.csv ;black columns
+.freeobj(2) TTC_SHEP\stabeam02.csv
+.freeobj(5) TTC_SHEP\tunwall01.csv ;end wall for center platform
+.freeobj(6) TTC_SHEP\stawall01.csv ;end wall for center platform
+.freeobj(7) TTC_SHEP\tunwall02.csv ;end wall between tunnels
+.freeobj(8) TTC_SHEP\stawall02l.csv ;left end wall for side platforms
+.freeobj(9) TTC_SHEP\stawall02r.csv ;right end wall for side platforms
+.freeobj(11) TTC_SHEP\stawall04.csv ;end wall between tunnels
+.freeobj(12) TTC_SHEP\portalbloor.csv
+.freeobj(13) TTC_SHEP\centerwall.csv
+.freeobj(14) TTC_SHEP\walldownsviewend.csv
+.freeobj(15) TTC_SHEP\walldownsviewend2.csv
+.freeobj(16) TTC_SHEP\downsbench.csv
+.freeobj(17) TTC_SHEP\walleglintonww.csv
+.freeobj(18) TTC_SHEP\tunnelwall1.csv
+.freeobj(19) TTC_SHEP\emergencyexit.csv
+
+.freeobj(42) TTC_SHEP\incuttingl.csv
+.freeobj(43) TTC_SHEP\incuttingr.csv
+.freeobj(44) TTC_SHEP\p.csv
+.freeobj(45) TTC_SHEP\s.csv
+.freeobj(46) TTC_SHEP\6.csv
+.freeobj(47) TTC_SHEP\Street.csv
+.freeobj(48) TTC_SHEP\dwa.csv
+.freeobj(49) TTC_SHEP\southbound.csv
+.freeobj(50) TTC_SHEP\northbound.csv
+.freeobj(51) TTC_SHEP\uniontofinch.csv
+.freeobj(52) TTC_SHEP\uniontodownsview.csv
+.freeobj(53) TTC_SHEP\nextrainfinch.csv
+.freeobj(54) TTC_SHEP\nextraindownsview.csv
+.freeobj(55) TTC_SHEP\online.csv
+.freeobj(57) TTC_SHEP\nycentrewall.csv
+.freeobj(58) TTC_SHEP\nosmoking.csv
+.freeobj(59) TTC_SHEP\standback.csv
+.freeobj(61) TTC_SHEP\summerhilltopwall.csv
+.freeobj(62) TTC_SHEP\0.csv
+.freeobj(69) TTC_SHEP\middlewall.csv
+.freeobj(70) TTC_SHEP\wallsheppard2l.csv
+.freeobj(71) TTC_SHEP\wallsheppard2.csv
+.freeobj(72) TTC_SHEP\wallsheppardr.csv
+.freeobj(73) TTC_SHEP\stpatrick.csv
+.freeobj(74) TTC_SHEP\stpatricke.csv
+.freeobj(75) TTC_SHEP\wallsheppardl.csv
+.freeobj(76) TTC_SHEP\wallsheppardc.csv
+.freeobj(77) TTC_SHEP\pillarsheppard.csv
+.freeobj(78) TTC_SHEP\signalbox.csv
+.freeobj(79) TTC_SHEP\wallfinchr.csv
+.freeobj(80) TTC_SHEP\wallfinchc.csv
+.freeobj(81) TTC_SHEP\wallyorkmillsr.csv
+.freeobj(82) TTC_SHEP\wallyorkmillsl.csv
+.freeobj(83) TTC_SHEP\wallyorkmillsc.csv
+.freeobj(84) TTC_SHEP\pillaryorkmills.csv
+.freeobj(85) TTC_SHEP\walllawrencer.csv
+.freeobj(86) TTC_SHEP\walllawrencel.csv
+.freeobj(87) TTC_SHEP\walllawrencec.csv
+.freeobj(88) TTC_SHEP\pillarlawrence.csv
+.freeobj(89) TTC_SHEP\walleglintonr.csv
+.freeobj(90) TTC_SHEP\walleglintonl.csv
+.freeobj(91) TTC_SHEP\pillareglinton.csv
+.freeobj(92) TTC_SHEP\stairseglinton.csv
+.freeobj(93) TTC_SHEP\bridge.csv
+.freeobj(94) TTC_SHEP\wallnyc1r.csv
+.freeobj(95) TTC_SHEP\wallnyc2r.csv
+.freeobj(96) TTC_SHEP\wallnyc1l.csv
+.freeobj(97) TTC_SHEP\wallnyc2l.csv
+.freeobj(98) TTC_SHEP\wallnycendr.csv
+.freeobj(99) TTC_SHEP\wallnycmiddle.csv
+.freeobj(100) TTC_SHEP\exitstairs.csv
+.freeobj(101) TTC_SHEP\signalpost.csv
+.freeobj(102) TTC_SHEP\walldavisviller.csv
+.freeobj(103) TTC_SHEP\walldavisvillel.csv
+.freeobj(104) TTC_SHEP\walldavisvilleendr.csv
+.freeobj(105) TTC_SHEP\walldavisvilleendl.csv
+.freeobj(106) TTC_SHEP\walldavisvillestartr.csv
+.freeobj(107) TTC_SHEP\walldavisvillestartl.csv
+;DiSABLED.freeobj(108) TTC_SHEP\tr.csv
+.freeobj(108) TTC_SHEP\t1finch.csv
+.freeobj(109) TTC_SHEP\t1yonge.csv
+.freeobj(110) TTC_SHEP\t1oos.csv
+.freeobj(111) TTC_SHEP\davisvillewall.csv
+.freeobj(112) TTC_SHEP\wallstclair1l.csv
+.freeobj(113) TTC_SHEP\wallstclair2l.csv
+.freeobj(114) TTC_SHEP\wallstclair1r.csv
+.freeobj(115) TTC_SHEP\wallstclair2r.csv
+.freeobj(116) TTC_SHEP\wallstclairend.csv
+.freeobj(117) TTC_SHEP\wallsummerhill1l.csv
+.freeobj(118) TTC_SHEP\wallsummerhill2l.csv
+.freeobj(119) TTC_SHEP\wallsummerhill1r.csv
+.freeobj(120) TTC_SHEP\wallsummerhill2r.csv
+.freeobj(121) TTC_SHEP\wallsummerhillend.csv 
+.freeobj(122) TTC_SHEP\bridgedark.csv
+.freeobj(123) TTC_SHEP\wallrosedalestart.csv
+.freeobj(124) TTC_SHEP\wallrosedaler.csv
+.freeobj(125) TTC_SHEP\wallrosedalel.csv
+.freeobj(126) TTC_SHEP\wallrosedaleend.csv
+.freeobj(127) TTC_SHEP\bloor.animated
+.freeobj(128) TTC_SHEP\wallbloorend.csv
+.freeobj(129) TTC_SHEP\bloorsign.csv
+.freeobj(130) TTC_SHEP\formsign.csv
+.freeobj(131) TTC_SHEP\wallwellesley1.csv
+.freeobj(132) TTC_SHEP\wallwellesley2.csv 
+.freeobj(133) TTC_SHEP\wallwellesleyend.csv
+.freeobj(134) TTC_SHEP\wallcollege1.csv
+.freeobj(135) TTC_SHEP\wallcollege2.csv
+.freeobj(136) TTC_SHEP\wallcollegeend.csv
+.freeobj(137) TTC_SHEP\collegesign.csv
+.freeobj(138) TTC_SHEP\walldundas1.csv
+.freeobj(139) TTC_SHEP\walldundas2.csv
+.freeobj(140) TTC_SHEP\walldundasend.csv
+.freeobj(141) TTC_SHEP\wallqueen1.csv
+.freeobj(142) TTC_SHEP\wallqueen2.csv
+.freeobj(143) TTC_SHEP\wallqueenend.csv
+.freeobj(144) TTC_SHEP\queensign.csv
+.freeobj(145) TTC_SHEP\wallking1.csv
+.freeobj(146) TTC_SHEP\wallking2.csv
+.freeobj(147) TTC_SHEP\wallunion.csv
+.freeobj(148) TTC_SHEP\stairsunion.csv
+.freeobj(149) TTC_SHEP\stairsunion2.csv
+.freeobj(150) TTC_SHEP\pillarunion.csv
+.freeobj(151) TTC_SHEP\wallstandrew.csv
+.freeobj(152) TTC_SHEP\stairsstandrew.csv
+.freeobj(153) TTC_SHEP\pillarstandrew.csv
+.freeobj(154) TTC_SHEP\wallstandrewc.csv
+.freeobj(155) TTC_SHEP\wallosgoode.csv
+.freeobj(156) TTC_SHEP\wallosgoodec.csv
+.freeobj(157) TTC_SHEP\pillarosgoode.csv 
+.freeobj(158) TTC_SHEP\stairsosgoode.csv
+.freeobj(159) TTC_SHEP\queenspark.csv
+.freeobj(160) TTC_SHEP\queensparke.csv
+.freeobj(161) TTC_SHEP\tunnelstart.csv
+.freeobj(162) TTC_SHEP\wallmuseum.csv
+.freeobj(163) TTC_SHEP\wallmuseumc.csv
+.freeobj(164) TTC_SHEP\pillarmuseum.csv
+.freeobj(165) TTC_SHEP\stairsmuseum.csv
+.freeobj(166) TTC_SHEP\stgeorgesign.csv
+.freeobj(167) TTC_SHEP\stgeorgesignup.csv
+.freeobj(168) TTC_SHEP\pillarstgeorge.csv
+.freeobj(169) TTC_SHEP\stairsstgeorge.csv
+.freeobj(170) TTC_SHEP\stairsstgeorge2.csv
+.freeobj(171) TTC_SHEP\wallstgeorgec.csv
+.freeobj(172) TTC_SHEP\wallstgeorge.csv
+.freeobj(173) TTC_SHEP\wallspadina1.csv
+.freeobj(174) TTC_SHEP\wallspadina2.csv
+.freeobj(175) TTC_SHEP\wallspadinaend.csv
+.freeobj(176) TTC_SHEP\spadinasign.csv
+.freeobj(177) TTC_SHEP\walldupont1.csv
+.freeobj(178) TTC_SHEP\walldupont2.csv
+.freeobj(179) TTC_SHEP\walldupontend.csv
+.freeobj(180) TTC_SHEP\unionstreetcars.csv
+.freeobj(181) TTC_SHEP\stairsunion3.csv
+.freeobj(182) TTC_SHEP\wallunionc.csv
+.freeobj(183) TTC_SHEP\wallkingend.csv
+.freeobj(184) TTC_SHEP\trainclear.csv
+.freeobj(185) TTC_SHEP\nextraindownsviewu.csv
+.freeobj(186) TTC_SHEP\nextraindownsviews.csv
+.freeobj(187) TTC_SHEP\nextrainfinchus.csv
+.freeobj(188) TTC_SHEP\portalstclair.csv
+.freeobj(189) TTC_SHEP\wallstclairw1.csv
+.freeobj(190) TTC_SHEP\wallstclairw2.csv
+.freeobj(191) TTC_SHEP\wallstclairwend.csv
+.freeobj(192) TTC_SHEP\stclairwsign.csv
+.freeobj(193) TTC_SHEP\walleglintonw1.csv
+.freeobj(194) TTC_SHEP\walleglintonw2.csv
+.freeobj(195) TTC_SHEP\walleglintonwend.csv
+.freeobj(196) TTC_SHEP\wallglencairnr.csv
+.freeobj(197) TTC_SHEP\wallglencairnl.csv
+.freeobj(198) TTC_SHEP\wallglencairnc.csv
+.freeobj(199) TTC_SHEP\stairsglencairn.csv
+.freeobj(200) TTC_SHEP\pillarglencairn.csv
+.freeobj(201) TTC_SHEP\benchglencairn.csv
+.freeobj(202) TTC_SHEP\wallglencairnexterior.csv
+.freeobj(203) TTC_SHEP\signallenlawrence.csv
+.freeobj(204) TTC_SHEP\signallenalert1.csv
+.freeobj(205) TTC_SHEP\walllawrencew.csv
+.freeobj(206) TTC_SHEP\walllawrencewexterior.csv 
+.freeobj(207) TTC_SHEP\walllawrencewend.csv
+.freeobj(208) TTC_SHEP\walllawrencewxb.csv
+.freeobj(209) TTC_SHEP\pillarlawrencew.csv
+.freeobj(210) TTC_SHEP\bridgeallen.csv
+.freeobj(211) TTC_SHEP\wallyorkdale.csv
+.freeobj(212) TTC_SHEP\wallyorkdaleroof.csv
+.freeobj(213) TTC_SHEP\wallyorkdalec.csv
+.freeobj(214) TTC_SHEP\wallyorkdalefront.csv
+.freeobj(215) TTC_SHEP\401.csv
+.freeobj(216) TTC_SHEP\concretelightground.csv
+.freeobj(217) TTC_SHEP\allenbridger1.csv
+.freeobj(218) TTC_SHEP\allenbridgel1.csv
+.freeobj(219) TTC_SHEP\allenbridgepillar.csv
+.freeobj(220) TTC_SHEP\allentrackbridger.csv
+.freeobj(221) TTC_SHEP\wallwilson.csv
+.freeobj(222) TTC_SHEP\pillarwilson.csv
+.freeobj(223) TTC_SHEP\stairswilson.csv
+.freeobj(224) TTC_SHEP\wilsonsign.csv
+.freeobj(225) TTC_SHEP\wallwilsonend.csv
+.freeobj(226) TTC_SHEP\benchwilson.csv
+.freeobj(227) TTC_SHEP\bluelight.csv
+.freeobj(228) TTC_SHEP\flatwall.csv
+.freeobj(229) TTC_SHEP\ttchqfront.csv
+.freeobj(230) TTC_SHEP\ttchqside.csv
+.freeobj(231) TTC_SHEP\bluelightoutside.csv
+.freeobj(232) TTC_SHEP\brake1.csv
+.freeobj(233) TTC_SHEP\signallen401.csv 
+.freeobj(234) TTC_SHEP\signallenwilson.csv
+.freeobj(235) TTC_SHEP\signallenalert2.csv 
+.freeobj(236) TTC_SHEP\signallenspeed.csv
+.freeobj(237) TTC_SHEP\wallwilsonend.csv
+.freeobj(238) TTC_SHEP\NLpeople2.csv
+.freeobj(239) TTC_SHEP\NLpeopleL.csv
+.freeobj(240) TTC_SHEP\NLpeopleL2.csv
+.freeobj(241) TTC_SHEP\NLpeople.csv
+.freeobj(242) TTC_SHEP\person.csv
+.freeobj(243) TTC_SHEP\personb.csv
+.freeobj(244) TTC_SHEP\personr.csv
+.freeobj(245) TTC_SHEP\personrb.csv
+.freeobj(246) TTC_SHEP\RWall2L.csv
+.freeobj(247) TTC_SHEP\walldowns.csv
+.freeobj(248) TTC_SHEP\h5finch.csv
+.freeobj(249) TTC_SHEP\35.csv
+.freeobj(250) TTC_SHEP\25.csv
+.freeobj(251) TTC_SHEP\brake13.csv
+.freeobj(252) TTC_SHEP\brakeoff.csv
+.freeobj(253) TTC_SHEP\gt35.csv
+.freeobj(254) TTC_SHEP\gt40.csv
+.freeobj(255) TTC_SHEP\gt20.csv
+.freeobj(256) TTC_SHEP\wallfinchl.csv
+.freeobj(257) TTC_SHEP\viewers.csv
+.freeobj(258) TTC_SHEP\RedCircle.csv
+.freeobj(264) TTC_SHEP\staformdavisviller.csv
+.freeobj(265) TTC_SHEP\downtownapartmanet.b3d
+.freeobj(266) TTC_SHEP\condodowntown1.b3d
+.freeobj(267) TTC_SHEP\wee.b3d
+.freeobj(268) TTC_SHEP\davepeople2.animated
+.freeobj(269) TTC_SHEP\chaplin.b3d
+.freeobj(270) TTC_SHEP\ttchqsouth.csv
+.freeobj(271) TTC_SHEP\tunstairs.b3d
+.freeobj(272) TTC_SHEP\davisvillewalkway.b3d
+.freeobj(273) TTC_SHEP\nosmokingdave.csv
+.freeobj(274) TTC_SHEP\stairsdavisvilleend.b3d
+.freeobj(275) TTC_SHEP\yardt1.animated
+.freeobj(276) TTC_SHEP\SHEP_YUS\glassscreenl1.b3d
+.freeobj(277) TTC_SHEP\SHEP_YUS\glasscreenr1.b3d
+
+;SIGNAL MARKERS
+.freeobj(500) TTC_SHEP\Ssig.csv
+.freeobj(501) TTC_SHEP\sp.csv
+.freeobj(502) TTC_SHEP\X.csv
+
+.freeobj(510) TTC_SHEP\0sig.csv
+.freeobj(511) TTC_SHEP\1.csv
+.freeobj(512) TTC_SHEP\2.csv
+.freeobj(513) TTC_SHEP\3.csv
+.freeobj(514) TTC_SHEP\4.csv
+.freeobj(515) TTC_SHEP\5.csv
+.freeobj(516) TTC_SHEP\6sig.csv
+.freeobj(517) TTC_SHEP\7.csv
+.freeobj(518) TTC_SHEP\8.csv
+.freeobj(519) TTC_SHEP\9.csv
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+;Bloor Danforth Imports
+.freeobj(259) TTC_SHEP\allenbridgel2.csv,
+.freeobj(260) TTC_SHEP\allenbridger2.csv,
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Other
+.freeobj(261) TTC_SHEP\Wilson-200.csv
+.freeobj(262) TTC_SHEP\Wilson-0.csv
+.freeobj(263) TTC_SHEP\tunroad.csv
+
+,,,,,,,,,,,,,,,,,,,,,,
+;Special Objects,,,,,,,,,,,,,,,,,,,,,,
+.freeobj(400) TTC_SHEP\Station_Pillars.csv
+
+,,,,,,,,,,,,,,,,,,,,,,
+;Static 3 Signals,,,,,,,,,,,,,,,,,,,,,,
+.freeobj(300) TTC_SHEP\signal_3_0.csv;Single Red
+.freeobj(302) TTC_SHEP\signal_3_2.csv;single Yellow
+.freeobj(304) TTC_SHEP\signal_3_4.csv;Single Green
+
+,,,,,,,,,,,,,,,,,,,,,,
+;Special Objects,,,,,,,,,,,,,,,,,,,,,,
+.freeobj(400) TTC_SHEP\Station_Pillars.csv
+
+;Beta Bloor-Danforth Objects,,,,,,,,,,,,,,,,,,,,,,,,,
+.freeobj (5050) TTC_SHEP\OneStop TV\TrainOneStop.Animated
+.freeobj(5051) TTC_SHEP\BMOBuilding.b3d
+
+,,,,,,,,,,,,,,,,,,,,,,
+;Static 6 Signals,,,,,,,,,,,,,,,,,,,,,,
+.freeobj(600) TTC_SHEP\signal_6_0.csv;double red
+.freeobj(601) TTC_SHEP\signal_6_1.csv;double yellow green
+.freeobj(602) TTC_SHEP\signal_6_2.csv;Double Green
+.freeobj(603) TTC_SHEP\signal_6_3.csv
+.freeobj(604) TTC_SHEP\signal_6_4.csv
+.freeobj(605) TTC_SHEP\signal_6_5.csv
+
+
+;rails
+.freeobj(1000) TTC_SHEP\Track\200tunnelCurveRR.csv
+.freeobj(1001) TTC_SHEP\Track\200tunnelCurveRL.csv
+
+.freeobj(1100) TTC_SHEP\Track\200tunnelCurveLR.csv
+.freeobj(1101) TTC_SHEP\Track\200tunnelCurveLL.csv
+.freeobj(1104) TTC_SHEP\Track\200ballastdarkCurveLR.csv
+
+.freeobj(2000) TTC_SHEP\Track\200tunnelSwitchRR.csv
+.freeobj(2001) TTC_SHEP\Track\200tunnelSwitchRL.csv
+.freeobj(2003) TTC_SHEP\Track\200ballastswitchRL.csv
+.freeobj(2005) TTC_SHEP\Track\200concreteswitchRL.csv
+
+.freeobj(2100) TTC_SHEP\Track\200tunnelSwitchLR.csv
+.freeobj(2101) TTC_SHEP\Track\200tunnelSwitchLL.csv
+.freeobj(2102) TTC_SHEP\Track\200ballastswitchLR.csv
+.freeobj(2104) TTC_SHEP\Track\200concreteswitchLR.csv
+
+.freeobj(3000) TTC_SHEP\Track\tunnelXoverR.csv
+.freeobj(3100) TTC_SHEP\Track\tunnelXoverL.csv
+
+.freeobj(4000) TTC_SHEP\Track\200tunnelWyeSwitchR.csv
+.freeobj(4002) TTC_SHEP\Track\200concretewyeswitchR.csv
+.freeobj(4100) TTC_SHEP\Track\200tunnelWyeSwitchL.csv
+
+.freeobj(5000) TTC_SHEP\Track\GuideRailStartDarkL.csv
+.freeobj(5001) TTC_SHEP\Track\GuideRailStartDarkR.csv
+.freeobj(5002) TTC_SHEP\Track\GuideRailEndDarkL.csv
+.freeobj(5003) TTC_SHEP\Track\GuideRailEndDarkR.csv
+.freeobj(5004) TTC_SHEP\Track\GuideRailStartLightL.csv
+.freeobj(5005) TTC_SHEP\Track\GuideRailStartLightR.csv
+.freeobj(5006) TTC_SHEP\Track\GuideRailEndLightL.csv
+.freeobj(5007) TTC_SHEP\Track\GuideRailEndLightR.csv
+.freeobj(5008) TTC_SHEP\Track\3rdRailDarkL.csv
+.freeobj(5009) TTC_SHEP\Track\3rdRailDarkR.csv
+.freeobj(5010) TTC_SHEP\Track\3rdRailLightL.csv
+.freeobj(5011) TTC_SHEP\Track\3rdRailLightR.csv
+.freeobj(5012) TTC_SHEP\Walls\Tun_middle_half.csv
+.freeobj(5013) TTC_SHEP\Walls\Tun_middle_wall.csv
+
+.ground(0) TTC_SHEP\blackground.csv
+.ground(1) TTC_SHEP\grass.csv
+.ground(2) TTC_SHEP\concreteground.csv
+.ground(3) TTC_SHEP\concretelightground.csv
+.ground(4) TTC_SHEP\noground.csv
+texture.background(0) TTC_SHEP\black.bmp
+texture.background(1) TTC_SHEP\skylineday.bmp
+texture.background(2) TTC_SHEP\skylineallen.bmp
+
+Signal(42).Load TTC_SHEP\Grade Time_Station Time Control\1_ShotGT_Static_Amber.animated
+
+Signal(45).Load TTC_SHEP\Grade Time_Station Time Control\SignalDoubleYGLunar_Static.animated
+
+
+Signal(1).Load TTC_SHEP\Grade Time_Station Time Control\A_L_100m_35kph.animated
+Signal(2).Load TTC_SHEP\Grade Time_Station Time Control\A_L_200m_45kph.animated
+Signal(3).Load TTC_SHEP\Grade Time_Station Time Control\A_L_100m_51kph.animated
+Signal(4).Load TTC_SHEP\Grade Time_Station Time Control\A_L_100m_60kph.animated
+Signal(5).Load TTC_SHEP\Grade Time_Station Time Control\A_L_300m.animated
+Signal(7).Load TTC_SHEP\Grade Time_Station Time Control\A_L_100m_72kph.animated
+Signal(8).Load TTC_SHEP\Grade Time_Station Time Control\A_L_125m_75kph.animated
+Signal(9).Load TTC_SHEP\Grade Time_Station Time Control\A_L_225m.animated
+Signal(10).Load TTC_SHEP\Grade Time_Station Time Control\A_L_400m.animated
+Signal(11).Load TTC_SHEP\Grade Time_Station Time Control\A_L_350m.animated
+Signal(12).Load TTC_SHEP\Grade Time_Station Time Control\A_L_150m.animated
+Signal(13).Load TTC_SHEP\Grade Time_Station Time Control\A_L_175m.animated
+Signal(14).Load TTC_SHEP\Grade Time_Station Time Control\A_L_75m.animated
+Signal(15).Load TTC_SHEP\Grade Time_Station Time Control\A_L_250m.animated
+Signal(16).Load TTC_SHEP\Grade Time_Station Time Control\A_L_50m.animated
+Signal(17).Load TTC_SHEP\Grade Time_Station Time Control\R_G_200m.animated
+
+Signal(20).Load TTC_SHEP\Grade Time_Station Time Control\R_R_Platform.animated
+Signal(21).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_L_50m.animated
+Signal(22).Load TTC_SHEP\Grade Time_Station Time Control\Double_Y_Y_L_25m.animated
+Signal(23).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_L_225m.animated
+Signal(24).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_L_325m.animated
+Signal(25).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_L_450m.animated
+Signal(26).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_L_100m.animated
+Signal(27).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_L_425m.animated
+Signal(28).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_L_200m.animated
+
+Signal(30).Load TTC_SHEP\Grade Time_Station Time Control\R_R_NoGT_Platform.animated
+
+
+.Beacon(5).Load TTC_SHEP\Beacon_S.csv
+.Beacon(7).Load TTC_SHEP\Beacon_P.csv
+
+Options.FogBehavior 1
+Options.ObjectVisibility 1
+Options.CantBehavior 1
+
+With Track
+0,.railstart 1;-12;0;2  ,.dike 1;0;8,.dike 0;0;9,.curve 0,.pitch 0
+
+;===============================================================================
+; Sheppard Yonge 0
+;===============================================================================
+
+25,.Sta Sheppard-Yonge;20.3000; 20.3015;;R;1;;;15;169;;
+
+25,.form 0;1;0  ,.rail 1;-12;0;2  ,.announce TTC_YuS\Other Sounds\bump.wav;45,.dikeend 0  ,.dikeend 1  ,.railtype 0;1  ,.railtype 1;0  ,.wall 0;0;1  ,.wall 1;0;1  ,.freeobj 0;7;0;0;0  ,.freeobj 1;26;0;0;0  ,.form 0;R;0  ,.form 1;L;0  ,.freeobj 0;127  
+,.pitch 0,.freeobj 0;128  ,.freeobj 0;130  ,.freeobj 1;130;-4    ,
+40,.freeobj 0;129;2.5;3.95  ,.freeobj 0;238  ,.freeobj 0;244  ,.freeobj 0;245 
+50,.form 0;1;0  ,.freeobj 1;265;-12,.freeobj 1;127;;;180  ,.form 0;R;0  ,.form 1;L;0  ,.freeobj 0;127
+75,.form 0;1;0  ,.accuracy 2,.freeobj 1;127;;;180  ,.form 0;R;0  ,.freeobj 0;49;1;4;0  ,.form 1;L;0  ,.freeobj 0;242  ,.freeobj 0;127
+90,.freeobj 0;244 
+100,.form 0;1;0  ,.freeobj 1;127;;;180  ,.form 0;R;0  ,.form 1;L;0  ,.freeobj 0;127  ,.freeobj 0;245  ,.freeobj 0;241
+121,.freeobj 0;266;65;0.1,.freeobj 0;5050;2;2.7;0
+125,.form 0;1;0  ,.freeobj 1;127;;;180  ,.form 0;R;0  ,.form 1;L;0  ,.freeobj 0;127  ,.marker TTC_YUS\ttcbdbloor.bmp;150  ,.freeobj 0;238
+134,.freeobj 0;129;2.5;3.95   ,.freeobj 0;245 
+135,.doppler TTC_SHEP\norm.wav;1;3,.Stop 0; 5; 14.9,.freeobj 0;46;1.5;-0.144;30 
+150,.railstart 5;5,.railtype 5;8,.dike 5;1;1,.form 0;1;0,.form 0;R;0  ,.Pitch -7,.announce TTC_YuS\Other Sounds\bump.wav;45,.freeobj 1;127;;;180  ,.marker TTC_YUS\stnbloor.bmp;100  ,.wallend 0  ,.wallend 1  ,.railtype 0;4  ,.railtype 1;3  ,.dike 1;-1;1  ,.freeobj 0;128  ,.freeobj 0;130  ,.freeobj 1;130;-4
+
+
+25,.freeobj 0;276;0.3;1.35;;;-10
+50,.freeobj 0;276;0.3;1.35;;;-10,.freeobj 1;277;-1;1.35;180;;-10
+75,.freeobj 0;276;0.3;1.35;;;-10,.freeobj 1;277;-1;1.35;180;;-10
+100,.freeobj 0;276;0.3;1.35;;;-10,.freeobj 1;277;-1;1.35;180;;-10
+125,.freeobj 0;276;0.3;1.35;;;-10,.freeobj 1;277;-1;1.35;180;;-10
+150,.freeobj 1;277;-1;1.35;180;-0.9;-10,.freeobj 0;45;2;2.2
+
+;===============================================================================
+; Yonge-Bayview 150
+;===============================================================================
+
+153,.sigf 30;;2;3.8,.Beacon(108; 7; 0; -1)
+153.1,.freeobj 0;101;-0.15
+174.5,.freeobj 0;69
+175,.dikeend 5,.railend 5;0,.freeobj 0;130;-4  ,.freeobj 1;130  ,.dike 0;0;9  ,.dike 1;0;1,.height 2,.Pitch -17
+182,.freeobj 0;62;2.1;2.2
+200,.Pitch -25
+199,.announce TTC_SHEP\crossyonge1.wav;28
+225,.announce TTC_SHEP\crossyonge2.wav;30,.railtype 0;2,.railtype 1;2,.Pitch -25.25,.dike 0;1;1  ,.dike 1;-1;8,.dike 3;1;9,.railstart 2;0;0;8  ,.railstart 3;-12;0;8 ,.freeobj 0;2100 ,.freeobj 1;2001 ,.dike 2;-1;9,.sigf 45;1;2.2;3.5,.Beacon(108; 5; 0; 15)
+250,.Pitch -25.5,.rail 2;-1.55;;2 ,.rail 3;-10.5;;2 ,.dikeend 2 ,.dikeend 3 ,.freeobj 2;5008 ,.freeobj 3;5009,,,,,,,,,,,,,,,,
+265,.freeobj 2;5009 ,.freeobj 3;5008,,,,,,,,,,,,,,,,,,,,
+275,.Pitch -26,.rail 2;-4.5 ,.rail 3;-7.5,,,,,,,,,,,,,,,,,,,,
+270.34,.announce TTC_SHEP\bayview.wav
+286,.freeobj 0;5012 ,.freeobj 1;5012;5.5,,,,,,,,,,,,,,,,,,,,
+295,.freeobj 2;5008 ,.freeobj 3;5009,,,,,,,,,,,,,,,,,,,,
+300,.Pitch -26.5,.rail 2;-7.5 ,.rail 3;-4.5,,,,,,,,,,,,,,,,,,,,
+315,.freeobj 2;5009 ,.freeobj 3;5008,,,,,,,,,,,,,,,,,,,,
+325,.Pitch -27,.marker TTC_YUS\lawrencex.bmp;75  ,.rail 2;-10.5;;8  ,.rail 3;-1.55;;8 ,.dike 3;-1;9 ,.freeobj 0;5013;-2,,,,,,,,,,,,,,,,,
+336,.announce TTC_SHEP\crossyonge4.wav;38
+350,.Pitch -27.5,.dikeend 3  ,.dike 0;0;2  ,.dike 1;0;2  ,.freeobj 0;161  ,.freeobj 1;161  ,.railtype 0;3  ,.railtype 1;4 ,.freeobj 1;2100;;;180 ,.freeobj 0;2001;;;180 ,.railend 2;-12  ,.railend 3;0  ,.freeobj 0;69;0;0;0
+
+250,.rail 2;-1.55;;2 ,.rail 3;-10.5;;2 ,.dikeend 0, ,.dike 1;-1;8,.railstart 4;4.5;0;3 ,.dike 4;1;1 ,.dikeend 2 ,.dikeend 3 ,.freeobj 2;5008 ,.freeobj 3;5009
+265,.freeobj 2;5009 ,.freeobj 3;5008 ,.freeobj 0;5008
+275,.announce TTC_SHEP\crossyonge3.wav;33.5,.rail 2;-4.5 ,.rail 3;-7.5 ,.railtype 1;2 ,.rail 4;1.55;;8
+286,.freeobj 0;5012 ,.freeobj 1;5012;5.5
+295,.freeobj 2;5008 ,.freeobj 3;5009,
+300,.Curve 0,.rail 2;-7.5 ,.rail 3;-4.5 ,.railend 4;0 ,.freeobj 0;2101;0;0;180 ,.dikeend 4 ,.dike 0;1;1 ,.dike 1;-1;1 ,.railtype 0;3
+350,.sigf 8;1;2.2;2.8,.Beacon(108; 5; 0; 9)
+354,.freeobj 0;227;-2.35;2,
+410,.Freeobj 0;44;2;2.2
+450,.Pitch -22
+475,.Pitch -12.5,.sigf 8;1;2.2;2.8,.Beacon(108; 5; 0; 13)
+500,.Pitch -6
+525,.Pitch 2
+550,.Pitch 8
+575,.Pitch 16
+700,.sigf 9;1;2.2;3.15,.Beacon(108; 5; 0; 23)
+600,.Pitch 29
+625,.Pitch 32
+850,.Pitch 23
+875,.Pitch 15
+900,.Pitch 9
+925,.Pitch 4
+950,.Pitch 1
+1025,.sigf 24;;2;2.6,.Beacon(108; 5; 0; 19)
+1325,.sigf 5;1;2.2;2.8,.Beacon(108; 5; 0; 13)
+1550,.sigf 9;1;2;2.6,.Beacon(108; 5; 0; 23)
+1900,.pitch 0,.Curve -2000,.railtype 0;19
+1975,.sigf 27;1;2;2.6,.Beacon(108; 5; 0; 7)
+1985,.freeobj 0;62;2;2
+1995
+2010,.freeobj 0;46;2;2
+2025,.Curve 0,.railtype 0;3
+2050,.dike 0;0;9,.dike 1;0;9
+
+;===============================================================================
+; Bayview 2100
+;===============================================================================
+
+2100,.Sta Bayview;;;;L;0;;;9;164;;
+
+2100,.Pitch 0,.freeobj 0;130;-4  ,.freeobj 1;130  ,.brightness 255,.announce TTC_YuS\Other Sounds\bump.wav;45,.dikeend 0  ,.dikeend 1  ,.railtype 0;0  ,.railtype 1;1  ,.pitch 0  ,.wall 0;1;0  
+,.wall 1;-1;0  ,.freeobj 0;5;0;0;0  ,.form 0;1;0  ,.freeobj 0;89;2.5  ,.freeobj 1;90;-2.5  ,.freeobj 0;91  ,.freeobj 1;108;-1.55,.Pitch 0,.sigf 26;1;2;2.8,.Beacon(108; 5; 0; 17),.Beacon(108; 7; 0; -2)
+
+2115,.freeobj 0;244;-5 
+2125,.form 0;1;0  ,.freeobj 0;48;-3.5;3.5;0  ,.freeobj 0;89;2.5  ,.freeobj 0;242;-5 ,.freeobj 1;90;-2.5  ,.freeobj 1;108;-1.55
+2135,.freeobj 0;49;-3.5;4;0  ,.freeobj 1;50;3.5;4;0  ,.freeobj 0;242;-5 
+2107.5,.announce TTC_SHEP\bayview1.wav
+2149,.freeobj 0;100;-7;4.2  ,.freeobj 0;244;-5   
+2150,.form 0;1;0  ,.freeobj 0;89;2.5  ,.freeobj 1;90;-2.5  ,.freeobj 0;92  ,.freeobj 0;240  ,.freeobj 1;108;-1.55,.freeobj 0;243;-6 
+2175,.form 0;1;0  ,.freeobj 0;89;2.5  ,.freeobj 1;90;-2.5  ,.freeobj 1;108;-1.55,.freeobj 1;241  
+2185,.freeobj 0;55;-4;4;0  ,.freeobj 0;242;-5 
+2200,.form 0;1;0  ,.freeobj 0;54;-3.5;3.5;0  ,.freeobj 1;53;3.5;3.5;0  ,.freeobj 0;89;2.5  ,.freeobj 1;90;-2.5  ,.freeobj 0;91  ,.freeobj 1;108;-1.55,.freeobj 0;239  ,.freeobj 0;244;-7 
+2210,.Stop 0; 5; 14.9,.freeobj 0;46;-1.5;-0.144;-30 ,.freeobj 0;33;-0.73;3.5
+2224.25,.freeobj 0;87  ,.freeobj 0;502;2.25;1.3,.freeobj 0;511;2.25;1.05
+2225,.Pitch -2,.brightness 255,.announce TTC_YuS\Other Sounds\bump.wav;45,.sigf 20;1;2.2;3.5,.Beacon(108; 7; 0; -1),.Beacon(108; 5; 0; 1)   ,.freeobj 0;45;2;1;0  ,.marker TTC_YUS\stneglinton.bmp;125  ,.railtype 0;3  ,.railtype 1;4  ,.wallend 0  ,.wallend 1  ,.freeobj 0;130;-4  ,.freeobj 1;130  ,.dike 0;0;9  ,.dike 1;-1;1
+
+;===============================================================================
+; Bayview-Bessarion 2225
+;===============================================================================
+
+2242,.announce TTC_SHEP\bessarion.wav
+2250,.Pitch -5,.dike 0;1;1  ,.railstart 2;0;0;8  ,.railstart 3;-12;0;8 ,.freeobj 0;2100 ,.freeobj 1;2001 ,.dike 2;-1;9
+2255,.announce TTC_SHEP\crossyonge2.wav;30
+2275,.Pitch -5.5,.rail 2;-1.55;;2 ,.rail 3;-10.5;;2 ,.dikeend 2 ,.dikeend 3 ,.freeobj 2;5008 ,.freeobj 3;5009,,,,,,,,,,,,,,,,
+2290,.freeobj 2;5009 ,.freeobj 3;5008,,,,,,,,,,,,,,,,,,,,
+2300,.Pitch -6.25,.rail 2;-4.5 ,.rail 3;-7.5,,,,,,,,,,,,,,,,,,,,
+2306,.freeobj 0;5012 ,.freeobj 1;5012;5.5,,,,,,,,,,,,,,,,,,,,
+2320,.freeobj 2;5008 ,.freeobj 3;5009,,,,,,,,,,,,,,,,,,,,
+2325,.adhesion 75,.Pitch -6.75,.rail 2;-7.5 ,.rail 3;-4.5,,,,,,,,,,,,,,,,,,,,
+2335,.freeobj 2;5009 ,.freeobj 3;5008,,,,,,,,,,,,,,,,,,,,
+2350,.Pitch -7,.marker TTC_YUS\lawrencex.bmp;75  ,.rail 2;-10.5;;8  ,.rail 3;-1.55;;8 ,.dike 3;-1;9 ,.freeobj 0;5013;-2,,,,,,,,,,,,,,,,,
+2360,.announce TTC_SHEP\crossbay3.wav;43
+2375,.Pitch -8.5,.dikeend 3  ,.dike 0;0;2  ,.dike 1;0;2  ,.freeobj 0;161  ,.freeobj 1;161  ,.railtype 0;3  ,.railtype 1;4 ,.freeobj 1;2100;;;180 ,.freeobj 0;2001;;;180 ,.railend 2;-12  ,.railend 3;0  ,.freeobj 0;69;0;0;0,,,,,,,,,,
+2374.1,.signal 3;St. Andrew;2.2;3
+2363,.freeobj 0;62;2.001;2.1
+
+2425,.adhesion 128,.Pitch -10
+2450,.Pitch -12.7,.Curve 3000
+2475,.Pitch -16,.Curve 1000
+2500,.Pitch -23
+2525,.sigf 42;;2;2.8,.Beacon(108; 5; 0; 18)
+2550,.Curve 50000,.Pitch -28.25
+2775,.sigf 15;;2;2.8,.Beacon(108; 5; 0; 6)
+2875,.sigf 7;;2;2.8,.Beacon(108; 5; 0; 7)
+2902,.freeobj 0;46;2;2.5
+2925,.Pitch -20
+2950,.Pitch -10,.Curve 0
+2975,.dike 0;0;9,.Pitch -5
+3000,.Pitch 0
+
+;===============================================================================
+; Bessarion 3025
+;===============================================================================
+3025,.Sta Bessarion;;;;L;0;;;5;163;;
+
+3024,.announce TTC_SHEP\bessarion1.wav
+3025,.adhesion 145,.freeobj 0;130;-4  ,.freeobj 1;130  ,.Pitch 0,.brightness 255,.announce TTC_YuS\Other Sounds\bump.wav;45,.dikeend 0  ,.dikeend 1  ,.railtype 0;0  ,.railtype 1;1  ,.wall 0;1;0  ,.wall 1;-1;0  ,.freeobj 0;5;0;0;0  ,.form 0;1;0  ,.freeobj 0;85;2.5;0;0  ,.freeobj 1;86;-2.5;0;0  ,.freeobj 0;88  ,.sigf 12;;2;3,.Beacon(108; 5; 0; 17)
+,.Beacon(108; 7; 0; -2)
+3050,.form 0;1;0  ,.freeobj 0;48;-3.5;3.5;0  ,.freeobj 0;85;2.5;0;0  ,.freeobj 1;86;-2.5;0;0  ,.freeobj 0;240  ,.freeobj 1;244
+3075,.form 0;1;0  ,.freeobj 0;49;-3.5;4;0  ,.freeobj 1;50;3.5;4;0  ,.freeobj 0;85;2.5;0;0  ,.freeobj 1;86;-2.5;0;0  ,.freeobj 0;88  ,.freeobj 0;244;-5   
+3100,.form 0;1;0  ,.freeobj 0;55;-4;4;0  ,.freeobj 0;85;2.5;0;0  ,.freeobj 1;244 
+,.freeobj 1;86;-2.5;0;0  ,.freeobj 0;244;-5  ,.freeobj 1;241 
+3125,.form 0;1;0  ,.freeobj 0;54;-3.5;3.5;0  ,.freeobj 1;53;3.5;3.5;0  ,.freeobj 0;240  ,.freeobj 0;85;2.5;0;0  ,.freeobj 1;86;-2.5;0;0  ,.freeobj 0;88  ,.freeobj 1;244  
+3135,.Stop 0; 5; 14.9,.freeobj 0;46;-1.5;-0.144;-30  ,.freeobj 0;242;-5 
+3149.25,.freeobj 0;87;0;0;0 ,.freeobj 0;130;-4  ,.freeobj 1;130 ,
+3149,.freeobj 0;502;2.13;1.2,.freeobj 0;511;2.05;0.95,.freeobj 0;516;2.18;0.95  
+3150,.adhesion 100,.Pitch -2.75,.brightness 255,.freeobj 0;271,.railtype 0;3  ,.railtype 1;4  ,.wallend 0  ,.wallend 1  ,.announce TTC_YuS\Other Sounds\bump.wav;45,.marker TTC_YUS\stnlawrence.bmp;100 ,.dike 0;0;9  ,.dike 1;-1;1,.sigf 20;;2;2.8,.Beacon(108; 7; 0; -1),.Beacon(108; 5; 0; 1)
+
+;===============================================================================
+; Bessarion-Leslie 3150
+;===============================================================================
+
+3175,.dike 0;0;2,.dike 1;0;2,.Pitch -5,.freeobj 0;161,.freeobj 1;161
+3175.2,.announce TTC_SHEP\leslie.wav
+3200,.Pitch -10
+3218,.freeobj 0;62;2.001;2.2,.freeobj 0;62;-2.001;2.2
+3225,.Pitch -20
+3250,.Pitch -30
+3275,.Pitch -37
+3375,.sigf 42;;2;2.8,.Beacon(108; 5; 0; 3)
+3400,.Curve 1000
+3425,.sigf 16;;2;2.8,.Beacon(108; 5; 0; 7)
+3450,.Curve 0,.Pitch -25
+3550,.pitch -20,.sigf 8;;2;2.6,.Beacon(108; 5; 0; 8)
+3575,.Pitch -10
+3600,.pitch 0,.dike 0;0;9,.dike 1;0;9
+3605,.freeobj 0;46;2;2.8
+3697,.announce TTC_SHEP\leslie1.wav
+;===============================================================================
+; Leslie 3700
+;===============================================================================
+3700,.Sta Leslie;;;;L;0;;;8;160;;
+
+3700,.pitch 0,.freeobj 0;130;-4  ,.freeobj 1;130  ,.announce TTC_YuS\Other Sounds\bump.wav;45,.railend 2;0  ,.dikeend 0  ,.dikeend 1 ,.dikeend 2  ,.railtype 0;0  ,.railtype 1;1  ,.freeobj 0;151  ,.wall 0;1;0  ,.wall 1;-1;0  ,.form  0;1;0  ,.freeobj 0;153,.sigf 12;;2;3,.Beacon(108; 5; 0; 17),.Beacon(108; 7; 0; -2)
+3725,.form  0;1;0  ,.freeobj 0;48;-3.5;3.5;0  ,.freeobj 0;151  ,.freeobj 0;153  ,.freeobj 0;243;-5  ,.freeobj 1;243
+3749,.freeobj 0;100;-7;4.2  ,.freeobj 0;244;-5   
+3750,.form  0;1;0  ,.freeobj 0;151  ,.freeobj 0;152  
+3775,.doppler TTC_YuS\Other Sounds\announce.wav,.form  0;1;0  ,.freeobj 1;49;3.5;4;0  ,.freeobj 0;50;-3.5;4;0  ,.freeobj 0;151  ,.freeobj 0;153 ,.freeobj 0;245;-5 
+3799,.freeobj 0;100;-7;4.2
+3800,.freeobj 1;101;-5.1;-1,.form  0;1;0  ,.freeobj 1;48;3.5;3.5;0  ,.freeobj 0;185;-2;3.5;0  ,.freeobj 1;187;1.5;3.5;0  ,.freeobj 0;240  ,.freeobj 0;151  ,.freeobj 0;152  ,.freeobj 1;242  ,.marker TTC_YUS\ttc503504508.bmp;100  ,.freeobj 0;243;-6 
+3810,.Stop 0; 5; 14.9,.freeobj 0;46;-1.5;-0.144;-30  ,.freeobj 0;244;-5  ,.freeobj 1;243 
+3825,.Pitch 5,.announce TTC_YuS\Other Sounds\bump.wav;45,.sigf 20;;2;2.6,.Beacon(108; 5; 0; 1),.Beacon(108; 7; 0; -1)  ,.wallend 0  ,.wallend 1  ,.dike 0;0;9  ,.dike 1;0;9  ,.railtype 0;3  ,.railtype 1;4 ,.marker TTC_YUS\stnstandrew.bmp;75  ,.freeobj 0;130;-4  ,.freeobj 1;130  ,.freeobj 0;154 
+
+
+;===============================================================================
+; Leslie-Don Mills 3725
+;===============================================================================
+3831,.announce TTC_SHEP\donmills.wav
+3950,.Curve -1000,.railtype 0;29
+4097,.signal 3;;2.2;3,.signal 3;;0;3 ;so automatic will be green not amber
+4100,.Curve 0,.railtype 0;3
+4400,.sigf 42;;2;2.8,.Beacon(108; 5; 0; 12)
+4475,.Pitch 5
+4500,.pitch 10,.dike 0;0;2,.dike 1;0;2,.freeobj 0;161
+4525,.pitch 20
+4550,.Pitch 32
+4600,.sigf 28;1;2;2.8,.Beacon(108; 5; 0; 13)
+4775,.freeobj 0;62;2;2.2,.freeobj 0;62;-2;2.2
+4800,.sigf 42;1;2;2.8,.Beacon(108; 5; 0; 3)
+4810,.freeobj 0;44;2;2.2,.freeobj 0;44;-2;2.2
+4850,.sigf 16;1;2;2.8,.Beacon(108; 5; 0; 3)
+4860,.freeobj 0;45;2;2.2,.freeobj 0;45;-2;2.2
+4937,.announce TTC_SHEP\donmills1.wav
+4875,.Pitch 20
+4900,.Pitch 10,.sigf 21;1;2;2.8,.Beacon(108; 5; 0; 4)
+4925,.Pitch 9.5
+4950,.height 0.5,.railstart 2;0;0;8  ,.railstart 3;-12;0;4  ,.curve -200;-100,.Dike 0;-1;1  ,.Dikeend 1    ,.dike 3;-1;1  ,.dike 2;1;1  ,.railtype 0;8  ,.railtype 1;2 ,.freeobj 2;2101,.sigf 22;1;2.2;2.6,.Beacon(108; 5; 0; 16),; Sc-0
+4951,.announce TTC_SHEP\crossdon1.wav;35
+4975,.Rail 1;-9.5;;2  ,.rail 2;1.5;;3  ,.rail 3;-10.5   ,.curve 0 ,.railtype 0;2 ,.Dikeend 0 ,.freeobj 0;5008 ,.freeobj 1;5009
+4990,.freeobj 0;5009 ,.freeobj 1;5008
+5000,.Rail 1;-3  ,.rail 2;4.5  ,.rail 3;-7.5  ,.railtype 0;2 ,.railtype 1;2
+5000.2,.announce TTC_SHEP\crossdon2.wav;35
+5006,.freeobj 2;5012 ,.freeobj 3;5012;5.5
+5020,.freeobj 0;5008 ,.freeobj 1;5009
+5025,.rail 1;3 ,.rail 2;7.5 ,.rail 3;-4.5
+5035,.freeobj 0;5009 ,.freeobj 1;5008
+5050,.announce TTC_SHEP\crossdon3.wav;35,.curve 200;-100,.railtype 0;8 ,.Rail 1;9;0;2  ,.rail 2;10.5;0  ,.rail 3;-1.55;;8 ,.dike 0;1;1  ,.dike 1;-1;8 ,.freeobj 2;5013;-2.4
+5055,.freeobj 0;45;2;2.2
+5075,.railtype 0;4  ,.rail 1;12;0  ,.rail 2;12;0  ,.rail 3;0  ,.dikeend 3    ,.railend 3  ,.Curve 0  ,.dike 0;0;1  ,.dike 1;-1;8 ,.freeobj 0;2101;;;180
+5082,.freeobj 1;300;2.2;3.5;0  ,
+;===============================================================================
+; Don Mills 5125
+;===============================================================================
+
+
+5100,.pitch 2
+
+5125,.Sta Don Mills;;T:;;1;1;;;;2;;
+5125,.Pitch 0,.freeobj 1;130;-4  ,.freeobj 0;130 ,.Dikeend 2  ,.railend 2 ,.Pitch 0,.announce TTC_YuS\Other Sounds\bump.wav;45,.dikeend 0  ,.dikeend 1  ,.railtype 0;1  ,.railtype 1;0  ,.freeobj 1;77,.wall 1;1;0  ,.freeobj 1;72;2.5;0;0  ,.freeobj 0;70;-2.5;0;0  ,.wall 0;-1;0  ,.freeobj 1;5;0;0;0  ,.form 0;1;0  ,.pitch 0 
+,.sigf 13;1;2.2;3.75,.Beacon(108; 5; 0; 17),.Beacon(108; 7; 0; -2),; Sc-0
+5140,.freeobj 1;49;-3.5;4;0  ,.freeobj 0;50;3.5;4;0  ,.freeobj 1;240 
+5150,.form 0;1;0  ,.freeobj 1;77  ,.freeobj 1;72;2.5;0;0  ,.freeobj 0;70;-2.5;0;0  ,.freeobj 0;243 
+5175,.form 0;1;0  ,.marker TTC_YUS\ttcshep.bmp;75  ,.freeobj 1;71;2.5;0;0  ,.freeobj 0;75;-2.5 
+5180,.freeobj 1;55;-4;4;0  ,.freeobj 0;244 ,.freeobj 0;46;1.5;-0.144;-30 
+5190,.freeobj 1;54;-3.5;3.5;0  ,.freeobj 0;53;3.5;3.5;0  ,.freeobj 1;240 
+5200,.form 0;1;0  ,.freeobj 1;72;2.5;0;0  ,.freeobj 0;70;-2.5;0;0  ,.freeobj 1;77  ,.freeobj 1;244;-5  
+5225,.form 0;1;0  ,.freeobj 1;77  ,.freeobj 0;70;-2.5;0;0  ,
+5235,.Stop 0; 5; 14.9,.freeobj 0;46;1.5;-0.144;-30
+5249.9,.freeobj 1;76
+5250,.brightness 255,.announce TTC_YuS\Other Sounds\bump.wav;45,.freeobj 1;45;2;4;0,.freeobj 1;130;-4  ,.freeobj 0;130  ,.wallend 0  ,.wallend 1  ,.railtype 0;2  ,.dike 0;0;9,.dike 1;0;9 ,.railtype 1;4  ,.freeobj 0;38;2.5;3.5
+5253,.signal -6;Sheppard;2.2;3.5
+;===============================================================================
+; Tailtracks 5225
+;===============================================================================
+5350,.freeobj 0;69;6,.freeobj 1;69;6,.buffer
+5375,.Curve 1,.pitch -15,.adhesion 0

@@ -1,0 +1,226 @@
+;--------------------
+;Platform
+;--------------------
+[Include]
+staform01l.csv
+Position = -6,0,0
+[Include]
+staformoldmillcl.csv
+Position = -6,0,0
+[Include]
+staform01r.csv
+Position = 0,0,0
+[Include]
+staformoldmillcr.csv
+Position = 0,0,0
+
+[Include]
+staform01l.csv
+Position = -6,0,25
+[Include]
+staformoldmillcl.csv
+Position = -6,0,25
+[Include]
+staform01r.csv
+Position = 0,0,25
+[Include]
+staformoldmillcr.csv
+Position = 0,0,25
+
+[Include]
+staform01l.csv
+Position = -6,0,50
+[Include]
+staformoldmillcl.csv
+Position = -6,0,50
+[Include]
+staform01r.csv
+Position = 0,0,50
+[Include]
+staformoldmillcr.csv
+Position = 0,0,50
+
+[Include]
+staform01l.csv
+Position = -6,0,75
+[Include]
+staformoldmillcl.csv
+Position = -6,0,75
+[Include]
+staform01r.csv
+Position = 0,0,75
+[Include]
+staformoldmillcr.csv
+Position = 0,0,75
+
+[Include]
+staform01l.csv
+Position = -6,0,100
+[Include]
+staformoldmillcl.csv
+Position = -6,0,100
+[Include]
+staform01r.csv
+Position = 0,0,100
+[Include]
+staformoldmillcr.csv
+Position = 0,0,100
+
+[Include]
+staform01l.csv
+Position = -6,0,125
+[Include]
+staformoldmillcl.csv
+Position = -6,0,125
+[Include]
+staform01r.csv
+Position = 0,0,125
+[Include]
+staformoldmillcr.csv
+Position = 0,0,125
+
+;--------------------
+;Track
+;--------------------
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rl.csv
+Position = 0,0,0
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rr.csv
+Position = -6,0,0
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rl.csv
+Position = 0,0,25
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rr.csv
+Position = -6,0,25
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rl.csv
+Position = 0,0,50
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rr.csv
+Position = -6,0,50
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rl.csv
+Position = 0,0,75
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rr.csv
+Position = -6,0,75
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rl.csv
+Position = 0,0,100
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rr.csv
+Position = -6,0,100
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rl.csv
+Position = 0,0,125
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rr.csv
+Position = -6,0,125
+;--------------------
+;roof
+;--------------------
+
+;-------------
+;base
+;----------
+[include]
+keelebase.b3d
+Position = -3, 0, 0
+
+[include]
+keelebase.b3d
+Position = -3, 0, 25
+
+[include]
+keelebase.b3d
+Position = -3, 0, 50
+
+[include]
+keelebase.b3d
+Position = -3, 0, 75
+
+[include]
+keelebase.b3d
+Position = -3, 0, 100
+
+[include]
+keelebase.b3d
+Position = -3, 0, 125
+
+;indoor section
+[Include]
+stabeam01.csv
+position = -2.985, 0, 100
+
+[Include]
+stabeam01.csv
+position = -2.985, 0, 125
+
+;bridge components
+[Include]
+blooravenuewestbridge.b3d
+Position = -50,6.75,-250
+
+[Include]
+BIGBROWNPILLAR.b3D
+Position = -50,-0.02,100
+
+[Include]
+BIGBROWNPILLAR.b3D
+Position = -50,-0.02,50
+
+[Include]
+BIGBROWNPILLAR.b3D
+Position = -50,-0.02,0
+
+[Include]
+BIGBROWNPILLAR.b3D
+Position = -50,-0.02,-50
+
+[Include]
+BIGBROWNPILLAR.b3D
+Position = -50,-0.02,-100
+
+
+[Include]
+beams5.b3d
+position = 1, 0.1, 100
+[Include]
+beams5.b3d
+position = 1, 0.1, 125
+
+;ChainFence
+[Include]
+yellowchainfence.csv
+Position = 0,0,12.5
+
+
+[Include]
+yellowchainfence.csv
+Position = 0,0,37.5
+
+
+[Include]
+yellowchainfence.csv
+Position = 0,0,62.5
+
+
+[Include]
+yellowchainfence.csv
+Position = 0,0,87.5
+
+[Include]
+OldmillHill.b3d
+Position = 0,0,100

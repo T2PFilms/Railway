@@ -1,0 +1,45 @@
+;---------------
+;No Smoking Sign 3D
+;---------------
+CreateMeshBuilder
+Addvertex, 2, 2.4, 2.6,
+Addvertex, 2, 2.4, 1.6,
+Addvertex, 2, 1.4, 1.6,
+Addvertex, 2, 1.4, 2.6,
+Addface, 0, 1, 2, 3,
+GenerateNormals,
+Loadtexture, No Smoking.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+;Side_Front
+CreateMeshBuilder
+Addvertex, 2, 2.4, 1.6,
+Addvertex, 2.05, 2.4, 1.6,
+Addvertex, 2.05, 1.4, 1.6,
+Addvertex, 2, 1.4, 1.6,
+Addface, 0, 1, 2, 3,
+GenerateNormals,
+Setcolor, 110, 110, 110,
+
+;Side_Top
+CreateMeshBuilder
+Addvertex, 2, 2.4, 2.6,
+Addvertex, 2.05, 2.4, 2.6,
+Addvertex, 2.05, 2.4, 1.6,
+Addvertex, 2, 2.4, 1.6,
+Addface, 0, 1, 2, 3,
+GenerateNormals,
+Setcolor, 120, 120, 120,
+
+;Side_Opposite
+CreateMeshBuilder
+Addvertex, 2.05, 2.4, 2.6,
+Addvertex, 2, 2.4, 2.6,
+Addvertex, 2, 1.4, 2.6,
+Addvertex, 2.05, 1.4, 2.6,
+Addface, 0, 1, 2, 3,
+GenerateNormals,
+Setcolor, 180, 180, 180,

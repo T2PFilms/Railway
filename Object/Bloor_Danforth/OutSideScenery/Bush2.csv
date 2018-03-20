@@ -1,0 +1,17 @@
+
+
+CreateMeshBuilder,
+Addvertex,3.5,3,3,
+Addvertex,1.5,2,0,
+Addvertex,3.5,0,0,
+Addvertex,0,0,1,
+Addface2,0,1,2,3,
+GenerateNormals,
+LoadTexture,Bush1.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+SetDecalTransparentColor,0,0,0,
+
+

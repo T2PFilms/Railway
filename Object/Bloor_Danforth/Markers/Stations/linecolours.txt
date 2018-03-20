@@ -1,0 +1,12 @@
+Colors
+------------
+Yonge-University-Spadina = 226, 189, 0
+Bloor-Danforth = 76, 120, 0
+SRT = 0, 38, 159
+Sheppard = 125, 23, 145
+
+-------
+Font
+-------
+Stations = Calbri - 8pt
+All other = Arial? - 9pt

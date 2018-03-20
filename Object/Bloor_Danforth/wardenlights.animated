@@ -1,0 +1,78 @@
+[Include]
+wardenlights.csv
+Position = 0,0.3,0
+
+[Include]
+wardenlights.csv
+Position = 0,0.3,25
+
+[Include]
+wardenlights.csv
+Position = 0,0.3,50
+
+[Include]
+wardenlights.csv
+Position = 0,0.3,75
+
+[Include]
+wardenlights.csv
+Position = 0,0.3,100
+
+[Include]
+wardenlights.csv
+Position = 0,0.3,125
+
+
+
+
+[Include]
+wardenlights.csv
+Position = -3,0.3,0
+
+[Include]
+wardenlights.csv
+Position = -3,0.3,25
+
+[Include]
+wardenlights.csv
+Position = -3,0.3,50
+
+[Include]
+wardenlights.csv
+Position = -3,0.3,75
+
+[Include]
+wardenlights.csv
+Position = -3,0.3,100
+
+[Include]
+wardenlights.csv
+Position = -3,0.3,125
+
+
+
+
+
+[Include]
+wardenlights.csv
+Position = -6,0.3,0
+
+[Include]
+wardenlights.csv
+Position = -6,0.3,25
+
+[Include]
+wardenlights.csv
+Position = -6,0.3,50
+
+[Include]
+wardenlights.csv
+Position = -6,0.3,75
+
+[Include]
+wardenlights.csv
+Position = -6,0.3,100
+
+[Include]
+wardenlights.csv
+Position = -6,0.3,125

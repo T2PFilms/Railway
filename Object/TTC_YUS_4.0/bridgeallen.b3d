@@ -1,0 +1,385 @@
+[meshbuilder]
+vertex 60,7,0
+vertex -72,7,0
+vertex -72,8,0
+vertex 60,8,0
+face2 0,1,2,3
+
+[texture]
+load concrete.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex 60,7,0
+vertex -72,7,0
+vertex -72,7,5
+vertex 50,7,5
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+;support 1 right
+
+[meshbuilder]
+vertex 4,5,0
+vertex 4,7,0
+vertex 5,7,0
+vertex 5,5,0
+face2 0,1,2,3
+
+[texture]
+load concrete.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex 4,5,0
+vertex 4,7,0
+vertex 4,7,5
+vertex 4,5,5
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex 4,5,0
+vertex 4,5,5
+vertex 5,5,5
+vertex 5,5,0
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+;support 1 left
+
+[meshbuilder]
+vertex -17,5,0
+vertex -17,7,0
+vertex -16,7,0
+vertex -16,5,0
+face2 0,1,2,3
+
+[texture]
+load concrete.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex -16,5,0
+vertex -16,7,0
+vertex -16,7,5
+vertex -16,5,5
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex -17,5,0
+vertex -17,5,5
+vertex -16,5,5
+vertex -16,5,0
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+;pillars right
+;pillar 1
+
+[meshbuilder]
+vertex 4.125,0,0
+vertex 4.125,5,0
+vertex 4.875,5,0
+vertex 4.875,0,0
+face2 0,1,2,3
+
+[texture]
+load concrete.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex 4.125,0,0
+vertex 4.125,5,0
+vertex 4.125,5,.75
+vertex 4.125,0,.75
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+;pillar 2
+
+[meshbuilder]
+vertex 4.125,0,2.125
+vertex 4.125,5,2.125
+vertex 4.875,5,2.125
+vertex 4.875,0,2.125
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex 4.125,0,2.125
+vertex 4.125,5,2.125
+vertex 4.125,5,2.875
+vertex 4.125,0,2.875
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+;pillar 3
+
+[meshbuilder]
+vertex 4.125,0,4.25
+vertex 4.125,5,4.25
+vertex 4.875,5,4.25
+vertex 4.875,0,4.25
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex 4.125,0,4.25
+vertex 4.125,5,4.25
+vertex 4.125,5,5
+vertex 4.125,0,5
+face2 0,1,2,3
+
+[texture]
+load concrete.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+;pillars left
+;pillar 1
+
+[meshbuilder]
+vertex -16.125,0,0
+vertex -16.125,5,0
+vertex -16.875,5,0
+vertex -16.875,0,0
+face2 0,1,2,3
+
+[texture]
+load concrete.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex -16.125,0,0
+vertex -16.125,5,0
+vertex -16.125,5,.75
+vertex -16.125,0,.75
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+;pillar 2
+
+[meshbuilder]
+vertex -16.125,0,2.125
+vertex -16.125,5,2.125
+vertex -16.875,5,2.125
+vertex -16.875,0,2.125
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex -16.125,0,2.125
+vertex -16.125,5,2.125
+vertex -16.125,5,2.875
+vertex -16.125,0,2.875
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+;pillar 3
+
+[meshbuilder]
+vertex -16.125,0,4.25
+vertex -16.125,5,4.25
+vertex -16.875,5,4.25
+vertex -16.875,0,4.25
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex -16.125,0,4.25
+vertex -16.125,5,4.25
+vertex -16.125,5,5
+vertex -16.125,0,5
+face2 0,1,2,3
+
+[texture]
+load concrete.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+;support 1 far right
+
+[meshbuilder]
+vertex 21,2,0
+vertex 21,7,0
+vertex 22,7,0
+vertex 22,2,0
+face2 0,1,2,3
+
+[texture]
+load concrete.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex 21,2,0
+vertex 21,7,0
+vertex 21,7,5
+vertex 21,2,5
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex 21,2,0
+vertex 21,2,5
+vertex 22,2,5
+vertex 22,2,0
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+;support 1 far left
+
+[meshbuilder]
+vertex -34,2,0
+vertex -34,7,0
+vertex -33,7,0
+vertex -33,2,0
+face2 0,1,2,3
+
+[texture]
+load concrete.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex -33,2,0
+vertex -33,7,0
+vertex -33,7,5
+vertex -33,2,5
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex -34,2,0
+vertex -34,2,5
+vertex -33,2,5
+vertex -33,2,0
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2

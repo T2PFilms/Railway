@@ -1,0 +1,47 @@
+With Route
+0,.adhesion 100,.railstart 1;12
+;===============================================================================
+; Don Mills 0
+;===============================================================================
+
+0,.limit 80,.Sta Don Mills;20.3901;20.3921;0;1;0;0;;15;50;;0  ,
+
+;Station
+25,.Pitch 0,.announce TTC_SHEP\ExtraSounds\bump.wav;45,.railtype 0;99,.railtype 1;99
+135,.stop 0,.freeobj 0;46;1.5;-0.144;30
+150,.adhesion 100,.freeobj 1;279,.freeobj 0;351;;;180,.brightness 255,.announce TTC_SHEP\ExtraSounds\bump.wav;45,.freeobj 0;45;2;4;0,.freeobj 1;45;2;4;0,.railtype 0;4,.dike 1;0;9,.dike 0;0;12,.railtype 1;3,.freeobj 0;502;2.1;1.3,.freeobj 0;511;2.05;1.05,.freeobj 0;510;2.18;1.05
+
+152,.sigf 30;1;14.2;2.8,.Beacon(108; 7; 0; -1)
+160,.sigf 30;1;2.2;2.8
+45,.freeobj 1;707;2.47;;180
+55,.freeobj 1;707;2.47;;180
+65,.freeobj 1;707;2.47;;180
+75,.freeobj 1;707;2.47;;180
+95,.freeobj 1;707;2.47;;180
+;=============================================================================== 
+; Don Mills - Leslie 150
+;===============================================================================
+170,.freeobj 1;1;-2.05;3,.freeobj 0;1;2.05;3
+179,.freeobj 0;62;2;2
+175,.adhesion 15,.freeobj 0;279;;;180;-0.95,.pitch -15.5
+254.321,.freeobj 3;62;2;2
+200,.adhesion 15,.dike 0;1;12,.dike 1;-1;9,.curve 200,.railtype 0;97,.railtype 1;97,.railstart 2;0;0;8,.railstart 3;12;0;2  ,.freeobj 3;2100 ,.dike 2;-1;1,.freeobj 3;279;;;180,.dike 3;1;1,.freeobj 0;2000;0;0;-3.5
+,.sigf 46;;2.2;3,.sigf 46;;13.7;3,.Beacon(108; 5; 0; 16)
+200,.adhesion 15,.announce TTC_SHEP\ExtraSounds\crossdon1.wav;29
+214
+225,.dikeend 0,.dikeend 1,.rail 1;9  ,.railtype 0;2,.railtype 1;2,.railtype 2;4 ,.curve 0,.rail 2;-1.53;;2,.rail 3;10.5;;2 ,.freeobj 2;5008 ,.freeobj 3;5009,.freeobj 0;251;2;1.55
+240,.freeobj 3;5009 ,.freeobj 2;5008,.freeobj 1;5009 ,.freeobj 0;5008
+245,.announce TTC_SHEP\ExtraSounds\crossyonger2.wav;27
+250,.rail 1;3  ,.rail 2;-4.5  ,.rail 3;7.5
+256,.freeobj 2;5012;5.5 ,.freeobj 3;5012
+269,.freeobj 0;5009 ,.freeobj 1;5008
+270,.freeobj 2;5008 ,.freeobj 3;5009
+275,.rail 1;-3  ,.rail 2;-7.5  ,.rail 3;4.5
+285,.freeobj 3;5009 ,.freeobj 2;5008
+300,.adhesion 25,.rail 1;-9.1,.railtype 0;97,.railtype 1;97,.railtype 2;97,.railtype 3;97,.curve -200,.freeobj 0;279;-0.44;;1,.rail 2;-10.5,.rail 3;1.55,.dike 0;-1;9,.dike 1;1;12,.freeobj 3;5013;-2,.announce TTC_SHEP\ExtraSounds\crossyonger3.wav;30
+301,.freeobj 0;227;-2.5;2.5
+303,.freeobj 3;0
+305,.freeobj 0;1;-2.05;3
+310,.freeobj 3;79;2.05
+318,.freeobj 3;252;2;1.55
+325,.freeobj 0;2000;0;0;180.05;-0.2,.freeobj 1;2100;0;0;180;-0.2,.sigf 14;;2.35;3,.Beacon(108; 5; 1; 10)

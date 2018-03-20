@@ -1,0 +1,57 @@
+[meshbuilder]
+vertex -7,1.8,0
+vertex -7,1.8,.5
+vertex -5,1.8,.5
+vertex -5,1.8.0
+face 0,1,2,3
+color 93,50,43
+
+[meshbuilder]
+vertex -7,1.5,0
+vertex -7,1.8,0
+vertex -5,1.8,0
+vertex -5,1.5,0
+face 0,1,2,3
+color 93,50,43
+
+[meshbuilder]
+vertex -5,1.5,0
+vertex -5,1.8,0
+vertex -5,1.8,.5
+vertex -5,1.5,.5
+face 0,1,2,3
+color 93,50,43
+
+;legs
+
+[meshbuilder]
+vertex -5.8,-0.5,.1
+vertex -5.8,1.5,.1
+vertex -5.5,1.5,.1
+vertex -5.5,-0.5,.1
+face 0,1,2,3
+color 96,96,102
+
+[meshbuilder]
+vertex -5.5,-0.5,.1
+vertex -5.5,1.5,.1
+vertex -5.5,1.5,.4
+vertex -5.5,-0.5,.4
+face 0,1,2,3
+color 96,96,102
+
+[meshbuilder]
+vertex -6.5,-0.5,.1
+vertex -6.5,1.5,.1
+vertex -6.2,1.5,.1
+vertex -6.2,-0.5,.1
+face 0,1,2,3
+color 96,96,102
+
+[meshbuilder]
+vertex -6.2,-0.5,.1
+vertex -6.2,1.5,.1
+vertex -6.2,1.5,.4
+vertex -6.2,-0.5,.4
+face 0,1,2,3
+color 96,96,102

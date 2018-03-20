@@ -1,0 +1,4 @@
+[Object]
+States = river.b3d
+TextureShiftYFunction = -time * 0.175
+Position = 0,0,-25

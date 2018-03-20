@@ -1,0 +1,44 @@
+[MeshBuilder]
+Vertex        2, 0.3, 25.0
+Vertex        2, 0.3, -0.5
+Vertex        1.575, 0.3, -0.5
+Vertex        1.575, 0.3, 25.0
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_ledge_top.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex        1.575, 0.3, 25.0
+Vertex        1.575, 0.3, -0.5
+Vertex        1.575, -0.15, -0.5
+Vertex        1.575, -0.15, 25.0
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_dark.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 8, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex        1.575, 0.3, -0.5
+Vertex        2, 0.3, -0.5
+Vertex        2, -0.15, -0.5
+Vertex        1.575, -0.15, -0.5
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_dark.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1

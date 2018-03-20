@@ -1,0 +1,60 @@
+[Include]
+kiplingavebridge.b3d
+Position = 0,0,0
+
+[Include]
+kiplingavepillars.b3d
+Position = 8,0,0
+
+[Include]
+kiplingavepillars.b3d
+Position = -16,0,0
+
+[Include]
+kiplingavepillars.b3d
+Position = 26,0,0
+
+
+[Include]
+kiplingavepillars.b3d
+Position = 46,0,0
+
+[Include]
+kiplingavepillars.b3d
+Position = -54,0,0
+
+[Include]
+kiplingavepillars.b3d
+Position = 66,0,0
+
+[Include]
+kiplingavepillars.b3d
+Position = -74,0,0
+
+[Include]
+kiplingavepillars.b3d
+Position = 86,0,0
+
+[Include]
+kiplingavepillars.b3d
+Position = -94,0,0
+
+
+;BUSES YAYYYYYYY
+[Object]
+States = Buses\44 Kipling South\bus.b3d,null.b3d
+Position = 60,8,5.5
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateXFunction = -distance[2] * 1.05
+
+[Object]
+States = Buses\44 Kipling South\bus.b3d,null.b3d
+Position = 100,8,5.5
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateXFunction = -distance[2] * 1.12
+
+[Object]
+States = Buses\44 Kipling South\bus180.b3d,null.b3d
+Position = -100,8,34.5
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateXFunction = distance[2] * 1.05

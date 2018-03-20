@@ -1,0 +1,149 @@
+[MeshBuilder]
+Vertex -8,0,0
+Vertex -8,0,100
+Vertex -22,0,100
+Vertex -22,0,0
+Face2 0,1,2,3
+Load concrete.bmp,
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Translate 0,-0.175,0
+
+
+
+[MeshBuilder]
+Vertex -8,0,0
+Vertex -8,0,100
+Vertex -8,1,100
+Vertex -8,1,0
+Face2 0,1,2,3
+Load concrete.bmp,
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Translate 0,-0.175,0
+
+
+[MeshBuilder]
+Vertex -9,0,0
+Vertex -9,0,100
+Vertex -9,1,100
+Vertex -9,1,0
+Face2 0,1,2,3
+Load concrete.bmp,
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Translate 0,-0.175,0
+
+
+[MeshBuilder]
+Vertex -8,0,0
+Vertex -8,0,100
+Vertex -8,1,100
+Vertex -8,1,0
+Face2 0,1,2,3
+Load concrete.bmp,
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Translate 0,-0.175,0
+
+
+[MeshBuilder]
+Vertex -21,0,0
+Vertex -21,0,100
+Vertex -21,1,100
+Vertex -21,1,0
+Face2 0,1,2,3
+Load concrete.bmp,
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Translate 0,-0.175,0
+
+
+[MeshBuilder]
+Vertex -22,0,0
+Vertex -22,0,100
+Vertex -22,1,100
+Vertex -22,1,0
+Face2 0,1,2,3
+Load concrete.bmp,
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Translate 0,-0.175,0
+
+
+
+
+[MeshBuilder]
+Vertex -21,1,0
+Vertex -21,1,100
+Vertex -22,1,100
+Vertex -22,1,0
+Face2 0,1,2,3
+Load concrete.bmp,
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Translate 0,-0.175,0
+
+
+
+
+[MeshBuilder]
+Vertex -8,1,0
+Vertex -8,1,100
+Vertex -9,1,100
+Vertex -9,1,0
+Face2 0,1,2,3
+Load concrete.bmp,
+Coordinates 0, 0, 0,
+Coordinates 1, 1, 0,
+Coordinates 2, 1, 1,
+Coordinates 3, 0, 1,
+Translate 0,-0.175,0
+
+
+
+
+
+
+[MeshBuilder]
+Vertex -8.5,1,0
+Vertex -8.5,1,100
+Vertex -8.5,4.96,100
+Vertex -8.5,4.96,0
+Face2 0,1,2,3
+Load chainfence.bmp,
+Coordinates 0, 0, 1,
+Coordinates 1, 32, 1,
+Coordinates 2, 32, 0,
+Coordinates 3, 0, 0
+Translate 0,-0.175,0
+Transparent 0,0,0
+
+
+[MeshBuilder]
+Vertex -21.5,1,0
+Vertex -21.5,1,100
+Vertex -21.5,4.96,100
+Vertex -21.5,4.96,0
+Face2 0,1,2,3
+Load chainfence.bmp,
+Coordinates 0, 0, 1,
+Coordinates 1, 32, 1,
+Coordinates 2, 32, 0,
+Coordinates 3, 0, 0
+Translate 0,-0.175,0
+Transparent 0,0,0

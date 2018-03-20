@@ -1,0 +1,20 @@
+[MeshBuilder]
+Cube 0.25, 25, 0.25
+Color 60,60,60
+Translate -7.5, -5.5, 0.25
+
+[MeshBuilder]
+Cube 0.25, 25, 0.25
+Color 60,60,60
+Translate -15.5, -5.5, 0.25
+
+[MeshBuilder]
+Cube 0.25, 25, 0.25
+Color 60,60,60
+Translate 3, -5.5, 0.25
+
+[MeshBuilder]
+Cube 0.25, 25, 0.25
+Color 60,60,60
+Translate -4.5, -5.5, 0.25
+TranslateAll 0, -12.5, 0

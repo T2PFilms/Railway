@@ -1,0 +1,89 @@
+[MeshBuilder]
+Vertex -1.15,4.1,-0.05
+Vertex -1.15,4.7,-0.05
+Vertex 1.15,4.7,-0.05
+Vertex 1.15,4.1,-0.05
+Face 0,1,2,3
+Load crosspassage.png,crosspassage.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder]
+Vertex -1.15,4.1,0.05
+Vertex -1.15,4.7,0.05
+Vertex 1.15,4.7,0.05
+Vertex 1.15,4.1,0.05
+Face 3,2,1,0
+Load crosspassage.png,crosspassage.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+
+[MeshBuilder]
+Vertex -1.15,4.1,0.05
+Vertex -1.15,4.1,-0.05
+Vertex 1.15,4.1,-0.05
+Vertex 1.15,4.1,0.05
+Face 0,1,2,3
+Color 255,220,0
+
+
+[MeshBuilder]
+Vertex 1.15,4.7,0.05
+Vertex 1.15,4.7,-0.05
+Vertex -1.15,4.7,-0.05
+Vertex -1.15,4.7,0.05
+Face 0,1,2,3
+Color 222,200,0
+
+
+
+[MeshBuilder]
+Vertex 1.15,4.7,-0.05
+Vertex 1.15,4.7,0.05
+Vertex 1.15,4.1,0.05
+Vertex 1.15,4.1,-0.05
+Face 0,1,2,3
+Color 222,200,0
+
+
+[MeshBuilder]
+Vertex -1.15,4.7,0.05
+Vertex -1.15,4.7,-0.05
+Vertex -1.15,4.1,-0.05
+Vertex -1.15,4.1,0.05
+Face 0,1,2,3
+Color 222,200,0
+
+[MeshBuilder]
+Vertex -1.15,4.1,-0.1
+Vertex -1.15,4.7,-0.1
+Vertex 1.15,4.7,-0.1
+Vertex 1.15,4.1,-0.1
+Face 0,1,2,3
+Load Grade Time_Station Time Control\glow_white.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+EmissiveColor 255,255,255
+BlendMode Additive,30,DivideExponent2
+
+[MeshBuilder]
+Vertex -1.15,4.1,0.1
+Vertex -1.15,4.7,0.1
+Vertex 1.15,4.7,0.1
+Vertex 1.15,4.1,0.1
+Face 3,2,1,0
+Load Grade Time_Station Time Control\glow_white.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+EmissiveColor 255,255,255
+BlendMode Additive,30,DivideExponent2
+ScaleAll 0.7,0.7,0.7

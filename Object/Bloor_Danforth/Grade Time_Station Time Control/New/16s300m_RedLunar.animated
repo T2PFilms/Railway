@@ -1,0 +1,26 @@
+[Object]
+Position = 0, -2.65, 0
+States = SignalSingle_GT.csv
+
+[Object]
+Position = 0, 0,-.4
+States = blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,blank.csv,SignalSingle_2.csv
+StateFunction = if[value < 16 & trackDistance < 300 & section>=2,value+1,if[value != 16,0,16]]
+RefreshRate = 1
+
+[Object]
+Position = 0, 0,-.4
+States = SignalSingle_0.csv,SignalSingle_0.csv,SignalSingle_0.csv,SignalSingle_0.csv,SignalSingle_0.csv,SignalSingle_0.csv,SignalSingle_0.csv, SignalSingle_0.csv,SignalSingle_0.csv,SignalSingle_0.csv,SignalSingle_0.csv,SignalSingle_0.csv,SignalSingle_0.csv, blank.csv
+StateFunction = if[value < 13 & trackDistance < 300 & section>=2,value+1,if[value !=13,0,13]]
+RefreshRate = 1
+
+[Object]
+Position = 0, 0, 0
+States = SignalSingle_0.csv, SignalSingle_X.csv
+StateFunction = value == 0
+RefreshRate = 1
+
+[Object]
+Position = 0, 0, 0
+States = SignalSingle_GTLunar.csv, SignalSingle_SClear.csv
+StateFunction = if[section==4,0,1]

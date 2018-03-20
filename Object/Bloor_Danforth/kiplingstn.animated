@@ -1,0 +1,201 @@
+;==========================
+; KIPLING STATION MAIN SET
+;==========================
+
+;=================
+; Other
+;=================
+[Include]
+sewerbox.csv
+Position = 0,0,152
+
+[Object]
+States = constructionblue.b3d,constructionblue.b3d,constructionblue.b3d,constructionblue.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d
+StateFunction = mod[value + 1, 13]
+RefreshRate = 0.01
+Position = 0,-0.2,156
+
+[Object]
+States = constructionblue.b3d,constructionblue.b3d,constructionblue.b3d,constructionblue.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d,constructionblue2.b3d
+StateFunction = mod[value + 1, 13]
+RefreshRate = 0.01
+Position = -15.3,-0.2,156
+
+;---------
+;platform
+;---------
+[Include]
+kiplingform.csv
+Position = 0,0,0
+
+[Include]
+kiplingform.csv
+Position = 0,0,25
+
+[Include]
+kiplingform.csv
+Position = 0,0,50
+
+[Include]
+kiplingform.csv
+Position = 0,0,75
+
+[Include]
+kiplingform.csv
+Position = 0,0,100
+
+[Include]
+kiplingform.csv
+Position = 0,0,125
+
+;---------
+;tracks
+;---------
+;stationtracks
+[Include]
+Track\v4 Track\LDEdit\Tr_Station3rr.csv
+Position = 0,0,0
+
+[Include]
+Track\v4 Track\LDEdit\Tr_Station3rl.csv
+Position = -15.3,0,0
+
+[Include]
+Track\v4 Track\LDEdit\Tr_Station3rr.csv
+Position = 0,0,25
+
+[Include]
+Track\v4 Track\LDEdit\Tr_Station3rl.csv
+Position = -15.3,0,25
+
+[Include]
+Track\v4 Track\LDEdit\Tr_Station3rr.csv
+Position = 0,0,50
+
+[Include]
+Track\v4 Track\LDEdit\Tr_Station3rl.csv
+Position = -15.3,0,50
+
+[Include]
+Track\v4 Track\LDEdit\Tr_Station3rr.csv
+Position = 0,0,75
+
+[Include]
+Track\v4 Track\LDEdit\Tr_Station3rl.csv
+Position = -15.3,0,75
+
+[Include]
+Track\v4 Track\LDEdit\Tr_Station3rr.csv
+Position = 0,0,100
+
+[Include]
+Track\v4 Track\LDEdit\Tr_Station3rl.csv
+Position = -15.3,0,100
+
+[Include]
+Track\v4 Track\LDEdit\Tr_Station3rr.csv
+Position = 0,0,125
+
+[Include]
+Track\v4 Track\LDEdit\Tr_Station3rl.csv
+Position = -15.3,0,125
+
+;Outside Track Left
+[Include]
+Track\Tr_Ballast3rl.csv
+Position = -15.3,0,-25
+
+[Include]
+chainlinkl.csv
+Position = -15.3,0,-25
+
+[Include]
+Track\Tr_Ballast3rl.csv
+Position = -15.3,0,-50
+
+[Include]
+chainlinkl.csv
+Position = -15.3,0,-50
+
+[Include]
+Track\Tr_Ballast3rl.csv
+Position = -15.3,0,-75
+
+[Include]
+chainlinkl.csv
+Position = -15.3,0,-75
+
+
+[Include]
+Track\Tr_Ballast3rl.csv
+Position = -15.3,0,150
+
+[Include]
+Track\Tr_Ballast3rl.csv
+Position = -15.3,0,175
+
+[Include]
+Track\Tr_Ballast3rl.csv
+Position = -15.3,0,200
+
+
+[Include]
+Track\Tr_Ballast3rl.csv
+Position = -15.3,0,225
+
+[Include]
+chainlinkl.csv
+Position = -15.3,0,150
+
+[Include]
+chainlinkl.csv
+Position = -15.3,0,175
+
+[Include]
+chainlinkl.csv
+Position = -15.3,0,200
+
+[Include]
+chainlinkl.csv
+Position = -15.3,0,225
+
+[Include]
+chainlinkl.csv
+Position = -15.3,0,250
+
+[Include]
+Track\Tr_Ballast3rl.csv
+Position = -15.3,0,250
+
+
+[Include]
+chainlinkl.csv
+Position = -15.3,0,275
+
+[Include]
+Track\Tr_Ballast3rl.csv
+Position = -15.3,0,275
+
+
+
+[Include]
+chainlinkl.csv
+Position = -15.3,0,300
+
+[Include]
+Track\Tr_Ballast3rl.csv
+Position = -15.3,0,300
+
+
+[Include]
+chainlinkl.csv
+Position = -15.3,0,325
+
+[Include]
+Track\Tr_Ballast3rl.csv
+Position = -15.3,0,325
+
+
+[Include]
+yellowend.csv
+Position = -15.3,0,348.5

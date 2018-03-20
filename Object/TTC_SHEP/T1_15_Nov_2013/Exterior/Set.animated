@@ -1,0 +1,23 @@
+[Include]
+T1 Front Cab.b3d
+Position = 0, 0, 0
+
+[Include]
+T1 Back Cab Nolighton.b3d
+Position = 0, 0,-23
+
+[Include]
+T1 Front Cab Nolighton.b3d
+Position = 0, 0,-46
+
+[Include]
+T1 Back Cab Nolighton.b3d
+Position = 0, 0,-69
+
+[Include]
+T1 Front Cab Nolighton.b3d
+Position = 0, 0,-92
+
+[Include]
+T1 Back Cab.b3d
+Position = 0, 0,-115

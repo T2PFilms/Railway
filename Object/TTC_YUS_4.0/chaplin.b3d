@@ -1,0 +1,100 @@
+[MeshBuilder]
+Vertex -50,5.31,0.1
+Vertex  80,5.31,0.1
+Vertex  80,5.31,18
+Vertex -50,5.31,18
+Face 0,1,2,3
+Color 0,0,0
+
+[MeshBuilder]
+Vertex -50,5.75,0.1
+Vertex  80,5.75,0.1
+Vertex  80,5.31,0.1
+Vertex -50,5.31,0.1
+Face2 0,1,2,3
+
+Load concrete.bmp
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 0,0,1
+
+[MeshBuilder]
+Vertex -50,5.75,0.1
+Vertex  80,5.75,0.1
+Vertex  80,5.75,0
+Vertex -50,5.75,0
+Face2 0,1,2,3
+
+Load concrete.bmp
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 0,0,1
+
+[MeshBuilder]
+Vertex -50,5.75,0
+Vertex  80,5.75,0
+Vertex  80,7,0
+Vertex -50,7,0
+Face2 0,1,2,3
+
+Load concrete.bmp
+Coordinates 1,0,0
+Coordinates 2,21,0
+Coordinates 3,21,21
+Coordinates 0,0,21
+
+[MeshBuilder]
+Vertex -50,5.32,0.1
+Vertex  80,5.32,0.1
+Vertex  80,5.32,18
+Vertex -50,5.32,18
+Face 3,2,1,0
+Load northsouthroad.png
+Coordinates 0,0,0
+Coordinates 1,21,0
+Coordinates 2,21,1
+Coordinates 3,0,1
+
+
+
+
+[MeshBuilder]
+Vertex -50,5.75,17.9
+Vertex  80,5.75,17.9
+Vertex  80,5.31,17.9
+Vertex -50,5.31,17.9
+Face2 0,1,2,3
+
+Load concrete.bmp
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 0,0,1
+
+[MeshBuilder]
+Vertex -50,5.75,17.9
+Vertex  80,5.75,17.9
+Vertex  80,5.75,18
+Vertex -50,5.75,18
+Face2 0,1,2,3
+
+Load concrete.bmp
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Coordinates 0,0,1
+
+[MeshBuilder]
+Vertex -50,5.75,18
+Vertex  80,5.75,18
+Vertex  80,7,18
+Vertex -50,7,18
+Face2 0,1,2,3
+
+Load concrete.bmp
+Coordinates 1,0,0
+Coordinates 2,21,0
+Coordinates 3,21,21
+Coordinates 0,0,21

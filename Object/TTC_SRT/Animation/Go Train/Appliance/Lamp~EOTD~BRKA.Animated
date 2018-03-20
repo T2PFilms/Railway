@@ -1,0 +1,16 @@
+;Lamp~EndOfTrainDevice~BritishRail K&E endA|B, For Wagons
+;Set@ *.ANIMATED [Include] Position=0,0,+|-0.5*CarsLength
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;All BVE|OpenBVE files have no registered copyright or trademark,
+;are public domain, & free to copy|distribute|modify|use at will.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]
+States=Lamp~EOTD~BRKx_Assy.B3D
+StateFunction=If[(Cars>0)&(Abs[Round[Distance[0]]]<1),0,1]                                ;1stCarEndA In Game,Not Shown In ObjectViewer
+Position=+0.575,+1.375,-0.430
+RotateYFunction=3.142
+[OBJECT]
+States=Lamp~EOTD~BRKx_Bulb.B3D
+StateFunction=If[(Cars>0)&(Abs[Round[Distance[0]]]<1)&(Floor[Mod[Time,1.5]]),0,1]         ;1stCarEndA In Game,Not Shown In ObjectViewer,1.5s=FlashRate
+Position=+0.575,+1.375,-0.430
+RotateYFunction=3.142

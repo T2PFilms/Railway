@@ -1,0 +1,21 @@
+[Object]
+Position = 0.10, -2.65, 0
+States = SignalDouble.CSV
+[Object]
+Position = 0.10, 0.55, 0
+States = Default.csv
+[Object]
+Position = 0.10, -0.55, 0
+States = Default.csv
+
+;up
+;Red
+[Object]
+Position = 0.10, 0.55, 0
+States = LRed.csv
+
+;Bottom
+;Red
+[Object]
+Position = 0.10, -0.55, 0
+States = LRed.csv

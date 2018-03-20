@@ -1,0 +1,166 @@
+[MeshBuilder]
+Vertex -200,-0.15,-1
+Vertex -200,-5,-1
+Vertex 200,-5,15
+Vertex 200,-0.15,15
+Face2 0,1,2,3
+Color 164,148,125
+
+[MeshBuilder]
+Vertex -200,-0.15,26
+Vertex -200,-5,26
+Vertex 200,-5,42
+Vertex 200,-0.15,42
+Face2 0,1,2,3
+Color 164,148,125
+
+[MeshBuilder]
+Vertex -200,-5,24
+Vertex -200,-5,26
+Vertex 200,-5,42
+Vertex 200,-5,40
+Face2 0,1,2,3
+Color 125,125,125
+
+[MeshBuilder]
+Vertex -200,-5,-1
+Vertex -200,-5,1
+Vertex 200,-5,13
+Vertex 200,-5,15
+Face2 0,1,2,3
+Color 125,125,125
+
+
+[MeshBuilder]
+Vertex -200,-6,24
+Vertex -200,-5,24
+Vertex 200,-5,40
+Vertex 200,-6,40
+Face2 0,1,2,3
+Color 105,105,105
+
+[MeshBuilder]
+Vertex -200,-6,1
+Vertex -200,-5,1
+Vertex 200,-5,15
+Vertex 200,-6,15
+Face2 0,1,2,3
+Color 105,105,105
+
+
+[MeshBuilder]
+Vertex -200,-5.25,1
+Vertex -200,-5.25,25
+Vertex 200,-5.25,41
+Vertex 200,-5.25,15
+Face2 0,1,2,3
+Load bloorstreeteast.png
+Coordinates 0, 55, 0
+Coordinates 1, 55, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+
+
+;and now for the bridge...
+
+[MeshBuilder]
+Vertex -8.77,-0.16,0
+Vertex 3.77,-0.16,0
+Vertex 3.77,-0.16,50
+Vertex -8.77,-0.16,50
+Face2 0,1,2,3
+Color 125,105,90
+Load IDK.png
+Coordinates 0, 20, 0
+Coordinates 1, 20, 20
+Coordinates 2, 0, 20
+Coordinates 3, 0, 0
+
+[MeshBuilder]
+Vertex -1.88,-0.16,0
+Vertex -1.88,0.77,0
+Vertex -1.88,0.77,50
+Vertex -1.88,-0.16,50
+Face2 0,1,2,3
+Color 86,73,63
+
+[MeshBuilder]
+Vertex -3.13,-0.16,0
+Vertex -3.13,0.77,0
+Vertex -3.13,0.77,50
+Vertex -3.13,-0.16,50
+Face2 0,1,2,3
+Color 86,73,63
+
+[MeshBuilder]
+Vertex -3.13,0.77,0
+Vertex -1.88,0.77,0
+Vertex -1.88,0.77,50
+Vertex -3.13,0.77,50
+Face2 0,1,2,3
+Color 86,73,63
+
+[MeshBuilder]
+Vertex -1.88,-0.16,0
+Vertex -1.88,0.77,0
+Vertex -3.13,0.77,0
+Vertex -3.13,-0.16,0
+Face2 0,1,2,3
+Color 86,73,63
+
+[MeshBuilder]
+Vertex -1.88,-0.16,50
+Vertex -1.88,0.77,50
+Vertex -3.13,0.77,50
+Vertex -3.13,-0.16,50
+Face2 0,1,2,3
+Color 86,73,63
+
+[MeshBuilder]
+Cube 0.29, 0.10, 25
+Color 86,73,63
+Translate 3.42,0,25
+
+[MeshBuilder]
+Cube 0.29, 0.10, 25
+Color 86,73,63
+Translate -8.42,0,25
+
+[MeshBuilder]
+Cube 0.034, 0.3, 25
+Color 118,104,95
+Translate 3.7,0.1,25
+
+[MeshBuilder]
+Cube 0.034, 0.3, 25
+Color 118,104,95
+Translate -8.7,0.1,25
+
+[MeshBuilder]
+Vertex 3.7,-0.2,50
+Vertex 3.7,4.5,50
+Vertex 3.7,4.5,0
+Vertex 3.7,-0.2,0
+Face2 0,1,2,3
+Load ChainFenceDark.bmp
+Transparent 0,0,0
+Coordinates 0, 14, 1
+Coordinates 1, 14, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Translate 0,-0.01,0
+
+[MeshBuilder]
+Vertex -8.7,-0.2,50
+Vertex -8.7,4.5,50
+Vertex -8.7,4.5,0
+Vertex -8.7,-0.2,0
+Face2 0,1,2,3
+Load ChainFenceDark.bmp
+Transparent 0,0,0
+Coordinates 0, 14, 1
+Coordinates 1, 14, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Translate 0,-0.01,0

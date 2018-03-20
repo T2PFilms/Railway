@@ -1,0 +1,25 @@
+
+;=============
+CreateMeshBuilder,
+
+Cylinder, 2, 0.04, 0.04, 1.72,
+Translate, 0.0, 1.905, -0.198,
+
+SetColor, 21,21,21,
+
+
+CreateMeshBuilder,
+
+Cylinder, 2, 0.04, 0.04, 0.4,
+Rotate, 0,0,1,90,
+Translate, 0.18, 2.72, -0.198,
+
+SetColor, 21,21,21,
+
+CreateMeshBuilder,
+
+Cylinder, 2, 0.04, 0.04, 0.4,
+Rotate, 0,0,1,90,
+Translate, 0.18, 1.09, -0.198,
+
+SetColor, 21,21,21,

@@ -1,0 +1,74 @@
+;;TTC platform 25M 
+
+CreateMeshBuilder
+AddVertex, -6.2,1.1,0
+AddVertex, -6.2,1.1,25
+AddVertex, -2.5,1.1,25
+AddVertex, -2.5,1.1,0
+AddFace, 0,1,2,3
+
+GenerateNormals
+LoadTexture, Form_Plat_Surface.png
+SetTextureCoordinates, 0,0,15
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,15
+
+
+CreateMeshBuilder
+AddVertex, -2.5,1.1,0
+AddVertex, -2.5,1.1,25
+AddVertex, -1.5,1.1,25
+AddVertex, -1.5,1.1,0
+AddFace, 0,1,2,3
+
+GenerateNormals
+LoadTexture, Form_Plat_Edge.png
+SetTextureCoordinates, 0,0,15
+SetTextureCoordinates, 1,0,0
+SetTextureCoordinates, 2,1,0
+SetTextureCoordinates, 3,1,15
+
+
+
+;==========================================
+
+CreateMeshBuilder
+AddVertex, -1.5,0.9,0
+AddVertex, -1.5,0.9,25
+AddVertex, -1.5,1.1,25
+AddVertex, -1.5,1.1,0
+AddFace, 3,2,1,0
+
+GenerateNormals
+LoadTexture, formsideTOP.png
+SetTextureCoordinates, 0,16,1
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,16,0
+Setcolor, 140, 140, 140,
+
+CreateMeshBuilder
+AddVertex, -1.9,0.9,0
+AddVertex, -1.9,0.9,25
+AddVertex, -1.5,0.9,25
+AddVertex, -1.5,0.9,0
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, formsideUNDER.png
+SetTextureCoordinates, 0,12,1
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,12,0
+
+CreateMeshBuilder
+AddVertex, -1.9,-0.3,0
+AddVertex, -1.9,-0.3,25
+AddVertex, -1.9,0.9,25
+AddVertex, -1.9,0.9,0
+AddFace, 3,2,1,0
+GenerateNormals
+LoadTexture, formsideCOPING.png
+SetTextureCoordinates, 0,12,1
+SetTextureCoordinates, 1,0,1
+SetTextureCoordinates, 2,0,0
+SetTextureCoordinates, 3,12,0

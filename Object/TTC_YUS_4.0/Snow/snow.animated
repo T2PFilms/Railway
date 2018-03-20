@@ -1,0 +1,4 @@
+[Object]
+States = snow.csv
+TextureShiftYFunction = -0.4*time
+TextureShiftXFunction = Sin[time*0.5]

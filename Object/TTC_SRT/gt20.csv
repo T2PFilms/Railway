@@ -1,0 +1,14 @@
+CreateMeshBuilder,
+Addvertex,-.1,1.4,-.1,
+Addvertex,-.1,1.9,-.1,
+Addvertex,.2,1.9,-.1,
+Addvertex,.2,1.4,-.1,
+Addface,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,gt20.bmp,gt20night.bmp
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetTextureCoordinates,0,0,1,

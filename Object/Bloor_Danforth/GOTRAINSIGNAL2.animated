@@ -1,0 +1,19 @@
+[Include]
+gotransitsignals.csv
+Position = 0,0,0
+
+
+[Include]
+signal_3_0.csv
+Position = -11,7,-0.62
+
+
+[Object]
+States = signal_3_0.csv,signal_3_2.csv
+StateFunction = if[distance<311,if[distance<102,0,1],0]
+Position = -15,7,-0.62
+
+
+[Include]
+signal_3_4.csv
+Position = -19,7,-0.62

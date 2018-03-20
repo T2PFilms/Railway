@@ -1,0 +1,17 @@
+[MeshBuilder]
+Cube 0.25, 5.3, 0.25
+Color 60,60,60
+Translate -4.5, 5, 0.9
+Rotate 0,0,0,55
+
+[MeshBuilder]
+Cube 0.25, 4.14, 0.25
+Color 60,60,60
+Translate -4.5, 12.97, -4.9
+Rotate 0,0,0,90
+
+[MeshBuilder]
+Cube 0.25, 5.3, 0.25
+Color 60,60,60
+Translate -4.5, -16.11111, 13.5
+Rotate 0,0,0,-55

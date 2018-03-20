@@ -1,0 +1,271 @@
+;-------------------------------;
+;Ealing Broadway - White City	;
+;Overcast/Dry (good for photos)	;
+;-------------------------------;
+
+;Eventually place ambient light settings here
+
+;--------Ealing Broadway--------;
+;Bridge 1
+3370,
+.Brightness 255,
+
+3375,
+.Brightness 80,
+
+3385,
+.Brightness 80,
+
+3390,
+.Brightness 255,
+
+;Piccadilly/District Line Bridge 
+
+3573,
+.Brightness 255,
+
+3578,
+.Brightness 100,
+
+3588,
+.Brightness 100,
+
+3593,
+.Brightness 255,
+
+;----------West Acton-----------;
+
+;Station Bridge
+
+4170,
+.Brightness 255,
+
+4175,
+.Brightness 80,
+
+4185,
+.Brightness 80,
+
+4205,
+.Brightness 200,
+
+4215,
+.Brightness 255,
+
+;Alliance Road Bridge
+
+4945,
+.Brightness 255,
+
+4950,
+.Brightness 100,
+
+4955,
+.Brightness 100,
+
+4960,
+.Brightness 255,
+
+;A40 Road Bridge
+
+5345,
+.Brightness 255,
+
+5350,
+.Brightness 85,
+
+5377,
+.Brightness 85,
+
+5382,
+.Brightness 255,
+
+;----------North Acton-----------;
+;Park Royal Road Bridge
+
+5699,
+.Brightness 255,
+
+5704,
+.Brightness 100,
+
+5717,
+.Brightness 100,
+
+5722,
+.Brightness 255,
+
+;Pedestrian Bridge
+
+6029,
+.Brightness 255,
+
+6034,
+.Brightness 90,
+
+6042,
+.Brightness 90,
+
+6047,
+.Brightness 255,
+
+;Chase Road
+6073,
+.Brightness 255,
+
+6078,
+.Brightness 90,
+
+6095,
+.Brightness 90,
+
+6100,
+.Brightness 255,
+
+;Victoria Road Viaduct
+6332,
+.Brightness 255,
+
+6337,
+.Brightness 80,
+
+6350,
+.Brightness 80,
+
+6355,
+.Brightness 255,
+
+;NLL Bridge
+6500,
+.Brightness 255,
+
+6535,
+.Brightness 150,
+
+6545,
+.Brightness 150,
+
+6550,
+.Brightness 90,
+
+6560,
+.Brightness 90,
+
+6565,
+.Brightness 190,
+
+6595,
+.Brightness 190,
+
+6597,
+.Brightness 100,
+
+6600,
+.Brightness 190,
+
+6650,
+.Brightness 255,
+
+;GWML Old oak Bridge
+
+6695,
+.Brightness 255,
+
+6700,
+.Brightness 60,
+
+6725,
+.Brightness 60,
+
+6735,
+.Brightness 75,
+
+6745,
+.Brightness 255,
+
+
+;----------East Acton------------;
+;WB Flyover
+8020,
+.Brightness 255,
+
+8150,
+.Brightness 200,
+
+8215,
+.Brightness 200,
+
+8220,
+.Brightness 90,
+
+8250,
+.Brightness 90,
+
+8255,
+.Brightness 200,
+
+8450,
+.Brightness 255,
+
+;Westway Bridges
+
+8620,
+.Brightness 255,
+
+8625,
+.Brightness 70,
+
+8675,
+.Brightness 70,
+
+8680,
+.Brightness 120,
+
+8692,
+.Brightness 120,
+
+8695,
+.Brightness 90,
+
+8702,
+.Brightness 130,
+
+8707,
+.Brightness 255,
+
+;----------White City------------;
+9153,
+.Brightness 255,
+
+9158,
+.Brightness 90,
+
+9167,
+.Brightness 90,
+
+9172,
+.Brightness 200,
+
+9210,
+.Brightness 200,
+
+9215,
+.Brightness 70,
+
+9262,
+.Brightness 70,
+
+9265,
+.Brightness 200,
+
+9364,
+.Brightness 200,
+
+9369,
+.Brightness 90,
+
+9377,
+.Brightness 90,
+
+9382,
+.Brightness 255,

@@ -1,0 +1,25 @@
+[meshbuilder]
+vertex -13, -26, 0
+vertex -13, -26, 13
+vertex -13, 17, 13
+vertex -13, 17, 0
+Face2 0,1,2,3
+
+Load keelebuildingside.png
+coordinates 0,1,0
+coordinates 1,1,1
+coordinates 2,0,1
+coordinates 3,0,0
+
+[meshbuilder]
+vertex -13, 17, 0
+vertex -13, -26, 0
+vertex -49, -26, 0
+vertex -49, 17, 0
+Face2 0,1,2,3
+
+Load keelebuildingfront.png
+coordinates 0,2,0
+coordinates 1,2,31
+coordinates 2,0,31
+coordinates 3,0,0

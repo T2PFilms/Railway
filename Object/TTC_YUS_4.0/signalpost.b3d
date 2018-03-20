@@ -1,0 +1,15 @@
+[meshbuilder]
+vertex 2.5,0,0
+vertex 2.5,4,0
+vertex 2.7,4.0,0
+vertex 2.7,0,0
+face2 0,1,2,3
+color 10,10,10
+
+[meshbuilder]
+vertex 2.5,0,0
+vertex 2.5,4,0
+vertex 2.5,4,0.2
+vertex 2.5,0,0.2
+face2 0,1,2,3
+color 10,10,10

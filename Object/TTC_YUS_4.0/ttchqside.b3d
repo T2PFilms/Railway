@@ -1,0 +1,41 @@
+[meshbuilder]
+vertex -7,5,0
+vertex -7,10,0
+vertex -7,10,25
+vertex -7,5,25
+face2 0,1,2,3
+
+[texture]
+load hqbottom.bmp
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 0,1,1
+
+[meshbuilder]
+vertex -7,10,0
+vertex -7,15,0
+vertex -7,15,25
+vertex -7,10,25
+face2 0,1,2,3
+
+[texture]
+load hqtop.bmp
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 0,1,1
+
+[meshbuilder]
+vertex -7,15,0
+vertex -7,20,0
+vertex -7,20,25
+vertex -7,15,25
+face2 0,1,2,3
+
+[texture]
+load hqtop.bmp
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 0,1,1

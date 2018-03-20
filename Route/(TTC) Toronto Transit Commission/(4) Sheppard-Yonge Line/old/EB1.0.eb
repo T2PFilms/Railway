@@ -1,0 +1,231 @@
+;This route is anti-ai train. No really. We disabled it.
+;Sheppard old 1.0
+With Route
+.comment openBVE Sheppard Subway Eastbound v1.0 [Yonge to Don Mills]$Chr(13)You need a viewing distance of at least 400m to play this route.$Chr(13)The Sheppard Subway is the shortest subway line in Toronto$Chr(44) but however has long distances between stations. Revenue Service takes place under Sheppard Avenue East$Chr(44) between Yonge$Chr(44) and Don Mills$Chr(44) with tailtracks as far west to Senlac. The Sheppard Subway only has five stations$Chr(44) and multiple stations were proposed. The route was originally proposed to go from Downsview Station to Scarborough Centre$Chr(44) but however was cancelled by Mike Harris as he removed public transit as a priority to provicial funding. $Chr(13)One direction run is usually 8 minutes long. Most of the time$Chr(44) you will end up on the left platform$Chr(44) as demonstrated with this route's special randomization feature. Route designed as of 2015.$Chr(13)$Chr(13)Credits:$Chr(13)TrainsToronto: Lead Developer$Chr(13)Amanda D. & Chris T: DEVELOPMENT RESOURCES
+.timetable TTC Sheppard Subway Eastbound v1.0
+;Objects
+$Include(obj.127)
+With Track
+0,.railstart 1;-12;0;3,.dike 1;0;12,.dike 0;0;9,.curve 0,.pitch 0,.railtype 0;4,.limit 80
+
+200,.dike 1;0;8
+;===============================================================================
+; Sheppard Yonge 225
+;===============================================================================
+
+225,.sta Sheppard-Yonge;20.3000;20.3015;0;R;1;0;;17;170;;0,
+
+225,.freeobj 0;5005,.freeobj 1;5004,.back 0,.rail 1;-12;0;2,.announce TTC_YuS\Other Sounds\bump.wav;45,.dikeend 0,.dikeend 1,.railtype 0;99,.railtype 1;99,.pitch 0,
+225,.freeobj 1;130;-4,.freeobj 0;2,.freeobj 0;3
+240,.freeobj 0;130,.freeobj 0;354,.freeobj 0;238
+275,.accuracy 2
+290,.freeobj 0;244 
+334,.freeobj 0;245 
+335,.doppler TTC_SHEP\norm.wav;1;3,.Stop 0; 5; 14.9,.freeobj 0;46;1.5;-0.144;30 
+350,.announce TTC_YuS\Other Sounds\bump.wav;45,.railtype 0;4  ,.railtype 1;3,.freeobj 0;130
+360,.freeobj 1;130;-4
+365,.freeobj 0;278
+375,.freeobj 1;130,.freeobj 0;130;-4
+225,.freeobj 0;276;0.3;1.35;;;-10
+250,.freeobj 0;276;0.3;1.35;;;-10,.freeobj 1;277;-1;1.35;180;;-10
+275,.freeobj 0;276;0.3;1.35;;;-10,.freeobj 1;277;-1;1.35;180;;-10
+300,.freeobj 0;276;0.3;1.35;;;-10,.freeobj 1;277;-1;1.35;180;;-10
+325,.freeobj 0;276;0.3;1.35;;;-10,.freeobj 1;277;-1;1.35;180;;-10
+350,.brightness 255,.freeobj 1;277;-1;1.35;180;-0.9;-10
+;===============================================================================
+; Yonge-Bayview 150
+;===============================================================================
+349.8,.freeobj 0;44;2;3.2
+353,.sigf 30;;2.25;3.8,.Beacon(108; 7; 0; -1)
+353.1,.freeobj 0;101;-0.15
+355,.brightness 128
+365
+375,.freeobj 0;5,.dike 0;0;12,.dike 1;0;9,.height 2,.Pitch -18
+382,.freeobj 0;62;2;2.2
+400,.Pitch -25
+406,.freeobj 0;1;-2.05;1
+409,.announce TTC_SHEP\crossyonge1.wav;28
+422,.sigf 301;1;2.2;2.22,.section 4
+425,.railtype 0;2,.railtype 1;4,.Pitch -25.25,.dike 0;1;12,.dike 1;-1;1,.railstart 2;0;0;8  ,.railstart 3;-12;0;8 ,.freeobj 0;2100 ,.freeobj 1;2001 ,.dike 2;-1;12
+439,.announce TTC_SHEP\crossyonge2.wav;30
+450,.Pitch -25.5,.rail 2;-1.55;;2 ,.rail 3;-10.5;;2 ,.dikeend 2,.freeobj 2;5008 ,.freeobj 3;5009
+475,.Pitch -26,.rail 2;-4.5 ,.rail 3;-7.5
+
+482,.freeobj 0;5012;0.5,.freeobj 1;5012;6
+495,.freeobj 2;5008 ,.freeobj 3;5009
+500,.Pitch -26.5,.rail 2;-7.5 ,.rail 3;-4.5
+515,.freeobj 2;5009 ,.freeobj 3;5008
+525,.Pitch -27,.rail 2;-10.5;;8  ,.rail 3;-1.55;;8 ,.dike 3;-1;9 ,.freeobj 0;5013;-2
+536,.announce TTC_SHEP\crossyonge4.wav;38
+550,.Pitch -27.5,.dikeend 3,.dike 0;0;2,.dike 1;0;3,.freeobj 0;161,.freeobj 1;161  ,.railtype 0;3  ,.railtype 1;4 ,.freeobj 1;2100;;;180 ,.freeobj 0;2001;;;180 ,.railend 2;-12  ,.railend 3;0  ,.freeobj 0;69;0;0;0
+
+450,.rail 2;-1.55;;2 ,.rail 3;-10.5;;2 ,.dikeend 0, ,.dike 1;-1;1,.railstart 4;4.5;0;3 ,.dike 4;1;1 ,.dikeend 2 ,.dikeend 3 ,.freeobj 2;5008 ,.freeobj 3;5009
+465,.freeobj 2;5009 ,.freeobj 3;5008 ,.freeobj 0;5008
+475,.rail 2;-4.5 ,.rail 3;-7.5 ,.railtype 1;4,.rail 4;1.55;;8
+486,.announce TTC_SHEP\crossyonge3.wav;33.5,.freeobj 0;5012 ,.freeobj 1;5012;5.5
+495,.freeobj 2;5008 ,.freeobj 3;5009,
+500,.Curve 0,.rail 2;-7.5 ,.rail 3;-4.5 ,.railend 4;0 ,.freeobj 0;2101;0;0;180 ,.dikeend 4 ,.dike 0;1;1 ,.dike 1;-1;1 ,.railtype 0;3
+547,.sigf 8;1;2.2;2.8,.Beacon(108; 5; 0; 9)
+554,.freeobj 0;227;-2.35;2,
+610,.Freeobj 0;44;2;2.2
+650,.Pitch -22
+675,.Pitch -12.5
+672,.sigf 8;1;2.2;2.8,.Beacon(108; 5; 0; 13)
+800,.sigf 9;1;2.2;3.15,.Beacon(108; 5; 0; 23)
+700,.adhesion 100,.Pitch -6
+725,.adhesion 200,.Pitch 2
+750,.Pitch 8
+775,.Pitch 16
+800,.Pitch 20
+825,.Pitch 25
+1025,.sigf 24;;2;2.6,.Beacon(108; 5; 0; 19)
+1325,.sigf 5;1;2.2;2.8,.Beacon(108; 5; 0; 13)
+1550,.sigf 9;1;2;2.6,.Beacon(108; 5; 0; 23)
+1975,.sigf 27;1;2;2.6,.Beacon(108; 5; 0; 7)
+1050,.Pitch 23
+1075,.Pitch 15
+1100,.Pitch 9
+1125,.Pitch 4
+1150,.Pitch 1
+
+1925,.pitch 0,.Curve -2000,.railtype 0;19
+2025,.adhesion 200,.Curve 0,.railtype 0;3
+2075,.freeobj 0;279,.adhesion 100,.dike 0;0;9,.dike 1;0;9
+2190,.brightness 128
+2100,.freeobj 0;279
+2100,.sigf 26;1;2;2.8,.Beacon(108; 5; 0; 17),.Beacon(108; 7; 0; -2)
+;Signals
+
+;===============================================================================
+; Bayview 2100
+;===============================================================================
+
+2125,.sta Bayview;;;0;L;0;0;;12;164;;1,
+
+2125,.back 0,.rail 1;-12,.freeobj 0;352,.brightness 255,.Pitch 0,.freeobj 0;130;-4  ,.freeobj 1;130  ,.brightness 255,.announce TTC_YuS\Other Sounds\bump.wav;45,.dikeend 0,.dikeend 1,.railtype 0;99,.railtype 1;99,.pitch 0,.freeobj 0;46;-1.5;-0.144;-30,.Pitch 0
+2220,.Stop 0; 5; 14.95,.freeobj 0;46;-1.5;-0.144;-30
+2235,.freeobj 1;5005,.freeobj 0;5004,.freeobj 0;279
+2250,.Pitch -3
+2248,.brightness 255
+2237,.sigf 20;1;2.2;3.5,.Beacon(108; 7; 0; -1),.Beacon(108; 5; 0; 1)
+;===============================================================================
+; Bayview-Bessarion 2225
+;===============================================================================
+
+
+2250,.brightness 120,.Pitch -5,.dike 0;1;1,.dike 1;-1;1,.railstart 2;0;0;8  ,.railstart 3;-12;0;8 ,.freeobj 0;2100 ,.freeobj 1;2001 ,.dike 2;-1;9
+2255,.announce TTC_SHEP\crossyonge2.wav;30
+2275,.railtype 0;3,.railtype 1;4,.Pitch -5.5,.rail 2;-1.55;;2 ,.rail 3;-10.5;;2 ,.dikeend 2 ,.dikeend 3 ,.freeobj 2;5008 ,.freeobj 3;5009,,,,,,,,,,,,,,,,
+2290,.freeobj 2;5009 ,.freeobj 3;5008
+2300,.Pitch -6.25,.rail 2;-4.5 ,.rail 3;-7.5,,,,,,,,,,,,,,,,,,,,
+2306,.freeobj 0;5012 ,.freeobj 1;5012;5.5,,,,,,,,,,,,,,,,,,,,
+2320,.freeobj 2;5008 ,.freeobj 3;5009,,,,,,,,,,,,,,,,,,,,
+2325,.adhesion 75,.Pitch -6.75,.rail 2;-7.5 ,.rail 3;-4.5
+2335,.freeobj 2;5009 ,.freeobj 3;5008
+2350,.Pitch -7,.rail 2;-10.5;;8  ,.rail 3;-1.55;;8 ,.dike 3;-1;9 ,.freeobj 0;5013;-2,,,,,,,,,,,,,,,,,
+2360,.announce TTC_SHEP\crossbay3.wav;43
+2374,.sigf 304;1;2.3;3.1,.section 0;4
+2375,.marker TTC_SHEP\Markers\BayviewCrossover.png;125,.Pitch -8.5,.dikeend 3,.dike 0;0;2,.dike 1;0;3,.freeobj 0;161,.freeobj 1;161,.railtype 0;3,.railtype 1;4,.freeobj 1;2100;;;180,.freeobj 0;2001;;;180,.railend 2;-12,.railend 3;0
+2363,.freeobj 0;62;2.001;2
+
+2425,.adhesion 128,.Pitch -10
+2450,.Pitch -12.7,.Curve 3000
+2475,.railtype 0;31,.railtype 1;30,.Pitch -16,.Curve 1000
+2500,.Pitch -27
+2525,.sigf 42;;2;2.8,.Beacon(108; 5; 0; 18)
+2550,.railtype 0;3,.railtype 1;4,.Curve 50001,.Pitch -29
+2775,.sigf 15;;2;2.8,.Beacon(108; 5; 0; 6)
+2875,.sigf 7;;2;2.8,.Beacon(108; 5; 0; 7)
+2925,.Pitch -22
+2912,.freeobj 0;46;2;2.5
+2950,.Pitch -11,.Curve 0
+2975,.freeobj 0;279,.brightness 128,.dike 0;0;9,.Pitch -5
+3000,.freeobj 0;279,.Pitch 0
+3024.5,.sigf 12;;2;3,.Beacon(108; 5; 0; 17),.Beacon(108; 7; 0; -2)
+3024.75,.freeobj 0;101
+;===============================================================================
+; Bessarion 3025
+;===============================================================================
+3025,.sta Bessarion;;;0;L;0;0;;9;163;;2,
+
+3025,.back 0,.rail 1;-12,.brightness 255,.announce TTC_SHEP\bumpkeeleportal.wav;45,.railtype 0;8,.railtype 1;8,.dikeend 0,.dikeend 1,.freeobj 0;350
+3120,.freeobj 0;46;-1.5;-0.144;-30,.Stop 0; 5; 14.9
+
+3137.7,.sigf 20;;2;2.8,.Beacon(108; 7; 0; -1),.Beacon(108; 5; 0; 1),.freeobj 0;101;-0.37
+3135,.freeobj 1;5005,.freeobj 0;5004,.announce TTC_SHEP\bump.wav;45
+3135,.freeobj 0;279;;-0.1
+
+
+3030,.freeobj 0;704;2.47;;180
+
+3045,.freeobj 0;702;2.47;;180
+3055,.freeobj 0;706;2.47;;180
+3065,.freeobj 0;703;2.47;;180
+3115,.freeobj 0;700;2.47;;180
+
+;===============================================================================
+; Bessarion-Leslie 3150
+;===============================================================================
+
+3143,.freeobj 0;1;-2.05;3
+3150,.railtype 0;3,.railtype 1;4,.dike 0;0;2,.dike 1;0;3,.Pitch -5,.freeobj 0;161,.freeobj 1;161
+
+3200,.Pitch -12
+3218,.freeobj 0;62;2.001;2,.freeobj 0;62;-2.501;2.3
+3225,.Pitch -23
+3250,.Pitch -34
+3275,.Pitch -45
+3375,.sigf 42;;2;2.8,.Beacon(108; 5; 0; 3)
+3400,.Curve 1000
+3425,.sigf 16;;2;2.8,.Beacon(108; 5; 0; 7)
+3450,.Curve 0,.Pitch -34	
+3550,.pitch -23
+3550,.pitch -20,.sigf 8;;2;2.6,.Beacon(108; 5; 0; 8)
+3575,.Pitch -12
+3600,.pitch 0,.dike 0;0;9,.dike 1;0;9
+
+;===============================================================================
+; Leslie 3700
+;===============================================================================
+3700,.sta Leslie;;;0;L;0;0;;10;161;;3
+
+3700,.sigf 12;;2;3,.Beacon(108; 5; 0; 17),.Beacon(108; 7; 0; -2),.back 0,.rail 1;-12,.freeobj 0;353,.pitch 0,.announce TTC_YUS\Other Sounds\bump.wav;45,.dikeend 0,.dikeend 1,.railtype 0;99,.railtype 1;99
+3795,.Stop 0; 5; 14.9,.freeobj 0;46;-1.5;-0.144;-30
+3810,.announce TTC_SHEP\bump.wav;45,.freeobj 1;5005,.freeobj 0;5004,.sigf 20;;2.2;3.7,.Beacon(108; 5; 0; 1),.Beacon(108; 7; 0; -1),.freeobj 0;101;-0.37
+3825,.Pitch 1,.dike 0;0;9,.dike 1;0;11,.railtype 0;3,.railtype 1;4
+
+;Ads
+
+3725,.freeobj 0;701;2.47;;180
+3730,.freeobj 0;704;2.47;;180
+3740,.freeobj 0;705;2.47;;180
+3745,.freeobj 0;702;2.47;;180
+3755,.freeobj 0;706;2.47;;180
+3765,.freeobj 0;703;2.47;;180
+3775,.freeobj 0;700;2.47;;180
+3795,.freeobj 0;705;2.47;;180
+
+;===============================================================================
+; Leslie-Don Mills 3725
+;===============================================================================
+
+3950,.Curve -1000,.railtype 0;29
+4097,.sigf 304;1;2;3,.section 0;4,
+4100,.Curve 0,.railtype 0;3
+4400,.sigf 42;;2;2.8,.Beacon(108; 5; 0; 12)
+4475,.Pitch 5
+4500,.pitch 11,.dike 0;0;2,.dike 1;0;2,.freeobj 0;161
+4525,.adhesion 45,.pitch 22
+4550,.Pitch 33
+4600,.sigf 28;1;2;2.8,.Beacon(108; 5; 0; 13)
+4700,.freeobj 0;62;2;2.2,.freeobj 0;62;-2;2.2
+4800,.sigf 42;1;2;2.8,.Beacon(108; 5; 0; 3)
+4810,.freeobj 0;44;-2;2.2,.freeobj 0;44;2;2.2
+4850,.sigf 16;1;2;2.8,.Beacon(108; 5; 0; 3)
+4860,.freeobj 0;45;2;2.2,.freeobj 0;45;-2;2.2
+4875,.Pitch 22
+4900,.Pitch 11
+4900,.sigf 21;1;2;2.8,.Beacon(108; 5; 0; 4)
+4925,.adhesion 100,.Pitch 10
+
+$Include(ebending.eb;0.8;ebending2.eb;0.2)

@@ -1,0 +1,37 @@
+[MESHBUILDER]                      ;SidL
+Vertex       -0.098,+0.254,-0.027
+Vertex       -0.098,+0.254,+0.027
+Vertex       -0.098,+0.170,+0.027
+Vertex       -0.098,+0.170,-0.027
+Face                      3,2,1,0
+Load      Lamp~EOTD~ARWx_Bulb.GIF,Lamp~EOTD~ARWx_Bulb.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+
+[MESHBUILDER]                      ;SidR
+Vertex       +0.076,+0.254,-0.027
+Vertex       +0.076,+0.254,+0.027
+Vertex       +0.076,+0.170,+0.027
+Vertex       +0.076,+0.170,-0.027
+Face                      0,1,2,3
+Load      Lamp~EOTD~ARWx_Bulb.GIF,Lamp~EOTD~ARWx_Bulb.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+
+[MESHBUILDER]                      ;EndB
+Vertex       -0.067,+0.254,-0.070
+Vertex       +0.045,+0.254,-0.070
+Vertex       +0.045,+0.170,-0.070
+Vertex       -0.067,+0.170,-0.070
+Face                      0,1,2,3
+Load      Lamp~EOTD~ARWx_Bulb.GIF,Lamp~EOTD~ARWx_Bulb.GIF
+Coordinates       0,+0.000,+0.000
+Coordinates       1,+1.000,+0.000
+Coordinates       2,+1.000,+1.000
+Coordinates       3,+0.000,+1.000
+
+TRANSLATEALL +0.310,+1.116,-0.050  ;Centering

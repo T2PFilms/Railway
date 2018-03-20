@@ -1,0 +1,8 @@
+;Coupler ~StandardGaug Dsel|Elec|Steam Loco ~AmericanRail typeE endA|B
+;Set At .ANIMATED [Include] Position=+0.000,+0.000,+|-0.500*CarsLength
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;All BVE|OpenBVE files have no registered copyright or trademark,
+;are public domain, & free to copy|distribute|modify|use at will.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]
+States=Cplr~SGxL~AREx_Assy.B3D

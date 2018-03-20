@@ -1,0 +1,8 @@
+;Coupler for StandardGaug Frht|Psgr MultiUnits, SCHarfenberg endA|B
+;Set@ ANIMATED [Include] Position=+0.000,+0.000,+|-0.500*CarsLength
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;All BVE|OpenBVE files have no registered copyright or trademark,
+;are public domain, & free to copy|distribute|modify|use at will.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[Object]
+States=Cplr~SGxM~SCHx_Assy.B3D

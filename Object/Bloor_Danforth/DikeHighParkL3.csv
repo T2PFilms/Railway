@@ -1,0 +1,39 @@
+;Converted from .b3d to .csv by BVE Terminus' B3D to CSV Converter
+CreateMeshBuilder,
+Addvertex,-3.2,-0.1,0,
+Addvertex,-5,-0.5,0,
+Addvertex,-5,-0.5,25,
+Addvertex,-3.2,-0.1,25,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture, track\ballast.bmp
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,
+
+CreateMeshBuilder,
+Addvertex,-5,-0.5,0,
+Addvertex,-10,-0.5,0,
+Addvertex,-10,-0.5,25,
+Addvertex,-5,-0.5,25,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture, track\ballast.bmp
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,
+
+CreateMeshBuilder
+AddVertex, -9.5,5,0
+AddVertex, -9.5,-0.5,0
+AddVertex, -9.5,-0.5,25
+AddVertex, -9.5,5,25
+AddFace2, 3,2,1,0
+LoadTexture, chainfence.bmp
+SetTextureCoordinates, 0,6,0
+SetTextureCoordinates, 1,6,1
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,0,0
+SetDecalTransparentColor, 0,0,0

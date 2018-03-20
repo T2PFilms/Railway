@@ -1,0 +1,382 @@
+;extended platform
+
+[meshbuilder]
+vertex 11,1.1,0
+vertex 11,1.1,25
+vertex 7.2,1.1,25
+vertex 7.2,1.1,0
+face2 0,1,2,3
+
+[texture]
+load staformc.bmp
+coordinates 0,1,1
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+
+[meshbuilder]
+vertex 7.2,4.7,0
+vertex 7.2,4.7,25
+vertex 17.9,4.7,25
+vertex 17.9,4.7,0
+face2 0,1,2,3
+
+[texture]
+load roof.bmp
+coordinates 0,10,0
+coordinates 1,10,1
+coordinates 2,0,1
+coordinates 3,0,0
+
+;pillars right #1
+
+[meshbuilder]
+vertex 5,1.1,5.25
+vertex 7,1.1,5.25
+vertex 7,4.2,5.25
+vertex 5,4.2,5.25
+face2 0,1,2,3
+
+[texture]
+load bloorpost.bmp
+coordinates 1,1,1
+coordinates 2,1,0
+coordinates 3,0,0
+coordinates 0,0,1
+
+[meshbuilder]
+vertex 5,1.1,7.25
+vertex 5,1.1,5.25
+vertex 5,4.2,5.25
+vertex 5,4.2,7.25
+face2 0,1,2,3
+
+[texture]
+load bloorpost.bmp
+coordinates 1,1,1
+coordinates 2,1,0
+coordinates 3,0,0
+coordinates 0,0,1
+
+;pillars right #2
+
+[meshbuilder]
+vertex 5,1.1,17.75
+vertex 7,1.1,17.75
+vertex 7,4.2,17.75
+vertex 5,4.2,17.75
+face2 0,1,2,3
+
+[texture]
+load bloorpost.bmp
+coordinates 1,1,1
+coordinates 2,1,0
+coordinates 3,0,0
+coordinates 0,0,1
+
+[meshbuilder]
+vertex 5,1.1,19.75
+vertex 5,1.1,17.75
+vertex 5,4.2,17.75
+vertex 5,4.2,19.75
+face2 0,1,2,3
+
+[texture]
+load bloorpost.bmp
+coordinates 1,1,1
+coordinates 2,1,0
+coordinates 3,0,0
+coordinates 0,0,1
+
+;green beam above pillars
+
+[meshbuilder]
+vertex 5,4.2,0
+vertex 5,4.7,0
+vertex 5,4.7,25
+vertex 5,4.2,25
+face2 0,1,2,3
+color 92,120,92
+
+[meshbuilder]
+vertex 5,4.2,0
+vertex 7,4.2,0
+vertex 7,4.2,25
+vertex 5,4.2,25
+face2 0,1,2,3
+color 70,98,70
+
+;right wall
+
+[meshbuilder]
+vertex 11,-0.5,0
+vertex 11,4.7,0
+vertex 11,4.7,25
+vertex 11,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load wallbloor.bmp
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 0,1,1
+
+;middle pillars
+
+[meshbuilder]
+vertex -2.25,-0.5,0
+vertex -2.25,-0.5,4
+vertex -2.25,4.7,4
+vertex -2.25,4.7,0
+face2 0,1,2,3
+color 32,32,32
+
+[meshbuilder]
+vertex -2.75,-0.5,0
+vertex -2.25,-0.5,0
+vertex -2.25,4.7,0
+vertex -2.75,4.7,0
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -2.25,-0.5,12.5
+vertex -2.25,-0.5,16.5
+vertex -2.25,4.7,16.5
+vertex -2.25,4.7,12.5
+face2 0,1,2,3
+color 32,32,32
+
+[meshbuilder]
+vertex -2.75,-0.5,12.5
+vertex -2.25,-0.5,12.5
+vertex -2.25,4.7,12.5
+vertex -2.75,4.7,12.5
+face2 0,1,2,3
+color 0,0,0
+
+;middle no smoking sign 1
+
+[meshbuilder]
+vertex -2.25,1.5,1.5
+vertex -2.25,2.5,1.5
+vertex -2.15,2.5,1.5
+vertex -2.15,1.5,1.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,2.5,1.5
+vertex -2.25,2.5,2.5
+vertex -2.15,2.5,2.5
+vertex -2.15,2.5,1.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,2.5,2.5
+vertex -2.25,1.5,2.5
+vertex -2.15,1.5,2.5
+vertex -2.15,2.5,2.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,1.5,1.5
+vertex -2.25,1.5,2.5
+vertex -2.15,1.5,1.5
+vertex -2.15,1.5,1.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,1.5,1.5
+vertex -2.25,1.5,2.5
+vertex -2.25,2.5,2.5
+vertex -2.25,2.5,1.5
+face 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.15,1.5,1.5
+vertex -2.15,1.5,2.5
+vertex -2.15,2.5,2.5
+vertex -2.15,2.5,1.5
+face2 0,1,2,3
+
+[texture]
+Load nosmoking.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+
+;middle no smoking sign 2
+
+[meshbuilder]
+vertex -2.25,1.5,14
+vertex -2.25,2.5,14
+vertex -2.15,2.5,14
+vertex -2.15,1.5,14
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,2.5,14
+vertex -2.25,2.5,15
+vertex -2.15,2.5,15
+vertex -2.15,2.5,14
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,2.5,15
+vertex -2.25,1.5,15
+vertex -2.15,1.5,15
+vertex -2.15,2.5,15
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,1.5,14
+vertex -2.25,1.5,15
+vertex -2.15,1.5,15
+vertex -2.15,1.5,14
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,1.5,14
+vertex -2.25,1.5,15
+vertex -2.25,2.5,15
+vertex -2.25,2.5,14
+face 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.15,1.5,14
+vertex -2.15,1.5,15
+vertex -2.15,2.5,15
+vertex -2.15,2.5,14
+face2 0,1,2,3
+
+[texture]
+Load nosmoking.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+
+;middle stand back sign 1
+
+[meshbuilder]
+vertex -2.25,3,1.5
+vertex -2.25,4,1.5
+vertex -2.15,4,1.5
+vertex -2.15,3,1.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,4,1.5
+vertex -2.25,4,2.5
+vertex -2.15,4,2.5
+vertex -2.15,4,1.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,4,2.5
+vertex -2.25,3,2.5
+vertex -2.15,3,2.5
+vertex -2.15,4,2.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,3,1.5
+vertex -2.25,3,2.5
+vertex -2.15,3,1.5
+vertex -2.15,3,1.5
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,3,1.5
+vertex -2.25,3,2.5
+vertex -2.25,4,2.5
+vertex -2.25,4,1.5
+face 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.15,3,1.5
+vertex -2.15,3,2.5
+vertex -2.15,4,2.5
+vertex -2.15,4,1.5
+face2 0,1,2,3
+
+[texture]
+Load standback.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+
+;middle stand back sign 2
+
+[meshbuilder]
+vertex -2.25,3,14
+vertex -2.25,4,14
+vertex -2.15,4,14
+vertex -2.15,3,14
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,4,14
+vertex -2.25,4,15
+vertex -2.15,4,15
+vertex -2.15,4,14
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,4,15
+vertex -2.25,3,15
+vertex -2.15,3,15
+vertex -2.15,4,15
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,3,14
+vertex -2.25,3,15
+vertex -2.15,3,15
+vertex -2.15,3,14
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.25,3,14
+vertex -2.25,3,15
+vertex -2.25,4,15
+vertex -2.25,4,14
+face 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex -2.15,3,14
+vertex -2.15,3,15
+vertex -2.15,4,15
+vertex -2.15,4,14
+face2 0,1,2,3
+
+[texture]
+Load standback.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+

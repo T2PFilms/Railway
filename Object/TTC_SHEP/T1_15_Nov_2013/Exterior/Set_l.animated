@@ -1,0 +1,23 @@
+[Include]
+FLIPT1 Front Cab_l.b3d
+Position = 0, 0, 125
+
+[Include]
+T1 Back Cab Nolighton_l.b3d
+Position = 0, 0,102
+
+[Include]
+T1 Front Cab Nolighton_l.b3d
+Position = 0, 0,79
+
+[Include]
+T1 Back Cab Nolighton_l.b3d
+Position = 0, 0,56
+
+[Include]
+T1 Front Cab Nolighton_l.b3d
+Position = 0, 0,33
+
+[Include]
+FLIPT1 Back Cab_l.b3d
+Position = 0, 0, 10

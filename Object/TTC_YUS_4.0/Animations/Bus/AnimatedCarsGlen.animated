@@ -1,0 +1,32 @@
+
+
+[Object]
+Position = -0, 0, 15
+States = Car1.csv
+RotateYFunction = 185.3
+TranslateZFunction = mod[5 * time, 400]
+
+[Object]
+Position = -0, 0.1, -14
+States = Bus.b3d
+RotateYFunction = 185.3
+TranslateZFunction = mod[5 * time, 400]
+
+[Object]
+Position = -5, 0.1, -10
+States = Car2.csv
+RotateYFunction = 185.3
+TranslateZFunction = mod[5 * time, 400]
+
+
+[Object]
+Position = -0, 0, -30
+States = Car2.csv
+RotateYFunction = 185.3
+TranslateZFunction = mod[5 * time, 400]
+
+[Object]
+Position = -5, 0.1, -22
+States = Car1.csv
+RotateYFunction = 185.3
+TranslateZFunction = mod[5 * time, 400]

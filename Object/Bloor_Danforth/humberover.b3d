@@ -1,0 +1,66 @@
+
+;and now for the bridge...
+
+[MeshBuilder]
+Vertex -9.77,-0.16,0
+Vertex 3.77,-0.16,0
+Vertex 3.77,-0.16,50
+Vertex -9.77,-0.16,50
+Face2 0,1,2,3
+Color 125,105,90
+Load IDK.png
+Coordinates 0, 20, 0
+Coordinates 1, 20, 20
+Coordinates 2, 0, 20
+Coordinates 3, 0, 0
+
+
+
+
+[MeshBuilder]
+Cube 0.29, 0.10, 25
+Color 86,73,63
+Translate 3.42,0,25
+
+[MeshBuilder]
+Cube 0.29, 0.10, 25
+Color 86,73,63
+Translate -9.42,0,25
+
+[MeshBuilder]
+Cube 0.034, 0.3, 25
+Color 118,104,95
+Translate 3.7,0.1,25
+
+[MeshBuilder]
+Cube 0.034, 0.3, 25
+Color 118,104,95
+Translate -9.7,0.1,25
+
+[MeshBuilder]
+Vertex 3.7,-0.2,50
+Vertex 3.7,4.5,50
+Vertex 3.7,4.5,0
+Vertex 3.7,-0.2,0
+Face2 0,1,2,3
+Load ChainFenceDark.bmp
+Transparent 0,0,0
+Coordinates 0, 14, 1
+Coordinates 1, 14, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Translate 0,-0.01,0
+
+[MeshBuilder]
+Vertex -9.7,-0.2,50
+Vertex -9.7,4.5,50
+Vertex -9.7,4.5,0
+Vertex -9.7,-0.2,0
+Face2 0,1,2,3
+Load ChainFenceDark.bmp
+Transparent 0,0,0
+Coordinates 0, 14, 1
+Coordinates 1, 14, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1
+Translate 0,-0.01,0

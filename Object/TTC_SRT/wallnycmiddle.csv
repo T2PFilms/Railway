@@ -1,0 +1,14 @@
+CreateMeshBuilder,
+Addvertex,-2.5,4.7,0,
+Addvertex,-3.5,4.7,0,
+Addvertex,-3.5,-0.5,0,
+Addvertex,-2.5,-0.5,0,
+Addface2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,wallnycmiddle.bmp,wallnycmiddle.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,

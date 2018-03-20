@@ -1,0 +1,59 @@
+[MeshBuilder]
+Vertex -1.4, -0.144, 0
+Vertex -1.4, -0.144, 25.2
+Vertex 1.4, -0.144, 25.2
+Vertex 1.4, -0.144, 0
+Face 0, 1, 2, 3
+
+[Texture]
+Load Slabnight.bmp
+Coordinates 0, 0, 5
+Coordinates 1, 0, 0
+Coordinates 2, 1, 0
+Coordinates 3, 1, 5
+
+[MeshBuilder]
+Vertex -2.0, -0.146, 0
+Vertex -2.0, -0.146, 25.2
+Vertex -1.38, -0.146, 25.2
+Vertex -1.38, -0.146, 0
+Face 0, 1, 2, 3
+Color 255,240,220
+
+[Texture]
+Load Slab2night.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+[MeshBuilder]
+Vertex 1.38, -0.146, 0
+Vertex 1.38, -0.146, 25.2
+Vertex 2.0, -0.146, 25.2
+Vertex 2.0, -0.146, 0
+Face 0, 1, 2, 3
+Color 255,240,220
+
+[Texture]
+Load Slab2night.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+[MeshBuilder]
+Vertex -0.807, 0, 0
+Vertex -0.807, 0, 25.5
+Vertex -0.747, 0, 25.5
+Vertex -0.747, 0, 0
+Face 0, 1, 2, 3
+Color 169,178,183
+
+[MeshBuilder]
+Vertex 0.747, 0, 0
+Vertex 0.747, 0, 25.5
+Vertex 0.807, 0, 25.5
+Vertex 0.807, 0, 0
+Face 0, 1, 2, 3
+Color 169,178,183

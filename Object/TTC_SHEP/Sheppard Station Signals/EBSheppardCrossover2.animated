@@ -1,0 +1,18 @@
+[Object]
+Position = 0, -2.65, 0
+States = SignalSingle_GT.csv
+
+[Object]
+Position = 0, 0,0
+States = redglow.csv,blank.csv,redglow.csv,blank.csv,redglow.csv,blank.csv,redglow.csv,blank.csv,redglow.csv,blank.csv,redglow.csv,blank.csv,yellowglow.csv
+StateFunction = if[section>=2 & trackDistance>=0.1,if[value < 12 & trackDistance < 98,value+1,if[value != 12,0,12]],4]
+RefreshRate = 0.65
+
+[Object]
+Position = 0, 0,0
+States = SignalSingle_X.csv
+
+[Object]
+Position = 0, 0, 0
+States = SignalSingle_GTLunar.csv,SignalSingle_SClear.csv
+StateFunction = if[section>=2 & trackDistance>=0.1,0,1]

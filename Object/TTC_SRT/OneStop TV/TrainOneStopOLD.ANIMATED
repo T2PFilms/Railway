@@ -1,0 +1,70 @@
+[Object]
+Position = 0,0,0
+States = NextTrain1minute.csv,NextTrain1minute.csv,NextTrain1minute.csv
+StateFunction = If[trackdistance>700,If[trackdistance>700,If[trackdistance>700,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = 2minutes.csv,2minutes.csv,2minutes.csv
+StateFunction = If[trackdistance>1400,If[trackdistance>1400,If[trackdistance>1400,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = 3Minutes.csv,3Minutes.csv,3Minutes.csv
+StateFunction = If[trackdistance>2100,If[trackdistance>2100,If[trackdistance>2100,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = 4minutes.csv,4minutes.csv,4minutes.csv
+StateFunction = If[trackdistance>2800,If[trackdistance>2000,If[trackdistance>2800,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = 5minutes.csv,5minutes.csv,5minutes.csv
+StateFunction = If[trackdistance>3500,If[trackdistance>2500,If[trackdistance>3500,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = 6minutes.csv,6minutes.csv,6minutes.csv
+StateFunction = If[trackdistance>4200,If[trackdistance>4200,If[trackdistance>4200,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = 6minutes.csv,6minutes.csv,6minutes.csv
+StateFunction = If[trackdistance>34200,If[trackdistance>34200,If[trackdistance>34200,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = LOLPOINTLESS.CSV,TrainAtStation.csv,TrainAtStation.csv
+StateFunction = If[trackdistance>50,if[trackDistance>50,if[trackDistance>50,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = LOLPOINTLESS.CSV,Error.csv,Error.csv
+StateFunction = If[trackdistance>=130,if[trackDistance>=130,if[trackDistance>=130,1,2],1],0]
+
+[Object]
+Position = 0,0,0
+States = News_Warning.csv,News_Advertisement.csv,News_Default.csv
+StateFunction = value == 0
+RefreshRate = 6
+
+[Object]
+Position = 0,0,0
+States = Delay_56Leaside.csv,Delay_139Finch.csv,Delay_MartinGrove.csv
+StateFunction = value == 0
+RefreshRate = 8
+
+[Object]
+Position = 0,0,0
+States = Advertisement_Bloor.csv,Advertisement_DWA.csv
+StateFunction = value == 0
+RefreshRate = 13
+
+[Object]
+Position = 0,0,0.001
+States = Black.csv
+
+[Object]
+Position = 0,0,0.499
+States = Black.csv

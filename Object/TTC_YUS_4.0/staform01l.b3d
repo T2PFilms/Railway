@@ -1,0 +1,55 @@
+[meshbuilder]
+vertex -2.7,1.1,0
+vertex -2.7,1.1,25
+vertex -1.5,1.1,25
+vertex -1.5,1.1,0
+face2 0,1,2,3
+
+[texture]
+load staform.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+[meshbuilder]
+vertex -1.5,-0.5,0
+vertex -1.5,-0.5,25
+vertex -1.5,1.1,25
+vertex -1.5,1.1,0
+face2 3,2,1,0
+
+[texture]
+load formside.bmp
+coordinates 0,12,1
+coordinates 1,0,1
+coordinates 2,0,0
+coordinates 3,12,0
+
+[meshbuilder]
+vertex -1.5,-0.5,0
+vertex -1.5,1.1,0
+vertex -2.7,1.1,0
+vertex -2.7,-0.5,0
+face2 3,2,1,0
+
+[texture]
+load wall.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+[meshbuilder]
+vertex -1.5,-0.5,25
+vertex -1.5,1.1,25
+vertex -2.7,1.1,25
+vertex -2.7,-0.5,25
+face2 3,2,1,0
+
+[texture]
+load wall.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1

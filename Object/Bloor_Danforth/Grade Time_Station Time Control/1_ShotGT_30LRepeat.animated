@@ -1,0 +1,13 @@
+[Object]
+Position = 0, -2.65, 0
+States = SignalSingleRepeat.csv
+[Object]
+Position = 0, 0, 0
+States = SignalSingle_0.csv, SignalSingle_0.csv, SignalSingle_4.csv
+StateFunction = if[trackDistance>75 | section==0, 0, min[value + 0.5*delta/1.51, 2]]
+
+
+[Object]
+Position = 0, 0, 0
+States = SignalSingle_GTLunar.csv, SignalSingle_GTLunar.csv, SignalSingle_SClear.csv
+StateFunction = if[trackDistance>75 | section==0, 0, min[value + 0.5*delta/1.51, 2]]

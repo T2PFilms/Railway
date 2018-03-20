@@ -1,0 +1,854 @@
+CreateMeshBuilder,
+Addvertex,-0.650, 0, 2.500,
+Addvertex,-0.600, 0, 2.500,
+Addvertex,-0.650, 0, 5.000,
+Addvertex,-0.600, 0, 5.000,
+Addvertex,-0.550, 0, 10.000,
+Addvertex,-0.470, 0, 10.000,
+Addvertex,-0.237, 0, 15.000,
+Addvertex,-0.157, 0, 15.000,
+Addvertex,0.201, 0, 20.000,
+Addvertex,0.281, 0, 20.000,
+Addvertex,0.765, 0, 25.100,
+Addvertex,0.845, 0, 25.100,
+Addface,2, 3, 1, 0,
+Addface,4, 5, 3, 2,
+Addface,6, 7, 5, 4,
+Addface,8, 9, 7, 6,
+Addface,10, 11, 9, 8,
+SetColor,240,240,240,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+Addvertex,0.720, 0, -0.100,
+Addvertex,0.800, 0, -0.100,
+Addvertex,0.783, 0, 5.000,
+Addvertex,0.863, 0, 5.000,
+Addvertex,0.970, 0, 10.000,
+Addvertex,1.050, 0, 10.000,
+Addvertex,1.283, 0, 15.000,
+Addvertex,1.363, 0, 15.000,
+Addvertex,1.721, 0, 20.000,
+Addvertex,1.801, 0, 20.000,
+Addvertex,2.285, 0, 25.100,
+Addvertex,2.365, 0, 25.100,
+Addface,2, 3, 1, 0,
+Addface,4, 5, 3, 2,
+Addface,6, 7, 5, 4,
+Addface,8, 9, 7, 6,
+Addface,10, 11, 9, 8,
+SetColor,240,240,240,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+Addvertex,-1.20, -0.146, -0.100,
+Addvertex,1.20, -0.146, -0.100,
+Addvertex,-1.137, -0.146, 5.000,
+Addvertex,1.263, -0.146, 5.000,
+Addvertex,-0.950, -0.146, 10.000,
+Addvertex,1.450, -0.146, 10.000,
+Addvertex,-0.637, -0.146, 15.000,
+Addvertex,1.763, -0.146, 15.000,
+Addvertex,-0.199, -0.146, 20.000,
+Addvertex,2.201, -0.146, 20.000,
+Addvertex,0.065, -0.146, 25.100,
+Addvertex,2.765, -0.146, 25.100,
+Addface,2, 3, 1, 0,
+Addface,4, 5, 3, 2,
+Addface,6, 7, 5, 4,
+Addface,8, 9, 7, 6,
+Addface,10, 11, 9, 8,
+
+GenerateNormals,
+
+LoadTexture,tie.bmp,
+SetTextureCoordinates,0, 1.02, 10,
+SetTextureCoordinates,1, -0.02, 10,
+SetTextureCoordinates,2, 1.02, 8,
+SetTextureCoordinates,3, -0.02, 8,
+SetTextureCoordinates,4, 1.02, 6,
+SetTextureCoordinates,5, -0.02, 6,
+SetTextureCoordinates,6, 1.02, 4,
+SetTextureCoordinates,7, -0.02, 4,
+SetTextureCoordinates,8, 1.02, 2,
+SetTextureCoordinates,9, -0.02, 2,
+SetTextureCoordinates,10, 1.02, 0,
+SetTextureCoordinates,11, -0.02, 0,
+
+CreateMeshBuilder,
+Addvertex,-2.000, -0.146, -0.100,
+Addvertex,-1.150, -0.146, -0.100,
+Addvertex,-2.000, -0.146, 25.100,
+Addvertex,-1.150, -0.146, 25.100,
+Addface,2, 3, 1, 0,
+
+GenerateNormals,
+
+LoadTexture,ballast.bmp,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 8,
+SetTextureCoordinates,3, 0, 8,
+
+CreateMeshBuilder,
+Addvertex,1.150, -0.146, -0.100,
+Addvertex,2.000, -0.146, -0.100,
+Addvertex,1.213, -0.146, 5.000,
+Addvertex,2.063, -0.146, 5.000,
+Addvertex,1.400, -0.146, 10.000,
+Addvertex,2.250, -0.146, 10.000,
+Addvertex,1.713, -0.146, 15.000,
+Addvertex,2.563, -0.146, 15.000,
+Addvertex,2.151, -0.146, 20.000,
+Addvertex,3.001, -0.146, 20.000,
+Addvertex,2.715, -0.146, 25.100,
+Addvertex,3.565, -0.146, 25.100,
+Addface,2, 3, 1, 0,
+Addface,4, 5, 3, 2,
+Addface,6, 7, 5, 4,
+Addface,8, 9, 7, 6,
+Addface,10, 11, 9, 8,
+GenerateNormals,
+
+LoadTexture,ballast.bmp,
+SetTextureCoordinates,0, 0, 10,
+SetTextureCoordinates,1, 1, 10,
+SetTextureCoordinates,2, 0, 8,
+SetTextureCoordinates,3, 1, 8,
+SetTextureCoordinates,4, 0, 6,
+SetTextureCoordinates,5, 1, 6,
+SetTextureCoordinates,6, 0, 4,
+SetTextureCoordinates,7, 1, 4,
+SetTextureCoordinates,8, 0, 2,
+SetTextureCoordinates,9, 1, 2,
+SetTextureCoordinates,10, 0, 0,
+SetTextureCoordinates,11, 1, 0,
+
+;3rd rail;
+
+; Pole/Base #3 -------------------------
+
+CreateMeshBuilder,
+
+; ---- Attachment Pole
+
+AddVertex,1.85,0.30,10.00,
+AddVertex,1.87,0.30,10.00,
+AddVertex,1.87,-0.144,10.00,
+AddVertex,1.85,-0.144,10.00,
+
+AddVertex,1.55,0.30,10.00,
+AddVertex,1.87,0.30,10.00,
+AddVertex,1.87,0.28,10.00,
+AddVertex,1.55,0.28,10.00,
+
+AddVertex,1.55,0.30,10.00,
+AddVertex,1.55,0.30,10.05,
+AddVertex,1.87,0.30,10.05,
+AddVertex,1.87,0.30,10.00,
+
+AddVertex,1.85,0.30,10.05,
+AddVertex,1.85,0.30,10.00,
+AddVertex,1.85,-0.144,10.00,
+AddVertex,1.85,-0.144,10.05,
+
+AddVertex,1.87,0.30,10.00,
+AddVertex,1.87,0.30,10.05,
+AddVertex,1.87,-0.144,10.05,
+AddVertex,1.87,-0.144,10.00,
+
+AddVertex,1.70,0.30,10.00,
+AddVertex,1.70,0.30,10.05,
+AddVertex,1.70,0.28,10.05,
+AddVertex,1.70,0.28,10.00,
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+Addface,16,17,18,19,
+Addface,20,21,22,23,
+
+SetColor,22,22,22,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Base
+
+AddVertex,1.58,0.08,10.00,
+AddVertex,1.80,0.08,10.00,
+AddVertex,1.80,-0.144,10.00,
+AddVertex,1.58,-0.144,10.00,
+
+AddVertex,1.80,0.08,10.00,
+AddVertex,1.80,0.08,10.29,
+AddVertex,1.58,0.08,10.29,
+AddVertex,1.58,0.08,10.00,
+
+AddVertex,1.58,0.08,10.00,
+AddVertex,1.58,0.08,10.29,
+AddVertex,1.58,-0.144,10.29,
+AddVertex,1.58,-0.144,10.00,
+
+AddVertex,1.80,0.08,10.29,
+AddVertex,1.80,0.08,10.00,
+AddVertex,1.80,-0.144,10.00,
+AddVertex,1.80,-0.144,10.29,
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+
+SetColor,22,22,22,
+
+; Pole/Base #4 -------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Attachment Pole
+
+AddVertex,2.163,0.30,15.00,
+AddVertex,2.183,0.30,15.00,
+AddVertex,2.183,-0.144,15.00,
+AddVertex,2.163,-0.144,15.00,
+
+AddVertex,1.863,0.30,15.00,
+AddVertex,2.183,0.30,15.00,
+AddVertex,2.183,0.28,15.00,
+AddVertex,1.863,0.28,15.00,
+
+AddVertex,1.863,0.30,15.00,
+AddVertex,1.863,0.30,15.05,
+AddVertex,2.183,0.30,15.05,
+AddVertex,1.183,0.30,15.00,
+
+AddVertex,2.163,0.30,15.05,
+AddVertex,2.163,0.30,15.00,
+AddVertex,2.163,-0.144,15.00,
+AddVertex,2.163,-0.144,15.05,
+
+AddVertex,2.183,0.30,15.00,
+AddVertex,2.183,0.30,15.05,
+AddVertex,2.183,-0.144,15.05,
+AddVertex,2.183,-0.144,15.00,
+
+AddFace,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+Addface,16,17,18,19,
+
+SetColor,22,22,22,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Base
+
+AddVertex,1.893,0.08,15.00,
+AddVertex,2.113,0.08,15.00,
+AddVertex,2.113,-0.144,15.00,
+AddVertex,1.893,-0.144,15.00,
+
+AddVertex,2.113,0.08,15.00,
+AddVertex,2.113,0.08,15.29,
+AddVertex,1.893,0.08,15.29,
+AddVertex,1.893,0.08,15.00,
+
+AddVertex,1.893,0.08,15.00,
+AddVertex,1.893,0.08,15.29,
+AddVertex,1.893,-0.144,15.29,
+AddVertex,1.893,-0.144,15.00,
+
+AddVertex,2.113,0.08,15.29,
+AddVertex,2.113,0.08,15.00,
+AddVertex,2.113,-0.144,15.00,
+AddVertex,2.113,-0.144,15.29,
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+
+SetColor,22,22,22,
+
+; Pole/Base #5 -------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Attachment Pole
+
+AddVertex,2.601,0.30,20.00,
+AddVertex,2.621,0.30,20.00,
+AddVertex,2.621,-0.144,20.00,
+AddVertex,2.601,-0.144,20.00,
+
+AddVertex,2.301,0.30,20.00,
+AddVertex,2.621,0.30,20.00,
+AddVertex,2.621,0.28,20.00,
+AddVertex,2.301,0.28,20.00,
+
+AddVertex,2.301,0.30,20.00,
+AddVertex,2.301,0.30,20.05,
+AddVertex,2.621,0.30,20.05,
+AddVertex,2.621,0.30,20.00,
+
+AddVertex,2.601,0.30,20.05,
+AddVertex,2.601,0.30,20.00,
+AddVertex,2.601,-0.144,20.00,
+AddVertex,2.601,-0.144,20.05,
+
+AddVertex,2.621,0.30,20.00,
+AddVertex,2.621,0.30,20.05,
+AddVertex,2.621,-0.144,20.05,
+AddVertex,2.621,-0.144,20.00,
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+Addface,16,17,18,19,
+
+SetColor,22,22,22,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Base
+
+AddVertex,2.331,0.08,20.00,
+AddVertex,2.551,0.08,20.00,
+AddVertex,2.551,-0.144,20.00,
+AddVertex,2.331,-0.144,20.00,
+
+AddVertex,2.551,0.08,20.00,
+AddVertex,2.551,0.08,20.29,
+AddVertex,2.331,0.08,20.29,
+AddVertex,2.331,0.08,20.00,
+
+AddVertex,2.331,0.08,20.00,
+AddVertex,2.331,0.08,20.29,
+AddVertex,2.331,-0.144,20.29,
+AddVertex,2.331,-0.144,20.00,
+
+AddVertex,2.551,0.08,20.29,
+AddVertex,2.551,0.08,20.00,
+AddVertex,2.551,-0.144,20.00,
+AddVertex,2.551,-0.144,20.29,
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+
+SetColor,22,22,22,
+
+;--------------------------------- LengthWise -----------------------
+
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Cover
+
+AddVertex,1.58,0.28,10.00,
+AddVertex,1.83,0.28,10.00,
+AddVertex,1.83,0.23,10.00,
+AddVertex,1.58,0.23,10.00,
+
+AddVertex,1.58,0.28,10.00,
+AddVertex,1.893,0.28,15.20,
+AddVertex,2.143,0.28,15.20,
+AddVertex,1.83,0.28,10.00,
+
+AddVertex,1.83,0.28,10.00,
+AddVertex,2.143,0.28,15.20,
+AddVertex,2.143,0.23,15.20,
+AddVertex,1.83,0.23,10.00,
+
+AddVertex,1.893,0.28,15.20,
+AddVertex,1.58,0.28,10.00,
+AddVertex,1.58,0.23,10.00,
+AddVertex,1.893,0.23,15.20,
+
+AddVertex,1.893,0.28,15.00,
+AddVertex,2.331,0.28,20.20,
+AddVertex,2.581,0.28,20.20,
+AddVertex,2.143,0.28,15.00,
+
+AddVertex,2.143,0.28,15.00,
+AddVertex,2.581,0.28,20.20,
+AddVertex,2.581,0.23,20.20,
+AddVertex,2.143,0.23,15.00,
+
+AddVertex,2.331,0.28,20.20,
+AddVertex,1.893,0.28,15.00,
+AddVertex,1.893,0.23,15.00,
+AddVertex,2.331,0.23,20.20,
+
+AddVertex,2.331,0.28,20.00,
+AddVertex,2.83,0.28,25.20,
+AddVertex,3.08,0.28,25.20,
+AddVertex,2.581,0.28,20.00,
+
+AddVertex,2.581,0.28,20.00,
+AddVertex,3.08,0.28,25.20,
+AddVertex,3.08,0.23,25.20,
+AddVertex,2.581,0.23,20.00,
+
+AddVertex,2.83,0.28,25.20,
+AddVertex,2.331,0.28,20.00,
+AddVertex,2.331,0.23,20.00,
+AddVertex,2.83,0.23,25.20,
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+
+Addface,16, 17, 18, 19,
+Addface,20, 21, 22, 23,
+Addface,24, 25, 26, 27,
+
+Addface,28, 29, 30, 31,
+Addface,32, 33, 34, 35,
+Addface,36, 37, 38, 39,
+
+SetColor,52,28,18,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Rail
+
+AddVertex,1.67,0.15,10.00,
+AddVertex,1.80,0.15,10.00,
+AddVertex,1.80,0.08,10.00,
+AddVertex,1.67,0.08,10.00,
+
+AddVertex,1.67,0.15,10.00,
+AddVertex,1.983,0.15,15.20,
+AddVertex,2.113,0.15,15.20,
+AddVertex,1.80,0.15,10.00,
+
+AddVertex,1.80,0.15,10.00,
+AddVertex,2.113,0.15,15.20,
+AddVertex,2.113,0.08,15.20,
+AddVertex,1.80,0.08,10.00,
+
+AddVertex,1.983,0.15,15.20,
+AddVertex,1.67,0.15,10.00,
+AddVertex,1.67,0.08,10.00,
+AddVertex,1.983,0.08,15.20,
+
+AddVertex,1.983,0.15,15.00,
+AddVertex,2.421,0.15,20.20,
+AddVertex,2.551,0.15,20.20,
+AddVertex,2.113,0.15,15.00,
+
+AddVertex,2.113,0.15,15.00,
+AddVertex,2.551,0.15,20.20,
+AddVertex,2.551,0.08,20.20,
+AddVertex,2.113,0.08,15.00,
+
+AddVertex,2.421,0.15,20.20,
+AddVertex,1.983,0.15,15.00,
+AddVertex,1.983,0.08,15.00,
+AddVertex,2.421,0.08,20.20,
+
+AddVertex,2.421,0.15,20.00,
+AddVertex,2.92,0.15,25.20,
+AddVertex,3.05,0.15,25.20,
+AddVertex,2.551,0.15,20.00,
+
+AddVertex,2.551,0.15,20.00,
+AddVertex,3.05,0.15,25.20,
+AddVertex,3.05,0.08,25.20,
+AddVertex,2.551,0.08,20.00,
+
+AddVertex,2.92,0.15,25.20,
+AddVertex,2.421,0.15,20.00,
+AddVertex,2.421,0.08,20.00,
+AddVertex,2.92,0.08,25.20,
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+
+Addface,16, 17, 18, 19,
+Addface,20, 21, 22, 23,
+Addface,24, 25, 26, 27,
+
+Addface,28, 29, 30, 31,
+Addface,32, 33, 34, 35,
+Addface,36, 37, 38, 39,
+
+SetColor,150,150,150,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-1.2, -0.144, 0,
+AddVertex,-1.2, -0.144, 25.2,
+AddVertex,1.2, -0.144, 25.2,
+AddVertex,1.2, -0.144, 0,
+AddFace,0, 1, 2, 3,
+
+GenerateNormals,
+
+LoadTexture,tie.bmp,
+SetTextureCoordinates,0, 0, 9,
+SetTextureCoordinates,1, 0, 0,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 1, 9,
+
+CreateMeshBuilder,
+AddVertex,-0.800, 0, 0,
+AddVertex,-0.800, 0, 25.5,
+AddVertex,-0.720, 0, 25.5,
+AddVertex,-0.720, 0, 0,
+AddFace,0, 1, 2, 3,
+SetColor,240,240,240,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,0.720, 0, 0,
+AddVertex,0.720, 0, 25.5,
+AddVertex,0.800, 0, 25.5,
+AddVertex,0.800, 0, 0,
+AddFace,0, 1, 2, 3,
+SetColor,240,240,240,
+
+;-------------- 3rd Rail
+
+; Pole/Base #3 -------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Attachment Pole
+
+AddVertex,-1.62,0.30,10.00,
+AddVertex,-1.60,0.30,10.00,
+AddVertex,-1.60,-0.144,10.00,
+AddVertex,-1.62,-0.144,10.00,
+
+AddVertex,-1.62,0.30,10.00,
+AddVertex,-1.30,0.30,10.00,
+AddVertex,-1.30,0.28,10.00,
+AddVertex,-1.62,0.28,10.00,
+
+AddVertex,-1.30,0.30,10.05,
+AddVertex,-1.30,0.30,10.00,
+AddVertex,-1.62,0.30,10.00,
+AddVertex,-1.62,0.30,10.05,
+
+AddVertex,-1.60,0.30,10.00,
+AddVertex,-1.60,0.30,10.05,
+AddVertex,-1.60,-0.144,10.05,
+AddVertex,-1.60,-0.144,10.00,
+
+AddVertex,-1.62,0.30,10.05,
+AddVertex,-1.62,0.30,10.00,
+AddVertex,-1.62,-0.144,10.00,
+AddVertex,-1.62,-0.144,10.05,
+
+AddVertex,-1.45,0.30,10.05,
+AddVertex,-1.45,0.30,10.00,
+AddVertex,-1.45,0.28,10.00,
+AddVertex,-1.45,0.28,10.05,
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+Addface,16,17,18,19,
+Addface,20,21,22,23,
+
+SetColor,22,22,22,
+
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Base
+
+AddVertex,-1.55,0.08,10.00,
+AddVertex,-1.33,0.08,10.00,
+AddVertex,-1.33,-0.144,10.00,
+AddVertex,-1.55,-0.144,10.00,
+
+AddVertex,-1.33,0.08,10.29,
+AddVertex,-1.33,0.08,10.00,
+AddVertex,-1.55,0.08,10.00,
+AddVertex,-1.55,0.08,10.29,
+
+AddVertex,-1.55,0.08,10.29,
+AddVertex,-1.55,0.08,10.00,
+AddVertex,-1.55,-0.144,10.00,
+AddVertex,-1.55,-0.144,10.29,
+
+AddVertex,-1.33,0.08,10.00,
+AddVertex,-1.33,0.08,10.29,
+AddVertex,-1.33,-0.144,10.29,
+AddVertex,-1.33,-0.144,10.00,
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+
+SetColor,22,22,22,
+
+
+; Pole/Base #4 -------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Attachment Pole
+
+AddVertex,-1.62,0.30,15.00,
+AddVertex,-1.60,0.30,15.00,
+AddVertex,-1.60,-0.144,15.00,
+AddVertex,-1.62,-0.144,15.00,
+
+AddVertex,-1.62,0.30,15.00,
+AddVertex,-1.30,0.30,15.00,
+AddVertex,-1.30,0.28,15.00,
+AddVertex,-1.62,0.28,15.00,
+
+AddVertex,-1.30,0.30,15.05,
+AddVertex,-1.30,0.30,15.00,
+AddVertex,-1.62,0.30,15.00,
+AddVertex,-1.62,0.30,15.05,
+
+AddVertex,-1.60,0.30,15.00,
+AddVertex,-1.60,0.30,15.05,
+AddVertex,-1.60,-0.144,15.05,
+AddVertex,-1.60,-0.144,15.00,
+
+AddVertex,-1.62,0.30,15.05,
+AddVertex,-1.62,0.30,15.00,
+AddVertex,-1.62,-0.144,15.00,
+AddVertex,-1.62,-0.144,15.05,
+
+AddVertex,-1.45,0.30,15.05,
+AddVertex,-1.45,0.30,15.00,
+AddVertex,-1.45,0.28,15.00,
+AddVertex,-1.45,0.28,15.05,
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+Addface,16,17,18,19,
+Addface,20,21,22,23,
+
+SetColor,22,22,22,
+
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Base
+
+AddVertex,-1.55,0.08,15.00,
+AddVertex,-1.33,0.08,15.00,
+AddVertex,-1.33,-0.144,15.00,
+AddVertex,-1.55,-0.144,15.00,
+
+AddVertex,-1.33,0.08,15.29,
+AddVertex,-1.33,0.08,15.00,
+AddVertex,-1.55,0.08,15.00,
+AddVertex,-1.55,0.08,15.29,
+
+AddVertex,-1.55,0.08,15.29,
+AddVertex,-1.55,0.08,15.00,
+AddVertex,-1.55,-0.144,15.00,
+AddVertex,-1.55,-0.144,15.29,
+
+AddVertex,-1.33,0.08,15.00,
+AddVertex,-1.33,0.08,15.29,
+AddVertex,-1.33,-0.144,15.29,
+AddVertex,-1.33,-0.144,15.00,
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+
+SetColor,22,22,22,
+
+
+; Pole/Base #5 -------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Attachment Pole
+
+AddVertex,-1.62,0.30,20.00,
+AddVertex,-1.60,0.30,20.00,
+AddVertex,-1.60,-0.144,20.00,
+AddVertex,-1.62,-0.144,20.00,
+
+AddVertex,-1.62,0.30,20.00,
+AddVertex,-1.30,0.30,20.00,
+AddVertex,-1.30,0.28,20.00,
+AddVertex,-1.62,0.28,20.00,
+
+AddVertex,-1.30,0.30,20.05,
+AddVertex,-1.30,0.30,20.00,
+AddVertex,-1.62,0.30,20.00,
+AddVertex,-1.62,0.30,20.05,
+
+AddVertex,-1.60,0.30,20.00,
+AddVertex,-1.60,0.30,20.05,
+AddVertex,-1.60,-0.144,20.05,
+AddVertex,-1.60,-0.144,20.00,
+
+AddVertex,-1.62,0.30,20.05,
+AddVertex,-1.62,0.30,20.00,
+AddVertex,-1.62,-0.144,20.00,
+AddVertex,-1.62,-0.144,20.05,
+
+AddVertex,-1.45,0.30,20.05,
+AddVertex,-1.45,0.30,20.00,
+AddVertex,-1.45,0.28,20.00,
+AddVertex,-1.45,0.28,20.05,
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+Addface,16,17,18,19,
+Addface,20,21,22,23,
+
+SetColor,22,22,22,
+
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Base
+
+AddVertex,-1.55,0.08,20.00,
+AddVertex,-1.33,0.08,20.00,
+AddVertex,-1.33,-0.144,20.00,
+AddVertex,-1.55,-0.144,20.00,
+
+AddVertex,-1.33,0.08,20.29,
+AddVertex,-1.33,0.08,20.00,
+AddVertex,-1.55,0.08,20.00,
+AddVertex,-1.55,0.08,20.29,
+
+AddVertex,-1.55,0.08,20.29,
+AddVertex,-1.55,0.08,20.00,
+AddVertex,-1.55,-0.144,20.00,
+AddVertex,-1.55,-0.144,20.29,
+
+AddVertex,-1.33,0.08,20.00,
+AddVertex,-1.33,0.08,20.29,
+AddVertex,-1.33,-0.144,20.29,
+AddVertex,-1.33,-0.144,20.00,
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+
+SetColor,22,22,22,
+
+;--------------------------------- LengthWise -----------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Cover
+
+AddVertex,-1.58,0.28,10.00,
+AddVertex,-1.33,0.28,10.00,
+AddVertex,-1.33,0.23,10.00,
+AddVertex,-1.58,0.23,10.00,
+
+AddVertex,-1.33,0.28,25.20,
+AddVertex,-1.33,0.28,10.00,
+AddVertex,-1.58,0.28,10.00,
+AddVertex,-1.58,0.28,25.20,
+
+AddVertex,-1.58,0.28,25.20,
+AddVertex,-1.58,0.28,10.00,
+AddVertex,-1.58,0.23,10.00,
+AddVertex,-1.58,0.23,25.20,
+
+AddVertex,-1.33,0.28,10.00,
+AddVertex,-1.33,0.28,25.20,
+AddVertex,-1.33,0.23,25.20,
+AddVertex,-1.33,0.23,10.00,
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+
+SetColor,52,28,18,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+; ---- Rail
+
+AddVertex,-1.55,0.15,10.00,
+AddVertex,-1.42,0.15,10.00,
+AddVertex,-1.42,0.08,10.00,
+AddVertex,-1.55,0.08,10.00,
+
+AddVertex,-1.42,0.15,25.20,
+AddVertex,-1.42,0.15,10.00,
+AddVertex,-1.55,0.15,10.00,
+AddVertex,-1.55,0.15,25.20,
+
+AddVertex,-1.55,0.15,25.20,
+AddVertex,-1.55,0.15,10.00,
+AddVertex,-1.55,0.08,10.00,
+AddVertex,-1.55,0.08,25.20,
+
+AddVertex,-1.42,0.15,10.00,
+AddVertex,-1.42,0.15,25.20,
+AddVertex,-1.42,0.08,25.20,
+AddVertex,-1.42,0.08,10.00,
+
+
+Addface,0,1,2,3,
+Addface,4,5,6,7,
+Addface,8,9,10,11,
+Addface,12,13,14,15,
+
+SetColor,150,150,150,
+
+GenerateNormals,
+

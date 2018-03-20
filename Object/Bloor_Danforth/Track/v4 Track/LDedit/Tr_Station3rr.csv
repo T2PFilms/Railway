@@ -1,0 +1,213 @@
+;1495mm TTC Gauge
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;Rail Left
+CreateMeshBuilder
+AddVertex,-0.7475,0,25
+AddVertex,-0.8075,0,25
+AddVertex,-0.8075,0,0
+AddVertex,-0.7475,0,0
+AddFace,1,0,3,2
+GenerateNormals
+LoadTexture,Tun_Sta_Rail1R.png
+SetTextureCoordinates,0,0.01,0
+SetTextureCoordinates,1,0.99,0
+SetTextureCoordinates,2,0.99,15
+SetTextureCoordinates,3,0.01,15
+
+
+;Rail Right
+CreateMeshBuilder
+AddVertex,0.7475,0,25
+AddVertex,0.8075,0,25
+AddVertex,0.8075,0,0
+AddVertex,0.7475,0,0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,Tun_Sta_Rail1L.png
+SetTextureCoordinates,0,0.01,0
+SetTextureCoordinates,1,0.99,0
+SetTextureCoordinates,2,0.99,15
+SetTextureCoordinates,3,0.01,15
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Rail Side Left
+CreateMeshBuilder
+AddVertex,-0.7675,0,0
+AddVertex,-0.7675,0,25
+AddVertex,-0.7675,-0.15,25
+AddVertex,-0.7675,-0.15,0
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,railside.png
+SetTextureCoordinates,0,0.01,0
+SetTextureCoordinates,1,0.99,0
+SetTextureCoordinates,2,0.99,15
+SetTextureCoordinates,3,0.01,15
+
+;Rail Side Right
+CreateMeshBuilder
+AddVertex,0.7675,0,0
+AddVertex,0.7675,0,25
+AddVertex,0.7675,-0.15,25
+AddVertex,0.7675,-0.15,0
+AddFace2,0,1,2,3
+GenerateNormals
+LoadTexture,railside.png
+SetTextureCoordinates,0,0.01,0
+SetTextureCoordinates,1,0.99,0
+SetTextureCoordinates,2,0.99,15
+SetTextureCoordinates,3,0.01,15
+
+;-----------
+;Main TrackM
+;-----------
+
+CreateMeshBuilder
+AddVertex,-1.28, -0.15,25
+AddVertex,1.322,-0.15,25
+AddVertex,1.322,-0.15,0
+AddVertex,-1.28,-0.15,0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,Track.png
+SetTextureCoordinates,0,0.01,0
+SetTextureCoordinates,1,0.99,0
+SetTextureCoordinates,2,0.99,11
+SetTextureCoordinates,3,0.01,11
+
+;Track Slab Left
+CreateMeshBuilder
+AddVertex,-2, -0.15,25
+AddVertex,-1.28,-0.15,25
+AddVertex,-1.28,-0.15,0
+AddVertex,-2,-0.15,0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,Slab_Dark_sta.png
+SetTextureCoordinates,0,1,0
+SetTextureCoordinates,1,1,0
+SetTextureCoordinates,2,1,1
+SetTextureCoordinates,3,11,1
+
+;Track Slab Right
+CreateMeshBuilder
+AddVertex,1.322, -0.15,25
+AddVertex,2.9,-0.15,25
+AddVertex,2.9,-0.15,0
+AddVertex,1.322,-0.15,0
+AddFace,0,1,2,3
+GenerateNormals
+LoadTexture,Slab_Dark_sta_2.png
+SetTextureCoordinates,0,0.01,0
+SetTextureCoordinates,1,0.99,0
+SetTextureCoordinates,2,0.99,15
+SetTextureCoordinates,3,0.01,15
+
+; ---- Plank
+
+CreateMeshBuilder
+
+AddVertex, 1.35, 0.32, 11.4
+AddVertex, 1.35, 0.32, 13.6
+AddVertex, 1.62, 0.32, 13.6
+AddVertex, 1.62, 0.32, 11.4
+
+AddFace, 0,1,2,3
+SetColor, 128,128,12
+
+CreateMeshBuilder
+
+AddVertex, 1.33, 0.28, 11.38
+AddVertex, 1.33, 0.28, 13.62
+AddVertex, 1.35, 0.32, 13.6
+AddVertex, 1.35, 0.32, 11.4
+
+AddFace, 0,1,2,3
+SetColor, 100,100,12
+
+CreateMeshBuilder
+
+AddVertex, 1.35, 0.32, 11.4
+AddVertex, 1.62, 0.32, 11.4
+AddVertex, 1.62, 0.28, 11.38
+AddVertex, 1.33, 0.28, 11.38
+
+AddFace, 0,1,2,3
+SetColor, 88,88,5,
+
+CreateMeshBuilder
+
+; ---- Cover
+
+AddVertex,      1.33,0.28,0.00
+AddVertex,      1.58,0.28,0.00
+AddVertex,      1.58,0.23,0.00
+AddVertex,      1.33,0.23,0.00
+
+AddVertex,      1.33,0.28,0.00
+AddVertex,      1.33,0.28,25.20
+AddVertex,      1.58,0.28,25.20
+AddVertex,      1.58,0.28,0.00
+
+AddVertex,      1.58,0.28,0.00
+AddVertex,      1.58,0.28,25.20
+AddVertex,      1.58,0.23,25.20
+AddVertex,      1.58,0.23,0.00
+
+AddVertex,      1.33,0.28,25.20
+AddVertex,      1.33,0.28,0.00
+AddVertex,      1.33,0.23,0.00
+AddVertex,      1.33,0.23,25.20
+
+AddFace, 0,1,2,3
+AddFace, 4,5,6,7
+AddFace, 8,9,10,11
+AddFace, 12,13,14,15
+
+SetColor, 38,37,32
+
+CreateMeshBuilder
+
+; ---- Rail
+
+AddVertex,      1.42,0.20,0.00
+AddVertex,      1.55,0.20,0.00
+AddVertex,      1.55,0.08,0.00
+AddVertex,      1.42,0.08,0.00
+
+AddVertex,      1.42,0.20,0.00
+AddVertex,      1.42,0.20,25.20
+AddVertex,      1.55,0.20,25.20
+AddVertex,      1.55,0.20,0.00
+
+AddVertex,      1.55,0.20,0.00
+AddVertex,      1.55,0.20,25.20
+AddVertex,      1.55,0.08,25.20
+AddVertex,      1.55,0.08,0.00
+
+AddVertex,      1.42,0.20,25.20
+AddVertex,      1.42,0.20,0.00
+AddVertex,      1.42,0.08,0.00
+AddVertex,      1.42,0.08,25.20
+
+
+AddFace, 0,1,2,3
+AddFace, 4,5,6,7
+AddFace, 8,9,10,11
+AddFace, 12,13,14,15
+
+SetColor, 45,45,45
+
+; ---- Shadow
+
+CreateMeshBuilder
+AddVertex, 1.43, -0.142, 0
+AddVertex, 1.43, -0.142, 25.2
+AddVertex, 1.90, -0.142, 25.2
+AddVertex, 1.90, -0.142, 0
+AddFace, 0, 1, 2, 3
+SetColor, 22,22,22
+
+

@@ -1,0 +1,15 @@
+;Lamp~AlternatingOFF|ON~mmEndA|B for Locomotives|DMUs|EMUs
+;Lamp~Alt0=OFF|ON Opposite Lamp~Alt1=ON|OFF,Frequency=2sec
+;Set At .ANIMATED [Include] Position=+|-DimX,+DimY,+|-DimZ
+;Set DimZ At 0.002m In Front Of Fixtures For Better Result
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;BVE|OpenBVE files have no registered copyrights|patents,
+;are public domain, & free to copy|distribute|modify|use.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]
+States=Lamp~Dtch~178mmBulb.B3D                                                                                        
+ StateFunction=If[((Cars>0)&(Abs[Round[Distance[0]]]<1)&(Speed>(48.00*0.278))),0,1]                         
+
+[OBJECT]
+States=Lamp~Dtch~178mmBulb.B3D                                                                                                    
+ StateFunction=If[((Cars>0)&(Abs[Round[Distance[0]]]<1)&(Speed<(48.00*0.278))&(Speed>0))|(Cars<1),Mod[Time-0.5,2],1]

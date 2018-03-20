@@ -1,0 +1,66 @@
+[Object]
+Position = 0,0,0
+States = 6minutes.csv,Blank.csv
+StateFunction = if [distance[1]>=4296,0,1]
+
+[Object]
+Position = 0,0,0
+States = 5minutes.csv,Blank.csv
+StateFunction = if [distance[1]>=3580,0,1]
+
+[Object]
+Position = 0,0,0
+States = 4minutes.csv,Blank.csv
+StateFunction = if [distance[1]>=2864,0,1]
+
+[Object]
+Position = 0,0,0
+States = 3Minutes.csv,Blank.csv
+StateFunction = if [distance[1]>=2148,0,1]
+
+[Object]
+Position = 0,0,0
+States = 2minutes.csv,Blank.csv
+StateFunction = if [distance[1]>=1432,0,1]
+
+[Object]
+Position = 0,0,0
+States = NextTrain1minute.csv,Blank.csv
+StateFunction = if [distance[1]>=716,0,1]
+
+[Object]
+Position = 0,0,0
+States = NextTrain1minute.csv,Blank.csv
+StateFunction = if [distance[1]>=130,0,1]
+
+[Object]
+Position = 0,0,0
+States = trainatstation.csv,Blank.csv
+StateFunction = if [distance[1]>=0,0,1]
+
+
+[Object]
+Position = 0,0,0
+States = News_Warning.csv,News_Advertisement.csv,News_Default.csv
+StateFunction = value == 0
+RefreshRate = 6
+
+[Object]
+Position = 0,0,0
+States = Delay_56Leaside.csv,Delay_139Finch.csv,Delay_MartinGrove.csv
+StateFunction = mod[value + 1, 3]
+RefreshRate = 8
+
+[Object]
+Position = 0,0,0
+States = Advertisement_Bloor.csv,Advertisement_DWA.csv,T2P0Films.csv
+StateFunction = mod[value + 1, 3]
+RefreshRate = 13.3
+
+[Object]
+Position = 0,0,0.001
+States = Black.csv
+
+[Object]
+Position = 0,0,0.499
+States = Black.csv

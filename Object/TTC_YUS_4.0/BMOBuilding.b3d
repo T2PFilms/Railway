@@ -1,0 +1,52 @@
+[MeshBuilder]
+Vertex 50,175,0
+Vertex 120,175,0
+Vertex 120,-18,0
+Vertex 50,-18,0
+Face2 0,1,2,3
+Load BMOBuilding.png
+Coordinates 0,0,0
+Coordinates 1,4,0
+Coordinates 2,4,4
+Coordinates 3,0,4
+
+[MeshBuilder]
+Vertex 50,175,70
+Vertex 120,175,70
+Vertex 120,-18,70
+Vertex 50,-18,70
+Face2 0,1,2,3
+
+Load BMOBuilding.png
+Coordinates 0,0,0
+Coordinates 1,4,0
+Coordinates 2,4,4
+Coordinates 3,0,4
+
+[MeshBuilder]
+Vertex 50,175,0
+Vertex 50,175,70
+Vertex 50,-18,70
+Vertex 50,-18,0
+Face2 0,1,2,3
+
+Load BMOBuilding.png
+Coordinates 0,0,0
+Coordinates 1,4,0
+Coordinates 2,4,4
+Coordinates 3,0,4
+
+[MeshBuilder]
+Vertex 120,175,0
+Vertex 120,175,70
+Vertex 120,-18,70
+Vertex 120,-18,0
+Face2 0,1,2,3
+
+Load BMOBuilding.png
+Coordinates 0,0,0
+Coordinates 1,4,0
+Coordinates 2,4,4
+Coordinates 3,0,4
+
+TRANSLATEALL -27,22.6,100

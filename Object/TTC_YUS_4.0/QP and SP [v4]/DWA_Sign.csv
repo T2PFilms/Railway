@@ -1,0 +1,32 @@
+;DWA Sign Ceiling
+CreateMeshBuilder,
+AddVertex,-4, 3.7, 5,
+AddVertex,-4, 4.4, 5,
+AddVertex,-3, 4.4, 5,
+AddVertex,-3, 3.7, 5,
+AddFace,0,1,2,3,
+
+GenerateNormals,
+Loadtexture,DWA_Sign_1.png,
+settexturecoordinates,0,0,1,
+settexturecoordinates,1,0,0,
+settexturecoordinates,2,1,0,
+settexturecoordinates,3,1,1,
+setdecaltransparentcolor, 127, 127, 127,
+
+;DWA Sign Ceiling
+CreateMeshBuilder,
+AddVertex,-3, 3.7, 5.0001,
+AddVertex,-3, 4.4, 5.0001,
+AddVertex,-4, 4.4, 5.0001,
+AddVertex,-4, 3.7, 5.0001,
+AddFace,0,1,2,3,
+
+GenerateNormals,
+Loadtexture,DWA_Sign_1.png,
+settexturecoordinates,0,0,1,
+settexturecoordinates,1,0,0,
+settexturecoordinates,2,1,0,
+settexturecoordinates,3,1,1,
+setdecaltransparentcolor, 127, 127, 127,
+setemissivecolor, 255, 255, 255,

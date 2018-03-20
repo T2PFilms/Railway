@@ -1,0 +1,380 @@
+[Include]
+bloorstreeteast.b3d
+Position = 0, 0, 0
+
+
+;Main Track
+
+[Include]
+Track\Tr_Bridge3RRviaduct.csv
+Position = 0, 0, 0
+
+
+[Include]
+allenbridgel2.csv
+Position = -2, -0.5, 0
+
+[Include]
+allenbridger2.csv
+Position = 0.5, -0.5, 0
+
+[Include]
+allentrackbridger.csv
+Position = 0, 0, 0
+
+[Include]
+allentrackbridger.csv
+Position = -1.5, 0, 0
+
+[Include]
+bridgetop.csv
+Position = 0, 0, 0
+
+[Include]
+sidebeams.b3d
+Position = 0, 0, 0
+
+[Include]
+sidebeams.b3d
+Position = 0, 0, 8.333333333333333
+
+[Include]
+sidebeams.b3d
+Position = 0, 0, 16.66666666666667
+
+;trackbread
+[Include]
+arch.b3d
+Position = 0, 0, 0
+
+;actual arch
+[Include]
+actualarch.b3d
+Position = 0, 0, 0
+
+[Include]
+actualarch.b3d
+Position = 7.5, 0, 0
+
+[Include]
+actualarch.b3d
+Position = -3, 0, 0
+
+[Include]
+actualarch.b3d
+Position = -11, 0, 0
+
+;Opposite Track
+[Include]
+Track\Tr_Bridge3RLviaduct.csv
+Position = -12, 0, 0
+
+
+[Include]
+allenbridgel2.csv
+Position = -13, -0.5, 0
+
+[Include]
+allenbridger2.csv
+Position = -10, -0.5, 0
+
+[Include]
+allentrackbridger.csv
+Position = -10.5, 0, 0
+
+[Include]
+allentrackbridger.csv
+Position = -12.5, 0, 0
+
+
+
+;Both Legal
+[Include]
+beambegin.b3d
+Position = 0, 0, 0
+
+[Include]
+beambegin.b3d
+Position = 0, 0, 12.5
+
+;Beams
+[Include]
+bridgemain.b3d
+Position = 0, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -12, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -0.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -11.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -1, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -11, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -1.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -10.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -2.0, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -10, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -2.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -9.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -3, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -9, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -3.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -8.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -4.0, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -8, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -4.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -7.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -7, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -5.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -6.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -6, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -12.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 0.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -13.0, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 1.0, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -13.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 1.5, 0, 0
+
+
+[Include]
+bridgemain.b3d
+Position = -14.0, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 2.0, 0, 0
+
+
+[Include]
+bridgemain.b3d
+Position = -14.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 2.5, 0, 0
+
+
+[Include]
+bridgemain.b3d
+Position = -15.0, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 3.0, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 3.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 4.0, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 4.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 5.0, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 5.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 6.0, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 6.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 7.0, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 7.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 7.8, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 7.9, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = 8.0, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -15.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -16, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -16.5, 0, 0
+[Include]
+bridgemain.b3d
+Position = -16.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -17, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -17.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -18, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -18.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -19, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -19.5, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -20, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -19.9, 0, 0
+
+[Include]
+bridgemain.b3d
+Position = -19.8, 0, 0
+
+
+
+
+;Trees
+[Include]
+oaktree.b3d
+Position = 0, -21.75, 0
+
+[Include]
+oaktree.b3d
+Position = -1, -21.75, 4
+
+[Include]
+oaktree.b3d
+Position = 3, -21.75, 8
+[Include]
+oaktree.b3d
+Position = -7.23, -21.75, 12
+
+[Include]
+oaktree.b3d
+Position = -6, -21.75, 16
+
+[Include]
+oaktree.b3d
+Position = -3, -21.75, 20
+
+[Include]
+oaktree.b3d
+Position = -2, -21.75, 24

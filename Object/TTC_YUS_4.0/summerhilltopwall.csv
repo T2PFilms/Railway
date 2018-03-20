@@ -1,0 +1,15 @@
+CreateMeshBuilder,
+Addvertex,-15,4.7,0,
+Addvertex,-15,15,0,
+Addvertex,15,15,0,
+Addvertex,15,4.7,0,
+Addface2,0,1,2,3,
+
+GenerateNormals,
+
+
+LoadTexture,concretedark.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,4,0,
+SetTextureCoordinates,2,0,2,
+SetTextureCoordinates,3,4,2,

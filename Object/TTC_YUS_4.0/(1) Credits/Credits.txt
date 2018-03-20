@@ -1,0 +1,23 @@
+TTC Yonge-University-Spadina Line
+Finch to Downsview
+Downsview to Finch
+
+I'd like to thank everyone for thier support, during the development of this version.
+
+FINCH to DOWNSVIEW
+V1.0 DEVELOPERS: Dave Reage, Extended to Downsview by Michael Tham and Michael Boone Grade.
+V3.0 DEVELOPERS: Weilan Huang for Beacons and time signals.
+V3.5 DEVELOPERS: Weilan Huang, John Marbella and Aljon Ramos for Textures.
+V3.6 DEVELOPERS: Weilan Huang, John Marbella and Aljon Ramos for Textures.
+V4.0 DEVELOPERS: Weilan Huang, Aljon Ramos, and Tom Hippern.
+
+DOWNSVIEW to FINCH
+V.A1 DEVELOPERS: John Marbella and Weilan Huang.
+V1.0 DEVELOPERS: Weilan Huang, Aljon Ramos, and Tom Hippern.
+
+(FD)V4.0, (DF)V1.0 Special thanks to:
+Chris Torrance         - Resources & Version Tester
+Amanda Duchesne        - Resources & Version Tester
+Eros Caligiuri         - Advertisements & Version Tester
+Steven West            - Sound Manangement
+Adam Budgell           - Version Tester

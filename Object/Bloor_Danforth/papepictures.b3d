@@ -1,0 +1,261 @@
+[MeshBuilder]
+vertex -11,-0.05,0
+vertex -11,0.4,0
+vertex -11,0.4,0.5
+vertex -11,-0.05,0.5
+face2 0,1,2,3
+load picturepape1.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+BlendMode Additive, 0.5, DivideExponent2
+
+[MeshBuilder]
+vertex -11,-0.05,0.5
+vertex -11,0.4,0.5
+vertex -11,0.4,1
+vertex -11,-0.05,1
+face2 0,1,2,3
+load picturepape2.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+BlendMode Additive, 0.5, DivideExponent2
+
+[MeshBuilder]
+vertex -11,-0.05,1
+vertex -11,0.4,1
+vertex -11,0.4,1.5
+vertex -11,-0.05,1.5
+face2 0,1,2,3
+load picturepape3.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+BlendMode Additive, 0.5, DivideExponent2
+TranslateAll 0.02,0,0
+
+
+[MeshBuilder]
+vertex -11,-0.05,0
+vertex -11,0.4,0
+vertex -11,0.4,0.5
+vertex -11,-0.05,0.5
+face2 0,1,2,3
+load picturepape1.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+
+[MeshBuilder]
+vertex -11,-0.05,0.5
+vertex -11,0.4,0.5
+vertex -11,0.4,1
+vertex -11,-0.05,1
+face2 0,1,2,3
+load picturepape2.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+
+[MeshBuilder]
+vertex -11,-0.05,1
+vertex -11,0.4,1
+vertex -11,0.4,1.5
+vertex -11,-0.05,1.5
+face2 0,1,2,3
+load picturepape3.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+
+
+[MeshBuilder]
+vertex -11,-0.05,0
+vertex -11,0.4,0
+vertex -11,0.4,0.5
+vertex -11,-0.05,0.5
+face2 0,1,2,3
+load picturepape1.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+BlendMode Additive, 0.5, DivideExponent2
+Translate -0.02,0,0
+
+[MeshBuilder]
+vertex -11,-0.05,0.5
+vertex -11,0.4,0.5
+vertex -11,0.4,1
+vertex -11,-0.05,1
+face2 0,1,2,3
+load picturepape2.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+BlendMode Additive, 0.5, DivideExponent2
+Translate -0.02,0,0
+
+[MeshBuilder]
+vertex -11,-0.05,1
+vertex -11,0.4,1
+vertex -11,0.4,1.5
+vertex -11,-0.05,1.5
+face2 0,1,2,3
+load picturepape3.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+BlendMode Additive, 0.5, DivideExponent2
+Translate -0.02,0,0
+TranslateAll 15.96,0,0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[MeshBuilder]
+vertex -11,-0.05,0
+vertex -11,0.4,0
+vertex -11,0.4,0.5
+vertex -11,-0.05,0.5
+face2 0,1,2,3
+load picturepape1.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+BlendMode Additive, 0.5, DivideExponent2
+
+[MeshBuilder]
+vertex -11,-0.05,0.5
+vertex -11,0.4,0.5
+vertex -11,0.4,1
+vertex -11,-0.05,1
+face2 0,1,2,3
+load picturepape2.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+BlendMode Additive, 0.5, DivideExponent2
+
+[MeshBuilder]
+vertex -11,-0.05,1
+vertex -11,0.4,1
+vertex -11,0.4,1.5
+vertex -11,-0.05,1.5
+face2 0,1,2,3
+load picturepape3.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+BlendMode Additive, 0.5, DivideExponent2
+TranslateAll 0.02,0,0
+
+
+[MeshBuilder]
+vertex -11,-0.05,0
+vertex -11,0.4,0
+vertex -11,0.4,0.5
+vertex -11,-0.05,0.5
+face2 0,1,2,3
+load picturepape1.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+
+[MeshBuilder]
+vertex -11,-0.05,0.5
+vertex -11,0.4,0.5
+vertex -11,0.4,1
+vertex -11,-0.05,1
+face2 0,1,2,3
+load picturepape2.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+
+[MeshBuilder]
+vertex -11,-0.05,1
+vertex -11,0.4,1
+vertex -11,0.4,1.5
+vertex -11,-0.05,1.5
+face2 0,1,2,3
+load picturepape3.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+
+
+[MeshBuilder]
+vertex -11,-0.05,0
+vertex -11,0.4,0
+vertex -11,0.4,0.5
+vertex -11,-0.05,0.5
+face2 0,1,2,3
+load picturepape1.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+BlendMode Additive, 0.5, DivideExponent2
+Translate -0.02,0,0
+
+[MeshBuilder]
+vertex -11,-0.05,0.5
+vertex -11,0.4,0.5
+vertex -11,0.4,1
+vertex -11,-0.05,1
+face2 0,1,2,3
+load picturepape2.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+BlendMode Additive, 0.5, DivideExponent2
+Translate -0.02,0,0
+
+[MeshBuilder]
+vertex -11,-0.05,1
+vertex -11,0.4,1
+vertex -11,0.4,1.5
+vertex -11,-0.05,1.5
+face2 0,1,2,3
+load picturepape3.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+BlendMode Additive, 0.5, DivideExponent2
+Translate -0.02,0,0

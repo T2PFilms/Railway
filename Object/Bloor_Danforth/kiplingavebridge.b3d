@@ -1,0 +1,174 @@
+[MeshBuilder]
+Vertex -100,8,0
+Vertex 100,8,0
+Vertex 100,8,40
+Vertex -100,8,40
+Face2 0,1,2,3
+Color 111,111,111
+
+Load concrete.bmp
+Coordinates 0,0,0,
+Coordinates 1,4,0,
+Coordinates 2,0,2,
+Coordinates 3,4,2,
+
+[MeshBuilder]
+Vertex -100,8,0
+Vertex 100,8,0
+Vertex 100,9.5,0
+Vertex -100,9.5,0
+Face2 0,1,2,3
+
+
+Load concrete.bmp
+Coordinates 0,0,0,
+Coordinates 1,4,0,
+Coordinates 2,0,2,
+Coordinates 3,4,2,
+
+[MeshBuilder]
+Vertex -100,8,0
+Vertex 100,8,0
+Vertex 100,9.5,0
+Vertex -100,9.5,0
+Face2 0,1,2,3
+
+Load concrete.bmp
+Coordinates 0,0,0,
+Coordinates 1,4,0,
+Coordinates 2,0,2,
+Coordinates 3,4,2,
+
+[MeshBuilder]
+Vertex -100,8,40
+Vertex 100,8,40
+Vertex 100,9.5,40
+Vertex -100,9.5,40
+Face2 0,1,2,3
+
+Load concrete.bmp
+Coordinates 0,0,0,
+Coordinates 1,4,0,
+Coordinates 2,0,2,
+Coordinates 3,4,2,
+
+[MeshBuilder]
+Vertex -100,14,0
+Vertex 100,14,0
+Vertex 100,9.5,0
+Vertex -100,9.5,0
+Face2 0,1,2,3
+
+Load chainfence.bmp
+Coordinates 0,0,0,
+Coordinates 1,55,0,
+Coordinates 2,55,1
+Coordinates 3,0,1,
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex -100,14,40
+Vertex 100,14,40
+Vertex 100,9.5,40
+Vertex -100,9.5,40
+Face2 0,1,2,3
+
+Load chainfence.bmp
+Coordinates 0,0,0,
+Coordinates 1,55,0,
+Coordinates 2,55,1
+Coordinates 3,0,1,
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex -100,8.2,2
+Vertex 100,8.2,2
+Vertex 100,8.2,38
+Vertex -100,8.2,38
+Face2 0,1,2,3
+
+Load dvp.png
+Coordinates 0,0,0,
+Coordinates 1,30,0,
+Coordinates 2,30,1,
+Coordinates 3,0,1,
+
+
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,0.07
+
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,2.5
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,5.05
+
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,7.5
+
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,10.05
+
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,12.5
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,15.05
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,17.5
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,20.05
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,22.5
+
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,25.05
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,27.5
+
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,30.05
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,32.5
+
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,35.05
+
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,37.5
+
+
+[MeshBuilder]
+Cube 100, 0.5, 0.07
+Color 30,30,30
+Translate 0,7.51,39.9

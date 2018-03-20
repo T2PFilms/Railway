@@ -1,0 +1,15 @@
+[MeshBuilder]
+Vertex -2, 3, 10
+Vertex -2.8, 3, 0
+Vertex -2, 1.1, 10
+Vertex -2.8, 1.1, 0
+Face2 2,3,1,0
+
+[Texture]
+Load people2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 0, 1
+Coordinates 3, 1, 1
+transparent 0,0,0
+

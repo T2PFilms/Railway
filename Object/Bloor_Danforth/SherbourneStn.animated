@@ -1,0 +1,173 @@
+
+[Include]
+stationbeambase2.b3d
+position = -4,0,0
+
+[Include]
+stationbeambase2.b3d
+position = -4,0,50
+
+[Include]
+stationbeambase2.b3d
+position = -4,0,100
+
+[Include]
+sherbourneportal.csv
+position = 0,0,150
+
+
+[Include]
+stabeam01.csv
+position = -2.75,0,-0.5
+[Include]
+stabeam01.csv
+position = -5.25,0,-0.5
+
+
+[Include]
+stabeam01.csv
+position = -2.75,0,24.5
+[Include]
+stabeam01.csv
+position = -5.25,0,24.5
+
+
+[Include]
+stabeam01.csv
+position = -2.75,0,49.5
+[Include]
+stabeam01.csv
+position = -5.25,0,49.5
+
+
+[Include]
+stabeam01.csv
+position = -2.75,0,74.5
+[Include]
+stabeam01.csv
+position = -5.25,0,74.5
+
+[Include]
+stabeam05.csv
+position = -2.75,0,105.5
+[Include]
+stabeam05.csv
+position = -5.25,0,105.5
+
+[Include]
+beams5.b3d
+position = 0, -0.7, 0
+
+[Include]
+beams7.csv
+position = -3, -0.7, 126
+[Include]
+beams7.csv
+position = -5, -0.7, 126
+[Include]
+beams5.b3d
+position = 0, -0.7, 25
+
+[Include]
+beams5.b3d
+position = 0, -0.7, 50
+
+[Include]
+beams5.b3d
+position = 0, -0.7, 75
+
+
+[Include]
+beams6.b3d
+position = 0, -0.7, 100
+
+;------------
+;rails
+;------------
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rl.csv
+position = 0, 0, 0
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rr.csv
+position = -8, 0, 0
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rl.csv
+position = 0, 0, 25
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rr.csv
+position = -8, 0, 25
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rl.csv
+position = 0, 0, 50
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rr.csv
+position = -8, 0, 50
+
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rl.csv
+position = 0, 0, 75
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rr.csv
+position = -8, 0, 75
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rl.csv
+position = 0, 0, 100
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rr.csv
+position = -8, 0, 100
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rl.csv
+position = 0, 0, 125
+
+[Include]
+Track\V4 Track\LDEdit\Tr_Station3rr.csv
+position = -8, 0, 125
+
+[include]
+lightsnew.csv
+position = 5,-0.41,0
+[include]
+lightsnew.csv
+position = 5,-0.41,25
+[include]
+lightsnew.csv
+position = 5,-0.41,50
+[include]
+lightsnew.csv
+position = 5,-0.41,75
+[include]
+lightsnew.csv
+position = 5,-0.41,100
+[include]
+lightsnew.csv
+position = 5,-0.41,125
+
+
+[include]
+lightsnew.csv
+position = -8,-0.41,0
+[include]
+lightsnew.csv
+position = -8,-0.41,25
+[include]
+lightsnew.csv
+position = -8,-0.41,50
+[include]
+lightsnew.csv
+position = -8,-0.41,75
+[include]
+lightsnew.csv
+position = -8,-0.41,100
+[include]
+lightsnew.csv
+position = -8,-0.41,125

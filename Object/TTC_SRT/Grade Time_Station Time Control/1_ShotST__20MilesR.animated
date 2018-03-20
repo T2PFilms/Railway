@@ -1,0 +1,10 @@
+[Object]
+Position = 0, -2.65, 0
+States = SignalSingleRoof.csv
+
+[Object]
+Position = 0, 0, 0
+States = SignalSingle_4_Roof2.csv, SignalSingle_4_Roof2.csv, SignalSingle_0_Roof2.csv
+StateFunction = if[trackDistance>55 | section==0, 0, min[value + 0.5*delta/1.51, 2]]
+
+

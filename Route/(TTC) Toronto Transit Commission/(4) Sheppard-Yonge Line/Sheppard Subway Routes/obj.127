@@ -1,0 +1,384 @@
+;OBJECTS FOR SHEPPARD SUBWAY
+;BOTH DIRECTIONS
+With Route
+.gauge 1473
+.signal(1) 80
+.signal(2) 80
+.signal(3) 80
+.Elevation -15
+With Train
+.run(0) 2
+.run(1) 2
+.run(2) 5
+.run(3) 5
+.run(4) 5
+.run(9) 5
+.run(10) 5
+.run(11) 5
+.run(16) 5
+.run(17) 5
+.run(18) 5
+.run(19) 5
+.run(20) 5
+.run(21) 5
+.run(28) 5
+.run(29) 5
+.run(30) 5
+.run(31) 5
+.run(34) 5
+.run(35) 5
+.run(36) 5
+.run(37) 5
+.run(38) 5
+.run(39) 5
+.run(40) 5
+.run(41) 5
+.run(42) 5
+.run(43) 5
+.run(44) 5
+.run(45) 5
+.run(46) 5
+.run(47) 5
+.run(48) 5
+.run(49) 5
+.run(50) 5
+.run(51) 5
+.run(56) 5
+.run(57) 5
+.run(58) 5
+.run(59) 5
+.run(60) 5
+.run(61) 5
+.run(62) 5
+.run(63) 5
+.run(64) 5
+.run(65) 5
+.run(66) 5
+.run(67) 5
+.run(68) 5
+.run(69) 5
+.run(70) 5
+.run(71) 5
+.run(97) 5 ; Tunnel Null
+.run(98) 4 ; Outside Null
+.run(99) 2 ; Station Null
+
+.flange(8) 1
+.flange(48) 3
+.flange(49) 3
+.flange(50) 3
+.flange(51) 3
+.flange(52) 2
+.flange(53) 2
+.flange(54) 2
+.flange(55) 2
+.flange(56) 1
+.flange(57) 1
+.flange(58) 1
+.flange(59) 1
+.flange(65) 1
+.flange(66) 1
+.flange(67) 1
+.flange(68) 1
+.flange(70) 1
+.flange(71) 1
+.flange(72) 1
+.flange(73) 1
+
+With Train
+;TrainsToronto's Train Folder
+.folder Toronto Subway/Toronto Subway T1 SHP B6
+;T1 B6A MUST BE USED FOR CORRECT SOUNDS AND SIGNALS TO WORK
+.Timetable(0).Day.Load TTC_SHEP\TimeTable\SheppardYonge.png
+.Timetable(1).Day.Load TTC_SHEP\TimeTable\Bayview.png
+.Timetable(2).Day.Load TTC_SHEP\TimeTable\Bessarion.png
+.Timetable(3).Day.Load TTC_SHEP\TimeTable\Leslie.png
+.Timetable(4).Day.Load TTC_SHEP\TimeTable\DonMills.png
+
+
+With Structure
+
+.rail(0) TTC_SHEP\Track\Tr_Station3rr.csv
+.rail(1) TTC_SHEP\Track\Tr_Station3rl.csv 
+.rail(2) TTC_SHEP\Track\Tr_Tunnel.csv 
+.rail(3) TTC_SHEP\Track\Tr_Tunnel3rr.csv
+.rail(4) TTC_SHEP\Track\Tr_Tunnel3rl.csv
+.rail(8) TTC_SHEP\Track\NullRail.csv
+.rail(9) TTC_SHEP\Track\Tr_Tunnel_R1250R.csv
+.rail(10) TTC_SHEP\Track\TR_Tunnel_L5000R.csv
+.rail(11) TTC_SHEP\Track\Tr_Tunnel_R5000R.csv
+.rail(16) TTC_SHEP\Track\TR_Tunnel_R3000R.csv
+.rail(17) TTC_SHEP\Track\TR_Tunnel_L3000R.csv
+.rail(18) TTC_SHEP\Track\TR_Tunnel_L2000L.csv
+.rail(19) TTC_SHEP\Track\TR_Tunnel_L2000R.csv
+.rail(20) TTC_SHEP\Track\TR_Tunnel_R2000L.csv
+.rail(21) TTC_SHEP\Track\TR_Tunnel_R2000R.csv
+.rail(28) TTC_SHEP\Track\TR_Tunnel_L1000L.csv
+.rail(29) TTC_SHEP\Track\TR_Tunnel_L1000R.csv
+.rail(30) TTC_SHEP\Track\TR_Tunnel_R1000L.csv
+.rail(31) TTC_SHEP\Track\TR_Tunnel_R1000R.csv
+.rail(34) TTC_SHEP\Track\TR_Tunnel_L900L.csv
+.rail(35) TTC_SHEP\Track\TR_Tunnel_L900R.csv
+.rail(36) TTC_SHEP\Track\TR_Tunnel_R900L.csv
+.rail(37) TTC_SHEP\Track\TR_Tunnel_R900R.csv
+.rail(38) TTC_SHEP\Track\TR_Tunnel_L800L.csv
+.rail(39) TTC_SHEP\Track\TR_Tunnel_L800R.csv
+.rail(40) TTC_SHEP\Track\TR_Tunnel_R800L.csv
+.rail(41) TTC_SHEP\Track\TR_Tunnel_R800R.csv
+.rail(42) TTC_SHEP\Track\TR_Tunnel_L700L.csv
+.rail(43) TTC_SHEP\Track\TR_Tunnel_L700R.csv
+.rail(44) TTC_SHEP\Track\TR_Tunnel_R700L.csv
+.rail(45) TTC_SHEP\Track\TR_Tunnel_R700R.csv
+.rail(46) TTC_SHEP\Track\TR_Tunnel_L550L.csv
+.rail(47) TTC_SHEP\Track\TR_Tunnel_L550R.csv
+.rail(48) TTC_SHEP\Track\TR_Tunnel_L500L.csv
+.rail(49) TTC_SHEP\Track\TR_Tunnel_L500R.csv
+.rail(50) TTC_SHEP\Track\TR_Tunnel_R500L.csv
+.rail(51) TTC_SHEP\Track\TR_Tunnel_R500R.csv
+.rail(56) TTC_SHEP\Track\TR_Tunnel_L450L.csv
+.rail(57) TTC_SHEP\Track\TR_Tunnel_L450R.csv
+.rail(58) TTC_SHEP\Track\TR_Tunnel_R450L.csv
+.rail(59) TTC_SHEP\Track\TR_Tunnel_R450R.csv
+.rail(60) TTC_SHEP\Track\TR_Tunnel_R400L.csv
+.rail(61) TTC_SHEP\Track\TR_Tunnel_L250L.csv
+.rail(62) TTC_SHEP\Track\TR_Tunnel_L250R.csv
+.rail(63) TTC_SHEP\Track\TR_Tunnel_R250L.csv
+.rail(64) TTC_SHEP\Track\TR_Tunnel_R250R.csv
+.rail(65) TTC_SHEP\Track\TR_Tunnel_L200L.csv
+.rail(66) TTC_SHEP\Track\TR_Tunnel_L200R.csv
+.rail(67) TTC_SHEP\Track\TR_Tunnel_R200L.csv
+.rail(68) TTC_SHEP\Track\TR_Tunnel_R200R.csv
+.rail(69) TTC_SHEP\Track\Tr_Tunnel3rr.csv
+.rail(70) TTC_SHEP\Track\Tr_Tunnel3rl.csv
+.rail(71) TTC_SHEP\Track\Tr_Tunnel.csv 
+
+;New Invisible Rails
+.rail(97) TTC_SHEP\Track\NullRail.csv ;Tunnel
+.rail(98) TTC_SHEP\Track\NullRail.csv ;Outside
+.rail(99) TTC_SHEP\Track\NullRail.csv ;Station
+
+.dikel(0) TTC_SHEP\walls\tunnel01l.csv ;one track
+.diker(0) TTC_SHEP\walls\tunnel01r.csv
+.dikel(1) TTC_SHEP\walls\tunnel02l.csv ;two tracks
+.diker(1) TTC_SHEP\walls\tunnel02r.csv
+.dikel(2) TTC_SHEP\walls\Tun_round_lL.csv;bored tunnel
+.diker(2) TTC_SHEP\walls\Tun_round_rL.csv
+.dikel(3) TTC_SHEP\walls\NLTunSL.csv;bored tunnel
+.diker(3) TTC_SHEP\walls\NLTunSR.csv
+.dikel(7) TTC_SHEP\walls\tunnel01l.csv
+.diker(7) TTC_SHEP\walls\tunnel03r.csv
+.dikel(8) TTC_SHEP\walls\tiny02.csv
+.diker(8) TTC_SHEP\walls\tinyreverse.csv
+.dikel(9) TTC_SHEP\walls\tun_middle_0.csv
+.diker(9) TTC_SHEP\walls\tunnel01r.csv
+.dikel(11) TTC_SHEP\Walls\tunnel02l.csv
+.diker(11) TTC_SHEP\Walls\reversedtunnel01r.csv
+.dikel(12) TTC_SHEP\walls\tunnel02l.csv ;one track
+.diker(12) TTC_SHEP\walls\reversedtunnel01r.csv
+
+.walll(2) TTC_SHEP\ArchRoofL.csv
+.wallr(2) TTC_SHEP\ArchRoofR.csv
+
+.forml(0) TTC_SHEP\staform01l.csv
+.formr(0) TTC_SHEP\staform01r.csv
+.formcl(0) TTC_SHEP\staform01cl.csv
+.formcr(0) TTC_SHEP\staform01cr.csv
+
+.freeobj(0) TTC_SHEP\hallexit.b3d
+.freeobj(1) TTC_SHEP\firefighter.b3d
+.freeobj(2) TTC_SHEP\walls\tiny01.csv
+.freeobj(3) TTC_SHEP\walls\tinytun.csv
+.freeobj(4) TTC_SHEP\firefighter2.b3d
+.freeobj(5) TTC_SHEP\tunwall01.csv ;end wall for center platform
+.freeobj(6) TTC_SHEP\crosspassage.b3d
+.freeobj(7) TTC_SHEP\tunwall02.csv ;end wall between tunnels
+.freeobj(8) TTC_SHEP\turnback.csv
+.freeobj(9) TTC_SHEP\curvegroundtun.b3d
+.freeobj(10) TTC_SHEP\Walls\SHEPSIDE.csv
+.freeobj(11) TTC_SHEP\stawall02l.csv ;left end wall for side platforms
+.freeobj(13) TTC_SHEP\centerwall.csv
+.freeobj(14) TTC_SHEP\walldownsviewend.csv
+.freeobj(15) TTC_SHEP\walldownsviewend2.csv
+.freeobj(19) TTC_SHEP\emergencyexit.csv
+.freeobj(44) TTC_SHEP\p.csv
+.freeobj(45) TTC_SHEP\s.csv
+.freeobj(46) TTC_SHEP\6.csv
+.freeobj(47) TTC_SHEP\4..csv
+.freeobj(48) TTC_SHEP\dwa.csv
+.freeobj(62) TTC_SHEP\0.csv
+.freeobj(63) TTC_SHEP\Blindtrip_R.csv
+.freeobj(64) TTC_SHEP\Blindtrip_L.csv
+.freeobj(69) TTC_SHEP\middlewall.csv
+.freeobj(70) TTC_SHEP\signalsystem.b3d
+.freeobj(78) TTC_SHEP\signalbox.csv
+.freeobj(79) TTC_SHEP\SignalNoStix.csv
+.freeobj(101) TTC_SHEP\signalpost.b3d
+.freeobj(130) TTC_SHEP\formsign.csv
+.freeobj(161) TTC_SHEP\tunnelstart.csv
+.freeobj(227) TTC_YUS\bluelight.csv
+.freeobj(231) TTC_SHEP\bluelightoutside.csv
+.freeobj(232) TTC_SHEP\brake1.csv
+.freeobj(238) TTC_SHEP\NLpeople2.csv
+.freeobj(239) TTC_SHEP\NLpeopleL.csv
+.freeobj(240) TTC_SHEP\NLpeopleL2.csv
+.freeobj(241) TTC_SHEP\NLpeople.csv
+.freeobj(242) TTC_SHEP\person.csv
+.freeobj(243) TTC_SHEP\personb.csv
+.freeobj(244) TTC_SHEP\personr.csv
+.freeobj(245) TTC_SHEP\personrb.csv
+.freeobj(246) TTC_SHEP\RedCircleCenter.csv
+.freeobj(247) TTC_SHEP\RedCircleCenterR.csv
+.freeobj(248) TTC_SHEP\walldowns.csv
+.freeobj(249) TTC_SHEP\35.csv
+.freeobj(250) TTC_SHEP\25.csv
+.freeobj(251) TTC_SHEP\brake13.csv
+.freeobj(252) TTC_SHEP\brakeoff.csv
+.freeobj(253) TTC_SHEP\gt35.csv
+.freeobj(254) TTC_SHEP\gt40.csv
+.freeobj(255) TTC_SHEP\gt20.csv
+.freeobj(276) TTC_SHEP\SHEP_YUS\glassscreenl1.b3d
+.freeobj(277) TTC_SHEP\SHEP_YUS\glasscreenr1.b3d
+.freeobj(278) TTC_SHEP\platformleft5.csv
+.freeobj(279) TTC_SHEP\thingy.csv
+.freeobj(280) TTC_SHEP\flashingblue.animated
+;=======================
+;STATIONS
+;=======================
+.freeobj(350) TTC_SHEP\stnBessarion.animated
+.freeobj(351) TTC_SHEP\stnDonMills.animated
+.freeobj(352) TTC_SHEP\stnBayview.animated
+.freeobj(353) TTC_SHEP\stnLeslie.animated
+.freeobj(354) TTC_SHEP\stnSheppard.animated
+.freeobj(355) TTC_SHEP\stnSheppardreverse.animated
+;SIGNAL MARKERS
+
+.freeobj(502) TTC_SHEP\X.csv
+
+.freeobj(510) TTC_SHEP\0sig.csv
+.freeobj(511) TTC_SHEP\1.csv
+.freeobj(512) TTC_SHEP\2.csv
+.freeobj(513) TTC_SHEP\3.csv
+.freeobj(514) TTC_SHEP\4.csv
+.freeobj(515) TTC_SHEP\5.csv
+.freeobj(516) TTC_SHEP\6sig.csv
+.freeobj(517) TTC_SHEP\7.csv
+.freeobj(518) TTC_SHEP\8.csv
+.freeobj(519) TTC_SHEP\9.csv
+
+;T1 TRAIN
+.freeobj(610) Bloor_Danforth\T1_15_Nov_2013\Exterior\T1 Front Cab.b3d
+.freeobj(611) Bloor_Danforth\T1_15_Nov_2013\Exterior\T1 Back Cab Nolighton.b3d
+.freeobj(612) Bloor_Danforth\T1_15_Nov_2013\Exterior\T1 Front Cab Nolighton.b3d
+.freeobj(613) Bloor_Danforth\T1_15_Nov_2013\Exterior\T1 Back Cab.b3d
+
+.freeobj(614) Bloor_Danforth\T1_15_Nov_2013\Exterior\T1 Front Cab_R.b3d
+.freeobj(615) Bloor_Danforth\T1_15_Nov_2013\Exterior\T1 Back Cab Nolighton_R.b3d
+.freeobj(616) Bloor_Danforth\T1_15_Nov_2013\Exterior\T1 Front Cab Nolighton_R.b3d
+.freeobj(617) Bloor_Danforth\T1_15_Nov_2013\Exterior\T1 Back Cab_R.b3d
+
+.freeobj(618) Bloor_Danforth\T1_15_Nov_2013\Exterior\T1 Front Cab_L.b3d
+.freeobj(619) Bloor_Danforth\T1_15_Nov_2013\Exterior\T1 Back Cab Nolighton_L.b3d
+.freeobj(620) Bloor_Danforth\T1_15_Nov_2013\Exterior\T1 Front Cab Nolighton_L.b3d
+.freeobj(621) Bloor_Danforth\T1_15_Nov_2013\Exterior\T1 Back Cab_L.b3d
+
+.freeobj(622) Bloor_Danforth\T1_15_Nov_2013\Exterior\T1 Back Cab_B.b3d
+
+;=============
+;ADS
+;=============
+.freeobj(700) TTC_SHEP\Advertisements\renovations.csv
+.freeobj(701) TTC_SHEP\Advertisements\sciencecentre.csv
+.freeobj(702) TTC_SHEP\Advertisements\sheppardsubway.csv
+.freeobj(703) TTC_SHEP\Advertisements\TorontoTransportGuy2.csv
+.freeobj(704) TTC_SHEP\Advertisements\itea.csv
+.freeobj(705) TTC_SHEP\Advertisements\ikea.csv
+.freeobj(706) TTC_SHEP\Advertisements\t6a5.csv
+.freeobj(707) TTC_SHEP\Advertisements\TobyIsInspired.csv
+
+;rails
+.freeobj(1000) TTC_SHEP\Track\200tunnelCurveRR.csv
+.freeobj(1001) TTC_SHEP\Track\200tunnelCurveRL.csv
+
+.freeobj(1100) TTC_SHEP\Track\200tunnelCurveLR.csv
+.freeobj(1101) TTC_SHEP\Track\200tunnelCurveLL.csv
+
+.freeobj(2000) TTC_SHEP\Track\200tunnelSwitchRR.csv
+.freeobj(2001) TTC_SHEP\Track\200tunnelSwitchRL.csv
+
+.freeobj(2100) TTC_SHEP\Track\200tunnelSwitchLR.csv
+.freeobj(2101) TTC_SHEP\Track\200tunnelSwitchLL.csv
+
+.freeobj(4000) TTC_SHEP\Track\200tunnelWyeSwitchR.csv
+.freeobj(4100) TTC_SHEP\Track\200tunnelWyeSwitchL.csv
+
+.freeobj(5000) TTC_SHEP\Track\GuideRailStartDarkL.csv
+.freeobj(5001) TTC_SHEP\Track\GuideRailStartDarkR.csv
+.freeobj(5002) TTC_SHEP\Track\GuideRailEndDarkL.csv
+.freeobj(5003) TTC_SHEP\Track\GuideRailEndDarkR.csv
+.freeobj(5004) TTC_SHEP\Track\TunnelshortR.csv
+.freeobj(5005) TTC_SHEP\Track\TunnelshortL.csv
+.freeobj(5008) TTC_SHEP\Track\3rdRailDarkL.csv
+.freeobj(5009) TTC_SHEP\Track\3rdRailDarkR.csv
+.freeobj(5012) TTC_SHEP\Walls\Tun_middle_half.csv
+.freeobj(5013) TTC_SHEP\Walls\Tun_middle_wall.csv
+
+.ground(0) TTC_SHEP\noground.csv
+.ground(4) TTC_SHEP\noground.csv
+texture.background(0) TTC_SHEP\black.bmp
+
+Signal(42).Load TTC_SHEP\Grade Time_Station Time Control\1_ShotGT_Static_Amber.animated
+
+Signal(45).Load TTC_SHEP\Grade Time_Station Time Control\SignalDoubleYGLunar_Static.animated
+Signal(46).Load TTC_SHEP\Grade Time_Station Time Control\SignalDoubleYYLunar_Static.animated
+
+Signal(1).Load TTC_SHEP\Grade Time_Station Time Control\A_L_100m_35kph.animated
+Signal(2).Load TTC_SHEP\Grade Time_Station Time Control\A_L_200m_45kph.animated
+Signal(3).Load TTC_SHEP\Grade Time_Station Time Control\A_L_100m_51kph.animated
+Signal(4).Load TTC_SHEP\Grade Time_Station Time Control\A_L_100m_60kph.animated
+Signal(5).Load TTC_SHEP\Grade Time_Station Time Control\A_L_300m.animated
+Signal(7).Load TTC_SHEP\Grade Time_Station Time Control\A_L_100m_72kph.animated
+Signal(8).Load TTC_SHEP\Grade Time_Station Time Control\A_L_125m_75kph.animated
+Signal(9).Load TTC_SHEP\Grade Time_Station Time Control\A_L_225m.animated
+Signal(10).Load TTC_SHEP\Grade Time_Station Time Control\A_L_400m.animated
+Signal(11).Load TTC_SHEP\Grade Time_Station Time Control\A_L_350m.animated
+Signal(12).Load TTC_SHEP\Grade Time_Station Time Control\A_150m.animated
+Signal(13).Load TTC_SHEP\Grade Time_Station Time Control\A_L_175m.animated
+Signal(14).Load TTC_SHEP\Grade Time_Station Time Control\A_L_75m.animated
+Signal(15).Load TTC_SHEP\Grade Time_Station Time Control\A_L_250m.animated
+Signal(16).Load TTC_SHEP\Grade Time_Station Time Control\A_L_50m.animated
+Signal(17).Load TTC_SHEP\Grade Time_Station Time Control\R_G_200m.animated
+Signal(18).Load TTC_SHEP\Grade Time_Station Time Control\A_175m.animated
+Signal(19).Load TTC_SHEP\Grade Time_Station Time Control\A_140m.animated
+Signal(20).Load TTC_SHEP\Grade Time_Station Time Control\R_R_Platform.animated
+Signal(21).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_L_50m.animated
+Signal(22).Load TTC_SHEP\Grade Time_Station Time Control\Double_Y_Y_L_50m.animated
+Signal(23).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_L_225m.animated
+Signal(24).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_L_325m.animated
+Signal(25).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_L_450m.animated
+Signal(26).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_L_100m.animated
+Signal(27).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_L_425m.animated
+Signal(28).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_L_200m.animated
+Signal(29).Load TTC_SHEP\Grade Time_Station Time Control\Double_A_G_225m.animated
+Signal(30).Load TTC_SHEP\Grade Time_Station Time Control\R_R_NoGT_Platform.animated
+
+;3 Aspect Automatic
+Signal(200).Load TTC_SHEP\Sheppard Station Signals\sheppardstn.animated
+Signal(304).Load TTC_SHEP\Sheppard Station Signals\3ASPECTSIGNAL.animated
+
+
+;-----------------------------------------
+;Unused Test Signals
+;-----------------------------------------
+Signal(300).Load TTC_SHEP\Sheppard Station Signals\sheppardstn.animated
+Signal(301).Load TTC_SHEP\Sheppard Station Signals\EBSheppardCrossover.animated
+Signal(302).Load TTC_SHEP\Sheppard Station Signals\EBSheppardCrossover2.animated
+Signal(303).Load TTC_SHEP\Sheppard Station Signals\AmberStatic.animated
+Signal(322).Load TTC_SHEP\Sheppard Station Signals\EBBessarionstn.animated
+;-------------------------------------------
+.Beacon(5).Load TTC_SHEP\Beacon_S.csv
+.Beacon(7).Load TTC_SHEP\Beacon_P.csv
+
+
+Options.FogBehavior 1
+Options.ObjectVisibility 1
+Options.CantBehavior 1

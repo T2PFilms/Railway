@@ -1,0 +1,88 @@
+[MeshBuilder]
+Vertex        -2, 3.9, -0.5
+Vertex        -2, 3.9, 12.5
+Vertex        -2, -0.15, 12.5
+Vertex        -2, -0.15, -0.5
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_middle.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0.5, 0
+Coordinates 2, 0.5, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex        -2.498, 3.9, 12.5
+Vertex        -2.498, 3.9, -0.5
+Vertex        -2.498, -0.15, -0.5
+Vertex        -2.498, -0.15, 12.5
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_middle.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 0.5, 0
+Coordinates 2, 0.5, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex        -1.85, 4, -0.5
+Vertex        -1.85, 4, 12.5
+Vertex        -2, 3.85, 12.5
+Vertex        -2, 3.85, -0.5
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_light.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex        -2.5, -0.15, -0.5
+Vertex        -2.5, 3.85, -0.5
+Vertex        -2.65, 4, -0.5
+Vertex        -1.85, 4, -0.5
+Vertex        -2, 3.85, -0.5
+Vertex        -2, -0.15, -0.5
+Face 0, 1, 2, 3, 4, 5
+Color 44,44,44
+
+;holes
+
+[MeshBuilder]
+Vertex        -2.5, 2.2, 4.625
+Vertex        -2, 2.2, 4.625
+Vertex        -2, -0.15, 4.625
+Vertex        -2.5, -0.15, 4.625
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_mid_hole.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex        -2.5, 2.2, 10.875
+Vertex        -2, 2.2, 10.875
+Vertex        -2, -0.15, 10.875
+Vertex        -2.5, -0.15, 10.875
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_mid_hole.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1

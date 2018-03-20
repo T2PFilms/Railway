@@ -1,0 +1,14 @@
+[meshbuilder]
+vertex -15,4.7,0
+vertex -15,15,0
+vertex 15,15,0
+vertex 15,4.7,0
+face2 0,1,2,3
+
+[texture]
+
+load concretedark.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2

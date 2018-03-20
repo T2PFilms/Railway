@@ -1,0 +1,11 @@
+[MeshBuilder]
+Vertex -9.7,-0.15,0
+Vertex 3.7,-0.15,0
+Vertex 3.7,-1.15,0
+Vertex 3,-1.15,0
+Vertex 3,-10.15,0
+Vertex -9,-10.15,0
+Vertex -9,-1.15,0
+Vertex -9.7,-1.15,0
+Face2 0,1,2,3,4,5,6,7
+Color 96,86,76

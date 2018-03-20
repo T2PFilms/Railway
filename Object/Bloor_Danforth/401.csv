@@ -1,0 +1,193 @@
+CreateMeshBuilder,
+Addvertex,0,0,-10,
+Addvertex,0,0,0,
+Addvertex,25,0,0,
+Addvertex,25,0,-10,
+Addface,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,401r.bmp,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+
+CreateMeshBuilder,
+Addvertex,0,0,-20,
+Addvertex,0,0,-10,
+Addvertex,25,0,-10,
+Addvertex,25,0,-20,
+Addface,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,roadc.bmp,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+
+CreateMeshBuilder,
+Addvertex,0,0,-30,
+Addvertex,0,0,-20,
+Addvertex,25,0,-20,
+Addvertex,25,0,-30,
+Addface,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,roadc.bmp,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+
+CreateMeshBuilder,
+Addvertex,0,0,-40,
+Addvertex,0,0,-30,
+Addvertex,25,0,-30,
+Addvertex,25,0,-40,
+Addface,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,roadc.bmp,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+
+CreateMeshBuilder,
+Addvertex,0,0,-50,
+Addvertex,0,0,-40,
+Addvertex,25,0,-40,
+Addvertex,25,0,-50,
+Addface,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,401l.bmp,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+
+CreateMeshBuilder,
+Addvertex,0,0,-75,
+Addvertex,0,0,-50,
+Addvertex,25,0,-50,
+Addvertex,25,0,-75,
+Addface,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,grass.bmp,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+
+CreateMeshBuilder,
+Addvertex,0,0,-85,
+Addvertex,0,0,-75,
+Addvertex,25,0,-75,
+Addvertex,25,0,-85,
+Addface,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,401r.bmp,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+
+CreateMeshBuilder,
+Addvertex,0,0,-95,
+Addvertex,0,0,-85,
+Addvertex,25,0,-85,
+Addvertex,25,0,-95,
+Addface,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,roadc.bmp,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+
+CreateMeshBuilder,
+Addvertex,0,0,-105,
+Addvertex,0,0,-95,
+Addvertex,25,0,-95,
+Addvertex,25,0,-105,
+Addface,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,roadc.bmp,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+
+CreateMeshBuilder,
+Addvertex,0,0,-115,
+Addvertex,0,0,-105,
+Addvertex,25,0,-105,
+Addvertex,25,0,-115,
+Addface,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,roadc.bmp,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+
+CreateMeshBuilder,
+Addvertex,0,0,-125,
+Addvertex,0,0,-115,
+Addvertex,25,0,-115,
+Addvertex,25,0,-125,
+Addface,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,401l.bmp,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,
+
+;[meshbuilder]
+;vertex 0,0,0
+;vertex 0,4,0
+;vertex 25,4,0
+;vertex 25,0,0
+;face 0,1,2,3
+
+;[texture]
+;Load grass.bmp
+;Coordinates 3, 0, 0
+;Coordinates 0, 1, 0
+;Coordinates 1, 1, 1
+;Coordinates 2, 0, 1
+
+CreateMeshBuilder,
+Addvertex,0,0,-125,
+Addvertex,0,3.9,-125,
+Addvertex,25,3.9,-125,
+Addvertex,25,0,-125,
+Addface,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,grass.bmp,
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,

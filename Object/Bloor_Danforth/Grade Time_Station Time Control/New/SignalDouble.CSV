@@ -1,0 +1,85 @@
+CreateMeshbuilder,
+AddVertex, 0.178, 3.2, -0.4
+AddVertex, 0.178, 2.21, -0.4
+AddVertex, 0.178, 2.21, -0.098
+AddVertex, 0.178, 3.2, -0.098
+
+AddVertex, -0.178, 3.2, -0.4
+AddVertex, -0.178, 2.21, -0.4
+AddVertex, -0.178, 2.21, -0.098
+AddVertex, -0.178, 3.2, -0.098
+
+AddVertex, -0.178, 2.21, -0.098
+AddVertex, -0.178, 2.21, -0.4
+AddVertex,  0.178, 2.21, -0.4
+AddVertex,  0.178, 2.21, -0.098
+
+AddFace2, 0,1,2,3
+AddFace2, 4,5,6,7
+AddFace2, 8,9,10,11
+SetColor, 31,31,31,
+
+CreateMeshbuilder,
+AddVertex,  0.178, 3.2, -0.098
+AddVertex, -0.178, 3.2, -0.098
+AddVertex, -0.178, 2.21, -0.098
+AddVertex,  0.178, 2.21, -0.098
+AddFace2, 0,1,2,3
+SetColor, 0,0,0,
+
+
+;;;;;;;;;Bottom
+CreateMeshbuilder,
+AddVertex, 0.178, 2.1, -0.4
+AddVertex, 0.178, 1.11, -0.4
+AddVertex, 0.178, 1.11, -0.098
+AddVertex, 0.178, 2.1, -0.098
+
+AddVertex, -0.178, 2.1, -0.4
+AddVertex, -0.178, 1.11, -0.4
+AddVertex, -0.178, 1.11, -0.098
+AddVertex, -0.178, 2.1, -0.098
+
+AddVertex, -0.178, 1.11, -0.098
+AddVertex, -0.178, 1.11, -0.4
+AddVertex,  0.178, 1.11, -0.4
+AddVertex,  0.178, 1.11, -0.098
+
+AddFace2, 0,1,2,3
+AddFace2, 4,5,6,7
+AddFace2, 8,9,10,11
+SetColor, 31,31,31,
+
+CreateMeshbuilder,
+AddVertex,  0.178, 2.1, -0.098
+AddVertex, -0.178, 2.1, -0.098
+AddVertex, -0.178, 1.11, -0.098
+AddVertex,  0.178, 1.11, -0.098
+AddFace2, 0,1,2,3
+SetColor, 0,0,0,
+
+
+;=============
+CreateMeshBuilder,
+
+Cylinder, 2, 0.04, 0.04, 2.4,
+Translate, 0.0, 2.155, -0.198,
+
+SetColor, 21,21,21,
+
+
+CreateMeshBuilder,
+
+Cylinder, 2, 0.04, 0.04, 0.4,
+Rotate, 0,0,1,90,
+Translate, 0.18, 3.32, -0.198,
+
+SetColor, 21,21,21,
+
+CreateMeshBuilder,
+
+Cylinder, 2, 0.04, 0.04, 0.4,
+Rotate, 0,0,1,90,
+Translate, 0.18, 0.99, -0.198,
+
+SetColor, 21,21,21,

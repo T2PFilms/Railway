@@ -1,0 +1,5 @@
+CreateMeshBuilder,
+Cylinder,10,1,5.5,12;
+Addface2,0,1,2,3,
+SetColor,255,240,0,
+SetBlendMode,Additive,55,DivideExponent2

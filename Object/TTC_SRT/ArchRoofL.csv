@@ -1,0 +1,416 @@
+CreateMeshBuilder,
+
+AddVertex,-0.90, 6.00, 0,
+AddVertex,-2.40, 4.50, 0,
+AddVertex,-2.40, 4.50, 25,
+AddVertex,-0.90, 6.00, 25,
+
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,roof1.bmp,
+SetTextureCoordinates,0,0,5,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,10,0,
+SetTextureCoordinates,3,10,5,
+
+;--------------------------------------------
+
+CreateMeshBuilder,
+
+AddVertex,2.10, 7.00, 0,
+AddVertex,-0.90, 6.00, 0,
+AddVertex,-0.90, 6.00, 25,
+AddVertex,2.10, 7.00, 25,
+
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,roof1.bmp,
+
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 7,
+SetTextureCoordinates,2, 0, 7,
+SetTextureCoordinates,3, 0, 0,
+
+;--------------------------------------------
+
+CreateMeshBuilder,
+
+AddVertex,6.00, 7.50, 0,
+AddVertex,2.10, 7.00, 0,
+AddVertex,2.10, 7.00, 25,
+AddVertex,6.00, 7.50, 25,
+
+AddFace,3,2,1,0,
+
+GenerateNormals,
+
+LoadTexture,roof1.bmp,
+
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 7,
+SetTextureCoordinates,2, 0, 7,
+SetTextureCoordinates,3, 0, 0,
+
+;--------------------------------------------
+
+CreateMeshBuilder,
+
+AddVertex,-0.90, 6.00, 0,
+AddVertex,-2.40, 4.50, 0,
+AddVertex,-2.40, 4.00, 0,
+AddVertex,-0.90, 5.50, 0,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,2.10, 7.00, 0,
+AddVertex,-0.90, 6.00, 0,
+AddVertex,-0.90, 5.50, 0,
+AddVertex,2.10, 6.50, 0,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,6.00, 7.50, 0,
+AddVertex,2.10, 7.00, 0,
+AddVertex,2.10, 6.50, 0,
+AddVertex,6.00, 7.00, 0,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-0.90, 5.50, 0,
+AddVertex,-2.40, 4.00, 0,
+AddVertex,-2.40, 4.00, 1,
+AddVertex,-0.90, 5.50, 1,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,2.10, 6.50, 0,
+AddVertex,-0.90, 5.50, 0,
+AddVertex,-0.90, 5.50, 1,
+AddVertex,2.10, 6.50, 1,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,6.00, 7.00, 0,
+AddVertex,2.10, 6.50, 0,
+AddVertex,2.10, 6.50, 1,
+AddVertex,6.00, 7.00, 1,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-0.90, 6.00, 12.5,
+AddVertex,-2.40, 4.50, 12.5,
+AddVertex,-2.40, 4.00, 12.5,
+AddVertex,-0.90, 5.50, 12.5,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,2.10, 7.00, 12.5,
+AddVertex,-0.90, 6.00, 12.5,
+AddVertex,-0.90, 5.50, 12.5,
+AddVertex,2.10, 6.50, 12.5,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,6.00, 7.50, 12.5,
+AddVertex,2.10, 7.00, 12.5,
+AddVertex,2.10, 6.50, 12.5,
+AddVertex,6.00, 7.00, 12.5,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-0.90, 5.50, 12.5,
+AddVertex,-2.40, 4.00, 12.5,
+AddVertex,-2.40, 4.00, 13.5,
+AddVertex,-0.90, 5.50, 13.5,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,2.10, 6.50, 12.5,
+AddVertex,-0.90, 5.50, 12.5,
+AddVertex,-0.90, 5.50, 13.5,
+AddVertex,2.10, 6.50, 13.5,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,6.00, 7.00, 12.5,
+AddVertex,2.10, 6.50, 12.5,
+AddVertex,2.10, 6.50, 13.5,
+AddVertex,6.00, 7.00, 13.5,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-0.90, 6.00, 6.25,
+AddVertex,-2.40, 4.50, 6.25,
+AddVertex,-2.40, 4.00, 6.25,
+AddVertex,-0.90, 5.50, 6.25,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,2.10, 7.00, 6.25,
+AddVertex,-0.90, 6.00, 6.25,
+AddVertex,-0.90, 5.50, 6.25,
+AddVertex,2.10, 6.50, 6.25,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,6.00, 7.50, 6.25,
+AddVertex,2.10, 7.00, 6.25,
+AddVertex,2.10, 6.50, 6.25,
+AddVertex,6.00, 7.00, 6.25,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-0.90, 5.50, 6.25,
+AddVertex,-2.40, 4.00, 6.25,
+AddVertex,-2.40, 4.00, 7.25,
+AddVertex,-0.90, 5.50, 7.25,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,2.10, 6.50, 6.25,
+AddVertex,-0.90, 5.50, 6.25,
+AddVertex,-0.90, 5.50, 7.25,
+AddVertex,2.10, 6.50, 7.25,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,6.00, 7.00, 6.25,
+AddVertex,2.10, 6.50, 6.25,
+AddVertex,2.10, 6.50, 7.25,
+AddVertex,6.00, 7.00, 7.25,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-0.90, 6.00, 18.75,
+AddVertex,-2.40, 4.50, 18.75,
+AddVertex,-2.40, 4.00, 18.75,
+AddVertex,-0.90, 5.50, 18.75,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,2.10, 7.00, 18.75,
+AddVertex,-0.90, 6.00, 18.75,
+AddVertex,-0.90, 5.50, 18.75,
+AddVertex,2.10, 6.50, 18.75,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,6.00, 7.50, 18.75,
+AddVertex,2.10, 7.00, 18.75,
+AddVertex,2.10, 6.50, 18.75,
+AddVertex,6.00, 7.00, 18.75,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-0.90, 5.50, 18.75,
+AddVertex,-2.40, 4.00, 18.75,
+AddVertex,-2.40, 4.00, 19.75,
+AddVertex,-0.90, 5.50, 19.75,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,2.10, 6.50, 18.75,
+AddVertex,-0.90, 5.50, 18.75,
+AddVertex,-0.90, 5.50, 19.75,
+AddVertex,2.10, 6.50, 19.75,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+
+;--------------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,6.00, 7.00, 18.75,
+AddVertex,2.10, 6.50, 18.75,
+AddVertex,2.10, 6.50, 19.75,
+AddVertex,6.00, 7.00, 19.75,
+
+AddFace,3,2,1,0,
+
+SetColor,195,174,143,
+GenerateNormals,
+

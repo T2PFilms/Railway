@@ -1,0 +1,118 @@
+[MeshBuilder]
+Vertex        -2.02, 3.9, -0.5
+Vertex        -2.02, 3.9, 25
+Vertex        -2.02, -0.15, 25
+Vertex        -2.02, -0.15, -0.5
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_middle_d-g2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+Transparent 0,0,255
+
+[MeshBuilder]
+Vertex        -2.02, -0.15, -0.5
+Vertex        -2.02, -0.15, 25
+Vertex        -2.02, -1.15, 25
+Vertex        -2.02, -1.15, -0.5
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_middle_d-g6.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex        -2.5, -0.15, -0.5
+Vertex        -2.5, 3.85, -0.5
+Vertex        -2.65, 4, -0.5
+Vertex        -1.85, 4, -0.5
+Vertex        -2.02, 3.85, -0.5
+Vertex        -2.02, -0.15, -0.5
+Face 0, 1, 2, 3, 4, 5
+Color 44,44,44
+
+;holes
+
+[MeshBuilder]
+Vertex        -2.02, 2.2, 0
+Vertex        -2.02, 2.2, 25
+Vertex        -2.5, 2.2, 25
+Vertex        -2.5, 2.2, 0
+Face 0, 1, 2, 3
+Color 33,33,33
+
+[MeshBuilder]
+Vertex        -2.5, -0.15, 0
+Vertex        -2.5, -0.15, 25
+Vertex        -2.02, -0.15, 25
+Vertex        -2.02, -0.15, 0
+Face 0, 1, 2, 3
+Color 44,44,44
+
+[MeshBuilder]
+Vertex        -2.5, 2.2, 4.67
+Vertex        -2.02, 2.2, 4.67
+Vertex        -2.02, -0.15, 4.67
+Vertex        -2.5, -0.15, 4.67
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_mid_hole.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex        -2.5, 2.2, 10.2
+Vertex        -2.02, 2.2, 10.2
+Vertex        -2.02, -0.15, 10.2
+Vertex        -2.5, -0.15, 10.2
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_mid_hole.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex        -2.5, 2.2, 17.17
+Vertex        -2.02, 2.2, 17.17
+Vertex        -2.02, -0.15, 17.17
+Vertex        -2.5, -0.15, 17.17
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_mid_hole.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex        -2.5, 2.2, 23.42
+Vertex        -2.02, 2.2, 23.42
+Vertex        -2.02, -0.15, 23.42
+Vertex        -2.5, -0.15, 23.42
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_mid_hole.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1

@@ -1,0 +1,65 @@
+
+;Emergency
+[MeshBuilder]
+Vertex -2.45,2,149.8
+Vertex -2.45,4,149.8
+Vertex -3.45,4,149.8
+Vertex -3.45,2,149.8
+Face2 3,2,1,0
+
+Load emg.png,emg.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex -2.45,2,149.8
+Vertex -2.45,4,149.8
+Vertex -2.45,4,149.85
+Vertex -2.45,2,149.85
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+
+
+[MeshBuilder]
+Vertex -3.45,2,149.8
+Vertex -3.45,4,149.8
+Vertex -3.45,4,149.85
+Vertex -3.45,2,149.85
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+
+
+[MeshBuilder]
+Vertex -3.45,4,149.8
+Vertex -3.45,4,149.85
+Vertex -2.45,4,149.85
+Vertex -2.45,4,149.8
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+
+
+[MeshBuilder]
+Vertex -3.45,2,149.8
+Vertex -3.45,2,149.85
+Vertex -2.45,2,149.85
+Vertex -2.45,2,149.8
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15

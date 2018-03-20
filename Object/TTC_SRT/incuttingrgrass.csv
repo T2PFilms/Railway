@@ -1,0 +1,58 @@
+CreateMeshBuilder,
+Addvertex,3,0,0,
+Addvertex,9,7,0,
+Addvertex,9,7,0,
+Addface,0,1,2,
+
+SetColor,184,184,184,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+Addvertex,3,0,25,
+Addvertex,9,7,25,
+Addvertex,9,0,25,
+Addface,0,1,2,
+
+SetColor,184,184,184,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+Addvertex,3,0,0,
+Addvertex,3,0,25,
+Addvertex,9,7,25,
+Addvertex,9,7,0,
+Addface,0,1,2,3,
+
+;color 184,184,184
+
+GenerateNormals,
+
+
+LoadTexture,grass.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,4,0,
+SetTextureCoordinates,2,0,2,
+SetTextureCoordinates,3,4,2,
+
+;Fence
+;Right Side
+CreateMeshBuilder,
+AddVertex,9, 12, 0,
+AddVertex,9, 12, 25.5,
+AddVertex,9, 6.1, 0,
+AddVertex,9, 6.1, 25.5,
+AddFace,2,3,1,0,
+;Color 220,220,210
+
+GenerateNormals,
+
+LoadTexture,ChainFence.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,5,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,5,1,
+SetDecalTransparentColor,0,0,0,

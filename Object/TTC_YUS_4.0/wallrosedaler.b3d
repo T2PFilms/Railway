@@ -1,0 +1,174 @@
+back wall
+[meshbuilder]
+vertex 7,-0.5,0
+vertex 7,4.7,0
+vertex 7,4.7,25
+vertex 7,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load wallrosedale.bmp
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 0,1,1
+
+;roof
+[meshbuilder]
+vertex 1.5,4.7,0
+vertex 1.5,5.2,0
+vertex 7,5.2,0
+vertex 7,4.7,0
+face2 0,1,2,3
+color 88,66,87
+
+[meshbuilder]
+vertex 1.5,4.7,0
+vertex 1.5,5.2,0
+vertex 1.5,5.2,25
+vertex 1.5,4.7,25
+face2 0,1,2,3
+color 88,66,87
+
+[meshbuilder]
+vertex 1.5,4.7,0
+vertex 1.5,4.7,25
+vertex 7,4.7,25
+vertex 7,4.7,0
+face2 0,1,2,3
+color 80,58,79
+
+;inner post
+
+[meshbuilder]
+vertex 2.5,0,12
+vertex 2.5,1.8,12
+vertex 3.5,1.8,12
+vertex 3.5,0,12
+face2 0,1,2,3
+color 205,195,187
+
+[meshbuilder]
+vertex 2.5,0,12
+vertex 2.5,1.8,12
+vertex 2.5,1.8,13
+vertex 2.5,0,13
+face2 0,1,2,3
+color 205,195,187
+
+[meshbuilder]
+vertex 2.5,1.8,12
+vertex 2.5,4.8,12
+vertex 3.5,4.8,12
+vertex 3.5,1.8,12
+face2 0,1,2,3
+color 66,134,0
+
+[meshbuilder]
+vertex 2.5,1.8,12
+vertex 2.5,4.8,12
+vertex 2.5,4.8,13
+vertex 2.5,1.8,13
+face2 0,1,2,3
+color 66,134,0
+
+;outer post
+
+[meshbuilder]
+vertex 5.5,0,12
+vertex 5.5,1.8,12
+vertex 6.5,1.8,12
+vertex 6.5,0,12
+face2 0,1,2,3
+color 205,195,187
+
+[meshbuilder]
+vertex 5.5,0,12
+vertex 5.5,1.8,12
+vertex 5.5,1.8,13
+vertex 5.5,0,13
+face2 0,1,2,3
+color 205,195,187
+
+[meshbuilder]
+vertex 5.5,1.8,12
+vertex 5.5,4.8,12
+vertex 6.5,4.8,12
+vertex 6.5,1.8,12
+face2 0,1,2,3
+color 66,134,0
+
+[meshbuilder]
+vertex 5.5,1.8,12
+vertex 5.5,4.8,12
+vertex 5.5,4.8,13
+vertex 5.5,1.8,13
+face2 0,1,2,3
+color 66,134,0
+
+;no clearance sign
+
+[meshbuilder]
+vertex -2.55,-0.5,8.2
+vertex -2.55,2.5,8.2
+vertex -2.45,2.5,8.2
+vertex -2.45,-0.5,8.2
+face2 0,1,2,3
+color 198,198,198
+
+[meshbuilder]
+vertex -2.45,-0.5,8.2
+vertex -2.45,-0.5,8.3
+vertex -2.45,2.5,8.3
+vertex -2.45,2.5,8.2
+face2 0,1,2,3
+color 198,198,198
+
+[meshbuilder]
+vertex -2.39,1.2,7.5
+vertex -2.39,1.2,9
+vertex -2.39,2.8,9
+vertex -2.39,2.8,7.5
+face2 0,1,2,3
+
+[texture]
+Load nonclear.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+
+;next station sign
+
+[meshbuilder]
+vertex -2.55,-0.5,16
+vertex -2.55,2.5,16
+vertex -2.45,2.5,16
+vertex -2.45,-0.5,16
+face2 0,1,2,3
+color 198,198,198
+
+[meshbuilder]
+vertex -2.45,-0.5,16
+vertex -2.45,-0.5,16.1
+vertex -2.45,2.5,16.1
+vertex -2.45,2.5,16
+face2 0,1,2,3
+color 198,198,198
+
+[meshbuilder]
+vertex -2.39,1.75,15
+vertex -2.39,1.75,17
+vertex -2.39,2.5,17
+vertex -2.39,2.5,15
+face2 0,1,2,3
+
+[texture]
+Load rosedalesign.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+
+
+

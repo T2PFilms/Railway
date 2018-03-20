@@ -1,0 +1,7 @@
+[MeshBuilder]
+Vertex        2.5, 2.2, 25
+Vertex        2.5, 2.2, 0
+Vertex        2.5, -0.15, 0
+Vertex        2.5, -0.15, 25
+Face 0, 1, 2, 3
+Color 22,22,22

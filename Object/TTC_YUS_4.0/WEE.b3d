@@ -1,0 +1,12 @@
+[MEshBuilder]
+Vertex 2.2,4.1,0
+Vertex 2.5,4.1,0
+Vertex 2.5,3.4,0
+Vertex 2.2,3.4,0
+Face2 0,1,2,3
+
+Load WilsonEmergencyExit.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1

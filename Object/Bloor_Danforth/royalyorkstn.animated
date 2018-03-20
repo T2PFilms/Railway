@@ -1,0 +1,49 @@
+[Include]
+sideplatformstation.animated
+position = 0, 0, 0
+
+[include]
+sideplatformright.csv
+position = 0, 0, 0
+[include]
+sideplatformleft.csv
+position = -6, 0, 0
+
+
+[include]
+sideplatformright.csv
+position = 0, 0, 25
+[include]
+sideplatformleft.csv
+position = -6, 0, 25
+
+
+[include]
+sideplatformright.csv
+position = 0, 0, 50
+[include]
+sideplatformleft.csv
+position = -6, 0, 50
+
+[include]
+sideplatformright.csv
+position = 0, 0, 75
+[include]
+sideplatformleft.csv
+position = -6, 0, 75
+
+
+[include]
+sideplatformright.csv
+position = 0, 0, 100
+[include]
+sideplatformleft.csv
+position = -6, 0, 100
+
+
+[include]
+sideplatformright.csv
+position = 0, 0, 125
+[include]
+sideplatformleft.csv
+position = -6, 0, 125

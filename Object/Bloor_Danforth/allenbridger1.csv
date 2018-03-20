@@ -1,0 +1,48 @@
+CreateMeshBuilder,
+AddVertex,2, 0, 0,
+AddVertex,2, 4, 0,
+AddVertex,2, 4, 12.5,
+AddVertex,2, 0, 12.5,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,ChainFence.bmp,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,0,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,2, 0, 12.5,
+AddVertex,2, 4, 12.5,
+AddVertex,2, 4, 25,
+AddVertex,2, 0, 25,
+AddFace2,0,1,2,3,
+;Right Side
+
+GenerateNormals,
+
+LoadTexture,ChainFence.bmp,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+AddVertex,-2, 0, 25,
+AddVertex,-2, 4, 25,
+AddVertex,-2, 4, 0,
+AddVertex,-2, 0, 0,
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,ChainFence.bmp,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,0,

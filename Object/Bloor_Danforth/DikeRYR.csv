@@ -1,0 +1,149 @@
+;Converted from .b3d to .csv by BVE Terminus' B3D to CSV Converter
+
+
+
+CreateMeshBuilder
+AddVertex, 3.5,-0.17,0
+AddVertex, 3.5,-0.17,25
+AddVertex, -9.5,-0.17,25
+AddVertex, -9.5,-0.17,0
+AddFace, 3,2,1,0
+LoadTexture, track\ballast.bmp
+SetTextureCoordinates, 0,15,0
+SetTextureCoordinates, 1,15,6
+SetTextureCoordinates, 2,0,6
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 3.5,-0.16,0
+AddVertex, 3.5,1,0
+AddVertex, 3.5,1,25
+AddVertex, 3.5,-0.16,25
+AddFace, 3,2,1,0
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 3.625,2.75,0
+AddVertex, 3.625,1,0
+AddVertex, 3.625,1,25
+AddVertex, 3.625,2.75,25
+AddFace2, 3,2,1,0
+LoadTexture, chainfence.bmp
+SetTextureCoordinates, 0,15,0
+SetTextureCoordinates, 1,15,1
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,0,0
+SetDecalTransparentColor, 0,0,0
+
+
+CreateMeshBuilder
+AddVertex, 3.5,-0.16,0
+AddVertex, 3.5,1,0
+AddVertex, 3.75,1,0
+AddVertex, 3.75,-0.16,0
+AddFace, 0,1,2,3
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 3.5,-0.16,25
+AddVertex, 3.5,1,25
+AddVertex, 3.75,1,25
+AddVertex, 3.75,-0.16,25
+AddFace, 3,2,1,0
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 3.75,1,0
+AddVertex, 3.5,1,0
+AddVertex, 3.5,1,25
+AddVertex, 3.75,1,25
+AddFace, 0,1,2,3
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+
+CreateMeshBuilder
+AddVertex, 3.75,-0.16,0
+AddVertex, 3.75,1,0
+AddVertex, 3.75,1,25
+AddVertex, 3.75,-0.16,25
+AddFace, 0,1,2,3
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+TranslateAll, 0,0,0.01
+
+
+CreateMeshBuilder,
+Addvertex,3,-0.5,0,
+Addvertex,3,-0.5,25,
+Addvertex,7,-1,25,
+Addvertex,7,-1,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,Grassground.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+Addvertex,7,-1,0,
+Addvertex,7,-1,25,
+Addvertex,12,-4,25,
+Addvertex,12,-4,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,Grassground.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+Addvertex,12,-4,0,
+Addvertex,12,-4,25,
+Addvertex,50,-4,25,
+Addvertex,50,-4,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,Grassground.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+Addvertex,12,-3.9,0,
+Addvertex,12,-3.9,25,
+Addvertex,15,-3.9,25,
+Addvertex,15,-3.9,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,Concrete.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,4,0,
+SetTextureCoordinates,2,4,1,
+SetTextureCoordinates,3,0,1,

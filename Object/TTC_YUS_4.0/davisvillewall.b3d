@@ -1,0 +1,20 @@
+[meshbuilder]
+vertex 2.5,-10,-150
+vertex 2.5,6,0
+vertex 150,6,0
+vertex 150,-10,-150
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,4,0
+coordinates 2,0,2
+coordinates 3,4,2
+
+[meshbuilder]
+vertex 2.5,-10,-150
+vertex 2.5,6,0
+vertex 2.5,-10,0
+face2 0,1,2
+color 105,105,105

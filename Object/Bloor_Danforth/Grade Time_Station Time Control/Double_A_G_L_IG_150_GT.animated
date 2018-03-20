@@ -1,0 +1,24 @@
+[Object]
+Position = 0, -2.65, 0
+States = SignalDouble.csv
+
+[Object]
+Position = 0, 0.6, -.4
+States = blank.csv, SignalSingle_2.csv
+StateFunction = if[trackDistance < 150 & pluginstate[17] != 0 & pluginstate[16] == 2, 1,0]
+
+[Object]
+Position = 0, 0.6, 0
+States = SignalSingle_0.csv, SignalSingle_X.csv, SignalSingle_2.csv
+StateFunction = if [trackDistance < 150 & pluginstate[16] == 1 & pluginstate[17] != 0,value==0,0]
+RefreshRate = 1
+
+[Object]
+Position = 0, -0.5, 0
+States = SignalSingle_4.csv, SignalSingle_0.csv
+StateFunction = if[trackDistance < 150 & pluginstate[17] & pluginstate[16] == 2 != 0, 0,1]
+
+[Object]
+Position = 0, -0.5, 0
+States = SignalSingle_GTLunar.csv, SignalSingle_SClear.csv
+StateFunction = if[trackDistance <= 0 | pluginstate[17] == 0 | pluginstate[17] == 3, 1,0]

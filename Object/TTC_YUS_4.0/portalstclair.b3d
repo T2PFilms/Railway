@@ -1,0 +1,57 @@
+[meshbuilder]
+vertex -2.5,4.7,0
+vertex -3.5,4.7,0
+vertex -3.5,-0.5,0
+vertex -2.5,-0.5,0
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+[meshbuilder]
+vertex 2.5,4.7,0
+vertex 11,4.7,0
+vertex 11,-0.5,0
+vertex 2.5,-0.5,0
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+[meshbuilder]
+vertex -8.5,4.7,0
+vertex -16,4.7,0
+vertex -16.2.2,-0.5,0
+vertex -8.5,-0.5,0
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+[meshbuilder]
+vertex -16,4.7,0
+vertex -16,7,0
+vertex 11,7,0
+vertex 11,4.7,0
+face2 0,1,2,3
+
+[texture]
+load concretemedium.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+

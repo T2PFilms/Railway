@@ -1,0 +1,5 @@
+[MESHBUILDER]                      ;Bulb_Diam=0.126m
+Cylinder  16,+0.06,+0.06,+0.001
+Rotate               1,0,0,+090.0
+EmissiveColor     255,015,015;Red
+Color         255,015,015,231;Red

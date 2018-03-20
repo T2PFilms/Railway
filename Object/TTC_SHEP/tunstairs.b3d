@@ -1,0 +1,99 @@
+[MeshBUilder]
+Vertex -2.5,1.1,0
+Vertex -2.5,1.1,5
+Vertex -1.5,1.1,5
+Vertex -1.5,1.1,0
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBUilder]
+Vertex -1.5,1.1,0
+Vertex -1.5,1.1,5
+Vertex -1.5,-0.25,5
+Vertex -1.5,-0.25,0
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBUilder]
+Vertex -2.5,1.1,0
+Vertex -2.5,1.1,5
+Vertex -2.5,-0.25,5
+Vertex -2.5,-0.25,0
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBUilder]
+Vertex -2.5,1.1,0
+Vertex -1.5,1.1,0
+Vertex -1.5,-0.25,0
+Vertex -2.5,-0.25,0
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBUilder]
+Vertex -2.5,1.1,5
+Vertex -1.5,1.1,5
+Vertex -1.5,-0.25,5
+Vertex -2.5,-0.25,5
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBUilder]
+Vertex -2.5,1.1,5
+Vertex -1.5,1.1,5
+Vertex -1.5,-0.25,17
+Vertex -2.5,-0.25,17
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBUilder]
+Vertex -1.5,1.1,5
+Vertex -1.5,-0.25,17
+Vertex -1.5,-0.25,5
+Face2 0,1,2
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,1,1
+coordinates 2,0,1
+
+[MeshBUilder]
+Vertex -2.5,1.1,5
+Vertex -2.5,-0.25,17
+Vertex -2.5,-0.25,5
+Face2 0,1,2
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,1,1
+coordinates 2,0,1

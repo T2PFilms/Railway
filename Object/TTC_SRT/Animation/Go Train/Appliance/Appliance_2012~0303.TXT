@@ -1,0 +1,38 @@
+To install this train appliance library, download the ZIP file & then extract the folder & subsidiary files to these locations:  
+     \Train\Appliance\
+     \ManagedContent\Appliance\
+
+This appliance folder contains railcar Animated|B3D objects per AAR+BRS+JIS+UIC~ standards, for use as a shared library folder.
+Several objects are fully animated; couplers, exhaust, lamps, & wheels move|change, depending on physics|position in the train.
+Caution, the objects are a shared library used in several trains, so don't alter these files unless you know what you're doing.
+Each object .Animated|B3D header includes a description of the modeled object & how to [INCLUDE] it in your train, for example:
+\Train\YourTrain\CarAssemblyFile.Animated
+     [INCLUDE]
+     CarsExterior\Body.Animated|B3D|CSV|X
+     [INCLUDE]
+     ..\Appliance\Cplr~SGxL~AREA.Animated
+     Position=+0.000,+0.000,+11.32
+     [INCLUDE]
+     ..\Appliance\Lamp~Head~178A.Animated
+     Position=+0.000,+4.615,+9.067
+     [INCLUDE]
+     ..\Appliance\Bogi~SGDC~EH4A.Animated
+     Position=+0.000,+0.000,+7.290
+     [INCLUDE]
+     ..\Appliance\Vapr~DLoc~Xhst.Animated
+     Position=+0.000,+0.000,+1.050
+     [INCLUDE]
+     ..\Appliance\Klax~Horn~4F1R.Animated
+     Position=+0.000,+4.575,-1.000
+     [INCLUDE]
+     ..\Appliance\Bogi~SGDC~EH4B.Animated
+     Position=+0.000,+0.000,-7.290
+     [INCLUDE]
+     ..\Appliance\Lamp~Head~178B.Animated
+     Position=+0.000,+3.950,-10.61
+     [INCLUDE]
+     ..\Appliance\Cplr~SGxL~AREB.Animated
+     Position=+0.000,+0.000,-11.32
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+BVE files have no registered copyrights|patents, are public domain, free to use|copy|modifiy, without restriction|attribution.

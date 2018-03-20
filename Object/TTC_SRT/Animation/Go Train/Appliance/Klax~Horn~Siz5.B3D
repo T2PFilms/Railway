@@ -1,0 +1,48 @@
+;Locomotive Horn,Lgth=17in=0.432m
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[MESHBUILDER]                      ;Diap
+Cylinder  18,+0.040,+0.040,+0.018
+Rotate               1,0,0,+090.0
+Translate    +0.000,+0.000,-0.023
+Color         7,146,60,255;Gra
+
+[MESHBUILDER]                      ;Bell
+Cylinder  18,-0.104,-0.066,+0.034
+Rotate               1,0,0,+090.0
+Translate    +0.000,+0.000,+0.387
+Color         7,146,60,255;Gra
+[MESHBUILDER]
+Cylinder  18,-0.103,-0.065,-0.034
+Rotate               1,0,0,-090.0
+Translate    +0.000,+0.000,+0.387
+Color         7,146,60,255;Gra
+[MESHBUILDER]
+Cylinder  18,-0.066,-0.047,+0.034
+Rotate               1,0,0,+090.0
+Translate    +0.000,+0.000,+0.353
+Color         7,146,60,255;Gra
+[MESHBUILDER]
+Cylinder  18,-0.065,-0.046,-0.034
+Rotate               1,0,0,-090.0
+Translate    +0.000,+0.000,+0.353
+Color         7,146,60,255;Gra
+[MESHBUILDER]
+Cylinder  18,-0.047,-0.038,+0.034
+Rotate               1,0,0,+090.0
+Translate    +0.000,+0.000,+0.319
+Color         7,146,60,255;Gra
+[MESHBUILDER]
+Cylinder  18,-0.046,-0.037,-0.034
+Rotate               1,0,0,-090.0
+Translate    +0.000,+0.000,+0.319
+Color         7,146,60,255;Gra
+[MESHBUILDER]
+Cylinder  18,-0.038,-0.014,+0.331
+Rotate               1,0,0,+090.0
+Translate    +0.000,+0.000,+0.140
+Color         7,146,60,255;Gra
+[MESHBUILDER]
+Cylinder  18,-0.037,-0.013,-0.331
+Rotate               1,0,0,-090.0
+Translate    +0.000,+0.000,+0.140
+Color         7,146,60,255;Gra

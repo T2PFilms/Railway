@@ -1,0 +1,39 @@
+[MeshBuilder]
+Vertex 2.35,-9,-1
+Vertex 2.35,-9,26
+Vertex 2.35,9,26
+Vertex 2.35,9,-1
+Face2 0,1,2,3
+Color 108,99,89
+Load IDK.png
+Coordinates 0, 7, 0
+Coordinates 1, 7, 7
+Coordinates 2, 0, 7
+Coordinates 3, 0, 0
+
+[MeshBuilder]
+Vertex 2.85,9,-1
+Vertex 2.85,9,26
+Vertex 2.35,9,26
+Vertex 2.35,9,-1
+Face2 0,1,2,3
+Color 108,99,89
+Load IDK.png
+Coordinates 0, 1, 0
+Coordinates 1, 1, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+[MeshBuilder]
+Vertex 2.65,15.5,-1
+Vertex 2.65,15.5,26
+Vertex 2.65,9,26
+Vertex 2.65,9,-1
+Face2 2,3,0,1
+Load ChainFenceDark.bmp
+Transparent 0,0,0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 1
+Coordinates 3, 7, 1
+Coordinates 0, 7, 0
+TranslateAll 0,2,-25

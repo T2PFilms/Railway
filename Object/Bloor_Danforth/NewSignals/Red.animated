@@ -1,0 +1,19 @@
+[Object]
+Position = 0.1, -2.65, 0
+States = SignalSingle_GT.CSV
+[Object]
+Position = 0.1, 0, 0
+States = Default.csv
+
+;Red
+[Object]
+Position = 0.1, 0, 0
+States = LRed.csv
+
+;Flashing Amber (Invalid atm)
+
+[Object]
+Position = 0.1, -0.725, 0
+States = null.b3d,LYellow.csv
+StateFunction = if[pluginState[1337]==1,value==0,0]
+RefreshRate = 0.5

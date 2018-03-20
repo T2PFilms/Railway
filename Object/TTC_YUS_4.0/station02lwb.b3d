@@ -1,0 +1,56 @@
+[meshbuilder]
+vertex  3.5,-0.5,0
+vertex -7.2,-0.5,0
+vertex -7.2,-0.5,25
+vertex  3.5,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load concrete.bmp
+coordinates 0,10,0
+coordinates 1,10,1
+coordinates 2,0,1
+coordinates 3,0,0
+
+[meshbuilder]
+vertex -7.2,4.7,25
+vertex -7.2,-0.5,25
+vertex -7.2,-0.5,0
+vertex -7.2,4.7,0
+face2 0,1,2,3
+
+[texture]
+load statile01wb.bmp
+coordinates 0,4,0
+coordinates 1,4,1
+coordinates 2,0,1
+coordinates 3,0,0
+
+[meshbuilder]
+vertex -7.2,4.7,0
+vertex -7.2,4.7,25
+vertex  3.5,4.7,25
+vertex  3.5,4.7,0
+face2 0,1,2,3
+
+[texture]
+load roof.bmp
+coordinates 0,10,0
+coordinates 1,10,1
+coordinates 2,0,1
+coordinates 3,0,0
+
+[meshbuilder]
+vertex -1.7,4.675,25
+vertex -1.7,4.675,0
+vertex -1.5,4.675,0
+vertex -1.5,4.675,25
+face2 3,2,1,0
+color 255,255,255
+
+[texture]
+load rooflight.bmp
+coordinates 0,0,12
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,12

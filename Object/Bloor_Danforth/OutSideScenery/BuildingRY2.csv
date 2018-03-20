@@ -1,0 +1,28 @@
+;Why you Stealing my code without Asking though? Ask T2P Films First
+
+CreateMeshBuilder,
+AddVertex,10, 6, 0,
+AddVertex,-25, 6, 0,
+AddVertex,10, -5, 0,
+AddVertex,-25, -5, 0,
+AddFace,2,3,1,0,
+GenerateNormals,
+LoadTexture,BuildingRY.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,1,1,
+
+
+CreateMeshBuilder,
+AddVertex,10, 6, 50,
+AddVertex,10, 6, 0,
+AddVertex,10, -5, 50,
+AddVertex,10, -5, 0,
+AddFace,2,3,1,0,
+GenerateNormals,
+LoadTexture,BuildingRY.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,2,1,

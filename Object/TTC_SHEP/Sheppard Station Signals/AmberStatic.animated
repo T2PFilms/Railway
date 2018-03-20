@@ -1,0 +1,20 @@
+;signal used if next signal is automatic
+
+[Object]
+Position = 0, -2.65, 0
+States = SignalSingle_GT.csv
+
+[Object]
+Position = 0, 0,0
+States = SignalSingle_X.csv
+
+[Object]
+Position = 0, 0,0
+States = redglow.csv,yellowglow.csv
+StateFunction = if[section>=2,1,0]
+RefreshRate = 5
+
+[Object]
+Position = 0, 0, 0
+States = SignalSingle_GTLunar.csv,SignalSingle_SClear.csv
+StateFunction = if[section==4,0,1]

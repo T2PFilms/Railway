@@ -1,0 +1,8 @@
+[Object]
+States = t1finchanimated.csv
+Position = 0,0,0
+TextureShiftXFunction = 0.697 * time
+
+[Include]
+t1front.csv
+Position = 0,0,0

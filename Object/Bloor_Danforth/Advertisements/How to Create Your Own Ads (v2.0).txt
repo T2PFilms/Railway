@@ -1,0 +1,11 @@
+Here is TrainsToronto's Guide to creating your own ads.
+
+
+INSTRUCTIONS:
+
+1. Create an ad with a 375x500 resolution in .png format.
+
+2. Edit the [WALLAD].csv file in Notepad, and rename NAMEOFTEXTURE.png
+to the name of your file. Leave .png extension in the file.
+
+3. Click save as, and save your new .csv file. Be careful when replacing files.

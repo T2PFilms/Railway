@@ -1,0 +1,12 @@
+[MeshBuilder]
+Vertex -1210, -21, 0
+Vertex -1210, -15, 0
+Vertex 1210, -15, 0
+Vertex 1210, -21, 0
+Face2 0, 1, 2, 3
+Transparent 0, 0, 0
+Load ChainFenceDark.bmp
+Coordinates 0, 444, 1
+Coordinates 1, 444, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1

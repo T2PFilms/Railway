@@ -1,0 +1,4 @@
+;general
+$Include(WB1.0.wb)
+$Include(WB1.0var1.wb;85;WB1.0var2.wb;15)
+$Include(..\config\announcementsWB.cfg)

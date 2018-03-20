@@ -1,0 +1,49 @@
+[MeshBuilder]
+Vertex 3.55,4.7,0
+Vertex 3.55,1,0
+Vertex 3.55,1,20
+Vertex 3.55,4.7,20
+Face2 0,1,2,3,
+Color 127,74,12
+
+[MeshBuilder]
+Vertex 3.7,4.7,0
+Vertex 3.7,4.7,20
+Vertex 3.7,1,20
+Vertex 3.7,1,0
+Face2 0,1,2,3
+Color 130,70,10
+
+[MeshBuilder]
+Vertex 3.55,4.7,0
+Vertex 3.7,4.7,0
+Vertex 3.7,1,0
+Vertex 3.55,1,0
+Face2 0,1,2,3
+Color 127,74,12
+
+
+
+[MeshBuilder]
+Vertex 5.45,4.7,0
+Vertex 5.45,1,0
+Vertex 5.45,1,20
+Vertex 5.45,4.7,20
+Face2 0,1,2,3,
+Color 127,74,12
+
+[MeshBuilder]
+Vertex 5.3,4.7,0
+Vertex 5.3,4.7,20
+Vertex 5.3,1,20
+Vertex 5.3,1,0
+Face2 0,1,2,3
+Color 130,70,10
+
+[MeshBuilder]
+Vertex 5.45,4.7,0
+Vertex 5.3,4.7,0
+Vertex 5.3,1,0
+Vertex 5.45,1,0
+Face2 0,1,2,3
+Color 127,74,12

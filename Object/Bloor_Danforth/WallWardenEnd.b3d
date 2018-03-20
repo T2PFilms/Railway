@@ -1,0 +1,589 @@
+;-----------------------
+;Front End
+;-----------------------
+[MeshBuilder]
+Vertex -2,0.2,0.15
+Vertex -2,4.1,0.15
+Vertex -10,4.1,0.15
+Vertex -10,0.2,0.15
+Face 0,1,2,3
+Load wardentile2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,40
+Coordinates 2,40,40
+Coordinates 3,40,0
+[MeshBuilder]
+Vertex -2,4.1.15
+Vertex -2,4.22,0.15
+Vertex -10,4.22,0.15
+Vertex -10,4.1,0.15
+Face 0,1,2,3
+Color 79,0,20
+
+[MeshBuilder]
+Vertex -2,4.22,0.15
+Vertex -2,5.15,0.15
+Vertex -10,5.15,0.15
+Vertex -10,4.22,0.15
+Face 0,1,2,3
+Color 190,160,130
+
+
+[MeshBuilder]
+Vertex -10,-0.15,-0.02
+Vertex -10,4.7,-0.02
+Vertex -2,4.7,-0.02
+Vertex -2,-0.15,-0.02
+Face 0,1,2,3
+Color 80,70,60
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,10
+Coordinates 2,10,10
+Coordinates 3,10,0
+
+
+[MeshBuilder]
+Vertex -2,-0.15,-0.02
+Vertex -2,4.7,-0.02
+Vertex -2,4.7,0.15
+Vertex -2,-0.15,0.15
+Face 0,1,2,3
+Color 85,75,65
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,10
+Coordinates 2,1,10
+Coordinates 3,1,0
+
+
+
+[MeshBuilder]
+Vertex -10,-0.15,-0.02
+Vertex -10,4.7,-0.02
+Vertex -10,4.7,0.15
+Vertex -10,-0.15,0.15
+Face 3,2,1,0
+Color 85,75,65
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,10
+Coordinates 2,1,10
+Coordinates 3,1,0
+
+[MeshBuilder]
+Vertex -4,5.15,0.15
+Vertex -4,4.22,0.15
+Vertex -4,4.22,2
+Vertex -4,5.15,2
+Face2 0,1,2,3
+Color 190,160,130
+
+[MeshBuilder]
+Vertex -4,0.2,0.15
+Vertex -4,4.1,0.15
+Vertex -4,4.1,2
+Vertex -4,0.2,2
+Face2 0,1,2,3
+Load wardentile2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,40
+Coordinates 2,8,40
+Coordinates 3,8,0
+[MeshBuilder]
+Vertex -4,4.1,0.15
+Vertex -4,4.22,0.15
+Vertex -4,4.22,2
+Vertex -4,4.1,2
+Face2 0,1,2,3
+Color 79,0,20
+
+[MeshBuilder]
+Vertex -8,4.1,0.15
+Vertex -8,4.22,0.15
+Vertex -8,4.22,2
+Vertex -8,4.1,2
+Face2 0,1,2,3
+Color 79,0,20
+
+[MeshBuilder]
+Vertex -8,0.2,0.15
+Vertex -8,4.1,0.15
+Vertex -8,4.1,2
+Vertex -8,0.2,2
+Face2 0,1,2,3
+
+Load wardentile2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,40
+Coordinates 2,8,40
+Coordinates 3,8,0
+
+
+[MeshBuilder]
+Vertex -8,0.2,2
+Vertex -8,4.1,2
+Vertex -4,4.1,2
+Vertex -4,0.2,2
+Face2 0,1,2,3
+Load wardentile2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,40
+Coordinates 2,20,40
+Coordinates 3,20,0
+
+[MeshBuilder]
+Vertex -7,1.1,2.003
+Vertex -7,3.85,2.003
+Vertex -5,3.85,2.003
+Vertex -5,1.1,2.003
+Face2 0,1,2,3
+Load RedDoorCon.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+
+[MeshBuilder]
+Vertex -3.99,1.1,138.8
+Vertex -3.99,3.85,138.8
+Vertex -3.99,3.85,140.2
+Vertex -3.99,1.1,140.2
+Face2 0,1,2,3
+Load RedDoorCon.bmp
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,0.5,0
+Coordinates 3,0.5,1
+
+
+[MeshBuilder]
+Vertex -3.99,1.1,140.2
+Vertex -3.99,3.85,140.2
+Vertex -3.99,3.85,140.3
+Vertex -3.99,1.1,140.3
+Face2 0,1,2,3
+Load RedDoorCon.bmp
+Coordinates 0,0.987,1
+Coordinates 1,0.987,0
+Coordinates 2,0.95,0
+Coordinates 3,0.95,1
+
+[MeshBuilder]
+Vertex -8,4.1,2
+Vertex -8,4.22,2
+Vertex -4,4.22,2
+Vertex -4,4.1,2
+Face2 0,1,2,3
+Color 79,0,20
+
+
+
+
+[MeshBuilder]
+Vertex -4,5.15,2
+Vertex -4,4.22,2
+Vertex -8,4.22,2
+Vertex -8,5.15,2
+Face2 0,1,2,3
+Color 190,160,130
+
+[MeshBuilder]
+Vertex -8,5.15,0.15
+Vertex -8,4.22,0.15
+Vertex -8,4.22,2
+Vertex -8,5.15,2
+Face2 0,1,2,3
+Color 190,160,130
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;------------------------
+;Back End
+;------------------------
+
+[MeshBuilder]
+Vertex -2,0,150.02
+Vertex -2,4.7,150.02
+Vertex -10,4.7,150.02
+Vertex -10,0,150.02
+Face 0,1,2,3
+Color 80,70,60
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,10
+Coordinates 2,10,10
+Coordinates 3,10,0
+
+[MeshBuilder]
+Vertex -10,0.2,149.85
+Vertex -10,4.1,149.85
+Vertex -2,4.1,149.85
+Vertex -2,0.2,149.85
+Face 0,1,2,3
+Load wardentile2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,40
+Coordinates 2,40,40
+Coordinates 3,40,0
+
+[MeshBuilder]
+Vertex -10,4.22,149.85
+Vertex -10,5.15,149.85
+Vertex -2,5.15,149.85
+Vertex -2,4.22,149.85
+Face 0,1,2,3
+Color 190,160,130
+
+[MeshBuilder]
+Vertex -10,4.1,149.85
+Vertex -10,4.22,149.85
+Vertex -2,4.22,149.85
+Vertex -2,4.1,149.85
+Face 0,1,2,3
+Color 79,0,20
+
+
+[MeshBuilder]
+Vertex -2,-0.15,150.02
+Vertex -2,4.7,150.02
+Vertex -2,4.7,149.85
+Vertex -2,-0.15,149.85
+Face 3,2,1,0
+Color 85,75,65
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,10
+Coordinates 2,1,10
+Coordinates 3,1,0
+
+
+
+[MeshBuilder]
+Vertex -10,-0.15,150.02
+Vertex -10,4.7,150.02
+Vertex -10,4.7,149.85
+Vertex -10,-0.15,149.85
+Face 0,1,2,3
+Color 85,75,65
+Load idk.png
+Coordinates 0,0,0
+Coordinates 1,0,10
+Coordinates 2,1,10
+Coordinates 3,1,0
+
+
+
+;The weird room at the end
+[MeshBuilder]
+Vertex -4,0.2,138
+Vertex -4,4.1,138
+Vertex -4,4.1,149.85
+Vertex -4,0.2,149.85
+Face 0,1,2,3
+Load wardentile2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,40
+Coordinates 2,50,40
+Coordinates 3,50,0
+
+[MeshBuilder]
+Vertex -4,4.1,138
+Vertex -4,4.22,138
+Vertex -4,4.22,149.85
+Vertex -4,4.1,149.85
+Face 0,1,2,3
+Color 79,0,20
+
+[MeshBuilder]
+Vertex -8,4.1,138
+Vertex -8,4.22,138
+Vertex -8,4.22,149.85
+Vertex -8,4.1,149.85
+Face 3,2,1,0
+Color 79,0,20
+
+[MeshBuilder]
+Vertex -8,0.2,138
+Vertex -8,4.1,138
+Vertex -8,4.1,149.85
+Vertex -8,0.2,149.85
+Face 3,2,1,0
+
+Load wardentile2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,40
+Coordinates 2,50,40
+Coordinates 3,50,0
+
+
+[MeshBuilder]
+Vertex -8,0.2,138
+Vertex -8,4.1,138
+Vertex -4,4.1,138
+Vertex -4,0.2,138
+Face 0,1,2,3
+Load wardentile2.bmp
+Coordinates 0,0,0
+Coordinates 1,0,40
+Coordinates 2,20,40
+Coordinates 3,20,0
+
+
+[MeshBuilder]
+Vertex -8,4.1,138
+Vertex -8,4.22,138
+Vertex -4,4.22,138
+Vertex -4,4.1,138
+Face 0,1,2,3
+Color 79,0,20
+
+
+
+
+[MeshBuilder]
+Vertex -4,5.15,138
+Vertex -4,4.22,138
+Vertex -4,4.22,149.85
+Vertex -4,5.15,149.85
+Face 3,2,1,0
+Color 190,160,130
+
+[MeshBuilder]
+Vertex -8,5.15,138
+Vertex -8,4.22,138
+Vertex -8,4.22,149.85
+Vertex -8,5.15,149.85
+Face 0,1,2,3
+Color 190,160,130
+
+[MeshBuilder]
+Vertex -8,5.15,138
+Vertex -8,4.22,138
+Vertex -4,4.22,138
+Vertex -4,5.15,138
+Face 3,2,1,0,
+Color 190,160,130
+
+;Emergency
+[MeshBuilder]
+Vertex -2.45,2,149.8
+Vertex -2.45,4,149.8
+Vertex -3.45,4,149.8
+Vertex -3.45,2,149.8
+Face 3,2,1,0
+
+Load emg.png,emg.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex -2.45,2,149.8
+Vertex -2.45,4,149.8
+Vertex -2.45,4,149.85
+Vertex -2.45,2,149.85
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+
+
+[MeshBuilder]
+Vertex -3.45,2,149.8
+Vertex -3.45,4,149.8
+Vertex -3.45,4,149.85
+Vertex -3.45,2,149.85
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+
+
+[MeshBuilder]
+Vertex -3.45,4,149.8
+Vertex -3.45,4,149.85
+Vertex -2.45,4,149.85
+Vertex -2.45,4,149.8
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+
+
+[MeshBuilder]
+Vertex -3.45,2,149.8
+Vertex -3.45,2,149.85
+Vertex -2.45,2,149.85
+Vertex -2.45,2,149.8
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+
+
+
+
+
+
+
+;Front
+
+[MeshBuilder]
+Vertex -2.45,2,0.18
+Vertex -2.45,4,0.18
+Vertex -3.45,4,0.18
+Vertex -3.45,2,0.18
+Face 0,1,2,3
+
+Load emg.png,emg.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex -2.45,2,0.18
+Vertex -2.45,4,0.18
+Vertex -2.45,4,0
+Vertex -2.45,2,0
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+
+
+[MeshBuilder]
+Vertex -3.45,2,0.18
+Vertex -3.45,4,0.18
+Vertex -3.45,4,0
+Vertex -3.45,2,0
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+
+
+[MeshBuilder]
+Vertex -3.45,4,0.18
+Vertex -3.45,4,0
+Vertex -2.45,4,0
+Vertex -2.45,4,0.18
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+
+
+[MeshBuilder]
+Vertex -3.45,2,0.18
+Vertex -3.45,2,0
+Vertex -2.45,2,0
+Vertex -2.45,2,0.18
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+
+
+
+
+
+;Front other
+;Front
+
+[MeshBuilder]
+Vertex -2.45,2,0.18
+Vertex -2.45,4,0.18
+Vertex -3.45,4,0.18
+Vertex -3.45,2,0.18
+Face 0,1,2,3
+
+Load emg.png,emg.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Translate -6,0,0
+[MeshBuilder]
+Vertex -2.45,2,0.18
+Vertex -2.45,4,0.18
+Vertex -2.45,4,0
+Vertex -2.45,2,0
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+Translate -6,0,0
+
+[MeshBuilder]
+Vertex -3.45,2,0.18
+Vertex -3.45,4,0.18
+Vertex -3.45,4,0
+Vertex -3.45,2,0
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+Translate -6,0,0
+
+[MeshBuilder]
+Vertex -3.45,4,0.18
+Vertex -3.45,4,0
+Vertex -2.45,4,0
+Vertex -2.45,4,0.18
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+Translate -6,0,0
+
+[MeshBuilder]
+Vertex -3.45,2,0.18
+Vertex -3.45,2,0
+Vertex -2.45,2,0
+Vertex -2.45,2,0.18
+Face2 3,2,1,0
+Load metal.png
+Coordinates 0,0,15
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,15
+Translate -6,0,0

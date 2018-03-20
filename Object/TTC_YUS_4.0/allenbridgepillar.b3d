@@ -1,0 +1,33 @@
+;bridge
+[meshbuilder]
+vertex 0,-6,0
+vertex 0,-.2,0
+vertex 8,-.2,0
+vertex 8,-6,0
+face2 0,1,2,3
+color 139,132,113
+
+[meshbuilder]
+vertex 0,-6,0
+vertex 0,-6,8
+vertex 0,-.2,8
+vertex 0,-.2,0
+face2 0,1,2,3
+color 139,132,113
+
+[meshbuilder]
+vertex 8,-6,0
+vertex 8,-6,8
+vertex 8,-.2,8
+vertex 8,-.2,0
+face2 0,1,2,3
+color 139,132,113
+
+[meshbuilder]
+vertex 0,-.2,0
+vertex 0,-.2,8
+vertex 8,-.2,8
+vertex 8,-.2,0
+face2 0,1,2,3
+color 139,132,113
+

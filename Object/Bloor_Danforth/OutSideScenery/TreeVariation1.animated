@@ -1,0 +1,28 @@
+
+[Object]
+Position = 0,0,0
+States = Tree.csv
+
+[Object]
+Position = 3,-2,1
+States = Bush.csv
+RotateZDirection = 0, 1, 0
+RotateZFunction = Cos[0.5*time]
+
+[Object]
+Position = 3,2,-0.5
+States = Bush.csv
+RotateZDirection = 0, 1, 0
+RotateZFunction = Cos[time*0.2]
+
+[Object]
+Position = 2,1,0.5
+States = Bush.csv
+RotateZDirection = 0, 1, 0
+RotateZFunction = Cos[time*0.3]
+
+[Object]
+Position = 2.5,0,1
+States = Bush.csv
+RotateZDirection = 0, 1, 0
+RotateZFunction = -Cos[time*0.6]

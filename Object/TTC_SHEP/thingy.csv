@@ -1,0 +1,68 @@
+
+
+;; platform **********************
+
+CreateMeshBuilder
+AddVertex, -2.5,1.1,0
+AddVertex, -2.5,1.1,25
+AddVertex, -1.53,1.1,25
+AddVertex, -1.53,1.1,0
+AddFace2, 0,1,2,3
+SetColor,40,40,40
+
+
+
+;==========================================
+
+CreateMeshBuilder
+AddVertex, -1.53,0.9,0
+AddVertex, -1.53,0.9,25
+AddVertex, -1.53,1.1,25
+AddVertex, -1.53,1.1,0
+AddFace2, 3,2,1,0
+SetColor,25,25,25
+
+CreateMeshBuilder
+AddVertex, -1.53,-0.3,0
+AddVertex, -1.53,-0.3,25
+AddVertex, -1.53,0.9,25
+AddVertex, -1.53,0.9,0
+AddFace2, 3,2,1,0
+SetColor,25,25,25
+
+CreateMeshBuilder
+AddVertex, -1.53,-0.3,0
+AddVertex, -1.53,1.1,0
+AddVertex, -2.5,1.1,0
+AddVertex, -2.5,-0.3,0
+AddFace2, 3,2,1,0
+SetColor,25,25,25
+
+
+CreateMeshBuilder
+AddVertex, -1.53,1.1,10.7
+AddVertex, -1.53,1.1,11.2
+AddVertex, -1.53,2.6,11.2
+AddVertex, -1.53,2.6,10.7
+AddFace2, 3,2,1,0
+SetColor,150,150,150
+LoadTexture,Chainfencecat.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,1,1
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,0,0
+SetDecalTransparentColor,0,255,0
+
+CreateMeshBuilder
+AddVertex, -1.53,1.1,14.2
+AddVertex, -1.53,1.1,13.7
+AddVertex, -1.53,2.6,13.7
+AddVertex, -1.53,2.6,14.2
+AddFace2, 3,2,1,0
+SetColor,150,150,150
+LoadTexture,Chainfencecat.png
+SetTextureCoordinates,0,0,1
+SetTextureCoordinates,1,1,1
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,0,0
+SetDecalTransparentColor,0,255,0

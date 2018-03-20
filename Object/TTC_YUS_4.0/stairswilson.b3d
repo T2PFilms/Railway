@@ -1,0 +1,67 @@
+;front
+
+[meshbuilder]
+vertex -7.5,-0.5,5
+vertex -7.5,4.3,5
+vertex -4.5,4.3,5
+vertex -4.5,-0.5,5
+face2 0,1,2,3
+
+[texture]
+load stairswilsonfront.bmp
+coordinates 2,0,0
+coordinates 1,1,0
+coordinates 0,1,1
+coordinates 3,0,1
+transparent 0,255,0
+
+;left side
+
+[meshbuilder]
+vertex -7.5,-0.5,5
+vertex -7.5,-0.5,20
+vertex -7.5,4.3,20
+vertex -7.5,4.3,5
+face2 0,1,2,3
+
+[texture]
+load stairswilsonfront.bmp
+coordinates 2,0,0
+coordinates 3,1,0
+coordinates 0,1,1
+coordinates 1,0,1
+transparent 0,255,0
+
+;right side
+
+[meshbuilder]
+vertex -4.5,-0.5,5
+vertex -4.5,-0.5,20
+vertex -4.5,4.3,20
+vertex -4.5,4.3,5
+face2 0,1,2,3
+
+[texture]
+load stairswilsonfront.bmp
+coordinates 2,0,0
+coordinates 3,1,0
+coordinates 0,1,1
+coordinates 1,0,1
+transparent 0,255,0
+
+;back
+
+[meshbuilder]
+vertex -7.5,-0.5,20
+vertex -7.5,4.3,20
+vertex -4.5,4.3,20
+vertex -4.5,-0.5,20
+face 0,1,2,3
+
+[texture]
+load stairswilsonback.bmp
+coordinates 2,0,0
+coordinates 1,1,0
+coordinates 0,1,1
+coordinates 3,0,1
+transparent 0,255,0

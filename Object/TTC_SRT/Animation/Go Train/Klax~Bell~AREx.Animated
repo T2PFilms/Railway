@@ -1,0 +1,8 @@
+;Klaxon~Bell~AmericanRailElectric endA|B for 1990|Later Loco
+;Set At *. ANIMATED [Include] Position=+|-DimX,+DimY,+|-DimZ
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;All BVE|OpenBVE files have no registered copyright or trademark,
+;are public domain, & free to copy|distribute|modify|use at will.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]
+States=Klax~Bell~AREx_Assy.B3D

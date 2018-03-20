@@ -1,0 +1,8 @@
+CreateMeshBuilder,
+Cylinder,3,0.5,0.5,0.05;
+Addface2,0,1,2,3,
+SetColor,52,125,0
+Rotate, ,,,90
+Rotate, ,90,,90
+Rotate,90,,,90
+Translate, 5,2.75,-90

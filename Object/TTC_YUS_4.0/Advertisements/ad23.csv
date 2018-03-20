@@ -1,0 +1,108 @@
+
+
+
+
+;Advert Hold Board FRONT
+CreateMeshBuilder
+Addvertex, 1.9, 2.68, 7.15,
+Addvertex, 1.9, 2.68, 5.75,
+Addvertex, 1.9, 1, 5.75,
+Addvertex, 1.9, 1, 7.15,
+Addface, 0, 1, 2, 3,
+GenerateNormals,
+Loadtexture, Advert_Board_back.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+;Advert Hold Board Side 1
+CreateMeshBuilder
+Addvertex, 1.9, 2.68, 5.75,
+Addvertex, 1.93, 2.68, 5.75,
+Addvertex, 1.93, 1, 5.75,
+Addvertex, 1.9, 1, 5.75,
+Addface, 0, 1, 2, 3,
+GenerateNormals,
+Loadtexture, Advert_Board_back.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+
+;Advert Hold Board Side 2
+CreateMeshBuilder
+Addvertex, 1.93, 2.68, 7.15,
+Addvertex, 1.9, 2.68, 7.15,
+Addvertex, 1.9, 1, 7.15,
+Addvertex, 1.93, 1, 7.15,
+Addface, 0, 1, 2, 3,
+GenerateNormals,
+Loadtexture, Advert_Board_back.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+;===============================
+
+;Advert Black Panel side rim 1
+CreateMeshBuilder
+Addvertex, 1.88, 2.68, 5.9,
+Addvertex, 1.9, 2.68, 5.9,
+Addvertex, 1.9, 1, 5.9,
+Addvertex, 1.88, 1, 5.9,
+Addface, 0, 1, 2, 3,
+GenerateNormals,
+Loadtexture, Advert_Black_Panel_Rim.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+;Advert Black Panel rim top
+CreateMeshBuilder
+Addvertex, 1.88, 2.68, 7,
+Addvertex, 1.9, 2.68, 7,
+Addvertex, 1.9, 2.68, 5.9,
+Addvertex, 1.88, 2.68, 5.9,
+Addface, 0, 1, 2, 3,
+GenerateNormals,
+Loadtexture, Advert_Black_Panel_Rim.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+;Advert Black Panel side rim 2
+CreateMeshBuilder
+Addvertex, 1.9, 2.68, 7,
+Addvertex, 1.88, 2.68, 7,
+Addvertex, 1.88, 1, 7,
+Addvertex, 1.9, 1, 7,
+Addface, 0, 1, 2, 3,
+GenerateNormals,
+Loadtexture, Advert_Black_Panel_Rim.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+
+;Advert Panel FRONT
+CreateMeshBuilder
+Addvertex, 1.88, 2.68, 7,
+Addvertex, 1.88, 2.68, 5.9,
+Addvertex, 1.88, 1, 5.9,
+Addvertex, 1.88, 1, 7,
+Addface, 0, 1, 2, 3,
+GenerateNormals,
+Loadtexture, ad23.png
+SetTextureCoordinates, 0,0,0
+SetTextureCoordinates, 1,1,0
+SetTextureCoordinates, 2,1,1
+SetTextureCoordinates, 3,0,1
+Rotateall,0,180,0,180,
+Translateall,1.92,-0.3,7.15,
+Scaleall,1,1.2,1.45
+

@@ -1,0 +1,3038 @@
+$Include(..\config\BDannouncements.cfg)
+With Route
+.comment OpenBVE Bloor-Danforth Westbound v2.0 Rain [Kennedy to Kipling]$Chr(13)You will need about a 500m viewing distance to play this route. $Chr(13)Trackwork by Michael Goetz from Virginia.$Chr(13)$Chr(13)Credits:$Chr(13)Lead Developer: Aljon Ramos$Chr(13)Route Developer: John Marbella$Chr(13)Signal Plugins: Weilan Huang$Chr(13)The rest of the credits are located at the end of the Route and Objects folder. 
+.timetable TTC Bloor-Danforth Westbound v2.0
+.gauge 1473
+.Signal(0).Set 0
+.Signal(1).Set 80
+.Signal(2).Set 80
+.Signal(3).Set 80
+.Signal(4).Set 80
+
+.AccelerationDueToGravity 9.80769
+.Image image.gif
+.elevation 2300
+.Temperature 13
+.DeveloperID T2P Films
+
+
+With Train
+.folder Toronto Subway/Bloor Danforth 2.0/Toronto Subway H6 BD V1.0
+.run(0) 0
+.run(1) 0
+.run(2) 2
+.run(3) 2
+.run(4) 2
+.run(5) 4
+.run(6) 4
+.run(7) 4
+.run(16) 2
+.run(17) 2
+.run(18) 2
+.run(19) 2
+.run(20) 2
+.run(21) 2
+.run(28) 2
+.run(29) 2
+.run(30) 2
+.run(31) 2
+.run(34) 2
+.run(35) 2
+.run(36) 3
+.run(37) 2
+.run(38) 2
+.run(39) 2
+.run(40) 2
+.run(41) 2
+.run(42) 2
+.run(43) 2
+.run(44) 2
+.run(45) 2
+.run(46) 2
+.run(47) 2
+.run(48) 2
+.run(49) 2
+.run(50) 2
+.run(51) 2
+.run(56) 2
+.run(57) 2
+.run(58) 3
+.run(59) 2
+.run(60) 2
+.run(61) 2
+.run(62) 2
+.run(63) 2
+.run(64) 2
+.run(65) 2
+.run(66) 2
+.run(67) 2
+.run(68) 2
+
+.run(72) 4
+.run(73) 4
+.run(74) 4
+.run(75) 4
+.run(76) 4
+.run(77) 4
+.run(78) 4
+.run(79) 4
+.run(87) 4
+.run(88) 4
+.run(89) 4
+.run(90) 4
+.run(91) 4
+.run(92) 4
+.run(93) 4
+.run(94) 2
+
+.run(97) 2 ; Tunnel Null
+.run(98) 4 ; Outside Null
+.run(99) 0 ; Station Null
+
+.flange(8) 1
+.flange(48) 2
+.flange(49) 1
+.flange(50) 2
+.flange(51) 1
+.flange(52) 2
+.flange(53) 2
+.flange(54) 2
+.flange(55) 2
+.flange(56) 1
+.flange(57) 1
+.flange(58) 1
+.flange(59) 1
+.flange(65) 1
+.flange(66) 1
+.flange(67) 1
+.flange(68) 1
+.flange(70) 1
+.flange(71) 1
+.flange(72) 1
+.flange(73) 1
+.flange(94) 2
+.flange(95) 2
+.flange(96) 2
+
+.Velocity 80
+.Timetable(0).Day.Load Bloor_Danforth\TimeTable\WIP.png
+.Timetable(1).Day.Load Bloor_Danforth\TimeTable\Kennedy.png
+.Timetable(2).Day.Load Bloor_Danforth\TimeTable\Warden.png
+.Timetable(3).Day.Load Bloor_Danforth\TimeTable\VictoriaPark.png
+.Timetable(4).Day.Load Bloor_Danforth\TimeTable\Mainstreet.png
+.Timetable(5).Day.Load Bloor_Danforth\TimeTable\Woodbine.png
+.Timetable(6).Day.Load Bloor_Danforth\TimeTable\Coxwell.png
+.Timetable(7).Day.Load Bloor_Danforth\TimeTable\Greenwood.png
+.Timetable(8).Day.Load Bloor_Danforth\TimeTable\Donlands.png
+.Timetable(9).Day.Load Bloor_Danforth\TimeTable\Pape.png
+.Timetable(10).Day.Load Bloor_Danforth\TimeTable\Chester.png
+.Timetable(11).Day.Load Bloor_Danforth\TimeTable\Broadview.png
+.Timetable(12).Day.Load Bloor_Danforth\TimeTable\CastleFrank.png
+.Timetable(13).Day.Load Bloor_Danforth\TimeTable\Sherbourne.png
+.Timetable(14).Day.Load Bloor_Danforth\TimeTable\Yonge.png
+.Timetable(15).Day.Load Bloor_Danforth\TimeTable\Bay.png
+.Timetable(16).Day.Load Bloor_Danforth\TimeTable\StGeorge.png
+.Timetable(17).Day.Load Bloor_Danforth\TimeTable\Spadina.png
+.Timetable(18).Day.Load Bloor_Danforth\TimeTable\Bathurst.png
+.Timetable(19).Day.Load Bloor_Danforth\TimeTable\Christie.png
+.Timetable(20).Day.Load Bloor_Danforth\TimeTable\Ossington.png
+.Timetable(21).Day.Load Bloor_Danforth\TimeTable\Dufferin.png
+.Timetable(22).Day.Load Bloor_Danforth\TimeTable\Lansdowne.png
+.Timetable(23).Day.Load Bloor_Danforth\TimeTable\DundasWest.png
+.Timetable(24).Day.Load Bloor_Danforth\TimeTable\Keele.png
+.Timetable(25).Day.Load Bloor_Danforth\TimeTable\HighPark.png
+.Timetable(26).Day.Load Bloor_Danforth\TimeTable\RunnyMede.png
+.Timetable(27).Day.Load Bloor_Danforth\TimeTable\Jane.png
+.Timetable(28).Day.Load Bloor_Danforth\TimeTable\OldMill.png
+.Timetable(29).Day.Load Bloor_Danforth\TimeTable\RoyalYork.png
+.Timetable(30).Day.Load Bloor_Danforth\TimeTable\Islington.png
+
+
+Options.FogBehavior 1
+Options.ObjectVisibility 1
+Options.CantBehavior 1
+
+
+With Structure
+
+.rail(0) Bloor_Danforth\Track\v4 Track\LDedit\Tr_Station3rr.csv
+.rail(1) Bloor_Danforth\Track\v4 Track\LDedit\Tr_Station3rl.csv 
+.rail(2) Bloor_Danforth\Track\Tr_Tunnel.csv 
+.rail(3) Bloor_Danforth\Track\Tr_Tunnel3rr.csv
+.rail(4) Bloor_Danforth\Track\Tr_Tunnel3rl.csv
+;rail(5) Bloor_Danforth\Track\Tr_Ballast.csv
+;rail(6) Bloor_Danforth\Track\Tr_Ballast3rr.csv
+;rail(7) Bloor_Danforth\Track\Tr_Ballast3rl.csv
+.rail(5) Bloor_Danforth\Track\gleis_04.csv
+.rail(6) Bloor_Danforth\Track\gleis_04L.csv
+.rail(7) Bloor_Danforth\Track\gleis_04.csv
+.rail(8) Bloor_Danforth\Track\NullRail.csv
+.rail(9) Bloor_Danforth\Track\Tr_Ballast_dark3rr.csv
+.rail(10) Bloor_Danforth\Track\Tr_Ballast_dark3rl.csv
+.rail(11) Bloor_Danforth\Track\Tr_Concrete.csv
+.rail(12) Bloor_Danforth\Track\Tr_Concrete3rr.csv
+.rail(13) Bloor_Danforth\Track\Tr_Concrete3rl.csv
+.rail(14) Bloor_Danforth\Track\Tr_Bridge3rr.csv
+.rail(15) Bloor_Danforth\Track\Tr_Bridge3rl.csv
+.rail(16) Bloor_Danforth\Track\TR_Tunnel_R3000R.csv
+.rail(17) Bloor_Danforth\Track\TR_Tunnel_L3000R.csv
+.rail(18) Bloor_Danforth\Track\TR_Tunnel_L2000L.csv
+.rail(19) Bloor_Danforth\Track\TR_Tunnel_L2000R.csv
+.rail(20) Bloor_Danforth\Track\TR_Tunnel_R2000L.csv
+.rail(21) Bloor_Danforth\Track\TR_Tunnel_R2000R.csv
+.rail(22) Bloor_Danforth\Track\TR_Ballast_L2000L.csv
+.rail(23) Bloor_Danforth\Track\TR_Ballast_L2000R.csv
+.rail(24) Bloor_Danforth\Track\TR_Ballast_R2000L.csv
+.rail(25) Bloor_Danforth\Track\TR_Ballast_R2000R.csv
+.rail(26) Bloor_Danforth\Track\TR_Concrete_R2000L.csv
+.rail(27) Bloor_Danforth\Track\TR_Concrete_R2000R.csv
+.rail(28) Bloor_Danforth\Track\TR_Tunnel_L1000L.csv
+.rail(29) Bloor_Danforth\Track\TR_Tunnel_L1000R.csv
+.rail(30) Bloor_Danforth\Track\TR_Tunnel_R1000L.csv
+.rail(31) Bloor_Danforth\Track\TR_Tunnel_R1000R.csv
+.rail(32) Bloor_Danforth\Track\TR_Concrete_L1000R.csv
+.rail(33) Bloor_Danforth\Track\TR_Concrete_R1000R.csv
+.rail(34) Bloor_Danforth\Track\TR_Tunnel_L900L.csv
+.rail(35) Bloor_Danforth\Track\TR_Tunnel_L900R.csv
+.rail(36) Bloor_Danforth\Track\TR_Tunnel_R900L.csv
+.rail(37) Bloor_Danforth\Track\TR_Tunnel_R900R.csv
+.rail(38) Bloor_Danforth\Track\TR_Tunnel_L800L.csv
+.rail(39) Bloor_Danforth\Track\TR_Tunnel_L800R.csv
+.rail(40) Bloor_Danforth\Track\TR_Tunnel_R800L.csv
+.rail(41) Bloor_Danforth\Track\TR_Tunnel_R800R.csv
+.rail(42) Bloor_Danforth\Track\TR_Tunnel_L700L.csv
+.rail(43) Bloor_Danforth\Track\TR_Tunnel_L700R.csv
+.rail(44) Bloor_Danforth\Track\TR_Tunnel_R700L.csv
+.rail(45) Bloor_Danforth\Track\TR_Tunnel_R700R.csv
+.rail(46) Bloor_Danforth\Track\TR_Tunnel_L550L.csv
+.rail(47) Bloor_Danforth\Track\TR_Tunnel_L550R.csv
+.rail(48) Bloor_Danforth\Track\TR_Tunnel_L500L.csv
+.rail(49) Bloor_Danforth\Track\TR_Tunnel_L500R.csv
+.rail(50) Bloor_Danforth\Track\TR_Tunnel_R500L.csv
+.rail(51) Bloor_Danforth\Track\TR_Tunnel_R500R.csv
+.rail(52) Bloor_Danforth\Track\TR_Ballast_L500L.csv
+.rail(53) Bloor_Danforth\Track\TR_Ballast_L500R.csv
+.rail(54) Bloor_Danforth\Track\TR_Ballast_R500L.csv
+.rail(55) Bloor_Danforth\Track\TR_Ballast_R500R.csv
+.rail(56) Bloor_Danforth\Track\TR_Tunnel_L450L.csv
+.rail(57) Bloor_Danforth\Track\TR_Tunnel_L450R.csv
+.rail(58) Bloor_Danforth\Track\TR_Tunnel_R450L.csv
+.rail(59) Bloor_Danforth\Track\TR_Tunnel_R450R.csv
+.rail(60) Bloor_Danforth\Track\TR_Tunnel_R400L.csv
+.rail(61) Bloor_Danforth\Track\TR_Tunnel_L250L.csv
+.rail(62) Bloor_Danforth\Track\TR_Tunnel_L250R.csv
+.rail(63) Bloor_Danforth\Track\TR_Tunnel_R250L.csv
+.rail(64) Bloor_Danforth\Track\TR_Tunnel_R250R.csv
+.rail(65) Bloor_Danforth\Track\TR_Tunnel_L200L.csv
+.rail(66) Bloor_Danforth\Track\TR_Tunnel_L200R.csv
+.rail(67) Bloor_Danforth\Track\TR_Tunnel_R200L.csv
+.rail(68) Bloor_Danforth\Track\TR_Tunnel_R200R.csv
+.rail(69) Bloor_Danforth\Track\TR_Ballast_Dark_L200R.csv
+
+;NEW RAILS REMOVE SPACES AND THIS LINE FOR v2.1
+
+.rail(70) Bloor_Danforth\Track\TR_Concrete_L200L.csv
+.rail(71) Bloor_Danforth\Track\Tr_Concrete_R200L.csv
+.rail(72) Bloor_Danforth\Track\Tr_Ballast_L250R.csv
+.rail(73) Bloor_Danforth\Track\Tr_Ballast_L250L.csv
+.rail(74) Bloor_Danforth\Track\Tr_Ballast_R700L.csv
+.rail(75) Bloor_Danforth\Track\Tr_Ballast_R700R.csv
+.rail(76) Bloor_Danforth\Track\Tr_Bridge3rrviaduct.csv
+.rail(77) Bloor_Danforth\Track\Tr_Bridge3rlviaduct.csv
+.rail(78) Bloor_Danforth\Track\Tr_Ballast_R200L.csv
+.rail(79) Bloor_Danforth\Track\Tr_Ballast_R200R.csv
+.rail(80) Bloor_Danforth\Track\Tr_Ballast_L200L.csv
+.rail(81) Bloor_Danforth\Track\Tr_Ballast_L200R.csv
+.rail(82) Bloor_Danforth\Track\Tr_Concrete_L200L.csv
+.rail(83) Bloor_Danforth\Track\Tr_Concrete_L200R.csv
+.rail(84) Bloor_Danforth\Track\Tr_Ballast_R400L.csv
+.rail(85) Bloor_Danforth\Track\Tr_Ballast_R400R.csv
+.rail(86) Bloor_Danforth\Track\Tr_Tunnel_L400R.csv
+.rail(87) Bloor_Danforth\Track\Tr_Ballast_L1000L.csv
+.rail(88) Bloor_Danforth\Track\Tr_Ballast_L1000R.csv
+.rail(89) Bloor_Danforth\Track\TR_Ballast_R150L.csv
+.rail(90) Bloor_Danforth\Track\TR_Ballast_R150R.csv
+.rail(91) Bloor_Danforth\Track\Tr_Ballast_R250R.csv
+.rail(92) Bloor_Danforth\Track\Tr_Ballast_R600L.csv
+.rail(93) Bloor_Danforth\Track\Tr_Ballast_R600R.csv
+.rail(94) Bloor_Danforth\Track\Tr_Tunnel_L5000R.csv
+.rail(95) Bloor_Danforth\Track\Tr_Ballast_L400L.csv
+.rail(96) Bloor_Danforth\Track\Tr_Ballast_L400R.csv
+
+;New Invisible Rails
+.rail(97) Bloor_Danforth\Track\NullRail.csv ;Tunnel
+.rail(98) Bloor_Danforth\Track\NullRail.csv ;Outside
+.rail(99) Bloor_Danforth\Track\NullRail.csv ;Station
+
+.Dikel(0) Bloor_Danforth\walls\tunnel01l.csv ;one track
+.Diker(0) Bloor_Danforth\walls\tunnel01r.csv
+.Dikel(1) Bloor_Danforth\walls\tunnel02l.csv ;two tracks
+.Diker(1) Bloor_Danforth\walls\tunnel02r.csv
+.Dikel(2) Bloor_Danforth\walls\NLTunSL.csv;bored tunnel
+.Diker(2) Bloor_Danforth\walls\NLTunSR.csv
+.Dikel(3) Bloor_Danforth\DikeWardenL.csv
+.Diker(3) Bloor_Danforth\DikeWardenR.csv 
+.Dikel(4) Bloor_Danforth\DikeKennedyL.csv
+.Diker(4) Bloor_Danforth\DikeKennedyR.csv
+.Dikel(5) Bloor_Danforth\incuttingldark.csv
+.Diker(5) Bloor_Danforth\incuttingrdark.csv
+.Dikel(6) Bloor_Danforth\DikeVPL.csv
+.Diker(6) Bloor_Danforth\DikeVPR.csv
+.Dikel(7) Bloor_Danforth\allenlnf.csv
+.Diker(7) Bloor_Danforth\allenrnf.csv
+.Dikel(8) Bloor_Danforth\walls\tunnel03l.csv
+.Diker(8) Bloor_Danforth\walls\tunnel03r.csv
+.Dikel(9) Bloor_Danforth\walls\tun_middle_0.csv
+.Diker(9) Bloor_Danforth\walls\tunnel01r.csv
+.Dikel(10) Bloor_Danforth\walls\tunnel10l.csv
+.Diker(10) Bloor_Danforth\walls\tunnel10r.csv
+.Dikel(11) Bloor_Danforth\walls\tun_middle_0.csv
+.Diker(11) Bloor_Danforth\walls\tunnel10r.csv
+.Dikel(12) Bloor_Danforth\walls\tunnel02l.csv ;one track
+.Diker(12) Bloor_Danforth\walls\reversedtunnel01r.csv,
+.Dikel(13) Bloor_Danforth\chainlinkl.csv
+.Diker(13) Bloor_Danforth\chainlinkr.csv
+.Dikel(14) Bloor_Danforth\walls\Tun_round_lL.csv
+.Diker(14) Bloor_Danforth\walls\Tun_round_rL.csv
+.Dikel(15) Bloor_Danforth\walls\Tun_middle_d-g4.b3d
+.Diker(15) Bloor_Danforth\walls\Tun_round_rL.csv
+.Dikel(16) Bloor_Danforth\walls\tunnel01l.csv ;one track
+.Diker(16) Bloor_Danforth\walls\200.csv
+.Dikel(17) Bloor_Danforth\walls\Tun_round_lL.csv
+.Diker(17) Bloor_Danforth\walls\Tun_round_rL-200.csv
+.Dikel(18) Bloor_Danforth\wardenDike.b3d
+.Diker(18) Bloor_Danforth\null.b3d
+.Dikel(19) Bloor_Danforth\vincentDikeL.csv
+.Diker(19) Bloor_Danforth\vincentDike.csv
+.Dikel(20) Bloor_Danforth\DikeHighParkL.csv
+.Diker(20) Bloor_Danforth\DikeHighParkR.csv
+.Dikel(21) Bloor_Danforth\DikeHighParkL2.csv
+.Diker(21) Bloor_Danforth\DikeRYR2.csv
+.Dikel(22) Bloor_Danforth\DikeHighParkL3.csv
+.diker(22) Bloor_Danforth\DikeRYR.csv
+.Dikel(23) Bloor_Danforth\DikeRYL.csv
+.DikeR(24) Bloor_Danforth\DikeKiplingR.csv
+.DikeL(24) Bloor_Danforth\DikeKiplingL.csv
+.DikeR(25) Bloor_Danforth\DikeKiplingR2.csv
+
+.forml(0) Bloor_Danforth\staform01l.csv
+.formr(0) Bloor_Danforth\staform01r.csv
+.forml(1) Bloor_Danforth\staformbonusl.csv
+.formr(1) Bloor_Danforth\staform01r.csv
+.formcl(0) Bloor_Danforth\staform01cl.csv
+.formcr(0) Bloor_Danforth\staform01cr.csv
+
+.walll(0) Bloor_Danforth\station01l.csv ;two tracks and one center platform
+.wallr(0) Bloor_Danforth\station01r.csv
+.walll(1) Bloor_Danforth\station02l.csv ;two tracks and two side platforms
+.wallr(1) Bloor_Danforth\station02r.csv
+.wallr(3) Bloor_Danforth\walls\ceiling.csv
+
+.freeobj(1) Bloor_Danforth\stabeam01.csv ;black columns
+.freeobj(2) Bloor_Danforth\stabeam02.csv
+.freeobj(3) Bloor_Danforth\beams22.csv
+.freeobj(4) Bloor_danforth\VincentYard.csv
+.freeobj(5) Bloor_Danforth\tunwall01.csv ;end wall for center platform
+.freeobj(6) Bloor_Danforth\stawall01.csv ;end wall for center platform
+.freeobj(7) Bloor_Danforth\tunwall02.csv ;end wall between tunnels
+.freeobj(8) Bloor_Danforth\stawall02l.csv ;left end wall for side platforms
+.freeobj(9) Bloor_Danforth\stawall02r.csv ;right end wall for side platforms
+.freeobj(10) Bloor_Danforth\BIGBROWNBEAMS.b3d ;this is the big thing for the prince edward viaduct
+.freeobj(11) Bloor_Danforth\stawall04.csv ;end wall between tunnels
+.freeobj(12) Bloor_Danforth\RoofLowCoverCenter.csv
+.freeobj(13) Bloor_Danforth\WallWarden.csv
+.freeobj(14) Bloor_Danforth\WardenTop.Animated
+.freeobj(15) Bloor_Danforth\StairsWarden.csv
+;.freeobj(16)
+.freeobj(17) Bloor_Danforth\parkportal.csv
+.freeobj(18) Bloor_Danforth\tunnelwall1.csv
+;.freeobj(19)
+.freeobj(20) Bloor_Danforth\portalvictoriapark.csv
+.freeobj(21) Bloor_Danforth\Animations\Window\WindowOldMill.ANIMATED
+.freeobj(22) Bloor_Danforth\PortalHighPark1.csv
+.freeobj(23) Bloor_Danforth\PortalHighPark.csv
+.freeobj(24) Bloor_Danforth\Obridge.b3d
+.freeobj(25) Bloor_Danforth\portaldundaswest.b3d
+.freeobj(41) Bloor_Danforth\flashingblue.animated
+;.freeobj(42)
+;.freeobj(43)
+.freeobj(44) Bloor_Danforth\p.csv
+.freeobj(45) Bloor_Danforth\s.csv
+.freeobj(46) Bloor_Danforth\6.csv
+.freeobj(47) Bloor_Danforth\Street.csv
+.freeobj(48) Bloor_Danforth\dwa.csv
+.freeobj(49) Bloor_Danforth\southbound.csv
+.freeobj(50) Bloor_Danforth\northbound.csv
+.freeobj(51) Bloor_Danforth\46.csv
+.freeobj(53) Bloor_Danforth\NextTrainKennedy.csv
+.freeobj(54) Bloor_Danforth\NextTrainKipling.csv
+.freeobj(56) Bloor_Danforth\bloorandsubwaybridge.animated
+.freeobj(57) Bloor_Danforth\RoofLowCover.csv
+.freeobj(58) Bloor_Danforth\nosmoking.csv
+.freeobj(59) Bloor_Danforth\standback.csv
+.freeobj(60) Bloor_Danforth\humberriverabove.animated
+.freeobj(61) Bloor_Danforth\summerhilltopwall.csv
+.freeobj(62) Bloor_Danforth\0.csv
+
+;Prince Edward Objects
+.freeobj(63) Bloor_Danforth\hilleastside.b3d
+.freeobj(64) Bloor_danforth\Don Valley Parkway.b3d
+.freeobj(65) Bloor_Danforth\pevdvp.animated
+.freeobj(66) Bloor_Danforth\pev.animated
+.freeobj(67) Bloor_danforth\CastleFrankPortal.CSV
+.freeobj(68) Bloor_Danforth\bayview.b3d
+.freeobj(69) Bloor_Danforth\middlewall.csv
+;.freeobj(70)
+;.freeobj(71)
+;.freeobj(72)
+.freeobj(73) Bloor_Danforth\pevnotree.animated
+.freeobj(74) Bloor_Danforth\pevfence.b3d
+;.freeobj(75) 
+;.freeobj(76)
+;.freeobj(77)
+.freeobj(78) Bloor_Danforth\signalbox.csv
+.freeobj(79) Bloor_Danforth\OutsideScenery\Pylon.csv
+.freeobj(80) Bloor_Danforth\WallKennedyEnd.csv
+.freeobj(81) Bloor_Danforth\egg1.csv
+;.freeobj(82)
+;.freeobj(83)
+;.freeobj(84)
+.freeobj(87) Bloor_Danforth\WallBayEnd.csv
+.freeobj(88) Bloor_Danforth\keelebuilding1.b3d
+.freeobj(89) Bloor_Danforth\WallBay.csv
+.freeobj(91) Bloor_Danforth\PillarBay.csv
+;.freeobj(92)
+.freeobj(93) Bloor_Danforth\bridge.csv
+.freeobj(94) Bloor_Danforth\WallVictoriaParkOut2.csv
+.freeobj(100) Bloor_Danforth\exitstairs.csv
+.freeobj(101) Bloor_Danforth\signalpost.csv
+.freeobj(112) Bloor_Danforth\WallCoxwellL.csv
+.freeobj(113) Bloor_Danforth\WallCoxwell3R.csv
+.freeobj(114) Bloor_Danforth\wallCoxwellR.csv
+.freeobj(115) Bloor_Danforth\WallCoxwell2R.csv
+.freeobj(116) Bloor_Danforth\WallCoxwellEnd.csv
+.freeobj(117) Bloor_Danforth\WallMainStreetL.csv
+.freeobj(118) Bloor_Danforth\WallMainStreet3R.csv
+.freeobj(119) Bloor_Danforth\WallMainStreetR.csv
+.freeobj(120) Bloor_Danforth\WallMainStreet2R.csv
+.freeobj(121) Bloor_Danforth\WallMainstreetEnd.csv 
+.freeobj(122) Bloor_Danforth\bridgedark.csv
+.freeobj(123) Bloor_Danforth\WallVictoriaParkOut.csv
+.freeobj(124) Bloor_Danforth\WallBathurstR.csv
+.freeobj(125) Bloor_Danforth\WallBathurstL.csv
+.freeobj(126) Bloor_Danforth\WallBathurstEnd.csv
+.freeobj(127) Bloor_Danforth\WallVictoriaPark.csv
+.freeobj(128) Bloor_Danforth\WallVictoriaParkEnd.csv
+.freeobj(129) Bloor_Danforth\FormsignC.csv
+.freeobj(130) Bloor_Danforth\formsign.csv
+.freeobj(131) Bloor_Danforth\WallWoodbineL.csv
+.freeobj(132) Bloor_Danforth\WallWoodbineR.csv 
+.freeobj(133) Bloor_Danforth\WallWoodbineEnd.csv
+.freeobj(134) Bloor_Danforth\WallBroadviewL.csv
+.freeobj(135) Bloor_Danforth\WallBroadviewR.csv
+.freeobj(136) Bloor_Danforth\WallBroadviewEnd.csv
+;.freeobj(137)
+.freeobj(138) Bloor_Danforth\WallDonlandsL.csv
+.freeobj(139) Bloor_Danforth\WallDonlandsR.csv
+.freeobj(140) Bloor_Danforth\WallDonlandsEnd.csv
+.freeobj(141) Bloor_Danforth\WallGreenwoodR.csv
+.freeobj(142) Bloor_Danforth\WallGreenwoodL.csv
+.freeobj(143) Bloor_Danforth\WallGreenwoodEnd.csv
+.freeobj(144) Bloor_Danforth\WallGreenwood2R.csv
+;.freeobj(145) 
+;.freeobj(146) 
+.freeobj(147) Bloor_Danforth\WallSpadina.csv
+;.freeobj(148)
+;.freeobj(149)
+.freeobj(150) Bloor_Danforth\Curvewall3.b3d
+.freeobj(151) Bloor_Danforth\WallYonge.csv
+.freeobj(152) Bloor_Danforth\StairsYonge.csv
+.freeobj(153) Bloor_Danforth\PillarYonge.csv
+.freeobj(154) Bloor_Danforth\WallYongeEnd.csv
+.freeobj(155) Bloor_Danforth\wallKennedy.csv
+.freeobj(156) Bloor_Danforth\WallYongeEnd2.csv
+.freeobj(157) Bloor_Danforth\PillarKennedy.csv 
+;.freeobj(158)
+.freeobj(160) Bloor_Danforth\Curvewall4.b3d
+.freeobj(161) Bloor_Danforth\tunnelstart.csv
+.freeobj(162) Bloor_Danforth\Curveground.b3d
+.freeobj(163) Bloor_Danforth\Curvegroundtun.b3d
+;.freeobj(166)
+;.freeobj(167)
+.freeobj(168) Bloor_Danforth\pillarstgeorge.csv
+.freeobj(169) Bloor_Danforth\StairsStGeorge.csv
+.freeobj(170) Bloor_Danforth\Animations\Window\Window.Animated
+.freeobj(171) Bloor_Danforth\WallStGeorgeC.csv
+.freeobj(172) Bloor_Danforth\WallStGeorge.csv
+.freeobj(173) Bloor_Danforth\WallCastleFrankR.csv
+.freeobj(174) Bloor_Danforth\WallCastleFrankL.csv
+.freeobj(175) Bloor_Danforth\WallCastleFrankEnd.csv
+;.freeobj(176)
+;.freeobj(181)
+.freeobj(182) Bloor_Danforth\PillarIslington.csv
+.freeobj(183) Bloor_Danforth\StairsIslington.csv
+.freeobj(184) Bloor_Danforth\trainclear.csv
+.freeobj(185) Bloor_Danforth\nextraindownsviewu.csv
+;.freeobj(186)
+;.freeobj(187)
+.freeobj(188) Bloor_Danforth\portalstclair.csv
+.freeobj(189) Bloor_Danforth\WallChesterR.csv
+.freeobj(190) Bloor_Danforth\WallChesterL.csv
+.freeobj(191) Bloor_Danforth\WallChesterEnd.csv
+.freeobj(192) Bloor_Danforth\River2.Animated
+.freeobj(193) Bloor_Danforth\platformleft.csv ;new centre platform
+.freeobj(194) BLoor_Danforth\platformKennedy.csv ;Kennedy Platform
+.freeobj(197) Bloor_Danforth\Animations\GO\GoSlow2.Animated
+.freeobj(198) Bloor_Danforth\Animations\Go\GOSlow.Animated
+.freeobj(199) Bloor_Danforth\Animations\TR\TRSlow.Animated
+.freeobj(200) Bloor_Danforth\Animations\TR\TRStatic.Animated
+.freeobj(201) Bloor_Danforth\Animations\T1\T1Static.Animated
+.freeobj(202) Bloor_Danforth\Animations\T1\T1Depart.Animated
+.freeobj(203) Bloor_Danforth\GOTRAINSIGNAL.animated
+.freeobj(204) Bloor_Danforth\GOTRAINSIGNAL2.animated
+.freeobj(210) Bloor_Danforth\bridgeallen.csv
+.freeobj(211) Bloor_Danforth\GoMilton.animated
+.freeobj(212) Bloor_Danforth\GoMilton2.animated
+.freeobj(213) Bloor_Danforth\OutsideScenery\Buildingkipling.csv
+.freeobj(214) Bloor_Danforth\kiplingave.animated
+.freeobj(215) Bloor_Danforth\401.csv
+.freeobj(216) Bloor_Danforth\concretelightground.csv
+.freeobj(217) Bloor_Danforth\allenbridger1.csv
+.freeobj(218) Bloor_Danforth\allenbridgel1.csv
+.freeobj(219) Bloor_Danforth\allenbridgepillar.csv
+.freeobj(220) Bloor_Danforth\allentrackbridger.csv
+.freeobj(226) Bloor_Danforth\RedBench.csv
+.freeobj(227) Bloor_Danforth\bluelight.csv
+.freeobj(228) Bloor_Danforth\flatwall.csv
+.freeobj(231) Bloor_Danforth\bluelightoutside.csv
+.freeobj(232) Bloor_Danforth\brake1.csv
+.freeobj(233) Bloor_Danforth\Photog1L.b3d
+.freeobj(234) Bloor_Danforth\Photog2L.b3d
+.freeobj(238) Bloor_Danforth\NLpeople2.csv
+.freeobj(239) Bloor_Danforth\NLpeopleL.csv
+.freeobj(240) Bloor_Danforth\NLpeopleL2.csv
+.freeobj(241) Bloor_Danforth\NLpeople.csv
+.freeobj(242) Bloor_Danforth\person.csv
+.freeobj(243) Bloor_Danforth\personb.csv
+.freeobj(244) Bloor_Danforth\personr.csv
+.freeobj(245) Bloor_Danforth\personrb.csv
+.freeobj(246) Bloor_Danforth\RWall2L.csv
+.freeobj(248) Bloor_Danforth\brakefull.csv
+.freeobj(249) Bloor_Danforth\35.csv
+.freeobj(250) Bloor_Danforth\25.csv
+.freeobj(251) Bloor_Danforth\brake13.csv
+.freeobj(252) Bloor_Danforth\brakeoff.csv
+.freeobj(253) Bloor_Danforth\gt35.csv
+.freeobj(254) Bloor_Danforth\gt40.csv
+.freeobj(255) Bloor_Danforth\gt20.csv
+.freeobj(256) Bloor_Danforth\WallChristieR.csv
+.freeobj(257) Bloor_Danforth\didntsaythemagicword.csv
+.freeobj(258) Bloor_Danforth\tunnelentrance.csv
+.freeobj(259) Bloor_Danforth\allenbridgel2.csv
+;(260)DELETE FILE allenbridger2
+.freeobj(261) Bloor_Danforth\construction.csv
+.freeobj(262) Bloor_Danforth\goslow.csv
+.freeobj(263) Bloor_Danforth\goslow_clear.csv
+.freeobj(264) Bloor_Danforth\tunnelentrance1.csv
+.freeobj(265) Bloor_Danforth\tunnelentrance2.csv
+.freeobj(266) Bloor_Danforth\tunnelentrance3.csv
+.freeobj(268) Bloor_Danforth\stabeamhoriz.csv
+.freeobj(269) Bloor_Danforth\stabeamz.csv
+;.freeobj(270)
+.freeobj(271) Bloor_Danforth\srtbridge.b3d
+.freeobj(272) Bloor_Danforth\WallHighPark2R.csv
+.freeobj(273) Bloor_Danforth\45.csv
+.freeobj(274) Bloor_Danforth\40ahd.csv
+.freeobj(275) Bloor_Danforth\40.csv
+.freeobj(276) Bloor_Danforth\30.csv
+.freeobj(277) Bloor_Danforth\30ahd.csv
+.freeobj(278) Bloor_Danforth\signal_academy.csv
+.freeobj(279) Bloor_Danforth\signal_ahead.csv
+
+;.freeobj(456) Bloor_Danforth\Station Add-Ons\RedCircleCenter.csv
+.freeobj(457) Bloor_Danforth\Station Add-Ons\RedCircle.csv
+;.freeobj(458) Bloor_Danforth\Station Add-Ons\RedCircle.csv
+.freeobj(459) Bloor_Danforth\sewerbox.csv,
+;.freeobj(460)
+.freeobj(461) BLoor_Danforth\yellowend.csv
+.freeobj(462) BLoor_Danforth\triangle.csv
+
+.freeobj(463) Bloor_Danforth\flashingblue.ANIMATED       ;honk for construction workers
+.freeobj(464) Bloor_Danforth\constructionyellow.b3d      ;restricted 15-30km/h
+.freeobj(465) Bloor_Danforth\constructiongreen.b3d       ;resume normal operation
+.freeobj (466) BLoor_Danforth\blindtrip_L.csv
+
+;Static 3 Signals
+.freeobj(300) Bloor_Danforth\NewSignals\Red.animated ;double red
+.freeobj(302) Bloor_Danforth\signal_3_2.csv;single Yellow
+.freeobj(304) Bloor_Danforth\signal_3_4.csv;Single Green
+
+;Old Bloor Danforth
+.freeobj(350) Bloor_Danforth\keelestn.animated
+.freeobj(356) Bloor_Danforth\wallkeeleend.csv
+.freeobj(357) Bloor_Danforth\storageentrance.csv
+
+
+
+;Static 6 Signals
+.freeobj(600) Bloor_Danforth\NewSignals\Redred.animated ;double red
+.freeobj(601) Bloor_Danforth\signal_6_1.csv ;double yellow green
+.freeobj(602) Bloor_Danforth\signal_6_2.csv
+.freeobj(603) Bloor_Danforth\signal_6_3.csv
+.freeobj(604) Bloor_Danforth\signal_6_4.csv
+.freeobj(605) Bloor_Danforth\signal_6_5.csv
+
+;T1 TRAIN
+
+;Advertisements Configuration
+;Markers Configuration
+;Rain
+$Include(..\config\advertisements.cfg)
+$Include(..\config\MarkersAndInterest.cfg)
+$Include(..\config\WeatherRain.cfg)
+$Include(..\config\BDSounds.cfg)
+
+With Structure
+;==========================================
+; Important FishBowl Randomization Codes
+;==========================================
+;Side Platforms
+.freeobj(635) Bloor_Danforth\Null.b3d
+;.freeobj(636)
+.freeobj(638) Bloor_Danforth\Null.b3d
+.freeobj(639) Bloor_Danforth\Null.b3d
+
+
+
+;Temporary Stations
+.freeobj(900) Bloor_Danforth\sideplatformstation.animated
+
+;=====================
+;Permanent Stations
+;======================
+;Fun Fact
+;All stations in the order they were developed in
+.freeobj(950) Bloor_Danforth\keelestn.animated
+.freeobj(951) Bloor_danforth\kiplingstn.animated
+.freeobj(952) Bloor_danforth\oldmillstn.animated
+.freeobj(953) Bloor_Danforth\papestn.animated
+.freeobj(954) Bloor_Danforth\wardenstn.animated
+.freeobj(955) Bloor_Danforth\islingtonstn.animated
+.freeobj(956) Bloor_Danforth\SherbourneStn.animated
+.freeobj(957) Bloor_Danforth\DundasWestStn.animated
+.freeobj(958) Bloor_Danforth\RoyalYorkStn.animated
+
+;rails
+.freeobj(1000) Bloor_Danforth\Track\200tunnelCurveRR.csv
+.freeobj(1001) Bloor_Danforth\Track\200tunnelCurveRL.csv
+
+.freeobj(1100) Bloor_Danforth\Track\200tunnelCurveLR.csv
+.freeobj(1101) Bloor_Danforth\Track\200tunnelCurveLL.csv
+.freeobj(1104) Bloor_Danforth\Track\200ballastdarkCurveLR.csv
+
+.freeobj(2000) Bloor_Danforth\Track\200tunnelSwitchRR.csv
+.freeobj(2001) Bloor_Danforth\Track\200tunnelSwitchRL.csv
+.freeobj(2002) Bloor_Danforth\Track\islington.animated
+.freeobj(2003) Bloor_Danforth\Track\200ballastswitchRL.csv
+.freeobj(2005) Bloor_Danforth\Track\200concreteswitchRL.csv
+
+.freeobj(2100) Bloor_Danforth\Track\200tunnelSwitchLR.csv
+.freeobj(2101) Bloor_Danforth\Track\200tunnelSwitchLL.csv
+.freeobj(2102) Bloor_Danforth\Track\200ballastswitchLR.csv
+.freeobj(2103) Bloor_Danforth\Track\kiplingswitchactivated.csv
+.freeobj(2104) Bloor_Danforth\Track\200concreteswitchLR.csv
+.freeobj(2105) Bloor_Danforth\Track\200tunnelSwitchLR 900 Left Curve.csv
+
+.freeobj(3000) Bloor_Danforth\Track\tunnelXoverR.csv
+.freeobj(3100) Bloor_Danforth\Track\tunnelXoverL.csv
+
+.freeobj(4000) Bloor_Danforth\Track\200tunnelWyeSwitchR.csv
+.freeobj(4002) Bloor_Danforth\Track\200concretewyeswitchR.csv
+.freeobj(4003) Bloor_Danforth\Track\Islington200concretewyeswitchR.csv
+.freeobj(4100) Bloor_Danforth\Track\200tunnelWyeSwitchL.csv
+
+.freeobj(5000) Bloor_Danforth\Track\GuideRailStartDarkL.csv
+.freeobj(5001) Bloor_Danforth\Track\GuideRailStartDarkR.csv
+.freeobj(5002) Bloor_Danforth\Track\GuideRailEndDarkL.csv
+.freeobj(5003) Bloor_Danforth\Track\GuideRailEndDarkR.csv
+.freeobj(5004) Bloor_Danforth\Track\GuideRailStartLightL.csv
+.freeobj(5005) Bloor_Danforth\Track\GuideRailStartLightR.csv
+.freeobj(5006) Bloor_Danforth\Track\GuideRailEndLightL.csv
+.freeobj(5007) Bloor_Danforth\Track\GuideRailEndLightR.csv
+.freeobj(5008) Bloor_Danforth\Track\3rdRailDarkL.csv
+.freeobj(5009) Bloor_Danforth\Track\3rdRailDarkR.csv
+.freeobj(5010) Bloor_Danforth\Track\3rdRailLightL.csv
+.freeobj(5011) Bloor_Danforth\Track\3rdRailLightR.csv
+.freeobj(5012) Bloor_Danforth\Walls\Tun_middle_half.csv
+.freeobj(5013) Bloor_Danforth\Walls\Tun_middle_wall.csv
+
+;==================================
+;||||||||||||||||||||||||||||||||||
+;Aljon's 2.0 Version Objects
+;||||||||||||||||||||||||||||||||||
+;==================================
+;DELETED OBJECT Bloor_Danforth\OneStop TV\crashed.ANIMATED
+.freeobj(5051) Bloor_Danforth\highparkground.csv
+;.freeobj(5052)
+.freeobj(5054) Bloor_Danforth\OneStop v2.0\onestop2.0.ANIMATED
+.freeobj(5056) Bloor_Danforth\OneStop v2.0\Xonestop2.0.ANIMATED ;warden
+.freeobj(5057) Bloor_Danforth\OneStop v2.0\X1onestop2.0.ANIMATED ;warden)
+
+;esc & stairs
+.freeobj(5100) Bloor_Danforth\Escalator\EscalatorKennedy.ANIMATED
+.freeobj(5101) Bloor_Danforth\Escalator\StairsKennedy.csv
+;warden (5102)
+.freeobj(5103) Bloor_Danforth\stairsVictoriaPark.csv
+.freeobj(5104) Bloor_Danforth\stairsVictoriaPark2.csv
+.freeobj(5105) Bloor_Danforth\Escalator\SidePlatformEsc.ANIMATED
+.freeobj(5106) Bloor_Danforth\StairsBay.csv
+.freeobj(5107) Bloor_Danforth\StairsBay2.csv
+.freeobj(5108) Bloor_Danforth\Escalator\Elevator.csv
+.freeobj(5109) Bloor_Danforth\Escalator\EscalatorKipling.ANIMATED
+;.freeobj(5110) Bloor_Danforth\Escalator\StairsKipling
+
+;Additional Station Blocks
+.freeobj(5200) Bloor_Danforth\Animations\DepartKennedy.ANIMATED
+.freeobj(5201) Bloor_Danforth\Trash.csv
+.freeobj(5202) Bloor_Danforth\FireEx.csv
+.freeobj(5203) Bloor_Danforth\GrayDoor.csv
+.freeobj(5204) Bloor_Danforth\GrayDoor2.csv
+.freeobj(5205) Bloor_Danforth\RedDoor.csv
+.freeobj(5206) Bloor_Danforth\Payphone.csv
+.freeobj(5207) Bloor_Danforth\ConstructionBlock.csv
+.freeobj(5208) Bloor_Danforth\Animations\Mirror\Mirror.Animated
+;.freeobj(5209) Bloor_Danforth\Animations\Passenger\Passengers.Animated
+
+.freeobj(5300) Bloor_Danforth\WallWoodbine2R.csv
+.freeobj(5301) Bloor_Danforth\WallWoodbine3R.csv
+.freeobj(5302) Bloor_Danforth\WallDonlands1R.csv
+.freeobj(5303) Bloor_Danforth\WallDonlands2R.csv
+.freeobj(5304) Bloor_Danforth\WallChester2R.csv
+.freeobj(5305) Bloor_Danforth\WallBroadview1R.csv
+.freeobj(5306) Bloor_Danforth\WallBroadview2R.csv
+.freeobj(5307) Bloor_Danforth\WallCastleFrank1R.csv
+.freeobj(5308) Bloor_Danforth\WallCastleFrank2R.csv
+.freeobj(5309) Bloor_Danforth\WallSherbourneR.csv
+.freeobj(5310) Bloor_Danforth\WallSherbourneL.csv
+.freeobj(5311) Bloor_Danforth\WallSherbourne1R.csv
+.freeobj(5312) Bloor_Danforth\WallSherbourne2R.csv
+.freeobj(5313) Bloor_Danforth\WallSherbourneEnd.csv
+.freeobj(5314) Bloor_Danforth\WallSpadinaL.csv
+.freeobj(5315) Bloor_Danforth\WallSpadina1R.csv
+.freeobj(5316) Bloor_Danforth\WallSpadina2R.csv
+.freeobj(5317) Bloor_Danforth\WallSpadina3R.csv
+.freeobj(5318) Bloor_Danforth\WallSpadinaEnd.csv
+.freeobj(5319) Bloor_Danforth\WallSpadinaEnd2.csv
+.freeobj(5320) Bloor_Danforth\WallBathurst1R.csv
+.freeobj(5321) Bloor_Danforth\WallBathurst2R.csv
+.freeobj(5322) Bloor_Danforth\WallBathurst3R.csv
+.freeobj(5323) Bloor_Danforth\WallBathurst4R.csv
+.freeobj(5324) Bloor_Danforth\WallBathurstEnd2.csv
+.freeobj(5325) Bloor_Danforth\WallChristieL.csv
+.freeobj(5326) Bloor_Danforth\WallChristie1R.csv
+.freeobj(5327) Bloor_Danforth\WallChristie2R.csv
+.freeobj(5328) Bloor_Danforth\WallChristieEnd.csv
+.freeobj(5329) Bloor_Danforth\WallOssingtonR.csv
+.freeobj(5330) Bloor_Danforth\WallOssington1R.csv
+.freeobj(5331) Bloor_Danforth\WallOssington2R.csv
+.freeobj(5332) Bloor_Danforth\WallOssington3R.csv
+.freeobj(5333) Bloor_Danforth\WallOssingtonL.csv
+.freeobj(5334) Bloor_Danforth\WallOssingtonEnd.csv
+.freeobj(5335) Bloor_Danforth\WallDufferinR.csv
+.freeobj(5336) Bloor_Danforth\WallDufferin1R.csv
+.freeobj(5337) Bloor_Danforth\WallDufferin2R.csv
+.freeobj(5338) Bloor_Danforth\WallDufferinL.csv
+.freeobj(5339) Bloor_Danforth\WallDufferinEnd.csv
+.freeobj(5340) Bloor_Danforth\WallLandsdowneR.csv
+.freeobj(5341) Bloor_Danforth\WallLandsdowne1R.csv
+.freeobj(5342) Bloor_Danforth\WallLandsdowne2R.csv
+.freeobj(5343) Bloor_Danforth\WallLandsdowneL.csv
+.freeobj(5344) Bloor_Danforth\WallLandsdowneEnd.csv
+.freeobj(5345) Bloor_Danforth\WallDundasWestR.csv
+.freeobj(5346) Bloor_Danforth\WallDundasWest1R.csv
+.freeobj(5347) Bloor_Danforth\WallDundasWestL.csv
+;use sherbourne endwall
+;.freeobj(5348) Bloor_Danforth\WallKeeleR.csv
+;.freeobj(5349) Bloor_Danforth\WallKeele1R.csv
+;.freeobj(5350) Bloor_Danforth\WallKeele2R.csv
+;.freeobj(5351) Bloor_Danforth\WallKeeleL.csv
+;.freeobj(5352) Bloor_Danforth\WallKeeleEnd.csv
+.freeobj(5353) Bloor_Danforth\WallHighParkR.csv
+.freeobj(5354) Bloor_Danforth\WallHighPark1R.csv
+.freeobj(5355) Bloor_Danforth\WallHighParkL.csv
+;.freeobj(5356)
+.freeobj(5357) Bloor_Danforth\WallRunnymedeR.csv
+.freeobj(5358) Bloor_Danforth\WallRunnymede1R.csv
+.freeobj(5359) Bloor_Danforth\WallRunnymede2R.csv
+.freeobj(5360) Bloor_Danforth\WallRunnymedeL.csv
+.freeobj(5361) Bloor_Danforth\WallRunnymedeEnd.csv
+.freeobj(5362) Bloor_Danforth\WallJaneR.csv
+.freeobj(5363) Bloor_Danforth\WallJane1R.csv
+.freeobj(5364) Bloor_Danforth\WallJane2R.csv
+.freeobj(5365) Bloor_Danforth\WallJane3R.csv
+.freeobj(5366) Bloor_Danforth\WallJaneLN.csv
+.freeobj(5367) Bloor_Danforth\WallJaneL.csv
+.freeobj(5368) Bloor_Danforth\WallJaneEnd.csv
+.freeobj(5369) Bloor_danforth\WallPapeR.csv
+.freeobj(5370) Bloor_danforth\WallPape1R.csv
+.freeobj(5371) Bloor_danforth\WallPape2R.csv
+.freeobj(5372) Bloor_danforth\WallPape3R.csv
+.freeobj(5373) Bloor_danforth\WallPapeL.csv
+.freeobj(5374) Bloor_danforth\WallPapeEnd.csv
+.freeobj(5375) Bloor_Danforth\WallOldMillR.csv
+.freeobj(5376) Bloor_Danforth\WallOldMill1R.csv
+.freeobj(5377) Bloor_Danforth\WallOldMill2R.csv
+.freeobj(5378) Bloor_Danforth\WallOldMillL.csv
+.freeobj(5379) Bloor_Danforth\WallOldMill1L.csv
+.freeobj(5380) Bloor_Danforth\WallOldMillEnd.csv
+.freeobj(5381) Bloor_Danforth\WallRoyalYorkR.csv
+.freeobj(5382) Bloor_Danforth\WallRoyalYork1R.csv
+.freeobj(5383) Bloor_Danforth\WallRoyalYork2R.csv
+.freeobj(5384) Bloor_Danforth\WallRoyalYorkL.csv
+.freeobj(5385) Bloor_Danforth\WallIslington.csv
+.freeobj(5386) Bloor_Danforth\WallIslingtonC.csv
+.freeobj(5387) Bloor_Danforth\WallKipling.csv
+.freeobj(5388) Bloor_Danforth\WallKiplingEnd.csv
+.freeobj(5389) Bloor_Danforth\WallKiplingEnd2.csv
+.freeobj(5390) Bloor_Danforth\WallKiplingExit.csv
+.freeobj(5391) Bloor_Danforth\PillarKipling.csv
+
+;OUTSIDE Objects
+.freeobj(5500) Bloor_Danforth\OutsideScenery\TreeVariation1.Animated
+.freeobj(5501) Bloor_Danforth\OutsideScenery\TreeVariation2.Animated
+.freeobj(5502) Bloor_Danforth\OutsideScenery\BuildingWarden.csv
+.freeobj(5503) Bloor_Danforth\OutsideScenery\BridgeWarden2.csv
+.freeobj(5504) Bloor_Danforth\OutsideScenery\BridgeWarden.csv
+.freeobj(5505) Bloor_Danforth\OutsideScenery\BridgeKennedy.csv
+.freeobj(5506) Bloor_Danforth\OutsideScenery\Fence.csv
+.freeobj(5507) Bloor_Danforth\OutsideScenery\ParkingLot.csv
+.freeobj(5508) Bloor_Danforth\OutsideScenery\WardenBusBay.csv
+.freeobj(5509) Bloor_Danforth\OutsideScenery\BuildingWarden2.csv
+.freeobj(5510) Bloor_Danforth\OutsideScenery\BridgeVP.csv
+.freeobj(5511) Bloor_Danforth\OutsideScenery\BuildingVP.csv
+.freeobj(5512) Bloor_Danforth\OutsideScenery\BuildingHP.csv
+.freeobj(5513) Bloor_Danforth\OutsideScenery\bridgeVP2.csv
+.freeobj(5514) Bloor_Danforth\OutsideScenery\BuildingKeele.csv
+.freeobj(5515) Bloor_Danforth\OutsideScenery\BuildingKeele2.csv
+.freeobj(5516) Bloor_Danforth\OutsideScenery\BridgeHighPark.csv
+.freeobj(5517) Bloor_Danforth\OutsideScenery\BuildingHP2.csv
+.freeobj(5518) Bloor_Danforth\OutsideScenery\BuildingHP3.csv
+.freeobj(5519) Bloor_danforth\OldMillTree.csv
+.freeObj(5520) Bloor_danforth\Animations\Rain\Rain.Animated
+.freeObj(5521) Bloor_danforth\Animations\Rain\RainStation.Animated
+.freeObj(5522) Bloor_danforth\Animations\Rain\RainStation2.Animated
+.freeobj(5523) Bloor_danforth\OutsideScenery\RoyalYorkGrass.csv
+.freeobj(5524) Bloor_danforth\OutsideScenery\RoyalYorkGrass2.csv
+.freeobj(5525) Bloor_danforth\OutsideScenery\BuildingRY.csv
+.freeobj(5526) Bloor_danforth\OutsideScenery\TreeFake.csv
+.freeobj(5527) Bloor_danforth\OutsideScenery\BuildingOldmill.csv
+.freeobj(5528) Bloor_danforth\OutsideScenery\BuildingRY2.csv
+.freeobj(5529) Bloor_danforth\OutsideScenery\TreeKipling.Animated
+.freeobj(5530) Bloor_danforth\OutsideScenery\BuildingKiplingEnd.csv
+.freeobj(5531) Bloor_danforth\OutsideScenery\Workers.csv
+.freeobj(5532) Bloor_danforth\OutsideScenery\WorkerFlag.csv
+.freeobj(9999) Bloor_danforth\tunnel.csv
+;Unused Test Objects
+
+
+.ground(0) Bloor_Danforth\blackground.csv
+.ground(1) Bloor_Danforth\grassgrounds.csv
+.ground(2) Bloor_Danforth\GrassKipling.csv
+.ground(3) Bloor_Danforth\concretelightground.csv
+.ground(4) Bloor_Danforth\noground.csv
+.ground(5) Bloor_Danforth\grassgroundstart.csv
+.ground(6) Bloor_Danforth\bloorconcrete.csv
+
+
+
+;SIGNAL MARKERS
+.freeobj(500) Bloor_Danforth\X.csv
+.freeobj(501) Bloor_Danforth\B.csv
+
+.freeobj(510) Bloor_Danforth\0sig.csv
+.freeobj(511) Bloor_Danforth\1.csv
+.freeobj(512) Bloor_Danforth\2.csv
+.freeobj(513) Bloor_Danforth\3.csv
+.freeobj(514) Bloor_Danforth\4.csv
+.freeobj(515) Bloor_Danforth\5.csv
+.freeobj(516) Bloor_Danforth\6sig.csv
+.freeobj(517) Bloor_Danforth\7.csv
+.freeobj(518) Bloor_Danforth\8.csv
+.freeobj(519) Bloor_Danforth\9.csv
+
+
+;===============================
+; Signals
+;===============================
+;Testing Signals
+Signal(994).Load Bloor_Danforth\NewSignals\tester.animated
+Signal(995).Load Bloor_Danforth\NewSignals\PermanentRed.animated
+Signal(996).Load Bloor_Danforth\NewSignals\amberlunar.animated
+Signal(997).Load Bloor_Danforth\NewSignals\stnBay.animated
+Signal(998).Load Bloor_Danforth\NewSignals\stnYonge.animated
+Signal(999).Load Bloor_Danforth\NewSignals\stnBroadview.animated
+
+
+;--------------------------
+;Temporary Signals
+;--------------------------
+
+Signal(42).Load Bloor_Danforth\Grade Time_Station Time Control\New\1_ShotGT_Static_Amber.animated
+Signal(45).Load Bloor_Danforth\Grade Time_Station Time Control\New\SignalDoubleYGLunar_Static.animated
+;;;;;;;;;;;;;;;;;;;;;;;;; NEW SIGNALS ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+Signal(39).Load Bloor_Danforth\Grade Time_Station Time Control\New\Crossover1.animated
+Signal(40).Load Bloor_Danforth\Grade Time_Station Time Control\New\Crossover2.animated
+
+;===============================
+; Signals
+;===============================
+
+Signal(1).Load Bloor_Danforth\Grade Time_Station Time Control\R_R_NoGT_Platform.animated
+Signal(2).Load Bloor_Danforth\Grade Time_Station Time Control\NoGT_Automatic.animated
+Signal(3).Load Bloor_Danforth\Grade Time_Station Time Control\G_NoGT_Automatic.animated
+Signal(4).Load Bloor_Danforth\Grade Time_Station Time Control\Double_A_G_L_IG_150_Static.animated
+Signal(5).Load Bloor_Danforth\Grade Time_Station Time Control\Double_A_G_L_IG_175_GT.animated
+Signal(6).Load Bloor_Danforth\Grade Time_Station Time Control\Double_A_G_L_300m.animated
+Signal(7).Load Bloor_Danforth\Grade Time_Station Time Control\Double_A_G_L_100m.animated
+Signal(8).Load Bloor_Danforth\Grade Time_Station Time Control\Double_A_G_L_IG_150_GT.animated
+Signal(9).Load Bloor_Danforth\Grade Time_Station Time Control\Double_A_G_L_125m.animated
+Signal(10).Load Bloor_Danforth\Grade Time_Station Time Control\Double_A_G_L_25m.animated
+
+Signal(20).Load Bloor_Danforth\Grade Time_Station Time Control\G_G_NoGT_Interlocking.animated
+Signal(21).Load Bloor_Danforth\Grade Time_Station Time Control\Double_G_G_125m.animated
+Signal(22).Load Bloor_Danforth\Grade Time_Station Time Control\Double_G_G_150m.animated
+
+Signal(42).Load Bloor_Danforth\Grade Time_Station Time Control\1_ShotGT_Static_Amber.animated
+Signal(45).Load Bloor_Danforth\Grade Time_Station Time Control\SignalDoubleYGLunar_Static.animated
+Signal(30).Load Bloor_Danforth\Grade Time_Station Time Control\R_G_175m.animated
+Signal(31).Load Bloor_Danforth\Grade Time_Station Time Control\R_G_100m.animated 
+Signal(32).Load Bloor_Danforth\Grade Time_Station Time Control\R_G_300m.animated
+Signal(33).Load Bloor_Danforth\Grade Time_Station Time Control\R_G_150m.animated
+Signal(34).Load Bloor_Danforth\Grade Time_Station Time Control\R_G_125m.animated
+Signal(35).Load Bloor_Danforth\Grade Time_Station Time Control\R_A_175m.animated
+
+Signal(43).Load Bloor_Danforth\Grade Time_Station Time Control\A_L_200m.animated
+Signal(44).Load Bloor_Danforth\Grade Time_Station Time Control\A_L_125m.animated
+Signal(46).Load Bloor_Danforth\Grade Time_Station Time Control\A_L_150m.animated
+Signal(47).Load Bloor_Danforth\Grade Time_Station Time Control\A_L_175m.animated
+Signal(48).Load Bloor_Danforth\Grade Time_Station Time Control\A_L_100m.animated
+
+.Beacon(5).Load Bloor_Danforth\Beacon_S.csv
+.Beacon(6).Load Bloor_Danforth\Beacon_P.csv
+;======================================
+; End of Signals
+;======================================
+
+texture.background(0) Bloor_Danforth\black.bmp
+texture.background(1) Bloor_Danforth\Background\SkylineCloudy.bmp
+texture.background(2) Bloor_Danforth\Background\skylineallen.bmp
+
+With Track
+
+;------------------------
+;Development Testing
+;------------------------
+;
+;Victoria Park - Doppler Sound Testing
+;Broadview - train.dat Testing
+;Royal York - Bumping Sound Testing
+
+;======================
+; The "FishBowl"
+;======================
+
+;T1 Train Side Platforms
+$Sub(0) = $Rnd(634;639)
+$Sub(1) = $Rnd(634;639)
+$Sub(2) = $Rnd(634;639)
+$Sub(3) = $Rnd(634;639)
+$Sub(4) = $Rnd(634;639)
+$Sub(5) = $Rnd(634;639)
+$Sub(6) = $Rnd(634;639)
+$Sub(7) = $Rnd(634;639)
+$Sub(8) = $Rnd(634;639)
+$Sub(9) = $Rnd(634;639)
+$Sub(10) = $Rnd(634;639)
+$Sub(11) = $Rnd(634;639)
+$Sub(12) = $Rnd(634;639)
+$Sub(13) = $Rnd(634;639)
+$Sub(14) = $Rnd(634;639)
+$Sub(15) = $Rnd(634;639)
+$Sub(16) = $Rnd(634;639)
+$Sub(17) = $Rnd(634;639)
+$Sub(18) = $Rnd(634;639)
+$Sub(19) = $Rnd(634;639)
+$Sub(20) = $Rnd(634;639)
+$Sub(21) = $Rnd(634;639)
+$Sub(22) = $Rnd(634;639)
+
+;============================================
+; Reserved for Scarborough Extension 0-14000
+;============================================
+0,.limit 80,.Pitch 169,.railtype 0;8,.ground 4
+25,.Curve -200
+350,.Curve -166
+375,.Curve 0
+13700,.railstart 1;-6;0;8
+13724,.buffer,.freeobj 0;69;6,.freeobj 1;69;6,
+13725,.freeobj 0;1;-3,.rail 1;-6;0;2,.railtype 1;4,.railtype 0;3,.Dike 0;1;1,.Dike 1;-1;1
+13735,.freeobj 0;300;-2.1;3.61;180,.freeobj 0;101;-4.5,.freeobj 1;300;-2.1;3.61;180,
+13750,.freeobj 0;1;-3
+13770,.freeobj 0;81
+13775,.freeobj 0;1;-3
+13750,.rail 1;-6
+13775,.rail 1;-7
+13800,.rail 1;-8
+13825,.rail 1;-9
+13850,.rail 1;-10
+13875,.rail 1;-11
+13800,.Dike 0;0;9,.Dike 1;0;12
+13898,.freeobj 0;600;-2.1;3.61;180,.freeobj 0;101;-4.5,.freeobj 1;600;-2.1;3.5;180  ,.freeobj 1;101;-4.5,
+
+;===============================================================================
+; Kennedy 13900
+;===============================================================================
+13900,.sta Kennedy;18.5800;;;L;1;;;20;75;;1 ,.freeobj 0;157;0;0
+
+13700,.back 0,.Pitch 0
+13875,.back 0
+13899.2,.freeobj 1;80;0;-0.1;180
+13900,.DikeEnd 0,.DikeEnd 1,.back 0,.rail 1;-12;0;2,.freeobj 0;129,.Buffer,.height 0.75,.Pitch 0,.freeobj 0;194,.railtype 0;0,.railtype 1;1,.freeobj 0;155;-0.2
+13915,.freeobj 1;201
+13910,.freeobj 0;46;-1.5;0.144;30
+13967,.freeobj 0;46;-1.5;0.144;30
+13915,.freeobj 0;458;-2.3
+13924,.freeobj 0;5200;-5.2;0.2
+13925,.freeobj 0;194,.freeobj 0;155;-0.2,.freeobj 0;157;0;0
+13950,.freeobj 0;194,.freeobj 0;155;-0.2  
+13975,.freeobj 0;194,.freeobj 0;155;-0.2,.freeobj 0;157;0;0,.freeobj 0;5100;-8;1.14;180;
+14000,.freeobj 0;194,.freeobj 0;155;-0.2
+14002,.freeobj 0;5200;-5.2;0.2
+14025,.freeobj 0;194,.freeobj 0;155;-0.2,.freeobj 0;157;0;0,.freeobj 0;5101;-6.5;0.2;180
+14039,.back 0
+14040,.back 0,.stop 0;4;10,.freeobj 0;457;-2.5;-0.25,.freeobj 0;458;-2.3,.freeobj 0;5200;-5.2;0.2,.freeobj 0;46;-1.5;-0.144;-30
+14041,.back 0
+14049.5,.freeobj 0;500;2.3;0.7,.freeobj 0;511;2.25;0.45,.freeobj 0;510;2.38;0.45
+14050,.Pitch 0,.Dike 0;0;12,.railtype 0;3,.railtype 1;4,.freeobj 0;45;2;1,.freeobj 0;129  ,.Dike 1;0;9,.Beacon(108; 6; 0; -5)
+14050.5,.freeobj 1;80;12,.Brightness 255
+;===============================================================================
+;keep this code in the route for no reason
+;===============================================================================
+
+;==================
+; SECRET EASTER EGG
+;==================
+
+
+14051,.ground 0,.freeobj 1;600;2.2;3.5
+14052,.freeobj 0;101;-0.45
+14052.12,.sigf 1;1;2.2;3.5;15,.section 2;2;4
+14075,.freeobj 0;459,.railtype 1;4,.Dike 0;1;1,.Dike 1;-1;1,.Brightness 20
+,.railstart 2;0;0;8  ,.railstart 3;-12;0;8 ,.railstart 4;0;0;8 ,.Dike 4;-1;12,.Dike 3;1;9
+14075,.freeobj 1;2001 ,.freeobj 0;2100 
+14100,.railtype 0;3 ,.railtype 1;4 ,.rail 2;-1.55;;2 ,.rail 3;-10.5;;2 ,.freeobj 0;5000 ,.railend 4;-2 ,.DikeEnd 3,.DikeEnd 4 ,.freeobj 2;5008 ,.freeobj 3;5009,.freeobj 0;249;2;2.2
+14115,.freeobj 2;5009 ,.freeobj 3;5008
+14125,.Curve -200  ,.rail 2;-4.5 ,.rail 3;-7.5 ,.railtype 0;66 ,.railtype 1;67 ,.railtype 2;2 ,.railtype 3;2
+14150,.rail 2;-5.7;;8  ,.rail 3;-3.2;;8  ,.Curve 185  ,.rail 1;-9;0;8  ,.railtype 0;8 ,.freeobj 0;5002;;;-2
+14175,.limit 80,.rail 1;-5,.Pitch -7.77,.rail 2;-6;0  ,.railend 2  ,.rail 3;0;0  ,.railend 3  ,.rail 1;-6;0  ,.Curve 0  ,.Dike 0;0;10  ,.Dike 1;-1;8  ,.railtype 0;4  ,.railtype 1;3
+14175,.freeobj 0;4100;;;179.7;-0.755,.freeobj 1;4000;;;179.5;-0.755
+14175,.sigf 42;1;2.2;3.5,.section 2;4,.Beacon(108; 5; 0; 15)
+14200,.Pitch -9,.Dike 0;1;1,.Dike 1;-1;1
+14225,.Pitch -18,.Dike 0;0;10  ,.Dike 1;-1;1,.Curve -300,.railtype 0;61
+14250,.freeobj 0;250;2;2
+14325,.Curve 0,.railtype 0;4
+14350,.section 2;4,.sigf 30;1;2.2;3.4,.Beacon(108; 5; 0; 14)
+14350,.Pitch -9
+14360,.freeobj 0;44;2;2
+14375,.Pitch 9
+14400,.Pitch 18
+14565,.freeobj 0;62;2;2
+14575,.Pitch 9,.railtype 0;18,.railtype 1;19,.Curve -2000,.sigf 3;1;2.2;3
+14600,.Pitch 0,.Curve 0,.railtype 0;4,.railtype 1;3
+14625,.Pitch -9
+14800,.Pitch 0,.sigf 3;1;2.2;3
+14825,.Pitch 9
+14850,.Pitch 12
+14950,.Pitch 9,.sigf 42;1;2.2;3,.Beacon(108; 5; 0; 13)
+14975,.Pitch 0
+15000,.Pitch -9
+15060,.freeobj 1;201
+15025,.Pitch -18
+15150,.sigf 43;1;2.2;3,.Beacon(108; 5; 0; 5)
+15185,.freeobj 0;249;2;2
+15200,.Pitch -9,.Curve -900;16,.railtype 1;35,.railtype 0;34
+15225,.Pitch 0
+15250,.Pitch 9,.sigf 48;1;2.2;3,.Beacon(108; 5; 0; 12)
+15275,.Pitch 18,.freeobj 0;44;2;2
+15400,.Pitch 9,.Curve 0,.railtype 0;4,.railtype 1;3
+15425,.Pitch 4.5
+15450,.sigf 3;1;2.2;3
+15600,.freeobj 0;62;2;2
+15620,.sigf 3;1;2.2;3
+15700,.Pitch 0
+15725,.Pitch -2
+15750,.Pitch -4
+15875,.sigf 42;1;2.2;3,.Beacon(108; 5; 0; 8),.Beacon(108; 6; 0; -4),.freeobj 0;279;2;0.8
+15975,.Pitch 0
+15990,.freeobj 0;249;2;2
+16000,.Pitch 6
+16025,.Pitch 11
+16000,.Pitch 5,.freeobj 0;5000,.freeobj 1;5000
+16000,.freeobj 0;163
+16025,.freeobj 0;163,.back 1,.Curve -500;-50,.Pitch 11,.railtype 0;48,.railtype 1;49,.sigf 8;1;2;3,.Beacon(108; 5; 0; 9),.Beacon(108; 6; 0; -3),.freeobj 0;278;2;0.5
+16050,.freeobj 0;163
+16075,.freeobj 0;163
+16100,.freeobj 0;163
+16125,.freeobj 0;163,.freeobj 0;1;-3,.Dike 0;1;1,.Dike 1;-1;1,.Brightness 20
+16150
+16135,.freeobj 0;227;2.2;2
+;OUTSIDE
+16150,.ground 4,.railtype 0;7,.railtype 1;6,.freeobj 0;5006,.freeobj 0;5505,.freeobj 1;5006,.Curve 0,.Pitch 24,.Dike 0;1;4,.Dike 1;-1;4,.DikeEnd 1,.Brightness 255
+16175,.Pitch 32,.freeobj 1;5500;-8;1,.sigf 46;1;2.2;3,.Beacon(108; 5; 0; 12)
+16200,.freeobj 1;5500;-10;1
+16225,.Pitch 16,.freeobj 1;5500;-11,.freeobj 0;5506
+16225,.Pitch 16,.Curve 3000
+16235,.freeobj 1;79;-50;2;
+16250,.Pitch 6.5,.freeobj 0;5506,.freeobj 0;5507
+16255,.freeobj 1;5501;-18;-2
+16260,.freeobj 1;5501;-19;-2
+16275,.Pitch 0,.Curve 5000,.freeobj 1;5500;-11;-1,.freeobj 0;5506
+16290,.freeobj 1;5501;-16;-2
+16300,.freeobj 1;5501;-13;-2,.freeobj 0;5506
+16325,.freeobj 1;5501;-19;-2,.freeobj 0;5506
+16350,.freeobj 0;5506,.sigf 47;1;2.4;3.2,.Beacon(108; 5; 0; 9),.section 0;4,.freeobj 0;78;2;-.2
+16352,.freeobj 1;5500;-11;-1
+16375,.Curve 500,.railtype 0;54,.freeobj 1;5500;-11;-1,.freeobj 0;5506,.DikeEnd 1
+16400,.Curve 0,.Pitch 0,.railtype 0;7,.rail 1;-7,.DikeEnd 0
+16425,.rail 1;-9
+16450,.rail 1;-11,.Curve -500,.railtype 0;53
+16460,.freeobj 1;79;-50;2;
+
+;===============================================================================
+; Warden 16475
+;===============================================================================
+16475,.sta Warden;;;;L;;;;10;90;;2
+16474.7,.freeobj 0;500;2.35;1.3,.freeobj 0;512;2.35;1.05
+16475,.Curve 0,.Pitch 0,.freeobj 0;954,.rail 1;-12,.sigf 21;1;1.9;3.2,.Beacon(108; 6; 0; -6),.Beacon(108; 5; 0; 1),.freeobj 0;101;-0.4,.section 0;0;2;4  ,.railtype 0;99,.railtype 1;99,.freeobj 0;129,; Sc-0
+16476,.signal 3;999;999;999
+16500,.freeobj 0;5508,.freeobj 0;13,.freeobj 0;14
+16515,.freeobj 0;15;-5
+16525,.freeobj 0;13,.freeobj 0;14
+16529
+16550,.freeobj 0;13,.freeobj 0;14,.freeobj 0;46;-1.5;-0.144;-30
+16555,.freeobj 0;15;-5
+16575,.freeobj 0;13,.freeobj 0;14
+16543,.freeobj 0;5056;-3.9;2.27;0,
+16543,.freeobj 1;5057;2;2.27;0,
+16600,.Dike 0;1;4,.Dike 1;-1;4,.freeobj 0;13,.freeobj 0;14
+16615 ,.freeobj 0;46;-1.5;-0.144;-30,.stop 0;4;10,.freeobj 0;457;-2.75;-0.25
+16623,.freeobj 0;233;-6,.freeobj 0;459
+16625,.freeobj 0;129,.railtype 1;10,.railtype 0;9,.Freeobj 0;45;1.8;1,.Pitch -25 ,.height 2.6
+16625,.railtype 0;6 ,.railtype 1;7
+	 ,.railstart 2;0;0;8,.railstart 3;-12;0;8,.railstart 4;0;0;8,.freeobj 0;2102,.freeobj 1;2003,.Beacon(108; 6; 0; -5)
+16624.5,.freeobj 0;500;2.1;1.1,.freeobj 0;511;2.05;0.85,.freeobj 0;510;2.18;0.85
+16625,.sigf 4;1;2;3.5,.Section 4,.freeobj 0;5507,.freeobj 0;101;-0.2,.Beacon(108; 5; 0; 37)
+;===============================================================================
+;===============================================================================
+
+16650,.Pitch -45 ,.freeobj 0;5004,.railtype 0;6 ,.railtype 1;7 ,.rail 2;-1.55;;5 ,.rail 3;-10.5;;5 ,.railend 4;-2 ,.DikeEnd 4 ,.freeobj 2;5010 ,.freeobj 3;5011
+16664.9,.freeobj 0;62;2.3;0.5
+16665,.freeobj 2;5011 ,.freeobj 3;5010,.freeobj 0;101;;-3
+16680,.freeobj 1;79;-40;2;;2
+16675,.railstart 4;-12,.railtype 1;8,.freeobj 1;4002;;;-3.6,.freeobj 3;5010,.Curve -200,.rail 2;-4.5,.rail 3;-7.5 ,.railtype 0;81,.railtype 2;5 ,.railtype 3;5
+16700,.Adhesion 85,.railtype 4;6,.rail 4;-12.3,.rail 2;-5.7;;8,.rail 3;-3.2;;8,.Curve 200,.rail 1;-9;0;8,.railtype 0;8 ,.freeobj 0;5006;;;-2
+16717.9,.freeobj 0;251;2.3;0.8;-4
+16718,.freeobj 0;101;;-2.5;-4
+16725,.height 1.5,.rail 4;-10,.railtype 0;24,.railtype 1;25,.freeobj 0;4002;;;179.61,.freeobj 1;4002;;;179.5 ,.rail 2;-6;0  ,.railend 2  ,.rail 3;0;0  ,.railend 3  ,.rail 1;-6;0  ,.Curve 2000
+16725,.height 1.5,.rail 2;-6;0,.railend 2,.rail 3;0;0,.railend 3,.rail 1;-6;0,.Curve 2000;45
+16730,.freeobj 1;5532;1
+16735,.freeobj 0;5509,.freeobj 1;5531;1
+16747,.freeobj 4;461
+16750,.railtype 4;8
+16775,.rail 4;-8
+16781,.freeobj 0;252;2.2;2
+16790,.freeobj 0;5504;-0.7;-1;;2
+16795,.Brightness 255
+16800,.DikeEnd 4,.railend 4;-6
+16800,.back 1,.height 1.5,.Curve 0,.Dike 0;0;0,.Dike 1;-1;8,.railtype 0;4,.railtype 1;3
+16805,.Brightness 20
+16825,.height 1.5,.railtype 1;3
+16825,.height 1.5,.Pitch -30
+16834
+16850,.railtype 0;4,.railtype 1;3
+16850,.height 1,.Pitch -15
+16865,.Brightness 20
+16875,.Pitch -1,.ground 1,.height 1,.Pitch -1.DikeEnd 0,.DikeEnd 1,.railtype 0;7,.railtype 1;6 ,.Dike 0;1;3,.railtype 0;7
+16880,.freeobj 0;5500;2;-2,.Brightness 255
+16885,.freeobj 0;5501;3;-2
+16895,.freeobj 0;5500;2;-2
+16896,.freeobj 0;44;2.2;0.8
+16896.2,.freeobj 0;101;;-3
+16905,,.freeobj 1;79;-14;2;6.7;-2.2
+16910,.freeobj 0;5500;2;-1.5
+16924,.freeobj 0;501;1.85;1.3,.freeobj 0;518;1.75;1.05,.freeobj 0;513;1.88;1.05,.freeobj 0;516;2;1.05
+;SECTION 2
+16900,.Adhesion 86,.Curve -2000;-25,.railtype 1;23,.railtype 0;22,.Dike 1;-1;3
+16922,.freeobj 0;5500;2;-3,.freeobj 1;5500;-9;-1
+16924,.freeobj 0;5501;3;-2,.freeobj 1;5500;-15;2
+16925,.Pitch 13
+16929,.freeobj 0;5500;2;-2.5
+16925,.sigf 32;1;2;2.8,.Beacon(108; 5; 0; 1),.Section 2; 4,.Freeobj 0;78;1.6;0
+16948,.freeobj 0;5501;4;-2
+16950,.height 0.25,.Pitch 20,.Curve -2000;-20
+16960,.freeobj 0;5500;3;-4,.freeobj 1;5501;-15;2
+16975,.Pitch 20,.Curve 0,.railtype 0;7,.railtype 1;6 
+16980,.freeobj 0;5500;3;-2,.freeobj 1;5500;-20;3
+16990,.freeobj 0;5500;4;-2,.freeobj 1;5501;-12;1
+17000,.Pitch 30,.freeobj 0;5500;2;-2
+17025,.freeobj 0;5500;5;-2,.freeobj 1;5501;-15;2
+17035,.freeobj 0;5501;5;-2,.freeobj 1;5502
+17044,.freeobj 0;5500;2;-2
+17059,.freeobj 0;5500;4;-2
+17070,.freeobj 0;5500;2;-2,.freeobj 1;5501;-15;2
+17085,.freeobj 0;5501;2;-2
+17100,.freeobj 0;5500;3;-2,.freeobj 1;5500;-15;2
+17130,,.freeobj 1;79;-14;2
+17135,.freeobj 0;5500;3;-2,.freeobj 1;5500;-21;3
+17140,.freeobj 0;5500;2;-2
+17150,.freeobj 0;5500;3;-2
+17165,.freeobj 0;5500;5;-2,.freeobj 1;5501;-15;2
+17177,.freeobj 0;5501;4;-2
+17188,.freeobj 0;5500;4;-2
+17194,.freeobj 0;5500;5;-2
+17199,.freeobj 0;5500;4;-2,.freeobj 1;5501;-17;2.5
+17215,.freeobj 0;5500;3;-2
+17225,.Pitch 23,.freeobj 0;5500;6;-2
+17235,.freeobj 0;5501;5;-2,.freeobj 1;5500;-15;2
+17250,.Pitch 6,.freeobj 0;5500;4;-2
+17275,.Pitch 0,.freeobj 0;5500;6;-2,.freeobj 1;5500;-12;1,.freeobj 1;5502
+17291,.freeobj 0;5501;3;-2
+17300,.Pitch -3,.freeobj 0;5500;5;-2
+17313,.freeobj 0;5501;3;-2
+17320,.freeobj 0;5501;4;-2,.freeobj 1;5500;-15;2
+17325,.Pitch -12,.freeobj 0;5500;3;-2
+17350,.Pitch -20,.height 1,.freeobj 0;5500;4;-2
+17356,.freeobj 1;79;-14;3;;2,.freeobj 0;5500;6;-2
+17365,.freeobj 0;5501;3;-2,.freeobj 1;5501;-15;2
+17375,.freeobj 0;5501;5;-2,.freeobj 1;5500;-15;2
+17390,.freeobj 0;5500;5;-2,.freeobj 1;5501;-15;2
+17400,.freeobj 0;5500;5;-2,.freeobj 1;5500;-21;3
+17409,.freeobj 0;5501;3;-2,.freeobj 1;5501;-15;2
+17415,.freeobj 0;5501;3;-2,.freeobj 1;5501;-21;3
+17430,.freeobj 0;5501;3;-2,.freeobj 1;5500;-15;2
+17450,.freeobj 0;5500;6;-2,.freeobj 1;5500;-21;3
+17475,.freeobj 0;5500;5;-2
+17490,.freeobj 0;5500;4;-2,.freeobj 1;5500;-21;3
+17500,.sigf 3;1;2;2.6,.Section 0;2; 4,.Freeobj 0;78;1.6;-.2
+17515,.freeobj 0;5501;3;-2
+17530,.freeobj 0;5501;3;-2,.freeobj 1;5500;-15;2
+17500,.Adhesion 105,.Pitch -20
+17525,.height 1,.Pitch -12
+17540,.freeobj 0;5500;4;-2,.freeobj 1;5500;-15;2
+17550,.freeobj 0;5500;4;-2,.freeobj 1;5500;-21;3,.freeobj 0;62;2.2;3
+;BRIDGE
+17550,.height 0.35,.Pitch -2
+17565,.freeobj 0;5503;-0.7;-1
+17575,.Dike 0;0;0,.Dike 1;-1;8,.railtype 0;4,.railtype 1;3
+17582,.freeobj 1;79;-14;3;;-1
+17600,.DikeEnd 0,.DikeEnd 1,.railtype 0;7,.railtype 1;6 ,.Dike 1;-1;3
+;SECTION 3
+17625,.Dike 0;1;3
+17645,.freeobj 0;5501;5;-2,.freeobj 1;5501;-21;3
+17650,.freeobj 0;273;2.5;2
+17660,.freeobj 0;5500;4;-2,.freeobj 1;5501;-15;2
+17675,.freeobj 0;5501;4;-2,.freeobj 1;5500;-21;3
+17700,.sigf 42;1;2;3.12,.Section 0; 2; 4,.Freeobj 0;78;1.6,.Beacon(108; 5; 0; 7)
+17725,.freeobj 0;5501;4;-2,.freeobj 1;5501;-21;3
+17745,.freeobj 0;5500;6;-2,.freeobj 1;5500;-15;2
+17750,.Curve 600;23,.railtype 0;92,.railtype 1;93
+17780,.freeobj 0;5501;5;-2,.freeobj 1;5501;-21;3
+17805,.freeobj 0;5500;3;-2,.freeobj 1;5500;-21;3,.freeobj 1;79;-14;3;-5
+17825,.freeobj 0;5501;4;-2,.freeobj 1;5500;-15;2
+17840,.freeobj 0;5501;6;-2,.freeobj 1;5501;-21;3
+17850,.sigf 46;1;2;3.12,.Section 0; 2; 4,.Freeobj 0;78;1.6,.Beacon(108; 5; 0; 7)
+17875,.freeobj 0;5500;6;-2,.freeobj 1;5500;-21;3
+17880,.freeobj 0;5501;5;-2,.freeobj 1;5501;-15;2
+17890,.freeobj 0;5501;4;-2,.freeobj 1;5500;-15;2
+17900,.freeobj 0;5500;3;-2,.freeobj 1;5500;-21;3
+17920,.freeobj 0;5501;5;-2,.freeobj 1;5501;-15;2
+17935,.freeobj 0;5500;6;-2,.freeobj 1;5500;-21;3 
+17950,.DikeEnd 0,.freeobj 0;5500;6;-2,.freeobj 1;5500;-21;3
+17955,.freeobj 0;5500;7;-4,.freeobj 1;5500;-21;3
+17963,.freeobj 0;5510,.freeobj 0;5500;8;-4,.freeobj 1;5500;-21;3
+17970,.freeobj 0;5500;6;-4,.freeobj 1;5500;-22;3
+17980,.freeobj 0;5500;5;-4,.freeobj 1;5500;-15;2
+18000,.freeobj 0;5500;6;-2,.freeobj 1;5500;-21;3,.sigf 46;1;2.3;3.12,.Section 0;2; 4, ,.Dike 0;1;3,.Beacon(108; 5; 0; 8),.Beacon(108; 6; 0; -4),.freeobj 0;279;2;1
+18010,.freeobj 0;5501;4;-2,.freeobj 1;5501;-21;3,.freeobj 1;79;-14;3;-10;-1;-1
+18075,.freeobj 0;5500;4;-2,.freeobj 1;5500;-15;2,.Dike 1;-1;6
+18095,.freeobj 0;5501;3;-2,.freeobj 1;5501;-21;-6
+18165,.freeobj 0;5501;5;-2,.freeobj 1;5500;-15;-1,.freeobj 0;251;2.2;2,.freeobj 0;274;2.2;1.5
+18175,.freeobj 0;5500;4;-2,.freeobj 1;5500;-21;-4,; Sc-0 ,.sigf 5;1;2.3;3.12,.Section 0;2; 4,.Beacon(108; 5; 0; 21),.Beacon(108; 6; 0; -3),.freeobj 0;278;2;0.5
+18200,.freeobj 0;5500;6;-2,.freeobj 1;5501;-21;-4
+18220,.freeobj 0;5500;6;-2,.freeobj 1;5500;-21;-4,.freeobj 1;79;-40;-5;-16;-2.5;-1
+18225,.freeobj 0;5500;4;-2,.freeobj 1;5500;-21;-4,.Curve 0.Curve 0,.Pitch 0,.railtype 0;7,.railtype 1;6,.height 0.7
+18250,.freeobj 0;5500;3;-2,.freeobj 1;5501;-15;-1,.freeobj 1;5506;6
+18275,.freeobj 0;5500;3;-2,.freeobj 1;5500;-21;-6,.freeobj 1;5506;6,.freeobj 1;5506;;;180
+18300,.freeobj 0;5500;4;-2,.freeobj 1;5501;-15;-1,.freeobj 1;5506;;;180,.DikeEnd 0 ,.Dike 0;1;6,.pitch -15
+18317,.freeobj 0;5500;5;-2,.freeobj 1;5500;-21;-6,.freeobj 0;5511;30;;7
+18375,.freeobj 0;252;2.2;2,.freeobj 0;275;2.2;1.5
+18435,.freeobj 0;5500;3;-2,.freeobj 1;5501;-15;-1,.freeobj 1;79;-40;-5;;;-1
+18452,.freeobj 0;5500;4;-2,.freeobj 1;5500;-21;-6
+18473,.freeobj 1;202;;;180
+18475,.sigf 6;1;2.2;2.8,.Beacon(108; 5; 0; 11),.height 1,.Pitch -3.5,.railstart 2;0;0;8,.railstart 3;-6;0;8,.railtype 0;8,.railtype 1;8,.freeobj 0;2102,.freeobj 1;2003
+18500,.height 0.7,.rail 2;-1.55;0,.rail 3;-4.45;0,.railtype 2;5,.railtype 3;5,.railtype 0;6,.railtype 1;7
+18500,.freeobj 0;5511;100;;-50
+18525,.rail 2;-4.45;0,.rail 3;-1.55;0,.railtype 2;8,.railtype 3;8,.freeobj 0;227;2.2;2,.railtype 0;8,.railtype 1;8
+18600,.freeobj 0;5500;12;-5
+18550,.height 0.7,.railend 3;0,.railtype 0;7,.railend 2;-6,.railtype 1;6,.freeobj 0;2003;;;180,.freeobj 1;2102;;;180
+18620,.freeobj 1;602;-2.2;3.5;180  ,.freeobj 1;101;-4.7
+18622,.freeobj 0;600;-2.1;3.5;180,.freeobj 0;101;-4.7;-1
+18624.5,.freeobj 0;123
+18624.7,.freeobj 0;501;2.25;1.8,.freeobj 0;517;2.15;1.55,.freeobj 0;518;2.28;1.55,.freeobj 0;510;2.4;1.55 
+18625,.sigf 33;1;2.2;3.4,.Section 0;2; 4,.Beacon(108; 6; 0; -6),.freeobj 0;101,.freeobj 0;20,.Beacon(108; 5; 0; 1)
+18625,.freeobj 0;101
+18625,.DikeEnd 0,.DikeEnd 1
+
+;===============================================================================
+; Victoria Park 18625
+;===============================================================================
+18625,.sta Victoria Park;;;;R;;;;15;110;;3
+
+18625,.Pitch 0,.ground 4,.DikeEnd 1,.DikeEnd 0,.railtype 0;1,.railtype 1;0 ,.freeobj 0;5103;0;0,.freeobj 1;128;;;180  
+     ,.form 0;R;0,.form 1;L;0,.freeobj 0;127,.freeobj 0;170,.freeobj 0;128,.freeobj 0;130,.Pitch 0,
+18650,.form 0;R;0,.form 1;L;0,.freeobj 0;48,.freeobj 0;127,.freeobj 1;127;;;180
+18665,.freeobj 0;129;1;3.95
+18675,.form 0;R;0,.form 1;L;0,.freeobj 0;127,.freeobj 0;170,.freeobj 1;127;;;180
+18684,.freeobj 0;46;1.5;-0.144;30
+18700,.form 0;R;0,.form 1;L;0,.freeobj 0;127,.freeobj 0;170,.freeobj 0;5104;0;0,.freeobj 1;127;;;180
+18715,.freeobj 0;129;1;3.95
+18725,.form 0;R;0,.form 1;L;0,.ground 4,.freeobj 0;127,.freeobj 0;170,.freeobj 0;5054;2.05;2.7;0,.freeobj 1;53;-3;3.5;0,.freeobj 1;127;;;180
+18750,.form 0;R;0,.form 1;L;0,.freeobj 0;5004,.freeobj 0;5005,.freeobj 1;48;;;180,.freeobj 0;127,.freeobj 0;170,.freeobj 1;127;;;180 
+18760,.freeobj 0;5104;0;0
+18765,.stop 0;4;10,.freeobj 0;46;1.5;-0.144;30 
+18766,.freeobj 0;457;2.2;0.9,
+18772
+18774.7,.freeobj 0;5208
+18775,.Pitch -1,.freeobj 0;220,.freeobj 0;5103;-6;0;180,.freeobj 1;220,.freeobj 0;220;-2,.freeobj 1;127;;;180,.railtype 0;15,.railtype 1;14
+     ,.freeobj 0;128,.freeobj 0;130,.freeobj 0;94,.Beacon(108; 6; 0; -5)
+	,.freeobj 1;5506;6
+	
+18790,.sigf 2;1;1.9;3.12,.Section 0; 0; 2; 4,.Freeobj 0;78;1.5;0
+
+;===============================================================================
+;===============================================================================
+
+
+
+;Trackset
+18800,.freeobj 0;220,.freeobj 1;220,.freeobj 0;220;-2,.freeobj 1;5506;6,.freeobj 1;5506;;;180
+18824.5,.freeobj 1;5506;;;180;
+18825,.freeobj 0;5500;6;-4,.freeobj 1;5500;-22;-1,.freeobj 0;215;0;-7,.freeobj 0;215;-25;-7,.freeobj 0;215;25;-7,.ground 5,.freeobj 0;5007,.freeobj 1;5007
+18825,.Pitch -16.07142857142857,.Curve -400;50,.railtype 0;95,.railtype 1;96 
+18830,.freeobj 0;5501;15;-1,.freeobj 0;5500;6;-4,.freeobj 1;5500;-10;-1,.freeobj 1;5501;-15;-1
+18835,.freeobj 0;5500;13;-1,.freeobj 0;5500;6;-4,.freeobj 1;5500;-10;-1,.freeobj 1;5500;-17;-1
+18840,.freeobj 0;5501;11;-1,.freeobj 0;5500;6;-4,.freeobj 1;5500;-10;-1,.freeobj 1;5501;-15;-1
+18845
+18850,.freeobj 0;5500;10;-1,.freeobj 0;5500;6;-4,.freeobj 1;5501;-10;-1,.freeobj 1;5501;-18;-1
+18850,.height 0.7
+18855,.freeobj 0;5500;8;-1,.freeobj 0;5501;6;-4,.freeobj 1;5500;-10;-1,.freeobj 1;5500;-16;-1
+18860,.freeobj 0;5501;8;-1,.freeobj 0;5501;6;-4,.freeobj 1;5500;-10;-1,.freeobj 1;5501;-15;-1
+18865,.freeobj 0;5500;8;-1,.freeobj 0;5501;6;-4,.freeobj 1;5501;-10;-1,.freeobj 1;5501;-17;-1
+18870,.freeobj 0;5501;8;-1,.freeobj 0;5500;6;-4,.freeobj 1;5500;-10;-1,.freeobj 1;5500;-22;-1
+18875,.freeobj 0;5500;8;-1,.freeobj 0;5501;6;-4,.freeobj 1;5501;-10;-1,.freeobj 1;5501;-15;-1
+18875,.height 1
+18880,.freeobj 0;5500;6;-4,.freeobj 1;5500;-22;3 ,.freeobj 0;5500;8;-1,.freeobj 0;5501;6;-4,.freeobj 1;5500;-10;-1,.freeobj 1;5500;-15;-1
+18885,.freeobj 0;5500;8;-1,.freeobj 0;5501;6;-4,.freeobj 1;5500;-10;-1,.freeobj 1;5500;-15;1,.Brightness 255
+18889.7,.freeobj 0;5513;-0.7;-2
+18900,.freeobj 0;5500;8;1,.freeobj 0;5501;6;1,.freeobj 1;5500;-10;1,.freeobj 1;5500;-15;1
+18900,.ground 0,.Dike 0;0;0,.Dike 1;-1;1,.railtype 0;4  ,.railtype 1;3  ,.Curve 0 ,.Pitch -35.5,.freeobj 0;5002,.freeobj 1;5002,.adhesion 100
+18910,.Brightness 20
+18914.7,.freeobj 0;501;2.05;1.3,.freeobj 0;517;1.95;1.05,.freeobj 0;517;2.08;1.05,.freeobj 0;510;2.2;1.05 
+18917,.sigf 3;1;2.28;3.12,.Section 0; 0; 2; 4
+18940,.freeobj 1;201
+19100,.Pitch -29
+19100,.back 0
+19125,.Pitch -25.21
+19145,.sigf 3;1;2.28;3.07
+19150,.Pitch -14.37
+19156,.freeobj 0;227;2.2;2
+19175,.Pitch -4.7
+19200,.Pitch 6
+19213,.sigf 3;12.28;3.12,.Section 0; 0; 2; 4
+19325,.railtype 0;30,.Curve 1000
+19363,.sigf 3;1;2.28;3.07,.Section 0; 0; 2; 4
+19375,.freeobj 0;227;2.2;2
+19507,.sigf 3;1;-2.28;2.91
+19512,.sigf 3;1;2.28;3.07,.Section 0; 0; 2; 4
+19608,.freeobj 0;62;2;2
+19613,.sigf 3;1;-2.28;2.91
+19620,.sigf 3;1;2.28;3.07,.Section 0; 0; 2; 4
+
+19650,.railtype 0;4,.Curve 0
+19670,.freeobj 0;46;2;2
+19700,.Brightness 20
+;===============================================================================
+; Main Street 19725
+;===============================================================================
+19725,.sta Main Street;;;;R;;;;15;121;;4,.freeobj 0;57,.Brightness 255
+19712,.sigf 3;1;2.28;3.21,.Section 0;0;2;2;4
+19724.7,.freeobj 0;501;2.15;1.3,.freeobj 0;517;2.05;1.05,.freeobj 0;514;2.18;1.05,.freeobj 0;510;2.3;1.05 
+19725,.Pitch 0,.freeobj 0;900,.railtype 0;99,.railtype 1;99,.DikeEnd 0,.DikeEnd 1,.freeobj 1;117,.freeobj 0;119,.freeobj 0;121;-5.5;0;180,.freeobj 0;130
+	 ,.freeobj 0;7;0;0;0,.form 0;R;0,.form 1;L;0,.Pitch 0,.Beacon(108; 6; 0; -6),; Sc-0
+19745,.freeobj 0;100;	
+19750,.form 0;R;0,.form 1;L;0,.freeobj 0;120,.freeobj 1;117
+19754,.freeobj 0;5202
+19765,.freeobj 0;5201							
+19775,.form 0;R;0,.form 1;L;0,.freeobj 0;48,.freeobj 0;119,.freeobj 1;117
+19778,.freeobj 0;5203
+19780,.freeobj 0;5204
+19790,.freeobj 0;100;,.freeobj 0;5205
+19794,.freeobj 0;5206
+19795
+19800,.form 0;R;0,.form 1;L;0,.freeobj 0;54;1;3.5;0,.freeobj 0;118,.freeobj 1;53;-2.5;3.8;0,.freeobj 1;117
+19803,.freeobj 0;5201
+19812.5,.freeobj 0;5054;3.1;2.2;0
+19825,.form 0;R;0,.form 1;L;0,.freeobj 0;119 ,.freeobj 1;117,.freeobj 0;5201
+19845,.freeobj 0;100; 
+19850,.form 0;R;0,.form 1;L;0,.freeobj 0;119,.freeobj 1;48;;;180,.freeobj 1;117
+19863,.freeobj 0;5202
+19865,.stop 0;4;10,.freeobj 0;457;;-0.25,.freeobj 0;46;1.5;-0.144;30
+
+19882.7,.freeobj 0;500;2.15;1.2,.freeobj 0;512;2.15;0.95
+19875,.Curve 900,.freeobj 0;101;-4.6,.railtype 0;30,.railtype 1;31,.freeobj 0;121,.freeobj 0;5208,.freeobj 0;130,.Dike 0;0;0,.Dike 1;-1;8,.Brightness 255,.Beacon(108; 6; 0; -5)
+19882,.freeobj 0;459
+19883,.sigf 1;1;2.28;3.12,.Section 0; 0; 0; 4,
+
+
+
+;===============================================================================
+;===============================================================================
+19900,.railtype 0;4,.railtype 1;3,.Dike 0;0;2,.Dike 1;0;2,.Dike 0,.Pitch 20,.Curve 0,.freeobj 0;161,.Brightness 20
+19900,.Dike 0;0;2,.Curve 0
+20030,.sigf 3;1;2.2;3,.Section 0; 0; 2; 4
+20100,.Pitch 10
+20104
+20125,.Pitch 7.6
+20110,.sigf 3;1;2.2;3
+20150,.Pitch 5.2
+20237
+20175,.Pitch 2.8
+20200,.Pitch 0.4
+20225,.Pitch -5
+20250,.Pitch -7.5
+20425,.freeobj 0;62;2;
+20450,.Curve -450,.railtype 0;56,.railtype 1;57
+
+20475,.Dike 0;0;0,.Dike 1;-1;1
+20500,.Curve 450,.railtype 0;58,.railtype 1;59
+20505,.sigf 20;1;2.295;3,.Section 0; 0; 2; 4
+20575,.freeobj 0;46;2;2
+20550,.Curve 0,.Pitch 1,.railtype 0;4,.railtype 1;3
+20575,.Pitch 0,.Brightness 20
+
+20596,.sigf 20;1;2.295;3,.Section 0; 0; 2; 4,
+;===============================================================================
+; Woodbine 20600
+;===============================================================================
+20600,.sta Woodbine;;;;R;;;;10;124;;5,.freeobj 0;57,.Brightness 255
+20600,.Curve 0,.Pitch 0,.freeobj 0;133;-5.5;0;180 ,.freeobj 1;131 ,.freeobj 0;900,.freeobj 0;130,.DikeEnd 0  ,.DikeEnd 1  ,.railtype 0;1  ,.railtype 1;0  ,.form 0;R;0  ,.form 1;L;0  ,.freeobj 0;132,.brightness 255,.Beacon(108; 6; 0; -6)
+20615,.freeobj 0;5204
+20625,.form 0;R;0,.form 1;L;0,.freeobj 0;5300;0;0,.freeobj 1;131  
+20632,.freeobj 0;5105;8.6;1.13;180 
+20641,.freeobj 0;5202
+20645,.freeobj 0;100
+20650,.form 0;R;0,.form 1;L;0,.freeobj 0;132,.freeobj 1;131
+20655,.freeobj 0;5207
+20675,.form 0;R;0,.form 1;L;0,.freeobj 0;5301,.freeobj 1;131 
+20687,.freeobj 0;5054;3.1;2.2;0
+20690,.freeobj 0;5105;7.3;1.13 
+20691,.freeobj 0;5204
+20694,.freeobj 0;5201
+20695,.freeobj 0;100
+20700,.form 0;R;0,.form 1;L;0,.freeobj 0;54;1;3.5;0,.freeobj 0;132,.freeobj 0;5207,.freeobj 1;53;-2.5;3.8;0,.freeobj 1;131
+20712,.freeobj 0;5205
+20715,.freeobj 0;5204
+20720,.freeobj 0;100
+20725,.form 0;R;0,.form 1;L;0,.freeobj 0;132,.freeobj 1;48;;;180,.freeobj 1;131
+20737,.freeobj 0;5202
+20740,.stop 0;4;10,.freeobj 0;457;;-0.25,.freeobj 0;46;1.5;-0.144;30 
+20756.7,.freeobj 0;500;2;1.4,.freeobj 0;511;1.95;1.15,.freeobj 0;510;2.08;1.15
+
+20750,.railtype 0;4,.railtype 1;3,.freeobj 0;130,.Dike 0;0;0,.Dike 1;-1;8,.freeobj 0;133,.freeobj 0;5208,.Brightness 255
+20757,.sigf 1;1;2.28;3.33,.Section 0; 0; 2; 4,.freeobj 0;101;-0.25,.freeobj 1;101;-0.09,.freeobj 1;600;2.54;3.5
+20757,.freeobj 0;459
+
+;===============================================================================
+;===============================================================================
+20750,.Pitch -16,.Beacon(108; 6; 0; -5)
+20775,.Pitch -28,.railstart 2;0;0;8  ,.railstart 3;-6;0;8 ,.Dike 0;1;1  ,.Dike 1;-1;1 ,.railtype 0;8 ,.railtype 1;8 ,.freeobj 0;2100 ,.freeobj 1;2001,.Brightness 20
+20779
+20800,.rail 2;-1.55;0  ,.rail 3;-4.45;0 ,.railtype 2;2 ,.railtype 3;2 ,.railtype 0;3 ,.railtype 1;4,.DikeEnd 2
+20825,.rail 2;-4.45;0  ,.rail 3;-1.55;0 ,.railtype 2;8 ,.railtype 3;8  ,.freeobj 0;227;2.2;2  ,.railtype 0;8 ,.railtype 1;8
+20814
+20850,.freeobj 0;2001;;;180;-0.5,.freeobj 1;2100;;;180;-0.5,.Dike 0;0;0  ,.Dike 1;-1;8  ,.railend 3;0  ,.railtype 0;4  ,.railend 2;-6  ,.railtype 1;3
+20849.7,.freeobj 0;501;2.05;1.8,.freeobj 0;517;1.95;1.55,.freeobj 0;510;2.08;1.55,.freeobj 0;510;2.2;1.55 
+20850,.Pitch -37,.Dike 0;0;0  ,.Dike 1;-1;8,.sigf 3;1;2.28;3.6,.Section 0; 0; 2; 4,
+20900,.freeobj 0;227;2.2;2
+20975,.Pitch -30
+21000,.Pitch -23
+21025,.Pitch -18
+21039.7,.freeobj 0;501;2.05;1.8,.freeobj 0;516;1.95;1.55,.freeobj 0;519;2.08;1.55,.freeobj 0;512;2.2;1.55 
+21040,.sigf 3;1;2.28;3.6,.Section 0; 0; 2; 4
+21050,.Pitch -9
+21075,.Pitch -2
+21100,.Pitch 6
+21324.7,.freeobj 0;501;2.05;1.8,.freeobj 0;516;1.95;1.55,.freeobj 0;518;2.08;1.55,.freeobj 0;516;2.2;1.55 
+21275,.Pitch 6
+21300,.Pitch 0
+21325,.sigf 3;1;2.28;3.2,.Section 0; 0; 2; 4,
+21335,.freeobj 0;62;2;2.2
+21399,.freeobj 0;46;2;2.2
+21425,.Brightness 20
+;===============================================================================
+; Coxwell 21450
+;===============================================================================
+21450,.sta Coxwell;;;;R;;;;10;130;;6,.freeobj 0;57,.Brightness 255
+21427
+21450,.railtype 0;99,.railtype 1;99,.fog 50;1000;0;0;0,.freeobj 0;900,.DikeEnd 0  ,.DikeEnd 1  ,.freeobj 0;114  ,.freeobj 1;112,.Beacon(108; 6; 0; -6)
+     ,.form 0;R;0  ,.form 1;L;0,.freeobj 0;116;-5.5;0;180,.freeobj 0;130
+21470,.freeobj 0;100;
+21475,.form 0;R;0,.form 1;L;0,.freeobj 0;114,.freeobj 1;112
+21477,.freeobj 0;5202
+21500,.form 0;R;0,.form 1;L;0,.freeobj 0;48,.freeobj 0;114,.freeobj 1;112
+21505,.freeobj 0;5206
+21515,.freeobj 0;5205
+21520,.freeobj 0;100;
+21525,.form 0;R;0,.form 1;L;0,.freeobj 0;54;1;3.5;0,.freeobj 0;113,.freeobj 1;53;-2.5;3.8;0,.freeobj 1;112 
+21528,.freeobj 0;5201
+21530,.freeobj 0;5054;3.1;2.2;0
+21541,.freeobj 0;5105;7.3;1.13;
+21545,.freeobj 0;5207
+21550,.form 0;R;0,.form 1;L;0,.freeobj 0;115,.freeobj 1;112
+21568,.freeobj 0;5201
+21570,.freeobj 0;100;
+21575,.form 0;R;0,.form 1;L;0,.freeobj 0;114,.freeobj 1;48;;;180,.freeobj 1;112
+21557,.freeobj 0;5105;8.6;1.13;180 
+21590,.stop 0;4;10,.freeobj 0;457;;-0.25,.freeobj 0;46;1.5;-0.144;30
+21604,.freeobj 0;501;2.05;1.8,.freeobj 0;516;1.95;1.55,.freeobj 0;517;2.08;1.55,.freeobj 0;516;2.2;1.55 
+21600,.Beacon(108; 6; 0; -5),.railtype 0;4  ,.railtype 1;3  ,.Dike 0;0;0  ,.Dike 1;-1;8,.freeobj 0;5208,.freeobj 0;116,.freeobj 0;130,,.Brightness 255
+21603,.freeobj 0;459,
+
+;DO NOT PUT TRAINSET THIS STATION
+;===============================================================================
+;===============================================================================
+21604.28,.sigf 2;1;2.28;3.6,.Section 0; 0; 2; 4
+21625,.Brightness 20
+21800,.freeobj 0;227;2.2;2
+21742,.sigf 3;1;2.28;3.4,.Section 0; 0; 4
+21765,.freeobj 1;202;;;180
+22010,.freeobj 0;62;2;2
+22035,.sigf 3;1;2.28;3.2,.Section 0;2;2;2;2;2;2;4
+22075,.Curve -5000,.Brightness 20
+
+;===============================================================================
+; Greenwood 22100
+;===============================================================================
+22100,.sta Greenwood;;;;R;1;;;16;132;;7,.freeobj 0;57,.Brightness 255
+22100,.Curve 0,.freeobj 0;900,.Beacon(108; 6; 0; -6)	,; Sc-0,.DikeEnd 0  ,.DikeEnd 1  ,.railtype 0;99,.railtype 1;99,.form 0;R;0  ,.form 1;L;0  ,.freeobj 0;141  ,.freeobj 0;238 ,.freeobj 0;143  ,.freeobj 0;130
+,.freeobj 0;143;-5.5;0;180 ,.freeobj 1;142,.freeobj 0;130
+22107,.freeobj 0;46;1.5;-0.144;30
+22125,.form 0;R;0,.form 1;L;0,.freeobj 0;141,.freeobj 1;142
+22150,.form 0;R;0,.form 1;L;0,.freeobj 0;48,.freeobj 0;141,.freeobj 1;142
+22156,.freeobj 0;5206
+22162,.freeobj 0;5205
+22172,.freeobj 0;5054;3.1;2.2;0
+22175,.form 0;R;0,.form 1;L;0,.freeobj 0;54;2;3.5;0,.freeobj 0;144;,.freeobj 1;53;-2.5;3.8;0,.freeobj 1;142 
+22177,.freeobj 0;5201
+22191,.freeobj 0;5105;9.3;1.13;
+22200,.form 0;R;0,.form 1;L;0,.freeobj 0;141,.freeobj 1;142 
+22212,.freeobj 0;5203
+22216,.freeobj 0;5204
+22225,.form 0;R;0,.form 1;L;0,.freeobj 0;141,.freeobj 0;5202,.freeobj 1;48;;;180,.freeobj 1;142    
+22240,.stop 0;4;10,.freeobj 0;457;;-0.25
+22247
+
+22253,.freeobj 0;500;2.05;1.8,.freeobj 0;518;1.95;1.55,.freeobj 0;514;2.08;1.55
+22250,.rail 1;;0,.railtype 0;4,.railtype 1;3,.Dike 0;0;0,.Dike 1;0;8,.freeobj 0;143,.freeobj 0;130,.freeobj 0;5208,.Pitch 30,.Brightness 255
+,.ground 4,.Beacon(108; 6; 0; -5)
+
+22253.5,.sigf 1;1;2.28;3.36,.Section 0;0;0;0;0;4
+
+;===============================================================================
+;===============================================================================
+
+;Rail
+22275,.rail 1;-6;-1.2,.Brightness 20
+22300,.rail 1;-6;-3.2
+22325,.rail 1;-6;-6.2,.Dike 0;1;1,.railtype 0;8,.freeobj 0;2100,.railstart 2;0;0;8,.Dike 2;-1;9
+
+22332.15,.sigf 20;1;2.28;3.2,.Section 0; 0; 2; 4
+22350,.rail 2;-1.55,.railtype 0;3,.railtype 2;61
+22375,.rail 2;-6,.Dike 0;0;9,.Dike 2;0;9
+22400,.rail 2;-12.5
+22425,.rail 2;-22
+22450,.railend 2;-40,.Pitch 15,.Curve 5000
+22475,.Pitch 0,.Curve 0
+22500,.Pitch -11
+
+22575,.sigf 20;1;2.28;3.2,.Section 0; 0; 2; 4
+22600,.railstart 2;-12.5,.Dike 2;0;9
+22625,.rail 2;-6.31,.Dike 2;-1;9,.Dike 0;1;1
+22650,.rail 2;-1.5,.railtype 2;8,.railtype 0;8
+22675,.rail 1;-6;-6,.DikeEnd 2,.railend 2;0,.Dike 0;0;9,.freeobj 0;2001;;;180,.railtype 0;4
+22679,.freeobj 0;62;2;2.2
+22706,.sigf 3;1;2.28;3.6,.Section 0; 0; 2; 4
+22700,.rail 1;-6;-3
+22725,.rail 1;-6;0,.Dike 0;0;0,.Dike 1;-1;8.Pitch -5.5,.Brightness 20
+
+;===============================================================================
+; Donlands 22750
+;===============================================================================
+22750,.sta Donlands;;;;R;;;;10;135;;8,,.freeobj 0;57,.Brightness 255
+
+22750,.ground 0,.Beacon(108; 6; 0; -6),.freeobj 0;900,.rail 1;;0,.DikeEnd 0,.DikeEnd 1,.railtype 0;1,.railtype 1;0,.Pitch 0
+	 ,.form 0;R;0,.form 1;L;0,.freeobj 0;140;-5.5;0;180,.freeobj 0;5303,.freeobj 0;130,.freeobj 1;138
+22752,.freeobj 0;46;1.5;-0.144;30
+	 22760,.freeobj 0;100;
+22775,.form 0;R;0,.form 1;L;0,.freeobj 0;139,.freeobj 1;138
+22766,.freeobj 0;5202
+22780,.freeobj 0;5204
+22784,.freeobj 0;5203
+22800,.form 0;R;0,.form 1;L;0,.freeobj 0;48,.freeobj 0;5302,.freeobj 1;138 
+22804,.freeobj 0;5206
+22806,.freeobj 0;5105;8.7;1.13;180
+22810,.freeobj 0;100;
+22816,.freeobj 0;5202
+22825,.form 0;R;0,.form 1;L;0,.freeobj 1;138,.freeobj 0;139
+22835,.freeobj 0;5054;3.1;2.2;0
+22842,.freeobj 0;5205
+22850,.form 0;R;0,.form 1;L;0,.freeobj 0;139,.freeobj 1;138
+22875,.form 0;R;0,.form 1;L;0,.freeobj 0;139,.freeobj 1;48;;;180,.freeobj 1;138 
+22882,.freeobj 0;5202
+22890,.stop 0;4;10,.freeobj 0;457;;-0.25,.freeobj 0;46;1.5;-0.144;30
+22900,.Pitch -5,.railtype 0;4,.railtype 1;3,.Dike 0;0;0,.Dike 1;-1;8,.freeobj 0;140,.freeobj 0;130,.freeobj 0;5208,.Brightness 255
+	,.Beacon(108; 6; 0; -5)
+22903.7,.freeobj 0;501;2.05;1.8,.freeobj 0;516;1.95;1.55,.freeobj 0;513;2.08;1.55,.freeobj 0;512;2.2;1.55 
+22903,.freeobj 0;459,
+
+22904,.sigf 2;1;2.28;3.6,.Section 0; 0; 2; 4
+
+;===============================================================================
+;===============================================================================
+22925,.Brightness 20
+22975,.freeobj 0;227;2.2;2
+23077.7,.freeobj 0;501;2.05;1.8,.freeobj 0;516;1.95;1.55,.freeobj 0;512;2.08;1.55,.freeobj 0;516;2.2;1.55 
+23078,.sigf 3;1;2.28;3.2,.Section 0; 0; 2; 4
+23050,.Curve -2500
+23125,.Pitch -10
+23125,.Curve 0
+23130,.freeobj 0;227;2.2;2
+23200,.freeobj 0;62;2;2.2
+
+23249.7,.freeobj 0;501;2.05;1.8,.freeobj 0;516;1.95;1.55,.freeobj 0;512;2.08;1.55,.freeobj 0;510;2.2;1.55 
+
+23250,.sigf 999;1;2.28;3.6,.Section 0; 0; 2; 4
+23250,.Brightness 20
+;==============================================================================
+; Pape 23275
+;==============================================================================
+23275,.sta Pape;;;;R;;;;12;145;;9
+
+23275,.Pitch 0,.railtype 0;99,.railtype 1;99,.DikeEnd 0,.DikeEnd 1,.freeobj 0;5370,.freeobj 1;5373,.freeobj 0;953,.freeobj 0;57,.freeobj 0;130,.freeobj 0;5374;-5.5;0;180
+,.Brightness 255,.Beacon(108; 6; 0; -6)
+23277,.freeobj 0;46;1.5;-0.144;30
+23285,.freeobj 0;100
+23290,.freeobj 0;5201
+23300,.freeobj 0;5369,.freeobj 1;5373 
+23325,.freeobj 1;5373,.freeobj 0;5371
+23338.5,.freeobj 0;5206
+23340,.freeobj 0;5201
+23348,.freeobj 0;5203
+23350,.freeobj 0;5372,.freeobj 1;5373
+23353,.freeobj 0;5205
+23356.5,.freeobj 0;5206
+23375,.freeobj 0;5369,.freeobj 1;5373
+23382,.freeobj 0;5201
+23400,.freeobj 0;5369,.freeobj 1;5373,.freeobj 1;48;;;180
+23415,.stop 0;4;10,.freeobj 0;457;;-0.25,.freeobj 0;46;1.5;-0.144;30
+23425,.Pitch 0,.freeobj 0;130,.railtype 0;4,.railtype 1;3,.Dike 0;0;0,.Dike 1;-1;8,.Brightness 255,.freeobj 0;5208,.freeobj 0;5374,.Beacon(108; 6; 0; -5)
+
+;===============================================================================
+;===============================================================================
+
+
+23437,.freeobj 0;459,.sigf 2;1;2.2;3.32,.Section 0;0;2; 4
+23450,.Brightness 20
+23575,.Curve 2000,.Pitch 0
+23590,.freeobj 1;202;;;179.65
+23600,.Curve 0,.Pitch 0
+23750,.sigf 3;1;2.2;3.32,.Section 0;0;4
+23825,.freeobj 0;62;2;1.8
+23853,.sigf 3;1;2.2;3.32,.Section 0;2;2;4
+23850,.Brightness 20
+
+;===============================================================================
+; Chester 23875
+;===============================================================================
+23875,.sta Chester;;;;R;1;;;15;145;;10,.freeobj 0;57,.Beacon(108; 6; 0; -6)
+
+23875,.Pitch 0,.DikeEnd 0,.DikeEnd 1,.railtype 0;1,.railtype 1;0,.freeobj 0;900,.Brightness 255
+	 ,.form 0;R;0,.form 1;L;0,.freeobj 0;130,.freeobj 0;189,.freeobj 0;191;-5.5;0;180,.freeobj 1;190
+23896,.freeobj 0;5204	 
+23881,.freeobj 0;46;1.5;-0.144;30
+23900,.form 0;R;0,.form 1;L;0,.freeobj 0;189,.freeobj 1;190
+23904,.freeobj 0;5202
+23917,.freeobj 0;5204
+23923,.freeobj 0;48
+23925,.form 0;R;0,.form 1;L;0,.freeobj 0;189,.freeobj 1;190
+23927,.freeobj 0;5206
+23930,.freeobj 0;5204
+23935,.freeobj 0;5202
+23950,.form 0;R;0,.form 1;L;0,.freeobj 0;5304,.freeobj 1;190
+23952,.freeobj 0;5203
+23965.5,.freeobj 0;5105;9.3;1.13;
+23966,.freeobj 0;5201
+23970,.freeobj 0;5204
+23974,.freeobj 0;5205
+23975,.form 0;R;0,.form 1;L;0,.freeobj 0;189,.freeobj 0;5054;3.1;2.2,.freeobj 1;190
+23980,.freeobj 0;5203
+23983,.freeobj 0;5204
+23985,.freeobj 0;244
+23993,.freeobj 0;5203
+24000,.form 0;R;0,.form 1;L;0,.freeobj 0;189,.freeobj 1;48;;;180,.freeobj 1;190
+24005,.freeobj 0;5204
+24010,.freeobj 0;5202
+24015,.freeobj 0;457;;-0.25,.stop 0;4;10,.freeobj 0;46;1.5;-0.144;30
+24025,.Beacon(108; 6; 0; -5),.railtype 0;4  ,.railtype 1;3  ,.Dike 0;0;0  ,.Dike 1;-1;8  ;.;2;3.7 ,.railend 1;-6;0,.freeobj 0;5208,.Brightness 255
+,.railstart 1;-6;0;1  ,.freeobj 0;130  ,.freeobj 0;191  ,.railend 1;-6;0  ,.railstart 1;-6;0;2  ,.railstart 2;-6;0;2  ,.railstart 3;0;0;2  ,.freeobj 1;101
+
+;===============================================================================
+;===============================================================================
+24024,.freeobj 0;45;2;3.7
+24025,.freeobj 0;459,.sigf 4;1;2.2;3.2,.Section 0;0;0;0;4,.Beacon(108; 5; 0; 20)
+24050,.Brightness 20
+24026.5,.freeobj 0;500;2.2;0.8,.freeobj 0;512;2.15;0.55,.freeobj 0;518;2.28;0.55
+24025,.railtype 0;3  ,.railtype 1;4  ,.railtype 2;8  ,.railtype 3;8  ,.Dike 0;1;1  ,.Dike 1;-1;1 
+24025,.freeobj 0;5000;;;8,.freeobj 0;5002,.Curve 200 ,.railtype 0;8 ,.railtype 1;8 ,.freeobj 0;4000;;;-3.5 ,.freeobj 1;4100;;;3.15
+24050,.Curve -200,.railtype 0;65 ,.rail 1;-9;;68  ,.rail 2;-6  ,.rail 3;-3
+24073.5,.freeobj 2;4000;.06;;176.7
+24075,.Curve 0  ,.Rail 1;-12;0;3 ,.railtype 2;3,.railend 3;-6;0 ,.railstart 5;;;8,.Dike 5;1;1,.railtype 0;4 ,.freeobj 0;5002  ,.Dike 0;-1;0  ,.Dike 1;0;8
+24083,.freeobj 2;600;2.5;3.5
+24125,.Dike 1;0;8
+24150,.freeobj 0;227;2.2;2
+24175,.sigf 22;1;2.2;3.2,.Beacon(108; 5; 0; 1),.freeobj 0;500;2.2;1.1,.freeobj 0;511;2.15;0.85,.freeobj 0;514;2.28;0.85
+24200.1,.signal 6;Chester;-15;-15;1
+24215,.freeobj 0;200;-6
+24225,.freeobj 0;44;2;2;0,.railstart 3;-6;0;2 ,.Dike 1;-1;8
+24250,.railtype 0;3  ,.railtype 1;4 ,.rail 3;-7.5   ,.DikeEnd 5,.railend 5,.Dike 0;1;1  ,.Dike 1;-1;1  ,.railtype 2;8 ,.railstart 4;-6;0;4 ,.freeobj 4;2001
+24275,.rail 2;-4.5;;2 ,.rail 3;-10.5 ,.Dike 4;-1;1
+24300,.freeobj 0;5000,.rail 2;-1.45;;8  ,.rail 3;-12;0  ,.railend 3 ,.railtype 1;3  ,.Dike 1;-1;8 ,.Dike 4;-1;8 ,.Dike 2;-1;9 ,.freeobj 0;227;2.2;2,,,,,,,,,,,,,,,,,
+24310,.freeobj 0;249;2;2
+24324,.freeobj 0;2001;;;180
+24325,.Pitch 6 ,.Dike 0;0;9  ,.freeobj 0;69 ,.DikeEnd 4 ,.railend 4 ,.railend 2;0 ,.DikeEnd 2,.Dike 1;0;12,,,,,,,,,,,,,,
+24350,.railtype 0;61,.Curve -250;30,.rail 1;-11.5,.back 1
+24346,.freeobj 0;227;2.2;2
+
+24398,.freeobj 0;501;2.05;1.8,.freeobj 0;515;1.95;1.55,.freeobj 0;518;2.08;1.55,.freeobj 0;514;2.2;1.55 
+24398.4,.sigf 3;1;2.2;3.6,.Section 0; 0; 0; 2; 4
+24375,.railtype 0;65,.Curve -200;60 ,.rail 1;-10.5
+24400,.rail 1;-9
+24425,.rail 1;-7.5,.ground 4
+24430,.freeobj 0;62;2;2
+24450,.Brightness 20
+;===============================================================================
+; Broadview 24475
+;===============================================================================
+24475,.sta Broadview;;;;R;0;;;15;151;;11,.freeobj 0;57,.Brightness 255
+
+24450,.fog 25;900;69;69;69,.rail 1;-6 ,.Pitch -1
+24475,.freeobj 0;900,.freeobj 0;136;-5.5;0;180,.freeobj 0;130,.freeobj 0;5305,.Pitch 0,.DikeEnd 0,.DikeEnd 1,.railtype 0;99,.railtype 1;99,.Curve 0;7,.freeobj 0;5002
+	 ,.form 0;R;0,.form 1;L;0,.freeobj 1;134,.Beacon(108; 6; 0; -6)
+24482,.freeobj 0;5105;8.7;1.13;180
+
+24493
+24500,.form 0;R;0,.form 1;L;0,.freeobj 0;5201,.freeobj 0;5306,.freeobj 1;134
+24502,.freeobj 0;46;1.5;-0.144;30
+24503,.freeobj 0;244
+24512 
+24517,.freeobj 0;5205
+24520.5,.freeobj 0;5206
+24525,.form 0;R;0,.form 1;L;0,.freeobj 0;48,.freeobj 0;5305,.freeobj 1;134 
+24531,.freeobj 0;5105;8.7;1.13;180
+24541,.freeobj 0;5203
+24545,.freeobj 0;5201,.freeobj 0;241
+24550,.form 0;R;0,.form 1;L;0,.freeobj 0;135,.freeobj 1;134
+24560,.freeobj 0;5202
+24565,.freeobj 0;5054;3.1;2.2
+24575,.form 0;R;0,.form 1;L;0,.freeobj 0;135,.freeobj 1;134
+24590
+24596,.freeobj 0;5202
+24600,.form 0;R;0,.form 1;L;0,.freeobj 0;135,.freeobj 0;243,.freeobj 0;5001,.freeobj 1;48;;;180,.freeobj 1;134 
+24615,.stop 0;4;10,.freeobj 0;457;;-0.25,.freeobj 0;46;1.5;-0.144;30
+24624.7,.freeobj 0;501;2.05;2.1,.freeobj 0;515;1.95;1.85,.freeobj 0;517;2.08;1.85,.freeobj 0;516;2.2;1.85 
+24625,.fog 0;0;0;0;0,.Pitch 5,.railtype 0;4  ,.railtype 1;3  ,.Dike 0;0;9  ,.Dike 1;0;12  ,.freeobj 0;136  ,.freeobj 0;130,.freeobj 0;5208,.Brightness 255
+,.Beacon(108; 6; 0; -5)
+
+;===============================================================================
+;===============================================================================
+24625,.height 0.7,.Curve 199;75,.railtype 0;67,.railtype 1;51
+
+24626.6,.sigf 2;1;2.28;3.6,.Section 0; 0; 0; 2; 4
+
+24630,.freeobj 0;249;2;2
+
+24765,.Brightness 128
+
+24700,.freeobj 0;5000
+24725,.freeobj 0;259;-2;-0.5,.freeobj 1;259;0.5;-0.5,.freeobj 0;220;-1.5,.freeobj 1;220;1.5,.freeobj 0;220,.freeobj 1;220,.freeobj 0;67,.railtype 1;77,.railtype 0;76,.ground 0,.height 0.2,.rail 1;-12,.Curve 0,.Dike 0;1;5,.Dike 1;-1;5
+24750,.freeobj 0;10,.accuracy 3,.Pitch 0,.DikeEnd 0,.DikeEnd 1,.ground 4,.railtype 1;8,.railtype 0;8
+24750,.freeobj 0;63
+24765,.freeobj 0;64
+24790,.freeobj 0;74
+24830,.sigf 3;1;2.2;3.6,.Section 0; 0; 0; 2; 4,.freeobj 0;101;-0.275
+24865
+
+;Prince Edward Viaduct
+24750,.freeobj 0;65
+24775,.freeobj 0;65
+24800,.freeobj 0;66
+24825,.freeobj 0;66
+24850,.freeobj 0;66
+24875,.freeobj 0;66
+24859,.freeobj 0;10
+24900,.freeobj 0;66
+24918
+24925,.freeobj 0;66
+24950,.freeobj 0;66
+24973,.freeobj 0;10,
+24975,.freeobj 0;66
+25000,.freeobj 0;66
+25025,.freeobj 0;66
+25050,.freeobj 0;73
+25075,.freeobj 0;73
+25100,.freeobj 0;65
+
+25110,.freeobj 0;10
+24912.5
+24925
+25000
+25014
+25050,.sigf 3;1;2.2;3.6,.Section 0; 0; 0; 2; 4,.freeobj 0;101;-0.275
+25059
+25095.25,.freeobj 0;74
+25108.444,.freeobj 0;24;-3.7;2.7
+25125
+25100,.freeobj 0;68
+25125,.accuracy 2,.freeobj 1;63;;;180,.railtype 1;77,.railtype 0;76,.ground 0,.height 0.2,.Dike 0;1;5,.Dike 1;-1;5
+25145,.freeobj 1;202;;;180
+25150,.Pitch -5
+25100,.fog 0;0;0;0;0,
+25195
+25200,.freeobj 0;5003,.fog 25;900;50;50;50,.freeobj 0;67,.height 0.7,.railtype 0;61,.railtype 1;62,.Curve -250,.Dike 0;0;9,.Dike 1;0;12,.Brightness 128,.freeobj 0;249;2;2
+
+25240,.sigf 3;1;2.2;3.2,.Section 0; 0; 0; 2; 4
+25300,.freeobj 0;5002,.railtype 0;4  ,.railtype 1;3  ,.Curve 0
+
+25125,.freeobj 0;220;-1.5,.freeobj 1;220;1.5,.freeobj 0;220,.freeobj 1;220,.freeobj 0;259;-2;-0.5
+25150,.freeobj 0;220;-1.5,.freeobj 1;220;1.5,.freeobj 0;220,.freeobj 1;220,.freeobj 0;259;-2;-0.5
+25175,.freeobj 0;220;-1.5,.freeobj 1;220;1.5,.freeobj 0;220,.freeobj 1;220
+
+25125,.freeobj 1;259;-0.5;-0.5
+25150,.freeobj 1;259;-0.5;-0.5
+25175,.freeobj 0;259;-2;-0.5;-0.5,.freeobj 1;259;0.5;-0.5
+25342,.freeobj 0;46;2;2
+;===============================================================================
+; Castle Frank 25350
+;===============================================================================
+25350,.sta Castle Frank;;;;R;;;;10;149;;12,.freeobj 0;57
+
+25350,.freeobj 0;900,.railtype 0;99,.railtype 1;99,.Pitch 0,.rail 1;-6,.DikeEnd 0,.DikeEnd 1,.Brightness 255,.Beacon(108; 6; 0; -6)
+	 ,.form 0;R;0,.form 1;L;0,.freeobj 0;130,.freeobj 0;173,.freeobj 0;175;-5.5;0;180,.freeobj 1;174
+25356,.freeobj 0;5202
+25368,.freeobj 0;5202
+25375,.form 0;R;0,.form 1;L;0,.freeobj 0;173,.freeobj 1;174   
+25395,.freeobj 0;48;
+25400,.form 0;R;0,.form 1;L;0,.freeobj 0;5203,.freeobj 0;5307,.freeobj 1;174
+25403,.freeobj 0;5206
+25406,.freeobj 0;5105;8.7;1.13;180
+25416,.freeobj 0;5201
+25422,.freeobj 0;5205
+25425,.form 0;R;0,.form 1;L;0,.freeobj 0;173,.freeobj 0;5054;3.1;2.2,.freeobj 1;174 
+25445,.freeobj 0;238 
+25450,.form 0;R;0,.form 1;L;0,.freeobj 0;173,.freeobj 1;174
+25475,.form 0;R;0,.form 1;L;0,.freeobj 0;5308,.freeobj 1;48;;;180,.freeobj 1;174
+25480,.freeobj 0;5202
+25490,.freeobj 0;457;;-0.25,.stop 0;4;10,.freeobj 0;46;1.5;-0.144;30
+25495,.back 0
+25500,.railtype 0;4,.railtype 1;3,.Dike 0;0;0,.Dike 1;-1;8,.freeobj 0;175,.freeobj 0;130,.freeobj 0;5208,.freeobj 1;101,.Dike 0;0;0
+,.Brightness 255,.Beacon(108; 6; 0; -5)
+;===============================================================================
+; Rosedale Valley Bridge Tunnel
+;===============================================================================
+25500,.freeobj 0;5001,.freeobj 1;5001,.freeobj 0;1;-3 ,.Dike 0;1;1  ,.Dike 1;-1;1
+
+25503,.sigf 2;1;2.2;3.6,.Section 0; 0; 0; 2; 4
+25505,.freeobj 0;249;2;2
+
+25525,.freeobj 0;1;-3 ,.railtype 0;63 ,.railtype 1;64,.Curve 250;50,.Brightness 20
+25500
+25550,.freeobj 0;1;-3
+25575,.freeobj 0;1;-3
+25600,.freeobj 0;1;-3
+25625,.freeobj 0;1;-3
+25650,.freeobj 0;1;-3
+25675,.freeobj 0;1;-3
+25700,.Dike 0;0;0  ,.Dike 1;-1;8
+
+25734.7,.freeobj 0;501;2.05;2.1,.freeobj 0;515;1.95;1.85,.freeobj 0;514;2.08;1.85,.freeobj 0;510;2.2;1.85
+25730,.sigf 3;1;-2.2;3.6
+
+25735,.sigf 3;1;2.2;3.6,.Section 0; 0; 0; 2; 4
+25700,.rail 1;-6
+25725,.rail 1;-7
+25750,.rail 1;-8,.railtype 0;4,.railtype 1;3,.Curve 0,.freeobj 0;5003,.freeobj 1;5003
+25777.7,.freeobj 0;227;2.2;2
+25875,.freeobj 0;62;2;2.3
+
+25924.7,.freeobj 0;501;2.05;2.1,.freeobj 0;515;1.95;1.85,.freeobj 0;513;2.08;1.85,.freeobj 0;514;2.2;1.85
+25925,.sigf 999;1;2.2;3.6,.Section 0; 0; 0; 2; 4
+
+25925,.Brightness 20
+
+
+;===============================================================================
+; Sherbourne 25950
+;===============================================================================
+25950,.sta Sherbourne;;;;R;;;;10;148;;13,.freeobj 0;57
+
+25950,.rail 1;-8,.freeobj 0;956,.Pitch 0,.DikeEnd 0,.DikeEnd 1,.Brightness 255,.Beacon(108; 6; 0; -6)
+	 ,.form 0;R;0,.form 1;L;0,.freeobj 0;5309,.freeobj 0;5313;-8;0;180,.railtype 0;99,.railtype 1;99,.freeobj 1;5310
+25958,.freeobj 0;46;1.35;0;0
+25963,.freeobj 0;5202
+25975,.form 0;R;0,.form 1;L;0,.freeobj 0;5203,.freeobj 0;5312,.freeobj 1;5310
+25985,.freeobj 0;100
+26000,.form 0;R;0,.form 1;L;0,.freeobj 0;48,.freeobj 0;5309,.freeobj 1;5310
+26005,.freeobj 0;5202
+26015,.freeobj 0;5206
+26025,.form 0;R;0,.form 1;L;0,.freeobj 0;54;-0.5;3.3;0,.freeobj 0;5054;3.1;2,.freeobj 0;5309,.freeobj 1;5310
+26050,.form 0;R;0,.form 1;L;0,.freeobj 0;5311,.freeobj 1;5310
+26060,.freeobj 0;100
+26065,.freeobj 0;5105;9.3;1.13
+26067,.freeobj 0;5201
+26075,.form 0;R;0,.form 1;L;0,.freeobj 0;5205,.freeobj 0;5309,.freeobj 1;5310,.freeobj 1;48;;;180
+26078,.freeobj 0;5203
+26081,.freeobj 0;5204
+26090,.freeobj 0;457;;-0.25,.stop 0;4;10,.freeobj 0;46;1.35;0;0
+26092,.freeobj 0;233,.freeobj 0;5202
+26100,.Beacon(108; 6; 0; -5),.freeobj 0;5313,.adhesion 102,.railtype 0;4,.railtype 1;3,.Dike 0;0;14,.Dike 1;0;2,.freeobj 0;5208,.Brightness 255
+26100.15
+26106.7,.freeobj 0;501;2.05;1.7,.freeobj 0;515;1.95;1.45,.freeobj 0;512;2.08;1.45,.freeobj 0;518;2.2;1.45  
+26107,.freeobj 0;459,.sigf 2;1;2.2;3.1,.Section 0; 0; 0; 4
+26120,.freeobj 0;249;2;2
+
+;===============================================================================
+;===============================================================================
+26125,.Brightness 20
+26150,.Dike 0;0;14,.Curve -200,.railtype 0;65,.railtype 1;62
+26225,.Dike 0;0;14,.Curve -1000,.railtype 0;3  ,.railtype 1;4
+26225,.Curve 0,.railtype 0;3  ,.railtype 1;4
+26300
+26402,.sigf 3;1;2.2;3,.Section 0; 0; 2; 4
+26500
+26618.5,.sigf 3;1;2.2;3,.Section 0; 0; 4
+26804,.freeobj 0;249;1.8;2
+26810,.freeobj 0;62;-2.2;2
+26775,.rail 1;-6
+26800,.rail 1;-7.5
+26825,.sigf 3;1;-2;3.13
+
+26834.5,.sigf 3;1;2.2;3.13,.Section 0; 2; 4
+26825,.Curve 189.6,.railtype 0;68,.rail 1;-9
+26874,.freeobj 0;46;-2;2
+26875,.rail 1;-10.5,.Brightness 20
+26899.8,.freeobj 0;161 ,.freeobj 1;161
+26900,.rail 1;-12,.Curve 0,.ground 4,.freeobj 0;5003,.brightness 255,.Beacon(108; 6; 0; -6)
+
+;===============================================================================
+; Yonge 26900
+;===============================================================================
+26900,.sta Yonge;;;;L;1;;;20;235;;14
+26900,.adhesion 100,.DikeEnd 0,.DikeEnd 1,.railtype 0;0,.railtype 1;1  
+	 ,.freeobj 0;151,.freeobj 0;129,.freeobj 0;156;-11.9;;180,.freeobj 0;193
+26915,.freeobj 0;152;-4 
+26917,.freeobj 0;5105;-7.55;1.1
+26925,.freeobj 0;193,.freeobj 0;48;-10,.freeobj 0;151,.freeobj 0;153
+26950,.freeobj 0;193,.freeobj 0;151
+26973,.freeobj 0;5105;-4.5;1.1;180
+26975,.freeobj 0;193,.freeobj 0;151,.freeobj 0;152;-8;;180
+26998,.freeobj 0;5105;-4.5;1.1;180
+27000,.freeobj 0;193,.freeobj 0;151,.freeobj 0;152;-8;;180 
+27025,.freeobj 0;193,.freeobj 0;151,.freeobj 0;153
+27040,.stop 0;4;10,.freeobj 0;457;-2.5;-0.25
+	 ,.freeobj 0;46;-1.5;-0.144;-30,
+27048.2,.freeobj 0;154
+27049,.freeobj 0;5105;-7.2;1.13
+27049.5,.freeobj 0;500;2.05;1.3,.freeobj 0;515;1.95;1.05,.freeobj 0;518;2.08;1.05  
+27050,.Beacon(108; 6; 0; -5),.Dike 0;0;9  ,.Dike 1;0;8  ,.railtype 0;3  ,.railtype 1;4,.freeobj 0;129  ,.Curve -2000
+,.brightness 255
+
+;===============================================================================
+;===============================================================================
+
+
+27054.02,.sigf 1;1;2.25;3.13,.Section 0;0;0;0;4
+
+
+27050,.railstart 3;0;0;8 ,.freeobj 0;2100;0;0 ,.Dike 3;-1;9,.railtype 1;4  ,.freeobj 1;2001;0;0 ,.Dike 0;1;1,.Dike 1;-1;1
+27075,.rail 3;-1.55;;2 ,.railtype 3;4,.rail 1;-15,.freeobj 0;5000,.freeobj 1;5000,.railtype 0;3,.brightness 20
+27090,.freeobj 0;249;2;2
+27095,.freeobj 1;202;;;180
+27106,.freeobj 3;304;2.17;3
+27100,.Dike 3;0;9,.Dike 0;0;9  ,.Dike 1;0;8  ,.rail 3;-5;-0.0,.Curve -200,.railtype 0;65,.railtype 0;62,.Dike 0;0;9 ,.Dike 1;0;8
+27125,.Pitch 10,.rail 3;-6.5;-1.5
+
+27149.7,.freeobj 0;501;2.05;1.9,.freeobj 0;514;1.95;1.65,.freeobj 0;519;2.08;1.65,.freeobj 0;516;2.2;1.65  
+27150,.sigf 3;1;2.2;3.13,.Section 0;0;4,.Curve 0,.freeobj 0;5002,.freeobj 1;5002,.railtype 0;3,.railtype 1;4,.rail 3;-5.88;-3.2,.Dike 3;1;1
+27175,.railstart 2;-9;-4.5,.Dike 2;-1;1,.rail 3;-4.7;-5
+27200,.rail 2;-10;-4.75 ,.rail 3;-4.07;-6.38
+27220,.freeobj 3;302;2.2;3.2,.freeobj 3;101
+27220.5,.freeobj 3;302;-2.2;3.2,.freeobj 3;101;-3
+27225,.Pitch 0,.rail 2;-11;-4.9 ,.rail 3;-1.86;-7.64
+27240,.freeobj 0;62;2;2
+27225,.Curve 1000,.railtype 0;31,.railtype 1;30
+27250,.Curve 0,.rail 2;-12;-8,.rail 3;-0;-8,.brightness 20
+
+27260,.railtype 0;3  ,.railtype 1;4
+27269.7,.freeobj 0;501;2.05;1.7,.freeobj 0;514;1.95;1.45,.freeobj 0;519;2.08;1.45,.freeobj 0;510;2.2;1.45  
+27270,.sigf 3;1;2.2;3.13,.Section 0;0; 2; 4
+27275.1
+;===============================================================================
+; Bay 27275
+;===============================================================================
+27275,.sta Bay;;;;L;0;;;15;242;;15
+
+27275,.rail 1;-12;0,.DikeEnd 0  ,.DikeEnd 1  ,.railtype 0;0  ,.railtype 1;1  ,.Pitch 0  ,.brightness 255,.Beacon(108; 6; 0; -6)
+,.freeobj 0;193,.freeobj 0;89,.freeobj 0;129,.freeobj 0;87,.freeobj 0;12
+,.DikeEnd 2,.DikeEnd 3,.railtype 3;0,.railtype 2;1 ,.freeobj 3;5;0;0;0,.form 3;1;0  ,.freeobj 3;89;,.freeobj 3;46;-1.5;-0.144;-30
+27295,.freeobj 1;201
+27298,.freeobj 0;5105;-5;1.1;180
+27300,.freeobj 0;193,.freeobj 0;89,.freeobj 0;91,.freeobj 0;5107;-7.5;;180,.form 3;1;0,.freeobj 3;89; 
+27315,.freeobj 0;50;-3.5;4;0,.freeobj 1;49;3.5;4;0 ,.freeobj 3;49;-3.5;4;0,.freeobj 3;50;3.5;4;0 
+27323,.freeobj 0;46;-1.5;-0.144;-30
+27325,.freeobj 0;193,.freeobj 0;89,.form 3;1;0,.freeobj 3;89
+27348,.freeobj 0;5105;-5;1.1;180
+27350,.freeobj 0;193,.freeobj 0;89,.freeobj 0;5106;-7.5;;180,.form 3;1;0,.freeobj 3;89,.freeobj 0;91
+27375,.freeobj 0;193,.freeobj 0;54;-3.5;3.5;0,.freeobj 0;89,.freeobj 1;53;3.5;3.5;0,.form 3;1;0,.freeobj 3;89;,.freeobj 3;91
+27398,.freeobj 0;5105;-5;1.1;180
+27400,.freeobj 0;193,.freeobj 0;5107;-7.5;;180,.freeobj 0;89,.freeobj 0;91,.form 3;1;0,.freeobj 3;89
+27415,.stop 0;4;10,.freeobj 0;457;-2.5;-0.25,.freeobj 0;46;-1.5;-0.144;-30
+,.freeobj 3;46;-1.5;-0.144;-30
+27424.25,.freeobj 0;87  ,.freeobj 3;87
+27424.7,.freeobj 0;500;2.05;1.3,.freeobj 0;511;1.95;1.05,.freeobj 0;511;2.08;1.05,.freeobj 0;512;2.2;1.05  
+27425,.Pitch -4,.railtype 0;3  ,.railtype 1;4,.freeobj 0;129,.Dike 0;1;1  ,.Dike 1;-1;1,.brightness 255
+ ,.railtype 3;3  ,.railtype 2;4  ,.Dike 3;0;9  ,.Dike 2;0;9,.Beacon(108; 6; 0; -5)
+
+;===============================================================================
+;===============================================================================
+
+27426,.sigf 1;1;2.2;3.13,.Section 0; 0; 2; 4,.freeobj 3;600;2.2;2.93,.freeobj 0;101;-0.45
+
+27425,.Dike 0;0;9  ,.Dike 1;0;8  ,.Curve -800,.Pitch -4,.railtype 0;29,.railtype 1;28
+27450,.Curve 4000,.railtype 0;3  ,.railtype 1;4 ,.rail 2;-13,.rail 3;-1,.brightness 20
+27475,.rail 2;-14,.rail 3;-2
+27490,.freeobj 0;62;2;1.8
+27500,.Pitch -6,.Curve 2000,.rail 2;-15,.rail 3;-3,.railtype 0;21,.railtype 1;30
+27525,.Pitch -9,.rail 2;-20,.rail 3;-7.3
+27550,.Curve 3000,.Pitch -7.1,.rail 2;-22;-7,.rail 3;-10;-7,.railtype 0;3,.railtype 1;4
+27575,.rail 2;-25;-6,.rail 3;-13;-6
+27599.5,.freeobj 0;500;2.15;1,.freeobj 0;511;2.05;0.75,.freeobj 0;511;2.18;0.75,.freeobj 0;510;2.3;0.75   
+
+27600,.sigf 45;1;2.2;3.13,.Section 0; 0; 2; 4,.Beacon(108; 5; 0; 9)
+27620,.Curve 4000,.Pitch -15
+27625,.Pitch -30
+27650,.Curve 4000;-5,.rail 2;-27;-5,.rail 3;-15;-5
+27675,.DikeEnd 3,.DikeEnd 2,.railend 2;-35;-4,.railend 3;-23;-4
+27699.5,.freeobj 0;500;2.15;1.1,.freeobj 0;511;2.05;0.85,.freeobj 0;510;2.18;0.85,.freeobj 0;516;2.3;0.85   
+27700,.Pitch -14,.Curve -900;12,.sigf 7;1;2.2;3.4,.Section 0; 0; 4,.Beacon(108; 5; 0; 12),.railtype 0;35
+27701,.signal 3;;-15;-15;1
+27725,.ground 0
+27725,.Pitch -2,.Curve -250;12,.Dike 0;1;1  ,.Dike 1;-1;1  ,.railtype 0;8,.railtype 1;4    ,.railstart 2;0;0;8  ,.railstart 3;-12;0;8 ,.freeobj 0;2105 ,.freeobj 1;2001 ,.Dike 2;-1;9
+27730
+27750,.Pitch -0.5,.railtype 0;29,.Curve -1000,.rail 2;-1.55;;2 ,.rail 3;-10.5;;2 ,.DikeEnd 2 ,.DikeEnd 3 ,.freeobj 2;5008 ,.freeobj 3;5009
+27765,.freeobj 2;5009 ,.freeobj 3;5008
+27775,.Pitch -1,.railtype 0;94,.Curve -5000,.Limit 80,.rail 2;-4.5 ,.rail 3;-7.5
+27781,.freeobj 0;5012 ,.freeobj 1;5012;5.5
+27795,.freeobj 2;5008 ,.freeobj 3;5009
+27800,.rail 2;-7.5 ,.rail 3;-4.5
+27810,.freeobj 2;5009 ,.freeobj 3;5008
+27825,.Curve -4000,.railtype 0;8,.Pitch -0.5,.rail 2;-10.5;;8  ,.rail 3;-1.55;;8 ,.Dike 3;-1;9 ,.freeobj 0;5013;-2,.brightness 20
+27834
+27850,.railtype 0;3,.Curve 0,.DikeEnd 3  ,.railtype 0;3  ,.railtype 1;4 ,.freeobj 1;2100;;;180 ,.freeobj 0;2001;;;180.39;0,.railend 2;-12  ,.railend 3;0  ,.freeobj 0;69;0;0;0,.Dike 0;0;9  ,.Dike 1;0;12  ,.DikeEnd 2
+
+;===============================================================================
+; St. George 27850
+;===============================================================================
+27850,.freeobj 0;12,.sta St. George;;;;L;1;;;15;255;;16,.Beacon(108; 6; 0; -6)
+
+
+27849 ,.brightness 255
+27849.7,.freeobj 0;501;2.15;1.3,.freeobj 0;514;2.05;1.05,.freeobj 0;517;2.18;1.05,.freeobj 0;510;2.3;1.05   
+27850,.Pitch 0,.freeobj 0;129,.freeobj 0;171;-12.5;;180  ,.Curve -3000,.DikeEnd 0  ,.DikeEnd 1  ,.railtype 0;0  ,.railtype 1;1  ,.freeobj 0;193,.freeobj 0;172  ,.freeobj 0;168 ,.sigf 33;0;2.2;3.2,.Section 0;2;4,.Beacon(108; 5; 0; 1)
+27868,.freeobj 0;5108;-4.2;-0.2
+27874,.railstart 2;0;7,.railtype 2;3,.Dike 2;0;9
+27875,.Curve 0,.freeobj 0;193,.freeobj 0;172,.Curve 0
+27891,.freeobj 0;5105;-5;1.1;180
+27893,.freeobj 0;169;-7.5;;180
+27900,.freeobj 0;193,.freeobj 1;49;3.5;4;0,.freeobj 0;50;-3.5;4;0,.freeobj 0;172,.freeobj 0;168 
+27902,.freeobj 0;46;-1.5;-0.144;-30
+27925,.freeobj 0;193,.freeobj 0;172  
+27943,.freeobj 0;5105;-5;1.1;180
+27945,.freeobj 0;169;-7.5;;180
+27950,.freeobj 0;193,.freeobj 0;172,.freeobj 0;168
+27975,.freeobj 0;193,.freeobj 0;172 ,.freeobj 0;169;-4.5 
+27977,.freeobj 0;5105;-7;1.1;
+27990,.stop 0;4;10,.freeobj 0;457;-2.5;-0.25,.freeobj 0;46;-1.5;-0.144;-30
+27999.7,.freeobj 0;500;2.1;1.3,.freeobj 0;519;2.05;1.05,.freeobj 0;516;2.18;1.05
+28000,.Dike 0;0;9,.freeobj 0;5000  ,.Dike 0;0;9  ,.Dike 1;0;8,.freeobj 0;129,.freeobj 0;171  ,.railtype 0;3  ,.railtype 1;4 ,.brightness 255,.Beacon(108; 6; 0; -5)
+28001,.freeobj 1;600;1.7;4
+
+
+;===============================================================================
+;===============================================================================
+28000,.railtype 0;66  ,.railtype 1;65  ,.Curve -200 ,.rail 2;2;7,.Dike 1;-1;1,.freeobj 1;1;2.5
+
+28002,.sigf 1;1;2.25;3.13,.Section 0;0;0;0;0;4
+28005,.freeobj 0;249;2;2.2
+28025,.Curve 200,.railtype 0;67,.railtype 1;68,.rail 1;-7,.Dike 1;-1;1,.freeobj 0;5001,.rail 1;-8,.rail 2;4;7,.freeobj 1;1;2.5,.freeobj 0;5002,.brightness 20
+28040,.freeobj 0;227;2.2;2
+28050,.Curve 0 ,.railtype 0;4  ,.railtype 1;3 ,.freeobj 0;5003,.rail 1;-6 ,.Dike 0;1;1,.rail 1;-7,.freeobj 0;1;-2.5 ,.freeobj 1;1;2.5
+28062,.freeobj 0;459,
+28075,.rail 1;-6 ,.Dike 0;0;0  ,.Dike 1;0;8
+
+28132,.sigf 20;1;2.25;3.13,.Section 0;0;2;4
+28200,.rail 2;6;0,.Dike 2;1;1
+28225,.rail 2;6;0,.Dike 0;-1;1,.freeobj 0;1;2.5
+28250,.rail 2;4.45;0  ,.freeobj 0;227;2.2;2  ,.Dike 2;1;1
+
+28272,.freeobj 2;300;2.2;3.5
+28275,.rail 2;1.55;0  ,.railtype 2;2 ,.railtype 0;8 ,.railtype 2;8
+28300,.freeobj 0;2100;0;0;180,.Dike 0;1;1,.Dike 1;-1;1,.freeobj 0;1;-3,.railtype 0;4,.railend 2;0;0;8,.freeobj 0;62;2;2
+
+28322,.sigf 3;1;2.25;3.13
+28324.5,.sigf 3;1;-2.25;3.13,.Section 0;0;2;4
+28325,.Curve 1000,.railtype 0;30,.railtype 1;31,.Dike 0;0;0,.brightness 20
+
+;===============================================================================
+; Spadina 28350
+;===============================================================================
+28350,.sta Spadina;;;;R;;;;10;230;;17
+28350,.Curve 0,.DikeEnd 0,.DikeEnd 1,.railtype 0;1,.railtype 1;0,.brightness 255,.Beacon(108; 6; 0; -6)
+,.freeobj 0;900,.rail 1;-6,.freeobj 0;5319;-5.5;0;180,.freeobj 0;130,.form 0;R;0,.form 1;L;0,.freeobj 0;57,.freeobj 0;5315,.freeobj 1;5314
+28355,.freeobj 0;5202
+28364,.freeobj 0;46;1.5;-0.144;30
+28370,.freeobj 0;5054;3.1;2
+28375,.form 0;R;0,.form 1;L;0,.freeobj 0;5316,.freeobj 1;5314
+28382,.freeobj 0;5105;8.7;1.13;180
+28385,.freeobj 0;100
+28400,.form 0;R;0,.form 1;L;0,.freeobj 0;48,.freeobj 0;147,.freeobj 1;5314
+28405,.freeobj 0;5201
+28408,.freeobj 0;5206
+28412,.freeobj 0;5202
+28425,.form 0;R;0,.form 1;L;0,.freeobj 0;147,.freeobj 1;5314
+28437,.freeobj 0;5205
+28445,.freeobj 0;5054;3.1;2
+28450,.form 0;R;0,.form 1;L;0,.freeobj 0;147,.freeobj 1;5314
+28465,.freeobj 0;5202
+28475,.form 0;R;0,.form 1;L;0,.freeobj 0;5317,.freeobj 1;5314
+28490,.stop 0;4;10,.freeobj 0;46;1.5;-0.144;30,.freeobj 0;457;2;-0.25
+28495 ,.freeobj 0;5201;2
+28499,.freeobj 0;5318;2.5;1
+28499.7,.freeobj 0;501;2.15;1.9,.freeobj 0;514;2.05;1.65,.freeobj 0;514;2.18;1.65,.freeobj 0;518;2.3;1.65
+28499.8,.freeobj 0;5208 
+28500,.brightness 255,.Dike 1;-1;8,.railtype 0;4,.railtype 1;3,.Dike 0;0;0,.Curve 0,.freeobj 0;130,.Beacon(108; 6; 0; -5)
+
+28502,.sigf 2;1;2.25;3.13,.Section 0;0;2;4,
+
+
+;==============================================================================
+;===============================================================================
+28525,.brightness 20
+28625,.freeobj 0;227;2;2.2
+28657,.sigf 3;1;2.25;3.13,.Section 0;0;2;4
+28665,.freeobj 1;202;;;180
+28750,.Curve -2000
+28800,.Curve 0,.freeobj 0;227;2;2.2,.freeobj 0;62;2;2
+28825,.sigf 3;1;2.25;3.13,.Section 0;0;2;4
+28825,.brightness 20
+;===============================================================================
+; Bathurst 28850
+;===============================================================================
+28850,.sta Bathurst;;;;R;;;;10;225;;18,
+28850,.Pitch 0,.DikeEnd 0,.DikeEnd 1,.railtype 0;99,.railtype 1;99,.brightness 255,.Beacon(108; 6; 0; -6)
+	 ,.form 0;R;0,.form 1;L;0,.freeobj 0;900,.freeobj 0;5324;-5.5;0;180,.freeobj 0;130,.freeobj 0;124,.freeobj 1;125,.freeobj 0;57  
+28864,.freeobj 0;46;1.5;-0.144;30
+28875,.form 0;R;0,.form 1;L;0,.freeobj 0;124,.freeobj 1;125
+28895,.freeobj 0;48
+28900,.form 0;R;0,.form 1;L;0,.freeobj 0;5320,.freeobj 1;125
+28904,.freeobj 0;5206
+28915,.freeobj 0;5201
+28925,.form 0;R;0,.form 1;L;0,.freeobj 0;5321,.freeobj 1;125
+28942,.freeobj 0;5054;3.1;2
+28944,.freeobj 0;5205
+28950,.form 0;R;0,.form 1;L;0,.freeobj 0;5322,.freeobj 1;125
+28955,.freeobj 0;5206
+28956,.freeobj 0;5105;8.7;1.13;180
+28965,.freeobj 0;5201
+28975,.form 0;R;0,.form 1;L;0,.freeobj 0;5323,.freeobj 1;125,.freeobj 1;48;;;180   
+28990,.stop 0;4;10,.freeobj 0;46;1.5;-0.144;30,.freeobj 0;457;2;-0.25
+28999,.freeobj 0;126;2.5;1
+28999.8,.freeobj 0;5208
+29000,.railtype 0;4,.railtype 1;3,.Dike 0;0;0,.Dike 1;-1;8,.freeobj 0;130,.freeobj 1;101,.brightness 255,.Beacon(108; 6; 0; -5)
+29002.7,.freeobj 0;501;2.15;2.2,.freeobj 0;514;2.05;1.95,.freeobj 0;513;2.18;1.95,.freeobj 0;510;2.3;1.95  
+
+29003,.sigf 2;1;2.25;3.13,.Section 0;0;2;4,
+
+
+;===============================================================================
+;===============================================================================
+29025,.brightness 20
+29149.7,.freeobj 0;501;2.15;1.9,.freeobj 0;514;2.05;1.65,.freeobj 0;512;2.18;1.65,.freeobj 0;512;2.3;1.65  
+29151.2,.sigf 3;1;2.25;3.13,.Section 0;0;4
+29165,.freeobj 1;202;;;180
+29325,.Curve 2000,.freeobj 0;62;2;2
+29350,.Curve 0,
+29349.7,.freeobj 0;501;2.15;1.7,.freeobj 0;514;2.05;1.45,.freeobj 0;511;2.18;1.45,.freeobj 0;518;2.3;1.45  
+29350,.sigf 3;1;2.25;3.13,.Section 0;2;4,.brightness 20
+
+
+;===============================================================================
+; Christie 29375
+;===============================================================================
+29375,.sta Christie;;;;R;1;;;10;220;;19
+
+29375,.Pitch 0,.DikeEnd 0,.DikeEnd 1,.railtype 0;1,.railtype 1;0,.brightness 255,.Beacon(108; 6; 0; -6)
+,.form 0;R;0,.form 1;L;0,.freeobj 0;256,.freeobj 0;57,.freeobj 1;5325,.freeobj 0;900,.freeobj 0;5328;-5.5;0;180,.freeobj 0;130
+29385,.freeobj 0;46;1.5;-0.144;30
+29390,.freeobj 0;5202
+29400,.form 0;R;0,.form 1;L;0,.freeobj 0;256,.freeobj 1;5325
+29423,.freeobj 0;48
+29425,.form 0;R;0,.form 1;L;0,.freeobj 0;5326,.freeobj 1;5325
+29427,.freeobj 0;5206
+29429,.freeobj 0;5201
+29445,.freeobj 0;5205
+29450,.form 0;R;0,.form 1;L;0,.freeobj 0;5327,.freeobj 1;5325,.freeobj 0;5054;3.1;2
+29451,.freeobj 0;5203
+29453,.freeobj 0;5204
+29468,.freeobj 0;5201
+29475,.form 0;R;0,.form 1;L;0,.freeobj 0;256,.freeobj 1;5325
+29500,.form 0;R;0,.form 1;L;0,.freeobj 1;48;;;180,.freeobj 0;256,.freeobj 1;5325
+29505,.freeobj 0;5202
+29515,.freeobj 0;457;;-0.25,.stop 0;4;10,.freeobj 0;46;1.5;-0.144;30
+29520,.back 0
+29525,.railtype 0;4,.railtype 1;3,.Dike 0;0;0,.Dike 1;-1;8,.freeobj 0;5328,.freeobj 0;5208,.freeobj 0;130,.freeobj 1;101  ,.Dike 0;0;0  ,.brightness 255,.Beacon(108; 6; 0; -5)
+29534.5,.freeobj 0;500;2.1;1.3,.freeobj 0;513;2.05;1.05,.freeobj 0;512;2.18;1.05
+29535,.sigf 1;1;2.25;3.3,.Section 0;0;0;0;4
+
+;===============================================================================
+;===============================================================================
+29550,.brightness 20
+29570,.freeobj 1;202;;;180
+29575,.Pitch -7
+29585,.freeobj 0;62;2;2
+29675,.Pitch -5
+29700,.Pitch -9
+29725
+29700,.sigf 45;1;2.25;3.3,.Section 0;0;2;4,.Beacon(108; 5; 0; 9)
+29720,.freeobj 0;45;2;2
+29725,.Curve 200,.rail 1;-6,.Dike 0;1;1,.Dike 1;-1;1,.railtype 0;97,.railtype 1;97,.freeobj 0;4000;;;-3.5 ,.freeobj 1;4100;;;3.5
+29750,.railstart 5;-6,.railtype 5;8,.Curve -200,.rail 1;-9,.railtype 1;67,.railtype 0;65
+29775,.Dike 1;0;8,.Dike 5;1;8,.freeobj 5;4100;;;180,.railtype 5;3,.Curve 0,.rail 1;-12,.railtype 0;4  ,.railtype 1;3
+29825,.sigf 9;1;2.25;3.3,.Section 0;0;2;4,.Beacon(108; 5; 0; 10)
+29800,.Pitch -8
+29825,.Pitch -4
+29850,.Pitch 0
+29925,.DikeEnd 5,.railtype 5;8,.freeobj 5;4000;;;3.5,.Dike 1;-1;1,.rail 1;-12,.Curve -200,.railtype 1;67,.railtype 0;65,.Dike 0;1;1,.Dike 1;-1;1
+29950,.railend 5,.rail 1;-9,.Curve 200,.railtype 0;97,.railtype 1;97
+
+29950,.brightness 20
+;===============================================================================
+; Ossington 29975
+;===============================================================================
+29975,.sta Ossington;;;;R;;;;10;219;;20,.sigf 34;1;2.25;3.3,.Section 0;0;2;4,.freeobj 0;45;2;3.5,.Beacon(108; 6; 0; -6),.Beacon(108; 5; 0; 1)
+
+29975,.Curve 0,.DikeEnd 0,.DikeEnd 1,.railtype 0;1,.railtype 1;0,.rail 1;-6,.brightness 255,.freeobj 0;4100;;;180,.freeobj 1;4000;;;-180,.freeobj 0;900 
+,.form 0;R;0,.form 1;L;0,.freeobj 0;5334;-5.5;0;180,.freeobj 0;5330,.freeobj 1;5333,.freeobj 0;130,.freeobj 0;57
+29990,.freeobj 0;5204
+29999,.freeobj 0;5203
+30000,.form 0;R;0,.form 1;L;0,.freeobj 0;5331,.freeobj 1;5333
+30002,.freeobj 0;5205
+30006,.freeobj 0;5105;8.7;1.13;180
+30020,.freeobj 0;48
+30025,.form 0;R;0,.form 1;L;0,.freeobj 0;5329,.freeobj 1;5333
+30027,.freeobj 0;5202
+30029,.freeobj 0;46;1.5;-0.144;30
+30044,.freeobj 0;5206
+30062,.freeobj 0;5202
+30050,.form 0;R;0,.form 1;L;0,.freeobj 0;5329,.freeobj 1;5333,.freeobj 0;5054;3.1;2
+30075,.form 0;R;0,.form 1;L;0,.freeobj 0;5332,.freeobj 1;5333
+30078,.freeobj 0;5201
+30100,.form 0;R;0,.form 1;L;0,.freeobj 1;48;;;180,.freeobj 0;5329,.freeobj 1;5333
+30115,.freeobj 0;457;;-0.25,.freeobj 0;46;1.5;-0.144;30,.stop 0;4;10
+30125,.railtype 0;4,.railtype 1;3,.Dike 0;0;0,.Dike 1;-1;8,.Dike 1;-1;8,.freeobj 0;5334,.freeobj 0;5208,.freeobj 0;130,.freeobj 1;101,.brightness 255,.Beacon(108; 6; 0; -5)
+30129.7,.freeobj 0;501;2.05;1.8,.freeobj 0;513;1.95;1.55,.freeobj 0;518;2.08;1.55,.freeobj 0;516;2.2;1.55 
+30130,.sigf 2;1;2.25;3.3,.Section 0;0;2;4
+30150,.brightness 20
+;===============================================================================
+;===============================================================================
+30125,.Curve -5555
+30275,.freeobj 0;249;2;2
+30360,.sigf 3;1;2.25;3.3,.Section 0;0;2;4
+30175,.Curve 0
+30200,.Dike 0;0;2,.Dike 1;0;2,.freeobj 0;161
+30225,.Dike 0;0;0,.Dike 1;-1;1
+30541.1337,.sigf 3;1;2.25;3.3,.Section 0;0;2;4
+30350,.Curve -2000,.railtype 0;18,.railtype 1;19
+30550,.Curve 0,.railtype 0;4,.railtype 1;3
+30620,.freeobj 0;249;2;2,.freeobj 0;62;2;1.5
+30658,.freeobj 0;227;2;2.2
+30675,.Curve 700,.railtype 0;44,.railtype 1;45
+30700,.Curve 700;3
+
+30750,.sigf 3;1;-2.25;3.3
+30756,.sigf 3;1;2.25;3.3,.Section 0;0;2;4
+30775,.Curve 0,.railtype 0;4,.railtype 1;3,.brightness 20
+30791,.freeobj 0;46;2;2
+
+;===============================================================================
+; Dufferin 30800
+;===============================================================================
+30800,.sta Dufferin;;;;R;;;;10;200;;21
+
+30800,.Curve 0,.freeobj 0;5339;-5.5;0;180,.freeobj 0;130,.DikeEnd 0,.DikeEnd 1,.railtype 0;99,.railtype 1;99,.freeobj 0;900
+	 ,.form 0;R;0,.form 1;L;0,.freeobj 0;5335,.freeobj 1;5338,.freeobj 0;57,.brightness 255,.Beacon(108; 6; 0; -6) 
+30825,.form 0;R;0,.form 1;L;0,.freeobj 0;5335,.freeobj 1;5338
+30845,.freeobj 0;48; 
+30850,.form 0;R;0,.form 1;L;0,.freeobj 0;5335,.freeobj 1;5338,.freeobj 0;50;2;4;0,.freeobj 1;49;-2;4;0,.freeobj 0;5201
+30855,.freeobj 0;5203
+30858,.freeobj 0;5205
+30862,.freeobj 0;5206
+30875,.form 0;R;0,.form 1;L;0,.freeobj 0;5336,.freeobj 1;5338
+30900,.form 0;R;0,.form 1;L;0,.freeobj 0;5337,.freeobj 1;5338
+30915,.freeobj 0;5201
+30925,.form 0;R;0,.form 1;L;0,.freeobj 0;5335,.freeobj 1;5338,.freeobj 1;48;;;180
+30935,.freeobj 0;5202
+30940,.freeobj 0;457;;-0.25,.stop 0;4;10,.freeobj 0;46;1.5;-0.144;30
+30950,.railtype 0;4,.railtype 1;3,.Dike 0;0;0,.Dike 1;-1;8,.Dike 1;-1;8,.freeobj 0;5339,.freeobj 0;5208,.freeobj 0;130,.freeobj 1;101,.Dike 0;0;0,.brightness 255,.Beacon(108; 6; 0; -5)
+30955.7,.freeobj 0;501;2.05;1.8,.freeobj 0;513;1.95;1.55,.freeobj 0;516;2.08;1.55,.freeobj 0;512;2.2;1.55 
+
+30957,.sigf 2;1;2.25;3.3,.Section 0;0;2;4
+
+;===============================================================================
+;===============================================================================
+30950,.Curve 2000
+30960,.freeobj 0;249;2;1.8
+30975,.Curve 450,.railtype 0;60,.railtype 1;59,.brightness 20
+31025,.Curve 0,.railtype 0;4,.railtype 1;3
+31099.7,.freeobj 0;501;2.05;1.8,.freeobj 0;513;1.95;1.55,.freeobj 0;515;2.08;1.55,.freeobj 0;516;2.2;1.55 
+31100,.sigf 3;1;2.28;3.3,.Section 0;0;2;4
+31190,.freeobj 0;62;2;2
+31199.7,.freeobj 0;501;2.05;1.8,.freeobj 0;513;1.95;1.55,.freeobj 0;515;2.08;1.55,.freeobj 0;512;2.2;1.55 
+31200,.sigf 3;1;2.28;3.3,.Section 0;0;2;4
+31250,.brightness 20
+
+
+;===============================================================================
+; Lansdowne 31275
+;===============================================================================
+31275,.sta Lansdowne;;;;R;;;;0;190;;22
+
+
+31275,.limit 80,.freeobj 0;900,.freeobj 0;130,.freeobj 0;57,.DikeEnd 0,.DikeEnd 1,.railtype 0;1,.railtype 1;0
+,.form 0;R;0,.form 1;L;0,.freeobj 0;5340,.freeobj 1;5343,.freeobj 0;5344;-5.5;0;180,.Beacon(108; 6; 0; -6),.brightness 255
+31300,.form 0;R;0,.form 1;L;0,.freeobj 0;5341,.freeobj 1;5343,.freeobj 0;5202
+31302,.freeobj 0;5203
+31303,.freeobj 0;46;1.5;-0.144;30
+31307,.freeobj 0;5105;6.7;1.13;180
+31320,.freeobj 0;48;
+31325,.form 0;R;0,.form 1;L;0,.freeobj 0;5340,.freeobj 1;5343
+31327,.freeobj 0;5206
+31350,.form 0;R;0,.form 1;L;0,.freeobj 0;5340,.freeobj 1;5343
+31365,.freeobj 0;5205
+31373,.freeobj 0;5054;3.1;2.1
+31375,.form 0;R;0,.form 1;L;0,.freeobj 0;5342,.freeobj 1;5343
+31396,.freeobj 0;5204
+31399,.freeobj 0;5203
+31400,.form 0;R;0,.form 1;L;0,.freeobj 1;48;;;180,.freeobj 0;5341,.freeobj 1;5343
+31405,.freeobj 0;5105;6.7;1.13;180,.freeobj 0;5202
+31415,.stop 0;4;10,.freeobj 0;46;1.5;-0.144;30,.freeobj 0;457;;-0.25
+31425,.freeobj 0;5000,.railtype 0;4,.railtype 1;3,.Dike 0;0;0,.Dike 1;-1;8,.freeobj 0;5344,.freeobj 0;5208,.freeobj 0;130,.freeobj 1;101,.brightness 255,.Beacon(108; 6; 0; -5)
+31429.7,.freeobj 0;501;2.05;1.8,.freeobj 0;513;1.95;1.55,.freeobj 0;514;2.08;1.55,.freeobj 0;514;2.2;1.55 
+
+31431,.sigf 2;1;2.25;3.3,.Section 0;0;2;4
+
+
+;===============================================================================
+;===============================================================================
+
+
+31450,.Pitch -8,.Curve -450,.railtype 0;56,,.brightness 20
+31525,.Pitch -16,.Curve 0,.railtype 0;4
+31543,.freeobj 0;227;2;2.2
+31550,.Pitch -24,.Dike 0;0;2,.Dike 1;0;2,.freeobj 0;161
+31575,.Pitch -32
+31665.62,.sigf 3;1;2.25;3.16,.Section 0;0;2;4
+31800,.Pitch -24
+31825,.Pitch -16
+31850,.Pitch -8,.sigf 3;1;2.25;3.16,.Section 0;0;4;4,
+31875,.Pitch 0
+31900,.Pitch 10,.freeobj 0;62;2;2
+
+
+32000,.rail 1;-6,.Curve -800,.railtype 0;42,.railtype 1;43
+32013,.sigf 3;1;2.25;3.16,.Section 0;2;2;4
+32025,.rail 1;-7
+32050,.rail 1;-8
+32050,.Curve 0,.brightness 20,.freeobj 0;5002,.freeobj 1;5002,.railtype 0;4  ,.railtype 1;3
+
+32043,.freeobj 0;51;2;2
+;===============================================================================
+; Dundas West 32075
+;===============================================================================
+32075,.sta Dundas West;;;;R;;;;15;192;;23
+
+31700,.back 1
+31995,.freeobj 0;46;2;2
+32075,.freeobj 0;5345,.freeobj 1;5347,.freeobj 0;57;;-0.15,.freeobj 0;5313;-8.2;0;180,.rail 1;-8,.Pitch 0,.freeobj 0;957,.brightness 255,.DikeEnd 0  ,.DikeEnd 1  ,.railtype 0;99,.railtype 1;99,.Beacon(108; 6; 0; -6)
+32090,.freeobj 1;201
+32093,.freeobj 0;5202
+32100,.freeobj 0;5345,.freeobj 1;5347
+32115,.freeobj 0;5206,.freeobj 0;462
+32120,.freeobj 0;48
+32125,.freeobj 0;5345,.freeobj 1;5347
+32127,.freeobj 0;5202
+32150,.freeobj 0;5345,.freeobj 1;5347,.Limit 80,.freeobj 0;5054;3.1;2
+32151,.freeobj 0;5205
+32165,.freeobj 0;5201
+32170
+32175,.freeobj 0;5345,.freeobj 1;5347
+32195,.freeobj 0;5054;3.1;2
+32200,.freeobj 0;5346,.freeobj 1;5347,,.freeobj 1;48;;;180
+32215,.stop 0;4;10,.freeobj 0;46;1.5;-0.144;30,.freeobj 0;457;2;-0.25
+32223.5,.freeobj 0;5105;6.3;1.13
+32224.97,.freeobj 0;45;2.5;2;0,.freeobj 0;5208;;-0.3
+32225,.Pitch 4.5,.railtype 0;4,.railtype 1;3
+  ,.Dike 0;0;0,.Dike 1;-1;8,.freeobj 1;101,.Dike 0;0;0,.brightness 255
+32224.5,.freeobj 0;500;2.5;1.4,.freeobj 0;513;2.45;1.15,.freeobj 0;510;2.58;1.15
+
+32225,.sigf 4;1;2.2;3.31,.Section 0;0;0;0;2; 4,.freeobj 0;101;-0.45,.Beacon(108; 6; 0; -5),.Beacon(108; 5; 0; 15)
+
+
+;===============================================================================
+;===============================================================================
+
+32250,.Pitch 9,.rail 1;-7,.limit 80,.Curve 1000,.railtype 0;30,.railtype 1;31,.brightness 20
+32256,.freeobj 0;227;2.2;2
+32262,.freeobj 1;304;-2;3.5;180
+32254,.limit 80
+32275,.rail 1;-6.5,.Pitch 18
+32300,.ground 4.rail 1;-6,.Curve 0,.railtype 0;4  ,.railtype 1;3,.brightness 20
+32323,.freeobj 0;44;2;1.2;0
+32324.7,.freeobj 0;501;2.05;1.6,.freeobj 0;513;1.95;1.35,.freeobj 0;511;2.08;1.35,.freeobj 0;512;2.2;1.35 
+32325,.freeobj 0;25,.rail 1;-6,.DikeEnd 0,.DikeEnd 1,.sigf 31;1;2.2;3.2,.Section 0;0;0;2;4,.Beacon(108; 5; 0; 1),.railtype 0;7,.railtype 1;6
+;temporary Dike
+32325,.freeobj 0;4,.brightness 255
+32350,.Dike 0;1;19
+32355,.freeobj 0;5500;3
+32360,.freeobj 0;5500;2.5;-1,.freeobj 0;5514
+32375,.freeobj 0;5500;3;-1,.freeobj 0;5501;15;-4
+32400,.freeobj 0;5501;15;-4
+32405,.freeobj 0;5500;2.5;-1
+32414,.freeobj 0;500;2.1;0.9,.freeobj 0;512;2.05;0.65,.freeobj 0;510;2.18;0.65
+32415,.sigf 3;1;2.22;3.1,.Section 0;0;0;4,.freeobj 0;78;1.8
+32416,.freeobj 1;101;-4.7;-0.6,.freeobj 1;304;-2;3.5;180
+32418,.freeobj 0;5501;15;-4,.freeobj 0;5515
+32430,.freeobj 0;5500;13;-5
+32450,.freeobj 0;5501;15;-4,.Dike 1;-1;19,.Pitch 12
+32465,.freeobj 0;5500;13;-5
+32475,.freeobj 0;5500;15;-4,.Pitch 6
+32499,.freeobj 0;5500;13;-4,.freeobj 0;500;2.1;0.9,.freeobj 0;511;2.05;0.65,.freeobj 0;518;2.18;0.65
+
+32500,.sigf 20;1;2.2;3.1,.Section 0;0;2;4,.Pitch 2,.freeobj 0;78;1.8
+32545,.freeobj 0;5500;15;-5,.freeobj 1;101;-4.7;-0.6,.freeobj 1;602;-2;3.5;180
+32550,.freeobj 0;5500;15;-4,.freeobj 0;5514
+32550,.ground 4
+
+32556.2,.sigf 20;1;2.2;3.1,.Section 0;0;4,.freeobj 0;78;1.8
+32565,.freeobj 0;5501;15;-5,.fog 0;0
+
+32575,.freeobj 0;5500;15;-4,.rail 1;-6,.railstart 2;0;0;8  ,.railstart 3;-6;0;8 ,.DikeEnd 2,.DikeEnd 3,.railtype 0;8 ,.railtype 1;8 ,.freeobj 0;2102 ,.freeobj 1;2003
+32589.9,.freeobj 0;62;2.4;1;0 
+32590,.freeobj 0;5500;13;-5,.freeobj 0;101;;-2
+
+32600,.rail 2;-1.55;0  ,.rail 3;-4.45;0 ,.railtype 2;5 ,.railtype 3;5 ,.railtype 0;6 ,.railtype 1;7
+32625,.freeobj 0;88,.rail 2;-4.45;0  ,.rail 3;-1.55;0 ,.railtype 2;8 ,.railtype 3;8  ,.freeobj 0;227;2.2;2  ,.railtype 0;8 ,.railtype 1;8
+32636
+32640,.freeobj 0;5500;15;-4
+32645,.freeobj 0;5500;13;-4
+32650,.freeobj 0;5501;15;-5,.freeobj 0;5500;12;-5,.freeobj 0;5501;11;-5,.freeobj 0;5500;9;-5
+32650,.freeobj 0;2003;;;180  ,.freeobj 1;2102;;;180  ,.railend 3;0  ,.railtype 0;7  ,.railend 2;-6  ,.railtype 1;6,.DikeEnd 0,.DikeEnd 1,.DikeEnd 2
+32654.1,.freeobj 0;264
+32669
+32674,.sigf 3;1;2.2;3.8,.Section 0;2;4
+;===============================================================================
+; Keele 32675
+;===============================================================================
+32675,.sta Keele;;;;R;1;;;15;187;;24
+
+32673.7,.freeobj 0;501;2.15;1.8,.freeobj 0;513;2.05;1.55,.freeobj 0;510;2.18;1.55,.freeobj 0;512;2.3;1.55 
+32674,.freeobj 1;602;-2.15;3.5;180 ,.freeobj 0;600;-2.2;3.5;180  ,.freeobj 0;101;-4.5
+32675,.limit 80,.railtype 0;99,.railtype 1;99,.freeobj 0;350,.Beacon(108; 6; 0; -6)
+32713,.freeobj 0;46;1.5;-0.144;30
+32725,.ground 0
+32744
+32750,.freeobj 0;5054;2.03;2.7;0
+32787
+32815,.freeobj 0;457;-0.1;0.25,.stop 0;4;10,.freeobj 0;46;1.5;-0.144;30,.freeobj 0;245
+32825,.railtype 0;4,.railtype 1;3,.Dike 0;1;1  ,.Dike 1;-1;1,.freeobj 0;356,.Pitch -15,.brightness 255,.Beacon(108; 6; 0; -5)
+
+
+;===============================================================================
+;===============================================================================
+32824.8,.freeobj 0;500;2.05;1.8,.freeobj 0;518;2.05;1.55
+32825.8 
+32827,.freeobj 1;606;2.5;3.5  ,.freeobj 1;101
+
+32828.4,.sigf 1;1;2.2;3.9,.Section 0;0;0;0;0;4
+32837
+32850,.Pitch -30,.Dike 0;0;0,.Dike 1;-1;8,.brightness 20
+32899.7,.freeobj 0;501;2.05;1.5,.freeobj 0;512;1.95;1.25,.freeobj 0;518;2.08;1.25,.freeobj 0;516;2.2;1.25 
+32900,.sigf 3;1;2;3.2
+
+32998,.freeobj 0;4
+33000,.fog 0;2200,.Curve -2000,.railtype 0;18,.railtype 1;19
+32950,.Pitch -20
+32975,.Pitch -15
+33000,.Pitch -0
+33025,.Pitch 5
+
+
+33099.7,.freeobj 0;501;2.05;1.5,.freeobj 0;512;1.95;1.25,.freeobj 0;519;2.08;1.25,.freeobj 0;510;2.2;1.25 
+33100,.sigf 3;1;2.29;3.12,.Section 0;0;2;4
+33150,.freeobj 0;62;2;1.8
+
+33225,.Curve 0,.railtype 0;4  ,.railtype 1;3
+33249.7,.freeobj 0;501;2.05;1.5,.freeobj 0;512;1.95;1.25,.freeobj 0;518;2.08;1.25,.freeobj 0;510;2.2;1.25 
+33250,.brightness 20 ,.sigf 3;1;2.29;3.17,.Section 0;0;2;4,.Pitch 0
+33272,.freeobj 0;46;2;2
+;===============================================================================
+; High Park 33275
+;===============================================================================
+33275,.sta High Park;;;;R;;;;10;186;;25
+
+33275,.freeobj 0;900,.DikeEnd 0,.DikeEnd 1,.railtype 0;1,.railtype 1;0  
+,.form 0;R;0,.form 1;L;0,.freeobj 0;5354,.freeobj 1;5355,.freeobj 0;57,.freeobj 0;130,.brightness 255,.Beacon(108; 6; 0; -6)
+33275.5,.freeobj 0;5339;-5.5;0;180
+33281.5,.freeobj 0;5105;8.7;1.13;180
+33292,.freeobj 0;5201
+33296,.freeobj 0;5202
+33300,.form 0;R;0,.form 1;L;0,.freeobj 0;5353,.freeobj 1;5355
+33314,.freeobj 0;5054;3.1;2
+33320,.freeobj 0;48
+33327,.freeobj 0;5206
+33325,.form 0;R;0,.form 1;L;0,.freeobj 0;5353,.freeobj 1;5355
+33350,.form 0;R;0,.form 1;L;0,.freeobj 0;5353,.freeobj 1;5355
+33365,.freeobj 0;5202
+33375,.form 0;R;0,.form 1;L;0,.freeobj 0;5353,.freeobj 1;5355
+33400,.form 0;R;0,.form 1;L;0,.freeobj 1;48;;;180,.freeobj 0;272,.freeobj 1;5355
+33405,.freeobj 0;5202
+33415,.freeobj 0;457;;-0.25,.stop 0;4;10,.freeobj 0;46;1.5;-0.144;30
+33416,.freeobj 0;5201
+33431.7,.freeobj 0;501;2.05;1.8,.freeobj 0;512;1.95;1.55,.freeobj 0;517;2.08;1.55,.freeobj 0;514;2.2;1.55,.freeobj 0;5208 
+33425,.freeobj 0;5051,.ground 4,.railtype 0;13,.railtype 1;12,.freeobj 0;130,.freeobj 1;101,.Dike 0;1;1,.Dike 1;-1;1,.brightness 255
+,.Beacon(108; 6; 0; -5)
+33432,.sigf 2;1;2.29;3.2,.Section 0;0;2;4
+;===============================================================================
+;===============================================================================
+33450,.Pitch 5.25,.DikeEnd 1,.DikeEnd 0,.freeobj 0;5512
+33450.5,.freeobj 0;23
+33465,.freeobj 0;5500;15;-4,.freeobj 0;5501;5;-4
+33480,.freeobj 0;5501;5;-4,.freeobj 1;5500;-9;-4,.freeobj 1;202;;-0.2;180;;-0.25
+33490,.freeobj 0;5500;7;-4,.freeobj 1;5500;-9;-4
+33495,.freeobj 0;5501;5;-4,.freeobj 1;5501;-11;-4
+33500,.Dike 0;1;20,.Dike 1;-1;20,.freeobj 0;5501;5;-4,.freeobj 1;5501;-9;-4
+33510,.freeobj 0;5500;8;-4,.freeobj 1;5501;-9;-4
+33515,.freeobj 0;5500;5;-4,.freeobj 1;5500;-11;-4
+33520,.freeobj 0;5501;5;-4,.freeobj 1;5501;-10;-4
+33525,.Curve -5000
+33530,.freeobj 0;5517
+33550,.Curve 0,.Pitch 0,.sigf 3;1;2.3;3.14,.freeobj 0;78;1.8,.Section 0;0;2;4
+33570,.freeobj 0;5518
+33575,.Curve -2000,.Pitch -12
+33600,.Curve 0
+33625,.DikeEnd 0,.DikeEnd 1,.freeobj 0;5516,.freeobj 1;5506;6
+33650,.Dike 0;1;20,.Dike 1;-1;21,.freeobj 1;5506;;;180,.freeobj 0;5501;5;-4,.freeobj 0;5501;19;-4
+33670,.freeobj 0;5500;5;-4,.freeobj 1;5500;-9;-4
+33675,.freeobj 0;5501;6;-4,.freeobj 1;5501;-11;-4
+33680,.freeobj 0;5500;7;-4,.freeobj 1;5501;-10;-4
+33685,.freeobj 0;5501;6;-4,.freeobj 1;5500;-9;-4
+33700,.DikeEnd 1,.Dike 1;-1;22,.freeobj 0;5501;5;-4,.freeobj 1;5501;-9;-4
+33725,.freeobj 0;5501;8;-4,.freeobj 1;5501;-16;-4
+33735,.freeobj 0;5500;6;-4,.freeobj 1;5500;-17;-4
+33745,.freeobj 0;5501;5;-4,.freeobj 1;5500;-16;-4
+33750,.brightness 255
+33755,.freeobj 0;5501;5;-4,.freeobj 1;5500;-16;-4
+33765,.freeobj 0;5500;5;-4,.freeobj 1;5501;-15;-4,.brightness 255
+33775.9,.freeobj 0;22;-6;;180
+33775,.Pitch -20,.freeobj 0;5002,.freeobj 1;5002,.freeobj 0;5003,.freeobj 1;5003,.Dike 0;0;0  ,.fog 2;1875,.Dike 1;-1;8  ,.railtype 0;4  ,.railtype 1;3  ,.freeobj 0;12  ,.Curve 0 ,.brightness 128
+33779.7,.freeobj 0;501;2.05;1.5,.freeobj 0;512;1.95;1.25,.freeobj 0;516;2.08;1.25,.freeobj 0;514;2.2;1.25 
+33780,.sigf 3;1;2.3;3.14,.Section 0;0;2;4,
+33825,.freeobj 0;62;2;2
+33891.7,.freeobj 0;501;2.05;1.5,.freeobj 0;512;1.95;1.25,.freeobj 0;516;2.08;1.25,.freeobj 0;512;2.2;1.25 
+33850,.Curve 1000,.freeobj 0;101,.Pitch 0,.railtype 0;30  ,.railtype 1;31
+33892,.sigf 3;1;2.3;3.14,.freeobj 0;101,.Section 0;0;2;4
+
+33950,.Curve 0,.railtype 0;4 ,.railtype 1;3
+33953
+33955
+33969,.freeobj 0;46;2;2
+33989.7,.freeobj 0;501;2.15;1.5,.freeobj 0;512;2.05;1.25,.freeobj 0;515;2.18;1.25,.freeobj 0;518;2.3;1.25 ,.brightness 20
+33990,.sigf 3;1;2.29;3.13,.Section 0;0;2;4
+;===============================================================================
+; Runnymede 34000
+;===============================================================================
+34000,.sta Runnymede;;;;R;;;;10;180;;26,.Beacon(108; 6; 0; -6)
+
+34000,.freeobj 0;900,.DikeEnd 0,.DikeEnd 1,.railtype 0;1,.railtype 1;0,.freeobj 0;57
+,.form 0;R;0,.form 1;L;0,.freeobj 0;5357,.freeobj 1;5360,.freeobj 0;5361;-5.5;0;180,.freeobj 0;130,.brightness 255
+34018,.freeobj 0;5202
+34025,.form 0;R;0,.form 1;L;0,.freeobj 0;5357,.freeobj 1;5360
+34045,.freeobj 0;48
+34050,.form 0;R;0,.form 1;L;0,.freeobj 0;5357,.freeobj 1;5360
+34052,.freeobj 0;5206
+34056,.freeobj 0;5054;3.1;2
+34068,.freeobj 0;5205
+34075,.form 0;R;0,.form 1;L;0,.freeobj 0;5358,.freeobj 1;5360
+34076,.freeobj 0;5201
+34091,.freeobj 0;5105;9.3;1.13
+34100,.form 0;R;0,.form 1;L;0,.freeobj 0;5359,.freeobj 1;5360
+34106,.freeobj 0;5105;6.7;1.13;180
+34101,.freeobj 0;5201
+34117,.freeobj 0;5202
+34125,.form 0;R;0,.form 1;L;0,.freeobj 1;48;;;180,.freeobj 0;5357,.freeobj 1;5360
+34140,.freeobj 0;457;;-0.25,.stop 0;4;10,.freeobj 0;46;1.5;-0.144;30
+34145,.back 0
+34150,.railtype 0;4,.railtype 1;3,.Dike 0;0;0,.Dike 1;-1;8,.freeobj 0;5361,.freeobj 0;5208,.freeobj 0;130,.freeobj 1;101,.brightness 255,.Beacon(108; 6; 0; -5)
+34150.7,.freeobj 0;501;2.05;1.8,.freeobj 0;512;1.95;1.55,.freeobj 0;515;2.08;1.55,.freeobj 0;512;2.2;1.55 
+
+34153,.sigf 2;1;2.29;3.12,.Section 0;0;2;4
+
+34150,.Pitch -5
+34175,.Pitch -15,.brightness 20
+
+
+;===============================================================================
+;===============================================================================
+34275,.freeobj 0;62;2;2
+34325,.Curve -1000,.railtype 0;28
+34240,.sigf 3;1;2.29;3.13,.Section 0;0;2;4
+34330,.sigf 20;1;2.29;3.14,.Section 0;0;2;4,
+34425,.Curve 0,.railtype 0;4,.railtype 1;3
+34439.7,.freeobj 0;500;2.05;1.3,.freeobj 0;511;1.95;1.05,.freeobj 0;516;2.08;1.05
+34440,.sigf 20;1;2.29;3.12,.Section 0;2;2;2;2;2;2;2;4
+34450,.Pitch -1,.railstart 2;0;0;8  ,.railstart 3;-6;0;8 ,.Dike 0;1;1  ,.Dike 1;-1;1 ,.railtype 0;8 ,.railtype 1;8 ,.freeobj 0;2100 ,.freeobj 1;2001
+34475,.rail 2;-1.55;0  ,.rail 3;-4.45;0 ,.railtype 2;2 ,.railtype 3;2 ,.railtype 0;3 ,.railtype 1;4
+34500,.rail 2;-4.45;0  ,.rail 3;-1.55;0 ,.railtype 2;8 ,.railtype 3;8  ,.freeobj 0;227;2.2;2  ,.railtype 0;8 ,.railtype 1;8,.brightness 20
+
+34525,.freeobj 0;2001;;;180  ,.freeobj 1;2100;;;180  ,.Dike 0;0;0  ,.Dike 1;-1;8  ,.railend 3;0  ,.railtype 0;4  ,.railend 2;-6  ,.railtype 1;3
+
+
+;===============================================================================
+; Jane 34525
+;===============================================================================
+34525,.sta Jane;;;;R;;;;10;169;;27,.Beacon(108; 6; 0; -6)
+
+34525,.freeobj 0;900,.Pitch 0,.DikeEnd 0,.DikeEnd 1,.railtype 0;1,.railtype 1;0
+,.form 0;R;0,.form 1;L;0,.freeobj 0;5362,.freeobj 1;5367,.freeobj 0;5368;-5.5;0;180,.freeobj 0;57,.freeobj 0;130,.brightness 255
+34524
+34540,.freeobj 0;5202
+34549,.freeobj 0;46;1.5;-0.144;30
+34550,.form 0;R;0,.form 1;L;0,.freeobj 0;5363,.freeobj 1;5367
+34566,.freeobj 0;5105;9.3;1.13
+34570,.freeobj 0;48
+34575,.form 0;R;0,.form 1;L;0,.freeobj 0;5362,.freeobj 1;5367
+34576,.freeobj 0;5202
+34581,.freeobj 0;5206
+34590,.freeobj 0;5054;3.1;2
+34595,.freeobj 0;5204
+34600,.form 0;R;0,.form 1;L;0,.freeobj 0;5365,.freeobj 1;5366,.freeobj 0;5204
+34602,.freeobj 0;5202
+34620,.freeobj 0;5205;;0.2
+34625,.form 0;R;0,.form 1;L;0,.freeobj 0;5364,.freeobj 1;5366,.freeobj 0;5203
+34630,.freeobj 0;5204
+24645,.freeobj 0;5204
+34650,.form 0;R;0,.form 1;L;0,.freeobj 0;5362,.freeobj 1;5367,.freeobj 1;48;;;180
+34655,.freeobj 0;5204
+34665,.freeobj 0;457;;-0.25,.stop 0;4;10,.freeobj 0;46;1.5;-0.144;30
+34670
+34675,.ground 4,.Pitch -2,.railtype 0;4,.railtype 1;3,.Dike 0;0;10,.Dike 1;-1;8,.freeobj 0;5368,.freeobj 0;5208,.freeobj 0;130,.freeobj 1;101,.brightness 255,.Beacon(108; 6; 0; -5)
+34679.7,.freeobj 0;501;2.05;1.8,.freeobj 0;512;1.95;1.55,.freeobj 0;513;2.08;1.55,.freeobj 0;510;2.2;1.55 
+34684,.sigf 2;1;2.29;3.12,.Section 0;0;0;0;0;0;0;4
+
+;===============================================================================
+;===============================================================================
+34675,.freeobj 0;163,.Pitch -8,.Curve -4500
+34700,.Section 0;2;4,.freeobj 0;163,.Pitch -8,.Dike 0;0;0,.brightness 20
+34710,.freeobj 0;250;2;2
+34725,.freeobj 0;62;2;2,.freeobj 0;163,.fog 0;0;0;0;0,.Pitch -16.7,.Curve -197.5,.railtype 0;65,.railtype 1;66
+34735
+34745
+34755
+34765
+34750,.freeobj 0;163,.Pitch -36
+34775,.freeobj 0;163,
+34785
+34800,.freeobj 0;163,.Curve 0,.railtype 0;4,.railtype 1;3
+34825
+34825,.freeobj 0;163,
+34839
+34845,.freeobj 0;250;2;2
+34850,.freeobj 0;163,.Curve 250;12,.railtype 0;63,.railtype 1;64,.sigf 42;1;2.29;3.5,.Section 0;0;0;2;4,.Beacon(108; 5; 0; 11)
+34875,.freeobj 0;163
+34900,.freeobj 0;163
+34925,.freeobj 0;163
+34945,.freeobj 0;249;2;2
+34997,.freeobj 0;251;2;3
+35102,.freeobj 0;252;2;3
+
+35000,.sigf 46;1;2.22;3.5,.sigf 46;1;-2.22;2.4,.Section 0;0;0;2;4,.Beacon(108; 5; 0; 7)
+35125,.sigf 44;1;2.22;3.5,.sigf 44;1;-2.22;2.4,.Section 0;0;0;2;4,.Beacon(108; 5; 0; 7)
+35142,.freeobj 0;227;2.2;2
+34950,.freeobj 0;163
+34975,.freeobj 0;163
+35000,.freeobj 0;163
+35015
+35025,.freeobj 0;163
+35037
+35050,.freeobj 0;163
+35075,.freeobj 0;163
+35096
+35100,.freeobj 0;163
+35125,.freeobj 0;163
+35125,.back 1,.Pitch -16
+35150,.freeobj 0;163,.Pitch -8
+35175,.freeobj 0;163,.Pitch -4,.brightness 20
+35200,.freeobj 1;199,.freeobj 0;60,.railtype 1;98,.railtype 0;98,.Curve 0,.Pitch 0,.Pitch 0,.DikeEnd 1,.DikeEnd 0,.brightness 255
+35250,.freeobj 0;5519 ,.freeobj 0;5519;5 ,.freeobj 0;5519;15,.freeobj 0;5519;25,.freeobj 1;5519;-45 ,.freeobj 1;5519;-25,.freeobj 1;5519;-35
+35265,.freeobj 1;5532;;0.3
+35300,.freeobj 1;5531;0.4
+35316
+35337.5
+35320
+35249,.freeobj 0;501;1.65;1.5,.freeobj 0;516;1.55;1.25,.freeobj 0;511;1.68;1.25,.freeobj 0;510;1.8;1.25 
+35250,.Section 0;2;4,.sigf 34;1;1.8;3.4,.Beacon(108; 5; 0; 1),.freeobj 0;78;1.4;-0.2
+35321,.freeobj 0;501;1.55;1.5,.freeobj 0;512;1.45;1.25,.freeobj 0;510;1.58;1.25,.freeobj 0;516;1.7;1.25 
+35322,.sigf 3;1;1.7;3.2,.Section 0;0;2;4,.freeobj 0;78;1.3;-0.2
+
+
+;===============================================================================
+; Old Mill 35325
+;===============================================================================
+35325,.sta Old Mill;;;;R;;;;10;165;;27
+
+35325,.Pitch 0,.adhesion 200,.DikeEnd 0,.DikeEnd 1,.railtype 0;99,.railtype 1;99,.freeobj 0;5375,.freeobj 0;5380;-5.5;0;180,.freeobj 0;21,.freeobj 1;21;-10.3
+,.freeobj 1;5378,.freeobj 0;952,.freeobj 0;5006,.freeobj 0;5007,.Beacon(108; 6; 0; -6)
+35334,.freeobj 0;46;1.5;-0.144;30
+35350,.freeobj 0;5375,.freeobj 1;5378,.freeobj 0;21,.freeobj 1;21;-10.3
+35375,.freeobj 0;5375,.freeobj 1;5378,.freeobj 0;21,.freeobj 1;21;-10.3
+35393.5,.freeobj 0;5206
+35400,.freeobj 0;5375,.freeobj 0;21,.freeobj 1;21;-10.3,.freeobj 1;5378
+35425,.freeobj 0;5376,.freeobj 1;5379,.freeobj 0;3
+35426,.freeobj 0;5205
+35429,.freeobj 0;5204
+35432,.freeobj 0;5203
+35450,.freeobj 0;5377,.freeobj 1;5379,.freeobj 0;3,.freeobj 1;48;;;180
+35465,.stop 0;4;10,.freeobj 0;457;5;0.25,.freeobj 0;46;1.5;-0.144;30,.freeobj 0;5054;2;2.7;0
+35474
+35475,.adhesion 100,.Pitch 4,.ground 0,.railtype 0;4  ,.railtype 1;3  ,.Dike 0;0;0,.Dike 1;-1;1,.freeobj 1;101,.freeobj 0;5105;8.7;1.13,.brightness 255,.Beacon(108; 6; 0; -5)
+35475.7,.freeobj 0;501;2.05;1.5,.freeobj 0;512;1.95;1.25,.freeobj 0;510;2.08;1.25,.freeobj 0;510;2.2;1.25 
+35476.2,.sigf 2;1;2.285;3.45,.Section 0;0;0;2;4
+35490,.freeobj 1;5527;0;10
+;===============================================================================
+;===============================================================================
+35500,.Pitch 8,.brightness 20
+35525,.Pitch 16,.Curve -250,.railtype 1;62,.railtype 0;61
+35529,.sigf 3;1;2.28;3.45,.Section 0;0;0;2;4
+35560,.freeobj 0;249;2;2
+35641,.sigf 3;1;2.285;3.45,.Section 0;0;0;2;4
+
+35700,.Curve -3500,.railtype 0;4,.railtype 1;3,.Pitch 8
+35769,.sigf 3;1;2.285;3.45,.Section 0;0;0;2;4
+35700,.Pitch 4,
+35725,.Pitch 0
+35775,.Curve -1000,.railtype 0;28
+35985,.sigf 3;1;2.285;3.45,.Section 0;0;0;2;4
+36000,.Curve 0,.railtype 0;4
+36025,.Pitch 2
+36050,.Pitch 0
+36082,.sigf 3;1;2.285;3.45,.Section 0;0;0;2;4
+36075,.Pitch -4.25
+36210,.sigf 3;1;2.285;3.45,.Section 0;0;0;2;4
+36100,.Pitch -7.5
+36410,,.sigf 3;1;2.285;3.45,.Section 0;0;0;2;4
+36425,.back 0,.Pitch 0,.Curve 2000,.railtype 0;20
+36500,.freeobj 0;62;2;2
+36614,.freeobj 0;46;2;2
+36550.2,.sigf 3;1;2.285;3.45,.Section 0;0;2;2;4
+36650,.brightness 20
+36661,.sigf 3;1;2.285;3.45,.Section 0;0;2;4
+;===============================================================================
+; Royal York 36775
+;===============================================================================
+36675,.sta Royal York;;;;R;;;;10;155;;28
+
+36675,.freeobj 0;958,.Curve 0,.Pitch 0,.DikeEnd 0,.DikeEnd 1,.railtype 0;99,.railtype 1;99,.freeobj 0;143;-5.5;0;180,.freeobj 0;57,.freeobj 0;130
+     ,.freeobj 0;5381,.freeobj 1;5384,.brightness 255,.Beacon(108; 6; 0; -6)
+36700,.freeobj 0;5381,.freeobj 1;5384,.freeobj 0;5202,.back 1
+36712,.freeobj 0;5201
+36720,.freeobj 0;48
+36725,.freeobj 0;5381,.freeobj 1;5384
+36728,.freeobj 0;5206
+36750,.freeobj 0;5381,.freeobj 1;5384
+36755,.freeobj 0;5205
+36775,.freeobj 0;5382,.freeobj 1;5384,.freeobj 0;5054;3.1;2.2;0
+36782,.freeobj 0;5201
+36789.3,.freeobj 0;5202
+36800,.freeobj 0;5383,.freeobj 1;5384,.freeobj 1;48;;;180
+36809.3,.freeobj 0;5202
+36815,.freeobj 0;457;5;-0.25,.stop 0;4;10,.freeobj 0;46;1.5;-0.144;30
+36820
+36825,.Pitch -7,.Curve -5000,.railtype 0;4,.railtype 1;3,.Dike 0;0;0,.Dike 1;-1;8,.freeobj 0;130,.freeobj 0;5105;8.7;1.13,.freeobj 1;101,.freeobj 0;5208,.brightness 255,.Beacon(108; 6; 0; -5)
+
+36829.7,.freeobj 0;500;2.05;1.5,.freeobj 0;515;1.95;1.25,.freeobj 0;514;2.08;1.25
+36830,.sigf 1;1;2.288;3.45,.Section 0;0;2;4
+
+
+;===============================================================================
+;===============================================================================
+36850,.brightness 20
+36950,.Curve -900,.railtype 0;34
+36975
+36975,.Curve -900
+37010,.sigf 3;1;2.288;3.45,.Section 0;0;2;4
+37025,.Curve -2000,.railtype 0;18
+37050,.Pitch -4
+37075,.Pitch 15
+37100,.Pitch 30,.rail 1;-6
+37125,.rail 1;-5.5
+37149,.sigf 20;1;2.288;3.3,.Section 0;0;2;4,.Beacon(108; 6; 0; -4),.freeobj 0;279;2;1
+37150,.rail 1;-4.8,.brightness 20
+37175,.Curve 0,.railtype 0;7,.railtype 1;6,.rail 1;-4.375,.Dikeend 0,.Dikeend 1,.ground 4,.freeobj 0;25,.freeobj 1;5523,.brightness 255
+37190,.freeobj 0;62;3;2
+37200,.Dike 0;1;22,.freeobj 1;5507;-50;1,.freeobj 0;5500;15;-4,.freeobj 0;5501;5;-4,.freeobj 0;5526
+37210,.freeobj 0;5500;15;-4,.freeobj 0;5501;5;-4
+37215,.freeobj 0;5507;10;-1.1
+37250,.freeobj 0;5526
+37275,.Pitch 15,.railtype 0;15,.railtype 1;14,.Dike 1;-1;23
+37300,.freeobj 0;5526
+37310,.freeobj 1;5528;-45
+37325,.Pitch 0
+37350,.freeobj 0;5526,.freeobj 0;5500;5;-4,.freeobj 0;5500;7;-4,.freeobj 0;5501;11;-4,.freeobj 0;5501;15;-4,.freeobj 0;5500;22;-4,.freeobj 0;5501;23;-4,.freeobj 0;5500;25;-4,.freeobj 0;5501;30;-4
+37370,.freeobj 0;5500;15;-4,.freeobj 0;5501;5;-4,.freeobj 1;5500;-15;-4,.freeobj 1;5501;-18;-4
+37380,.freeobj 0;5501;17;-4,.freeobj 0;5501;5;-4,.freeobj 1;5500;-15;-4,.freeobj 1;5501;-18;-4
+37384,.freeobj 0;5500;15;-4,.freeobj 0;5500;5;-4,.freeobj 1;5500;-15;-4,.freeobj 1;5501;-17;-4,.freeobj 0;278;2.2;1
+37385,.freeobj 0;5500;17;-4,.freeobj 0;5501;4;-4,.freeobj 1;5500;-15;-4,.freeobj 1;5501;-17;-4,.sigf 1;1;2.35;3.5,.Section 0;0;2;4,.freeobj 0;101,.Beacon(108; 6; 0; -3)
+37400,.freeobj 0;5526
+37449,.freeobj 1;5524
+37450,.Pitch -6,.railtype 0;8 ,.railtype 1;8,.rail 1;-4.375,.Curve 400,.Dikeend 0,.Dikeend 1,.freeobj 0;2002,.freeobj 0;5526
+
+37475,.freeobj 0;5500;8;-2,.freeobj 1;5501;-23;-4,.freeobj 1;5501;-17;-4,.rail 1;-6.65,.Curve -400,.railtype 0;96,.railtype 1;84
+37500,.freeobj 0;5526,.freeobj 0;5500;8;-2,.freeobj 1;5501;-23;-4,.freeobj 1;5501;-17;-4,.Curve 0,.rail 2;-4.375,.rail 1;-8.75,.railtype 0;7,.railtype 1;6,.railtype 2;7
+37515,.freeobj 0;5500;8;-2,.freeobj 1;5501;-23;-4,.freeobj 1;5501;-17;-4,.freeobj 0;5500;15;-2,.freeobj 0;5501;8;-4,.sigf 20;1;2.3;3.25,.Section 0;0;2;4
+37515,.freeobj 0;5500;8;-2,.freeobj 1;5501;-23;-4,.freeobj 1;5501;-17;-4,.freeobj 0;101
+37520,.freeobj 0;5501;15;-2,.freeobj 0;5501;8;-3,.freeobj 1;5500;-23;-4,.freeobj 1;5500;-18;-4
+37525,.freeobj 0;5500;15;-2,.freeobj 0;5500;8;-3,.freeobj 1;5501;-25;-4,.freeobj 1;5501;-17;-4
+37525,.Pitch -22
+37530,.freeobj 0;5501;15;-2,.freeobj 0;5500;8;-2,.freeobj 1;5500;-23;-4,.freeobj 1;5500;-17;-4
+37540,.freeobj 0;5500;15;-2,.freeobj 0;5501;8;-3,.freeobj 1;5500;-24;-4,.freeobj 1;5501;-18;-4
+37545,.freeobj 0;5501;15;-2,.freeobj 0;5500;8;-2,.freeobj 1;5501;-23;-4,.freeobj 1;5501;-17;-4
+37549.9,.freeobj 0;357
+37550,.Dike 0;0;0,.Dike 1;-1;1,.Dike 2;-1;0,.ground 0,.brightness 255,.railtype 0;4 ,.railtype 1;3,.railtype 2;4,.freeobj 0;251;2;2,.freeobj 0;277;2;1.5
+37575,.brightness 20
+37600,.railtype 0;3 ,.railtype 1;4 ,.railtype 2;4,.Pitch -7
+37610,.freeobj 1;5525;-15;6
+
+37645,.sigf 20;1;2.3;3.25,.Section 0;0;0;2;4
+37650,.freeobj 0;62;2;2,.freeobj 0;276;2;1.5
+37625,.Pitch 0,.railtype 2;63
+37650,.Dike 2;-1;9,.Dike 0;1;1,.Dike 1;-1;1,.rail 2;-4.45,.railtype 2;4,.Dike 2;-1;9,.Pitch 0
+37675,.railtype 2;8,.rail 2;-1.55,.railtype 0;97
+37700,.DikeEnd 2,.railend 2;0,.Dike 0;0;9,.Dike 1;0;12,.railtype 0;3,.railtype 1;4,.freeobj 0;2001;;;180
+37700,.Pitch 0
+37725,.sigf 45;1;2;3.25,.Beacon(108; 5; 0; 11),.Section 0;0;0;4,.Dike 0;1;1,.Dike 1;-1;1,.freeobj 0;5000,.freeobj 1;5001,.accuracy 3,.Curve 400;-10,.railtype 0;8 ,.railtype 1;8,.freeobj 0;4000;;;-3.5 ,.freeobj 1;4100;;;3.15
+37725,.railstart 2;-6;;8,.railstart 3;0;;8
+37750,.rail 2;-6.1;;2,.rail 3;-3.1;;2
+37775,.rail 2;-4.75,.rail 3;-7.5,.railtype 2;4,.railtype 3;3,
+37800,.rail 2;-1.6;;8,.rail 3;-10.4;;8,.freeobj 0;5013;-2,.dike 2;-1;9,.dike 3;1;12
+37825,.freeobj 0;2001;;;180 ,.freeobj 1;2101;;;180
+37825,.dikeend 2,.dikeend 3,.railend 2;0;;8,.railend 3;-12;;8
+37750,.Curve -400;10,.railtype 0;86,.railtype 1;3
+37760,.freeobj 0;5012
+37775,.accuracy 2,.Curve 0,.Rail 1;-12;0;4,.railtype 0;3,.freeobj 0;5002 
+37800,.railtype 0;8,.railtype 1;8
+37800,.brightness 20
+37824.7,.freeobj 0;501;2;1.3,.freeobj 0;518;1.95;1.05,.freeobj 0;510;2.08;1.05
+37824.8,.freeobj 0;5;0;0;0
+37825,.freeobj 0;2000;0;0;180,.freeobj 1;2100;0;0;180
+;===============================================================================
+; Islington 37800
+;===============================================================================
+37825,.sta Islington;;;;L;;;;12;140;;29,.sigf 31;1;2;3.2,.Section 0;0;4,.Beacon(108; 6; 0; -6),.Beacon(108; 5; 0; 1)
+37825,.freeobj 0;955,.rail 1;-12,.back 1,.height 1,.freeobj 0;5385,.freeobj 0;182,.freeobj 0;129,.DikeEnd 0,.DikeEnd 1,.railtype 0;99,.railtype 1;99,.brightness 255
+
+37850,.freeobj 0;5385,.freeobj 0;183;-5
+37865
+37875,.freeobj 0;5385
+37900,.freeobj 0;5385,.freeobj 0;182
+37928,.freeobj 0;46;-1.5;-0.144;-30 
+37925,.freeobj 0;5385,.freeobj 0;182,.freeobj 0;193
+37950,.freeobj 0;5385,.freeobj 0;182,.freeobj 0;193
+37965,.freeobj 0;457;-2.5;-0.25,.stop 0;4;10,.freeobj 0;46;-1.5;-0.144;-30 
+
+37974.5,.freeobj 0;500;2.3;1.2,.freeobj 0;518;2.3;0.95
+37974.95,.freeobj 0;45;2;1,.freeobj 0;5386
+37975,.sigf 4;1;2;3.8,.freeobj 0;163,.Pitch 15,.railtype 0;3,.railtype 1;4,.Dike 0;1;1,.Dike 1;-1;1,.freeobj 0;129,.limit 80;0;0,.brightness 255,.Beacon(108; 6; 0; -5)
+37975.25,.freeobj 0;5;0;0;0
+;---------------------------------------------------------
+;---------------------------------------------------------
+
+37975,.adhesion 50,.freeobj 0;1;-2.5 ,.freeobj 0;1;-5 ,.freeobj 0;1;-7.5 ,.freeobj 0;1;-10
+38000,.Curve -2000,.freeobj 0;5000,.railtype 0;4,.railtype 1;3,.Pitch 25,.Dike 0;0;11,.Dike 1;0;12,.freeobj 0;5;0;0;0,.brightness 20
+38025,.Pitch 37
+38010,.freeobj 0;249;2;2
+38050,.Curve -250;50,.freeobj 1;5000,.freeobj 0;227;2.2;2,.freeobj 0;163
+38025,.Curve -250;0,.ground 3,.railtype 0;61,.railtype 1;62,.freeobj 0;163
+38070,.freeobj 0;44;2;1.8
+38074.7,.freeobj 0;501;2.15;1.6,.freeobj 0;511;2.05;1.35,.freeobj 0;511;2.18;1.35,.freeobj 0;512;2.3;1.35 
+38075,.sigf 42;1;2;3.8,.Beacon(108; 5; 0; 14),.Dike 0;1;11,.Dike 1;-1;1,.freeobj 0;5;0;0;0,.freeobj 0;163
+38075,.freeobj 0;1;-3,.freeobj 0;1;-6,.freeobj 0;1;-9,.brightness 20
+38082,.limit 80
+38089,.freeobj 0;213;115;-66.66;-50
+38100,.fog 20;1200;0;0;0
+38100,.limit 50,.ground 6,.DikeEnd 0,.DikeEnd 1,.railtype 0;73,.railtype 1;72,.freeobj 0;265,.brightness 255
+38100,.freeobj 0;150;0;-2;0,.freeobj 0;162,.freeobj 1;160;0;-2;180;;0
+38125,.freeobj 0;150;0;-2.2;0;-5;0,.freeobj 0;162
+38125,.rail 1;-10.6,.freeobj 1;160;0;-2.2;180;5;0,.freeobj 0;213;5;-12.02
+38125,.Curve -250;-50
+38150,.rail 1;-9.2,.freeobj 1;160;0;-4.55;180;5;0,.freeobj 0;150;0;-4.55;0;-5;0,.freeobj 0;162
+38175,.freeobj 0;150;0;-6.81;0;-5;0,.freeobj 0;162
+38175,.rail 1;-7.8,.freeobj 1;160;0;-6.81;180;5;0
+38200,.rail 1;-6.4,.freeobj 0;150;0;-9;0;-5;0,.freeobj 1;160;0;-9;180;5;0,.freeobj 0;162
+38225.,.freeobj 0;101
+38225,.sigf 46;1;2.2;3,.Beacon(108; 5; 0; 8),.rail 1;-5,.adhesion 100,.ground 4,.DikeEnd 0,.DikeEnd 1,.freeobj 0;56,.railtype 1;98,.railtype 0;98,.Curve 0,.Pitch 0
+38250,.height 1
+38275,.marker Bloor_danforth\markers\landmarks\bloorstreetwest.png;50,.height 0.20,.freeobj 0;5006,.freeobj 0;5529;8,.Dike 0;1;24  ,.Dike 1;-1;24 ,.Curve 150,.railtype 0;89,.railtype 1;90
+38286.2,.freeobj 0;62;2.4;1;0
+38286.3,.freeobj 0;101;;-2
+38300,.freeobj 0;5529;8,.freeobj 1;79;-27,.freeobj 0;203,.rail 1;-6,.freeobj 0;5007,.Curve 0,.railtype 1;6,.railtype 0;7,.freeobj 0;211,.ground 4
+38305,.freeobj 1;198;-13;-0.4
+38324,.freeobj 0;279;2;1
+38325,.freeobj 0;5529;8,.sigf 31;1;2.2;3.2,.Beacon(108; 5; 0; 1),.freeobj 0;78;1.8,.Beacon(108; 6; 0; -4)
+38350,.freeobj 0;5529;8
+38375,.freeobj 0;5529;8,.freeobj 1;197;-5;-0.4
+38400,.freeobj 0;5529;8
+38425,.freeobj 0;5529;8
+38450,.freeobj 0;5529;8
+38475,.freeobj 0;5529;8
+38500,.freeobj 0;5529;9
+38525,.freeobj 0;5529;8,.freeobj 1;79;-27
+38550,.freeobj 0;5529;8,.freeobj 0;212
+38575,.freeobj 0;5529;8
+38600,.freeobj 0;5529;9
+38625,.freeobj 0;5529;8
+38649,.freeobj 0;278;2;1
+38650,.freeobj 0;5529;8,.sigf 2;1;2.2;3.2,.freeobj 0;78;1.8,.Beacon(108; 6; 0; -3)
+38675,.freeobj 0;5529;9
+38700,.freeobj 0;5529;8
+38725,.freeobj 0;5529;8;-5
+38745,.freeobj 1;202
+38749,.freeobj 0;204
+38750,.Curve 700,.railtype 0;74,.railtype 1;75;;;180
+38750,.freeobj 0;5529;8;-5
+38775,.freeobj 0;5529;8;-5
+38745,.freeobj 1;79;-27
+38775,.Curve 0,.railtype 1;6,.railtype 0;7,.sigf 42;1;2.2;3.2,.Beacon(108; 5; 0; 9),.freeobj 0;78;1.8
+38850,.freeobj 0;5507;;3.7,.Curve -1000,.railtype 0;87,.railtype 1;88
+38875,.sigf 7;1;2.2;3.5,.freeobj 0;101,.Beacon(108; 5; 0; 2)
+38900,.sigf 10;1;2.2;3.5,.freeobj 0;101,.Beacon(108; 5; 0; 15)
+38900,.Curve 0,.railtype 1;6,.railtype 0;7
+38910,.freeobj 0;45;3;2
+38950,.freeobj 1;79;-27
+38925,.railstart 2;0;0;8  ,.railstart 3;-6;0;8 ,.railtype 0;8 ,.railtype 1;8 ,.freeobj 0;2102 ,.freeobj 1;2003,.DikeEnd 2,.DikeEnd 3,.brightness 255
+38950,.brightness 20
+38950,.rail 2;-1.55;0  ,.rail 3;-4.45;0 ,.railtype 2;5 ,.railtype 3;5 ,.railtype 0;6 ,.railtype 1;7
+38955,.freeobj 0;214;2.4;;7,.freeobj 0;5390
+38975,.Curve 200,.rail 2;-4.45;0  ,.rail 3;-1.55;0 ,.railtype 2;8 ,.railtype 3;8  ,.railtype 0;8 ,.railtype 1;8
+39000,.marker Bloor_danforth\markers\tracks\crossover.png;101,.rail 1;-7.6,.Curve 0,.freeobj 0;2103;;;180,.brightness 20,.freeobj 1;2102;0.04;;177.3,.railend 3;0,.railtype 0;6,.railend 2;-6  ,.DikeEnd 1,.railtype 1;8,.ground 2
+39012,.brightness 255
+39025,.rail 1;-9.5
+39020,.freeobj 0;5530
+39050,.rail 1;-11.3,.Curve -200,.railtype 0;81
+39075,.sigf 35;1;2;3,.Beacon(108; 6; 0; -6),.Beacon(108; 5; 0; 1)
+39069,.freeobj 0;602;-1.48;3.5;180,.freeobj 0;101;-4
+39075,.Curve 0 ,.Dike 0;1;25,.DikeEnd 1
+;===============================================================================
+; Kipling 39075
+;===============================================================================
+39074.5,.freeobj 0;501;2.3;1.5,.freeobj 0;518;2.25;1.25,.freeobj 0;510;2.38;1.25
+39075,.sta Kipling;;T;;L;1;;,.freeobj 0;5391
+39075,.Rail 1;-15.3,.Pitch 0,.Curve 0,.railtype 0;99,.railtype 1;99,.freeobj 0;101,.freeobj 0;5388,.freeobj 0;5387,.freeobj 0;5002,.freeobj 0;951
+39090,.freeobj 0;5200;-6.7;0.2
+39100,.Pitch 0,.freeobj 0;5387,.freeobj 0;5391
+39105,.freeobj 0;5109;-7.2;1.15
+39125,.freeobj 0;5387,.freeobj 0;5391
+39130,.freeobj 0;5200;-6.7;0.2
+
+
+39154,.freeobj 0;46;-1.5;-0.144;-30
+39150,.freeobj 0;5387,.freeobj 0;5391,.freeobj 0;5109;-7.2;1.15
+39165,.Beacon(108; 5; 0; 3)
+39175,.freeobj 0;5387,.freeobj 0;5391,.freeobj 0;5200;-6.7;0.2
+39190,.Beacon(108; 5; 0; 1),.freeobj 0;466;2;2
+39200,.freeobj 0;5387,.freeobj 0;5391
+
+39215,.freeobj 0;5200;-6.7;0.2
+39215,.freeobj 0;457;-2.3;-0.25,.stop 0;4;10,.brightness 255,.freeobj 0;46;-1.5;-0.144;-30
+39225,.railtype 0;6,.rail 1;-15.3,.railtype 1;8,.railstart 12;0;;8,.ground 4,.railstart 13;-15.3;;8,.freeobj 0;5389,.Dike 13;0;9,.Dike 12;1;13,.Dike 0;0;8
+39228.75,.freeobj 0;600;2;3
+39230,.limit 15,.brightness 128,.marker Bloor_danforth\ttcacademy.bmp;100,.marker Bloor_danforth\ttcacademy2.bmp;100,.marker Bloor_danforth\t2p_films_yt.bmp;100
+;===============================================================================
+; TailTracks
+;===============================================================================
+39250,.Dike 0;1;13,.DikeEnd 1,.DikeEnd 12,.DikeEnd 13,.Dike 0;1;24,.railend 12,.railend 13,.freeobj 0;5004,.ground 2
+39245,.freeobj 1;600;2.2;3.5,.freeobj 0;101;-12
+39275,.Curve -250,.railtype 0;72,.Pitch 0
+39325,.Curve 0,.freeobj 0;5006
+
+39300,.freeobj 0;5005
+39325,.Curve 250,.rail 1;-13.5,.railtype 0;91,.freeobj 0;5007,
+39375,.rail 1;-11.5,.railtype 1;8,.railtype 0;6
+39375,.Sta Kipling TailTracks;B;;;N;1;,.Curve 0,
+39390,.freeobj 1;202;6.1;;180
+39395,.stop
+
+39423.5,.freeobj 0;461,.buffer
+39425,.limit 999,.freeobj 0;192,.railtype 0;8,.railtype 1;8,.DikeEnd 0
+39500,.ground 4 ,.Pitch -99999
+39525,.Dike 0;0;2,.railtype 0;4
+39600,.freeobj 0;9999;2.4;0.7;-90
+48000,.Pitch -500
+48050,.Pitch 0
+48500,.form 0;R;0,.freeobj 0;89;12,.Dikeend 0
+48525,.form 0;R;0,.freeobj 0;89;12
+48550,.form 0;R;0,.freeobj 0;89;12
+48575,.form 0;R;0,.freeobj 0;89;12
+48600,.form 0;R;0,.freeobj 0;89;12,.buffer
+48625,.form 0;R;0,.freeobj 0;89;12,.stop
+48650,.Dike 0;0;2,.Pitch 99999
+

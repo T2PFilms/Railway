@@ -1,0 +1,105 @@
+CreateMeshBuilder,
+
+AddVertex,0.0,6.00,-00.0,
+AddVertex,0.0,1.00,-175.0,
+AddVertex,0.0,0.0,-175.0,
+AddVertex,0.0,0.0,-0.0,
+
+AddFace2,0,1,2,3,
+
+LoadTexture,Concrete.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-18.0,6.00,-00.0,
+AddVertex,-18.0,1.00,-175.0,
+AddVertex,-18.0,0.0,-175.0,
+AddVertex,-18.0,0.0,-0.0,
+
+AddFace2,0,1,2,3,
+
+LoadTexture,Concrete.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;--------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-18.0,6.0,-00.0,
+AddVertex,-00.0,6.0,-00.0,
+AddVertex,-00.0,5.0,-00.0,
+AddVertex,-18.0,5.0,-00.0,
+AddVertex,-8.5,0,0,
+AddVertex,-8.5,5,0,
+AddVertex,-9.5,0,0,
+AddVertex,-9.5,5,0,
+AddVertex,-.5,0,0
+Addvertex,-.5,5,0
+AddVertex,0,0,0,
+AddVertex,-17.5,0
+AddVertex,-17.5,5
+AddVertex,-18,0,0
+
+Addface2,0,1,2,3,
+AddFace2,6,7,5,4,
+AddFace2,8,9,2,10
+AddFace2,13,3,12,11
+
+LoadTexture,Concrete.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;--------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,0.0,5.0,00.0,
+AddVertex,150.0,5.0,00.0,
+AddVertex,150.0,0.0,-175.0,
+AddVertex,0.0,0.0,-175.0,
+
+Addface2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,Concrete.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;-----------------------------
+
+CreateMeshBuilder,
+
+AddVertex,-160.0,5.0,00.0,
+AddVertex,-18.0,5.0,00.0,
+AddVertex,-18.0,0.0,-175.0,
+AddVertex,-160.0,0.0,-175.0,
+
+Addface2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,Concrete.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,

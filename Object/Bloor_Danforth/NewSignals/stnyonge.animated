@@ -1,0 +1,61 @@
+[Object]
+Position = 0, -2.65, 0
+States = SignalDouble.CSV
+[Object]
+Position = 0, 0.55, 0
+States = Default.csv
+[Object]
+Position = 0, -0.55, 0
+States = Default.csv
+
+;up
+;Red
+[Object]
+Position = 0, 0.55, 0
+States = null.b3d,LRed.csv
+StateFunction = if[section==0,1,0]
+RefreshRate = 0.5
+
+
+;Yellow
+[Object]
+Position = 0, 0.55, 0
+States = null.b3d,LYellow.csv
+StateFunction = if[section==2,1,0]
+RefreshRate = 0.5
+
+
+;Green
+[Object]
+Position = 0, 0.55, 0
+States = null.b3d,LGreen.csv
+StateFunction = if[section==4,1,0]
+RefreshRate = 0.5
+
+;Bottom
+;Red
+[Object]
+Position = 0, -0.55, 0
+States = null.b3d,LRed.csv
+StateFunction = if[section==0,1,0]
+RefreshRate = 0.5
+
+
+;Yellow
+[Object]
+Position = 0,-0.55, 0
+States = null.b3d,LYellow.csv
+StateFunction = if[pluginState[1337]==1 & section>=2,1,0]
+RefreshRate = 0.5
+
+
+;Green
+[Object]
+Position = 0, -0.55, 0
+States = null.b3d,LGreen.csv
+StateFunction = if[section>=2,1,0]
+RefreshRate = 0.5
+
+
+
+

@@ -1,0 +1,202 @@
+;This route is anti-ai train. No really. We disabled it.
+With Route
+.comment openBVE Sheppard Subway Westbound v1.0 [Don Mills to Yonge]$Chr(13)You need a viewing distance of at least 400m to play this route.$Chr(13)The Sheppard Subway is the shortest subway line in Toronto$Chr(44) but however has long distances between stations. Revenue Service takes place under Sheppard Avenue East$Chr(44) between Yonge$Chr(44) and Don Mills$Chr(44) with tailtracks as far west to Senlac. The Sheppard Subway only has five stations$Chr(44) and multiple stations were proposed. The route was originally proposed to go from Downsview Station to Scarborough Centre$Chr(44) but however was cancelled by Mayor Mel Lastman$Chr(44) as he claimed the Sheppard Subway was going to disturb community members. $Chr(13)One direction run is usually 8 minutes long. Most of the time$Chr(44) you will end up on the left platform$Chr(44) as demonstrated with this route's special randomization feature. Route designed as of 2015.$Chr(13)$Chr(13)Credits:$Chr(13)TrainsToronto: Lead Developer$Chr(13)Amanda D. & Chris T: DEVELOPMENT RESOURCES
+.timetable TTC Sheppard Subway Westbound v1.0
+$Include(obj.127)
+With Track
+
+325,.adhesion 100,.rail 1;-12,.curve 0,.dikeend 2,.dikeend 3,.dike 0;0;2,.dike 1;0;3,.freeobj 0;161,.freeobj 1;161,.railtype 0;3,.railtype 1;4,.railend 2;-12,.railend 3;0,.freeobj 0;69
+327,.freeobj 0;70
+328.60,.freeobj 0;79;1.75;1
+
+332.60,.freeobj 0;79;1.75;1
+325,.pitch -20
+
+353,.freeobj 1;610;;;180
+375,.freeobj 1;611;;;180
+397,.freeobj 1;612;;;180
+421,.freeobj 1;613;;;180
+
+375,.height 1.5,.pitch -22
+400,.pitch -32
+425,.sigf 1;;2;3,.Beacon(108; 5; 0; 16)
+625,.sigf 2;;2;3,.Beacon(108; 5; 0; 6)
+725,.pitch -20,.sigf 4;;2;3,.Beacon(108; 5; 0; 5)
+750,.pitch -10
+775,.pitch -5,.dike 0;0;9,.dike 1;0;9
+825,.sigf 7;;2;3,.Beacon(108; 5; 0; 15)
+900,.freeobj 0;44;2;2
+1200,.curve 1250,.railtype 0;31
+1325,.sigf 6;;2;3,.Beacon(108; 5; 0; 5)
+1400,.curve 0,.railtype 0;3,.sigf 7;;-2;3,.sigf 7;;2;3,.Beacon(108; 5; 0; 6),.freeobj 0;62;2;2,.freeobj 0;62;-2;2
+1445,.freeobj 0;46;1.5;3
+1525,.pitch 0
+
+;===============================================================================
+; Leslie 1550
+;===============================================================================
+1550,.Sta Leslie;;;;L;0;;;8;160,.sigf 8;;2;3,.Beacon(108; 5; 0; 17),.Beacon(108; 7; 0; -2)
+
+1550,.freeobj 1;5005,.freeobj 0;5004,.pitch 0,.announce TTC_SHEP\bump.wav;45,.dikeend 0,.dikeend 1,.railtype 0;99,.railtype 1;99
+1660,.Stop 0; 5; 14.9
+1675,.pitch 0,.freeobj 1;353;;;180,.announce TTC_SHEP\bump.wav;45,.sigf 20;;2;3,.Beacon(108; 5; 0; 1),.Beacon(108; 7; 0; -1) ,.dike 0;0;9  ,.dike 1;0;9  ,.railtype 0;3  ,.railtype 1;4 
+
+
+;===============================================================================
+; Leslie-Bessarion 1775
+;===============================================================================
+1675,.freeobj 0;279
+1702,.freeobj 0;1;-2.05;3
+1704,.freeobj 0;227;-2.5;2.5
+1700,.freeobj 0;279
+1725,.freeobj 0;279
+1750,.freeobj 0;279
+1775,.dike 0;0;2,.freeobj 0;161,.freeobj 1;161,.dike 1;0;3,.Pitch 10
+1800,.Pitch 20
+1825,.Pitch 25,.sigf 304;;2;3,.section 0;0;0;0,.Beacon(108; 5; 0; 1)
+1850,.Pitch 37
+1925,.Curve -1000,.signal 3;;2;3,.Beacon(108; 5; 0; 1)
+1975,.Curve 0
+2150,.signal 3;;2;3,.Beacon(108; 5; 0; 1)
+2175,.Pitch 20
+2200,.Pitch 10
+2225,.Pitch 5
+2245,.freeobj 0;62;2;2,.freeobj 0;62;-2;2
+2250,.freeobj 0;279,.Pitch 2.75,.dike 0;0;12,.dike 1;0;9
+2265,.freeobj 0;279
+;===============================================================================
+; Bessarion 2225
+;===============================================================================
+2275,.Sta Bessarion;;;;L;0;;;5;163;;,.sigf 304;1;2;3,.section 0;0;2,.Beacon(108; 5; 0; 17),.Beacon(108;7; 0; -2)
+
+2275,.freeobj 1;5005,.freeobj 0;5004,.adhesion 100,.Pitch 0,.brightness 255,.dikeend 0,.dikeend 1,.railtype 0;99,.railtype 1;99
+2385,.freeobj 0;46;-1.5;-0.144;-30,.Stop 0; 5; 14.9 
+2399,.freeobj 0;502;2.13;1.2,.freeobj 0;511;2.05;0.95,.freeobj 0;516;2.18;0.95  
+2400,.freeobj 1;350;;;180,.adhesion 150,.brightness 255,.railtype 0;3,.railtype 1;4,.announce TTC_SHEP\bump.wav;45,.sigf 20;;2;3,.Beacon(108; 5; 0; 1) ,.Beacon(108; 7; 0; -1)  ,.dike 0;0;9,.dike 1;-1;1
+
+;===============================================================================
+; Bessarion-Bayview 2400
+;===============================================================================
+2400,.freeobj 0;279
+2425,.freeobj 0;279,.pitch 7.5
+2450,.pitch 12,.Curve -50000,.freeobj 0;161,.freeobj 1;161,.dike 0;0;2,.dike 1;0;3
+2475,.pitch 20
+1625,.doppler TTC_YuS\Other Sounds\announce.wav
+2500,.pitch 28.25
+2525,.signal 3;;2;3
+2575,.announce TTC_SHEP\squealbessarion.wav;45
+2850,.Curve -1000,.signal 6;;2;3
+2900,.pitch 23
+2925,.pitch 16,.Curve -3000
+2950,.pitch 12.7,.curve 0
+2975,.pitch 10
+3000,.adhesion 150,.pitch 8.5
+
+3050,.Pitch 7,.dike 0;1;1  ,.dike 1;-1;1  ,.railstart 2;0;0;8  ,.railstart 3;-12;0;8 ,.freeobj 0;2100 ,.freeobj 1;2001 ,.dike 2;-1;9,.signal 6;;2;3
+
+3060,.announce TTC_SHEP\crossbay1.wav;48
+3075,.Pitch 6.75,.rail 2;-1.55;;2 ,.rail 3;-10.5;;2 ,.dikeend 2 ,.dikeend 3 ,.freeobj 2;5008 ,.freeobj 3;5009,,,,,,,,,,,,,,,,
+3090,.freeobj 2;5009 ,.freeobj 3;5008,,,,,,,,,,,,,,,,,,,,
+3100,.Pitch 6.25,.rail 2;-4.5 ,.rail 3;-7.5,,,,,,,,,,,,,,,,,,,,
+3106,.freeobj 0;5012 ,.freeobj 1;5012;5.5,,,,,,,,,,,,,,,,,,,,
+3110,.freeobj 0;62;2;2
+3120,.freeobj 2;5008 ,.freeobj 3;5009,,,,,,,,,,,,,,,,,,,,
+3125,.adhesion 75,.Pitch 5.5,.rail 2;-7.5 ,.rail 3;-4.5,,,,,,,,,,,,,,,,,,,,
+3135,.freeobj 2;5009 ,.freeobj 3;5008,,,,,,,,,,,,,,,,,,,,
+3150,.Pitch 5,.rail 2;-10.5;;8  ,.rail 3;-1.55;;8 ,.dike 2;1;12 ,.dike 3;-1;9 ,.freeobj 0;5013;-2,,,,,,,,,,,,,,,,,
+3157,.announce TTC_SHEP\crossbay3.wav;45
+3175,.marker TTC_SHEP\Markers\BayviewCrossover.png;125,.Pitch 0,.dikeend 3,.dike 0;0;9,.dike 1;0;12,.railtype 0;3,.railtype 1;4,.freeobj 1;2100;;;180,.freeobj 0;2001;;;180 ,.railend 2;-12  ,.railend 3;0  ,.freeobj 0;69;0;0;0,,,,,,,,,,
+3200,.freeobj 1;5005,.freeobj 0;5004,
+;===============================================================================
+; Bayview 3200
+;===============================================================================
+
+3200,.Sta Bayview;;;;L;0;;;9;164;;
+
+3200,.adhesion 100,.sigf 304;1;2;3,.section 0;0;2,.Beacon(108; 5; 0; 17) ,.Beacon(108; 7; 0; -2)
+3200,.Pitch 0,.brightness 255,.dikeend 0,.dikeend 1,.railtype 0;99,.railtype 1;99,.pitch 0
+3215,.announce TTC_SHEP\bumpkeeleportal.wav;45
+3220,.announce TTC_SHEP\bumpkeeleportalcab.wav
+3310,.Stop 0; 5; 14.9,.freeobj 0;46;-1.5;-0.144;-30
+3324.25,.freeobj 0;502;2.25;1.3,.freeobj 0;511;2.25;1.05
+3325,.freeobj 1;352;;;180,.Pitch 0,.brightness 255,.announce TTC_YuS\Other Sounds\bump.wav;45,.sigf 20;1;2.2;3,.Beacon(108; 5; 0; 1),.Beacon(108; 7; 0; -1)     ,.railtype 0;3  ,.railtype 1;4,.dike 0;0;9  ,.dike 1;-1;1
+
+;===============================================================================
+; Bayview-Yonge 3325
+;===============================================================================
+
+3375,.dike 0;0;2,.dike 1;0;2,.freeobj 0;161
+3400,.Curve 2000
+3525,.Curve 0,.pitch -1
+3550,.signal 3;;2;3,.signal 3;;0;3
+3700,.sigf 42;;2;3,.Beacon(108; 5; 0; 15)
+3925,.sigf 9;;2;3,.Beacon(108; 5; 0; 8)
+4050,.sigf 8;;2;3,.Beacon(108; 5; 0; 29)
+3575,.freeobj 0;62;2;2,.freeobj 0;62;-2;2
+4275,.pitch -6
+4250,.sigf 10;;2;3,.Beacon(108; 5; 0; 28)
+4300,.pitch -24,
+
+4580,.freeobj 0;251;1.8;2
+4600,.sigf 11;;2;3,.Beacon(108; 5; 0; 15)
+4630,.freeobj 0;252;1.8;2
+4625,.pitch -12
+4650,.pitch 0
+
+4750,.pitch 12,.sigf 12;;2;3,.Beacon(108; 5; 0; 8)
+4775,.Pitch 18
+4800,.Pitch 22
+4825,.Pitch 25.5,.sigf 14;;2;3,.Beacon(108; 5; 0; 5)
+4830,.freeobj 0;45;2;2,.freeobj 0;45;-2;2
+4875,.sigf 21;;2;2.5,.Beacon(108; 5; 0; 2)
+4900,.sigf 22;;2;2.5,.Beacon(108; 5; 0; 27)
+4921,.announce TTC_SHEP\crossyonge1.wav;28
+4925,.freeobj 0;161,.freeobj 1;161,.announce TTC_SHEP\crossdon1.wav;25,.Pitch 27,.height 0.5,.railstart 2;0;0;8  ,.railstart 3;-12;0;4  ,.curve -200;-100,.Dike 0;-1;1  ,.Dikeend 1    ,.dike 3;-1;1  ,.dike 2;1;1  ,.railtype 0;8  ,.railtype 1;2 ,.freeobj 2;2101
+4950,.pitch 26.5,.Rail 1;-9.5;;2  ,.rail 2;1.5;;3  ,.rail 3;-10.5   ,.curve 0 ,.railtype 0;2 ,.Dikeend 0 ,.freeobj 0;5008 ,.freeobj 1;5009
+4965,.freeobj 0;5009 ,.freeobj 1;5008
+4975,.Pitch 26,.railtype 3;2,.dikeend 3,.railstart 4;-7.5,.dike 4;-1;12,.railtype 4;8,.freeobj 3;2101,.Rail 1;-3  ,.rail 2;4.5  ,.rail 3;-7.5  ,.railtype 0;2 ,.railtype 1;2
+4981,.announce TTC_SHEP\crossyonger2.wav;25,.freeobj 2;5012 ,.freeobj 3;5012;5.5
+4990,.freeobj 0;5008 ,.freeobj 1;5009
+5000,.Pitch 25.5,.rail 4;-6.05,.railtype 4;4,.rail 1;3 ,.rail 2;7.5 ,.rail 3;-4.5
+5015,.freeobj 0;5009 ,.freeobj 1;5008
+5024,.announce TTC_SHEP\crossyonger3.wav;25
+5025,.Pitch 25.25,.rail 4;-7,.dike 4;-1;12,.dike 3;-1;12,.curve 200;-100,.railtype 0;8 ,.Rail 1;9;0;2  ,.rail 2;10.5;0  ,.rail 3;-1.55;;8 ,.dike 0;1;1  ,.dike 1;-1;8 ,.freeobj 2;5013;-2.4
+5050,.Pitch 25,.rail 4;-8.05;-1,.railtype 0;3  ,.rail 1;12;0  ,.rail 2;12;0  ,.rail 3;0  ,.dikeend 2,.railend 2,.dikeend 3    ,.railend 3  ,.Curve 0  ,.dike 0;0;1  ,.dike 1;0;9,.freeobj 0;2101;;;180
+5066,.announce TTC_SHEP\crossyonge1.wav;28
+5075,.Pitch 17,.dikeend 4,.railend 4;-8.75;-1.5
+5100,.freeobj 1;69;1,.railstart 5;0,.dike 5;-1;1,.railtype 5;8,.dikeend 0
+;===============================================================================
+; Sheppard Yonge 5125
+;===============================================================================
+
+5100,.Pitch 0,.dike 1;1;1
+5125,.dikeend 5,.railend 5;-5,.sigf 23;;2;3,.Beacon(108; 5; 0; 17),.Beacon(108; 7; 0; -2)
+5125,.Sta Sheppard-Yonge;;T;;L;1;;;15;169;;
+
+;Station
+5125,.Pitch 0,.dikeend 1,.rail 1;12;0;2,.announce TTC_SHEP\crossyonge1_alt1.wav;23,.dikeend 0  ,.dikeend 1  ,.railtype 0;0  ,.railtype 1;1,.pitch 0,.freeobj 1;130  ,.freeobj 0;130;-4
+5140,.freeobj 1;238  ,.freeobj 1;244  ,.freeobj 1;245 
+5220,,.Stop 0; 5; 14.9,.freeobj 0;46;-1.5;-0.144;-30 
+5235,.doppler TTC_SHEP\norm.wav;1;3
+5235,.freeobj 1;278,.freeobj 0;279,.freeobj 0;354;;;180
+5240,.freeobj 1;278,
+5250,.freeobj 1;69;1,.Pitch 0,.Pitch 0,.announce TTC_SHEP\bump.wav;45,.railtype 0;3  ,.railtype 1;4,.dike 0;1;1,.dike 1;-1;1  ,.freeobj 0;130  ,.freeobj 1;130;-4
+
+;Overhead Signage
+5125,.freeobj 1;276;0.3;1.35;;;-10
+5150,.freeobj 1;276;0.3;1.35;;;-10,.freeobj 0;277;-1;1.35;180;;-10
+5175,.freeobj 1;276;0.3;1.35;;;-10,.freeobj 0;277;-1;1.35;180;;-10
+5200,.freeobj 1;276;0.3;1.35;;;-10,.freeobj 0;277;-1;1.35;180;;-10
+5225,.freeobj 1;276;0.3;1.35;;;-10,.freeobj 0;277;-1;1.35;180;;-10
+5250,.freeobj 0;277;-1;1.35;180;;-10
+
+;Tracking
+
+5250,.dike 0;-1;1,.dike 1;1;1,.freeobj 0;130;-4  ,.freeobj 1;130
+
+;Signal End
+5252,.signal 6;St. Andrew;2.31;4
+5252,.freeobj 0;101
+
+
+5500,.marker TTC_SHEP\easteregg.png;-500

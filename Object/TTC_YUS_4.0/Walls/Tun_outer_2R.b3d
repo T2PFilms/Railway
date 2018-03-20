@@ -1,0 +1,61 @@
+[MeshBuilder]
+Vertex        2, 3.9, 25.0
+Vertex        2, 3.9, -0.5
+Vertex        2, -0.15, -0.5
+Vertex        2, -0.15, 25.0
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_outer_2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex        1.85, 4, 25.0
+Vertex        1.85, 4, -0.5
+Vertex        2, 3.85, -0.5
+Vertex        2, 3.85, 25.0
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_lights_2.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;First light
+
+[MeshBuilder]
+Vertex        1.89, 3.95, 5.6
+Vertex        1.875, 3.9, 5.6
+Vertex        1.88, 3.88, 5.6
+Vertex        1.9, 3.875, 5.6
+Vertex        1.95, 3.89, 5.6
+Vertex        1.95, 3.89, 6.9
+Vertex        1.9, 3.875, 6.9
+Vertex        1.88, 3.88, 6.9
+Vertex        1.875, 3.9, 6.9
+Vertex        1.89, 3.95, 6.9
+Face 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+Color 255,255,255
+
+;Second light
+
+[MeshBuilder]
+Vertex        1.89, 3.95, 18.1
+Vertex        1.875, 3.9, 18.1
+Vertex        1.88, 3.88, 18.1
+Vertex        1.9, 3.875, 18.1
+Vertex        1.95, 3.89, 18.1
+Vertex        1.95, 3.89, 19.4
+Vertex        1.9, 3.875, 19.4
+Vertex        1.88, 3.88, 19.4
+Vertex        1.875, 3.9, 19.4
+Vertex        1.89, 3.95, 19.4
+Face 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+Color 255,255,255

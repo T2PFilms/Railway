@@ -1,0 +1,16 @@
+;Pretrain commands
+
+6285,
+.pretrain 11.2130,
+
+9325,
+.pretrain 11.2630,
+
+12910,
+.pretrain 11.3430,
+
+15030,
+.pretrain 11.3830,
+
+17725,
+.pretrain 11.4430,

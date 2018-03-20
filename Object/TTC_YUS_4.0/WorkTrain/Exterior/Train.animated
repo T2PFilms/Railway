@@ -1,0 +1,11 @@
+;Toronto Rocket
+
+[Object]
+States = h4 Front Cab.b3d
+Position = 0,0,22.9
+
+[Object]
+States = H4 back Cab.b3d
+Position = 0,0,0
+
+

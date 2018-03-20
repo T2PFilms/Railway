@@ -1,0 +1,5 @@
+[Object]
+Position = 0,0,0
+States = personb.csv
+RotateXFunction = (abs[trackdistance] > 150) * (-1.4)
+RotateXDamping = 1, 2

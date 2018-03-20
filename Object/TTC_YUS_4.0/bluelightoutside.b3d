@@ -1,0 +1,38 @@
+[meshbuilder]
+vertex 0,1,0
+vertex 0,1.6,0
+vertex .3,1.6,0
+vertex .3,1,0
+face 0,1,2,3
+
+[texture]
+load bluelightoutside.bmp
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 0,0,1
+
+;support post
+[meshbuilder]
+vertex 0,0,0
+vertex 0,1,0
+vertex .3,1,0
+vertex .3,0,0
+face 0,1,2,3
+color 32,32,32
+
+[meshbuilder]
+vertex .3,0,0
+vertex .3,1.6,0
+vertex .3,1.6,.2
+vertex .3,0,.2
+face2 0,1,2,3
+color 32,32,32
+
+[meshbuilder]
+vertex 0,0,0
+vertex 0,1.6,0
+vertex 0,1.6,.2
+vertex 0,0,.2
+face2 0,1,2,3
+color 32,32,32

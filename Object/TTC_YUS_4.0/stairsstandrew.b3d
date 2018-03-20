@@ -1,0 +1,293 @@
+[meshbuilder]
+vertex -4.5,-0.5,0
+vertex -5,-0.5,0
+vertex -5,4.7,0
+vertex -4.5,4.7,0
+face2 0,1,2,3
+
+[texture]
+load pillarstandrew3.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+[meshbuilder]
+vertex -4.5,-0.5,0
+vertex -4.5,4.7,0
+vertex -4.5,4.7,25
+vertex -4.5,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load pillarstandrew1.bmp
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 0,0,1
+
+[meshbuilder]
+vertex -7,-0.5,0
+vertex -7.5,-0.5,0
+vertex -7.5,4.7,0
+vertex -7,4.7,0
+face2 0,1,2,3
+
+[texture] 
+load pillarstandrew3.bmp
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,1,1
+coordinates 3,0,1
+
+[meshbuilder]
+vertex -7,-0.5,0
+vertex -7,4.7,0
+vertex -7,4.7,25
+vertex -7,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load wallqueen.bmp
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 0,0,1
+
+;stairs
+
+[meshbuilder]
+vertex -5,4.69,0
+vertex -7,4.69,0
+vertex -7,4.69,24
+vertex -5,4.69,24
+face2 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+vertex -5,1.1,0
+vertex -7,1.1,0
+vertex -7,1.4,0
+vertex -5,1.4,0
+face2 0,1,2,3
+color 178,178,178
+
+[meshbuilder]
+vertex -5,1.4,0
+vertex -7,1.4,0
+vertex -7,1.4,0.3
+vertex -5,1.4,0.3
+face2 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -5,1.4,0.3
+vertex -7,1.4,0.3
+vertex -7,1.7,0.3
+vertex -5,1.7,0.3
+face2 0,1,2,3
+color 178,178,178
+ 
+[meshbuilder]
+vertex -5,1.7,0.3
+vertex -7,1.7,0.3
+vertex -7,1.7,0.6
+vertex -5,1.7,0.6
+face2 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -5,1.7,0.6
+vertex -7,1.7,0.6
+vertex -7,2.0,0.6
+vertex -5,2.0,0.6
+face2 0,1,2,3
+color 178,178,178
+
+[meshbuilder]
+vertex -5,2.0,0.6
+vertex -7,2.0,0.6
+vertex -7,2.0,0.9
+vertex -5,2.0,0.9
+face2 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -5,2.0,0.9
+vertex -7,2.0,0.9
+vertex -7,2.3,0.9
+vertex -5,2.3,0.9
+face2 0,1,2,3
+color 178,178,178
+
+[meshbuilder]
+vertex -5,2.3,0.9
+vertex -7,2.3,0.9
+vertex -7,2.3,1.2
+vertex -5,2.3,1.2
+face2 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -5,2.3,1.2
+vertex -7,2.3,1.2
+vertex -7,2.6,1.2
+vertex -5,2.6,1.2
+face2 0,1,2,3
+color 178,178,178
+
+[meshbuilder]
+vertex -5,2.6,1.2
+vertex -7,2.6,1.2
+vertex -7,2.6,1.5
+vertex -5,2.6,1.5
+face2 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -5,2.6,1.5
+vertex -7,2.6,1.5
+vertex -7,2.9,1.5
+vertex -5,2.9,1.5
+face2 0,1,2,3
+color 178,178,178
+
+[meshbuilder]
+vertex -5,2.9,1.5
+vertex -7,2.9,1.5
+vertex -7,2.9,1.8
+vertex -5,2.9,1.8
+face2 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -5,2.9,1.8
+vertex -7,2.9,1.8
+vertex -7,3.2,1.8
+vertex -5,3.2,1.8
+face2 0,1,2,3
+color 178,178,178
+
+[meshbuilder]
+vertex -5,3.2,1.8
+vertex -7,3.2,1.8
+vertex -7,3.2,2.1
+vertex -5,3.2,2.1
+face2 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -5,3.2,2.1
+vertex -7,3.2,2.1
+vertex -7,3.5,2.1
+vertex -5,3.5,2.1
+face2 0,1,2,3
+color 178,178,178
+
+[meshbuilder]
+vertex -5,3.5,2.1
+vertex -7,3.5,2.1
+vertex -7,3.5,2.4
+vertex -5,3.5,2.4
+face2 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -5,3.5,2.4
+vertex -7,3.5,2.4
+vertex -7,3.8,2.4
+vertex -5,3.8,2.4
+face2 0,1,2,3
+color 178,178,178
+
+[meshbuilder]
+vertex -5,3.8,2.4
+vertex -7,3.8,2.4
+vertex -7,3.8,2.7
+vertex -5,3.8,2.7
+face2 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -5,3.8,2.7
+vertex -7,3.8,2.7
+vertex -7,4.1,2.7
+vertex -5,4.1,2.7
+face2 0,1,2,3
+color 178,178,178
+
+[meshbuilder]
+vertex -5,4.1,2.7
+vertex -7,4.1,2.7
+vertex -7,4.1,3.0
+vertex -5,4.1,3.0
+face2 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -5,4.1,3.0
+vertex -7,4.1,3.0
+vertex -7,4.4,3.0
+vertex -5,4.4,3.0
+face2 0,1,2,3
+color 178,178,178
+
+[meshbuilder]
+vertex -5,4.4,3.0
+vertex -7,4.4,3.0
+vertex -7,4.4,3.3
+vertex -5,4.4,3.3
+face2 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -5,4.4,3.3
+vertex -7,4.4,3.3
+vertex -7,4.7,3.3
+vertex -5,4.7,3.3
+face2 0,1,2,3
+color 178,178,178
+
+[meshbuilder]
+vertex -5,4.7,3.3
+vertex -7,4.7,3.3
+vertex -7,4.7,3.6
+vertex -5,4.7,3.6
+face2 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -5,4.7,3.6
+vertex -7,4.7,3.6
+vertex -7,5.0,3.6
+vertex -5,5.0,3.6
+face2 0,1,2,3
+color 178,178,178
+
+[meshbuilder]
+vertex -5,5.0,3.6
+vertex -7,5.0,3.6
+vertex -7,5.0,3.9
+vertex -5,5.0,3.9
+face2 0,1,2,3
+color 150,150,150
+
+[meshbuilder]
+vertex -5,5.0,3.9
+vertex -7,5.0,3.9
+vertex -7,5.3,3.9
+vertex -5,5.3,3.9
+face2 0,1,2,3
+color 178,178,178
+
+[meshbuilder]
+vertex -5,5.3,3.9
+vertex -7,5.3,3.9
+vertex -7,5.3,4.2
+vertex -5,5.3,4.2
+face2 0,1,2,3
+color 150,150,150
+
+
+
+

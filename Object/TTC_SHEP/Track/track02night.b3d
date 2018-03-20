@@ -1,0 +1,70 @@
+[meshbuilder]
+vertex -1.22,-0.144,0
+vertex -1.22,-0.144,25.2
+vertex 1.22,-0.144,25.2
+vertex 1.22,-0.144,0
+face2 0,1,2,3
+color 95,95,95
+
+[texture]
+load slab.bmp
+coordinates 0,0,5
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,5
+
+[meshbuilder]
+vertex -1.22,-0.144,0
+vertex -1.22,-0.3,0
+vertex -2.0,-0.3,0
+vertex -1.22,-0.144,25.2
+vertex -1.22,-0.3,25.2
+vertex -2.0,-0.3,25.2
+face2 0,1,4,3
+face2 1,2,5,4
+color 95,95,95
+
+[texture]
+load slab2.bmp
+coordinates 0,0,1
+coordinates 1,0.1,1
+coordinates 2,1,1
+coordinates 3,0,0
+coordinates 4,0.1,0
+coordinates 5,1,0
+
+[meshbuilder]
+vertex 1.22,-0.144,0
+vertex 1.22,-0.3,0
+vertex 2.0,-0.3,0
+vertex 1.22,-0.144,25.2
+vertex 1.22,-0.3,25.2
+vertex 2.0,-0.3,25.2
+face2 1,0,3,4
+face2 2,1,4,5
+color 95,95,95
+
+[texture]
+load slab2night.bmp
+coordinates 0,0,1
+coordinates 1,0.1,1
+coordinates 2,1,1
+coordinates 3,0,0
+coordinates 4,0.1,0
+coordinates 5,1,0
+
+[meshbuilder]
+vertex -0.746,0,0
+vertex -0.746,0,25.5
+vertex -0.686,0,25.5
+vertex -0.686,0,0
+face2 0,1,2,3
+color 223,223,223
+
+[meshbuilder]
+vertex 0.686,0,0
+vertex 0.686,0,25.5
+vertex 0.746,0,25.5
+vertex 0.746,0,0
+face2 0,1,2,3
+color 223,223,223

@@ -1,0 +1,15 @@
+[Object]
+Position = 0, -2.65, 0
+States = SignalSingle_GT.csv
+
+[Object]
+Position = 0, 0, 0
+States = SignalSingle_0.csv, SignalSingle_X.csv, SignalSingle_4.csv
+StateFunction = if [pluginstate[16] == 1 & trackDistance < 275,value==0,0]
+RefreshRate = 1
+
+[Object]
+Position = 0, 0, -.4
+States = blank.csv, SignalSingle_4.csv
+StateFunction = if[trackDistance < 275 & pluginstate[16] ==2 , 1,0]
+

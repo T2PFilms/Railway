@@ -1,0 +1,13 @@
+﻿CreateMeshBuilder
+Addvertex, -1.44,3.29,0.195,
+Addvertex, -1.44,3.4,0.195,
+Addvertex,  0.46,3.4,0.195,
+Addvertex,  0.46,3.29,0.195,
+Addface,1,2,3,0,
+GenerateNormals,
+LoadTexture,DepartArrow.png,DepartArrow.png
+SetTextureCoordinates,0,50,1,
+SetTextureCoordinates,1,50,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+Translate,-0.004,0.03,0,

@@ -1,0 +1,27 @@
+[MeshBuilder]
+Vertex 0,175.5,0
+Vertex 45,175.5,0
+Vertex 45,0,0
+Vertex 0,0,0
+Face2 0,1,2,3
+
+Load hqtop.bmp
+Coordinates 0,0,55
+Coordinates 1,1,55
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex 0,175.5,0
+Vertex 0,175.5,13
+Vertex 0,0,13
+Vertex 0,0,0
+Face2 0,1,2,3
+
+Load hqtop.bmp
+Coordinates 1,0,2
+Coordinates 2,55,2
+Coordinates 3,55,0
+Coordinates 0,0,0
+
+TranslateAll 80,0,50

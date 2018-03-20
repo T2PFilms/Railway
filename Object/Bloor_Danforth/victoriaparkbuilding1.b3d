@@ -1,0 +1,244 @@
+[MeshBuilder]
+Vertex -8,-2,0
+Vertex 8,-2,0
+Vertex 8,42,0
+Vertex -8,42,0
+Face2 0,1,2,3
+
+Load texture1.png
+Coordinates 0,0,0
+Coordinates 1,25,0
+Coordinates 2,25,30
+Coordinates 3,0,30
+
+
+
+[MeshBuilder]
+Vertex -8,42,0
+Vertex 8,42,0
+Vertex 8,42,41
+Vertex -8,42,41
+Face2 0,1,2,3
+
+Load texture1.png
+Coordinates 0,0,0
+Coordinates 1,25,0
+Coordinates 2,25,30
+Coordinates 3,0,30
+
+[MeshBuilder]
+Vertex -8,33,0
+Vertex -3,33,0
+Vertex -3,42,0
+Vertex -8,42,0
+Face2 0,1,2,3
+
+Load rental.png
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,1,0
+Coordinates 3,0,0
+Translate 0,0,-0.02
+
+[MeshBuilder]
+Vertex -8,-2,41
+Vertex -8,-2,0
+Vertex -8,42,0
+Vertex -8,42,41
+Face2 0,1,2,3
+
+Load dentonia.png
+Coordinates 0,0,0
+Coordinates 1,6,0
+Coordinates 2,6,20
+Coordinates 3,0,20
+
+[MeshBuilder]
+Vertex 8,-2,41
+Vertex 8,-2,0
+Vertex 8,42,0
+Vertex 8,42,41
+Face2 0,1,2,3
+
+Load dentonia.png
+Coordinates 0,0,0
+Coordinates 1,6,0
+Coordinates 2,6,20
+Coordinates 3,0,20
+
+[MeshBuilder]
+Vertex -8,-2,41
+Vertex 8,-2,41
+Vertex 8,42,41
+Vertex -8,42,41
+Face2 0,1,2,3
+
+Load texture1.png
+Coordinates 0,0,0
+Coordinates 1,25,0
+Coordinates 2,25,30
+Coordinates 3,0,30
+
+
+;Windows Front
+[MeshBuilder]
+Vertex -1,40,0
+Vertex 1,40,0
+Vertex 1,42,0
+Vertex -1,42,0
+Face2 0,1,2,3
+
+Load window.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate 0,-1,0
+
+[MeshBuilder]
+Vertex -1,40,0
+Vertex 1,40,0
+Vertex 1,42,0
+Vertex -1,42,0
+Face2 0,1,2,3
+
+Load window.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate 0,-5,0
+
+[MeshBuilder]
+Vertex -1,40,0
+Vertex 1,40,0
+Vertex 1,42,0
+Vertex -1,42,0
+Face2 0,1,2,3
+
+Load window.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate 0,-9,0
+
+
+[MeshBuilder]
+Vertex -1,40,0
+Vertex 1,40,0
+Vertex 1,42,0
+Vertex -1,42,0
+Face2 0,1,2,3
+
+Load window.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate 0,-13,0
+
+
+[MeshBuilder]
+Vertex -1,40,0
+Vertex 1,40,0
+Vertex 1,42,0
+Vertex -1,42,0
+Face2 0,1,2,3
+
+Load window.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate 0,-17,0
+
+
+[MeshBuilder]
+Vertex -1,40,0
+Vertex 1,40,0
+Vertex 1,42,0
+Vertex -1,42,0
+Face2 0,1,2,3
+
+Load window.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate 0,-21,0
+
+
+[MeshBuilder]
+Vertex -1,40,0
+Vertex 1,40,0
+Vertex 1,42,0
+Vertex -1,42,0
+Face2 0,1,2,3
+
+Load window.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate 0,-25,0
+
+
+[MeshBuilder]
+Vertex -1,40,0
+Vertex 1,40,0
+Vertex 1,42,0
+Vertex -1,42,0
+Face2 0,1,2,3
+
+Load window.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate 0,-29,0
+
+
+[MeshBuilder]
+Vertex -1,40,0
+Vertex 1,40,0
+Vertex 1,42,0
+Vertex -1,42,0
+Face2 0,1,2,3
+
+Load window.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate 0,-33,0
+
+
+[MeshBuilder]
+Vertex -1,40,0
+Vertex 1,40,0
+Vertex 1,42,0
+Vertex -1,42,0
+Face2 0,1,2,3
+
+Load window.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate 0,-37,0
+
+
+[MeshBuilder]
+Vertex -1,40,0
+Vertex 1,40,0
+Vertex 1,42,0
+Vertex -1,42,0
+Face2 0,1,2,3
+
+Load window.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Translate 0,-41.5,0

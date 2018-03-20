@@ -1,0 +1,14 @@
+;Lamp ~EndOfTrainDevice ~AmericanRail Wabtec endA|B, For Wagons
+;Set@ *.ANIMATED [Include] Position=+0.0,+0.0,+|-0.5*CarsLength
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;All BVE|OpenBVE files have no registered copyright or trademark,
+;are public domain, & free to copy|distribute|modify|use at will.
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+[OBJECT]
+States=Lamp~EOTD~ARWx_Assy.B3D
+RotateYFunction=3.142
+StateFunction=If[(Cars>0)&(Abs[Round[Distance[0]]]<1),0,1]                           ;On 1stCar EndA In Game Only, DOES NOT DISPLAY IN OBJECTVIEWER
+[OBJECT]
+States=Lamp~EOTD~ARWx_Bulb.B3D
+RotateYFunction=3.142
+StateFunction=If[(Cars>0)&(Abs[Round[Distance[0]]]<1)&(Floor[Mod[Time,1.5]]),0,1]    ;On 1stCar EndA In Game Only, DOES NOT DISPLAY IN OBJECTVIEWER, 1.5sec=FlashRate

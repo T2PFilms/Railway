@@ -1,0 +1,130 @@
+;right
+
+[meshbuilder]
+vertex 2.5,-0.5,0
+vertex 2.5,4.7,0
+vertex 2.5,4.7,25
+vertex 2.5,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load walleglintonwww.bmp
+coordinates 1,1,0
+coordinates 2,0,0
+coordinates 3,0,1
+coordinates 0,1,1
+transparent 0,255,0
+
+[meshbuilder]
+vertex 2.5,4.7,0
+vertex 2.5,4.7,25
+vertex 0,6.7,25
+vertex 0,6.7,0
+face 0,1,2,3
+
+[texture]
+load walllawrencewr1.bmp
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,0,1
+coordinates 3,1,1
+
+;left
+
+[meshbuilder]
+vertex -15,-0.5,0
+vertex -15,4.7,0
+vertex -15,4.7,25
+vertex -15,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load walleglintonwww.bmp
+coordinates 2,1,0
+coordinates 1,0,0
+coordinates 0,0,1
+coordinates 3,1,1
+transparent 0,255,0
+
+[meshbuilder]
+vertex -15,4.7,0
+vertex -15,4.7,25
+vertex -13.5,6.7,25
+vertex -13.5,6.7,0
+face2 0,1,2,3
+
+[texture]
+load walllawrencewr1.bmp
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,0,1
+coordinates 3,1,1
+
+;both
+
+[meshbuilder]
+vertex -15,4.7,12.5
+vertex -15,5.7,12.5
+vertex 2.5,5.7,12.5
+vertex 2.5,4.7,12.5
+face 0,1,2,3
+
+[texture]
+load concretelong.bmp
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,0,1
+coordinates 3,1,1
+
+[meshbuilder]
+vertex -15,4.7,12.5
+vertex -15,4.7,13.5
+vertex 2.5,4.7,13.5
+vertex 2.5,4.7,12.5
+face 0,1,2,3
+
+[texture]
+load concretelong.bmp
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,0,1
+coordinates 3,1,1
+
+[meshbuilder]
+vertex -15,4.7,12.5
+vertex -15,4.7,13.5
+vertex 2.5,4.7,13.5
+vertex 2.5,4.7,12.5
+face 0,1,2,3
+
+[texture]
+load concretelong.bmp
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,0,1
+coordinates 3,1,1
+
+;roof
+
+[meshbuilder]
+vertex -13.5, 6.7,0
+vertex -13.5, 6.7,25
+vertex 0,6.7,25
+vertex 0,6.7,0
+face2 0,1,2,3
+
+[texture]
+load walllawrencewr2.bmp
+coordinates 0,1,0
+coordinates 1,0,0
+coordinates 2,0,1
+coordinates 3,1,1
+
+
+
+
+
+
+
+
+

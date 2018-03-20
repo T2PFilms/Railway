@@ -1,0 +1,155 @@
+
+[MeshBuilder]
+Vertex 2.4,4.7,0
+Vertex 2.4,4.7,0.5
+Vertex -14.3,4.7,0.5
+Vertex -14.3,4.7,0
+Face2 0,1,2,3
+Color 130,130,130
+Load idk.png
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+Coordinates 0,0,1
+
+[MeshBuilder]
+Vertex 2.4,4.7,0
+Vertex 2.4,5.15,0
+Vertex -14.3,5.15,0
+Vertex -14.3,4.7,0
+Face2 0,1,2,3
+Color 130,130,130
+Load idk.png
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+Coordinates 0,0,1
+
+[MeshBuilder]
+Vertex 2.4,4.7,0.5
+Vertex 2.4,5.15,0.5
+Vertex -14.3,5.15,0.5
+Vertex -14.3,4.7,0.5
+Face2 0,1,2,3
+Color 130,130,130
+Load idk.png
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+Coordinates 0,0,1
+
+[MeshBuilder]
+Vertex 2.75,4.7,0
+Vertex 2.75,4.55,0
+Vertex 2.3,4.45,0
+Vertex 2.3,4.7,0
+Face2 0,1,2,3
+Color 70,70,70
+Load idk.png
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+Coordinates 0,0,1
+[MeshBuilder]
+Vertex 2.4,5.15,0
+Vertex 2.4,4.45,0
+Vertex 2.4,4.45,0.5
+Vertex 2.4,5.15,0.5
+Face2 0,1,2,3
+Color 70,70,70
+Load idk.png
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+Coordinates 0,0,1
+
+[MeshBuilder]
+Vertex 2.3,5.15,0
+Vertex 2.3,4.45,0
+Vertex 2.3,4.45,0.5
+Vertex 2.3,5.15,0.5
+Face2 0,1,2,3
+Color 70,70,70
+Load idk.png
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+Coordinates 0,0,1
+
+[MeshBuilder]
+Vertex 2.74,4.7,0
+Vertex 2.74,4.45,0
+Vertex 2.74,4.45,0.5
+Vertex 2.74,4.7,0.5
+Face2 0,1,2,3
+Color 70,70,70
+Load idk.png
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+Coordinates 0,0,1
+
+[MeshBuilder]
+Vertex -14.3,5.15,0
+Vertex -14.3,4.45,0
+Vertex -14.3,4.45,0.5
+Vertex -14.3,5.15,0.5
+Face2 0,1,2,3
+Color 70,70,70
+Load idk.png
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+Coordinates 0,0,1
+
+[MeshBuilder]
+Vertex 2.75,4.7,0.5
+Vertex 2.75,4.7,0
+Vertex 2.3,4.7,0
+Vertex 2.3,4.7,0.5
+Face2 0,1,2,3
+Color 70,70,70
+Load idk.png
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+Coordinates 0,0,1
+
+[MeshBuilder]
+Vertex 2.75,4.7,0.5
+Vertex 2.75,4.55,0.5
+Vertex 2.3,4.45,0.5
+Vertex 2.3,4.7,0.5
+Face2 0,1,2,3
+Color 70,70,70
+Load idk.png
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+Coordinates 0,0,1
+
+[MeshBuilder]
+Vertex -14.75,5.15,0.5
+Vertex -14.75,4.55,0.5
+Vertex -14.3,4.45,0.5
+Vertex -14.3,5.15,0.5
+Face2 0,1,2,3
+Color 70,70,70
+Load idk.png
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+Coordinates 0,0,1
+
+[MeshBuilder]
+Vertex -14.75,5.15,0
+Vertex -14.75,4.55,0
+Vertex -14.3,4.45,0
+Vertex -14.3,5.15,0
+Face2 0,1,2,3
+Color 70,70,70
+Load idk.png
+Coordinates 1,0,0
+Coordinates 2,5,0
+Coordinates 3,5,1
+Coordinates 0,0,1

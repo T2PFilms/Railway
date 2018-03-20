@@ -1,0 +1,8 @@
+;Toronto Rocket
+
+[Object]
+States = TR Rear.b3d
+
+[Object]
+States = TR Rear End.b3d
+Position = 0,0.42,-12.70

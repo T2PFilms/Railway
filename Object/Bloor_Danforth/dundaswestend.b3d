@@ -1,0 +1,133 @@
+[MeshBuilder]
+Vertex 7,4.45,0
+Vertex 2.5,4.45,0
+Vertex 2.5,4.7,0
+Vertex 7,4.7,0
+Face2 3,2,1,0
+Load sherbournetop.png
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex -15,4.45,0
+Vertex -10.5,4.45,0
+Vertex -10.5,4.7,0
+Vertex -15,4.7,0
+Face2 0,1,2,3
+Load sherbournetop.png
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+Vertex 7,1.1,0
+Vertex 2.5,1.1,0
+Vertex 2.5,4.45,0
+Vertex 7,4.45,0
+Face2 3,2,1,0
+Load sherbournetile.png
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,15
+Coordinates 3,0,15
+
+
+[MeshBuilder]
+Vertex -15,1.1,0
+Vertex -10.5,1.1,0
+Vertex -10.5,4.45,0
+Vertex -15,4.45,0
+Face2 0,1,2,3
+Load sherbournetile.png
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,15
+Coordinates 3,0,15
+
+
+
+
+
+;-------------------------------------
+; Barrier
+;-------------------------------------
+;-----------
+;BARRIER
+;-----------
+[MeshBuilder]
+Vertex 2.4,1.1,0
+Vertex 2.4,2.22,0
+Vertex 1.8,2.22,0
+Vertex 1.8,1.1,0
+Face 0,1,2,3
+
+Load Barrier.png,Barrier.png
+Coordinates 0,0.379,1
+Coordinates 1,0.379,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Transparent 0, 0, 0,
+
+[MeshBuilder]
+Vertex -9.8,1.1,0
+Vertex -9.8,2.22,0
+Vertex -10.4,2.22,0
+Vertex -10.4,1.1,0
+Face 3,2,1,0
+
+Load Barrier2.png,Barrier2.png
+Coordinates 0,0.000,1
+Coordinates 1,0.000,0
+Coordinates 2,0.621,0
+Coordinates 3,0.621,1
+Transparent 0, 0, 0,
+;-----------
+;BARRIER
+;-----------
+[MeshBuilder]
+Vertex 2.4,1.1,0
+Vertex 2.4,2.22,0
+Vertex 1.8,2.22,0
+Vertex 1.8,1.1,0
+Face 3,2,1,0
+
+Load Barrier2.png,Barrier2.png
+Coordinates 0,0.621,1
+Coordinates 1,0.621,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0, 0, 0,
+
+[MeshBuilder]
+Vertex -9.8,1.1,0
+Vertex -9.8,2.22,0
+Vertex -10.4,2.22,0
+Vertex -10.4,1.1,0
+Face 0,1,2,3
+
+Load Barrier2.png,Barrier2.png
+Coordinates 0,0.621,1
+Coordinates 1,0.621,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Transparent 0, 0, 0,
+
+
+
+
+[MeshBuilder]
+Vertex -2.5,0,0
+Vertex -2.5,4.25,0
+Vertex -5.5,4.25,0
+Vertex -5.5,0,0
+Face2 0,1,2,3
+
+Load base.bmp
+Coordinates 0,0,3
+Coordinates 1,0,0
+Coordinates 2,3,0
+Coordinates 3,3,3
+Transparent 0, 0, 0,

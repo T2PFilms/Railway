@@ -1,0 +1,41 @@
+;Toronto Rocket
+
+[Object]
+States = TR Front.b3d
+RotateYFunction = 185.35
+TranslateZFunction = mod[-15 * time, 1000]
+[Object]
+States = TR rear end.b3d
+Position = 0,0.42,13.5
+RotateYFunction = 185.35
+TranslateZFunction = mod[-15 * time, 1000]
+[Object]
+States = TR Mid.b3d
+Position = 0,0,-23
+RotateYFunction = 185.35
+TranslateZFunction = mod[-15 * time, 1000]
+[Object]
+States = TR Mid.b3d
+Position = 0,0,-47
+RotateYFunction = 185.35
+TranslateZFunction = mod[-15 * time, 1000]
+[Object]
+States = TR Mid.b3d
+Position = 0,0,-71
+RotateYFunction = 185.35
+TranslateZFunction = mod[-15 * time, 1000]
+[Object]
+States = TR Mid.b3d
+Position = 0,0,-95
+RotateYFunction = 185.35
+TranslateZFunction = mod[-15 * time, 1000]
+[Object]
+States = TR rear.b3d
+Position = 0,0,-118
+RotateYFunction = 185.35
+TranslateZFunction = mod[-15 * time, 1000]
+[Object]
+States = TR Front end.b3d
+Position = 0,0.42,-130.7
+RotateYFunction = 185.35
+TranslateZFunction = mod[-15 * time, 1000]

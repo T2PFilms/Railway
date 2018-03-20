@@ -1,0 +1,10 @@
+If you are experiencing missing textures that show up white on the Route.
+DRAG the .csv & png files onto the TTC_YUS Object folder and replace them.
+
+If you need more information please visit our Forums at: wwww.T2P0Films.ca or www.t2pFilms.ca
+
+We hope you enjoy the route.
+
+Thank You,
+Lead Developer
+Aljon Ramos

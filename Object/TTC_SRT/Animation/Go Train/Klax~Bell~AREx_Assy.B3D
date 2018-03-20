@@ -1,0 +1,37 @@
+[MESHBUILDER]                      ;Mntg
+Cube         +0.067,+0.035,+0.067
+Translate    +0.000,+0.322,+0.000
+Color         250,250,250,255;Gra
+
+[MESHBUILDER]                      ;Body
+Cylinder  12,+0.102,+0.102,+0.144
+Translate    +0.000,+0.216,+0.000
+Color         250,250,250,255;Gra
+
+[MESHBUILDER]                      ;Cone
+Cylinder  12,+0.026,+0.102,+0.088
+Translate    +0.000,+0.100,+0.000
+Color         250,250,250,255;Gra
+[MESHBUILDER]
+Cube         +0.003,+0.028,+0.008
+Translate    +0.000,+0.028,+0.090
+Color         250,250,250,255;Gra
+[MESHBUILDER]
+Cube         +0.003,+0.028,+0.008
+Translate    +0.000,+0.028,+0.090
+Rotate               0,1,0,+090.0
+Color         250,250,250,255;Gra
+[MESHBUILDER]
+Cube         +0.003,+0.028,+0.008
+Translate    +0.000,+0.028,+0.090
+Rotate               0,1,0,+180.0
+Color         250,250,250,255;Gra
+[MESHBUILDER]
+Cube         +0.003,+0.028,+0.008
+Translate    +0.000,+0.028,+0.090
+Rotate               0,1,0,+270.0
+Color         250,250,250,255;Gra
+[MESHBUILDER]
+Cylinder  12,+0.026,+0.102,+0.056
+Translate    +0.000,+0.028,+0.000
+Color         250,250,250,255;Gra

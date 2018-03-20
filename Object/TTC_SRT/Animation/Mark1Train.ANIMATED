@@ -1,0 +1,25 @@
+;Mark1
+
+[Object]
+States = Mark1.csv
+Position = 0, 0, 515
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = distance[1] * 1.02
+
+[Object]
+States = Mark1b.csv
+Position = 0, 0, 502
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = distance[1] * 1.02
+
+[Object]
+States = Mark1.csv
+Position = 0, 0, 489
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = distance[1] * 1.02
+
+[Object]
+States = Mark1b.csv
+Position = 0, 0, 476
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = distance[1] * 1.02

@@ -1,0 +1,17 @@
+Cylinder,8,0.1,0.15,7.2
+translate,0,3.60,0
+Setcolor,48,48,48,
+
+CreateMeshbuilder,
+Cylinder,6,0.3,0.3,1
+Setcolor,22,22,22,
+
+CreateMeshbuilder,
+Cylinder,12,0.4,0.4,0.4
+Translate,0,6.9,0
+Setcolor,22,22,22,
+
+CreateMeshbuilder,
+Cylinder,12,0.35,0.35,0.35
+Translate,0,6.86,0
+Setcolor,255,255,255,

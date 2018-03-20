@@ -1,0 +1,64 @@
+;Wall
+
+
+
+
+;Pillars
+
+;Platform
+[Include]
+platformleft.csv
+position = 0,0,0
+[Include]
+platformleft.csv
+position = 0,0,25
+[Include]
+platformleft.csv
+position = 0,0,50
+[Include]
+platformleft.csv
+position = 0,0,75
+[Include]
+platformleft.csv
+position = 0,0,100
+[Include]
+platformleft.csv
+position = 0,0,125
+
+;Rail
+[Include]
+Track\v4 Track/LDEdit/Tr_Station3rl.csv
+position = -12, 0, 0
+[Include]
+Track\v4 Track/LDEdit/Tr_Station3rr.csv
+position = 0, 0, 0
+[Include]
+Track\v4 Track/LDEdit/Tr_Station3rl.csv
+position = -12, 0, 25
+[Include]
+Track\v4 Track/LDEdit/Tr_Station3rr.csv
+position = 0, 0, 25
+[Include]
+Track\v4 Track/LDEdit/Tr_Station3rl.csv
+position = -12, 0, 50
+[Include]
+Track\v4 Track/LDEdit/Tr_Station3rr.csv
+position = 0, 0, 50
+[Include]
+Track\v4 Track/LDEdit/Tr_Station3rl.csv
+position = -12, 0, 75
+[Include]
+Track\v4 Track/LDEdit/Tr_Station3rr.csv
+position = 0, 0, 75
+[Include]
+Track\v4 Track/LDEdit/Tr_Station3rl.csv
+position = -12, 0, 100
+[Include]
+Track\v4 Track/LDEdit/Tr_Station3rr.csv
+position = 0, 0, 100
+[Include]
+Track\v4 Track/LDEdit/Tr_Station3rl.csv
+position = -12, 0, 125
+[Include]
+Track\v4 Track/LDEdit/Tr_Station3rr.csv
+position = 0, 0, 125

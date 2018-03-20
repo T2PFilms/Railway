@@ -1,0 +1,127 @@
+CreateMeshBuilder,
+AddVertex,-2.5, 4.6, 0,
+AddVertex,-2.5, 4.6, 25.5,
+AddVertex,-2.5, -0.15, 25.5,
+AddVertex,-2.5, -0.15, 0,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+
+GenerateNormals,
+
+LoadTexture,Tun_middle.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder,
+AddVertex,-2.998, 4.6, 25.5,
+AddVertex,-2.998, 4.6, 0,
+AddVertex,-2.998, -0.15, 0,
+AddVertex,-2.998, -0.15, 25.5,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+
+GenerateNormals,
+
+LoadTexture,Tun_middle.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,255,
+
+CreateMeshBuilder,
+AddVertex,-2.35, 4.7, 0,
+AddVertex,-2.35, 4.7, 25.5,
+AddVertex,-2.5, 4.55, 25.5,
+AddVertex,-2.5, 4.55, 0,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+
+GenerateNormals,
+
+LoadTexture,Tun_light.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-3.0, -0.15, 0,
+AddVertex,-3.0, 4.55, 0,
+AddVertex,-3.15, 4.7, 0,
+AddVertex,-2.5, 4.7, 0,
+AddVertex,-2.5, 4.55, 0,
+AddVertex,-2.5, -0.15, 0,
+AddFace,0, 1, 2, 3, 4, 5,
+SetColor,44,44,44,
+
+;holes
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-3.0, 2.7, 4.625,
+AddVertex,-2.5, 2.7, 4.625,
+AddVertex,-2.5, -0.15, 4.625,
+AddVertex,-3.0, -0.15, 4.625,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+
+GenerateNormals,
+
+LoadTexture,Tun_mid_hole.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-3.0, 2.7, 10.875,
+AddVertex,-2.5, 2.7, 10.875,
+AddVertex,-2.5, -0.15, 10.875,
+AddVertex,-3.0, -0.15, 10.875,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+
+GenerateNormals,
+
+LoadTexture,Tun_mid_hole.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-3.0, 2.7, 17.125,
+AddVertex,-2.5, 2.7, 17.125,
+AddVertex,-2.5, -0.15, 17.125,
+AddVertex,-3.0, -0.15, 17.125,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+
+GenerateNormals,
+
+LoadTexture,Tun_mid_hole.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+
+CreateMeshBuilder,
+AddVertex,-3.0, 2.7, 23.375,
+AddVertex,-2.5, 2.7, 23.375,
+AddVertex,-2.5, -0.15, 23.375,
+AddVertex,-3.0, -0.15, 23.375,
+AddFace,0, 1, 2, 3,
+SetColor,255,255,255,
+
+GenerateNormals,
+
+LoadTexture,Tun_mid_hole.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,

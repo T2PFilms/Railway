@@ -1,0 +1,14 @@
+CreateMeshBuilder,
+AddVertex,-3,-0.9, 0,
+AddVertex,-3,4.9, 0,
+AddVertex,3,4.9, 0,
+AddVertex,3,-0.9,0,
+AddFace2,0,1,2,3,
+SetColor,10,10,10,
+
+loadtexture,tun_ent_s.bmp,
+settextureCoordinates,0, 0, 1
+settextureCoordinates,1, 0, 0
+settextureCoordinates,2, 1, 0
+settextureCoordinates,3, 1, 1
+setDecalTransparentColor,0,0,0

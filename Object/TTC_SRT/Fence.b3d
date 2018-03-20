@@ -1,0 +1,41 @@
+[MeshBuilder]
+Vertex -6.7,2.5,0
+Vertex -1.5,2.5,0
+Vertex -1.5,1.1,0
+Vertex -6.7,1.1,0
+Face2 0,1,2,3
+
+Load kennedyguard.png
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,1
+Coordinates 3,0,1
+Transparent 0,255,0
+
+[MeshBuilder]
+Vertex 4.1,2.5,0
+Vertex 1.5,2.5,0
+Vertex 1.5,1.1,0
+Vertex 4.1,1.1,0
+Face2 0,1,2,3
+
+Load kennedyguard.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,255,0
+
+[MeshBuilder]
+Vertex 4.11,2.5,0
+Vertex 4.11,2.5,50
+Vertex 4.11,1.1,50
+Vertex 4.11,1.1,0
+Face2 0,1,2,3
+
+Load kennedyguard.png
+Coordinates 0,0,0
+Coordinates 1,15,0
+Coordinates 2,15,1
+Coordinates 3,0,1
+Transparent 0,255,0

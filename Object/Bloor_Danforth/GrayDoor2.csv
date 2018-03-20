@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+Addvertex,4.98,1.2,1.6,
+Addvertex,4.98,3.75,1.6,
+Addvertex,4.98,3.75,0,
+Addvertex,4.98,1.2,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,GrayDoor2.png,GrayDoor2.png,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+SetTextureCoordinates,0,0,1,
+

@@ -1,0 +1,77 @@
+CreateMeshBuilder,
+
+Addvertex,-3,0,0,
+Addvertex,-3,6,0,
+Addvertex,-12,8,150,
+Addvertex,-12,0,150,
+Addface,0,1,2,3,
+
+;color 184,184,184
+
+GenerateNormals,
+
+
+LoadTexture,Concrete.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,4,0,
+SetTextureCoordinates,2,0,2,
+SetTextureCoordinates,3,4,2,
+
+
+;Fence
+;Left Side
+CreateMeshBuilder,
+AddVertex,-12, 10.5, 0,
+AddVertex,-12, 10.5,150,
+AddVertex,-12, 5, 0,
+AddVertex,-12, 5, 150,
+AddFace,0,1,3,2,
+
+GenerateNormals,
+
+LoadTexture,ChainFence.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,5,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,5,1,
+SetDecalTransparentColor,0,0,0,
+
+
+CreateMeshBuilder,
+
+AddVertex,-8, 10, 140,
+AddVertex,-1, 10, 140,
+AddVertex,-1, 0.0, 140,
+AddVertex,-8, 0.0, 140,
+
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,tree2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+Translate,-4,2,6
+
+
+CreateMeshBuilder,
+
+AddVertex,-8, 10, 140,
+AddVertex,-1, 10, 140,
+AddVertex,-1, 0.0, 140,
+AddVertex,-8, 0.0, 140,
+
+AddFace2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,tree2.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 1, 0,
+SetTextureCoordinates,2, 1, 1,
+SetTextureCoordinates,3, 0, 1,
+SetDecalTransparentColor,0,0,0,
+Translate,-4,-3,6

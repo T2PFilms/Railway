@@ -1,0 +1,66 @@
+
+
+CreateMeshBuilder,
+
+Addvertex,-3,0,25,
+Addvertex,-3,0,0,
+Addvertex,-10,0,0,
+Addvertex,-10,0,25,
+Addface,0,1,2,3,
+;color 184,184,184
+GenerateNormals,
+LoadTexture,Snowgrass2.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+
+Addvertex,-10,0,25,
+Addvertex,-10,0,0,
+Addvertex,-50,0,0,
+Addvertex,-50,0,25,
+Addface,0,1,2,3,
+;color 184,184,184
+GenerateNormals,
+LoadTexture,SNowgrass3.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+
+;Fence
+;Left Side
+CreateMeshBuilder,
+AddVertex,-50, 5.5, 0,
+AddVertex,-50, 5.5, 25.5,
+AddVertex,-50, 0, 0,
+AddVertex,-50, 0, 25.5,
+AddFace,0,1,3,2,
+GenerateNormals,
+LoadTexture,ChainFence.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,5,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,5,1,
+SetDecalTransparentColor,0,0,0,
+Translateall,0,-0.25,0,
+
+;Fence
+;Left Side
+CreateMeshBuilder,
+AddVertex,-10, 5.5, 0,
+AddVertex,-10, 5.5, 25.5,
+AddVertex,-10, 0, 0,
+AddVertex,-10, 0, 25.5,
+AddFace,0,1,3,2,
+GenerateNormals,
+LoadTexture,ChainFence.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,5,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,5,1,
+SetDecalTransparentColor,0,0,0,
+Translateall,0,-0.25,0,

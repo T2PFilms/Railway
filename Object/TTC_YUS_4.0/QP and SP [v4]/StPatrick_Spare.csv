@@ -1,0 +1,1114 @@
+;Queen's Park (NB)
+;Cylinders Converted from .b3d to .csv by BVE Terminus' B3D to CSV Converter
+
+
+;Converted from .b3d to .csv by BVE Terminus' B3D to CSV Converter
+
+;Object created by OpenBVE Cylinder Generator 1.0
+;The output from this utility is public domain content
+CreateMeshBuilder
+AddVertex, 2.10,2.00,24.00,3.10,2.00,0.00
+AddVertex, 2.10,2.00,4.80,2.10,2.00,0.00
+AddVertex, 2.05,2.67,24.00,3.03,2.83,0.00
+AddVertex, 2.05,2.67,4.80,2.05,2.67,0.00
+AddVertex, 1.88,3.33,24.00,2.83,3.65,0.00
+AddVertex, 1.88,3.33,4.80,1.88,3.33,0.00
+AddVertex, 1.62,3.95,24.00,2.50,4.42,0.00
+AddVertex, 1.62,3.95,4.80,1.62,3.95,0.00
+AddVertex, 1.26,4.52,24.00,2.06,5.12,0.00
+AddVertex, 1.26,4.52,4.80,1.26,4.52,0.00
+AddVertex, 0.81,5.03,24.00,1.50,5.75,0.00
+AddVertex, 0.81,5.03,4.80,0.81,5.03,0.00
+AddVertex, 0.29,5.46,24.00,0.85,6.28,0.00
+AddVertex, 0.29,5.46,4.80,0.29,5.46,0.00
+AddVertex, -0.30,5.79,24.00,0.13,6.70,0.00
+AddVertex, -0.30,5.79,4.80,-0.30,5.79,0.00
+AddVertex, -0.93,6.03,24.00,-0.65,6.99,0.00
+AddVertex, -0.93,6.03,4.80,-0.93,6.03,0.00
+AddVertex, -1.59,6.17,24.00,-1.47,7.16,0.00
+AddVertex, -1.59,6.17,4.80,-1.59,6.17,0.00
+AddVertex, -2.27,6.20,24.00,-2.31,7.20,0.00
+AddVertex, -2.27,6.20,4.80,-2.27,6.20,0.00
+AddVertex, -2.94,6.12,24.00,-3.14,7.09,0.00
+AddVertex, -2.94,6.12,4.80,-2.94,6.12,0.00
+AddVertex, -3.59,5.93,24.00,-3.94,6.86,0.00
+AddVertex, -3.59,5.93,4.80,-3.59,5.93,0.00
+AddVertex, -4.20,5.64,24.00,-4.70,6.50,0.00
+AddVertex, -4.20,5.64,4.80,-4.20,5.64,0.00
+AddVertex, -4.76,5.15,24.00,-5.39,6.03,0.00
+AddVertex, -4.76,5.15,4.80,-4.76,5.15,0.00
+AddVertex, -5.24,4.79,24.00,-5.99,5.45,0.00
+AddVertex, -5.24,4.79,4.80,-5.24,4.79,0.00
+AddVertex, -5.65,4.24,24.00,-6.49,4.78,0.00
+AddVertex, -5.65,4.24,4.80,-5.65,4.24,0.00
+AddVertex, -5.96,3.65,24.00,-6.88,4.04,0.00
+AddVertex, -5.96,3.65,4.80,-5.96,3.65,0.00
+AddVertex, -6.18,3.01,24.00,-7.15,3.24,0.00
+AddVertex, -6.18,3.01,4.80,-6.18,3.01,0.00
+AddVertex, -6.29,2.34,24.00,-7.28,2.42,0.00
+AddVertex, -6.29,2.34,4.80,-6.29,2.34,0.00
+AddVertex, -6.29,1.66,24.00,-7.28,1.58,0.00
+AddVertex, -6.29,1.66,4.80,-6.29,1.66,0.00
+AddVertex, -6.18,0.99,24.00,-7.15,0.76,0.00
+AddVertex, -6.18,0.99,4.80,-6.18,0.99,0.00
+AddVertex, -5.96,0.35,24.00,-6.88,-0.04,0.00
+AddVertex, -5.96,0.35,4.80,-5.96,0.35,0.00
+AddVertex, -5.65,-0.24,24.00,-6.49,-0.78,0.00
+AddVertex, -5.65,-0.24,4.80,-5.65,-0.24,0.00
+AddVertex, -5.24,-0.79,24.00,-5.99,-1.45,0.00
+AddVertex, -5.24,-0.79,4.80,-5.24,-0.79,0.00
+AddVertex, -4.76,-1.15,24.00,-5.39,-2.03,0.00
+AddVertex, -4.76,-1.15,4.80,-4.76,-1.15,0.00
+AddVertex, -4.20,-1.64,24.00,-4.70,-2.50,0.00
+AddVertex, -4.20,-1.64,4.80,-4.20,-1.64,0.00
+AddVertex, -3.59,-1.93,24.00,-3.94,-2.86,0.00
+AddVertex, -3.59,-1.93,4.80,-3.59,-1.93,0.00
+AddVertex, -2.94,-2.12,24.00,-3.14,-3.09,0.00
+AddVertex, -2.94,-2.12,4.80,-2.94,-2.12,0.00
+AddVertex, -2.27,-2.20,24.00,-2.31,-3.20,0.00
+AddVertex, -2.27,-2.20,4.80,-2.27,-2.20,0.00
+AddVertex, -1.59,-2.17,24.00,-1.47,-3.16,0.00
+AddVertex, -1.59,-2.17,4.80,-1.59,-2.17,0.00
+AddVertex, -0.93,-2.03,24.00,-0.65,-2.99,0.00
+AddVertex, -0.93,-2.03,4.80,-0.93,-2.03,0.00
+AddVertex, -0.30,-1.79,24.00,0.13,-2.70,0.00
+AddVertex, -0.30,-1.79,4.80,-0.30,-1.79,0.00
+AddVertex, 0.29,-1.46,24.00,0.85,-2.28,0.00
+AddVertex, 0.29,-1.46,4.80,0.29,-1.46,0.00
+AddVertex, 0.81,-1.03,24.00,1.50,-1.75,0.00
+AddVertex, 0.81,-1.03,4.80,0.81,-1.03,0.00
+AddVertex, 1.26,-0.52,24.00,2.06,-1.12,0.00
+AddVertex, 1.26,-0.52,4.80,1.26,-0.52,0.00
+AddVertex, 1.62,0.05,24.00,2.50,-0.42,0.00
+AddVertex, 1.62,0.05,4.80,1.62,0.05,0.00
+AddVertex, 1.88,0.67,24.00,2.83,0.35,0.00
+AddVertex, 1.88,0.67,4.80,1.88,0.67,0.00
+AddVertex, 2.05,1.33,24.00,3.03,1.17,0.00
+AddVertex, 2.05,1.33,4.80,2.05,1.33,0.00
+AddVertex, 2.10,2.00,24.00,3.10,2.00,0.00
+AddVertex, 2.10,2.00,4.80,2.10,2.00,0.00
+AddFace, 2,3,1,0
+AddFace, 4,5,3,2
+AddFace, 6,7,5,4
+AddFace, 8,9,7,6
+AddFace, 10,11,9,8
+AddFace, 12,13,11,10
+AddFace, 14,15,13,12
+AddFace, 16,17,15,14
+AddFace, 18,19,17,16
+AddFace, 20,21,19,18
+AddFace, 22,23,21,20
+AddFace, 24,15,23,22
+AddFace, 26,27,15,24
+AddFace, 28,29,27,26
+AddFace, 30,31,29,28
+AddFace, 32,33,31,30
+AddFace, 34,35,33,32
+AddFace, 36,37,35,34
+AddFace, 38,39,37,36
+AddFace, 40,41,39,38
+AddFace, 42,43,41,40
+AddFace, 44,45,43,42
+AddFace, 46,47,45,44
+AddFace, 48,49,47,46
+AddFace, 50,51,49,48
+AddFace, 52,53,51,50
+AddFace, 54,55,53,52
+AddFace, 56,57,55,54
+AddFace, 58,59,57,56
+AddFace, 60,61,59,58
+AddFace, 62,63,61,60
+AddFace, 64,65,63,62
+AddFace, 66,67,65,64
+AddFace, 68,69,67,66
+AddFace, 70,71,69,68
+AddFace, 72,73,71,70
+AddFace, 74,75,73,72
+AddFace, 76,77,75,74
+AddFace, 78,79,77,76
+
+GenerateNormals
+LoadTexture, queenspark_lineSP.png
+SetTextureCoordinates, 0,0.00,0
+SetTextureCoordinates, 1,0.00,3
+SetTextureCoordinates, 2,0.03,0
+SetTextureCoordinates, 3,0.03,3
+SetTextureCoordinates, 4,0.05,0
+SetTextureCoordinates, 5,0.05,3
+SetTextureCoordinates, 6,0.08,0
+SetTextureCoordinates, 7,0.08,3
+SetTextureCoordinates, 8,0.10,0
+SetTextureCoordinates, 9,0.10,3
+SetTextureCoordinates, 10,0.13,0
+SetTextureCoordinates, 11,0.13,3
+SetTextureCoordinates, 12,0.15,0
+SetTextureCoordinates, 13,0.15,3
+SetTextureCoordinates, 14,0.18,0
+SetTextureCoordinates, 15,0.18,3
+SetTextureCoordinates, 16,0.21,0
+SetTextureCoordinates, 17,0.21,3
+SetTextureCoordinates, 18,0.23,0
+SetTextureCoordinates, 19,0.23,3
+SetTextureCoordinates, 20,0.26,0
+SetTextureCoordinates, 21,0.26,3
+SetTextureCoordinates, 22,0.28,0
+SetTextureCoordinates, 23,0.28,3
+SetTextureCoordinates, 24,0.31,0
+SetTextureCoordinates, 15,0.31,3
+SetTextureCoordinates, 26,0.33,0
+SetTextureCoordinates, 27,0.33,3
+SetTextureCoordinates, 28,0.36,0
+SetTextureCoordinates, 29,0.36,3
+SetTextureCoordinates, 30,0.38,0
+SetTextureCoordinates, 31,0.38,3
+SetTextureCoordinates, 32,0.41,0
+SetTextureCoordinates, 33,0.41,3
+SetTextureCoordinates, 34,0.44,0
+SetTextureCoordinates, 35,0.44,3
+SetTextureCoordinates, 36,0.46,0
+SetTextureCoordinates, 37,0.46,3
+SetTextureCoordinates, 38,0.49,0
+SetTextureCoordinates, 39,0.49,3
+SetTextureCoordinates, 40,0.51,0
+SetTextureCoordinates, 41,0.51,3
+SetTextureCoordinates, 42,0.54,0
+SetTextureCoordinates, 43,0.54,3
+SetTextureCoordinates, 44,0.56,0
+SetTextureCoordinates, 45,0.56,3
+SetTextureCoordinates, 46,0.59,0
+SetTextureCoordinates, 47,0.59,3
+SetTextureCoordinates, 48,0.62,0
+SetTextureCoordinates, 49,0.62,3
+SetTextureCoordinates, 50,0.64,0
+SetTextureCoordinates, 51,0.64,3
+SetTextureCoordinates, 52,0.67,0
+SetTextureCoordinates, 53,0.67,3
+SetTextureCoordinates, 54,0.69,0
+SetTextureCoordinates, 55,0.69,3
+SetTextureCoordinates, 56,0.72,0
+SetTextureCoordinates, 57,0.72,3
+SetTextureCoordinates, 58,0.74,0
+SetTextureCoordinates, 59,0.74,3
+SetTextureCoordinates, 60,0.77,0
+SetTextureCoordinates, 61,0.77,3
+SetTextureCoordinates, 62,0.79,0
+SetTextureCoordinates, 63,0.79,3
+SetTextureCoordinates, 64,0.82,0
+SetTextureCoordinates, 65,0.82,3
+SetTextureCoordinates, 66,0.85,0
+SetTextureCoordinates, 67,0.85,3
+SetTextureCoordinates, 68,0.87,0
+SetTextureCoordinates, 69,0.87,3
+SetTextureCoordinates, 70,0.90,0
+SetTextureCoordinates, 71,0.90,3
+SetTextureCoordinates, 72,0.92,0
+SetTextureCoordinates, 73,0.92,3
+SetTextureCoordinates, 74,0.95,0
+SetTextureCoordinates, 75,0.95,3
+SetTextureCoordinates, 76,0.97,0
+SetTextureCoordinates, 77,0.97,3
+SetTextureCoordinates, 78,1.00,0
+SetTextureCoordinates, 79,1.00,3
+;=====================
+;QP LINE EXIT SMALL
+;Object created by OpenBVE Cylinder Generator 1.0
+;The output from this utility is public domain content
+CreateMeshBuilder
+AddVertex, 2.10,2.00,4.80,3.10,2.00,0.00
+AddVertex, 2.10,2.00,0.00,2.10,2.00,0.00
+AddVertex, 2.05,2.67,4.80,3.03,2.83,0.00
+AddVertex, 2.05,2.67,0.00,2.05,2.67,0.00
+AddVertex, 1.88,3.33,4.80,2.83,3.65,0.00
+AddVertex, 1.88,3.33,0.00,1.88,3.33,0.00
+AddVertex, 1.62,3.95,4.80,2.50,4.42,0.00
+AddVertex, 1.62,3.95,0.00,1.62,3.95,0.00
+AddVertex, 1.26,4.52,4.80,2.06,5.12,0.00
+AddVertex, 1.26,4.52,0.00,1.26,4.52,0.00
+AddVertex, 0.81,5.03,4.80,1.50,5.75,0.00
+AddVertex, 0.81,5.03,0.00,0.81,5.03,0.00
+AddVertex, 0.29,5.46,4.80,0.85,6.28,0.00
+AddVertex, 0.29,5.46,0.00,0.29,5.46,0.00
+AddVertex, -0.30,5.79,4.80,0.13,6.70,0.00
+AddVertex, -0.30,5.79,0.00,-0.30,5.79,0.00
+AddVertex, -0.93,6.03,4.80,-0.65,6.99,0.00
+AddVertex, -0.93,6.03,0.00,-0.93,6.03,0.00
+AddVertex, -1.59,6.17,4.80,-1.47,7.16,0.00
+AddVertex, -1.59,6.17,0.00,-1.59,6.17,0.00
+AddVertex, -2.27,6.20,4.80,-2.31,7.20,0.00
+AddVertex, -2.27,6.20,0.00,-2.27,6.20,0.00
+AddVertex, -2.94,6.12,4.80,-3.14,7.09,0.00
+AddVertex, -2.94,6.12,0.00,-2.94,6.12,0.00
+AddVertex, -3.59,5.93,4.80,-3.94,6.86,0.00
+AddVertex, -3.59,5.93,0.00,-3.59,5.93,0.00
+AddVertex, -4.20,5.64,4.80,-4.70,6.50,0.00
+AddVertex, -4.20,5.64,0.00,-4.20,5.64,0.00
+AddVertex, -4.76,5.25,4.80,-5.39,6.03,0.00
+AddVertex, -4.76,5.25,0.00,-4.76,5.25,0.00
+AddVertex, -5.24,4.79,4.80,-5.99,5.45,0.00
+AddVertex, -5.24,4.79,0.00,-5.24,4.79,0.00
+AddVertex, -5.65,4.24,4.80,-6.49,4.78,0.00
+AddVertex, -5.65,4.24,0.00,-5.65,4.24,0.00
+AddVertex, -5.96,3.65,4.80,-6.88,4.04,0.00
+AddVertex, -5.96,3.65,0.00,-5.96,3.65,0.00
+AddVertex, -6.18,3.01,4.80,-7.15,3.24,0.00
+AddVertex, -6.18,3.01,0.00,-6.18,3.01,0.00
+AddVertex, -6.29,2.34,4.80,-7.28,2.42,0.00
+AddVertex, -6.29,2.34,0.00,-6.29,2.34,0.00
+AddVertex, -6.29,1.66,4.80,-7.28,1.58,0.00
+AddVertex, -6.29,1.66,0.00,-6.29,1.66,0.00
+AddVertex, -6.18,0.99,4.80,-7.15,0.76,0.00
+AddVertex, -6.18,0.99,0.00,-6.18,0.99,0.00
+AddVertex, -5.96,0.35,4.80,-6.88,-0.04,0.00
+AddVertex, -5.96,0.35,0.00,-5.96,0.35,0.00
+AddVertex, -5.65,-0.24,4.80,-6.49,-0.78,0.00
+AddVertex, -5.65,-0.24,0.00,-5.65,-0.24,0.00
+AddVertex, -5.24,-0.79,4.80,-5.99,-1.45,0.00
+AddVertex, -5.24,-0.79,0.00,-5.24,-0.79,0.00
+AddVertex, -4.76,-1.25,4.80,-5.39,-2.03,0.00
+AddVertex, -4.76,-1.25,0.00,-4.76,-1.25,0.00
+AddVertex, -4.20,-1.64,4.80,-4.70,-2.50,0.00
+AddVertex, -4.20,-1.64,0.00,-4.20,-1.64,0.00
+AddVertex, -3.59,-1.93,4.80,-3.94,-2.86,0.00
+AddVertex, -3.59,-1.93,0.00,-3.59,-1.93,0.00
+AddVertex, -2.94,-2.12,4.80,-3.14,-3.09,0.00
+AddVertex, -2.94,-2.12,0.00,-2.94,-2.12,0.00
+AddVertex, -2.27,-2.20,4.80,-2.31,-3.20,0.00
+AddVertex, -2.27,-2.20,0.00,-2.27,-2.20,0.00
+AddVertex, -1.59,-2.17,4.80,-1.47,-3.16,0.00
+AddVertex, -1.59,-2.17,0.00,-1.59,-2.17,0.00
+AddVertex, -0.93,-2.03,4.80,-0.65,-2.99,0.00
+AddVertex, -0.93,-2.03,0.00,-0.93,-2.03,0.00
+AddVertex, -0.30,-1.79,4.80,0.13,-2.70,0.00
+AddVertex, -0.30,-1.79,0.00,-0.30,-1.79,0.00
+AddVertex, 0.29,-1.46,4.80,0.85,-2.28,0.00
+AddVertex, 0.29,-1.46,0.00,0.29,-1.46,0.00
+AddVertex, 0.81,-1.03,4.80,1.50,-1.75,0.00
+AddVertex, 0.81,-1.03,0.00,0.81,-1.03,0.00
+AddVertex, 1.26,-0.52,4.80,2.06,-1.12,0.00
+AddVertex, 1.26,-0.52,0.00,1.26,-0.52,0.00
+AddVertex, 1.62,0.05,4.80,2.50,-0.42,0.00
+AddVertex, 1.62,0.05,0.00,1.62,0.05,0.00
+AddVertex, 1.88,0.67,4.80,2.83,0.35,0.00
+AddVertex, 1.88,0.67,0.00,1.88,0.67,0.00
+AddVertex, 2.05,1.33,4.80,3.03,1.17,0.00
+AddVertex, 2.05,1.33,0.00,2.05,1.33,0.00
+AddVertex, 2.10,2.00,4.80,3.10,2.00,0.00
+AddVertex, 2.10,2.00,0.00,2.10,2.00,0.00
+AddFace, 2,3,1,0
+AddFace, 4,5,3,2
+AddFace, 6,7,5,4
+AddFace, 8,9,7,6
+AddFace, 10,11,9,8
+AddFace, 12,13,11,10
+AddFace, 14,15,13,12
+AddFace, 16,17,15,14
+AddFace, 18,19,17,16
+AddFace, 20,21,19,18
+AddFace, 22,23,21,20
+AddFace, 24,25,23,22
+AddFace, 26,27,25,24
+AddFace, 28,29,27,26
+AddFace, 30,31,29,28
+AddFace, 32,33,31,30
+AddFace, 34,35,33,32
+AddFace, 36,37,35,34
+AddFace, 38,39,37,36
+AddFace, 40,41,39,38
+AddFace, 42,43,41,40
+AddFace, 44,45,43,42
+AddFace, 46,47,45,44
+AddFace, 48,49,47,46
+AddFace, 50,51,49,48
+AddFace, 52,53,51,50
+AddFace, 54,55,53,52
+AddFace, 56,57,55,54
+AddFace, 58,59,57,56
+AddFace, 60,61,59,58
+AddFace, 62,63,61,60
+AddFace, 64,65,63,62
+AddFace, 66,67,65,64
+AddFace, 68,69,67,66
+AddFace, 70,71,69,68
+AddFace, 72,73,71,70
+AddFace, 74,75,73,72
+AddFace, 76,77,75,74
+AddFace, 78,79,77,76
+
+GenerateNormals
+LoadTexture, queenspark_line_exitSP.png
+SetTextureCoordinates, 0,0.00,0
+SetTextureCoordinates, 1,0.00,1
+SetTextureCoordinates, 2,0.03,0
+SetTextureCoordinates, 3,0.03,1
+SetTextureCoordinates, 4,0.05,0
+SetTextureCoordinates, 5,0.05,1
+SetTextureCoordinates, 6,0.08,0
+SetTextureCoordinates, 7,0.08,1
+SetTextureCoordinates, 8,0.10,0
+SetTextureCoordinates, 9,0.10,1
+SetTextureCoordinates, 10,0.13,0
+SetTextureCoordinates, 11,0.13,1
+SetTextureCoordinates, 12,0.15,0
+SetTextureCoordinates, 13,0.15,1
+SetTextureCoordinates, 14,0.18,0
+SetTextureCoordinates, 15,0.18,1
+SetTextureCoordinates, 16,0.21,0
+SetTextureCoordinates, 17,0.21,1
+SetTextureCoordinates, 18,0.23,0
+SetTextureCoordinates, 19,0.23,1
+SetTextureCoordinates, 20,0.26,0
+SetTextureCoordinates, 21,0.26,1
+SetTextureCoordinates, 22,0.28,0
+SetTextureCoordinates, 23,0.28,1
+SetTextureCoordinates, 24,0.31,0
+SetTextureCoordinates, 25,0.31,1
+SetTextureCoordinates, 26,0.33,0
+SetTextureCoordinates, 27,0.33,1
+SetTextureCoordinates, 28,0.36,0
+SetTextureCoordinates, 29,0.36,1
+SetTextureCoordinates, 30,0.38,0
+SetTextureCoordinates, 31,0.38,1
+SetTextureCoordinates, 32,0.41,0
+SetTextureCoordinates, 33,0.41,1
+SetTextureCoordinates, 34,0.44,0
+SetTextureCoordinates, 35,0.44,1
+SetTextureCoordinates, 36,0.46,0
+SetTextureCoordinates, 37,0.46,1
+SetTextureCoordinates, 38,0.49,0
+SetTextureCoordinates, 39,0.49,1
+SetTextureCoordinates, 40,0.51,0
+SetTextureCoordinates, 41,0.51,1
+SetTextureCoordinates, 42,0.54,0
+SetTextureCoordinates, 43,0.54,1
+SetTextureCoordinates, 44,0.56,0
+SetTextureCoordinates, 45,0.56,1
+SetTextureCoordinates, 46,0.59,0
+SetTextureCoordinates, 47,0.59,1
+SetTextureCoordinates, 48,0.62,0
+SetTextureCoordinates, 49,0.62,1
+SetTextureCoordinates, 50,0.64,0
+SetTextureCoordinates, 51,0.64,1
+SetTextureCoordinates, 52,0.67,0
+SetTextureCoordinates, 53,0.67,1
+SetTextureCoordinates, 54,0.69,0
+SetTextureCoordinates, 55,0.69,1
+SetTextureCoordinates, 56,0.72,0
+SetTextureCoordinates, 57,0.72,1
+SetTextureCoordinates, 58,0.74,0
+SetTextureCoordinates, 59,0.74,1
+SetTextureCoordinates, 60,0.77,0
+SetTextureCoordinates, 61,0.77,1
+SetTextureCoordinates, 62,0.79,0
+SetTextureCoordinates, 63,0.79,1
+SetTextureCoordinates, 64,0.82,0
+SetTextureCoordinates, 65,0.82,1
+SetTextureCoordinates, 66,0.85,0
+SetTextureCoordinates, 67,0.85,1
+SetTextureCoordinates, 68,0.87,0
+SetTextureCoordinates, 69,0.87,1
+SetTextureCoordinates, 70,0.90,0
+SetTextureCoordinates, 71,0.90,1
+SetTextureCoordinates, 72,0.92,0
+SetTextureCoordinates, 73,0.92,1
+SetTextureCoordinates, 74,0.95,0
+SetTextureCoordinates, 75,0.95,1
+SetTextureCoordinates, 76,0.97,0
+SetTextureCoordinates, 77,0.97,1
+SetTextureCoordinates, 78,1.00,0
+SetTextureCoordinates, 79,1.00,1
+SetDecalTransparentcolor, 49, 56, 62,
+
+
+
+
+;==========================================
+;Square Roof Side [Left]
+CreateMeshBuilder
+AddVertex, -5.1,4.4,0
+AddVertex, -5.1,4.4,24
+AddVertex, -5.1,5.33,24
+AddVertex, -5.1,5.33,0
+AddFace2, 3,2,1,0
+GenerateNormals
+setcolor, 40, 40, 40,
+
+;Square Roof 
+CreateMeshBuilder
+AddVertex, 0.9,4.4,0
+AddVertex, 0.9,4.4,24
+AddVertex, -5.1,4.4,24
+AddVertex, -5.1,4.4,0
+AddFace2, 3,2,1,0
+GenerateNormals
+setcolor, 210, 210, 210,
+
+Loadtexture,Station Square Roof.png,
+settexturecoordinates,0,0,9,
+settexturecoordinates,1,0,0,
+settexturecoordinates,2,1,0,
+settexturecoordinates,3,1,9,
+
+;Square Roof Side [Right]
+CreateMeshBuilder
+AddVertex, 0.9,4.4,24
+AddVertex, 0.9,4.4,0
+AddVertex, 0.9,5.4,0
+AddVertex, 0.9,5.4,24
+AddFace2, 3,2,1,0
+GenerateNormals
+setcolor, 40, 40, 40,
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;----------------------------
+;Station Roof LIGHTING
+;Lighting Support Right Side
+CreateMeshBuilder
+AddVertex, -2.85,4.35,0
+AddVertex, -2.85,4.35,25
+AddVertex, -2.85,4.4,25
+AddVertex, -2.85,4.4,0
+AddFace2, 3,2,1,0
+GenerateNormals
+setcolor, 210, 210, 210,
+
+Loadtexture,Lights_pane.png
+settexturecoordinates,0,1,1,
+settexturecoordinates,1,0,1,
+settexturecoordinates,2,0,0,
+settexturecoordinates,3,1,0,
+Translate,-0.42,0,0
+
+;Lighting Support 2 
+CreateMeshBuilder
+AddVertex, -2.89,4.35,25
+AddVertex, -2.89,4.35,0
+AddVertex, -2.85,4.35,0
+AddVertex, -2.85,4.35,25
+AddFace2, 3,2,1,0
+GenerateNormals
+setcolor, 210, 210, 210,
+
+Loadtexture,Lights_1.png
+settexturecoordinates,0,19,1,
+settexturecoordinates,1,0,1,
+settexturecoordinates,2,0,0,
+settexturecoordinates,3,19,0,
+Translate,-0.42,0,0
+
+;----------------------------------
+
+;Lighting Support 2 OTHER SIDE
+CreateMeshBuilder
+AddVertex, -3.09,4.35,0
+AddVertex, -3.09,4.35,25
+AddVertex, -3.13,4.35,25
+AddVertex, -3.13,4.35,0
+AddFace2, 3,2,1,0
+GenerateNormals
+setcolor, 210, 210, 210,
+
+Loadtexture,Lights_1rev.png,Lights_1rev.png
+settexturecoordinates,0,19,1,
+settexturecoordinates,1,0,1,
+settexturecoordinates,2,0,0,
+settexturecoordinates,3,19,0,
+Translate,-0.42,0,0
+
+;Lighting Support OTHER SIDE
+CreateMeshBuilder
+AddVertex, -3.13,4.35,0
+AddVertex, -3.13,4.35,25
+AddVertex, -3.13,4.4,25
+AddVertex, -3.13,4.4,0
+AddFace2, 3,2,1,0
+GenerateNormals
+setcolor, 210, 210, 210,
+
+Loadtexture,Lights_pane.png,Lights_pane.png
+settexturecoordinates,0,1,1,
+settexturecoordinates,1,0,1,
+settexturecoordinates,2,0,0,
+settexturecoordinates,3,1,0,
+Translate,-0.42,0,0
+
+;======================================================================
+;LIGHTBULB CYLINDER
+;Converted from .b3d to .csv by BVE Terminus' B3D to CSV Converter
+
+;Object created by OpenBVE Cylinder Generator 1.0
+;The output from this utility is public domain content
+CreateMeshBuilder
+AddVertex, -2.89,4.35,25.00,-1.89,4.35,0.00
+AddVertex, -2.89,4.35,0.00,-2.89,4.35,0.00
+AddVertex, -2.90,4.38,25.00,-1.95,4.71,0.00
+AddVertex, -2.90,4.38,0.00,-2.90,4.38,0.00
+AddVertex, -2.91,4.41,25.00,-2.12,5.03,0.00
+AddVertex, -2.91,4.41,0.00,-2.91,4.41,0.00
+AddVertex, -2.94,4.43,25.00,-2.39,5.27,0.00
+AddVertex, -2.94,4.43,0.00,-2.94,4.43,0.00
+AddVertex, -2.97,4.45,25.00,-2.72,5.42,0.00
+AddVertex, -2.97,4.45,0.00,-2.97,4.45,0.00
+AddVertex, -3.00,4.45,25.00,-3.08,5.45,0.00
+AddVertex, -3.00,4.45,0.00,-3.00,4.45,0.00
+AddVertex, -3.03,4.44,25.00,-3.43,5.36,0.00
+AddVertex, -3.03,4.44,0.00,-3.03,4.44,0.00
+AddVertex, -3.06,4.42,25.00,-3.74,5.16,0.00
+AddVertex, -3.06,4.42,0.00,-3.06,4.42,0.00
+AddVertex, -3.08,4.40,25.00,-3.96,4.87,0.00
+AddVertex, -3.08,4.40,0.00,-3.08,4.40,0.00
+AddVertex, -3.09,4.37,25.00,-4.07,4.53,0.00
+AddVertex, -3.09,4.37,0.00,-3.09,4.37,0.00
+AddVertex, -3.09,4.33,25.00,-4.07,4.17,0.00
+AddVertex, -3.09,4.33,0.00,-3.09,4.33,0.00
+AddVertex, -3.08,4.30,25.00,-3.96,3.83,0.00
+AddVertex, -3.08,4.30,0.00,-3.08,4.30,0.00
+AddVertex, -3.06,4.28,25.00,-3.74,3.54,0.00
+AddVertex, -3.06,4.28,0.00,-3.06,4.28,0.00
+AddVertex, -3.03,4.26,25.00,-3.43,3.34,0.00
+AddVertex, -3.03,4.26,0.00,-3.03,4.26,0.00
+AddVertex, -3.00,4.25,25.00,-3.08,3.25,0.00
+AddVertex, -3.00,4.25,0.00,-3.00,4.25,0.00
+AddVertex, -2.97,4.25,25.00,-2.72,3.28,0.00
+AddVertex, -2.97,4.25,0.00,-2.97,4.25,0.00
+AddVertex, -2.94,4.27,25.00,-2.39,3.43,0.00
+AddVertex, -2.94,4.27,0.00,-2.94,4.27,0.00
+AddVertex, -2.91,4.29,25.00,-2.12,3.67,0.00
+AddVertex, -2.91,4.29,0.00,-2.91,4.29,0.00
+AddVertex, -2.90,4.32,25.00,-1.95,3.99,0.00
+AddVertex, -2.90,4.32,0.00,-2.90,4.32,0.00
+AddVertex, -2.89,4.35,25.00,-1.89,4.35,0.00
+AddVertex, -2.89,4.35,0.00,-2.89,4.35,0.00
+AddFace, 0,1,3,2
+AddFace, 2,3,5,4
+AddFace, 4,5,7,6
+AddFace, 6,7,9,8
+AddFace, 8,9,11,10
+AddFace, 10,11,13,12
+AddFace, 12,13,15,14
+AddFace, 14,15,17,16
+AddFace, 16,17,19,18
+AddFace, 18,19,21,20
+AddFace, 20,21,23,22
+AddFace, 22,23,25,24
+AddFace, 24,25,27,26
+AddFace, 26,27,29,28
+AddFace, 28,29,31,30
+AddFace, 30,31,33,32
+AddFace, 32,33,35,34
+AddFace, 34,35,37,36
+AddFace, 36,37,39,38
+
+GenerateNormals
+LoadTexture, lights_bulb.png
+SetTextureCoordinates, 0,0.00,0
+SetTextureCoordinates, 1,0.00,19
+SetTextureCoordinates, 2,0.05,0
+SetTextureCoordinates, 3,0.05,19
+SetTextureCoordinates, 4,0.11,0
+SetTextureCoordinates, 5,0.11,19
+SetTextureCoordinates, 6,0.16,0
+SetTextureCoordinates, 7,0.16,19
+SetTextureCoordinates, 8,0.21,0
+SetTextureCoordinates, 9,0.21,19
+SetTextureCoordinates, 10,0.26,0
+SetTextureCoordinates, 11,0.26,19
+SetTextureCoordinates, 12,0.32,0
+SetTextureCoordinates, 13,0.32,19
+SetTextureCoordinates, 14,0.37,0
+SetTextureCoordinates, 15,0.37,19
+SetTextureCoordinates, 16,0.42,0
+SetTextureCoordinates, 17,0.42,19
+SetTextureCoordinates, 18,0.47,0
+SetTextureCoordinates, 19,0.47,19
+SetTextureCoordinates, 20,0.53,0
+SetTextureCoordinates, 21,0.53,19
+SetTextureCoordinates, 22,0.58,0
+SetTextureCoordinates, 23,0.58,19
+SetTextureCoordinates, 24,0.63,0
+SetTextureCoordinates, 25,0.63,19
+SetTextureCoordinates, 26,0.68,0
+SetTextureCoordinates, 27,0.68,19
+SetTextureCoordinates, 28,0.74,0
+SetTextureCoordinates, 29,0.74,19
+SetTextureCoordinates, 30,0.79,0
+SetTextureCoordinates, 31,0.79,19
+SetTextureCoordinates, 32,0.84,0
+SetTextureCoordinates, 33,0.84,19
+SetTextureCoordinates, 34,0.89,0
+SetTextureCoordinates, 35,0.89,19
+SetTextureCoordinates, 36,0.95,0
+SetTextureCoordinates, 37,0.95,19
+SetTextureCoordinates, 38,1.00,0
+SetTextureCoordinates, 39,1.00,19
+Setcolor, 255, 255, 255
+Translate,-0.42,0,0
+
+;==============================================================
+;==============================================================
+;Half Cut Station wall Door areas
+;Top Half of the Inwards Pillar 1st FRONT END >20.89M<
+CreateMeshBuilder,
+AddVertex,-6.4, 3.775, 5.83,
+AddVertex,-6.28, 4.08, 5.83,
+AddVertex,-5.4, 4.08, 5.83,
+AddVertex,-5.5605, 3.775, 5.83,
+AddFace2,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+Loadtexture,Wall_side_out__topPart_2SP.png,
+settexturecoordinates,2,0,0,
+settexturecoordinates,3,1,0,
+settexturecoordinates,0,1,1,
+settexturecoordinates,1,0,1,
+
+;Second Top Half of the Inwards Pillar 1 FRONT END
+CreateMeshBuilder,
+AddVertex,-6.28, 4.08, 5.83,
+AddVertex,-6.24, 4.94, 5.83,
+AddVertex,-4.76, 4.94, 5.83,
+AddVertex,-5.4, 4.08, 5.83,
+AddFace2,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+Loadtexture,Wall_side_out__topPart_1SP.png,
+settexturecoordinates,2,0,0,
+settexturecoordinates,3,1,0,
+settexturecoordinates,0,1,1,
+settexturecoordinates,1,0,1,
+
+;Exit Freize Banner
+CreateMeshBuilder,
+AddVertex,-6.4, 3.659, 5.83,
+AddVertex,-6.28, 3.775, 5.83,
+AddVertex,-5.5605, 3.775, 5.83,
+AddVertex,-5.62, 3.659, 5.83,
+AddFace2,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+Loadtexture,stn_banner_color.png,
+settexturecoordinates,2,0,0,
+settexturecoordinates,3,1,0,
+settexturecoordinates,0,1,1,
+settexturecoordinates,1,0,1,
+
+;Second Top Half of the Inwards Pillar 1 FRONT END
+CreateMeshBuilder,
+AddVertex,-6.28, 4.08, 5.83,
+AddVertex,-6.24, 4.94, 5.83,
+AddVertex,-4.76, 4.94, 5.83,
+AddVertex,-5.4, 4.08, 5.83,
+AddFace2,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+Loadtexture,Wall_side_out__topPart_1SP.png,
+settexturecoordinates,2,0,0,
+settexturecoordinates,3,1,0,
+settexturecoordinates,0,1,1,
+settexturecoordinates,1,0,1,
+
+;====================
+
+
+;Sidewall Inwards Pillar 1 FRONT END	
+CreateMeshBuilder,
+AddVertex,-6.5, 1.3, 5.83,
+AddVertex,-6.28, 3.659, 5.83,
+AddVertex,-5.622, 3.659, 5.83,
+AddVertex,-5.786, 1.3, 5.83,
+AddFace2,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+Loadtexture,Wall_side_out_1SP.png,
+settexturecoordinates,0,0,1,
+settexturecoordinates,1,0,0,
+settexturecoordinates,2,1,0,
+settexturecoordinates,3,1,1,
+
+
+;-----------------
+;Pillar Wall Exit 1 (DWA) Section 
+;-----------------
+
+;Wall out 1st {End} pillar
+CreateMeshBuilder,
+AddVertex,-5.786, 1.3, 1.3,
+AddVertex,-5.622, 3.659, 1.3,
+AddVertex,-5.622, 3.659, 0,
+AddVertex,-5.786, 1.3, 0,
+AddFace2,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+Loadtexture,Wall_side_in_2SP.png,
+settexturecoordinates,0,0,1,
+settexturecoordinates,1,0,0,
+settexturecoordinates,2,1,0,
+settexturecoordinates,3,1,1,
+setemissivecolor, 50, 50, 50,
+
+
+;Pillar Wall Exit 2 (DWA) Section 
+
+
+;Wall out 1st {End} pillar
+CreateMeshBuilder,
+AddVertex,-5.786, 1.3, 5.83,
+AddVertex,-5.622, 3.659, 5.83,
+AddVertex,-5.622, 3.659, 4.80,
+AddVertex,-5.786, 1.3, 4.80,
+AddFace2,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+Loadtexture,Wall_side_in_2SP.png,
+settexturecoordinates,0,0,1,
+settexturecoordinates,1,0,0,
+settexturecoordinates,2,1,0,
+settexturecoordinates,3,1,1,
+setemissivecolor, 50, 50, 50,
+
+;--------------
+;Skirting
+;--------------
+
+;Skirting 1ST Pillar End 
+CreateMeshBuilder,
+AddVertex,-5.799, 1.1, 0,
+AddVertex,-5.786, 1.3, 0,
+AddVertex,-5.786, 1.3, 1.3,
+AddVertex,-5.786, 1.1, 1.3,
+AddFace2,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+Loadtexture,Wall Skirting.png,
+settexturecoordinates,0,0,1,
+settexturecoordinates,1,0,0,
+settexturecoordinates,2,1,0,
+settexturecoordinates,3,1,1,
+
+
+;Skirting 2ND Pillar End 
+CreateMeshBuilder,
+AddVertex,-5.799, 1.1, 4.80,
+AddVertex,-5.786, 1.3, 4.80,
+AddVertex,-5.786, 1.3, 5.83,
+AddVertex,-5.786, 1.1, 5.83,
+AddFace2,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+Loadtexture,Wall Skirting.png,
+settexturecoordinates,0,0,1,
+settexturecoordinates,1,0,0,
+settexturecoordinates,2,1,0,
+settexturecoordinates,3,1,1,
+
+;Skirting 2ND Pillar Z
+CreateMeshBuilder,
+AddVertex,-6.3, 1.1, 5.83,
+AddVertex,-6.3, 1.3, 5.83,
+AddVertex,-5.786, 1.3, 5.83,
+AddVertex,-5.786, 1.1, 5.83,
+AddFace2,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+Loadtexture,Wall Skirting.png,
+settexturecoordinates,0,0,1,
+settexturecoordinates,1,0,0,
+settexturecoordinates,2,1,0,
+settexturecoordinates,3,1,1,
+;----
+;Exits
+;-----
+
+;Sidewall Exit 1-2
+CreateMeshBuilder,
+AddVertex,-5.8, 1.1, 1.3,
+AddVertex,-5.622, 3.659, 1.3,
+AddVertex,-8.9, 3.659, 1.3,
+AddVertex,-8.98, 1.1, 1.3,
+AddFace,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+Loadtexture,Exit_Wall_1SP.png,
+settexturecoordinates,0,0,1,
+settexturecoordinates,1,0,0,
+settexturecoordinates,2,1,0,
+settexturecoordinates,3,1,1,
+setdecaltransparentcolor, 255, 255, 255,
+
+;Sidewall Exit 2-2
+;Front end
+CreateMeshBuilder,
+AddVertex,-8.98, 1.1, 4.8,
+AddVertex,-8.9, 3.659, 4.8,
+AddVertex,-5.622, 3.659, 4.8,
+AddVertex,-5.786, 1.1, 4.8,
+AddFace,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+Loadtexture,Exit_Wall_2SP.png,
+settexturecoordinates,0,0,1,
+settexturecoordinates,1,0,0,
+settexturecoordinates,2,1,0,
+settexturecoordinates,3,1,1,
+
+;------
+;Floors
+;------
+;Exit FloorPlan 1
+CreateMeshBuilder,
+AddVertex,-8.98, 1.1, 1.3,
+AddVertex,-8.98, 1.1, 4.8,
+AddVertex,-6.2, 1.1, 4.8,
+AddVertex,-6.2, 1.1, 1.3,
+AddFace2,0,1,2,3,
+SetColor,255,255,255,
+GenerateNormals,
+Loadtexture,Form_Exit_Surface.png,
+settexturecoordinates,0,0,2,
+settexturecoordinates,1,0,0,
+settexturecoordinates,2,1,0,
+settexturecoordinates,3,1,2,
+
+;-------
+;Roof
+;-----
+;Wall Under ExitRoof1 @ 25M
+CreateMeshBuilder,
+AddVertex,-8.98, 3.659, 4.8,
+AddVertex,-8.98, 3.659, 1.3,
+AddVertex,-5.622, 3.659, 1.3,
+AddVertex,-5.62, 3.659, 4.8,
+AddFace2,0,1,2,3,
+GenerateNormals,
+Loadtexture,Exit_TRoof_1.png,
+settexturecoordinates,2,0,0,
+settexturecoordinates,3,4,0,
+settexturecoordinates,0,4,2,
+settexturecoordinates,1,0,2,
+Setemissivecolor, 255, 255, 255
+
+
+;Illusion
+;illusion 3 @ 1.3-4.80M
+CreateMeshBuilder,
+AddVertex,-8.98, 1.1, 4.80,
+AddVertex,-8.98, 1.1, 1.3,
+AddVertex,-8.9, 3.659, 1.3,
+AddVertex,-8.9, 3.659, 4.80,
+AddFace2,0,1,2,3,
+GenerateNormals,
+Loadtexture,illusion2SP.png,
+settexturecoordinates,2,0,0,
+settexturecoordinates,3,1,0,
+settexturecoordinates,0,1,1,
+settexturecoordinates,1,0,1,
+Setemissivecolor, 255, 255, 255
+;==========================================================
+;EXIT TOP
+;---------
+;The output from this utility is public domain content
+CreateMeshBuilder
+AddVertex, 1.80,2.00,5.83,2.80,2.00,0.00
+AddVertex, 1.80,2.00,0.00,1.80,2.00,0.00
+AddVertex, 1.75,2.63,5.83,2.74,2.79,0.00
+AddVertex, 1.75,2.63,0.00,1.75,2.63,0.00
+AddVertex, 1.60,3.24,5.83,2.55,3.55,0.00
+AddVertex, 1.60,3.24,0.00,1.60,3.24,0.00
+AddVertex, 1.35,3.81,5.83,2.24,4.28,0.00
+AddVertex, 1.35,3.81,0.00,1.35,3.81,0.00
+AddVertex, 1.02,4.34,5.83,1.82,4.94,0.00
+AddVertex, 1.02,4.34,0.00,1.02,4.34,0.00
+AddVertex, 0.60,4.81,5.83,1.29,5.53,0.00
+AddVertex, 0.60,4.81,0.00,0.60,4.81,0.00
+AddVertex, 0.12,5.21,5.83,0.68,6.03,0.00
+AddVertex, 0.12,5.21,0.00,0.12,5.21,0.00
+AddVertex, -0.43,5.52,5.83,0.00,6.43,0.00
+AddVertex, -0.43,5.52,0.00,-0.43,5.52,0.00
+AddVertex, -1.01,5.75,5.83,-0.74,6.71,0.00
+AddVertex, -1.01,5.75,0.00,-1.01,5.75,0.00
+AddVertex, -1.63,5.87,5.83,-1.51,6.86,0.00
+AddVertex, -1.63,5.87,0.00,-1.63,5.87,0.00
+AddVertex, -2.26,5.90,5.83,-2.30,6.90,0.00
+AddVertex, -2.26,5.90,0.00,-2.26,5.90,0.00
+AddVertex, -2.88,5.82,5.83,-3.08,6.80,0.00
+AddVertex, -2.88,5.82,0.00,-2.88,5.82,0.00
+AddVertex, -3.48,5.65,5.83,-3.84,6.58,0.00
+AddVertex, -3.48,5.65,0.00,-3.48,5.65,0.00
+AddVertex, -4.05,5.38,5.83,-4.55,6.24,0.00
+AddVertex, -4.05,5.38,0.00,-4.05,5.38,0.00
+AddVertex, -4.57,5.02,5.83,-5.20,5.80,0.00
+AddVertex, -4.57,5.02,0.00,-4.57,5.02,0.00
+AddVertex, -5.02,4.59,5.83,-5.77,5.25,0.00
+AddVertex, -5.02,4.59,0.00,-5.02,4.59,0.00
+AddVertex, -5.40,4.08,5.83,-6.24,4.62,0.00
+AddVertex, -5.40,4.08,0.00,-5.40,4.08,0.00
+AddVertex, -5.69,3.53,5.83,-6.61,3.92,0.00
+AddVertex, -5.69,3.53,0.00,-5.69,3.53,0.00
+AddVertex, -5.89,2.93,5.83,-6.86,3.17,0.00
+AddVertex, -5.89,2.93,0.00,-5.89,2.93,0.00
+AddVertex, -5.99,2.31,5.83,-6.98,2.39,0.00
+AddVertex, -5.99,2.31,0.00,-5.99,2.31,0.00
+AddVertex, -5.99,1.69,5.83,-6.98,1.61,0.00
+AddVertex, -5.99,1.69,0.00,-5.99,1.69,0.00
+AddVertex, -5.89,1.07,5.83,-6.86,0.83,0.00
+AddVertex, -5.89,1.07,0.00,-5.89,1.07,0.00
+AddVertex, -5.69,0.47,5.83,-6.61,0.08,0.00
+AddVertex, -5.69,0.47,0.00,-5.69,0.47,0.00
+AddVertex, -5.40,-0.08,5.83,-6.24,-0.62,0.00
+AddVertex, -5.40,-0.08,0.00,-5.40,-0.08,0.00
+AddVertex, -5.02,-0.59,5.83,-5.77,-1.25,0.00
+AddVertex, -5.02,-0.59,0.00,-5.02,-0.59,0.00
+AddVertex, -4.57,-1.02,5.83,-5.20,-1.80,0.00
+AddVertex, -4.57,-1.02,0.00,-4.57,-1.02,0.00
+AddVertex, -4.05,-1.38,5.83,-4.55,-2.24,0.00
+AddVertex, -4.05,-1.38,0.00,-4.05,-1.38,0.00
+AddVertex, -3.48,-1.65,5.83,-3.84,-2.58,0.00
+AddVertex, -3.48,-1.65,0.00,-3.48,-1.65,0.00
+AddVertex, -2.88,-1.82,5.83,-3.08,-2.80,0.00
+AddVertex, -2.88,-1.82,0.00,-2.88,-1.82,0.00
+AddVertex, -2.26,-1.90,5.83,-2.30,-2.90,0.00
+AddVertex, -2.26,-1.90,0.00,-2.26,-1.90,0.00
+AddVertex, -1.63,-1.87,5.83,-1.51,-2.86,0.00
+AddVertex, -1.63,-1.87,0.00,-1.63,-1.87,0.00
+AddVertex, -1.01,-1.75,5.83,-0.74,-2.71,0.00
+AddVertex, -1.01,-1.75,0.00,-1.01,-1.75,0.00
+AddVertex, -0.43,-1.52,5.83,0.00,-2.43,0.00
+AddVertex, -0.43,-1.52,0.00,-0.43,-1.52,0.00
+AddVertex, 0.12,-1.21,5.83,0.68,-2.03,0.00
+AddVertex, 0.12,-1.21,0.00,0.12,-1.21,0.00
+AddVertex, 0.60,-0.81,5.83,1.29,-1.53,0.00
+AddVertex, 0.60,-0.81,0.00,0.60,-0.81,0.00
+AddVertex, 1.02,-0.34,5.83,1.82,-0.94,0.00
+AddVertex, 1.02,-0.34,0.00,1.02,-0.34,0.00
+AddVertex, 1.35,0.19,5.83,2.24,-0.28,0.00
+AddVertex, 1.35,0.19,0.00,1.35,0.19,0.00
+AddVertex, 1.60,0.76,5.83,2.55,0.45,0.00
+AddVertex, 1.60,0.76,0.00,1.60,0.76,0.00
+AddVertex, 1.75,1.37,5.83,2.74,1.21,0.00
+AddVertex, 1.75,1.37,0.00,1.75,1.37,0.00
+AddVertex, 1.80,2.00,5.83,2.80,2.00,0.00
+AddVertex, 1.80,2.00,0.00,1.80,2.00,0.00
+AddFace, 2,3,1,0
+AddFace, 4,5,3,2
+AddFace, 6,7,5,4
+AddFace, 8,9,7,6
+AddFace, 10,11,9,8
+AddFace, 12,13,11,10
+AddFace, 14,15,13,12
+AddFace, 16,17,15,14
+AddFace, 18,19,17,16
+AddFace, 20,21,19,18
+AddFace, 22,23,21,20
+AddFace, 24,25,23,22
+AddFace, 26,27,25,24
+AddFace, 28,29,27,26
+AddFace, 30,31,29,28
+AddFace, 32,33,31,30
+AddFace, 34,35,33,32
+AddFace, 36,37,35,34
+AddFace, 38,39,37,36
+AddFace, 40,41,39,38
+AddFace, 42,43,41,40
+AddFace, 44,45,43,42
+AddFace, 46,47,45,44
+AddFace, 48,49,47,46
+AddFace, 50,51,49,48
+AddFace, 52,53,51,50
+AddFace, 54,55,53,52
+AddFace, 56,57,55,54
+AddFace, 58,59,57,56
+AddFace, 60,61,59,58
+AddFace, 62,63,61,60
+AddFace, 64,65,63,62
+AddFace, 66,67,65,64
+AddFace, 68,69,67,66
+AddFace, 70,71,69,68
+AddFace, 72,73,71,70
+AddFace, 74,75,73,72
+AddFace, 76,77,75,74
+AddFace, 78,79,77,76
+
+GenerateNormals
+LoadTexture, queenspark_cutSP.png
+SetTextureCoordinates, 0,0.00,0
+SetTextureCoordinates, 1,0.00,1
+SetTextureCoordinates, 2,0.03,0
+SetTextureCoordinates, 3,0.03,1
+SetTextureCoordinates, 4,0.05,0
+SetTextureCoordinates, 5,0.05,1
+SetTextureCoordinates, 6,0.08,0
+SetTextureCoordinates, 7,0.08,1
+SetTextureCoordinates, 8,0.10,0
+SetTextureCoordinates, 9,0.10,1
+SetTextureCoordinates, 10,0.13,0
+SetTextureCoordinates, 11,0.13,1
+SetTextureCoordinates, 12,0.15,0
+SetTextureCoordinates, 13,0.15,1
+SetTextureCoordinates, 14,0.18,0
+SetTextureCoordinates, 15,0.18,1
+SetTextureCoordinates, 16,0.21,0
+SetTextureCoordinates, 17,0.21,1
+SetTextureCoordinates, 18,0.23,0
+SetTextureCoordinates, 19,0.23,1
+SetTextureCoordinates, 20,0.26,0
+SetTextureCoordinates, 21,0.26,1
+SetTextureCoordinates, 22,0.28,0
+SetTextureCoordinates, 23,0.28,1
+SetTextureCoordinates, 24,0.31,0
+SetTextureCoordinates, 25,0.31,1
+SetTextureCoordinates, 26,0.33,0
+SetTextureCoordinates, 27,0.33,1
+SetTextureCoordinates, 28,0.36,0
+SetTextureCoordinates, 29,0.36,1
+SetTextureCoordinates, 30,0.38,0
+SetTextureCoordinates, 31,0.38,1
+SetTextureCoordinates, 32,0.41,0
+SetTextureCoordinates, 33,0.41,1
+SetTextureCoordinates, 34,0.44,0
+SetTextureCoordinates, 35,0.44,1
+SetTextureCoordinates, 36,0.46,0
+SetTextureCoordinates, 37,0.46,1
+SetTextureCoordinates, 38,0.49,0
+SetTextureCoordinates, 39,0.49,1
+SetTextureCoordinates, 40,0.51,0
+SetTextureCoordinates, 41,0.51,1
+SetTextureCoordinates, 42,0.54,0
+SetTextureCoordinates, 43,0.54,1
+SetTextureCoordinates, 44,0.56,0
+SetTextureCoordinates, 45,0.56,1
+SetTextureCoordinates, 46,0.59,0
+SetTextureCoordinates, 47,0.59,1
+SetTextureCoordinates, 48,0.62,0
+SetTextureCoordinates, 49,0.62,1
+SetTextureCoordinates, 50,0.64,0
+SetTextureCoordinates, 51,0.64,1
+SetTextureCoordinates, 52,0.67,0
+SetTextureCoordinates, 53,0.67,1
+SetTextureCoordinates, 54,0.69,0
+SetTextureCoordinates, 55,0.69,1
+SetTextureCoordinates, 56,0.72,0
+SetTextureCoordinates, 57,0.72,1
+SetTextureCoordinates, 58,0.74,0
+SetTextureCoordinates, 59,0.74,1
+SetTextureCoordinates, 60,0.77,0
+SetTextureCoordinates, 61,0.77,1
+SetTextureCoordinates, 62,0.79,0
+SetTextureCoordinates, 63,0.79,1
+SetTextureCoordinates, 64,0.82,0
+SetTextureCoordinates, 65,0.82,1
+SetTextureCoordinates, 66,0.85,0
+SetTextureCoordinates, 67,0.85,1
+SetTextureCoordinates, 68,0.87,0
+SetTextureCoordinates, 69,0.87,1
+SetTextureCoordinates, 70,0.90,0
+SetTextureCoordinates, 71,0.90,1
+SetTextureCoordinates, 72,0.92,0
+SetTextureCoordinates, 73,0.92,1
+SetTextureCoordinates, 74,0.95,0
+SetTextureCoordinates, 75,0.95,1
+SetTextureCoordinates, 76,0.97,0
+SetTextureCoordinates, 77,0.97,1
+SetTextureCoordinates, 78,1.00,0
+SetTextureCoordinates, 79,1.00,1
+Setdecaltransparentcolor, 80, 90, 99,
+
+

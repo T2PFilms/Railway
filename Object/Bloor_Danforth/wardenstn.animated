@@ -1,0 +1,129 @@
+;Disable to prevent ObjectViewer lag
+[Include]
+wardentop.animated
+Position = 0,0,0
+
+
+;---------------
+;Street
+;---------------
+[Include]
+stclairavenueeast.csv
+Position = 0,0,-50
+
+;---------------
+;Powercut
+;---------------
+[Include]
+powercut.b3d
+Position = -6.05,0,0
+;-----------
+;Wall
+;-----------
+[Include]
+Wallwarden.csv
+Position = 0,0,0
+
+[Include]
+WallwardenEnd.b3d
+position = 0,0,0
+
+
+;Chain Fence
+[Include]
+yellowchainfence2.csv
+Position = 2,0.32,5
+
+[Include]
+yellowchainfence2.csv
+Position = 2,0.32,55
+
+[Include]
+yellowchainfence2.csv
+Position = 2,0.32,105
+
+[Include]
+yellowchainfence2.csv
+Position = -14,0.32,5
+
+[Include]
+yellowchainfence2.csv
+Position = -14,0.32,55
+
+[Include]
+yellowchainfence2.csv
+Position = -14,0.32,105
+
+
+
+;============================
+; Functuallities
+;============================
+;---------------
+; Platform
+;---------------
+[Include]
+platformleft.csv
+Position = 0,0,0
+[Include]
+platformleft.csv
+Position = 0,0,25
+[Include]
+platformleft.csv
+Position = 0,0,50
+[Include]
+platformleft.csv
+Position = 0,0,75
+[Include]
+platformleft.csv
+Position = 0,0,100
+[Include]
+platformleft.csv
+Position = 0,0,125
+
+;----------------
+;Lights
+;----------------
+[Include]
+wardenlights.animated
+Position = 0,0,0
+;---------------
+; Track
+;---------------
+
+[Include]
+Track\Tr_Station3RR.csv
+Position = 0, 0, 0
+[Include]
+Track\Tr_Station3RL.csv
+Position = -12, 0, 0
+[Include]
+Track\Tr_Station3RR.csv
+Position = 0, 0, 25
+[Include]
+Track\Tr_Station3RL.csv
+Position = -12, 0, 25
+[Include]
+Track\Tr_Station3RR.csv
+Position = 0, 0, 50
+[Include]
+Track\Tr_Station3RL.csv
+Position = -12, 0, 50
+[Include]
+Track\Tr_Station3RR.csv
+Position = 0, 0, 75
+[Include]
+Track\Tr_Station3RL.csv
+Position = -12, 0, 75
+[Include]
+Track\Tr_Station3RR.csv
+Position = 0, 0, 100
+[Include]
+Track\Tr_Station3RL.csv
+Position = -12, 0, 100
+[Include]
+Track\Tr_Station3RR.csv
+Position = 0, 0, 125
+[Include]
+Track\Tr_Station3RL.csv
+Position = -12, 0, 125

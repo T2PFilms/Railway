@@ -1,0 +1,140 @@
+;ceiling
+[MeshBuilder]
+Vertex        -1.9, 4, 25
+Vertex        -1.9, 4, -0.5
+Vertex         2.26, 4, -0.5
+Vertex         2.26, 4, 25
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_ceiling.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;wall
+[MeshBuilder]
+Vertex        -2, 3.9, -0.5
+Vertex        -2, 3.9, 25
+Vertex        -2, -0.15, 25
+Vertex        -2, -0.15, -0.5
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_outer.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;lights
+[MeshBuilder]
+Vertex        -1.85, 4, -0.5
+Vertex        -1.85, 4, 25
+Vertex        -2, 3.85, 25
+Vertex        -2, 3.85, -0.5
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_lights.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1
+
+;First light
+
+[MeshBuilder]
+Vertex        -1.89, 3.95, 5.6
+Vertex        -1.875, 3.9, 5.6
+Vertex        -1.88, 3.88, 5.6
+Vertex        -1.9, 3.875, 5.6
+Vertex        -1.95, 3.89, 5.6
+Vertex        -1.95, 3.89, 6.9
+Vertex        -1.9, 3.875, 6.9
+Vertex        -1.88, 3.88, 6.9
+Vertex        -1.875, 3.9, 6.9
+Vertex        -1.89, 3.95, 6.9
+Face 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+Color 255,255,255
+
+;Second light
+
+[MeshBuilder]
+Vertex        -1.89, 3.95, 18.1
+Vertex        -1.875, 3.9, 18.1
+Vertex        -1.88, 3.88, 18.1
+Vertex        -1.9, 3.875, 18.1
+Vertex        -1.95, 3.89, 18.1
+Vertex        -1.95, 3.89, 19.4
+Vertex        -1.9, 3.875, 19.4
+Vertex        -1.88, 3.88, 19.4
+Vertex        -1.875, 3.9, 19.4
+Vertex        -1.89, 3.95, 19.4
+Face 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+Color 255,255,255
+
+;Middle light
+
+[MeshBuilder]
+Vertex        -1.91, 3.94, 12.5
+Vertex        -1.94, 3.91, 12.5
+Vertex        -1.93, 3.86, 12.5
+Vertex        -1.91, 3.84, 12.5
+Vertex        -1.88, 3.835, 12.5
+Vertex        -1.85, 3.85, 12.5
+Vertex        -1.835, 3.88, 12.5
+Vertex        -1.84, 3.91, 12.5
+Vertex        -1.86, 3.93, 12.5
+Face 8, 7, 6, 5, 4, 3, 2, 1, 0
+Color 255,255,191
+
+;ledge
+[MeshBuilder]
+Vertex        -1.575, 0.3, 25.0
+Vertex        -1.575, 0.3, -0.5
+Vertex        -2, 0.3, -0.5
+Vertex        -2, 0.3, 25.0
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_ledge_top.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 2, 0
+Coordinates 2, 2, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex        -1.575, -0.15, 25.0
+Vertex        -1.575, -0.15, -0.5
+Vertex        -1.575, 0.3, -0.5
+Vertex        -1.575, 0.3, 25.0
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_dark.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 8, 0
+Coordinates 2, 8, 1
+Coordinates 3, 0, 1
+
+[MeshBuilder]
+Vertex        -2, 0.3, -0.5
+Vertex        -1.575, 0.3, -0.5
+Vertex        -1.575, -0.15, -0.5
+Vertex        -2, -0.15, -0.5
+Face 0, 1, 2, 3
+Color 255,255,255
+
+[Texture]
+Load Tun_dark.bmp
+Coordinates 0, 0, 0
+Coordinates 1, 1, 0
+Coordinates 2, 1, 1
+Coordinates 3, 0, 1

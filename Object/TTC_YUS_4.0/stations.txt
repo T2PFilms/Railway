@@ -1,0 +1,15 @@
+RW format:
+@Sta(Name,Time1, Time2, PassAlarm, Door, Stop, Device, Sound1, Halt, Jam,Sound2) * 
+A station is installed. 
+1 - Name: Name of the station 
+2 - Time1: It wears and is time (P: HH.MMSS and passage). 
+3 - Time2: From time (T: HH.MMSS and destination station) 
+4 - PassAlarm: incorrect -- passage prevention {0 : Nothing |1 : ?} 
+5 - Door: Door {-1 : Left opening |0 : Signal cabin |1 : right opening} 
+6 - Stop: Composition {1 of a course : Start stop | 0 : start advance} 
+7 - Device: Operation security equipment {0 : ATS | 1 : ATC} 
+8 - Sound1: Arrival broadcast file name 
+9 - Halt: The minimum stoppage time (s) Stoppage time indispensable of getting on and off etc.
+The way of shaking of vehicles and the timing of a departure melody are influenced. 
+10 - Jam : Rate of entrainment (0-250) 
+11 - Sound2: Departure melody file name (a destination station is omitted

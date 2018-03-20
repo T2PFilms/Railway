@@ -1,0 +1,13 @@
+CreateMeshBuilder,
+Addvertex,5,1.1,25,
+Addvertex,5,4,25,
+Addvertex,5,4,0,
+Addvertex,5,1.1,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,WallSherbourne.png,WallSherbourne.png,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,2,0,
+SetTextureCoordinates,3,2,1,
+SetTextureCoordinates,0,0,1,
+

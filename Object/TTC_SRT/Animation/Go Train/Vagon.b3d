@@ -1,0 +1,250 @@
+;EXTERIOR===================================================================
+
+;Lateral derecho------------------------------------------------------------
+
+[meshbuilder]
+vertex 1.42,  5.38, -12.5
+vertex 1.42,  5.38,  12.5
+vertex 1.42,  0.5,  -12.5
+vertex 1.42,  0.5,   12.5
+face 0,1,3,2
+face 2,3,5,4
+face 4,5,7,6
+[texture]
+load exterior derecho.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,0,1.0
+coordinates 3,1,1.0
+coordinates 4,0,0.094
+coordinates 5,1,0.094
+coordinates 6,0,1
+coordinates 7,1,1
+transparent 0,0,254
+
+[meshbuilder]
+vertex 1.4, 4,   -7.5
+vertex 1.4, 4,    7.5
+vertex 1.4, 0.6,  7.5
+vertex 1.4, 0.6, -7.5
+face 0,1,2,3
+color 50,50,50
+
+;Lateral Izquierdo----------------------------------------------------------
+
+[meshbuilder]
+vertex -1.42,  5.38,  12.5
+vertex -1.42,  5.38, -12.5
+vertex -1.42,  0.5,   12.5
+vertex -1.42,  0.5,  -12.5
+face 0,1,3,2
+face 2,3,5,4
+face 4,5,7,6
+[texture]
+load exterior izquierdo.PNG
+coordinates 0,0,0
+coordinates 1,1,0
+coordinates 2,0,1.0
+coordinates 3,1,1.0
+coordinates 4,0,0.094
+coordinates 5,1,0.094
+coordinates 6,0,1
+coordinates 7,1,1
+transparent 0,0,254
+
+[meshbuilder]
+vertex -1.4, 4,   -7.5
+vertex -1.4, 4,    7.5
+vertex -1.4, 0.6,  7.5
+vertex -1.4, 0.6, -7.5
+face 3,2,1,0
+color 50,50,50
+
+;TESTEROS===================================================================
+
+;Frontal--------------------------------------------------------------------
+
+[meshbuilder]
+vertex  1.42, 4.75, 12.5
+vertex  1.42, 1.1,  12.5
+vertex  0,    1.1,  12.65
+vertex  0,    4.75, 12.65
+face 3,2,1,0
+color 250,250,250
+
+[meshbuilder]
+vertex -1.42, 4.75, 12.5
+vertex -1.42, 1.1,  12.5
+vertex  0,    1.1,  12.65
+vertex  0,    4.75, 12.65
+face 0,1,2,3
+color 250,250,250
+
+[meshbuilder]
+Cylinder 4, 0.15, 0.15, 2.2
+Color   0,0,0
+Translate 0.64, 2.6, 12.7
+
+[meshbuilder]
+Cylinder 4, 0.15, 0.15, 2.2
+Color    0,0,0
+Translate -0.64, 2.6,12.7
+
+[meshbuilder]
+Cylinder 10, 0.15, 0.15, 1.45
+Rotate 0,0,1,90
+Color    0,0,0
+Translate 0, 3.7, 12.7
+
+[meshbuilder]
+Cylinder 10, 0.15, 0.15, 1.45
+Rotate 0,0,1,90
+Color    0,0,0
+Translate 0, 1.5, 12.7
+
+[meshbuilder]
+vertex  0.45, 1.1, 12.5
+vertex  0.45, 1.1, 12.8
+vertex -0.45, 1.1, 12.8
+vertex -0.45, 1.1, 12.5
+face2 0,1,2,3
+color 50,50,50
+
+;Trasero--------------------------------------------------------------------
+
+[meshbuilder]
+vertex  1.42, 4.75, -12.5
+vertex  1.42, 1.1,  -12.5
+vertex  0,    1.1,  -12.65
+vertex  0,    4.75, -12.65
+face 0,1,2,3
+color 250,250,250
+
+[meshbuilder]
+vertex -1.42, 4.75, -12.5
+vertex -1.42, 1.1,  -12.5
+vertex  0,    1.1,  -12.65
+vertex  0,    4.75, -12.65
+face 3,2,1,0
+color 250,250,250
+
+[meshbuilder]
+Cylinder 4, 0.15, 0.15, 2.2
+Color   0,0,0
+Translate 0.64, 2.6, -12.7
+
+[meshbuilder]
+Cylinder 4, 0.15, 0.15, 2.2
+Color    0,0,0
+Translate -0.64, 2.6,-12.7
+
+[meshbuilder]
+Cylinder 10, 0.15, 0.15, 1.45
+Rotate 0,0,1,90
+Color    0,0,0
+Translate 0, 3.7, -12.7
+
+[meshbuilder]
+Cylinder 10, 0.15, 0.15, 1.45
+Rotate 0,0,1,90
+Color    0,0,0
+Translate 0, 1.5, -12.7
+
+[meshbuilder]
+vertex  0.45, 1.1, -12.5
+vertex  0.45, 1.1, -12.8
+vertex -0.45, 1.1, -12.8
+vertex -0.45, 1.1, -12.5
+face2 0,1,2,3
+color 50,50,50
+
+;TECHO======================================================================
+
+[meshbuilder]
+vertex  1.42, 5.38,   7.5
+vertex  1.42, 5.38,  -7.5
+vertex -1.42, 5.38,  -7.5
+vertex -1.42, 5.38,   7.5
+face 0,1,2,3
+color 250,250,250
+
+[meshbuilder]
+vertex  1.42, 5.38,   7.5
+vertex -1.42, 5.38,   7.5
+vertex -1.42, 4.75,   11.8
+vertex  1.42, 4.75,   11.8
+face 0,1,2,3
+color 250,250,250
+
+[meshbuilder]
+vertex  1.42, 4.75,   11.8
+vertex -1.42, 4.75,   11.8
+vertex -1.42, 4.75,   12.5
+vertex  0,    4.75,   12.65
+vertex  1.42, 4.75,   12.5
+face 0,1,2,3,4
+color 250,250,250
+
+[meshbuilder]
+vertex  1.42, 5.38,  -7.5
+vertex -1.42, 5.38,  -7.5
+vertex -1.42, 4.75,  -11.8
+vertex  1.42, 4.75,  -11.8
+face 3,2,1,0
+color 250,250,250
+
+[meshbuilder]
+vertex  1.42, 4.75,  -11.8
+vertex -1.42, 4.75,  -11.8
+vertex -1.42, 4.75,  -12.5
+vertex  0,    4.75,  -12.65
+vertex  1.42, 4.75,  -12.5
+face 4,3,2,1,0
+color 250,250,250
+
+;PISO=======================================================================
+
+[meshbuilder]
+vertex  1.40, 1.1,  12.5
+vertex  1.40, 1.1, -12.5
+vertex -1.40, 1.1, -12.5
+vertex -1.40, 1.1,  12.5
+face 0,1,2,3
+
+[meshbuilder]
+vertex -1.40, 1.1,  12.5
+vertex -1.40, 1.1, -12.5
+vertex  1.40, 1.1, -12.5
+vertex  1.40, 1.1,  12.5
+face 0,1,2,3
+color 0,0,0
+
+[meshbuilder]
+cube 0.3, 0.27, 1
+translate 1.1, 0.7, 2.5
+color 20,20,20
+
+[meshbuilder]
+cube 0.3, 0.27, 1
+translate 1.1, 0.7, -2.5
+color 20,20,20
+
+[meshbuilder]
+cube 0.3, 0.2, 0.5
+translate 1.1, 0.9, 0
+color 20,20,20
+
+[meshbuilder]
+cube 0.3, 0.27, 1
+translate -1.1, 0.7, 2.5
+color 20,20,20
+
+[meshbuilder]
+cube 0.3, 0.27, 1
+translate -1.1, 0.7, -2.5
+color 20,20,20
+
+[meshbuilder]
+cube 0.3, 0.2, 0.5
+translate -1.1, 0.9, 0
+color 20,20,20

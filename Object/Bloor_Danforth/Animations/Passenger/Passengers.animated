@@ -1,0 +1,4 @@
+[Object]
+States = null.B3d,PassengerNo.csv,PassengerReady.csv,PassengerStation.csv
+StateFunction = if[distance<=20,if[rightDoors>=0.33,2,1],3]
+Position = 0,0,0

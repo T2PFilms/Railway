@@ -1,0 +1,1603 @@
+;=============
+;SHEPPARD-YONGE STATION
+;BY JOHN M. TRAINSTORONTO
+;=============
+
+;SIGN MAIN PLATFORM
+[MeshBuilder]
+vertex 2.6,5.25,0
+vertex 2.6,5.25,11
+vertex 2.3,4.25,11
+vertex 2.3,4.25,0
+Face 0,1,2,3
+Load SHEP_YUS\nycn.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+vertex 2.6,5.25,11
+vertex 2.6,5.25,22
+vertex 2.3,4.25,22
+vertex 2.3,4.25,11
+Face 0,1,2,3
+Load SHEP_YUS\Mapnyc.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+vertex 2.6,5.25,22
+vertex 2.6,5.25,33
+vertex 2.3,4.25,33
+vertex 2.3,4.25,22
+Face 0,1,2,3
+Load SHEP_YUS\nycn.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+vertex 2.6,5.25,33
+vertex 2.6,5.25,44
+vertex 2.3,4.25,44
+vertex 2.3,4.25,33
+Face 0,1,2,3
+Load SHEP_YUS\Mapnyc.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+
+[MeshBuilder]
+vertex 2.6,5.25,44
+vertex 2.6,5.25,55
+vertex 2.3,4.25,55
+vertex 2.3,4.25,44
+Face 0,1,2,3
+Load SHEP_YUS\nycn.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+vertex 2.6,5.25,55
+vertex 2.6,5.25,66
+vertex 2.3,4.25,66
+vertex 2.3,4.25,55
+Face 0,1,2,3
+Load SHEP_YUS\Mapnyc.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+vertex 2.6,5.25,66
+vertex 2.6,5.25,77
+vertex 2.3,4.25,77
+vertex 2.3,4.25,66
+Face 0,1,2,3
+Load SHEP_YUS\nycn.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+vertex 2.6,5.25,77
+vertex 2.6,5.25,88
+vertex 2.3,4.25,88
+vertex 2.3,4.25,77
+Face 0,1,2,3
+Load SHEP_YUS\Mapnyc.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBuilder]
+vertex 2.6,5.25,88
+vertex 2.6,5.25,99
+vertex 2.3,4.25,99
+vertex 2.3,4.25,88
+Face 0,1,2,3
+Load SHEP_YUS\nycn.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+
+[MeshBuilder]
+vertex 2.6,5.25,99
+vertex 2.6,5.25,110
+vertex 2.3,4.25,110
+vertex 2.3,4.25,99
+Face 0,1,2,3
+Load SHEP_YUS\Mapnyc.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+
+[MeshBuilder]
+vertex 2.35,5.25,0
+vertex 2.35,5.25,110
+vertex 2.2,4.25,110
+vertex 2.2,4.25,0
+Face 3,2,1,0
+Color 30,30,30
+
+
+[MeshBuilder]
+vertex -14.35,5.25,10
+vertex -14.35,5.25,119.9
+vertex -14.2,4.25,119.9
+vertex -14.2,4.25,10
+Face 0,1,2,3
+Color 30,30,30
+
+[MeshBuilder]
+vertex -14.6,5.25,10
+vertex -14.6,5.25,119.9
+vertex -14.35,4.25,119.9
+vertex -14.35,4.25,10
+Face 3,2,1,0
+Color 30,30,30
+
+
+
+[MeshBuilder]
+vertex 2.3,4.25,0
+vertex 2.3,4.25,110
+vertex 2.2,4.25,110
+vertex 2.2,4.25,0
+Face 0,1,2,3
+Color 20,20,20
+
+
+
+[MeshBuilder]
+vertex 2.6,5.25,0
+vertex 2.6,5.25,110
+vertex 2.35,5.25,110
+vertex 2.35,5.25,0
+Face 3,2,1,0
+Color 20,20,20
+
+
+
+[MeshBuilder]
+vertex -14.2,4.25,10
+vertex -14.2,4.25,119.9
+vertex -14.3,4.25,119.9
+vertex -14.3,4.25,10
+Face 0,1,2,3
+Color 20,20,20
+
+
+
+[MeshBuilder]
+vertex -14.6,5.25,10
+vertex -14.6,5.25,119.9
+vertex -14.35,5.25,119.9
+vertex -14.35,5.25,10
+Face 0,1,2,3
+Color 20,20,20
+
+
+[MeshBuilder]
+vertex -14.35,4.25,10
+vertex -14.35,4.25,119.9
+vertex -14.2,4.25,119.9
+vertex -14.2,4.25,10
+Face2 0,1,2,3
+Color 20,20,20
+
+
+
+
+
+
+[Meshbuilder]
+vertex 2.5, 1.1,109.5
+vertex 2.5, 5.5,109.5
+vertex 10, 5.5,109.5
+vertex 10, 1.1,109.5
+Face 0,1,2,3
+Load sheptile.png
+Coordinates 0,0,30
+Coordinates 1,0,0
+Coordinates 2,60,0
+Coordinates 3,60,30
+
+[Meshbuilder]
+vertex 10, 1.1,109.5
+vertex 10, 5.5,109.5
+vertex 10, 5.5,90
+vertex 10, 1.1,90
+Face 0,1,2,3
+Load sheptile.png
+Coordinates 0,0,30
+Coordinates 1,0,0
+Coordinates 2,150,0
+Coordinates 3,150,30
+
+
+
+[Meshbuilder]
+vertex 10, 1.1,90
+vertex 10, 5.5,90
+vertex 5.5, 5.5,80
+vertex 5.5, 1.1,80
+Face 0,1,2,3
+Load sheptile.png
+Coordinates 0,0,30
+Coordinates 1,0,0
+Coordinates 2,80,0
+Coordinates 3,80,30
+
+
+
+[Meshbuilder]
+vertex 5.5, 1.1,80
+vertex 5.5, 5.5,80
+vertex 5.5, 5.5,75
+vertex 5.5, 1.1,75
+Face 0,1,2,3
+Load sheptile.png
+Coordinates 0,0,30
+Coordinates 1,0,0
+Coordinates 2,40,0
+Coordinates 3,40,30
+
+
+
+[Meshbuilder]
+vertex 5.5, 1.1,75
+vertex 5.5, 5.5,75
+vertex 7, 5.5,75
+vertex 7, 1.1,75
+Face 0,1,2,3
+
+Load sheptile.png
+Coordinates 0,0,30
+Coordinates 1,0,0
+Coordinates 2,10,0
+Coordinates 3,10,30
+
+
+
+[Meshbuilder]
+vertex 7, 1.1,75
+vertex 7, 5.5,75
+vertex 12, 5.5,85
+vertex 12, 1.1,85
+Face 0,1,2,3
+Load sheptile.png
+Coordinates 0,0,30
+Coordinates 1,0,0
+Coordinates 2,80,0
+Coordinates 3,80,30
+
+
+[Meshbuilder]
+vertex 12, 1.1,85
+vertex 12, 5.5,85
+vertex 22, 5.5,85
+vertex 22, 1.1,85
+Face 0,1,2,3
+Load sheptile.png
+Coordinates 0,0,30
+Coordinates 1,0,0
+Coordinates 2,60,0
+Coordinates 3,60,30
+
+
+[Meshbuilder]
+vertex 22, 1.1,85
+vertex 22, 5.5,85
+vertex 22, 5.5,75
+vertex 22, 1.1,75
+Face 0,1,2,3
+Load sheptile.png
+Coordinates 0,60,30
+Coordinates 1,60,0
+Coordinates 2,0,0
+Coordinates 3,0,30
+
+[Meshbuilder]
+vertex 22, 1.1,75
+vertex 22, 5.5,75
+vertex 60, 5.5,75
+vertex 60, 1.1,75
+Face 0,1,2,3
+Load sheptile.png
+Coordinates 0,200,30
+Coordinates 1,200,0
+Coordinates 2,0,0
+Coordinates 3,0,30
+
+
+[Meshbuilder]
+vertex 2.5, 1.1,110
+vertex 2.5, 5.5,110
+vertex 10, 5.5,110
+vertex 10, 1.1,110
+Face 3,2,1,0
+Load stone.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Color 60,60,50
+
+
+
+[Meshbuilder]
+vertex 2.5, 1.1,109.5
+vertex 2.5, 5.5,109.5
+vertex 2.5, 5.5,110
+vertex 2.5, 1.1,110
+Face 3,2,1,0
+Load stone.png
+Coordinates 0,0.1,1
+Coordinates 1,0.1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Color 60,60,50
+
+[Meshbuilder]
+vertex 1.5, 5.5,110
+vertex 65, 5.5,110
+vertex 65, 5.5,-15
+vertex 1.5, 5.5,-15
+Face 3,2,1,0
+Load roof.bmp,roof.bmp
+Coordinates 0,1,75
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,75
+
+[MeshBuilder]
+Vertex 7,1.1,-15
+Vertex 7,5.5,-15
+Vertex 7,5.5,15
+Vertex 7,1.1,15
+Face 3,2,1,0
+Load sheptile.png
+Coordinates 0,200,30
+Coordinates 1,200,0
+Coordinates 2,0,0
+Coordinates 3,0,30
+
+
+[MeshBuilder]
+Vertex 9,1.1,20
+Vertex 9,5.5,20
+Vertex 7,5.5,15
+Vertex 7,1.1,15
+Face 0,1,2,3
+Load sheptile.png
+Coordinates 0,52,30
+Coordinates 1,52,0
+Coordinates 2,0,0
+Coordinates 3,0,30
+
+
+[Meshbuilder]
+vertex 2.5, 1.11,109.5
+vertex 2.75, 1.11,109.5
+vertex 2.75, 1.11,0
+vertex 2.5, 1.11,0
+Face 0,1,2,3
+Color 55,55,55
+
+
+[Meshbuilder]
+vertex 15, 1.1,50
+vertex 15, 5.5,50
+vertex 60, 5.5,50
+vertex 60, 1.1,50
+Face 3,2,1,0
+Load sheptile.png
+Coordinates 0,250,30
+Coordinates 1,250,0
+Coordinates 2,0,0
+Coordinates 3,0,30
+
+
+
+[Meshbuilder]
+vertex 60, 1.1,50
+vertex 60, 5.5,50
+vertex 62.5, 5.5,52.5
+vertex 62.5, 1.1,52.5
+Face 3,2,1,0
+Load sheptile.png
+Coordinates 0,30,30
+Coordinates 1,30,0
+Coordinates 2,0,0
+Coordinates 3,0,30
+
+[Meshbuilder]
+vertex 62.5, 1.1,52.5
+vertex 62.5, 5.5,52.5
+vertex 62.5, 5.5,72.5
+vertex 62.5, 1.1,72.5
+Face 3,2,1,0
+Load sheptile.png
+Coordinates 0,110,30
+Coordinates 1,110,0
+Coordinates 2,0,0
+Coordinates 3,0,30
+
+
+[Meshbuilder]
+vertex 62.5, 1.1,72.5
+vertex 62.5, 5.5,72.5
+vertex 60, 5.5,75
+vertex 60, 1.1,75
+Face 3,2,1,0
+Load sheptile.png
+Coordinates 0,30,30
+Coordinates 1,30,0
+Coordinates 2,0,0
+Coordinates 3,0,30
+
+[Meshbuilder]
+vertex 9, 1.1,43
+vertex 9, 5.5,43
+vertex 15, 5.5,50
+vertex 15, 1.1,50
+Face 3,2,1,0
+Load sheptile.png
+Coordinates 0,65,30
+Coordinates 1,65,0
+Coordinates 2,0,0
+Coordinates 3,0,30
+
+[MeshBuilder]
+Vertex 9,1.1,20
+Vertex 9,5.5,20
+Vertex 9,5.5,43
+Vertex 9,1.1,43
+Face 3,2,1,0
+
+Load sheptile.png
+Coordinates 0,150,30
+Coordinates 1,150,0
+Coordinates 2,0,0
+Coordinates 3,0,30
+
+
+;================
+;=================
+[MeshBuilder]
+Vertex 2.5,4,109.75
+Vertex 2,4,109.75
+Vertex 2,4.5,109.75
+Vertex 2.5,4.5,109.75
+Face 0,1,2,3
+Load s.bmp
+Coordinates 0,1.0,1
+Coordinates 1,0,1
+Coordinates 2,0,0
+Coordinates 3,1.0,0
+Translate 0,-0.6,0
+
+[MeshBuilder]
+Vertex 2.5,4,109.75
+Vertex 2,4,109.75
+Vertex 2,4.5,109.75
+Vertex 2.5,4.5,109.75
+Face 3,2,1,0
+Translate 0,-0.6,0
+Load s.bmp
+
+[MeshBuilder]
+Vertex -9.5,4,135.08
+Vertex -9,4,135.08
+Vertex -9,4.5,135.08
+Vertex -9.5,4.5,135.08
+Face 3,2,1,0
+Load s.bmp
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,1,0
+Coordinates 3,0,0
+
+;-----------------
+;Stone Ceiling
+;-----------------
+[MeshBuilder]
+Vertex 1.5,5.5,-15
+Vertex 1.5,5.5,110
+Vertex 1.5,7,110
+Vertex 1.5,7,-15
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,0.2
+Coordinates 3,0,0.2
+Color 60,60,50
+
+[MeshBuilder]
+Vertex 1.5,5.5,110
+Vertex 1.5,7,110
+Vertex 10,7,110
+Vertex 10,5.5,110
+Face 3,2,1,0
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 1.5,5.5,110
+Vertex 1.5,7,110
+Vertex 10,7,110
+Vertex 10,5.5,110
+Face 3,2,1,0
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+[MeshBuilder]
+Vertex -13.5,5.5,-15
+Vertex -13.5,5.5,120
+Vertex -13.5,7,120
+Vertex -13.5,7,-15
+Face 3,2,1,0
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,0.2
+Coordinates 3,0,0.2
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex -13.5,5.5,120
+Vertex -18,5.5,120
+Vertex -18,7,120
+Vertex -13.5,7,120
+Face 3,2,1,0
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,0.2
+Coordinates 3,0,0.2
+Color 60,60,50
+
+[MeshBuilder]
+Vertex 1.5,7,-15
+Vertex 1.5,7,110
+Vertex -13.5,7,110
+Vertex -13.5,7,-15
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 10,7,110
+Vertex 10,7,120
+Vertex -13.5,7,120
+Vertex -13.5,7,110
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 10,7,120
+Vertex 10,7,135.2
+Vertex -18,7,135.2
+Vertex -18,7,120
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+;=====================
+; Platform Extension
+;=====================
+
+[MeshBuilder]
+Vertex 2.5,4.75,135.1
+Vertex 2.5,0,135
+Vertex 3,0,135
+Vertex 3,4.75,135.1
+Face 3,2,1,0
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,10,0
+Coordinates 2,10,1
+Coordinates 3,0,1
+Color 60,60,50
+
+[MeshBuilder]
+Vertex 3,4.75,135.1
+Vertex 3,0,135
+Vertex 3,0,137.5
+Vertex 3,4.75,137.5
+Face 3,2,1,0
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+[MeshBuilder]
+Vertex 3,4.75,135.1
+Vertex 3,0,135
+Vertex 3,0,137.5
+Vertex 3,4.75,137.5
+Face 3,2,1,0
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 3,4.75,137.5
+Vertex 3,0,137.5
+Vertex 6,0,137.5
+Vertex 6,4.75,137.5
+Face 3,2,1,0
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 3,4.7,137.5
+Vertex 3,4.7,135.1
+Vertex 5,4.7,135.1
+Vertex 5,4.7,137.5
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 5,4.7,137.5
+Vertex 5,4.7,135.1
+Vertex 6,4,135.1
+Vertex 6,4,137.5
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 5.25,7,135.1
+Vertex 5.25,7,110
+Vertex 6,6,110
+Vertex 6,6,135.1
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 6,6,135.1
+Vertex 6,6,110
+Vertex 10,6,110
+Vertex 10,6,135.1
+Face2 0,1,2,3
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+[MeshBuilder]
+Vertex 6,6,135.1
+Vertex 6,6,125
+Vertex 6,1.1,125
+Vertex 6,1.1,135.1
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 6,6,125
+Vertex 10,6,115
+Vertex 10,1.1,115
+Vertex 6,1.1,125
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 6,0,137.5
+Vertex 6,0,135.1
+Vertex 6,4,135.1
+Vertex 6,4,137.5
+Face 3,2,1,0
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 6,0,137.5
+Vertex 6,0,135.1
+Vertex 6,4,135.1
+Vertex 6,4,137.5
+Face 3,2,1,0
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 2.56,1.1,135
+Vertex 2.56,1.1,137.5
+Vertex 10,1.1,137.5
+Vertex 10,1.1,135
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0,1
+Coordinates 1,0.3,1
+Coordinates 2,0.3,0
+Coordinates 3,0,0
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 1.5,1.1,110
+Vertex 1.5,1.1,135
+Vertex 10,1.1,135
+Vertex 10,1.1,110
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,3,0
+Coordinates 2,3,1
+Coordinates 3,0,1
+Color 60,60,50
+;-----------------
+;Stone Ceiling
+;-----------------
+
+[MeshBuilder]
+Vertex 1.5,1.1,110
+Vertex 1.5,1.1,135
+Vertex 1.5,0.9,135
+Vertex 1.5,0.9,110
+Face 3,2,1,0
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+
+[MeshBuilder]
+Vertex 1.5,0.9,110
+Vertex 1.5,0.9,135
+Vertex 1.75,0.9,135
+Vertex 1.75,0.9,110
+Face 3,2,1,0
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,1
+Coordinates 3,0,1
+Color 60,60,50
+
+[MeshBuilder]
+Vertex 1.75,0.9,110
+Vertex 1.75,0.9,135
+Vertex 1.75,0,135
+Vertex 1.75,0,110
+Face 3,2,1,0
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,6,0
+Coordinates 2,6,1
+Coordinates 3,0,1
+Color 60,60,50
+
+[MeshBuilder]
+Vertex 1.5,1.1,110
+Vertex 1.5,1.1,135
+Vertex 1.5,0.9,135
+Vertex 1.5,0.9,110
+Face 3,2,1,0
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 1.5,1.1,110
+Vertex 1.5,1.1,135
+Vertex 1.5,0.9,135
+Vertex 1.5,0.9,110
+Face 3,2,1,0
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+
+[MeshBuilder]
+Vertex -13.5,1.1,120
+Vertex -13.5,1.1,135
+Vertex -18,1.1,135
+Vertex -18,1.1,120
+Face 3,2,1,0
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex -13.5,1.1,120
+Vertex -13.5,1.1,135
+Vertex -13.5,0.9,135
+Vertex -13.5,0.9,120
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+
+[MeshBuilder]
+Vertex -13.75,0.9,120
+Vertex -13.75,0.9,135
+Vertex -13.5,0.9,135
+Vertex -13.5,0.9,120
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,1
+Coordinates 3,0,1
+Color 60,60,50
+
+[MeshBuilder]
+Vertex -13.75,0.9,120
+Vertex -13.75,0.9,135
+Vertex -13.75,0,135
+Vertex -13.75,0,120
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+
+[MeshBuilder]
+Vertex -18,7,135
+Vertex 10,7,135
+Vertex 10,4.7,135
+Vertex -18,4.7,135
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,7,0
+Coordinates 2,7,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex -18,7,135.11
+Vertex 10,7,135.11
+Vertex 10,4.69999999,135.11
+Vertex -18,4.69999999,135.11
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,7,0
+Coordinates 2,7,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex -18,7,135
+Vertex 10,7,135
+Vertex 10,4.7,135
+Vertex -18,4.7,135
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,0,0.5
+Coordinates 1,6,0.5
+Coordinates 2,6,1
+Coordinates 3,0,1
+Color 60,60,50
+
+[MeshBuilder]
+Vertex 5,4.7,135.1
+Vertex 10,4.7,135
+Vertex 10,4,135
+Vertex 6,4,135.09999
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,0,1
+Coordinates 1,2,1
+Coordinates 2,2,0
+Coordinates 3,0,0
+Color 60,60,50
+
+[MeshBuilder]
+Vertex 10,7,110
+Vertex 10,7,115
+Vertex 10,1.1,115
+Vertex 10,1.1,110
+Face 3,2,1,0
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+;=====================
+;North Side Platform
+;=====================
+[Meshbuilder]
+vertex -14.5, 1.1,119.5
+vertex -14.5, 5.5,119.5
+vertex -18, 5.5,119.5
+vertex -18, 1.1,119.5
+Face 3,2,1,0
+Load sheptile.png
+Coordinates 0,0,30
+Coordinates 1,0,0
+Coordinates 2,30,0
+Coordinates 3,30,30
+
+[Meshbuilder]
+vertex -14.5, 1.1,120
+vertex -14.5, 5.5,120
+vertex -14.5, 5.5,119.5
+vertex -14.5, 1.1,119.5
+Face 3,2,1,0
+Load stone.png
+Coordinates 0,0.1,0.2
+Coordinates 1,0.1,0
+Coordinates 2,0,0
+Coordinates 3,0,0.2
+Color 60,60,50
+
+
+[Meshbuilder]
+vertex -14.5, 1.1,120
+vertex -14.5, 5.5,120
+vertex -18, 5.5,120
+vertex -18, 1.1,120
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0.1,0.2
+Coordinates 1,0.1,0
+Coordinates 2,0,0
+Coordinates 3,0,0.2
+Color 60,60,50
+
+[Meshbuilder]
+vertex -18, 1.1,119.5
+vertex -18, 5.5,119.5
+vertex -18, 5.5,10
+vertex -18, 1.1,10
+Face 3,2,1,0
+Load sheptile.png
+Coordinates 0,0,30
+Coordinates 1,0,0
+Coordinates 2,830,0
+Coordinates 3,830,30
+
+
+
+[Meshbuilder]
+vertex -18,5.5,120
+vertex -13.5, 5.5,120
+vertex -13.5, 5.5,-15
+vertex -18, 5.5,-15
+Face 3,2,1,0
+Load roof.bmp,roof.bmp
+Coordinates 0,1,8
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,8
+
+[Meshbuilder]
+vertex -14.75, 1.11,119.5
+vertex -14.5, 1.11,119.5
+vertex -14.5, 1.11,10
+vertex -14.75, 1.11,10
+Face 0,1,2,3
+Color 55,55,55
+
+[Meshbuilder]
+vertex -18, 1.11,119.5
+vertex -17.75, 1.11,119.5
+vertex -17.75, 1.11,10
+vertex -18, 1.11,10
+Face 0,1,2,3
+Color 55,55,55
+
+
+;NORTH END WALL
+
+[MeshBuilder]
+Vertex -17,7,135.1
+Vertex -17,7,120
+Vertex -18,6,120
+Vertex -18,6,135
+Face 3,2,1,0
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex -18,7,135.1
+Vertex -18,7,120
+Vertex -18,1.09,120
+Vertex -18,1.09,135
+Face 3,2,1,0
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,1
+Coordinates 3,0,1
+Color 60,60,50
+
+[MeshBuilder]
+Vertex 1.9,2.7,109.75
+Vertex 2.5,2.7,109.75
+Vertex 2.5,1,109.75
+Vertex 1.9,1,109.75
+Face2 3,2,1,0
+Load Barrier2.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Transparent 0,0,0
+;=================
+; TOWER OFFICE
+;=================
+;Guards
+
+
+[MeshBuilder]
+Vertex -2.5,4.7,135.1
+Vertex -3.5,4.7,135.1
+Vertex -3.5,1.1,135
+Vertex -2.5,1.1,135
+Face 3,2,1,0
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+[MeshBuilder]
+Vertex -8.5,4.7,135.1
+Vertex -9.5,4.7,135.1
+Vertex -9.5,1.1,135
+Vertex -8.5,1.1,135
+Face 3,2,1,0
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex -8.5,3.5,135.05
+Vertex -6.75,3.5,135.05
+Vertex -6.75,1.1,135
+Vertex -8.5,1.1,135
+Face 0,1,2,3
+
+Load RedDoorCon.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 70,70,60
+
+
+[MeshBuilder]
+Vertex -6.6,3.25,135.05
+Vertex -5.75,3.25,135.05
+Vertex -5.75,1.1,135
+Vertex -6.6,1.1,135
+Face2 0,1,2,3
+Load RedDoorCon.bmp
+Coordinates 0,0.05,0.05
+Coordinates 1,0.5,0.05
+Coordinates 2,0.5,1
+Coordinates 3,0.05,1
+Color 68,69,69
+
+[MeshBuilder]
+Vertex -6.6,3.5,135.05
+Vertex -5.75,3.5,135.05
+Vertex -5.75,3.25,135
+Vertex -6.6,3.25,135
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0.05,0.6
+Coordinates 1,0.5,0.6
+Coordinates 2,0.5,1
+Coordinates 3,0.05,1
+Color 70,70,60
+
+
+[MeshBuilder]
+Vertex -5.65,2.25,135.021
+Vertex -3.5,2.25,135.021
+Vertex -3.5,1.1,135
+Vertex -5.65,1.1,135
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0.05,0.6
+Coordinates 1,0.5,0.6
+Coordinates 2,0.5,1
+Coordinates 3,0.05,1
+Color 70,70,60
+
+[MeshBuilder]
+Vertex -5.65,2.25,135.021
+Vertex -3.5,2.25,135.021
+Vertex -3.5,2.25,135.15
+Vertex -5.65,2.25,135.15
+Face 3,2,1,0
+Load stone.png
+Coordinates 0,0.05,0.6
+Coordinates 1,0.5,0.6
+Coordinates 2,0.5,1
+Coordinates 3,0.05,1
+Color 70,70,60
+
+
+[MeshBuilder]
+Vertex -5.65,3.5,135.0618
+Vertex -3.5,3.5,135.0618
+Vertex -3.5,3.5,135.15
+Vertex -5.65,3.5,135.15
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0.05,0.6
+Coordinates 1,0.5,0.6
+Coordinates 2,0.5,1
+Coordinates 3,0.05,1
+Color 70,70,60
+
+
+[MeshBuilder]
+Vertex -5.65,3.5,135.0618
+Vertex -3.5,3.5,135.0618
+Vertex -3.5,3.5,135.15
+Vertex -5.65,3.5,135.15
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0.05,0.6
+Coordinates 1,0.5,0.6
+Coordinates 2,0.5,1
+Coordinates 3,0.05,1
+Color 70,70,60
+
+
+
+[MeshBuilder]
+Vertex -5.65,3.5,135.0618
+Vertex -5.65,2.25,135.021
+Vertex -5.65,2.25,135.15
+Vertex -5.65,3.5,135.15
+Face 3,2,1,0
+Load stone.png
+Coordinates 0,0.05,0.6
+Coordinates 1,0.5,0.6
+Coordinates 2,0.5,1
+Coordinates 3,0.05,1
+Color 70,70,60
+
+
+[MeshBuilder]
+Vertex -3.5,3.5,135.0618
+Vertex -3.5,2.25,135.021
+Vertex -3.5,2.25,135.15
+Vertex -3.5,3.5,135.15
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0.05,0.6
+Coordinates 1,0.5,0.6
+Coordinates 2,0.5,1
+Coordinates 3,0.05,1
+Color 70,70,60
+
+
+[MeshBuilder]
+Vertex -5.65,3.52,135.1
+Vertex -3.4,3.52,135.1
+Vertex -3.4,2.248,135.07
+Vertex -5.65,2.248,135.07
+Face2 0,1,2,3
+Load glassclear.png
+Coordinates 0,0,0
+Coordinates 1,0,25
+Coordinates 2,25,25
+Coordinates 3,25,0
+Color 90,90,90,150
+
+[MeshBuilder]
+Vertex -5.75,3.5,135.05
+Vertex -5.65,3.5,135.05
+Vertex -5.65,1.1,135
+Vertex -5.75,1.1,135
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0.05,0.05
+Coordinates 1,0.3,0.05
+Coordinates 2,0.3,0.95
+Coordinates 3,0.05,0.95
+Color 70,70,60
+
+[MeshBuilder]
+Vertex -6.75,3.5,135.04
+Vertex -6.6,3.5,135.04
+Vertex -6.6,1.1,135
+Vertex -6.75,1.1,135
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,0.1,0
+Coordinates 2,0.1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+[MeshBuilder]
+Vertex -8.5,4.7,135.1
+Vertex -3.5,4.7,135.1
+Vertex -3.5,3.5,135.062
+Vertex -8.5,3.5,135.062
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,1.97,1
+Coordinates 1,4.98,1
+Coordinates 2,5.02,0
+Coordinates 3,2.01,0
+Color 60,60,50
+
+[MeshBuilder]
+Vertex -18,4.7,135
+Vertex -14.5,4.7,135.1
+Vertex -14.5,1.1,135
+Vertex -18,1.1,135
+Face 0,1,2,3
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+
+
+;INTERIOR OF CONTROL OFFICE
+
+;Basic Walls
+[MeshBuilder]
+Vertex -2.8,1.1,135.15
+Vertex -2.8,2.25,135.15
+Vertex -5.75,2.25,135.15
+Vertex -5.75,1.1,135.15
+Face 0,1,2,3
+Load bayviewtile.png,bayviewtile.png
+Coordinates 0,0,0
+Coordinates 1,0,25
+Coordinates 2,50,25
+Coordinates 3,50,0
+
+
+[MeshBuilder]
+Vertex -2.8,3.5,135.15
+Vertex -2.8,4.7,135.15
+Vertex -5.65,4.7,135.15
+Vertex -5.65,3.5,135.15
+Face 0,1,2,3
+Load bayviewtile.png,bayviewtile.png
+Coordinates 0,0,0
+Coordinates 1,0,25
+Coordinates 2,50,25
+Coordinates 3,50,0
+
+
+[MeshBuilder]
+Vertex -2.8,2.25,135.15
+Vertex -2.8,3.5,135.15
+Vertex -3.4,3.5,135.15
+Vertex -3.4,2.25,135.15
+Face 0,1,2,3
+Load bayviewtile.png,bayviewtile.png
+Coordinates 0,0,0
+Coordinates 1,0,25
+Coordinates 2,10,25
+Coordinates 3,10,0
+
+[MeshBuilder]
+Vertex -2.8,1.1,135.15
+Vertex -2.8,4.4,135.15
+Vertex -2.8,4.4,140
+Vertex -2.8,1.1,140
+Face 3,2,1,0
+Load bayviewtile.png,bayviewtile.png
+Coordinates 0,0,0
+Coordinates 1,0,55
+Coordinates 2,150,55
+Coordinates 3,150,0
+
+
+[MeshBuilder]
+Vertex -5.75,2.25,135.15
+Vertex -5.75,4.4,135.15
+Vertex -5.65,4.4,135.15
+Vertex -5.65,2.25,135.15
+Face2 3,2,1,0
+Load bayviewtile.png,bayviewtile.png
+Coordinates 0,0,0
+Coordinates 1,0,20
+Coordinates 2,2,20
+Coordinates 3,2,0
+
+[MeshBuilder]
+Vertex -2.8,1.1,140
+Vertex -2.8,4.4,140
+Vertex -6.75,4.4,140
+Vertex -6.75,1.1,140
+Face 3,2,1,0
+Load bayviewtile.png
+Coordinates 0,0,0
+Coordinates 1,0,55
+Coordinates 2,75,55
+Coordinates 3,75,0
+
+
+[MeshBuilder]
+Vertex -2.8,1.1,140
+Vertex -2.8,4.4,140
+Vertex -6.75,4.4,140
+Vertex -6.75,1.1,140
+Face 3,2,1,0
+Load bayviewtile.png
+Coordinates 0,0,0
+Coordinates 1,0,55
+Coordinates 2,75,55
+Coordinates 3,75,0
+
+
+[MeshBuilder]
+Vertex -2.8,1.1,135
+Vertex -2.8,1.1,140
+Vertex -6.75,1.1,140
+Vertex -6.75,1.1,135
+Face 3,2,1,0
+Load carpet.png
+Coordinates 0,0,0
+Coordinates 1,0,12
+Coordinates 2,12,12
+Coordinates 3,12,0
+
+
+[MeshBuilder]
+Vertex -2.8,4.4,135
+Vertex -2.8,4.4,140
+Vertex -6.75,4.4,140
+Vertex -6.75,4.4,135
+Face 0,1,2,3
+Color 100,100,100
+
+
+[MeshBuilder]
+Vertex -6.75,1.1,140
+Vertex -6.75,4.4,140
+Vertex -6.75,4.4,135.1
+Vertex -6.75,1.1,135
+Face 3,2,1,0
+Load bayviewtile.png
+Coordinates 0,0,0
+Coordinates 1,0,55
+Coordinates 2,130,55
+Coordinates 3,130,0
+
+
+
+
+
+[MeshBuilder]
+Vertex 6.5,1.1,135
+Vertex 1.5,1.1,135
+Vertex 1.5,0.9,135
+Vertex 6.5,0.9,135
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,2,0
+Coordinates 2,2,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+[MeshBuilder]
+Vertex 6.5,0.9,135
+Vertex 1.75,0.9,135
+Vertex 1.75,0,135
+Vertex 6.5,0,135
+Face 0,1,2,3
+
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,8,0
+Coordinates 2,8,1
+Coordinates 3,0,1
+Color 60,60,50
+
+
+
+
+
+
+
+
+[MeshBuilder]
+Vertex 2.9,1.1,0
+Vertex 2.9,5.5,0
+Vertex 2.9,5.5,-10
+Vertex 2.9,1.1,-10
+Face 3,2,1,0
+Load sheptile.png
+Coordinates 0,0,0
+Coordinates 1,0,55
+Coordinates 2,130,55
+Coordinates 3,130,0
+
+
+[MeshBuilder]
+Vertex 2.5,1.1,0
+Vertex 2.5,5.5,0
+Vertex 2.9,5.5,0
+Vertex 2.9,1.1,0
+Face 3,2,1,0
+Load sheptile.png
+Coordinates 0,0,0
+Coordinates 1,0,55
+Coordinates 2,7,55
+Coordinates 3,7,0
+
+
+[MeshBuilder]
+Vertex 2.5,1.1,-10
+Vertex 2.5,5.5,-10
+Vertex 2.5,5.5,0
+Vertex 2.5,1.1,0
+Face 3,2,1,0
+Load stone.png
+Coordinates 0,0,0
+Coordinates 1,0,1
+Coordinates 2,1,1
+Coordinates 3,1,0
+Color 60,50,40

@@ -1,0 +1,29 @@
+[Object]
+Position = 0, -2.65, 0
+States = SignalSingle_GT.CSV
+[Object]
+Position = 0, 0, 0
+States = Default.csv
+
+;Red
+[Object]
+Position = 0, 0, 0
+States = null.b3d,redglow.csv
+StateFunction = if[section==0,1,0]
+RefreshRate = 0.5
+
+
+;Yellow
+[Object]
+Position = 0, 0, 0
+States = null.b3d,Yellowglow.csv
+StateFunction = if[section==2,1,0]
+RefreshRate = 0.5
+
+
+;Green
+[Object]
+Position = 0, 0, 0
+States = null.b3d,greenglow.csv
+StateFunction = if[section==4,1,0]
+RefreshRate = 0.5

@@ -1,0 +1,29 @@
+[Object]
+States = T1 Back Cab.b3d
+Position = 0, 0, -415
+TranslateZFunction = -trackDistance * 3.5
+
+[Object]
+States = T1 Front Cab Nolighton.b3d
+Position = 0, 0, -392
+TranslateZFunction = -trackDistance * 3.49
+
+[Object]
+States = T1 Back Cab Nolighton.b3d
+Position = 0, 0, -369
+TranslateZFunction = -trackDistance * 3.49
+
+[Object]
+States = T1 Front Cab Nolighton.b3d
+Position = 0, 0, -346
+TranslateZFunction = -trackDistance * 3.49
+
+[Object]
+States = T1 Back Cab Nolighton.b3d
+Position = 0, 0, -323
+TranslateZFunction = -trackDistance * 3.49
+
+[Object]
+States = T1 Front Cab.b3d
+Position = 0, 0, -300
+TranslateZFunction = -trackDistance * 3.49

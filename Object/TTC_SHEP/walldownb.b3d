@@ -1,0 +1,13 @@
+[meshbuilder]
+vertex 0,-0.5,0
+vertex 0,4.7,0
+vertex 0,4.7,25
+vertex 0,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load walldownsb.bmp
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 0,0,1

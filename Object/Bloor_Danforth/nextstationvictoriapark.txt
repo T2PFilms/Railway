@@ -1,0 +1,37 @@
+;next station sign
+
+CreateMeshBuilder,
+Addvertex,-2.55,-0.5,16,
+Addvertex,-2.55,2.5,16,
+Addvertex,-2.45,2.5,16,
+Addvertex,-2.45,-0.5,16,
+Addface2,0,1,2,3,
+SetColor,198,198,198,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+Addvertex,-2.45,-0.5,16,
+Addvertex,-2.45,-0.5,16.1,
+Addvertex,-2.45,2.5,16.1,
+Addvertex,-2.45,2.5,16,
+Addface2,0,1,2,3,
+SetColor,198,198,198,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+Addvertex,-2.39,1.75,15,
+Addvertex,-2.39,1.75,17,
+Addvertex,-2.39,2.5,17,
+Addvertex,-2.39,2.5,15,
+Addface2,0,1,2,3,
+
+GenerateNormals,
+
+LoadTexture,davisvillesign.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 1, 0,
+SetTextureCoordinates,3, 0, 0,
+

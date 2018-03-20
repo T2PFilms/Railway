@@ -1,0 +1,14 @@
+CreateMeshBuilder,
+AddVertex,-120, -1, 30,
+AddVertex,120, -1, 30,
+AddVertex,120, -1, 0,
+AddVertex,-120, -1, 0,
+AddFace,0, 1, 2, 3,
+
+GenerateNormals,
+
+LoadTexture,GrassGround.png,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 15, 0,
+SetTextureCoordinates,2, 15, 1,
+SetTextureCoordinates,3, 0, 1,

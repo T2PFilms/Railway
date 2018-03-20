@@ -1,0 +1,12 @@
+[Object]
+Position = 0, -2.65, 0
+States = SignalSingle_GT.csv
+
+[Object]
+Position = 0, 0, 0
+States = SignalSingle_2.csv
+
+[Object] 
+Position = 0, 0, 0
+States = SignalSingle_GTLunar.csv, SignalSingle_SClear.csv
+StateFunction = if[trackDistance <= 0, 1,0]

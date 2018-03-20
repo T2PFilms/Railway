@@ -1,0 +1,29 @@
+[meshbuilder]
+vertex 0,0,0
+vertex 0,2,0
+vertex .1,2,0
+vertex .1,0,0
+face2 0,1,2,3
+color 80,80,80
+
+[meshbuilder]
+vertex 0,0,0
+vertex 0,2,0
+vertex 0,2,0.2
+vertex 0,0,0.2
+face2 0,1,2,3
+color 80,80,80
+
+[meshbuilder]
+vertex -.1,1.4,-.1
+vertex -.1,1.9,-.1
+vertex .2,1.9,-.1
+vertex .2,1.4,-.1
+face 0,1,2,3
+
+[texture]
+load signallenspeed.bmp
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+coordinates 0,0,1 

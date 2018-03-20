@@ -1,0 +1,88 @@
+;Converted from .b3d to .csv by BVE Terminus' B3D to CSV Converter
+
+CreateMeshBuilder
+AddVertex, 3.5,-0.17,0
+AddVertex, 3.5,-0.17,25
+AddVertex, -9.5,-0.17,25
+AddVertex, -9.5,-0.17,0
+AddFace, 3,2,1,0
+LoadTexture, track\ballast.bmp
+SetTextureCoordinates, 0,15,0
+SetTextureCoordinates, 1,15,6
+SetTextureCoordinates, 2,0,6
+SetTextureCoordinates, 3,0,0
+
+;Fence
+
+
+;Right Side
+CreateMeshBuilder,
+AddVertex,3.8, 5, 0,
+AddVertex,3.8, 5, 25.5,
+AddVertex,3, -1, 0,
+AddVertex,3, -1, 25.5,
+AddFace2,2,3,1,0,
+GenerateNormals,
+LoadTexture,ChainFence.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,5,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,5,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+Addvertex,3,-0.5,0,
+Addvertex,3,-0.5,25,
+Addvertex,7,-1,25,
+Addvertex,7,-1,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,Grassground.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+Addvertex,7,-1,0,
+Addvertex,7,-1,25,
+Addvertex,12,-4,25,
+Addvertex,12,-4,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,Grassground.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+Addvertex,12,-4,0,
+Addvertex,12,-4,25,
+Addvertex,50,-4,25,
+Addvertex,50,-4,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,Grassground.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+CreateMeshBuilder,
+Addvertex,12,-3.9,0,
+Addvertex,12,-3.9,25,
+Addvertex,15,-3.9,25,
+Addvertex,15,-3.9,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,Concrete.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,4,0,
+SetTextureCoordinates,2,4,1,
+SetTextureCoordinates,3,0,1,
+
+
+;Background
+;Right Side
+

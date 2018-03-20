@@ -1,0 +1,23 @@
+Track objects:
+
+Tr_Station_3rr *
+Tr_Station_3rl *
+Tr_Tunnel *
+Tr_Tunnel_3rr *
+Tr_Tunnel_3rl *
+Tr_Ballast *
+Tr_Ballast_3rr *
+Tr_Ballast_3rl *
+Tr_Ballast_dark *
+Tr_Ballast_dark_3rr *
+Tr_Ballast_dark_3rl *
+Tr_Concrete *
+Tr_Concrete_3rr *
+Tr_Concrete_3rl *
+Tr_Bridge_3rr *
+Tr_Bridge_3rl *
+Tr_Guide_Tunnel_3rr
+Tr_Guide_Tunnel_3rl
+Tr_Guide_Ballast_3rr
+Tr_Guide_Ballast_3rl
+

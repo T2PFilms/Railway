@@ -1,0 +1,730 @@
+;roof
+[MeshBuilder]
+vertex -11.2,4.7,-20.9,
+vertex -11.2,4.7,0,
+vertex 5,4.7,0,
+vertex 5,4.7,-20.9,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0.1,
+Coordinates 1,3,0.1,
+Coordinates 2,3,0.9,
+Coordinates 3,0.065,0.9,
+
+
+;main
+
+[MeshBuilder]
+vertex 5,4.7,-20,
+vertex 5,4.7,0,
+vertex 5,-0.5,0,
+vertex 5,-0.5,-20,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0,
+Coordinates 1,3,0,
+Coordinates 2,3,0.9,
+Coordinates 3,0.065,0.9,
+
+[MeshBuilder]
+vertex 5,-0.5,-20,
+vertex 5,-0.5,0,
+vertex 5,-4.5,0,
+vertex 5,-4.5,-20,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0.1,
+Coordinates 1,3,0.1,
+Coordinates 2,3,0.9,
+Coordinates 3,0.065,0.9,
+
+[MeshBuilder]
+vertex 2.5,4.7,-20,
+vertex 2.5,4.7,0,
+vertex 2.5,-0.5,0,
+vertex 2.5,-0.5,-20,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0,
+Coordinates 1,3,0,
+Coordinates 2,3,0.9,
+Coordinates 3,0.065,0.9,
+
+[MeshBuilder]
+vertex 2.5,-4.5,-20,
+vertex 2.5,-4.5,0,
+vertex 2.5,-0.5,0,
+vertex 2.5,-0.5,-20,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0.1,
+Coordinates 1,3,0.1,
+Coordinates 2,3,0.9,
+Coordinates 3,0.065,0.9,
+
+
+[MeshBuilder]
+vertex 2.425,4.7,-20.9,
+vertex 2.425,4.7,0,
+vertex 2.425,-0.5,0,
+vertex 2.425,-0.5,-20.9,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0,
+Coordinates 1,3,0,
+Coordinates 2,3,1,
+Coordinates 3,0.065,1,
+
+[MeshBuilder]
+vertex 2.425,4.7,0,
+vertex 2.5,4.7,0,
+vertex 2.5,-0.5,0,
+vertex 2.425,-0.5,0,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0,
+Coordinates 1,0.7,0,
+Coordinates 2,0.7,1,
+Coordinates 3,0.065,1,
+
+
+;oppositetrack
+
+[MeshBuilder]
+vertex -8.5,4.7,-20,
+vertex -8.5,4.7,0,
+vertex -8.5,-0.5,0,
+vertex -8.5,-0.5,-20,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0,
+Coordinates 1,3,0,
+Coordinates 2,3,0.9,
+Coordinates 3,0.065,0.9,
+
+[MeshBuilder]
+vertex -8.5,-0.5,-20,
+vertex -8.5,-0.5,0,
+vertex -8.5,-4.5,0,
+vertex -8.5,-4.5,-20,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0.1
+Coordinates 1,3,0.1
+Coordinates 2,3,0.9
+Coordinates 3,0.065,0.9
+
+
+[MeshBuilder]
+vertex -8.425,4.7,-20.9
+vertex -8.425,4.7,0,
+vertex -8.425,-0.5,0,
+vertex -8.425,-0.5,-20.9,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0,
+Coordinates 1,3,0,
+Coordinates 2,3,1,
+Coordinates 3,0.065,1,
+
+[MeshBuilder]
+vertex -8.425,4.7,0,
+vertex -8.5,4.7,0,
+vertex -8.5,-0.5,0,
+vertex -8.425,-0.5,0,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0,
+Coordinates 1,0.7,0,
+Coordinates 2,0.7,1,
+Coordinates 3,0.065,1,
+
+
+[MeshBuilder]
+vertex -11,4.7,-20,
+vertex -11,4.7,0,
+vertex -11,-0.5,0,
+vertex -11,-0.5,-20,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0,
+Coordinates 1,3,0,
+Coordinates 2,3,0.9,
+Coordinates 3,0.065,0.9,
+
+[MeshBuilder]
+vertex -11,-0.5,-20,
+vertex -11,-0.5,0,
+vertex -11,-4.5,0,
+vertex -11,-4.5,-20,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0.1,
+Coordinates 1,3,0.1,
+Coordinates 2,3,0.9,
+Coordinates 3,0.065,0.9,
+
+
+
+[MeshBuilder]
+vertex 2.5,4.7,-20,
+vertex 7.2,4.7,-20,
+vertex 7.2,-0.5,-20,
+vertex 2.5,-0.5,-20,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0,
+Coordinates 1,0.7,0,
+Coordinates 2,0.7,1,
+Coordinates 3,0.065,1,
+
+
+[MeshBuilder]
+vertex -8.5,4.7,-20,
+vertex -13.2,4.7,-20,
+vertex -13.2.2,-0.5,-20,
+vertex -8.5,-0.5,-20,
+face2 0,1,2,3,
+
+
+
+Load keelewall.bmp
+Coordinates 0,0.065,0
+Coordinates 1,0.7,0
+Coordinates 2,0.7,1
+Coordinates 3,0.065,1
+
+
+
+
+
+
+;stairsteps normal
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,0.956,0
+Color 180,180,180
+
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,0.756,-0.2
+Color 170,170,170
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,0.556,-0.4
+Color 160,160,160
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,0.356,-0.6
+Color 150,150,150
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,0.156,-0.8
+Color 140,140,140
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,0,-1
+Color 130,130,130
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-0.156,-1.2
+Color 120,120,120
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-0.356,-1.4
+Color 110,110,110
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-0.556,-1.6
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-0.756,-1.8
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-0.956,-2
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-1.156,-2.2
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-1.356,-2.4
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-1.556,-2.6
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-1.756,-2.8
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-1.956,-3
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-2.156,-3.2
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-2.356,-3.4
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-2.556,-3.6
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-2.756,-3.8
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-2.956,-4
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate 4,-1.156,-2
+Color 100,100,100
+
+;stairsteps opposite
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,0.956,0
+Color 180,180,180
+
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,0.756,-0.2
+Color 170,170,170
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,0.556,-0.4
+Color 160,160,160
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,0.356,-0.6
+Color 150,150,150
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,0.156,-0.8
+Color 140,140,140
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,0,-1
+Color 130,130,130
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-0.156,-1.2
+Color 120,120,120
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-0.356,-1.4
+Color 110,110,110
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-0.556,-1.6
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-0.756,-1.8
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-0.956,-2
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-1.156,-2.2
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-1.356,-2.4
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-1.556,-2.6
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-1.756,-2.8
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-1.956,-3
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-2.156,-3.2
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-2.356,-3.4
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-2.556,-3.6
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-2.756,-3.8
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-2.956,-4
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-3.156,-4.2
+Color 100,100,100
+
+[meshbuilder]
+Cylinder 4, 0.2, 0.2, 3
+Rotate 0,1,0,45
+Rotate 1,0,0,90
+Rotate 0,1,0,90
+Translate -10,-3.356,-4.4
+Color 100,100,100
+
+
+[MeshBuilder]
+vertex 2.5,4.7,-10,
+vertex 7.2,4.7,-10,
+vertex 7.2,-0.5,-10,
+vertex 2.5,-0.5,-10,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0
+Coordinates 1,0.7,0
+Coordinates 2,0.7,0.9
+Coordinates 3,0.065,0.9
+
+[MeshBuilder]
+vertex 2.5,-0.5,-10,
+vertex 7.2,-0.5,-10,
+vertex 7.2,-4.5,-10,
+vertex 2.5,-4.5,-10,
+face2 0,1,2,3,
+
+Load keelewall.bmp
+Coordinates 0,0.065,0.1
+Coordinates 1,0.7,0.1
+Coordinates 2,0.7,0.9
+Coordinates 3,0.065,0.9
+
+
+[MeshBuilder]
+vertex -8.5,4.7,-10,
+vertex -13.2,4.7,-10,
+vertex -13.2.2,-0.5,-10,
+vertex -8.5,-0.5,-10,
+face2 0,1,2,3,
+
+
+Load keelewall.bmp
+Coordinates 0,0.065,0.1
+Coordinates 1,0.7,0.1
+Coordinates 2,0.7,0.9
+Coordinates 3,0.065,0.9
+
+[MeshBuilder]
+vertex -8.5,-0.5,-10,
+vertex -13.2,-0.5,-10,
+vertex -13.2.2,-4.5,-10,
+vertex -8.5,-4.5,-10,
+face2 0,1,2,3,
+
+
+Load keelewall.bmp
+Coordinates 0,0.065,0.1
+Coordinates 1,0.7,0.1
+Coordinates 2,0.7,0.9
+Coordinates 3,0.065,0.9
+
+
+[MeshBuilder]
+Vertex -8.5,-0.25,-26
+Vertex 2.5,-0.25,-26
+Vertex 2.5,-0.25,1
+Vertex -8.5,-0.25,1
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,5,0
+Coordinates 2,5,5
+Coordinates 3,0,5
+
+
+
+[MeshBuilder]
+Vertex -12.5,-5.25,-12
+Vertex 12.5,-5.25,-12
+Vertex 12.5,-5.25,0
+Vertex -12.5,-5.25,0
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,5,0
+Coordinates 2,5,5
+Coordinates 3,0,5
+
+
+
+;sign
+[MeshBuilder]
+Vertex 0,0,1.5
+Vertex 0,0.7,1.5
+Vertex 0,0.7,0
+Vertex 0,0,0
+Face2 2,3,0,1
+
+Load keele2.png
+Coordinates 0,0,1
+Coordinates 1,0,0
+Coordinates 2,1,0
+Coordinates 3,1,1
+Translate 4.967,2.35,6
+
+[MeshBuilder]
+Vertex 0,0,1.5
+Vertex 0,0.7,1.5
+Vertex -0.2,0.7,1.5
+Vertex -0.2,0,1.5
+Face2 2,3,0,1
+Color 0,0,0
+Translate -10.967,2.35,6
+
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,0.7,0
+Vertex -0.2,0.7,0
+Vertex -0.2,0,0
+Face2 2,3,0,1
+Color 0,0,0
+Translate -10.967,2.35,6
+
+[MeshBuilder]
+Vertex 0,0,1.5
+Vertex 0,0.7,1.5
+Vertex 0.2,0.7,1.5
+Vertex 0.2,0,1.5
+Face2 2,3,0,1
+Color 0,0,0
+Translate 4.967,2.35,6
+
+[MeshBuilder]
+Vertex 0,0,0
+Vertex 0,0.7,0
+Vertex 0.2,0.7,0
+Vertex 0.2,0,0
+Face2 2,3,0,1
+Color 0,0,0
+Translate 4.967,2.35,6
+
+[MeshBuilder]
+Vertex 0,0,1.5
+Vertex 0,0.7,1.5
+Vertex 0,0.7,0
+Vertex 0,0,0
+Face2 2,3,0,1
+
+Load keele3.png
+Coordinates 0,1,1
+Coordinates 1,1,0
+Coordinates 2,0,0
+Coordinates 3,0,1
+Translate -10.967,2.35,6

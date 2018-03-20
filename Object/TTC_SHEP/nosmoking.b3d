@@ -1,0 +1,58 @@
+;TTC n/s sign
+
+[meshbuilder]
+vertex 0,0,0
+vertex 0,1,0
+vertex .1,1,0
+vertex .1,0,0
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex 0,1,0
+vertex 0,1,1
+vertex .1,1,1
+vertex .1,1,0
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex 0,1,1
+vertex 0,0,1
+vertex .1,0,1
+vertex .1,1,1
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex 0,0,0
+vertex 0,0,1
+vertex .1,0,1
+vertex .1,0,0
+face2 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex 0,0,0
+vertex 0,0,1
+vertex 0,1,1
+vertex 0,1,0
+face 0,1,2,3
+color 0,0,1
+
+[meshbuilder]
+vertex .1,0,0
+vertex .1,0,1
+vertex .1,1,1
+vertex .1,1,0
+face2 0,1,2,3
+
+[texture]
+Load nosmoking.bmp
+Coordinates 0, 0, 1
+Coordinates 1, 1, 1
+Coordinates 2, 1, 0
+Coordinates 3, 0, 0
+
+
+

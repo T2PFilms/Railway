@@ -1,0 +1,23 @@
+[MeshBuilder]
+Vertex 1.135,1.801,0.01
+Vertex 1.68,1.801,0.01
+Vertex 1.68,1.94,0.01
+Vertex 1.135,1.94,0.01
+Face2 3,2,1,0
+Load colon.png,colon.png
+Coordinates 0,0,0
+Coordinates 1,0,0
+Coordinates 2,0,0
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex 0.069,1.801,0.44
+Vertex 0.64,1.801,0.44
+Vertex 0.64,1.94,0.44
+Vertex 0.069,1.94,0.44
+Face2 3,2,1,0
+Load colon.png,colon.png
+Coordinates 0,0,0
+Coordinates 1,0,0
+Coordinates 2,0,0
+Coordinates 3,0,0

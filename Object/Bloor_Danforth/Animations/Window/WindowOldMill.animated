@@ -1,0 +1,15 @@
+[Object]
+States = WindowRainOldMill.csv
+TextureShiftYFunction = -0.05*time
+;TextureShiftXFunction = -0.6*time
+Position = 0.1,0,0
+
+[Object]
+States = WindowOldMill.csv
+Position = 0.1,0,0
+
+[Object]
+States = Windowv1OldMill.csv,Windowv3OldMill.csv,Windowv3OldMill.csv
+StateFunction = value == 0
+RefreshRate = 2
+Position = 0.1,0,0

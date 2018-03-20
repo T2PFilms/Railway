@@ -1,0 +1,12 @@
+[MeshBuilder]
+Vertex 1.135,1.801,0
+Vertex 1.2,1.801,0
+Vertex 1.2,1.94,0
+Vertex 1.135,1.94,0
+Face 3,2,1,0
+Load 8.png,8.png
+Coordinates 0,0,1
+Coordinates 1,1,1
+Coordinates 2,1,0
+Coordinates 3,0,0
+Translate 0.17,0,0

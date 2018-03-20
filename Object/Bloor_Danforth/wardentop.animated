@@ -1,0 +1,27 @@
+[Include]
+wardentop.b3d
+Position = 0,0,0
+
+[Include]
+wardentop.b3d
+Position = 0,0,4
+
+[Include]
+wardentop.b3d
+Position = 0,0,8
+
+[Include]
+wardentop.b3d
+Position = 0,0,12
+
+[Include]
+wardentop.b3d
+Position = 0,0,16
+
+[Include]
+wardentop.b3d
+Position = 0,0,20
+
+[Include]
+wardentop.b3d
+Position = 0,0,24

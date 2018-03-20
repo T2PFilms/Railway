@@ -1,0 +1,130 @@
+[MeshBUilder]
+Vertex -12,-0.25,26
+Vertex 6,-0.25,26
+Vertex 6,-0.25,-1
+Vertex -12,-0.25,-1
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,5,0
+Coordinates 2,5,5
+Coordinates 3,0,5
+
+[MeshBuilder]
+Vertex 4,-0.25,26
+Vertex 4,1.75,26
+Vertex 4,1.75,-1
+Vertex 4,-0.25,-1
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBUilder]
+Vertex 6,-0.25,26
+Vertex 6,1.75,26
+Vertex 6,1.75,-1
+Vertex 6,-0.25,-1
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBUilder]
+Vertex -10,-0.25,26
+Vertex -10,1.75,26
+Vertex -10,1.75,-1
+Vertex -10,-0.25,-1
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBUilder]
+Vertex -12,-0.25,26
+Vertex -12,1.75,26
+Vertex -12,1.75,-1
+Vertex -12,-0.25,-1
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,1,0
+Coordinates 2,1,1
+Coordinates 3,0,1
+
+[MeshBUilder]
+Vertex 4,1.75,26
+Vertex 6,1.75,26
+Vertex 6,1.75,-1
+Vertex 4,1.75,-1
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,5,0
+Coordinates 2,5,5
+Coordinates 3,0,5
+
+[MeshBUilder]
+Vertex -12,1.75,26
+Vertex -10,1.75,26
+Vertex -10,1.75,-1
+Vertex -12,1.75,-1
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,5,0
+Coordinates 2,5,5
+Coordinates 3,0,5
+
+[MeshBUilder]
+Vertex -12,1.75,-1
+Vertex -10,1.75,-1
+Vertex -10,-0.25,-1
+Vertex -12,-0.25,-1
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,5,0
+Coordinates 2,5,5
+Coordinates 3,0,5
+
+[MeshBUilder]
+Vertex 4,1.75,-1
+Vertex 6,1.75,-1
+Vertex 6,-0.25,-1
+Vertex 4,-0.25,-1
+Face2 0,1,2,3
+
+Load Concrete.bmp
+Coordinates 0,0,0
+Coordinates 1,5,0
+Coordinates 2,5,5
+Coordinates 3,0,5
+
+
+;=============
+;Base
+;=============
+[MeshBuilder]
+Cylinder 6, 1, 1, 18
+Load Concrete.bmp
+Translate 5,-9
+
+[MeshBuilder]
+Cylinder 6, 1, 1, 18
+Load Concrete.bmp
+Translate -11,-9

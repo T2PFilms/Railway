@@ -1,0 +1,12 @@
+CreateMeshBuilder,
+Addvertex,0,0,0,
+Addvertex,25,0,0,
+Addvertex,25,0,25,
+Addvertex,0,0,25,
+Addface,3,2,1,0,
+GenerateNormals,
+LoadTexture,BridgeKennedyRoad.png
+SetTextureCoordinates,3, 0, 0,
+SetTextureCoordinates,0, 1, 0,
+SetTextureCoordinates,1, 1, 1,
+SetTextureCoordinates,2, 0, 1,

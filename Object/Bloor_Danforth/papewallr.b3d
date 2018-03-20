@@ -1,0 +1,107 @@
+[MeshBuilder]
+vertex 5,0,0
+vertex 5,4.7,0
+vertex 5,4.7,15
+vertex 5,0,15
+face2 0,1,2,3,
+load wallpape2.bmp
+coordinates 0,2.3,1
+coordinates 1,2.3,0
+coordinates 2,0,0
+coordinates 3,0,1
+
+
+[MeshBuilder]
+vertex 5,0,22
+vertex 5,4.7,22
+vertex 5,4.7,150
+vertex 5,0,150
+face2 0,1,2,3,
+load wallpape2.bmp
+coordinates 0,21,1
+coordinates 1,21,0
+coordinates 2,0,0
+coordinates 3,0,1
+
+;===========================
+;East Exit
+;===========================
+
+[MeshBuilder]
+vertex 5,4.4,15
+vertex 5,4.7,15
+vertex 5,4.7,22
+vertex 5,4.4,22
+face2 0,1,2,3,
+load wallpape2.bmp
+coordinates 0,0.99,0.064
+coordinates 1,0.99,0
+coordinates 2,0.01,0
+coordinates 3,0.01,0.064
+
+
+
+[MeshBuilder]
+vertex 6,0,14
+vertex 6,4.7,14
+vertex 5,4.7,15
+vertex 5,0,15
+face2 0,1,2,3,
+load wallpape2.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,0.1,0
+coordinates 3,0.1,1
+
+[MeshBuilder]
+vertex 6,0,0
+vertex 6,4.7,0
+vertex 6,4.7,14
+vertex 6,0,14
+face2 0,1,2,3,
+load wallpape2.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,2,0
+coordinates 3,2,1
+
+
+[MeshBuilder]
+vertex 9,0,0
+vertex 9,4.7,0
+vertex 9,4.7,19
+vertex 9,0,19
+face2 0,1,2,3,
+load wallpape2.bmp
+coordinates 0,4,1
+coordinates 1,4,0
+coordinates 2,0,0
+coordinates 3,0,1
+
+
+[MeshBuilder]
+vertex 9,0,19
+vertex 9,4.7,19
+vertex 5,4.7,22
+vertex 5,0,22
+face2 0,1,2,3,
+load wallpape2.bmp
+coordinates 0,0,1
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,1
+
+
+
+[MeshBuilder]
+vertex 5,4.4,0
+vertex 9,4.4,0
+vertex 9,4.4,19
+vertex 5,4.4,22
+face2 0,1,2,3,
+Color 0,0,255
+load papetop.bmp
+coordinates 0,0,0.064
+coordinates 1,0,0
+coordinates 2,1,0
+coordinates 3,1,0.064

@@ -1,0 +1,74 @@
+[MeshBuilder]
+Vertex 7.2,4.25,0
+Vertex 7.2,4.25,25
+Vertex 7.2,0,25
+Vertex 7.2,0,0
+Face2 0,1,2,3
+Color 25,25,25
+
+[MeshBuilder]
+Vertex -13.2,4.25,0
+Vertex -13.2,4.25,25
+Vertex -13.2,0,25
+Vertex -13.2,0,0
+Face2 0,1,2,3
+Color 25,25,25
+
+;Glass
+
+[MeshBuilder]
+Vertex 6.5,4.75,0
+Vertex 6.5,4.75,25
+Vertex 7.2,4.25,25
+Vertex 7.2,4.25,0
+Face2 0,1,2,3
+Color 25,25,25
+
+[MeshBuilder]
+Vertex -12.5,4.75,0
+Vertex -12.5,4.75,25
+Vertex -13.2,4.25,25
+Vertex -13.2,4.25,0
+Face2 0,1,2,3
+Color 25,25,25
+
+[MeshBuilder]
+Vertex -12.5,4.75,0
+Vertex -12.5,4.75,25
+Vertex 6.5,4.75,25
+Vertex 6.5,4.75,0
+Face2 0,1,2,3
+Color 25,25,25
+
+[MeshBuilder]
+Vertex -12.5,-0.151,0
+Vertex -12.5,-0.151,25
+Vertex 6.5,-0.151,25
+Vertex 6.5,-0.151,0
+Face2 0,1,2,3
+Color 25,25,25
+
+[MeshBuilder]
+Cylinder 7, 0.2, 0.2, 25
+Rotate 90,0,0,90
+EmissiveColor 255,255,255
+Translate 2,4.79,12.5
+
+[MeshBuilder]
+Cylinder 7, 0.2, 0.2, 25
+Rotate 90,0,0,90
+EmissiveColor 255,255,255
+Translate -8,4.79,12.5
+
+;=============
+;Base
+;=============
+[MeshBuilder]
+Cylinder 6, 1, 1, 18
+Load Concrete.bmp
+Translate 5,-9
+
+[MeshBuilder]
+Cylinder 6, 1, 1, 18
+Load Concrete.bmp
+Translate -11,-9

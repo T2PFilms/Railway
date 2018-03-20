@@ -1,0 +1,41 @@
+[MeshBuilder]
+Vertex -1210, -20.5, -4.75
+Vertex -1210, -20.5, 10
+Vertex 1210, -20.5, 10
+Vertex 1210, -20.5, -4.75
+Face2 0, 1, 2, 3
+Color 100, 100,100
+Load bloorstreeteast.png
+Coordinates 0, 500, 0
+Coordinates 1, 500, 1
+Coordinates 2, 0, 1
+Coordinates 3, 0, 0
+
+[MeshBuilder]
+Vertex -1210, -21, -32
+Vertex -1210, -21, -25
+Vertex 1210, -21, -25
+Vertex 1210, -21, -32
+Face2 0, 1, 2, 3
+Color 70, 70,70
+
+Load track\tunnel1night.bmp
+Coordinates 0, 1, 0
+Coordinates 1, 0, 0
+Coordinates 2, 0, 0
+Coordinates 3, 1, 0
+
+
+[MeshBuilder]
+Vertex -1210, -21, -23
+Vertex -1210, -15, -23
+Vertex 1210, -15, -23
+Vertex 1210, -21, -23
+Face2 0, 1, 2, 3
+Transparent 0, 0, 0
+Color 100, 100,100
+Load ChainFenceDark.bmp
+Coordinates 0, 444, 1
+Coordinates 1, 444, 0
+Coordinates 2, 0, 0
+Coordinates 3, 0, 1

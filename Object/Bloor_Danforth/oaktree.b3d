@@ -1,0 +1,13 @@
+[MeshBuilder]
+Vertex -175, 0, 0
+Vertex -175, 8, 0
+Vertex 175, 8, 0
+Vertex 175, 0, 0
+Face2 0,1,2,3
+Load oaktree.png
+Transparent 0, 0, 0
+coordinates 0, 0, 1
+coordinates 1, 0, 0
+coordinates 2, 76, 0
+coordinates 3, 76, 1
+Scaleall 2,2

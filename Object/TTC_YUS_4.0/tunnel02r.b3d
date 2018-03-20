@@ -1,0 +1,66 @@
+[meshbuilder]
+vertex -6.5,-0.5,0
+vertex  2.5,-0.5,0
+vertex  2.5,-0.5,25
+vertex -6.5,-0.5,25
+face2 0,1,2,3
+
+[texture]
+load concretedark.bmp
+coordinates 0,10,0
+coordinates 1,10,1
+coordinates 2,0,1
+coordinates 3,0,0
+
+[meshbuilder]
+vertex  2.5,4.7,25
+vertex  2.5,-0.5,25
+vertex  2.5,-0.5,0
+vertex  2.5,4.7,0
+face2 0,1,2,3
+
+[texture]
+load concretedark.bmp
+coordinates 0,10,0
+coordinates 1,10,1
+coordinates 2,0,1
+coordinates 3,0,0
+
+[meshbuilder]
+vertex  2.5,4.7,0
+vertex  2.5,4.7,25
+vertex -6.5,4.7,25
+vertex -6.5,4.7,0
+face2 0,1,2,3
+
+[texture]
+load concretedark.bmp
+coordinates 0,10,0
+coordinates 1,10,1
+coordinates 2,0,1
+coordinates 3,0,0
+
+;light
+[meshbuilder]
+vertex 2.5,4.4,2.5
+vertex 2.5,4.7,2.5
+vertex 2.2,4.7,2.5
+vertex 2.2,4.4,2.5
+face2 0,1,2,3
+color 254,254,254
+
+[meshbuilder]
+vertex 2.5,4.4,2.5
+vertex 2.5,4.4,3.5
+vertex 2.2,4.4,3.5
+vertex 2.2,4.4,2.5
+face2 0,1,2,3
+color 254,254,254
+
+[meshbuilder]
+vertex 2.2,4.4,2.5
+vertex 2.2,4.7,2.5
+vertex 2.2,4.7,3.5
+vertex 2.2,4.4,3.5
+face2 0,1,2,3
+color 254,254,254 

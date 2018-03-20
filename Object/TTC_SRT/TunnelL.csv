@@ -1,0 +1,146 @@
+CreateMeshBuilder,
+AddVertex,-2.5, 4.2, 0,
+AddVertex,-1.9, 5.4, 0,
+AddVertex,8.5, 5.4, 0,
+AddVertex,-2.5, 4.2, 27,
+AddVertex,-1.9, 5.4, 27,
+AddVertex,8.5, 5.4, 27,
+AddFace,0, 1, 4, 3,
+AddFace,1, 2, 5, 4,
+;Color 20,20,20
+
+GenerateNormals,
+
+LoadTexture,tunnel.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0.7,
+SetTextureCoordinates,2, 0, 0.4,
+SetTextureCoordinates,5, 12, 0.3,
+SetTextureCoordinates,4, 12, 0.4,
+SetTextureCoordinates,3, 12, 0.7,
+
+
+CreateMeshBuilder,
+AddVertex,-1.9, -0.3, 0,
+AddVertex,-2.5, -0.3, 0,
+AddVertex,-2.5, 4.2, 0,
+AddVertex,-2.6, 4.2, 0,
+AddVertex,-2.6, -0.6, 0,
+
+AddVertex,-1.9, -0.3, 27,
+AddVertex,-2.5, -0.3, 27,
+AddVertex,-2.5, 4.2, 27,
+AddVertex,-2.6, 4.2, 27,
+AddVertex,-2.6, -0.6, 27,
+
+AddFace,0, 1, 6, 5,
+AddFace,1, 2, 7, 6,
+AddFace,2, 3, 8, 7,
+AddFace,3, 4, 9, 8,
+;Color 20,20,20
+
+
+GenerateNormals,
+
+LoadTexture,tunnel.bmp,
+SetTextureCoordinates,0, 0, 1,
+SetTextureCoordinates,1, 0, 0.7,
+SetTextureCoordinates,2, 0, 0.4,
+SetTextureCoordinates,3, 0, 0.3,
+SetTextureCoordinates,4, 0, 0,
+SetTextureCoordinates,9, 12, 0,
+SetTextureCoordinates,8, 12, 0.3,
+SetTextureCoordinates,7, 12, 0.4,
+SetTextureCoordinates,6, 12, 0.7,
+SetTextureCoordinates,5, 12, 1,
+
+CreateMeshBuilder,
+AddVertex,-2.5, -0.3, 0,
+AddVertex,-2.5, 4.2, 0,
+AddVertex,-2.6, 4.2, 0,
+AddVertex,-2.6, -0.3, 0,
+AddFace,0, 1, 2, 3,
+;Color 20,20,20
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.5, 2.5, 5.90,
+AddVertex,-2.5, 2.5, 6.0,
+AddVertex,-2.45,2.5, 5.90,
+AddVertex,-2.45,2.5, 6.0,
+AddVertex,-2.5, 2.45,5.90,
+AddVertex,-2.5, 2.45,6.0,
+AddVertex,-2.45,2.45,5.90,
+AddVertex,-2.45,2.45,6.0,
+AddFace,0,2,6,4,
+AddFace,2,3,7,6,
+AddFace,0,1,3,2,
+AddFace,6,7,5,4,
+;Color 254,254,254
+SetColor,251,221,125,
+
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.5, 2.5, 18.90,
+AddVertex,-2.5, 2.5, 19.0,
+AddVertex,-2.45,2.5, 18.90,
+AddVertex,-2.45,2.5, 19.0,
+AddVertex,-2.5, 2.45,18.90,
+AddVertex,-2.5, 2.45,19.0,
+AddVertex,-2.45,2.45,18.90,
+AddVertex,-2.45,2.45,19.0,
+AddFace,0,2,6,4,
+AddFace,2,3,7,6,
+AddFace,0,1,3,2,
+AddFace,6,7,5,4,
+;Color 254,254,254
+SetColor,251,221,125,
+
+
+;---------------------------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-2.9, 2.5, 5.90,;0
+AddVertex,-2.9, 2.5, 6.0,
+AddVertex,-2.85,2.5, 5.90,;2
+AddVertex,-2.85,2.5, 6.0,
+AddVertex,-2.9, 2.45,5.90,;4
+AddVertex,-2.9, 2.45,6.0,
+AddVertex,-2.85,2.45,5.90,;6
+AddVertex,-2.85,2.45,6.0,
+
+AddFace,0,2,6,4,
+
+;Face 2,3,7,6
+;Face 0,1,3,2
+;Face 6,7,5,4
+;;Color 254,254,254
+;Color 251,221,125
+SetColor,255,255,255,
+
+GenerateNormals,
+
+CreateMeshBuilder,
+AddVertex,-2.9, 2.5, 18.90,
+AddVertex,-2.9, 2.5, 19.0,
+AddVertex,-2.85,2.5, 18.90,
+AddVertex,-2.85,2.5, 19.0,
+AddVertex,-2.9, 2.45,18.90,
+AddVertex,-2.9, 2.45,19.0,
+AddVertex,-2.85,2.45,18.90,
+AddVertex,-2.85,2.45,19.0,
+
+AddFace,0,2,6,4,
+AddFace,2,3,7,6,
+AddFace,0,1,3,2,
+AddFace,6,7,5,4,
+;Color 251,221,125
+SetColor,255,255,255,
+GenerateNormals,
+

@@ -1,0 +1,239 @@
+[MeshBuilder]
+Vertex 3.7,5.75,0
+Vertex 3.7,-0.15,0
+Vertex 3.7,-0.15,25
+Vertex 3.7,5.75,25
+Face2 0,1,2,3
+Color 48,48,48
+Load idk.png
+
+[MeshBuilder]
+Vertex -9.7,5.75,0
+Vertex -9.7,-0.15,0
+Vertex -9.7,-0.15,25
+Vertex -9.7,5.75,25
+Face2 0,1,2,3
+Color 48,48,48
+Load idk.png
+[MeshBuilder]
+Vertex -9.7,5.75,0
+Vertex 3.7,5.75,0
+Vertex 3.7,5.75,25
+Vertex -9.7,5.75,25
+Face2 0,1,2,3
+Color 68,68,68
+Load idk.png
+
+
+
+[MeshBuilder]
+Vertex 2.45,5.75,25
+Vertex 3.7,5.75,25
+Vertex 3.7,-0.25,25
+Vertex 2.45,-0.25,25
+Face2 0,1,2,3
+Color 68,68,68
+Load idk.png
+
+
+
+
+[MeshBuilder]
+Vertex -8.45,5.75,25
+Vertex -9.7,5.75,25
+Vertex -9.7,-0.25,25
+Vertex -8.45,-0.25,25
+Face2 0,1,2,3
+Color 68,68,68
+Load idk.png
+
+
+
+[MeshBuilder]
+Vertex 3.7,5.75,25
+Vertex -9.7,5.75,25
+Vertex -9.7,4.75,25
+Vertex 3.7,4.75,25
+Face2 0,1,2,3
+Color 98,98,98
+Load idk.png
+
+
+[MeshBuilder]
+Vertex 3.7,5.75,25
+Vertex -9.7,5.75,25
+Vertex -9.7,4.75,25
+Vertex 3.7,4.75,25
+Face2 0,1,2,3
+Color 98,98,98
+Load idk.png
+
+
+
+
+;Grassy Hills
+[MeshBuilder]
+Vertex 3.7,-0.15,18.8
+Vertex -9.7,-0.15,18.8
+Vertex -9.7,-9.75,25
+Vertex 3.7,-9.75,25
+Face2 0,1,2,3
+Load GrassGround.png
+Coordinates 0,0,0
+Coordinates 1,0,3
+Coordinates 2,3,3
+Coordinates 3,3,0
+
+[MeshBuilder]
+Vertex 73.7,5.75,15
+Vertex -123.7,5.75,15
+Vertex -123.7,6.5,15
+Vertex 73.7,6.5,15
+Face2 0,1,2,3
+Load GrassGround.png
+Coordinates 0,0,0
+Coordinates 1,0,73
+Coordinates 2,13,73
+Coordinates 3,13,0
+
+
+[MeshBuilder]
+Vertex 3.7,5.75,15
+Vertex 73.7,5.75,15
+Vertex 73.7,-9.75,25
+Vertex 3.7,-9.75,25
+Face2 0,1,2,3
+Load GrassGround.png
+Coordinates 0,0,0
+Coordinates 1,0,13
+Coordinates 2,13,13
+Coordinates 3,13,0
+
+[MeshBuilder]
+Vertex 73.7,5.75,15
+Vertex 273.7,5.75,37
+Vertex 273.7,-9.75,41
+Vertex 73.7,-9.75,25
+Face2 0,1,2,3
+Load GrassGround.png
+Coordinates 0,0,0
+Coordinates 1,0,13
+Coordinates 2,13,13
+Coordinates 3,13,0
+
+[MeshBuilder]
+Vertex 273.7,5.75,37
+Vertex 573.7,5.75,78
+Vertex 573.7,-9.75,81
+Vertex 273.7,-9.75,41
+Face2 0,1,2,3
+Load GrassGround.png
+Coordinates 0,0,0
+Coordinates 1,0,23
+Coordinates 2,23,23
+Coordinates 3,23,0
+
+
+[MeshBuilder]
+Vertex -9.7,5.75,15
+Vertex -123.7,5.75,15
+Vertex -123.7,-9.75,25
+Vertex -9.7,-9.75,25
+Face2 0,1,2,3
+Load GrassGround.png
+Coordinates 0,0,0
+Coordinates 1,0,13
+Coordinates 2,13,13
+Coordinates 3,13,0
+
+
+
+[MeshBuilder]
+Vertex -123.7,5.75,15
+Vertex -353.7,5.75,-9
+Vertex -353.7,-9.75,-5
+Vertex -123.7.7,-9.75,25
+Face2 0,1,2,3
+Load GrassGround.png
+Coordinates 0,0,0
+Coordinates 1,0,13
+Coordinates 2,13,13
+Coordinates 3,13,0
+
+[MeshBuilder]
+Vertex 73.7,10,15
+Vertex -123.7,10,15
+Vertex -123.7,6,15
+Vertex 73.7,6,15
+Face2 0,1,2,3
+Load bushes.png
+Coordinates 0,0,0
+Coordinates 1,0,55
+Coordinates 2,1,55
+Coordinates 3,1,0
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex 73.7,23,15
+Vertex -123.7,23,15
+Vertex -123.7,6,15
+Vertex 73.7,6,15
+Face2 0,1,2,3
+Load oaktree.png
+Coordinates 1,0,0
+Coordinates 2,0,1
+Coordinates 3,15,1
+Coordinates 0,15,0
+Transparent 0,0,0
+
+[MeshBuilder]
+Vertex 73.7,-6,5
+Vertex -123.7,-6,5
+Vertex -123.7,-6,40
+Vertex 73.7,-6,40
+Face 0,1,2,3
+Load Dirt.png,Dirt.png
+Coordinates 0,0,0
+Coordinates 1,0,14
+Coordinates 2,2,14
+Coordinates 3,2,0
+Translate 0,0,15
+
+[MeshBuilder]
+Vertex 273.7,-6,5
+Vertex 73.7,-6,5
+Vertex 73.7,-6,40
+Vertex 273.7,-6,52
+Face 0,1,2,3
+Load Dirt.png,Dirt.png
+Coordinates 0,0,0
+Coordinates 1,0,14
+Coordinates 2,2,14
+Coordinates 3,2,0
+Translate 0,0,15
+
+[MeshBuilder]
+Vertex 573.7,-6,96
+Vertex 273.7,-6,52
+Vertex 273.7,-6,5
+Vertex 573.7,-6,78
+Face 3,2,1,0
+Load Dirt.png,Dirt.png
+Coordinates 0,0,0
+Coordinates 1,0,14
+Coordinates 2,2,14
+Coordinates 3,2,0
+Translate 0,0,15
+
+[MeshBuilder]
+Vertex -123.7,-6,0
+Vertex -353.7,-6,-15
+Vertex -353.7,-6,16
+Vertex -123.7,-6,40
+Face 0,1,2,3
+Load Dirt.png,Dirt.png
+Coordinates 0,0,0
+Coordinates 1,0,14
+Coordinates 2,2,14
+Coordinates 3,2,0
+Translate 0,0,15

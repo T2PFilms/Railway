@@ -1,0 +1,39 @@
+;Toronto Rocket
+
+[Object]
+States = TR Front.b3d
+
+
+[Object]
+States = TR Front End.b3d
+Position = 0,0.42,11.74
+
+[Object]
+States = TR Mid.b3d
+Position = 0,0,-24
+
+
+[Object]
+States = TR Mid.b3d
+Position = 0,0,-48
+
+
+[Object]
+States = TR Mid.b3d
+Position = 0,0,-72
+
+
+[Object]
+States = TR Mid.b3d
+Position = 0,0,-96
+
+
+[Object]
+States = TR rear.b3d
+Position = 0,0,-120
+
+
+[Object]
+States = TR rear end.b3d
+Position = 0,0.42,-132.7
+

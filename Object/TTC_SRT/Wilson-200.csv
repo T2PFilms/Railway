@@ -1,0 +1,120 @@
+;------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-1,5,12.55
+AddVertex,-1,0,12.55
+AddVertex,-0.66,0,10
+AddVertex,-0.66,5,10
+
+AddFace2,0,1,2,3,
+
+LoadTexture,Concrete.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.25, 0,
+SetTextureCoordinates,2, 0.25, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;--------------------------
+;------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-0.66,0,10
+AddVertex,-0.66,5,10
+AddVertex,-0.3 ,5,5
+AddVertex,-0.3 ,0,5
+
+AddFace2,0,1,2,3,
+
+LoadTexture,Concrete.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.9, 0,
+SetTextureCoordinates,2, 0.9, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;--------------------------
+;------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-0.3,0,5
+AddVertex,-0.3,5,5
+AddVertex,0,5,0
+AddVertex,0,0,0
+
+AddFace2,0,1,2,3,
+
+LoadTexture,Concrete.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.9, 0,
+SetTextureCoordinates,2, 0.9, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;--------------------------
+;------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,0,0,0
+AddVertex,0,5,0
+AddVertex,-0.3,5,-5
+AddVertex,-0.3,0,-5
+
+AddFace2,0,1,2,3,
+
+LoadTexture,Concrete.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.9, 0,
+SetTextureCoordinates,2, 0.9, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;--------------------------
+;------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-0.3,0,-5
+AddVertex,-0.3,5,-5
+AddVertex,-0.66,5,-10
+AddVertex,-0.66,0,-10
+
+AddFace2,0,1,2,3,
+
+LoadTexture,Concrete.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.9, 0,
+SetTextureCoordinates,2, 0.9, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;--------------------------
+;------------------
+
+GenerateNormals,
+
+CreateMeshBuilder,
+
+AddVertex,-0.66,0,-10
+AddVertex,-0.66,5,-10
+AddVertex,-1,5,-12.55
+AddVertex,-1,0,-12.55
+
+AddFace2,0,1,2,3,
+
+LoadTexture,Concrete.bmp,
+SetTextureCoordinates,0, 0, 0,
+SetTextureCoordinates,1, 0.9, 0,
+SetTextureCoordinates,2, 0.9, 1,
+SetTextureCoordinates,3, 0, 1,
+
+;--------------------------

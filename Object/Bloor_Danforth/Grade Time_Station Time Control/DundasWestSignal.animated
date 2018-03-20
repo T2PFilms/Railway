@@ -1,0 +1,14 @@
+[Object]
+Position = 0, 0, 0
+States = blank.csv,SignalSingle_GT.csv
+
+[Object]
+Position = 0, 0, -.01
+States = blank.csv, blank.csv, SignalSingle_4.csv
+StateFunction = if[trackDistance>90| section==0, 0,min[value + 0.5*delta/3.5,2]]
+
+[Object]
+Position = 0, 0,0
+States = SignalSingle_0.csv, SignalSingle_X.csv, SignalSingle_4.csv
+StateFunction = if[trackDistance>90 | section==0, 0,if[min[value + 0.5*delta/3.5,2] != 2, floor[mod[TIME * 0.95, 2]],2]]
+

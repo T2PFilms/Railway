@@ -1,0 +1,42 @@
+;Toronto Rocket
+
+[Object]
+States = TR Front.b3d
+Position = 0, 0, 515
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = -distance[1] * 1.02
+[Object]
+States = TR rear end.b3d
+Position = 0,0.42,382.4
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = -distance[1] * 1.02
+[Object]
+States = TR Mid.b3d
+Position = 0, 0, 491.1
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = -distance[1] * 1.02
+[Object]
+States = TR Mid.b3d
+Position = 0, 0, 467.1
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = -distance[1] * 1.02
+[Object]
+States = TR Mid.b3d
+Position = 0, 0, 443.1
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = -distance[1] * 1.02
+[Object]
+States = TR Mid.b3d
+Position = 0, 0, 419.1
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = -distance[1] * 1.02
+[Object]
+States = TR rear.b3d
+Position = 0, 0, 395.1
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = -distance[1] * 1.02
+[Object]
+States = TR Front end.b3d
+Position = 0,0.42,526.7
+StateFunction = if[trackdistance[2]<0,1,0]
+TranslateZFunction = -distance[1] * 1.02

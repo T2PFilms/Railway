@@ -1,0 +1,56 @@
+
+
+CreateMeshBuilder,
+Addvertex,3,-0.15,0,
+Addvertex,3,-0.15,25.5,
+Addvertex,12,-0.15,25.5,
+Addvertex,12,-0.15,0,
+Addface,0,1,2,3,
+;color 184,184,184
+GenerateNormals,
+LoadTexture,grass2.png,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,1,1,
+SetTextureCoordinates,3,0,1,
+
+;Wall
+;Right Side
+CreateMeshBuilder,
+AddVertex,12, 5, 0,
+AddVertex,11, 7, 25.5,
+AddVertex,12, -0.15, 0,
+AddVertex,11, -0.15, 25.5,
+AddFace2,2,3,1,0,
+;Color 220,220,210
+GenerateNormals,
+Setcolor,127,127,127,
+
+;Fence
+;Right Side
+CreateMeshBuilder,
+AddVertex,10.97, 5, 0,
+AddVertex,10.97, 5, 25.5,
+AddVertex,10.97, -0.15, 0,
+AddVertex,10.97, -0.15, 25.5,
+AddFace,2,3,1,0,
+;Color 220,220,210
+GenerateNormals,
+LoadTexture,ChainFence.bmp,
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,5,0,
+SetTextureCoordinates,2,0,1,
+SetTextureCoordinates,3,5,1,
+SetDecalTransparentColor,0,0,0,
+
+CreateMeshBuilder,
+Cube,1,1.5,2,
+SetColor,52,80,116,
+Translate,6,0.5,15,
+
+CreateMeshBuilder,
+Cube,1.2,0.2,2.2,
+SetColor,20,20,20,
+Translate,6,1.83,15,
+
+

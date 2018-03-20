@@ -1,0 +1,8 @@
+1. 0 is left/right (negative left)
+2. next is up down (negative down)
+3. and last is forward backward. (negative backwards.)
+ :))
+
+EXAMPLE: Addvertex,1,2,3
+
+ Don't Add Coding with. If you Do add some Onjects will be messed up and the train will look ugly.

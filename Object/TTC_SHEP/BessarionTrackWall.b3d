@@ -1,0 +1,242 @@
+[MeshBuilder]
+Vertex 2.5,-0.5,110
+Vertex 2.5,-0.5,0
+Vertex 2.5,7,0
+Vertex 2.5,7,110
+Face 3,2,1,0
+Color 175,175,175
+Load stone.png
+Coordinates 0,0,1
+Coordinates 1,30,1,
+Coordinates 2,30,0,
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex -14.5,-0.5,110
+Vertex -14.5,-0.5,0
+Vertex -14.5,7,0
+Vertex -14.5,7,110
+Face 0,1,2,3
+Color 175,175,175
+Load stone.png
+Coordinates 0,0,1
+Coordinates 1,30,1,
+Coordinates 2,30,0,
+Coordinates 3,0,0
+
+[MeshBuilder]
+Vertex 2.5,7,110
+Vertex 2.5,7,0
+Vertex 2.4,8,0
+Vertex 2.4,8,110
+Face 3,2,1,0
+Color 105,91,64
+
+
+[MeshBuilder]
+Vertex 2.4,8,110
+Vertex 2.4,8,0
+Vertex -2.35,8,0
+Vertex -2.35,8,110
+Face 3,2,1,0
+Color 100,86,59
+
+
+
+[MeshBuilder]
+Vertex -14.5,7,110
+Vertex -14.5,7,0
+Vertex -14.4,8,0
+Vertex -14.4,8,110
+Face 0,1,2,3
+Color 100,86,59
+
+[MeshBuilder]
+Vertex -14.4,8,110
+Vertex -14.4,8,0
+Vertex -10.35,8,0
+Vertex -10.35,8,110
+Face 0,1,2,3
+Color 100,86,59
+
+[MeshBuilder]
+Vertex -14.4,8,110
+Vertex -14.4,8,0
+Vertex -10.35,8,0
+Vertex -10.35,8,110
+Face 0,1,2,3
+Color 100,86,59
+
+
+[MeshBuilder]
+Vertex -10.35,7.5,110
+Vertex -10.35,7.5,0
+Vertex -2.35,7.5,0
+Vertex -2.35,7.5,110
+Face 0,1,2,3
+Color 100,100,100
+
+[MeshBuilder]
+Vertex -2.35,7.5,110
+Vertex -2.35,7.5,0
+Vertex -2.35,8,0
+Vertex -2.35,8,110
+Face 0,1,2,3
+Color 42,42,42
+
+
+[MeshBuilder]
+Vertex -10.35,7.5,110
+Vertex -10.35,7.5,0
+Vertex -10.35,8,0
+Vertex -10.35,8,110
+Face 3,2,1,0
+Color 42,42,42
+
+[MeshBuilder]
+Cube 2.5, 0.5, 3
+Color 50,43,29
+Translate 0,8.05,15
+
+[MeshBuilder]
+Cube 2.5, 0.5, 3
+Color 50,43,29
+Translate 0,8.05,35
+
+[MeshBuilder]
+Cube 2.5, 0.5, 3
+Color 50,43,29
+Translate 0,8.05,55
+
+[MeshBuilder]
+Cube 2.5, 0.5, 3
+Color 50,43,29
+Translate 0,8.05,75
+
+[MeshBuilder]
+Cube 2.5, 0.5, 3
+Color 50,43,29
+Translate 0,8.05,95
+
+
+
+[MeshBuilder]
+Cube 2.5, 0.5, 3
+Color 50,43,29
+Translate -12,8.05,15
+
+[MeshBuilder]
+Cube 2.5, 0.5, 3
+Color 50,43,29
+Translate -12,8.05,35
+
+[MeshBuilder]
+Cube 2.5, 0.5, 3
+Color 50,43,29
+Translate -12,8.05,55
+
+[MeshBuilder]
+Cube 2.5, 0.5, 3
+Color 50,43,29
+Translate -12,8.05,75
+
+[MeshBuilder]
+Cube 2.5, 0.5, 3
+Color 50,43,29
+Translate -12,8.05,95
+
+[MeshBuilder]
+Cylinder 12, 0.3, 0.3, 110
+Rotate 1,0,0,90
+Translate 2.5,4.55,55
+Color 97, 44, 63
+
+[MeshBuilder]
+Cylinder 12, 0.3, 0.3, 110
+Rotate 1,0,0,90
+Translate 2.5,4.55,55
+Color 97, 44, 63
+
+
+[MeshBuilder]
+Cylinder 12, 0.3, 0.3, 110
+Rotate 1,0,0,90
+Translate -14.5,4.55,55
+Color 97, 44, 63
+
+;End Wall EastEnd
+[MeshBuilder]
+Vertex -9.5,-0.5,110
+Vertex -2.5,-0.5,110
+Vertex -2.5,7.5,110
+Vertex -9.5,7.5,110
+Face2 0,1,2,3
+Load bessariontile.png,bessariontile.png
+Coordinates 0,0,50
+Coordinates 1,0,0,
+Coordinates 2,50,0,
+Coordinates 3,50,50
+
+
+[MeshBuilder]
+Vertex -2.5,4.7,110
+Vertex 2.5,4.7,110
+Vertex 2.5,8,110
+Vertex -2.5,8,110
+Face2 0,1,2,3
+Load bessariontile.png,bessariontile.png
+Coordinates 0,0,25
+Coordinates 1,0,0,
+Coordinates 2,25,0,
+Coordinates 3,25,25
+
+
+[MeshBuilder]
+Vertex -15.5,4.7,110
+Vertex -9.5,4.7,110
+Vertex -9.5,8,110
+Vertex -15.5,8,110
+Face2 0,1,2,3
+Load bessariontile.png,bessariontile.png
+Coordinates 0,0,25
+Coordinates 1,0,0,
+Coordinates 2,25,0,
+Coordinates 3,25,25
+
+[MeshBuilder]
+Vertex -9.5,-0.5,0
+Vertex -2.5,-0.5,0
+Vertex -2.5,7.5,0
+Vertex -9.5,7.5,0
+Face2 0,1,2,3
+Load bessariontile.png,bessariontile.png
+Coordinates 0,0,50
+Coordinates 1,0,0,
+Coordinates 2,50,0,
+Coordinates 3,50,50
+
+
+[MeshBuilder]
+Vertex -2.5,4.7,0
+Vertex 2.5,4.7,0
+Vertex 2.5,8,0
+Vertex -2.5,8,0
+Face2 0,1,2,3
+Load bessariontile.png,bessariontile.png
+Coordinates 0,0,25
+Coordinates 1,0,0,
+Coordinates 2,25,0,
+Coordinates 3,25,25
+
+
+[MeshBuilder]
+Vertex -15.5,4.7,0
+Vertex -9.5,4.7,0
+Vertex -9.5,8,0
+Vertex -15.5,8,0
+Face2 0,1,2,3
+Load bessariontile.png,bessariontile.png
+Coordinates 0,0,25
+Coordinates 1,0,0,
+Coordinates 2,25,0,
+Coordinates 3,25,25

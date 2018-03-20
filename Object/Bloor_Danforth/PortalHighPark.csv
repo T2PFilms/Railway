@@ -1,0 +1,449 @@
+;Converted from .b3d to .csv by BVE Terminus' B3D to CSV Converter
+CreateMeshBuilder
+AddVertex, 3.5,-0.17,0
+AddVertex, 3.5,-0.17,50
+AddVertex, -9.5,-0.17,50
+AddVertex, -9.5,-0.17,0
+AddFace, 3,2,1,0
+LoadTexture, track\ballast.bmp
+SetTextureCoordinates, 0,15,0
+SetTextureCoordinates, 1,15,6
+SetTextureCoordinates, 2,0,6
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 3.5,-0.16,0
+AddVertex, 3.5,1,0
+AddVertex, 3.5,1,50
+AddVertex, 3.5,-0.16,50
+AddFace, 3,2,1,0
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 3.650,2.75,12
+AddVertex, 3.650,1,12
+AddVertex, 3.650,1,50
+AddVertex, 3.650,2.75,50
+AddFace2, 3,2,1,0
+LoadTexture, chainfence.bmp
+SetTextureCoordinates, 0,15,0
+SetTextureCoordinates, 1,15,1
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,0,0
+SetDecalTransparentColor, 0,0,0
+
+CreateMeshBuilder
+AddVertex, 3.5,-0.16,0
+AddVertex, 3.5,1,0
+AddVertex, 3.75,1,0
+AddVertex, 3.75,-0.16,0
+AddFace, 0,1,2,3
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 3.5,-0.16,50
+AddVertex, 3.5,1,50
+AddVertex, 3.75,1,50
+AddVertex, 3.75,-0.16,50
+AddFace, 3,2,1,0
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 3.75,1,0
+AddVertex, 3.5,1,0
+AddVertex, 3.5,1,50
+AddVertex, 3.75,1,50
+AddFace, 0,1,2,3
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+
+CreateMeshBuilder
+AddVertex, 3.75,-0.16,0
+AddVertex, 3.75,1,0
+AddVertex, 3.75,1,50
+AddVertex, 3.75,-0.16,50
+AddFace, 0,1,2,3
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+;Unique
+CreateMeshBuilder
+AddVertex, 3.5,0.3,0
+AddVertex, 3.2,0.1,0
+AddVertex, 3.2,0.1,50
+AddVertex, 3.5,0.3,50
+AddFace, 0,1,2,3
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 3.2,-0.16,0
+AddVertex, 3.2,0.1,0
+AddVertex, 3.2,0.1,50
+AddVertex, 3.2,-0.16,50
+AddFace,3,2,1,0,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 3.7,2.2,-1
+AddVertex, 3.7,1,-1
+AddVertex, 3.7,1,12.5
+AddVertex, 3.7,2.2,12.5
+AddFace, 0,1,2,3,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,1,0
+SetTextureCoordinates, 1,1,1
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex,3.7,2.2,0
+AddVertex,6,2.2,0
+AddVertex,6,2.2,12
+AddVertex,3.7,2.2,12
+AddFace,0,1,2,3,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,1,0
+SetTextureCoordinates, 1,1,1
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 3.650,3.75,0
+AddVertex, 3.650,2.2,0
+AddVertex, 3.650,2.2,12
+AddVertex, 3.650,3.75,12
+AddFace2, 3,2,1,0
+LoadTexture, chainfence.bmp
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,1
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,0,0
+SetDecalTransparentColor, 0,0,0
+;-----
+CreateMeshBuilder
+AddVertex, -9.5,-0.16,0
+AddVertex, -9.5,1,0
+AddVertex, -9.5,1,50
+AddVertex, -9.5,-0.16,50
+AddFace,0,1,2,3,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, -9.650,2.75,12
+AddVertex, -9.650,1,12
+AddVertex, -9.650,1,50
+AddVertex, -9.650,2.75,50
+AddFace2, 3,2,1,0
+LoadTexture, chainfence.bmp
+SetTextureCoordinates, 0,15,0
+SetTextureCoordinates, 1,15,1
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,0,0
+SetDecalTransparentColor, 0,0,0
+
+CreateMeshBuilder
+AddVertex, -9.5,-0.16,0
+AddVertex, -9.5,1,0
+AddVertex, -9.75,1,0
+AddVertex, -9.75,-0.16,0
+AddFace, 0,1,2,3
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, -9.5,-0.16,50
+AddVertex, -9.5,1,50
+AddVertex, -9.75,1,50
+AddVertex, -9.75,-0.16,50
+AddFace,0,1,2,3,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, -9.75,1,0
+AddVertex, -9.5,1,0
+AddVertex, -9.5,1,50
+AddVertex, -9.75,1,50
+AddFace,3,2,1,0,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+
+CreateMeshBuilder
+AddVertex, -9.75,-0.16,0
+AddVertex, -9.75,1,0
+AddVertex, -9.75,1,50
+AddVertex, -9.75,-0.16,50
+AddFace,3,2,1,0,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+;Unique
+CreateMeshBuilder
+AddVertex, -9.5,0.3,0
+AddVertex, -9.2,0.1,0
+AddVertex, -9.2,0.1,50
+AddVertex, -9.5,0.3,50
+AddFace,3,2,1,0,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, -9.2,-0.16,0
+AddVertex, -9.2,0.1,0
+AddVertex, -9.2,0.1,50
+AddVertex, -9.2,-0.16,50
+AddFace,3,2,1,0,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, -9.7,2.2,-1
+AddVertex, -9.7,1,-1
+AddVertex, -9.7,1,12.5
+AddVertex, -9.7,2.2,12.5
+AddFace,3,2,1,0,
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,1,0
+SetTextureCoordinates, 1,1,1
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, -9.650,3.75,0
+AddVertex, -9.650,2.2,0
+AddVertex, -9.650,2.2,12
+AddVertex, -9.650,3.75,12
+AddFace2, 3,2,1,0
+LoadTexture, chainfence.bmp
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,1
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,0,0
+SetDecalTransparentColor, 0,0,0
+
+;Portal
+CreateMeshBuilder
+AddVertex, 3.5,4.7,0
+AddVertex, 3.5,6.25,0
+AddVertex, -9.5,6.25,0
+AddVertex, -9.5,4.7,0
+AddFace, 0,1,2,3
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 3.75,6.25,0
+AddVertex, 3.75,6.25,-0.1
+AddVertex, -9.5,6.25,-0.1
+AddVertex, -9.5,6.25,0
+AddFace, 0,1,2,3
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, -9.5,4.7,0
+AddVertex, -9.5,-0.25,0
+AddVertex, -8.5,-0.25,0
+AddVertex, -8.5,4.7,0
+AddFace, 0,1,2,3
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+CreateMeshBuilder
+AddVertex, 3.5,4.7,0
+AddVertex, 3.5,-0.25,0
+AddVertex, 2.5,-0.25,0
+AddVertex, 2.5,4.7,0
+AddFace, 3,2,1,0
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+
+CreateMeshBuilder
+AddVertex, 3.62,8,0
+AddVertex, 3.62,6.25,0
+AddVertex, -9.62,6.25,0
+AddVertex, -9.62,8,0
+AddFace2, 3,2,1,0
+LoadTexture, chainfence.bmp
+SetTextureCoordinates, 0,10,0
+SetTextureCoordinates, 1,10,1
+SetTextureCoordinates, 2,0,1
+SetTextureCoordinates, 3,0,0
+SetDecalTransparentColor, 0,0,0
+Translate, 0,0,-0.05
+
+CreateMeshBuilder
+AddVertex, 3.5,-0.16,0
+AddVertex, 3.5,6.25,0
+AddVertex, 3.75,6.25,0
+AddVertex, 3.75,-0.16,0
+AddFace, 0,1,2,3
+SetColor, 100,90,80
+LoadTexture, idk.png
+SetTextureCoordinates, 0,5,0
+SetTextureCoordinates, 1,5,3
+SetTextureCoordinates, 2,0,3
+SetTextureCoordinates, 3,0,0
+
+;Greenery
+CreateMeshBuilder,
+Addvertex,3.7,-0.1,0,
+Addvertex,5,-4,0,
+Addvertex,5,-4,50,
+Addvertex,3.7,-0.1,50,
+Addface,3,2,1,0,
+GenerateNormals,
+LoadTexture,GrassGround.png,
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,
+
+CreateMeshBuilder,
+Addvertex,5,-4,0,
+Addvertex,50,-4,0,
+Addvertex,50,-4,50,
+Addvertex,5,-4,50,
+Addface,3,2,1,0,
+GenerateNormals,
+LoadTexture,GrassGround.png,
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,
+
+CreateMeshBuilder,
+Addvertex,3.5,-1,0,
+Addvertex,50,-1,0,
+Addvertex,50,6.3,0,
+Addvertex,3.5,6.3,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,GrassGround.png,
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,
+
+CreateMeshBuilder,
+Addvertex,3.7,-1,0,
+Addvertex,50,-1,0,
+Addvertex,50,-4,15,
+Addvertex,3.7,-4,15,
+Addface,3,2,1,0,
+GenerateNormals,
+LoadTexture,GrassGround.png,
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,
+
+CreateMeshBuilder,
+Addvertex,-50,2,0,
+Addvertex,-9.5,2,0,
+Addvertex,-9.5,-4,15,
+Addvertex,-50,-4,15,
+Addface,3,2,1,0,
+GenerateNormals,
+LoadTexture,GrassGround.png,
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,
+
+CreateMeshBuilder,
+Addvertex,-50,-1,0,
+Addvertex,-9.5,-1,0,
+Addvertex,-9.5,6.3,0,
+Addvertex,-50,6.3,0,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,GrassGround.png,
+SetTextureCoordinates,0,2,2,
+SetTextureCoordinates,1,2,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,2,

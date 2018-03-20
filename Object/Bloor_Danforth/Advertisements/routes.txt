@@ -1,0 +1,66 @@
+=============================
+Expanded all-day every-day service routes:
+=============================
+5 Avenue Rd.
+6 Bay
+8 Broadview
+9 Bellamy
+14 Glencairn
+15 Evans
+20 Cliffside
+26 Dupont
+28 Bayview South (new)
+30 Lambton
+32D Eglinton West
+33 Forest Hill
+51 Leslie
+56 Leaside
+59 Maple Leaf
+61 Avenue Rd. North
+62 Mortimer
+72C Pape
+73B Royal York
+74 Mt. Pleasant
+80B Queensway
+94 Wellesley
+98 Willowdale Senlac
+100 Flemingdon Park (new)
+101 Downsview Park
+103 Mt. Pleasant North
+105 Dufferin North
+115 Silver Hills
+120 Calvington
+124 Sunnybrook
+127 Davenport
+132 Milner
+135 Gerrard
+162 Lawrence-Donway
+169 Huntingwood
+172 Cherry Street
+
+=============================
+Expanded service routes:
+=============================
+39B Finch East; 42A Cummer; 43B Kennedy; 76B Royal York South; 79B Scarlett Rd.; 112C West Mall; 167 Pharmacy North.
+
+=============================
+New and expanded overnight (Blue Night) routes:
+=============================
+300 Bloor-Danforth extended from Warden Ave. to Kennedy Station
+325 Don Mills changed to serve both Pape and Carlaw avenues instead of Broadview Ave.
+329 Dufferin extended north from Wilson Ave. to Steeles Ave.
+334 Eglinton East changed to run from Eglinton Station to Finch Ave. via Neilson Rd.
+315 Evans-Brown’s Line is a new route from Royal York Station to Long Branch via Royal York Rd., Evans, Sherway and Browns Line
+335 Jane extended north to York University and south to Jane Station
+341 Keele is a new route from Keele Station to York University and Steeles Ave.
+343 Kennedy is a new route from Kennedy Station to Steeles Ave.
+304 King is a new route from Dundas West Station to Broadview Station
+302 Kingston Rd.-McCowan changed to run from Kingston Rd. to Steeles Ave. via Kingston Rd.
+354 Lawrence East changed to run from Eglinton Station to Starspray
+352 Lawrence West extended to Pearson Airport and Sunnybrook Hospital
+365 Parliament is a new route from Castle Frank Station to the Esplanade
+312 St. Clair-Junction changed to run to Dundas West Station via Dundas
+384 Sheppard West is a new route from Sheppard-Yonge Station to Weston Rd.
+317 Spadina is a new route from Spadina Station to Union Station
+353 Steeles extended from Yonge St. to York University and from Markham Rd. to Staines Rd. and Finch Ave.
+395 York Mills changed to run from York Mills Station to Meadowvale Rd.

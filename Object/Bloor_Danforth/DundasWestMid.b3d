@@ -1,0 +1,13 @@
+[MeshBuilder]
+Vertex -2.5,0,0
+Vertex -2.5,4.25,0
+Vertex -5.5,4.25,0
+Vertex -5.5,0,0
+Face2 0,1,2,3
+
+Load base.bmp
+Coordinates 0,0,3
+Coordinates 1,0,0
+Coordinates 2,3,0
+Coordinates 3,3,3
+Transparent 0, 0, 0,
