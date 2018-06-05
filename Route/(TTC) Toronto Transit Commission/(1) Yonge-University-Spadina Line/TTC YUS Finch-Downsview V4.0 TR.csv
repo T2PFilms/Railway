@@ -445,7 +445,8 @@ With Structure
 ;Bloor Danforth Imports
 .freeobj(259) TTC_YUS_4.0\chainlfl.csv,
 .freeobj(260) TTC_YUS_4.0\chainlfr.csv
-.freeobj (5050) TTC_YUS_4.0\OneStop v2.0\OneStop2.0.Animated
+.freeobj(5050) TTC_YUS_4.0\OneStop v2.0\OneStop2.0.Animated
+.freeobj(5051) TTC_YUS_4.0\Trash.csv
 ,,,,,,,,,,,,,,,,,,,,,,
 
 ;ADVERTISEMENTS
@@ -625,6 +626,7 @@ With Track
 00000,.ground 0  ,.back 0 ,.Brightness 255 ,.height 0  ,.pitch 0  ,.railstart 1;12;0;2  ,.Sta Finch;14.5930;;0;1;1;0;;10;90;  ,.freeobj 0;5;0;0;0 ,.form 0;1;0  ,.freeobj 1;79;2.5 ,.railtype 0;1 ,.freeobj 0;256;12
 00025,.form 0;1;0  ,.freeobj 1;79;2.5 ,.freeobj 0;79;-2.5;;180,.freeobj 0;256;12
 00030,.freeobj 0;48;2;3.6
+00032,.freeobj 0;5051;0
 00040,.doppler TTC_YUS_4.0\FinchBuses.wav
 00050,.form 0;1;0  ,.freeobj 1;79;2.5,.freeobj 0;79;-2.5;;180,.freeobj 0;267;12 
 00055,.freeobj 0;186;2.90;4.4
@@ -2693,7 +2695,7 @@ With Track
 31575,.freeobj 0;45;2;2.2,.railtype 0;4  ,.rail 1;12;0  ,.rail 2;12;0  ,.rail 3;0  ,.dikeend 3    ,.railend 3  ,.pitch 0  ,.Curve 0  ,.dike 0;0;1  ,.dike 1;-1;8 ,.freeobj 0;2101;;;180
 31582,.freeobj 1;300;2.2;3.5;0   ,.brightness 50
 ;========================================================================================
-; Downsview 31600
+; Sheppard-West 31600
 ;========================================================================================
 
 31599,.freeobj 1;5,.freeobj 1;602;-2.2;3.5;180  ,.freeobj 0;600;-2.2;3.5;180 ,.brightness 255
@@ -2714,10 +2716,15 @@ With Track
 ;============================================
 31751
 31755,.Signal 5;Downsview;2.1;7 
+31875,.curve -750
+32150,.curve 0,
+
 32200,.announce TTC_YUS_TR\error.wav
 32300,.freeobj 0;248;2.5;0;-90
+32350,.curve -1000
 32400,.announce TTC_YUS_TR\sheppardwest.wav
 32500,.freeobj 0;257;2.5;0;-90
+32625,.curve 0,
 32680,.announce TTC_YUS_TR\downsviewpark.wav
 32700,.freeobj 0;261;2.5;0;-90 ,.announce TTC_YUS_TR\AItrains.wav,.marker TTC_YUS_4.0\academy.bmp;1100
-
+32800 ,.dikeend 0, dikeend 1,
