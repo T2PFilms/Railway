@@ -2675,7 +2675,7 @@ With Track
 31449,.freeobj 0;502;2.29;1,.freeobj 0;511;2.22;0.73,.freeobj 0;516;2.33;0.73
 31450,.sigf 22;1;2.2;2.8,.Beacon(108; 5; 0; 16),; Sc-0 
 31447 ,.freeobj 0;255;2.2;-1,.limit 40 
-31450,.railstart 2;0;0;8  ,.railstart 3;-12;0;4  ,.curve -200  ,.Dike 0;-1;1  ,.Dikeend 1    ,.dike 3;-1;1  ,.dike 2;1;1  ,.railtype 0;8  ,.railtype 1;2 ,.freeobj 2;2101 ,.announce TTC_YUS\crossdon3.wav;50
+31450,.railstart 1;0;0;8  ,.railstart 2;-12;0;4  ,.curve 0  ,.Dike 0;-1;1  ,.Dikeend 1    ,.dike 3;-1;1  ,.dike 2;1;1  ,.railtype 0;8  ,.railtype 1;2 ,.freeobj 2;2101 ,.announce TTC_YUS\crossdon3.wav;50
 31451,.announce TTC_YUS\crossdon2.wav;50
 31475,.Rail 1;-9.5;;2  ,.rail 2;1.5;;3  ,.rail 3;-10.5   ,.curve 0 ,.railtype 0;2 ,.Dikeend 0 ,.freeobj 0;5008 ,.freeobj 1;5009
 31490,.freeobj 0;5009 ,.freeobj 1;5008
@@ -2684,16 +2684,16 @@ With Track
 
 31510,.announce TTC_YUS\crossdon2.wav;50
 31520,.freeobj 0;5008 ,.freeobj 1;5009
-31525,.rail 1;3 ,.rail 2;7.5 ,.rail 3;-4.5
+31525,.rail 1;3 ,.rail 1;3 ,.rail 1;3
 31535,.freeobj 0;5009 ,.freeobj 1;5008
-31550,.curve 200  ,.railtype 0;8 ,.Rail 1;9;0;2  ,.rail 2;10.5;0  ,.rail 3;-1.55;;8 ,.dike 0;1;1  ,.dike 1;-1;8 ,.freeobj 2;5013;-2.4
+31550,.curve 0  ,.railtype 0;8 ,.Rail 2;9;0;2  ,.rail 1;10.5;0  ,.rail 3;-1.55;;8 ,.dike 0;1;1  ,.dike 1;-1;8 ,.freeobj 2;5013;-2.4
 31551,.announce TTC_YUS\crossdon1.wav;50
 31552,.announce TTC_YUS\crossdon2.wav;50
 31555
 31575,.freeobj 0;45;2;2.2,.railtype 0;4  ,.rail 1;12;0  ,.rail 2;12;0  ,.rail 3;0  ,.dikeend 3    ,.railend 3  ,.pitch 0  ,.Curve 0  ,.dike 0;0;1  ,.dike 1;-1;8 ,.freeobj 0;2101;;;180
 31582,.freeobj 1;300;2.2;3.5;0   ,.brightness 50
 ;========================================================================================
-; Downsview 31600
+; Sheppard West 31600
 ;========================================================================================
 
 31599,.freeobj 1;5,.freeobj 1;602;-2.2;3.5;180  ,.freeobj 0;600;-2.2;3.5;180 ,.brightness 255
@@ -2709,15 +2709,34 @@ With Track
 31749,.freeobj 1;14 
 31750,.Wallend 0  ,.wallend 1  ,.Dike 0;0;9  ,.dike 1;0;0  ,.Freeobj 1;15;-5;5  ,.Freeobj 1;15;0;5  ,.Freeobj 1;15;7;5  ,.freeobj 0;130  ,.freeobj 1;130;-4 ,.railtype 0;4,.railtype 1;3,.sigf 20;;2.2;3.6
 
-;============================================
-; Tail tracks 31750
-;============================================
+;========================================================================================
+;========================================================================================
 31751
 31755,.Signal 5;Downsview;2.1;7 
-32200,.announce TTC_YUS\error.wav
-32300,.freeobj 0;248;2.5;0;-90
-32400,.announce TTC_YUS\sheppardwest.wav
-32500,.freeobj 0;257;2.5;0;-90
-32680,.announce TTC_YUS\downsviewpark.wav
-32700,.freeobj 0;261;2.5;0;-90 ,.announce TTC_YUS\AItrains.wav,.marker TTC_YUS_4.0\academy.bmp;1100
+31850,.curve -160
+32020,.curve 0
+32250,.curve -500
+32450,.curve 0
+32650,.Dikeend 0  ,.Dikeend 1 
+;========================================================================================
+; Downsview Park 32650
+;========================================================================================
 
+;========================================================================================
+;========================================================================================
+32800,.Dike 0;0;9  ,.dike 1;0;0
+32850,.curve 350
+33650,.curve 0
+34125,.Dikeend 0  ,.Dikeend 1 
+34200,.Dike 0;0;9  ,.dike 1;0;0
+34225,.Dikeend 0  ,.Dikeend 1 
+;========================================================================================
+; Finch West
+;========================================================================================
+
+;========================================================================================
+;========================================================================================
+34375,.Dike 0;0;9  ,.dike 1;0;0
+34675,.Dikeend 0  ,.Dikeend 1 ,.Dikeend 0  ,.Dikeend 1 
+34700,.Dike 0;0;9  ,.dike 1;0;0f
+34750,.curve -500
