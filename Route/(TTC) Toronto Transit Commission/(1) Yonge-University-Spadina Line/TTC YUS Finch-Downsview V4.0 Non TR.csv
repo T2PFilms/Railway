@@ -2692,40 +2692,39 @@ With Track
 31399,.freeobj 0;255;2.2;-1
 31399,.freeobj 0;502;2.29;1.1,.freeobj 0;511;2.22;0.83,.freeobj 0;518;2.33;0.83
 31400,.sigf 21;1;2.2;2.8,.Beacon(108; 5; 0; 5),; Sc-0 
-31415
 31443,.announce TTC_YUS\downsview1.wav,
 31449,.freeobj 0;502;2.29;1,.freeobj 0;511;2.22;0.73,.freeobj 0;516;2.33;0.73
-31450,.sigf 22;1;2.2;2.8,.Beacon(108; 5; 0; 16),; Sc-0 
+31450,.sigf 22;1;2.2;2.8,.Beacon(108; 5; 0; 16),; Sc-0 ,.freeobj 0;2101;;;
 31447 ,.freeobj 0;255;2.2;-1,.limit 40 
-31450,.railstart 1;0;0;8  ,.railstart 2;-12;0;4  ,.curve 0  ,.Dike 0;-1;1  ,.Dikeend 1    ,.dike 3;-1;1  ,.dike 2;1;1  ,.railtype 0;8  ,.railtype 1;2 ,.freeobj 2;2101 ,.announce TTC_YUS\crossdon3.wav;50
+31450,.railstart 1;-9.5;0;8  ,.curve 0  ,.Dike 0;-1;1  ,.Dikeend 1    ,.dike 3;-1;1  ,.dike 2;1;1  ,.railtype 0;8  ,.railtype 1;2 ,.freeobj 2;2101 ,.announce TTC_YUS\crossdon3.wav;50
 31451,.announce TTC_YUS\crossdon2.wav;50
-31475,.Rail 1;-9.5;;2  ,.rail 2;1.5;;3  ,.rail 3;-10.5   ,.curve 0 ,.railtype 0;2 ,.Dikeend 0 ,.freeobj 0;5008 ,.freeobj 1;5009
+31475,.Rail 1;-9.5;;2 ,.curve 0 ,.railtype 0;2 ,.Dikeend 0 ,.freeobj 0;5008 ,.freeobj 1;5009
 31490,.freeobj 0;5009 ,.freeobj 1;5008
-31500,.Rail 1;-3  ,.rail 2;4.5  ,.rail 3;-7.5  ,.railtype 0;2 ,.railtype 1;2
+31500,.Rail 1;-9.5 ,.railtype 0;2 ,.railtype 1;2
 31506,.freeobj 2;5012 ,.freeobj 3;5012;5.5
 
 31510,.announce TTC_YUS\crossdon2.wav;50
 31520,.freeobj 0;5008 ,.freeobj 1;5009
-31525,.rail 1;3 ,.rail 1;3 ,.rail 1;3
+
 31535,.freeobj 0;5009 ,.freeobj 1;5008
-31550,.curve 0  ,.railtype 0;8 ,.Rail 2;9;0;2  ,.rail 1;10.5;0  ,.rail 3;-1.55;;8 ,.dike 0;1;1  ,.dike 1;-1;8 ,.freeobj 2;5013;-2.4
+31550,.curve 0,.dike 0;1;1  ,.dike 1;-1;8 ,.freeobj 2;5013;-2.4
 31551,.announce TTC_YUS\crossdon1.wav;50
 31552,.announce TTC_YUS\crossdon2.wav;50
 31555
-31575,.freeobj 0;45;2;2.2,.railtype 0;4  ,.rail 1;-15;0  ,.rail 2;12;0  ,.rail 3;0  ,.dikeend 3    ,.railend 3  ,.pitch 0  ,.Curve 0  ,.dike 0;0;1  ,.dike 1;-1;8 ,.freeobj 0;2101;;;180
+31575,.freeobj 0;45;2;2.2,.railtype 0;4  ,.rail 1;-15;0,.dikeend 3    ,.railend 3  ,.pitch 0  ,.Curve 0  ,.dike 0;0;1  ,.dike 1;-1;8 
 31582,.freeobj 1;300;2.2;3.5;0   ,.brightness 50
 ;========================================================================================
 ; Sheppard West 31600
 ;========================================================================================
 
 31599,.freeobj 1;5,.freeobj 1;602;-2.2;3.5;180  ,.freeobj 0;600;-2.2;3.5;180 ,.brightness 255
-31600,.Freeobj 1;15;-5;5  ,.Freeobj 1;15;0;5  ,.Freeobj 1;15;7;5  ,.freeobj 0;130  ,.freeobj 1;130;-4 ,.Sta Downsview;;;1;1;1;0;;1; ,.Dikeend 2  ,.railend 2 ,.Freeobj 0;247   ,.Dikeend 0  ,.Dikeend 1  ,.wall 0;-1;2  ,.wall 1;1;2  ,.Form 1;-1;0  ,.Form 0;1;0   ,.sigf 12;1;2.2;3.4,.Beacon(108; 6; 0; -6) ,.freeobj 0;101 ,.freeobj 0;62;2;3.6
-,.railtype 0;1  ,.railtype 1;0 ,.freeobj 1;14 ,.Beacon(108; 5; 0; 1)
-31625,.freeobj 1;245;-5  ,.freeobj 0;242;1, .Form 1;-1;0  ,.Form 0;1;0   ,.Freeobj 0;247  ,.freeobj 1;13 ,.sigf 3;;5;10
-31650,.Form 1;-1;0  ,.Form 0;1;0    ,.Freeobj 0;247  
-31675,.Form 1;-1;0  ,.Form 0;1;0   ,.Freeobj 0;247  ,.freeobj 1;16 
-31700,.Form 1;-1;0  ,.Form 0;1;0   ,.Freeobj 0;247  ,.freeobj 1;13 ,.freeobj 0;46;1.5;-0.144;30 
-31725,.Form 1;-1;0  ,.Form 0;1;0   ,.Freeobj 0;247 
+31600,.Freeobj 1;15;-5;5  ,.Freeobj 1;15;0;5  ,.Freeobj 1;15;7;5  ,.freeobj 0;130  ,.freeobj 1;130;-4 ,.Sta Downsview;;;1;1;1;0;;1; ,.Dikeend 2  ,.railend 2 ,.Freeobj 0;247   ,.Dikeend 0  ,.Dikeend 1  ,.wall 1;-1;2;  ,.wall 0;1;2  ,.Form 0;1;0   ,.sigf 12;1;2.2;3.4,.Beacon(108; 6; 0; -6) ,.freeobj 0;101 ,.freeobj 0;62;2;3.6
+,.railtype 0;1  ,.railtype 1;0 ,.freeobj 1;14 ,.Beacon(108; 5; 0; 1),.freeobj 1;2101;;;180
+31625,.freeobj 1;245;-5  ,.freeobj 0;242;1,  ,.Form 0;1;0   ,.Freeobj 0;247  ,.freeobj 1;13 ,.sigf 3;;5;10
+31650 ,.Form 0;1;0    ,.Freeobj 1;247;3
+31675  ,.Form 0;1;0   ,.Freeobj 0;247  ,.freeobj 1;16 
+31700  ,.Form 0;1;0   ,.Freeobj 0;247  ,.freeobj 1;13 ,.freeobj 0;46;1.5;-0.144;30 
+31725  ,.Form 0;1;0   ,.Freeobj 0;247 
 31735,.freeobj 1;110 
 31740,.Freeobj 1;253;2.2;-0.2,.Stop 0  ,.freeobj 0;46;1.5;-0.144;30   ,.freeobj 1;265;;0.5 ,.freeobj 0;262;-4.9;0.5
 31749,.freeobj 1;14 
