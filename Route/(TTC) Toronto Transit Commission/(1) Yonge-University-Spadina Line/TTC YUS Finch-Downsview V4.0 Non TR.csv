@@ -2718,13 +2718,13 @@ With Track
 ;========================================================================================
 
 31599,.freeobj 1;5,.freeobj 1;602;-2.2;3.5;180  ,.freeobj 0;600;-2.2;3.5;180 ,.brightness 255
-31600,.Freeobj 1;15;-5;5  ,.Freeobj 1;15;0;5  ,.Freeobj 1;15;7;5  ,.freeobj 0;130  ,.freeobj 1;130;-4 ,.Sta Downsview;;;1;1;1;0;;1; ,.Dikeend 2  ,.railend 2 ,.Freeobj 0;247   ,.Dikeend 0  ,.Dikeend 1  ,.wall 1;-1;2;  ,.wall 0;1;2  ,.Form 0;1;0   ,.sigf 12;1;2.2;3.4,.Beacon(108; 6; 0; -6) ,.freeobj 0;101 ,.freeobj 0;62;2;3.6
+31600,.Freeobj 1;15;-5;5  ,.Freeobj 1;15;0;5  ,.Freeobj 1;15;7;5  ,.freeobj 0;130  ,.freeobj 1;130;-4 ,.Sta Downsview;;;1;1;1;0;;1; ,.Dikeend 2  ,.railend 2 ,.Freeobj 1;247;3  ,.Dikeend 0  ,.Dikeend 1  ,.wall 1;-1;2;  ,.wall 0;1;2  ,.Form 0;1;0   ,.sigf 12;1;2.2;3.4,.Beacon(108; 6; 0; -6) ,.freeobj 0;101 ,.freeobj 0;62;2;3.6
 ,.railtype 0;1  ,.railtype 1;0 ,.freeobj 1;14 ,.Beacon(108; 5; 0; 1),.freeobj 1;2101;;;180
-31625,.freeobj 1;245;-5  ,.freeobj 0;242;1,  ,.Form 0;1;0   ,.Freeobj 0;247  ,.freeobj 1;13 ,.sigf 3;;5;10
+31625,.freeobj 1;245;-5  ,.freeobj 0;242;1,  ,.Form 0;1;0 ,.Freeobj 1;247;3  ,.freeobj 1;13 ,.sigf 3;;5;10
 31650 ,.Form 0;1;0    ,.Freeobj 1;247;3
-31675  ,.Form 0;1;0   ,.Freeobj 0;247  ,.freeobj 1;16 
-31700  ,.Form 0;1;0   ,.Freeobj 0;247  ,.freeobj 1;13 ,.freeobj 0;46;1.5;-0.144;30 
-31725  ,.Form 0;1;0   ,.Freeobj 0;247 
+31675  ,.Form 0;1;0   ,.Freeobj 1;247;3  ,.freeobj 1;16 
+31700  ,.Form 0;1;0  ,.Freeobj 1;247;3 ,.freeobj 1;13 ,.freeobj 0;46;1.5;-0.144;30 
+31725  ,.Form 0;1;0  ,.Freeobj 1;247;3 
 31735,.freeobj 1;110 
 31740,.Freeobj 1;253;2.2;-0.2,.Stop 0  ,.freeobj 0;46;1.5;-0.144;30   ,.freeobj 1;265;;0.5 ,.freeobj 0;262;-4.9;0.5
 31749,.freeobj 1;14 
