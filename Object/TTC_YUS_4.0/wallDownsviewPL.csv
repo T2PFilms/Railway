@@ -63,4 +63,17 @@ SetTextureCoordinates,2,0,0,
 SetTextureCoordinates,3,0,1,
 SetTextureCoordinates,0,1,1,
 SetDecalTransparentColor,0,255,0,
+
+CreateMeshBuilder,
+Addvertex,-2.55,20,0,
+Addvertex,-2.55,7.5,0,
+Addvertex,-2.55,7.5,25,
+Addvertex,-2.55,20,25,
+Addface,0,1,2,3,
+GenerateNormals,
+LoadTexture,wallDownsviewP.png,wallDownsviewP.png
+SetTextureCoordinates,1,1,0,
+SetTextureCoordinates,2,0,0,
+SetTextureCoordinates,3,0,1,
+SetTextureCoordinates,0,1,1,
 Rotateall,0,1,0,180
