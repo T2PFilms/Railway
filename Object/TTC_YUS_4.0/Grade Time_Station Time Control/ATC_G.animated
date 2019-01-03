@@ -1,0 +1,12 @@
+[Object]
+Position = 0, -2.65, 0
+States = SignalSingle_GT.csv
+
+[Object]
+Position = 0, 0, 0
+States = SignalSingle_4.csv, SignalSingle_X.csv
+StateFunction = value==0
+RefreshRate = 1
+
+
+
