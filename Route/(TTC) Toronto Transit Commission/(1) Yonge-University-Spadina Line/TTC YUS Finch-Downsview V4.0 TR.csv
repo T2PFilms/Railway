@@ -2569,7 +2569,7 @@ With Track
 
 29650,.rail 3;;1.15  ,.rail 4;;1.15 ,.dikeend 0 ,.dikeend 1 ,.Dike 3;1;17  ,.Dike 4;-1;6 ,.railtype 0;6 ,.railtype 1;7
 29675,.Rail 3;;1.5  ,.Rail 4;;1.5 
-29700,.Rail 3;;2  ,.Rail 4;-12;2 ,.Freeobj 0;249;2;2,.Freeobj 0;62;2.2;1.2 ,.announce TTC_YUS_TR\downsview.wav
+29700,.Rail 3;;2  ,.Rail 4;-12;2 ,.Freeobj 0;249;2;2,.Freeobj 0;62;2.2;1.2 ,.announce TTC_YUS_TR\SheppardWest.wav
 29725,.Rail 3;;2.5  ,.Rail 4;;2.5 
 29750,.Rail 3;;3.5  ,.Rail 4;;3.5
 29774,.freeobj 0;502;2.33;1.1,.freeobj 0;515;2.25;0.85,.freeobj 0;510;2.38;0.85
@@ -2673,7 +2673,7 @@ With Track
 31399,.freeobj 0;502;2.29;1.1,.freeobj 0;511;2.22;0.83,.freeobj 0;518;2.33;0.83
 31400,.sigf 21;1;2.2;2.8,.Beacon(108; 5; 0; 5),; Sc-0 
 31415
-31443,.announce TTC_YUS_TR\downsview1.wav,
+31443,.announce TTC_YUS_TR\SheppardWest1.wav,
 31449,.freeobj 0;502;2.29;1,.freeobj 0;511;2.22;0.73,.freeobj 0;516;2.33;0.73
 31450,.sigf 22;1;2.2;2.8,.Beacon(108; 5; 0; 16),; Sc-0 
 31447 ,.freeobj 0;255;2.2;-1,.limit 40 
