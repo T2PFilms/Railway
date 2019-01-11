@@ -1,4 +1,5 @@
 $Include(config\TYSSEannouncements.cfg)
+$Include(config\TYSSEsounds.cfg)
 With Route
 .comment TTC Yonge-University-Spadina (Line 1) Version 4.0 (Finch-Downsview) $chr(13)$chr(13)Created by: C Dave Reage $chr(13)Extended to Downsview by: Michael Tham Michael Boone $chr(13)Grade time signals and beacons added by: Weilan Huang $chr(13)$chr(13)Includes: $chr(13)Station beacons/In-game Signals for use with the Virtual TTC Academy plugin. $chr(13)Animated TorontoRocket Trains $chr(13)High Quality Station Textures $chr(13)Optimized for lower running computers $chr(13)$chr(13)Bonus:$chr(13)Easter Eggs $chr(13)Optimized Route
 .timetable Toronto Transit Commission $chr(13)Yonge-University-Spadina Subway P.M Peak $chr(13)Finch - Downsview v4.0 Non TR Announcements 
